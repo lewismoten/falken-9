@@ -2,6 +2,8 @@
 /data/
 /artifacts/
 /build/
+/distribution/
+/release/
 /.venv/
 *.d64
 *.pyc

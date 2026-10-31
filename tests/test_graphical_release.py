@@ -150,6 +150,10 @@ def build(output=None):
             out, archive = base/'upload', base/'transport.zip'
             result = staging.stage(candidate=candidate, model=model, evidence=evidence, screenshots=[shot], output=out, archive=archive, metadata=metadata, source_root=source)
             self.assertEqual(result['repo_id'], 'lewismoten/falcon-9')
+            guide=(out/'DEPLOYMENT.md').read_text()
+            self.assertIn('Title: `1` human/model, `2` two humans, `0` model/model',guide)
+            self.assertIn('Wait for the ready/terminal status',guide)
+            self.assertIn('ChatGPT-assisted',guide)
             self.assertTrue((out/'model.f9j').is_file())
             self.assertFalse((out/'source/artifacts').exists())
             self.assertFalse((out/'source/tests').exists())

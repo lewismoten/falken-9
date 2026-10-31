@@ -1,0 +1,23 @@
+Falken-9
+Copyright 2026 Lewis Moten and project contributors.
+
+First-party code, documentation, model artifacts, and artwork contributions are
+provided under Apache-2.0 to the extent the contributors hold the relevant
+rights. See LICENSE. This notice does not assert copyright in every AI-generated
+element or replace any applicable third-party rights.
+
+Original Crystal Palace 9 / CP64 title, INFO frame, board, and marks:
+ChatGPT-assisted artwork generation; Lewis Moten performed manual GIMP cleanup,
+conversion, layout, and editing. Original indexed PNG and JSON source bytes are
+preserved with source hashes and upstream revision in
+source/assets/game-art/provenance.json in the public upload package, or
+assets/game-art/provenance.json in the development repository. Falken-9 adds
+separate runtime identity, model-information, control, and activity overlays.
+
+Model and code development, verification tooling, and release preparation used
+AI assistance (including Mercury Quill / Hermes Agent by Nous Research).
+
+No Commodore ROMs, emulator binaries, assembler binaries, Python environments,
+third-party font files, or installed dependency distributions are included.
+Emulator screenshots and Netron renderings document actual local executions;
+they are not additional model weights or hosted inference services.

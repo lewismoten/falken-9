@@ -225,6 +225,23 @@ are preserved documentation evidence, not new release gameplay measurements.
 
 ## Controls and acceptance
 
+Title: `1` human/model, `2` two humans, `0` model/model. Return starts the
+selected mode; cursor up/down changes selection. `I` opens model INFO; `Q`
+returns to title. On the title, `Q` ends at a reset/reload screen, not BASIC.
+Game: row-major `123 / 456 / 789`, `R` replay, `Q` title.
+
+Wait for the ready/terminal status before the next key. Rendering and inference
+are synchronous; cancellation/input during those protected intervals is not
+supported. The changing decorative button subset indicates real-work activity,
+not percentage progress. The dark-blue model/version badge is static.
+
+Minimal test: title `1`, then human `5,2,4,9,7`, waiting each turn, gives
+`OXO / XXO / XOX` and DRAW. Replay, then human `1,2,4` gives
+`XXO / XO. / O..` and O WINS. Invalid `0` and occupied cells add no marks.
+Title `2`, then `1,4,2,5,3`, waiting for redraws, gives X WINS.
+Title `0` plays a complete neural-versus-neural game. Candidate-specific
+browser and stock-ROM scopes remain distinct in the supplied evidence.
+
 Board squares are row-major 1–9; wrapper result 0 means invalid/no result.
 Internally occupancy is 0 empty / 1 X / 2 O; chronology uses letters a–i.
 Original-coordinate tie order is `ebdfhcgia`. Canonicalization and inverse
@@ -262,6 +279,13 @@ not a binary disk template. Exact PRG, D64, embedded packet and core digests mus
 match. The rebuild is not a replay of emulator lifecycle or exhaustive NN gates.
 
 ## Inspection and provenance
+
+Artwork provenance: ChatGPT-assisted generation, with Lewis Moten's manual
+GIMP cleanup/layout and editing. Original indexed PNG/JSON bytes are retained;
+the application adds separate identity, INFO, control and activity overlays.
+See NOTICE and source/assets/game-art/provenance.json. Source-compiler hashes
+describe the original compilation; overlaid/compressed runtime derivatives
+are reproducible from the application builder and bound by the final PRG hash.
 
 ONNX/Netron exports are shipped unchanged with source/tensor manifests, render
 provenance and validation. They are inspection-only; the minimal game rebuild

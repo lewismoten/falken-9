@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "repo_id": "lewismoten/falcon-9",
+  "publication": "local-only; public upload not performed",
+  "application": "003-graphical",
+  "upload_root": "distribution/huggingface/upload",
+  "upload_file_count": 67,
+  "upload_bytes": 1651539,
+  "zip": {
+    "path": "distribution/huggingface/falken-9-c64-e4-k2-q11-w16-a32-graphical.zip",
+    "bytes": 630711,
+    "sha256": "e0ab86b6ab7393026d6f40c02d9a513b688f954ca1ec83502e171f31c530da2e"
+  },
+  "disk": {
+    "bytes": 174848,
+    "path": "falken-9-c64-e4-k2-q11-w16-a32-graphical.d64",
+    "recipe": {
+      "disk_id": "a0a04639a03241a0a0a0a0",
+      "disk_name": "46414c4b454e39204752415048494353",
+      "file_name": "46414c4b454e39a0a0a0a0a0a0a0a0a0"
+    },
+    "sha256": "6e4bc914d04ec14dc66abdbaf1e2db2d99cfa59a253b476437a06ed5b4283b58"
+  },
+  "prg": {
+    "bytes": 48774,
+    "path": "falken-9-c64-e4-k2-q11-w16-a32-graphical.prg",
+    "sha256": "09e877d74e5e830910be6d475679f1d64a40e0eec456d49b61191736e91778fb"
+  },
+  "model": {
+    "bytes": 5195,
+    "path": "model.f9j",
+    "sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1"
+  },
+  "source_inventory_count": 33,
+  "checksums": {
+    "path": "SHA256SUMS",
+    "sha256": "2e2e23146156d13ff3d74bc3a061f1c760f9ad098b55b2be780c49d9e9b6df40",
+    "entries": 66,
+    "verified": true
+  },
+  "clean_build_python": "Python 3.14.4",
+  "staged_rebuild": {
+    "status": "passed",
+    "scope": "byte-exact rebuild, not new emulator or hardware acceptance",
+    "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+    "prg_sha256": "09e877d74e5e830910be6d475679f1d64a40e0eec456d49b61191736e91778fb",
+    "d64_sha256": "6e4bc914d04ec14dc66abdbaf1e2db2d99cfa59a253b476437a06ed5b4283b58",
+    "core_image_sha256": "838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961",
+    "assembler": "64tass Turbo Assembler Macro V1.60.3243"
+  },
+  "final_zip_rebuild": {
+    "status": "passed",
+    "scope": "byte-exact rebuild, not new emulator or hardware acceptance",
+    "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+    "prg_sha256": "09e877d74e5e830910be6d475679f1d64a40e0eec456d49b61191736e91778fb",
+    "d64_sha256": "6e4bc914d04ec14dc66abdbaf1e2db2d99cfa59a253b476437a06ed5b4283b58",
+    "core_image_sha256": "838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961",
+    "assembler": "64tass Turbo Assembler Macro V1.60.3243"
+  },
+  "staged_runtime_neural_calls": 16,
+  "tensor_render_png_svg_byte_identical": true,
+  "privacy_scan": "no private hostnames/endpoints, home paths, credential markers, environments, ROMs, logs, or inner ZIPs found",
+  "focused_release_tests": {
+    "passed": 4,
+    "assembler_pinned": true,
+    "pillow": "13.0.0"
+  },
+  "operator_notes_outside_upload_and_zip": true
+}

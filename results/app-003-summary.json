@@ -1,0 +1,247 @@
+{
+  "status": "passed",
+  "application": "003-graphical",
+  "source_revision": "ecbf126edf749636580837c193d218e66cef2e5d",
+  "artifact": {
+    "prg": "falken9-003-graphical.prg",
+    "prg_sha256": "09e877d74e5e830910be6d475679f1d64a40e0eec456d49b61191736e91778fb",
+    "prg_bytes": 48774,
+    "d64": "falken9-003-graphical.d64",
+    "d64_sha256": "6e4bc914d04ec14dc66abdbaf1e2db2d99cfa59a253b476437a06ed5b4283b58",
+    "d64_bytes": 174848
+  },
+  "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "core_image_sha256": "838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961",
+  "neural_gate": {
+    "status": "passed",
+    "scope": "relocated presentation orchestration vs frozen original whole-forward checkpoints; every saved intermediate/logit/route",
+    "boards": 627,
+    "full_domain": true,
+    "prg_sha256": "09e877d74e5e830910be6d475679f1d64a40e0eec456d49b61191736e91778fb",
+    "core_sha256": "838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961",
+    "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+    "stage_mismatches": 0,
+    "code_model_art_immutable": true,
+    "callback_writes_restricted": true,
+    "fixture_sha256": {
+      "shard-0.jsonl": "ba1dd9201b8948d2519b5be5868ca410854348f90a88b7a4c516c5c3feb7a30c",
+      "shard-1.jsonl": "8e8177cea8c1d173d59b4978793018b79371b3224e2d638c0f4b921993ed64ee",
+      "shard-2.jsonl": "c8623653b8f6b8b6fd9edce9f6c734dfbbb7d22b1b01f2a2afd62b775ba7e4c4",
+      "shard-3.jsonl": "6e040adaf557d3f6a2cec9820e92ea352f524dc73f4b7234664e7532334b03eb"
+    },
+    "evidence_sha256": {
+      "shard-0.jsonl": "47c82d0c70dc771db78fd02e2e4336e2675bb1c38634bbd0869e541729b4db98",
+      "shard-1.jsonl": "606385861a5b472514d9c98b54cce82bcb6bce94199d4c9e026849662afd78a0",
+      "shard-2.jsonl": "04f70273f4226b96f6106f85503d26a005cac7d147db5a72c4a82587a7d94ff2",
+      "shard-3.jsonl": "973d1d36c600450840a1369d1f59872139ead03ba52a2b260ec47a2043e6382a"
+    },
+    "minimum_activity_ticks": 32,
+    "stack_low_water": 492
+  },
+  "wrapper": {
+    "status": "passed",
+    "scope": "4520 assembled history/canonical/full-set-inverse/legal-mask/tie wrappers composed with frozen 627 executed-target neural logits; NOT 4520 rerun neural forwards",
+    "boards": 4520,
+    "canonical_boards": 627,
+    "histories_in_dataset": 294778,
+    "set_errors": 0,
+    "move_errors": 0,
+    "stack_low_water": 508,
+    "code_model_immutable": true,
+    "fixture_sha256": {
+      "shard-0.jsonl": "ba1dd9201b8948d2519b5be5868ca410854348f90a88b7a4c516c5c3feb7a30c",
+      "shard-1.jsonl": "8e8177cea8c1d173d59b4978793018b79371b3224e2d638c0f4b921993ed64ee",
+      "shard-2.jsonl": "c8623653b8f6b8b6fd9edce9f6c734dfbbb7d22b1b01f2a2afd62b775ba7e4c4",
+      "shard-3.jsonl": "6e040adaf557d3f6a2cec9820e92ea352f524dc73f4b7234664e7532334b03eb"
+    },
+    "dataset_sha256": "a4539c7cde214440f3369085725ad32faaba03d5de3265c6a8333bdc12723597",
+    "build_sha256": "a94edbe538bedfc71ec9aba4765204dbeb77fcd02b9d22eef57bdc02e889251e"
+  },
+  "games": {
+    "status": "passed",
+    "boundary": "packaged input-loop NMOS Py65 + GETIN-only queue shim; NOT stock ROM/browser/physical keys",
+    "prg_sha256": "09e877d74e5e830910be6d475679f1d64a40e0eec456d49b61191736e91778fb",
+    "matches": [
+      {
+        "human_keys": [
+          "5",
+          "2",
+          "4",
+          "9",
+          "7"
+        ],
+        "outcome": 3,
+        "history": "ecbhdfiag"
+      },
+      {
+        "human_keys": [
+          "1",
+          "2",
+          "4"
+        ],
+        "outcome": 2,
+        "history": "aebcdg"
+      }
+    ],
+    "human_model_outcomes": [
+      3,
+      2
+    ],
+    "two_human_outcomes": [
+      1,
+      2,
+      3
+    ],
+    "auto_outcome": 3,
+    "auto_neural_calls": 9,
+    "auto_history": "ecbhdfiag",
+    "executed_neural_calls": 16,
+    "draws": 1,
+    "model_wins": 1,
+    "code_model_art_immutable": true,
+    "kernal_zp_restored": true,
+    "cpu_port_preserved": true,
+    "stack_final": 255,
+    "stack_low_water": 490,
+    "activity_ticks": 512,
+    "board_planes_exact": true
+  },
+  "stock_rom": {
+    "vice-final-prg": {
+      "status": "passed",
+      "boundary": "VICE x64 stock C64 ROM, monitor-injected KERNAL keyboard queue; NOT browser or physical keys",
+      "launch_sha256": "09e877d74e5e830910be6d475679f1d64a40e0eec456d49b61191736e91778fb",
+      "prg_sha256": "09e877d74e5e830910be6d475679f1d64a40e0eec456d49b61191736e91778fb",
+      "prg_autostart": true,
+      "d64_true_drive_autostart": false,
+      "matches": [
+        {
+          "history": "ecbhdfiag",
+          "outcome": 3
+        },
+        {
+          "history": "aebcdg",
+          "outcome": 2
+        }
+      ],
+      "auto_draw": true,
+      "neural_calls": 16,
+      "full_logits_equal_to_py65": true,
+      "code_model_app_immutable": true,
+      "stack_final": 255,
+      "cpu_port": 55,
+      "irq_vector_unchanged": true
+    },
+    "vice-final-d64": {
+      "status": "passed",
+      "boundary": "VICE x64 stock C64 ROM, monitor-injected KERNAL keyboard queue; NOT browser or physical keys",
+      "launch_sha256": "6e4bc914d04ec14dc66abdbaf1e2db2d99cfa59a253b476437a06ed5b4283b58",
+      "prg_sha256": "09e877d74e5e830910be6d475679f1d64a40e0eec456d49b61191736e91778fb",
+      "prg_autostart": false,
+      "d64_true_drive_autostart": true,
+      "matches": [
+        {
+          "history": "ecbhdfiag",
+          "outcome": 3
+        },
+        {
+          "history": "aebcdg",
+          "outcome": 2
+        }
+      ],
+      "auto_draw": true,
+      "neural_calls": 16,
+      "full_logits_equal_to_py65": true,
+      "code_model_app_immutable": true,
+      "stack_final": 255,
+      "cpu_port": 55,
+      "irq_vector_unchanged": true
+    }
+  },
+  "browser": {
+    "browser-prg": {
+      "status": "passed",
+      "artifact": {
+        "name": "falken9-003-graphical.prg",
+        "size": 48774,
+        "sha256": "09e877d74e5e830910be6d475679f1d64a40e0eec456d49b61191736e91778fb"
+      },
+      "boundary": "native canvas pixels and trusted CDP browser keyDown/keyUp; not physical keyboard or hardware",
+      "canvas": [
+        368,
+        270
+      ],
+      "active_origin": [
+        24,
+        35
+      ],
+      "human_model_draw": true,
+      "model_win": true,
+      "invalid_occupied_recovery": true,
+      "terminal_locking": true,
+      "replay": true,
+      "title_info_restore_pixel_identical": true,
+      "two_human_x_win": false,
+      "auto_browser_complete": false,
+      "limitations": [
+        "Two-human and auto modes not separately exercised in this PRG browser session."
+      ],
+      "events": 38
+    },
+    "browser-d64": {
+      "status": "passed",
+      "artifact": {
+        "name": "falken9-003-graphical.d64",
+        "size": 174848,
+        "sha256": "6e4bc914d04ec14dc66abdbaf1e2db2d99cfa59a253b476437a06ed5b4283b58"
+      },
+      "boundary": "native canvas pixels and trusted CDP browser keyDown/keyUp; not physical keyboard or hardware",
+      "canvas": [
+        368,
+        270
+      ],
+      "active_origin": [
+        24,
+        35
+      ],
+      "human_model_draw": true,
+      "model_win": true,
+      "invalid_occupied_recovery": true,
+      "terminal_locking": true,
+      "replay": true,
+      "title_info_restore_pixel_identical": true,
+      "two_human_x_win": true,
+      "auto_browser_complete": false,
+      "limitations": [
+        "Browser session reset during independent review before final auto-match capture; VICE auto match separately passed.",
+        "Short 0.5-second two-human input probe sampled an in-progress blank redraw and lost keys; retained early-redraw-probe frames; stable 2-second key spacing passed."
+      ],
+      "events": 72
+    }
+  },
+  "tests": {
+    "passed": 164,
+    "skipped": 3,
+    "deselected": 1,
+    "subtests_passed": 677,
+    "deselection": "test_release_manifest_binds_composed_wrapper_games_and_disk writes frozen 002; deliberately excluded",
+    "log_sha256": "1d160f8c9e69d668ba4b6cfc66eeeda49041abada0c8386c7746ee9d68d2e55b"
+  },
+  "screenshots": {
+    "assets/screenshots/falken9-003-model-win.png": "8c7d5ab6b4ae6bcd1222b17b3307ea4e2ea89b6a8115d91f3843e8d982e825e9",
+    "assets/screenshots/falken9-003-gameplay.png": "6d9d25d5cad0f45f43aa988fb3260e8ea16b1c168457e23e3240a2bda7d01d3b",
+    "assets/screenshots/falken9-003-draw.png": "6781de38728349304825fb232e679c07c33e3e3118f5bfd0d60822c73a3b3242",
+    "assets/screenshots/falken9-003-title.png": "117c90dcfadfc7870512a69656292dafd82939841686e8a9b59056d62186ded5",
+    "assets/screenshots/falken9-003-info.png": "843b5546bd1a310b8b26579abd8ed46b06c35e3cec1f04ff23deb1c6713ee000",
+    "assets/screenshots/falken9-003-activity.png": "a34ef0154652404348a99b7adc1667c87b90f3d52398d11f31c8f6ed37ea179e"
+  },
+  "physical_hardware_tested": false,
+  "public_huggingface_published": false,
+  "limitations": [
+    "Synchronous inference and graphical redraws do not accept cancellation; wait for ready/terminal status before typing.",
+    "Browser auto-match final capture unavailable after browser session reset; stock-ROM auto match passed.",
+    "Q on title ends at explicit reset/reload screen; it does not return to BASIC.",
+    "No physical C64/1541 or calibrated wall-time/performance acceptance."
+  ],
+  "frozen_001_002_files_unchanged": 176
+}
