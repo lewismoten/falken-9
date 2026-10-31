@@ -10,6 +10,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.build_runtime import ROOT, FOUR_MODEL, build as build_runtime
 
 OUT = ROOT/'build/app'
+APP_STAGE = '002-numeric'
+APP_STEM = f'falken9-{APP_STAGE}'
 
 
 def build(output=None):
@@ -29,11 +31,11 @@ def build(output=None):
         screen[y*40+x:y*40+x+len(text)]=codes(text)
     row(2,'FALKEN-9 / RESIDENT NEURAL TIC-TAC-TOE')
     row(4,'YOU: X     MODEL: O')
-    for y,text in [(7,'A   B   C'),(8,'---------'),(9,'D   E   F'),(10,'---------'),(11,'G   H   I')]:row(y,text)
-    row(20,'A-I: MOVE     R: REPLAY')
+    for y,text in [(7,'1   2   3'),(8,'---------'),(9,'4   5   6'),(10,'---------'),(11,'7   8   9')]:row(y,text)
+    row(20,'1-9: MOVE     R: REPLAY')
     row(22,'ALL MODEL WEIGHTS STAY IN RAM')
     (out/'screen.bin').write_bytes(screen)
-    statuses=['YOUR TURN - A TO I','INVALID / OCCUPIED - TRY A-I','NEURAL FORWARD - PLEASE WAIT','NEURAL DONE - COMMITTING MOVE','X WINS - R TO REPLAY','O WINS - R TO REPLAY','DRAW - R TO REPLAY','NEURAL ERROR - R TO REPLAY']
+    statuses=['YOUR TURN - 1 TO 9','INVALID / OCCUPIED - TRY 1-9','NEURAL FORWARD - PLEASE WAIT','NEURAL DONE - COMMITTING MOVE','X WINS - R TO REPLAY','O WINS - R TO REPLAY','DRAW - R TO REPLAY','NEURAL ERROR - R TO REPLAY']
     (out/'statuses.bin').write_bytes(b''.join(codes(s.ljust(32)) for s in statuses))
     assembler = os.environ.get('TASS64', str(ROOT/'build/tools/64tass/usr/bin/64tass'))
     run = subprocess.run([assembler,'--m6502','--long-branch','--case-sensitive','--nostart','-I',str(out),'--labels='+str(out/'app.lbl'),'--list='+str(out/'app.lst'),'-o',str(out/'app.bin'),str(ROOT/'src/app/app.asm')],capture_output=True,text=True)
@@ -54,7 +56,7 @@ def build(output=None):
     stub = bytes([0x0c,0x08,10,0,0x9e])+b'32768'+bytes([0,0,0])
     prg = bytearray(full[1:])
     prg[:len(stub)] = stub
-    prg_path=out/'falken9-001-resident.prg'
+    prg_path=out/f'{APP_STEM}.prg'
     prg_path.write_bytes(bytes([1,8])+prg)
     info = dict(prg_path=str(prg_path),prg_sha256=hashlib.sha256(prg_path.read_bytes()).hexdigest(),path=str(out/'combined.bin'),load=start,labels=labels,core=core,
                 image_sha256=hashlib.sha256(full).hexdigest(),
@@ -124,9 +126,9 @@ def package_disk(built,gate,output=None):
         for sector in range(counts[track]):
             if (track,sector) not in used:
                 disk[at]+=1;disk[at+1+sector//8]|=1<<(sector%8)
-    disk[bam+0x90:bam+0xa0]=b'FALKEN9 RESIDENT'.ljust(16,b'\xa0')
+    disk[bam+0x90:bam+0xa0]=b'FALKEN9 NUMERIC'.ljust(16,b'\xa0')
     disk[bam+0xa0:bam+0xab]=b'\xa0\xa0F9\xa02A\xa0\xa0\xa0\xa0'
-    path=output/'falken9-001-resident.d64';path.write_bytes(disk)
+    path=output/f'{APP_STEM}.d64';path.write_bytes(disk)
     assert extract_disk(path)==prg
     assert subprocess.run(['git','check-ignore','-q',str(path)],cwd=ROOT).returncode==0,'generated D64 must be ignored'
     result=dict(path=str(path),sha256=hashlib.sha256(disk).hexdigest(),prg_sha256=hashlib.sha256(prg).hexdigest(),blocks=len(chain),bytes=len(disk),extracted_identical=True,bam_reachability_verified=True)

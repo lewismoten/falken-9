@@ -16,6 +16,15 @@ The neural core passes all 627 canonical boards; the assembled symmetry/set-sele
 
 Expert count and active top-k remain optimization variables for separate research, not a requirement to keep nine experts. The smaller 4,931-byte mixed-precision candidate passes host gates but is not assembled and is **not** the model-v1.0.0 deployment.
 
+### Numeric controls — application 002
+
+The separate [numeric-controls application](docs/APP_NUMERIC.md) labels the board
+`123 / 456 / 789`, accepts **1–9**, and uses **R** for replay. Its public wrapper
+result is 1–9 for a model move and 0 for invalid/no result; the learned model and
+its internal occupancy encoding are unchanged. Test 001 and `model-v1.0.0` remain
+immutable. Application 002 has its own [acceptance record](results/app-002-summary.json);
+the browser acceptance described above applies only to 001.
+
 ## Model inspection
 
 ### Decoded tensor workflow
@@ -49,7 +58,8 @@ Each heatmap cell is one decoded scalar parameter from the accepted model, not a
 - [Exact local constant folding: storage versus computation](docs/LOCAL_FUSION.md)
 - [Four-expert whole-integer candidates and mixed-precision inventory](docs/FLEXIBLE_INTEGER.md)
 - [Assembled resident attention-block proof and memory map](docs/TARGET_RUNTIME.md)
-- [Resident playable application, build commands and exact test sequences](docs/APP.md)
+- [Numeric-controls application, build commands and exact test sequences](docs/APP_NUMERIC.md)
+- [Original resident application 001 and architecture](docs/APP.md)
 - [Dataset audit](results/dataset-audit.json)
 - [Symmetry audit](results/symmetry-audit.json)
 

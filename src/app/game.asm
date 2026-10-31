@@ -42,6 +42,7 @@ new_game:
     lda #0
     sta history_length
     sta neural_failed
+    sta move_result
     jsr validate_history
     jsr draw_board
     lda #0
@@ -59,6 +60,8 @@ input_wait:
     cmp #$72
     beq new_game
     sta pending_key
+    lda #0
+    sta move_result
     lda terminal
     ora neural_failed
     bne input_wait
@@ -67,6 +70,10 @@ input_wait:
     bcc invalid_key
     cmp #10
     bcc key_screen_code
+    cmp #$31
+    bcc invalid_key
+    cmp #$3a
+    bcc key_digit
     cmp #$41
     bcc invalid_key
     cmp #$4a
@@ -77,6 +84,10 @@ input_wait:
     bcs invalid_key
     sec
     sbc #$61
+    jmp accept_square
+key_digit:
+    sec
+    sbc #$31
     jmp accept_square
 key_uppercase:
     sec
@@ -151,6 +162,8 @@ game_terminal:
     jsr draw_status
     jmp input_wait
 game_error:
+    lda #0
+    sta move_result
     lda #1
     sta neural_failed
     lda #7
@@ -191,7 +204,7 @@ o_cell:
         ldx #14
         jmp store_cell
 empty_cell:
-        lda #i+1
+        lda #i+$31
         ldx #12
 store_cell:
         sta $0400+(7+2*(i / 3))*40+15+4*(i % 3)

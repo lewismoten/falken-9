@@ -6,6 +6,7 @@ selected_move = $7849
 transform_offset = $784a
 transform_index = $784b
 source_index = $784c
+move_result = $784d             ; public 1..9 square, 0 invalid/no result
 canonicalize_board:
     cld
     lda #0
@@ -73,6 +74,8 @@ canonical_next:
 ; Gather via original->canonical permutation, mask original occupied cells,
 ; then choose only after the whole original-coordinate set is restored.
 restore_set:
+    lda #0
+    sta move_result
     ldx #0
 restore_loop:
     lda #0
@@ -105,11 +108,17 @@ restore_tie:
     rts
 restore_found:
     stx selected_move
+    txa
+    clc
+    adc #1
+    sta move_result
     clc
     rts
 ; Production entry ALWAYS executes the complete accepted neural forward.
 ; C=1 also for terminal input: no fallback and no NN for invalid histories.
 policy_request:
+    lda #0
+    sta move_result
     jsr validate_history
     bcs policy_bad
     lda terminal

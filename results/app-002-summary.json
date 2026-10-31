@@ -1,0 +1,121 @@
+{
+  "status": "assembled-wrapper-and-resident-game-passed",
+  "artifact": {
+    "prg": "artifacts/app/002-numeric/falken9-002-numeric.prg",
+    "prg_sha256": "2bb33d2631e6786ec92b37437e1069a6d2078a03499e0b8a046c8804ccedf8b8",
+    "prg_bytes": 33206,
+    "d64": "artifacts/app/002-numeric/falken9-002-numeric.d64",
+    "d64_sha256": "29e12d81a3057154ad59a7bf6e06ed01c78ce6183317865725b22c123f314eb7"
+  },
+  "wrapper": {
+    "status": "passed",
+    "scope": "4520 assembled history/canonical/full-set-inverse/legal-mask/tie wrappers composed with frozen 627 executed-target neural logits; NOT 4520 rerun neural forwards",
+    "boards": 4520,
+    "canonical_boards": 627,
+    "histories_in_dataset": 294778,
+    "set_errors": 0,
+    "move_errors": 0,
+    "stack_low_water": 508,
+    "code_model_immutable": true,
+    "fixture_sha256": {
+      "shard-0.jsonl": "ba1dd9201b8948d2519b5be5868ca410854348f90a88b7a4c516c5c3feb7a30c",
+      "shard-1.jsonl": "8e8177cea8c1d173d59b4978793018b79371b3224e2d638c0f4b921993ed64ee",
+      "shard-2.jsonl": "c8623653b8f6b8b6fd9edce9f6c734dfbbb7d22b1b01f2a2afd62b775ba7e4c4",
+      "shard-3.jsonl": "6e040adaf557d3f6a2cec9820e92ea352f524dc73f4b7234664e7532334b03eb"
+    },
+    "dataset_sha256": "a4539c7cde214440f3369085725ad32faaba03d5de3265c6a8333bdc12723597",
+    "build_sha256": "3b33288c03c2cedf7039e5d78f5a597e8ffaee6ef0ca352a546e134c18f8570f"
+  },
+  "games": {
+    "status": "passed",
+    "boundary": "packaged PRG actual input loop + GETIN-only shim; every neural forward executed on NMOS6502, NOT real ROM/browser input",
+    "prg_sha256": "2bb33d2631e6786ec92b37437e1069a6d2078a03499e0b8a046c8804ccedf8b8",
+    "matches": [
+      {
+        "mode": "optimal-human",
+        "human_keys": [
+          "5",
+          "2",
+          "4",
+          "9",
+          "7"
+        ],
+        "outcome": 3,
+        "history": "ecbhdfiag"
+      },
+      {
+        "mode": "deliberately-nonoptimal-human",
+        "human_keys": [
+          "1",
+          "2",
+          "4"
+        ],
+        "outcome": 2,
+        "history": "aebcdg"
+      }
+    ],
+    "draws": 1,
+    "model_wins": 1,
+    "executed_neural_calls": 7,
+    "code_model_immutable": true,
+    "stack_low_water": 490,
+    "stack_final": 255,
+    "writes": 8099123,
+    "cycles": 56705201,
+    "replay_count": 18,
+    "irq_disabled_during_neural": true,
+    "kernal_zp_restored": true,
+    "cpu_port_preserved": true,
+    "load_calls": 0
+  },
+  "disk": {
+    "path": "/home/ai/falken-9/build/app/falken9-002-numeric.d64",
+    "sha256": "29e12d81a3057154ad59a7bf6e06ed01c78ce6183317865725b22c123f314eb7",
+    "prg_sha256": "2bb33d2631e6786ec92b37437e1069a6d2078a03499e0b8a046c8804ccedf8b8",
+    "blocks": 131,
+    "bytes": 174848,
+    "extracted_identical": true,
+    "bam_reachability_verified": true
+  },
+  "extracted_prg_complete_games": "passed",
+  "stock_rom": {
+    "vice": {
+      "path": "artifacts/app/002-numeric/vice/summary.json",
+      "sha256": "3fdadfd236580c3abc4598d4f549ad48dcbab75e86ad2a9fc0ad92dceda2f623",
+      "requests": 7,
+      "status": "passed"
+    },
+    "vice-d64": {
+      "path": "artifacts/app/002-numeric/vice-d64/summary.json",
+      "sha256": "481044e8e720fcae3269a1f14e5fd9a1b6b1cd3beff5afc140984736635a1501",
+      "requests": 7,
+      "status": "passed"
+    }
+  },
+  "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "core_image_sha256": "838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961",
+  "app_code_start": 32768,
+  "app_code_end": 35253,
+  "source_sha256": {
+    "src/app/wrapper.asm": "1bda409041da1136604decf0dae9f785d970f80784f25aed17c5ffc0da6abb49",
+    "src/app/app.asm": "a17d5eafac936d594e129fa748b747ee056d0cacab9adef1d0ab10de66998d88",
+    "src/app/game.asm": "b153420c1af60f344c9348b92f83bf35dffcc3bb1412eed635f1c3a70d6237e8",
+    "scripts/build_app.py": "2fbdb9f3cb96842f80aa84d46229927f1ba5670bea6fd8e540eacfa534e61c95",
+    "scripts/verify_app.py": "469bc5e0d9a1e19884bcca8319fdbd3af3108f4e2a98a2639d61479aa6be5a24",
+    "docs/APP_NUMERIC.md": "b2ec7cdf65edc746bffb0789476018c4a355cf765e8e1c669a4578c96fb15131",
+    "tests/test_app_003_rom.py": "2fb3b042e3e5971152368f771e3200d005238c9374f4fcf63c6a67352c89e065",
+    "tests/test_app_005_numeric.py": "9386f0b7432b617b75f71db66d53690e5d63f139b021fbba3ce851a7664a31fd",
+    "tests/test_app_001_wrapper.py": "6db26d7f71d8b814c7841058ed9580652fc62d42c3782c6ec20e3904493881e1",
+    "tests/test_app_002_game.py": "d8e01741fc2c542a94c051a1607ac6ed841cde35418df91ee5b37878b98391f4",
+    "tests/test_app_004_disk.py": "20108f1283f4a8b503907f7094fa8fadcb1a3ce7b279517efb8058d068926f22"
+  },
+  "browser_tested": false,
+  "physical_hardware_tested": false,
+  "published": false,
+  "remaining": [
+    "target-browser launch and physical-keyboard acceptance",
+    "physical C64 acceptance",
+    "fine-grained layer progress: current honest full-forward busy phase only",
+    "optional AI-vs-AI/title mode not implemented"
+  ]
+}

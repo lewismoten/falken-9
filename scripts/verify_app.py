@@ -4,7 +4,7 @@ import hashlib
 import json
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from scripts.build_app import ROOT, build
+from scripts.build_app import ROOT, APP_STAGE, build
 from scripts.verify_runtime import Machine
 
 FROZEN = ROOT/'artifacts/runtime/full-forward/q11-w16-e4'
@@ -81,6 +81,7 @@ def verify_wrapper(output=None):
         execution=m.call('restore_set');assert not execution['carry'],h
         actual=[chr(97+i) for i in range(9) if m.get(m.labels['original_set']+i,1,False)]
         selected=chr(97+m.get('selected_move',1,False))
+        assert m.get('move_result',1,False)==ord(selected)-96
         assert set(actual)==set(row['optimal_moves']),(h,actual,row)
         assert selected==row['optimal_move'],(h,selected,row)
         low=min(low,execution['stack_low_water']);cycles.append(execution['cycles'])
@@ -190,7 +191,8 @@ def verify_games(output=None,prg=None):
             chosen=gold['optimal_move'] if mode=='optimal-human' else (choices or legal)[0]
             n=game.get('history_length');calls=game.neural_calls
             # Input only; no model data is substituted in this lifecycle gate.
-            game.key(chosen.upper());human_keys.append(chosen.upper())
+            numeric_key=str(ord(chosen)-96)
+            game.key(numeric_key);human_keys.append(numeric_key)
             after=game.get('history_length')
             assert after in [n+1,n+2]
             if after==n+2:
@@ -200,17 +202,24 @@ def verify_games(output=None,prg=None):
                 t='/'.join(''.join('.XO'[v] for v in b[j:j+3]) for j in [0,3,6])
                 move=chr(game.get('history',n+1))
                 assert move==data[t]['optimal_move'],(prefix,move,data[t])
+                assert game.get('move_result')==ord(move)-96
                 assert game.neural_calls==calls+1
                 records.append(dict(history=prefix,selected=move,logits=[int.from_bytes(bytes(game.cpu.memory[game.labels['logits']+4*i:game.labels['logits']+4*i+4]),'little',signed=True) for i in range(9)]))
             else:assert game.neural_calls==calls
             for i,v in enumerate([game.get('original_board',i) for i in range(9)]):
-                assert game.cell(i)==(i+1 if v==0 else 24 if v==1 else 15)
+                assert game.cell(i)==(49+i if v==0 else 24 if v==1 else 15)
                 assert game.color(i)==(12 if v==0 else 10 if v==1 else 14)
+            # Repeated numeric input must not invoke inference or retain a
+            # stale successful public result, including after terminal input.
+            calls=game.neural_calls
+            game.key(numeric_key)
+            assert game.get('history_length')==after and game.neural_calls==calls
+            assert game.get('move_result')==0
         outcome=game.get('terminal');outcomes.append(outcome)
         matches.append(dict(mode=mode,human_keys=human_keys,outcome=outcome,history=''.join(chr(game.get('history',i)) for i in range(game.get('history_length')))))
         assert ('DRAW' if outcome==3 else 'O WINS' if outcome==2 else 'X WINS') in game.text(16)
         length=game.get('history_length');calls=game.neural_calls
-        for c in ['A','i','!']:
+        for c in ['1','9','0','!']:
             game.key(c);assert game.get('history_length')==length and game.neural_calls==calls
     assert outcomes==[3,2],outcomes
     for _ in range(16):game.key('R');assert game.get('history_length')==0
@@ -373,7 +382,9 @@ def FOUR_MODEL_BYTES():
 def verify_release(output=None,vice_root=None):
     import shutil
     from scripts.build_app import package_disk,extract_disk
-    output=Path(output) if output is not None else ROOT/'artifacts/app/001-resident'
+    output=Path(output) if output is not None else ROOT/'artifacts/app'/APP_STAGE
+    legacy=(ROOT/'artifacts/app/001-resident').resolve()
+    assert output.resolve()!=legacy and legacy not in output.resolve().parents,'001 is frozen; use a new application directory'
     output.mkdir(parents=True,exist_ok=True)
     built=build()
     wrapper=verify_wrapper(output/'wrapper')
@@ -398,21 +409,21 @@ def verify_release(output=None,vice_root=None):
             assert target.read_bytes()==path.read_bytes(),'numbered artifact already frozen; choose a new number'
         shutil.copy2(path,target)
     sources=output/'sources';sources.mkdir(exist_ok=True)
-    paths=list((ROOT/'src/app').glob('*.asm'))+[ROOT/'scripts/build_app.py',ROOT/'scripts/verify_app.py',ROOT/'docs/APP.md']+list((ROOT/'tests').glob('test_app*.py'))
+    paths=list((ROOT/'src/app').glob('*.asm'))+[ROOT/'scripts/build_app.py',ROOT/'scripts/verify_app.py',ROOT/'docs/APP_NUMERIC.md']+list((ROOT/'tests').glob('test_app*.py'))
     source_hashes={}
     for path in paths:
         target=sources/path.relative_to(ROOT);target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(path,target)
         source_hashes[str(path.relative_to(ROOT))]=hashlib.sha256(path.read_bytes()).hexdigest()
     summary=dict(status='assembled-wrapper-and-resident-game-passed',artifact=dict(prg=str((output/Path(built['prg_path']).name).relative_to(ROOT)),prg_sha256=built['prg_sha256'],prg_bytes=Path(built['prg_path']).stat().st_size,d64=str((output/Path(disk['path']).name).relative_to(ROOT)),d64_sha256=disk['sha256']),wrapper=wrapper,games={k:v for k,v in games.items() if k!='requests'},disk=disk,extracted_prg_complete_games=extracted_games['status'],stock_rom=rom_evidence,model_sha256=built['core']['model_sha256'],core_image_sha256=built['core']['image_sha256'],app_code_start=built['app_code_start'],app_code_end=built['app_code_end'],source_sha256=source_hashes,browser_tested=False,physical_hardware_tested=False,published=False,remaining=['target-browser launch and physical-keyboard acceptance','physical C64 acceptance','fine-grained layer progress: current honest full-forward busy phase only','optional AI-vs-AI/title mode not implemented'])
     (output/'summary.json').write_text(json.dumps(summary,indent=2)+'\n')
-    (ROOT/'results/app-summary.json').write_text(json.dumps(summary,indent=2)+'\n')
+    (ROOT/'results/app-002-summary.json').write_text(json.dumps(summary,indent=2)+'\n')
     return summary
 
 
 if __name__=='__main__':
     import argparse
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output',type=Path,default=ROOT/'artifacts/app/001-resident')
+    parser.add_argument('--output',type=Path,default=ROOT/'artifacts/app'/APP_STAGE)
     parser.add_argument('--vice-root',type=Path)
     args=parser.parse_args()
     print(json.dumps(verify_release(args.output,args.vice_root),indent=2))

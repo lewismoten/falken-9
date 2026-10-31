@@ -108,6 +108,13 @@ Use a fail-fast progression: dataset/parity correctness first, small smoke train
 
 ## Graphical UI follow-up: inference activity buttons
 
+Numeric controls are adopted at the application boundary: row-major `123 / 456 /
+789`, with public binary move results 1–9 and 0 for invalid/no result. The model
+keeps its existing nine occupancy inputs, nine score outputs and original tie
+semantics; no retraining or learned invalid class is required. Application 002
+implements the text controls; use the same mapping in the future graphical UI.
+Do not conflate public result 0 with internal square index 0 or occupancy 0.
+
 For the future graphical console, place decorative computer buttons below the play field and let a changing subset blink during neural inference. This is an **activity indicator**, not a percentage or completed-work claim. Use animation state independent of model inputs, routing, tie selection and any gameplay randomness. Update only a reserved presentation footprint, preserve the board and all live neural buffers, and stop/reset the lights when inference completes, errors, or is canceled. Animate at safe, bounded real-computation checkpoints without introducing model-data loads; preserve caller registers, flags and zero-page ownership. Keep the verified `001` game/model artifacts unchanged and test the animation as a separate UI revision.
 
 ## Graphical UI follow-up: title model/version identity
