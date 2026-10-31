@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.build_runtime import ROOT, FOUR_MODEL, build as build_runtime
 from scripts.compile_graphics import compile_assets
 
-APP_STAGE = '005-graphical'
+APP_STAGE = '006-graphical'
 APP_STEM = 'falken9-'+APP_STAGE
 OUT = ROOT/'build/graphical'
 CODE = {c:i+1 for i,c in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZ')}
@@ -98,7 +98,7 @@ def build(output=None):
     overlay(info,ic,1,6,'FALCON-9 / MODEL INFO'.ljust(28),7)
     footer='SCROLL: UP/DOWN QUIT: Q'
     overlay(info,ic,23,10,footer,12)
-    for col in list(range(18,25))+[31]:ic[23*40+col]=1
+    for col in list(range(18,25))+[32]:ic[23*40+col]=1
     # Same 29x18 viewport and Markdown palette as the original archive viewer.
     # URLs wrap without clipping. These are requested destinations, not a claim
     # of publication; model/artifact slugs intentionally retain frozen spelling.

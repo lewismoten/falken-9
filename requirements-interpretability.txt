@@ -1,0 +1,4 @@
+# Optional, offline CPU study/illustrations; not required by the C64 rebuild.
+-r requirements.txt
+numpy==2.4.6
+Pillow==13.0.0

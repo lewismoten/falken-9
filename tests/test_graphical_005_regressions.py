@@ -111,6 +111,15 @@ def test_info_white_markdown_scroll_and_complete_repository_links(built):
     game.key('Q'); assert game.get('view') == 0
 
 
+def test_info_footer_highlights_the_actual_quit_key_not_its_separator(built):
+    game=GraphicalMachine(built);game.until_input();game.key('I')
+    for _ in range(24):
+        assert game.text(23)[26:33]=='QUIT: Q'
+        assert game.cpu.memory[0xd800+23*40+32]==1
+        assert bytes(game.cpu.memory[0xd800+23*40+26:0xd800+23*40+31])==bytes([12])*5
+        game.key(0x11)
+
+
 def test_original_console_outside_board_status_meter_and_lights_is_untouched(built):
     game = GraphicalMachine(built); game.until_input(); game.key('2')
     packed = Path(built['path']).parent.joinpath('graphics.bin').read_bytes()
@@ -177,3 +186,33 @@ def test_precommit_meter_is_visually_distinct_from_complete(built):
         while cpu.pc!=0x200:cpu.step()
         images.append(bytes(cpu.memory[0x31f0:0x3258]))
     assert images[0]!=images[1], 'outline must not conceal the last unfilled interior pixel'
+
+
+def test_policy_failure_clears_meter_and_replay_restores_known_state(built):
+    game=GraphicalMachine(built);game.until_input();game.key('1')
+    game.key('5',stop_at='neural_begin')
+    game.cpu.memory[built['labels']['history_length']]=10  # real policy validation error
+    game.until_input()
+    assert game.get('neural_failed')==1 and game.get('move_result')==0
+    assert game.get('progress_active')==0 and game.get('progress_filled')==0
+    assert game.get('activity_phase')==0 and not game.phases
+    assert game.cpu.sp==255 and game.cpu.memory[1]==0x37
+    game.key('R');assert game.get('history_length')==0 and game.get('neural_failed')==0
+    assert game.expected_board_planes_match()
+    game.key('Q');game.key('I');game.key('Q')
+    assert game.get('view')==0 and game.immutable_intact()
+
+
+def test_progress_callback_preserves_live_state_and_exact_meter_footprint(built):
+    from scripts.verify_app import AppMachine
+    m=AppMachine(built,audit=True)
+    for name,value in [('progress_active',1),('progress_event_index',0),('progress_filled',0),('progress_color',0x60),('activity_phase',0)]:m.put(name,value,1)
+    zp=bytes(m.cpu.memory[:256]);turn=bytes(m.cpu.memory[0x3218:0x3220]);vectors=bytes(m.cpu.memory[0x6000:0x7800])
+    m.cpu.a=0x83;m.cpu.x=0x79;m.cpu.y=0xa7
+    result=m.call('progress_event')
+    assert (m.cpu.a,m.cpu.x,m.cpu.y)==(0x83,0x79,0xa7) and m.cpu.p&m.cpu.DECIMAL and result['carry']==0
+    assert bytes(m.cpu.memory[:256])==zp and bytes(m.cpu.memory[0x6000:0x7800])==vectors
+    assert bytes(m.cpu.memory[0x3218:0x3220])==turn
+    cells=[0x63e+i for i in range(13) if i!=5]
+    allowed={*range(0x100,0x200),built['labels']['activity_phase'],built['labels']['packet_value'],*range(built['labels']['progress_active'],built['labels']['progress_pattern']+1),*(0x400+c for c in built['activity_cells']),*cells,*(0x2000+(c-0x400)*8+i for c in cells for i in range(8))}
+    assert m.cpu.memory.addresses<=allowed
