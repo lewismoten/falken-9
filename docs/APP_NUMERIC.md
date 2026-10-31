@@ -74,3 +74,15 @@ interaction acceptance; test 001 browser evidence does not establish test 002.
 Physical C64/1541 compatibility and performance remain unverified. Graphical
 art integration, inference activity lights and the dark-blue identity badge
 are not included in this revision.
+
+## User-reported acceptance
+
+Lewis Moten confirmed: “the latest d64 image works as expected.” The latest
+image delivered for this confirmation was `falken9-002-numeric.d64`, SHA-256
+`29e12d81a3057154ad59a7bf6e06ed01c78ce6183317865725b22c123f314eb7`.
+
+This records user-reported acceptance of application 002, separately from the
+automated stock-ROM evidence. The report did not restate the emulator/platform,
+exact key sequence or individual recovery/replay checks; do not infer those
+additional details, a new independent browser trace, or physical-C64 acceptance.
+No model or executable bytes changed in response to this confirmation.
