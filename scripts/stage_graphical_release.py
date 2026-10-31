@@ -228,7 +228,8 @@ are preserved documentation evidence, not new release gameplay measurements.
 Title: `1` human/model, `2` two humans, `0` model/model. Return starts the
 selected mode; cursor up/down changes selection. `I` opens model INFO; `Q`
 returns to title. On the title, `Q` ends at a reset/reload screen, not BASIC.
-Game: row-major `123 / 456 / 789`, `R` replay, `Q` title.
+Game: row-major `123 / 456 / 789`, `R` replay, `Q` title. Empty squares show
+dim gray 1–9 bitmap labels; X/O replaces its label and replay restores it.
 
 Wait for the ready/terminal status before the next key. Rendering and inference
 are synchronous; cancellation/input during those protected intervals is not
@@ -282,7 +283,9 @@ match. The rebuild is not a replay of emulator lifecycle or exhaustive NN gates.
 
 Artwork provenance: ChatGPT-assisted generation, with Lewis Moten's manual
 GIMP cleanup/layout and editing. Original indexed PNG/JSON bytes are retained;
-the application adds separate identity, INFO, control and activity overlays.
+the application adds separate numeric-square, identity, INFO, control and
+activity overlays. Number glyphs use native VIC multicolor pixels and matched
+screen-high attributes, confined to one 8x8 footprint inside each empty cell.
 See NOTICE and source/assets/game-art/provenance.json. Source-compiler hashes
 describe the original compilation; overlaid/compressed runtime derivatives
 are reproducible from the application builder and bound by the final PRG hash.

@@ -2,21 +2,24 @@
 
 A new C64-first neural tic-tac-toe policy project. The goal is a compact, RAM-resident model with real attention, learned routing and mixture-of-experts execution—not a stored move table. Crystal-9's published original-model release is preserved separately.
 
-## Graphical game — application 003
+## Graphical game — application 004
 
-![Actual graphical Falken-9 game in the target browser](assets/screenshots/falken9-003-gameplay.png)
+![Actual graphical Falken-9 game in the target browser](assets/screenshots/falken9-004-gameplay.png)
 
-The [graphical application](docs/APP_GRAPHICAL.md) uses the original CP64 artwork,
+The [graphical application](docs/APP_GRAPHICAL_004.md) uses the original CP64 artwork,
 a static `falken-9` / `v1.0` title badge and independent real-work activity lights.
 All three modes work: human/model, two humans and model/model. Title keys are
 `1`, `2`, `0` and `I`; game controls are `123 / 456 / 789`, `R` replay and `Q`
-title. Wait for the ready status before the next input.
+title. Every empty square shows a dim 1–9 label, replaced by its X/O mark and
+restored on replay. Wait for the ready status and completed redraw before input.
 
-PRG and D64 passed separate complete human/model browser matches, recovery,
-terminal locking, replay and INFO/title restoration. Stock-ROM VICE also passed
-complete two-human and nine-forward model/model games in both formats. The
-presentation orchestration has its own 627-board full-vector parity proof.
-This does not change the model packet, tag, or frozen applications 001/002.
+PRG and D64 have separate native-frame checks for complete human/model browser
+matches, recovery, terminal locking, replay and INFO/title restoration. The PRG
+event log is partial; browser auto results remain unconfirmed. Stock-ROM VICE
+passed complete two-human and nine-forward model/model games in both formats.
+The final 004 presentation path has a fresh 627-board full-vector parity proof.
+The model packet, tag, original art and frozen applications 001/002/003 remain
+unchanged. Application 003 omitted empty-cell labels and is superseded by 004.
 **Emulator-tested only; no physical hardware or measured performance claim.**
 
 Build the PRG with `.venv/bin/python -m scripts.build_graphical_app` after the
@@ -24,7 +27,8 @@ assembler bootstrap below. The local Hugging Face preparation targets exactly
 `lewismoten/falcon-9`; it is not publicly uploaded. The expanded package and
 transport ZIP have independently executed byte-identical disk rebuilds; see
 [release staging](docs/GRAPHICAL_RELEASE_STAGING.md) and
-[exact application evidence](results/app-003-summary.json).
+[exact application evidence](results/app-004-summary.json). The stable generated
+disk path is `release/falken9-graphical.d64`, an exact copy of final 004.
 
 ## Model v1.0.0
 

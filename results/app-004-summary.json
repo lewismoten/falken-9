@@ -1,0 +1,1154 @@
+{
+  "status": "passed",
+  "application": "004-graphical",
+  "source_revision": "5ed3e94bf598e133eabe1077f4d69e5762b0683a",
+  "artifact": {
+    "prg": "falken9-004-graphical.prg",
+    "prg_sha256": "fe69d8352784313b6e048e0e9d3fa34ae0599b16eec1bc788c80ad68b54b268d",
+    "prg_bytes": 48774,
+    "d64": "falken9-004-graphical.d64",
+    "d64_sha256": "83c53aaaddb4dd0961c5c834a453e629e033fa25688d5b0dad9fd9b9f0150905",
+    "d64_bytes": 174848
+  },
+  "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "core_image_sha256": "838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961",
+  "numeric_labels": {
+    "status": "passed",
+    "color": 12,
+    "semantics": "native selector01 / paired screen-high nibble, Color RAM unchanged",
+    "footprints": [
+      {
+        "square": 1,
+        "cell": 216,
+        "bitmap_address": 9920,
+        "screen_address": 1240,
+        "glyph_hex": "0010501010540000",
+        "screen_value": 192,
+        "color": 12,
+        "selectors": "00 background / 01 screen high; Color RAM unchanged"
+      },
+      {
+        "square": 2,
+        "cell": 220,
+        "bitmap_address": 9952,
+        "screen_address": 1244,
+        "glyph_hex": "0054045440540000",
+        "screen_value": 192,
+        "color": 12,
+        "selectors": "00 background / 01 screen high; Color RAM unchanged"
+      },
+      {
+        "square": 3,
+        "cell": 223,
+        "bitmap_address": 9976,
+        "screen_address": 1247,
+        "glyph_hex": "0054045404540000",
+        "screen_value": 192,
+        "color": 12,
+        "selectors": "00 background / 01 screen high; Color RAM unchanged"
+      },
+      {
+        "square": 4,
+        "cell": 336,
+        "bitmap_address": 10880,
+        "screen_address": 1360,
+        "glyph_hex": "0044445404040000",
+        "screen_value": 192,
+        "color": 12,
+        "selectors": "00 background / 01 screen high; Color RAM unchanged"
+      },
+      {
+        "square": 5,
+        "cell": 340,
+        "bitmap_address": 10912,
+        "screen_address": 1364,
+        "glyph_hex": "0054405404540000",
+        "screen_value": 192,
+        "color": 12,
+        "selectors": "00 background / 01 screen high; Color RAM unchanged"
+      },
+      {
+        "square": 6,
+        "cell": 343,
+        "bitmap_address": 10936,
+        "screen_address": 1367,
+        "glyph_hex": "0054405444540000",
+        "screen_value": 192,
+        "color": 12,
+        "selectors": "00 background / 01 screen high; Color RAM unchanged"
+      },
+      {
+        "square": 7,
+        "cell": 456,
+        "bitmap_address": 11840,
+        "screen_address": 1480,
+        "glyph_hex": "0054041010100000",
+        "screen_value": 192,
+        "color": 12,
+        "selectors": "00 background / 01 screen high; Color RAM unchanged"
+      },
+      {
+        "square": 8,
+        "cell": 460,
+        "bitmap_address": 11872,
+        "screen_address": 1484,
+        "glyph_hex": "0054445444540000",
+        "screen_value": 192,
+        "color": 12,
+        "selectors": "00 background / 01 screen high; Color RAM unchanged"
+      },
+      {
+        "square": 9,
+        "cell": 463,
+        "bitmap_address": 11896,
+        "screen_address": 1487,
+        "glyph_hex": "0054445404540000",
+        "screen_value": 192,
+        "color": 12,
+        "selectors": "00 background / 01 screen high; Color RAM unchanged"
+      }
+    ],
+    "coverage": "all nine empty labels; every cell as X and O; partial/full board, replay and title/INFO through assembled code; exact source art plus declared labels/marks",
+    "tdd_red_log_sha256": "cc8565a556d6f3b076249c1b237e35ffda78ce16bd4d5dbc24f81b385fda0f70",
+    "tdd_green_log_sha256": "23bfb506ad7ee541bddd366924abf3bac82c6ea0619ed9528f3c09dc6d3e7df9"
+  },
+  "neural_gate": {
+    "status": "passed",
+    "scope": "relocated presentation orchestration vs frozen original whole-forward checkpoints; every saved intermediate/logit/route",
+    "boards": 627,
+    "full_domain": true,
+    "prg_sha256": "fe69d8352784313b6e048e0e9d3fa34ae0599b16eec1bc788c80ad68b54b268d",
+    "core_sha256": "838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961",
+    "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+    "stage_mismatches": 0,
+    "code_model_art_immutable": true,
+    "callback_writes_restricted": true,
+    "fixture_sha256": {
+      "shard-0.jsonl": "ba1dd9201b8948d2519b5be5868ca410854348f90a88b7a4c516c5c3feb7a30c",
+      "shard-1.jsonl": "8e8177cea8c1d173d59b4978793018b79371b3224e2d638c0f4b921993ed64ee",
+      "shard-2.jsonl": "c8623653b8f6b8b6fd9edce9f6c734dfbbb7d22b1b01f2a2afd62b775ba7e4c4",
+      "shard-3.jsonl": "6e040adaf557d3f6a2cec9820e92ea352f524dc73f4b7234664e7532334b03eb"
+    },
+    "evidence_sha256": {
+      "shard-0.jsonl": "29f6503d91be7828c6569e85b69f25c391b20192480521dd72dea7628aec90d6",
+      "shard-1.jsonl": "f96c6bca87ed9068fb795b927cf33dee7c05fb268068e42a7c4e13d623e4360a",
+      "shard-2.jsonl": "29f4d8628983c7e9c98bb6eef3d785786c2b39d41c0841025dfacd8e0bf2b961",
+      "shard-3.jsonl": "c06e188074357c2831c2d5cd1cd275992922095aefdd4240acc5feacd6e34fd1"
+    },
+    "minimum_activity_ticks": 32,
+    "stack_low_water": 492
+  },
+  "wrapper": {
+    "status": "passed",
+    "scope": "4520 assembled history/canonical/full-set-inverse/legal-mask/tie wrappers composed with frozen 627 executed-target neural logits; NOT 4520 rerun neural forwards",
+    "boards": 4520,
+    "canonical_boards": 627,
+    "histories_in_dataset": 294778,
+    "set_errors": 0,
+    "move_errors": 0,
+    "stack_low_water": 508,
+    "code_model_immutable": true,
+    "fixture_sha256": {
+      "shard-0.jsonl": "ba1dd9201b8948d2519b5be5868ca410854348f90a88b7a4c516c5c3feb7a30c",
+      "shard-1.jsonl": "8e8177cea8c1d173d59b4978793018b79371b3224e2d638c0f4b921993ed64ee",
+      "shard-2.jsonl": "c8623653b8f6b8b6fd9edce9f6c734dfbbb7d22b1b01f2a2afd62b775ba7e4c4",
+      "shard-3.jsonl": "6e040adaf557d3f6a2cec9820e92ea352f524dc73f4b7234664e7532334b03eb"
+    },
+    "dataset_sha256": "a4539c7cde214440f3369085725ad32faaba03d5de3265c6a8333bdc12723597",
+    "build_sha256": "b9db69fc236b7bc5a94b485023a70b65c1e22860f5f3e7b9b76edaca63826778"
+  },
+  "games": {
+    "status": "passed",
+    "boundary": "packaged input-loop NMOS Py65 + GETIN-only queue shim; NOT stock ROM/browser/physical keys",
+    "prg_sha256": "fe69d8352784313b6e048e0e9d3fa34ae0599b16eec1bc788c80ad68b54b268d",
+    "matches": [
+      {
+        "human_keys": [
+          "5",
+          "2",
+          "4",
+          "9",
+          "7"
+        ],
+        "outcome": 3,
+        "history": "ecbhdfiag"
+      },
+      {
+        "human_keys": [
+          "1",
+          "2",
+          "4"
+        ],
+        "outcome": 2,
+        "history": "aebcdg"
+      }
+    ],
+    "human_model_outcomes": [
+      3,
+      2
+    ],
+    "two_human_outcomes": [
+      1,
+      2,
+      3
+    ],
+    "auto_outcome": 3,
+    "auto_neural_calls": 9,
+    "auto_history": "ecbhdfiag",
+    "executed_neural_calls": 16,
+    "draws": 1,
+    "model_wins": 1,
+    "code_model_art_immutable": true,
+    "kernal_zp_restored": true,
+    "cpu_port_preserved": true,
+    "stack_final": 255,
+    "stack_low_water": 490,
+    "activity_ticks": 512,
+    "board_planes_exact": true
+  },
+  "extracted_prg": {
+    "status": "passed",
+    "boundary": "packaged input-loop NMOS Py65 + GETIN-only queue shim; NOT stock ROM/browser/physical keys",
+    "prg_sha256": "fe69d8352784313b6e048e0e9d3fa34ae0599b16eec1bc788c80ad68b54b268d",
+    "matches": [
+      {
+        "human_keys": [
+          "5",
+          "2",
+          "4",
+          "9",
+          "7"
+        ],
+        "outcome": 3,
+        "history": "ecbhdfiag"
+      },
+      {
+        "human_keys": [
+          "1",
+          "2",
+          "4"
+        ],
+        "outcome": 2,
+        "history": "aebcdg"
+      }
+    ],
+    "human_model_outcomes": [
+      3,
+      2
+    ],
+    "two_human_outcomes": [
+      1,
+      2,
+      3
+    ],
+    "auto_outcome": 3,
+    "auto_neural_calls": 9,
+    "auto_history": "ecbhdfiag",
+    "executed_neural_calls": 16,
+    "draws": 1,
+    "model_wins": 1,
+    "code_model_art_immutable": true,
+    "kernal_zp_restored": true,
+    "cpu_port_preserved": true,
+    "stack_final": 255,
+    "stack_low_water": 490,
+    "activity_ticks": 512,
+    "board_planes_exact": true
+  },
+  "stock_rom": {
+    "vice-final-prg": {
+      "status": "passed",
+      "boundary": "VICE x64 stock C64 ROM, monitor-injected KERNAL keyboard queue; NOT browser or physical keys",
+      "launch_sha256": "fe69d8352784313b6e048e0e9d3fa34ae0599b16eec1bc788c80ad68b54b268d",
+      "prg_sha256": "fe69d8352784313b6e048e0e9d3fa34ae0599b16eec1bc788c80ad68b54b268d",
+      "prg_autostart": true,
+      "d64_true_drive_autostart": false,
+      "matches": [
+        {
+          "history": "ecbhdfiag",
+          "outcome": 3
+        },
+        {
+          "history": "aebcdg",
+          "outcome": 2
+        }
+      ],
+      "human_model_requests": [
+        {
+          "history": "e",
+          "selected": "c",
+          "logits": [
+            15528,
+            -27340,
+            10344,
+            -9066,
+            -41298,
+            -22139,
+            14018,
+            -31401,
+            16505
+          ]
+        },
+        {
+          "history": "ecb",
+          "selected": "h",
+          "logits": [
+            -48847,
+            29497,
+            -8226,
+            -63473,
+            -18891,
+            -34262,
+            -52077,
+            34942,
+            102444
+          ]
+        },
+        {
+          "history": "ecbhd",
+          "selected": "f",
+          "logits": [
+            -179907,
+            36647,
+            66952,
+            28742,
+            591865,
+            22131,
+            -8868,
+            251241,
+            -9947
+          ]
+        },
+        {
+          "history": "ecbhdfi",
+          "selected": "a",
+          "logits": [
+            7411,
+            41053,
+            -620657,
+            -209468,
+            -36062,
+            -23195,
+            209163,
+            -39711,
+            -157745
+          ]
+        },
+        {
+          "history": "a",
+          "selected": "e",
+          "logits": [
+            -711482,
+            -155613,
+            -300450,
+            -56831,
+            507726,
+            -375864,
+            -204878,
+            -32571,
+            -348977
+          ]
+        },
+        {
+          "history": "aeb",
+          "selected": "c",
+          "logits": [
+            -91364,
+            -6531,
+            -7263,
+            -57346,
+            82288,
+            -7844,
+            5181,
+            64307,
+            56819
+          ]
+        },
+        {
+          "history": "aebcd",
+          "selected": "g",
+          "logits": [
+            -11290,
+            -4751,
+            4895,
+            -9569,
+            113030,
+            27104,
+            11441,
+            38999,
+            45424
+          ]
+        }
+      ],
+      "auto_draw": true,
+      "neural_calls": 16,
+      "full_logits_equal_to_py65": true,
+      "code_model_app_immutable": true,
+      "stack_final": 255,
+      "cpu_port": 55,
+      "irq_vector_unchanged": true,
+      "screenshots": {
+        "activity.png": "b1cf80e0b6b49cccd674a3abec9c349c6ac073966e0fd1ee9692790ca47ce958",
+        "title.png": "323571ef0c2447e7b9953b19b3d882193e097b3fd4c346127e5f494dd50dfc72",
+        "info.png": "761cbbb92b4cb9b6db5494509e3fdb2799dc01f0710ffaf7866939150c96801e",
+        "quit.png": "a2182d17aaefdcc3718e80950bc8b94fd6eb9c07a996e605b8b516df25e11944",
+        "gameplay.png": "6a74a9c5813eab8b178e4c20e004a5b1ebba866f5ea67e8b7b65f85ffcf4b4ef",
+        "draw.png": "5a000df71c4c3984add71fc225a6c1d519f876f300c3851b7362d76bea62c4e9",
+        "model-win.png": "b06a616708db870d0ab0fad1131ef2970f80adb10caa5c9015265220f9137443",
+        "auto-draw.png": "5a000df71c4c3984add71fc225a6c1d519f876f300c3851b7362d76bea62c4e9"
+      }
+    },
+    "vice-final-d64": {
+      "status": "passed",
+      "boundary": "VICE x64 stock C64 ROM, monitor-injected KERNAL keyboard queue; NOT browser or physical keys",
+      "launch_sha256": "83c53aaaddb4dd0961c5c834a453e629e033fa25688d5b0dad9fd9b9f0150905",
+      "prg_sha256": "fe69d8352784313b6e048e0e9d3fa34ae0599b16eec1bc788c80ad68b54b268d",
+      "prg_autostart": false,
+      "d64_true_drive_autostart": true,
+      "matches": [
+        {
+          "history": "ecbhdfiag",
+          "outcome": 3
+        },
+        {
+          "history": "aebcdg",
+          "outcome": 2
+        }
+      ],
+      "human_model_requests": [
+        {
+          "history": "e",
+          "selected": "c",
+          "logits": [
+            15528,
+            -27340,
+            10344,
+            -9066,
+            -41298,
+            -22139,
+            14018,
+            -31401,
+            16505
+          ]
+        },
+        {
+          "history": "ecb",
+          "selected": "h",
+          "logits": [
+            -48847,
+            29497,
+            -8226,
+            -63473,
+            -18891,
+            -34262,
+            -52077,
+            34942,
+            102444
+          ]
+        },
+        {
+          "history": "ecbhd",
+          "selected": "f",
+          "logits": [
+            -179907,
+            36647,
+            66952,
+            28742,
+            591865,
+            22131,
+            -8868,
+            251241,
+            -9947
+          ]
+        },
+        {
+          "history": "ecbhdfi",
+          "selected": "a",
+          "logits": [
+            7411,
+            41053,
+            -620657,
+            -209468,
+            -36062,
+            -23195,
+            209163,
+            -39711,
+            -157745
+          ]
+        },
+        {
+          "history": "a",
+          "selected": "e",
+          "logits": [
+            -711482,
+            -155613,
+            -300450,
+            -56831,
+            507726,
+            -375864,
+            -204878,
+            -32571,
+            -348977
+          ]
+        },
+        {
+          "history": "aeb",
+          "selected": "c",
+          "logits": [
+            -91364,
+            -6531,
+            -7263,
+            -57346,
+            82288,
+            -7844,
+            5181,
+            64307,
+            56819
+          ]
+        },
+        {
+          "history": "aebcd",
+          "selected": "g",
+          "logits": [
+            -11290,
+            -4751,
+            4895,
+            -9569,
+            113030,
+            27104,
+            11441,
+            38999,
+            45424
+          ]
+        }
+      ],
+      "auto_draw": true,
+      "neural_calls": 16,
+      "full_logits_equal_to_py65": true,
+      "code_model_app_immutable": true,
+      "stack_final": 255,
+      "cpu_port": 55,
+      "irq_vector_unchanged": true,
+      "screenshots": {
+        "activity.png": "b1cf80e0b6b49cccd674a3abec9c349c6ac073966e0fd1ee9692790ca47ce958",
+        "title.png": "323571ef0c2447e7b9953b19b3d882193e097b3fd4c346127e5f494dd50dfc72",
+        "info.png": "761cbbb92b4cb9b6db5494509e3fdb2799dc01f0710ffaf7866939150c96801e",
+        "quit.png": "a2182d17aaefdcc3718e80950bc8b94fd6eb9c07a996e605b8b516df25e11944",
+        "gameplay.png": "6a74a9c5813eab8b178e4c20e004a5b1ebba866f5ea67e8b7b65f85ffcf4b4ef",
+        "draw.png": "5a000df71c4c3984add71fc225a6c1d519f876f300c3851b7362d76bea62c4e9",
+        "model-win.png": "b06a616708db870d0ab0fad1131ef2970f80adb10caa5c9015265220f9137443",
+        "auto-draw.png": "5a000df71c4c3984add71fc225a6c1d519f876f300c3851b7362d76bea62c4e9"
+      }
+    }
+  },
+  "browser": {
+    "browser-prg": {
+      "status": "passed",
+      "artifact": {
+        "name": "falken9-004-graphical.prg",
+        "size": 48774,
+        "sha256": "fe69d8352784313b6e048e0e9d3fa34ae0599b16eec1bc788c80ad68b54b268d"
+      },
+      "boundary": "native canvas pixels and trusted CDP browser keyDown/keyUp; not physical keyboard or hardware",
+      "canvas": [
+        368,
+        270
+      ],
+      "active_origin": [
+        24,
+        35
+      ],
+      "numeric_labels": "all nine empty labels, exact declared bitmap/screen overlays; occupied labels absent",
+      "human_model_draw": true,
+      "model_win": true,
+      "invalid_occupied_recovery": true,
+      "terminal_locking": true,
+      "replay": true,
+      "title_info_restore_pixel_identical": true,
+      "two_human_x_win": true,
+      "auto_browser_complete": false,
+      "limitations": [
+        "Browser auto match not captured; stock-ROM auto gates are separate.",
+        "Native frames cover complete draw/loss and two-human X win; event log was last saved at replay before connection loss. Later frames are pixel evidence, not a complete captured event audit.",
+        "A separate fixed10-second retry sampled an incomplete redraw and later lost its browser connection; those retry frames are not accepted evidence."
+      ],
+      "events": 24,
+      "checks": [
+        {
+          "format": "prg",
+          "frame": "blank-game",
+          "history": "",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "draw-after-5",
+          "history": "ec",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "occupied",
+          "history": "ec",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "zero-invalid",
+          "history": "ec",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "draw-after-2",
+          "history": "ecbh",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "draw-after-4",
+          "history": "ecbhdf",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "draw-after-9",
+          "history": "ecbhdfia",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "draw-after-7",
+          "history": "ecbhdfiag",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "terminal-locked",
+          "history": "ecbhdfiag",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "replay",
+          "history": "",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "loss-after-1",
+          "history": "ae",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "loss-after-2",
+          "history": "aebc",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "loss-after-4",
+          "history": "aebcdg",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "loss-locked",
+          "history": "aebcdg",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "two-human-blank",
+          "history": "",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "two-human-after-1",
+          "history": "a",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "two-human-after-4",
+          "history": "ad",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "two-human-after-2",
+          "history": "adb",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "two-human-after-5",
+          "history": "adbe",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "two-human-after-3",
+          "history": "adbec",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "prg",
+          "frame": "two-human-x-win",
+          "history": "adbec",
+          "pixels": 35840,
+          "errors": 0
+        }
+      ],
+      "palette": {
+        "14": [
+          108,
+          94,
+          181
+        ],
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "6": [
+          53,
+          40,
+          121
+        ],
+        "3": [
+          112,
+          164,
+          178
+        ],
+        "12": [
+          108,
+          108,
+          108
+        ],
+        "1": [
+          255,
+          255,
+          255
+        ],
+        "11": [
+          68,
+          68,
+          68
+        ],
+        "13": [
+          154,
+          210,
+          132
+        ],
+        "2": [
+          104,
+          55,
+          43
+        ],
+        "10": [
+          154,
+          103,
+          89
+        ],
+        "5": [
+          88,
+          141,
+          67
+        ],
+        "9": [
+          67,
+          57,
+          0
+        ],
+        "7": [
+          184,
+          199,
+          111
+        ]
+      },
+      "screenshot_sha256": {
+        "two-human-x-win.png": "dc278bbe5a2072ea083170f0c45a0280653a2b3e70e1d102e596a9440dc690c9",
+        "draw-after-9.png": "849c999bdee7ec724c31044754337533608ea3f840818515182d32b3d65d7e74",
+        "post-game-info.png": "843b5546bd1a310b8b26579abd8ed46b06c35e3cec1f04ff23deb1c6713ee000",
+        "post-game-title.png": "117c90dcfadfc7870512a69656292dafd82939841686e8a9b59056d62186ded5",
+        "draw-after-4.png": "f61196747f9d1c3e33dcea5fd0e05d21fed6096b0b5e1b394d3e37d9c64bfa18",
+        "terminal-locked.png": "6781de38728349304825fb232e679c07c33e3e3118f5bfd0d60822c73a3b3242",
+        "draw-after-5.png": "156e55b916cb41a2d25850d0e4a5c1d226c8dbc88d998298d0bcfad5a6fd382d",
+        "two-human-after-2.png": "87a7dbba988e14aaa102504800195787c6d22d8ab7783227aaaea16544143e22",
+        "returned-title.png": "117c90dcfadfc7870512a69656292dafd82939841686e8a9b59056d62186ded5",
+        "title.png": "117c90dcfadfc7870512a69656292dafd82939841686e8a9b59056d62186ded5",
+        "two-human-after-5.png": "7982f287d285ba0113ba3515dcd6e53505632297e6f0de7c8a801e654592e35f",
+        "blank-game.png": "89eea9e3d651375c10123b713b6e95418879e63f00e4e8d89bfccf8525ea1bec",
+        "info.png": "843b5546bd1a310b8b26579abd8ed46b06c35e3cec1f04ff23deb1c6713ee000",
+        "two-human-after-1.png": "a1adc0d515760318ea43b5cd1b5f160c7ce1047c461d6a8090947f2c57df63bd",
+        "two-human-after-4.png": "bce5317bcdaa01b659851866712522e2f6ee4d12daf8126b5eac8c30b2a8d33f",
+        "loss-locked.png": "bcb9e0dbc5e034caf9672268732e0b28dadb74a19fe7481180d55c019a195fe7",
+        "loss-after-1.png": "e9a16b6abf87fff6aae5a2e1a8f014a608af21437dfe43ff38c7ff2004476f7b",
+        "draw-after-2.png": "29373eb0ef6e2f854384998d61b711591111bb42627e293c48d74e361f9323e2",
+        "draw-after-7.png": "6781de38728349304825fb232e679c07c33e3e3118f5bfd0d60822c73a3b3242",
+        "replay.png": "89eea9e3d651375c10123b713b6e95418879e63f00e4e8d89bfccf8525ea1bec",
+        "loss-after-2.png": "b90473c8fded61f50c272c6a4cba978acea4ca298b9002e43aacf84987005ced",
+        "two-human-blank.png": "ef0e20a589e04eb124fa74ec16b435c232071333996114aa8c7d73d7b2538efe",
+        "post-info-title.png": "117c90dcfadfc7870512a69656292dafd82939841686e8a9b59056d62186ded5",
+        "loss-after-4.png": "bcb9e0dbc5e034caf9672268732e0b28dadb74a19fe7481180d55c019a195fe7",
+        "zero-invalid.png": "e77f4a79bce4ea79f279ddd95ce7f8bbe6fdd8bdc25ca178a1d6382525e25fe3",
+        "occupied.png": "e77f4a79bce4ea79f279ddd95ce7f8bbe6fdd8bdc25ca178a1d6382525e25fe3",
+        "two-human-after-3.png": "dc278bbe5a2072ea083170f0c45a0280653a2b3e70e1d102e596a9440dc690c9"
+      },
+      "event_audit_keys": [
+        "i",
+        "q",
+        "1",
+        "5",
+        "5",
+        "0",
+        "2",
+        "4",
+        "9",
+        "7",
+        "1",
+        "r"
+      ]
+    },
+    "browser-d64": {
+      "status": "passed",
+      "artifact": {
+        "name": "falken9-004-graphical.d64",
+        "size": 174848,
+        "sha256": "83c53aaaddb4dd0961c5c834a453e629e033fa25688d5b0dad9fd9b9f0150905"
+      },
+      "boundary": "native canvas pixels and trusted CDP browser keyDown/keyUp; not physical keyboard or hardware",
+      "canvas": [
+        368,
+        270
+      ],
+      "active_origin": [
+        24,
+        35
+      ],
+      "numeric_labels": "all nine empty labels, exact declared bitmap/screen overlays; occupied labels absent",
+      "human_model_draw": true,
+      "model_win": true,
+      "invalid_occupied_recovery": true,
+      "terminal_locking": true,
+      "replay": true,
+      "title_info_restore_pixel_identical": true,
+      "two_human_x_win": false,
+      "auto_browser_complete": false,
+      "limitations": [
+        "Browser auto match not captured; stock-ROM auto gates are separate."
+      ],
+      "events": 38,
+      "checks": [
+        {
+          "format": "d64",
+          "frame": "blank-game",
+          "history": "",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "draw-after-5",
+          "history": "ec",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "occupied",
+          "history": "ec",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "zero-invalid",
+          "history": "ec",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "draw-after-2",
+          "history": "ecbh",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "draw-after-4",
+          "history": "ecbhdf",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "draw-after-9",
+          "history": "ecbhdfia",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "draw-after-7",
+          "history": "ecbhdfiag",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "terminal-locked",
+          "history": "ecbhdfiag",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "replay",
+          "history": "",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "loss-after-1",
+          "history": "ae",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "loss-after-2",
+          "history": "aebc",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "loss-after-4",
+          "history": "aebcdg",
+          "pixels": 35840,
+          "errors": 0
+        },
+        {
+          "format": "d64",
+          "frame": "loss-locked",
+          "history": "aebcdg",
+          "pixels": 35840,
+          "errors": 0
+        }
+      ],
+      "palette": {
+        "14": [
+          108,
+          94,
+          181
+        ],
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "6": [
+          53,
+          40,
+          121
+        ],
+        "3": [
+          112,
+          164,
+          178
+        ],
+        "12": [
+          108,
+          108,
+          108
+        ],
+        "1": [
+          255,
+          255,
+          255
+        ],
+        "11": [
+          68,
+          68,
+          68
+        ],
+        "13": [
+          154,
+          210,
+          132
+        ],
+        "2": [
+          104,
+          55,
+          43
+        ],
+        "10": [
+          154,
+          103,
+          89
+        ],
+        "5": [
+          88,
+          141,
+          67
+        ],
+        "9": [
+          67,
+          57,
+          0
+        ],
+        "7": [
+          184,
+          199,
+          111
+        ]
+      },
+      "screenshot_sha256": {
+        "draw-after-9.png": "849c999bdee7ec724c31044754337533608ea3f840818515182d32b3d65d7e74",
+        "post-game-info.png": "843b5546bd1a310b8b26579abd8ed46b06c35e3cec1f04ff23deb1c6713ee000",
+        "post-game-title.png": "117c90dcfadfc7870512a69656292dafd82939841686e8a9b59056d62186ded5",
+        "draw-after-4.png": "f61196747f9d1c3e33dcea5fd0e05d21fed6096b0b5e1b394d3e37d9c64bfa18",
+        "terminal-locked.png": "6781de38728349304825fb232e679c07c33e3e3118f5bfd0d60822c73a3b3242",
+        "draw-after-5.png": "156e55b916cb41a2d25850d0e4a5c1d226c8dbc88d998298d0bcfad5a6fd382d",
+        "returned-title.png": "117c90dcfadfc7870512a69656292dafd82939841686e8a9b59056d62186ded5",
+        "title.png": "117c90dcfadfc7870512a69656292dafd82939841686e8a9b59056d62186ded5",
+        "blank-game.png": "89eea9e3d651375c10123b713b6e95418879e63f00e4e8d89bfccf8525ea1bec",
+        "info.png": "843b5546bd1a310b8b26579abd8ed46b06c35e3cec1f04ff23deb1c6713ee000",
+        "loading.png": "97b1144510db5d263fbf952703297455dd1395013583731d1f7fd80bfe05a757",
+        "loss-locked.png": "bcb9e0dbc5e034caf9672268732e0b28dadb74a19fe7481180d55c019a195fe7",
+        "loss-after-1.png": "e9a16b6abf87fff6aae5a2e1a8f014a608af21437dfe43ff38c7ff2004476f7b",
+        "draw-after-2.png": "29373eb0ef6e2f854384998d61b711591111bb42627e293c48d74e361f9323e2",
+        "draw-after-7.png": "6781de38728349304825fb232e679c07c33e3e3118f5bfd0d60822c73a3b3242",
+        "replay.png": "89eea9e3d651375c10123b713b6e95418879e63f00e4e8d89bfccf8525ea1bec",
+        "loss-after-2.png": "b90473c8fded61f50c272c6a4cba978acea4ca298b9002e43aacf84987005ced",
+        "post-info-title.png": "117c90dcfadfc7870512a69656292dafd82939841686e8a9b59056d62186ded5",
+        "loss-after-4.png": "bcb9e0dbc5e034caf9672268732e0b28dadb74a19fe7481180d55c019a195fe7",
+        "zero-invalid.png": "e77f4a79bce4ea79f279ddd95ce7f8bbe6fdd8bdc25ca178a1d6382525e25fe3",
+        "occupied.png": "e77f4a79bce4ea79f279ddd95ce7f8bbe6fdd8bdc25ca178a1d6382525e25fe3"
+      },
+      "event_audit_keys": [
+        "i",
+        "q",
+        "1",
+        "5",
+        "5",
+        "0",
+        "2",
+        "4",
+        "9",
+        "7",
+        "1",
+        "r",
+        "1",
+        "2",
+        "4",
+        "9",
+        "q",
+        "i",
+        "q"
+      ]
+    }
+  },
+  "tests": {
+    "passed": 167,
+    "skipped": 2,
+    "deselected": 1,
+    "subtests_passed": 677,
+    "log_sha256": "85f39678e195960d543fb292765db9ee015d6d258e84047533a89f78c97a9086",
+    "deselection": "test_release_manifest_binds_composed_wrapper_games_and_disk would rewrite frozen002 evidence",
+    "skips": "two optional historical numeric stock-ROM tests disabled; final004 stock-ROM PRG and true1541 D64 gates ran separately",
+    "targeted_release": "4 passed with pinned assembler after packaging guide update"
+  },
+  "source_sha256": {
+    "scripts/build_graphical_app.py": "1dfe88d769d1d2b976a2f4e5d473a94bae02f3bd95a8f082becbfca8e2162035",
+    "scripts/build_runtime.py": "fa1df8c899d320b3e0093b392f9a0a2a1f46bf277d40074c94db2c5b1bf40b98",
+    "scripts/compile_graphics.py": "9fab8d22fbcbec7efb2cf1a687df48d89c1baf8d35af244edc5b0360b692a8e5",
+    "scripts/verify_graphical_app.py": "37e594bf3f79ff0a68f0221e2d7ab74da0fde574356f354a0e0c655ae88432b9",
+    "scripts/verify_graphical_stock_rom.py": "a4de3f458d751bb9f8dac4db34ae3f72aa8e561098d2edbbd9aa4bc786c5aac8",
+    "src/app/app.asm": "a17d5eafac936d594e129fa748b747ee056d0cacab9adef1d0ab10de66998d88",
+    "src/app/game.asm": "b153420c1af60f344c9348b92f83bf35dffcc3bb1412eed635f1c3a70d6237e8",
+    "src/app/graphical_game.asm": "a634d6f440e260e94e6b02ceb9854d8b93fe8189481e8ca3b4b402f41faab838",
+    "src/app/wrapper.asm": "1bda409041da1136604decf0dae9f785d970f80784f25aed17c5ffc0da6abb49",
+    "src/runtime/attention.asm": "a1d7a31c76978ee383bf6143489d724c5fe4b5bde7669f2f28b6c5d9847864a9",
+    "src/runtime/divsqrt.asm": "f233d514ef32053c408ac5def7902ac4e2b66ffecc86404cac509822436b41af",
+    "src/runtime/experts.asm": "5f10ca6894313359bf1850e62d2e30e2ac0435a55954ffea39864337cbb67b1c",
+    "src/runtime/forward.asm": "b8fa3e403bf8c0b9033b001079746bac828b1e34afa97891c8342c034991c16d",
+    "src/runtime/frontend.asm": "bc1a6aad2ccc6e99960924c5d8eae8321972d018130aad3c38e83b27380a7fdd",
+    "src/runtime/gelu.asm": "8b0175cf1962d6ef6a8879dec42abf8a05c4f32693d89050e6ff0ab5f571f811",
+    "src/runtime/lookup.asm": "e90f438786fb5d00bbb6a6e4a9c5ee2c2f54ec8704e914a3e1090e89e8856a07",
+    "src/runtime/norm2.asm": "cb5de8831402c342d3f2885b772d4dc652d1a0d966265e763b2b8f94a30e80a7",
+    "src/runtime/projection.asm": "f1ae8c383e559b469d51641b3d51de55e87f06861b9f52b4e73007d6d7ec8178",
+    "src/runtime/router.asm": "059bd5060c953353454556efdb337578f859e444f6b7a5af72b194c6bf597b76",
+    "src/runtime/runtime.asm": "3bdfe1322b30312ae729ae5e7243689fac8ef55ece9429cfe67ea46d62cf3da8"
+  },
+  "preserved_frozen_files": 227,
+  "physical_hardware_tested": false,
+  "public_huggingface_published": false,
+  "limitations": [
+    "Synchronous rendering/inference: wait for completed ready/terminal status; no cancellation or short-pulse queue during protected work.",
+    "Browser auto matches unconfirmed after browser connection loss; both stock-ROM formats completed nine-forward auto draws.",
+    "PRG native frames verify complete draw/loss, replay, views and two-human X win; event log only covers through replay. Separate too-early retry frames are excluded.",
+    "D64 browser human/model matrix and event audit passed; D64 two-human/auto browser result not captured.",
+    "No physical C64/1541 acceptance or calibrated performance claim.",
+    "Title Q ends at reset/reload screen, not BASIC."
+  ],
+  "packaging": {
+    "status": "passed",
+    "upload_files": 67,
+    "checksums": 66,
+    "source_inputs": 33,
+    "zip_sha256": "3b363e95b6fa224ece04fcbb5729aba3ae2ed3656aaad0da5e24b9d31b299e88",
+    "zip_exact_members": true,
+    "checksums_verified": true,
+    "privacy_verified": true,
+    "local_links_verified": true,
+    "public_descriptive_copies_exact": true,
+    "d64_extracted_prg_identical": true,
+    "stable_alias_exact": true,
+    "frozen_files_unchanged": 227,
+    "clean_final_staged": {
+      "status": "passed",
+      "scope": "byte-exact rebuild, not new emulator or hardware acceptance",
+      "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+      "prg_sha256": "fe69d8352784313b6e048e0e9d3fa34ae0599b16eec1bc788c80ad68b54b268d",
+      "d64_sha256": "83c53aaaddb4dd0961c5c834a453e629e033fa25688d5b0dad9fd9b9f0150905",
+      "core_image_sha256": "838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961",
+      "assembler": "64tass Turbo Assembler Macro V1.60.3243"
+    },
+    "final_zip_rebuild": {
+      "status": "passed",
+      "scope": "byte-exact rebuild, not new emulator or hardware acceptance",
+      "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+      "prg_sha256": "fe69d8352784313b6e048e0e9d3fa34ae0599b16eec1bc788c80ad68b54b268d",
+      "d64_sha256": "83c53aaaddb4dd0961c5c834a453e629e033fa25688d5b0dad9fd9b9f0150905",
+      "core_image_sha256": "838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961",
+      "assembler": "64tass Turbo Assembler Macro V1.60.3243"
+    }
+  }
+}

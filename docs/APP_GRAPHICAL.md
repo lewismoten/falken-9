@@ -1,5 +1,9 @@
 # Graphical application 003
 
+Historical snapshot, superseded by [application 004](APP_GRAPHICAL_004.md).
+003 omitted visible numeric labels in empty bitmap cells. It is not the final
+user-test candidate; its original bytes and evidence are retained for provenance.
+
 Application `003-graphical` adds the original Crystal Palace 9 / CP64 title,
 INFO frame, multicolor board and marks to the accepted resident Falken-9 model.
 It is a new application, not a new model. The 001/002 frozen directories and
