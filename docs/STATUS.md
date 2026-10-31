@@ -23,8 +23,9 @@ This file distinguishes verified work from active experiments and target integra
 | Four-expert INT8 attempt | Rejected | 1,749 bytes but one canonical error affects eight boards / 1,152 histories; exact decoder parity does not imply gameplay acceptance |
 | Canonical whole-integer model | Host integer gate passed | 6,110-byte F9J2, Q11/W16/A32, early attention rescale and interpolated LUTs; zero set/move errors; five-byte accumulation still needed on target |
 | Local norm / QKV constant folding | Exact host integer parity passed | Extra 864 / 2,592 bytes; removes local first-normalization work, optionally QKV projections; no target-speed claim |
-| Four-expert whole-integer conversion | Active next-stage workstream | Convert the effective passing four-expert weights; preserve the accepted nine-expert integer reference |
-| Full assembled neural inference | Active implementation workstream, unaccepted | Range-aware arithmetic and coherent target layer slices; dot-product kernels alone are not complete inference |
+| Four-expert whole-integer conversion | Host integer gate passed | 5,195-byte W16 baseline and 4,931-byte mixed W8/W16 packets; zero set/move errors, independent scalar/materialized parity and public-wrapper checks |
+| Assembled attention-block inference | Partial target gate passed | Entire unchanged 6,110-byte reference resident; exact embedding/norm/QKV/attention/projection/residual on 64 canonical boards; 3,341 code bytes |
+| Full assembled neural inference | Active continuation, unaccepted | Readout/GELU, norm2, router, selected experts, merge/output and symmetry/history wrapper remain |
 | RAM-resident game integration | Unstarted | No model-data loads after initial load; complete game and view lifecycle |
 | Physical-hardware testing | Unstarted | Emulator evidence is not physical C64 acceptance |
 
@@ -59,3 +60,11 @@ The legacy final-output widening experiment repaired only one board / two histor
 Local constant folding was subsequently tested on every canonical input and the complete policy domain. Norm-only adds 864 bytes to the original source (6,974 combined bytes) and skips nine first-normalization calls; norm-plus-QKV adds 2,592 bytes (8,702 combined) and skips those calls plus 1,728 matrix MACs. Both preserve exact integer logits/routes. These tables encode only local features, not a board/move policy. See `LOCAL_FUSION.md`; compiled target residency and speed remain unproven.
 
 A model is not accepted merely because it has a small checkpoint or draws in self-play. Preserve exact deterministic move gates, packed-artifact byte counts and target-execution evidence as separate milestones. Results summaries will be updated as real experiments finish.
+
+## Fourth-wave verified outcomes
+
+Parent verification reran the **complete repository suite: 98 tests plus 677 subtests passed**. The existing optional NumPy initialization warning remains. The previous stage was independently reviewed and pushed as `0550592`.
+
+Four-expert whole-integer direct materialization succeeded without training/QAT. Fourteen bounded variants yielded seven accepted and seven rejected candidates. Q11/W16/A32 encodes 5,195 bytes; Q11 and Q10 variants using W8 for projection, expert W2 and output encode 4,931 bytes. All accepted candidates pass full optimal-set and move gates on the published domain. Q11 mixed retains the float model's canonical routes; Q10 mixed changes one route but preserves every set and move. Expert usage and finite-domain prefix/envelope bounds are recorded in `FLEXIBLE_INTEGER.md`; neither mixed precision nor fewer stored experts is claimed to prove faster target execution.
+
+The assembled target now computes real embedding, integer LayerNorm, Q/K/V, all attention scores and softmax probabilities, weighted V, learned projection and residual. It retains the entire original nine-expert reference packet unchanged. Independent arbitrary-integer references agree on all 54 local feature combinations and 64 deterministic canonical-board samples. Parent checked the frozen executable and checkpoint hashes. The allocated standalone proof map totals 14,571 bytes, including model/code/scratch and reserved screen/stack; this is not full-game residency. Attention-block CPU work over those 64 boards is 6,770,938–6,847,345 cycles, excluding IRQ/VIC/ROM/disk/wall-time. No whole-forward, PRG, D64 or gameplay acceptance is claimed. See `TARGET_RUNTIME.md`.

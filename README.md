@@ -4,7 +4,7 @@ A new C64-first neural tic-tac-toe policy project. The goal is a compact, RAM-re
 
 Expert count and active top-k are optimization variables, not a requirement to keep nine experts. New candidates compare smaller learned expert banks while preserving genuine MoE.
 
-**Research status:** a **6,110-byte whole-integer** attention/MoE model passes all 294,778 published histories on the host. A separate **four-expert** float model also passes; its smaller INT8 attempt is rejected for remaining policy errors. Exact local constant folding offers a storage/computation tradeoff. Assembled range-aware inference is now in development; no Falken-9 model is yet accepted as a complete C64 deployment. Physical hardware has not been tested.
+**Research status:** a **4,931-byte four-expert whole-integer** attention/MoE model passes all 294,778 published histories on the host. The simpler all-W16 four-expert baseline is 5,195 bytes; the earlier nine-expert integer reference remains preserved. Real assembled 6502 execution now covers embedding through the complete attention block and residual, with unchanged resident model bytes and exact stage vectors on 64 canonical boards. Full inference, gameplay and complete-application residency are not yet accepted. Physical hardware has not been tested.
 
 ## Plan and evidence
 
@@ -19,6 +19,8 @@ Expert count and active top-k are optimization variables, not a requirement to k
 - [Accepted canonical whole-integer reference and range contract](docs/CANONICAL_INTEGER.md)
 - [Configurable smaller expert-bank experiments](docs/FLEXIBLE_MOE.md)
 - [Exact local constant folding: storage versus computation](docs/LOCAL_FUSION.md)
+- [Four-expert whole-integer candidates and mixed-precision inventory](docs/FLEXIBLE_INTEGER.md)
+- [Assembled resident attention-block proof and memory map](docs/TARGET_RUNTIME.md)
 - [Dataset audit](results/dataset-audit.json)
 - [Symmetry audit](results/symmetry-audit.json)
 
