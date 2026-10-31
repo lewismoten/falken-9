@@ -159,14 +159,24 @@ def _parity_shard(task):
     allowed=set()
     for region in built['core']['memory_map']:
         if region['writable']:allowed.update(range(region['start'],region['end']))
-    allowed.update([m.labels['activity_phase'],m.labels['packet_value'],*range(0x400+18*40+21,0x400+18*40+25)])
+    allowed.update([m.labels['activity_phase'],m.labels['packet_value'],*(0x400+c for c in built['activity_cells'])])
+    allowed.update(range(m.labels['progress_active'],m.labels['progress_pattern']+1))
+    meter_cells=[0x63e+i for i in range(13) if i!=5]
+    allowed.update(meter_cells)
+    allowed.update(0x2000+(a-0x400)*8+i for a in meter_cells for i in range(8))
     path=Path(output)/f'shard-{shard}.jsonl'
     with path.open('w') as stream:
         for count,row in enumerate(rows,1):
             m.put('activity_phase',0,1)
+            m.put('progress_active',1,1)
+            m.put('progress_event_index',0,1)
+            m.put('progress_filled',0,1)
+            m.put('progress_color',0x20 if sum(v!=0 for v in row['board'])%2==0 else 0x60,1)
             for i,v in enumerate(row['board']):m.put(m.labels['board']+i,v,1)
             result=m.call('graphical_forward')
             assert result['carry']==0 and not m.cpu.p&m.cpu.DECIMAL
+            assert m.get('progress_event_index',1,False)==32
+            assert m.get('progress_filled',1,False)==46
             assert m.cpu.memory.addresses <= allowed, sorted(m.cpu.memory.addresses-allowed)
             actual={}
             for name,values in row['stages'].items():

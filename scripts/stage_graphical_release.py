@@ -73,6 +73,8 @@ def source_inventory(root):
     for directory in ('src/runtime', 'src/app'):
         found.update(str(p.relative_to(root)) for p in (root/directory).rglob('*')
                      if p.is_file() and p.suffix in {'.asm', '.inc'})
+    if (root/'src/app/progress-calibration.json').exists():
+        found.add('src/app/progress-calibration.json')
     art = root/'assets/game-art'
     found.update(str(p.relative_to(root)) for p in art.rglob('*')
                  if p.is_file() and (p.suffix in ART_SUFFIXES or p.name in {'LICENSE', 'NOTICE'}))
@@ -234,7 +236,23 @@ dim gray 1–9 bitmap labels; X/O replaces its label and replay restores it.
 Wait for the ready/terminal status before the next key. Rendering and inference
 are synchronous; cancellation/input during those protected intervals is not
 supported. The changing decorative button subset indicates real-work activity,
-not percentage progress. The dark-blue model/version badge is static.
+not percentage progress. The outlined red-X/blue-O meter advances only after
+completed compute boundaries using measured resident-work weights, not elapsed
+time. It reserves a visible gap until the model's legal mark is committed and
+then resets. No timers or drawing IRQs are installed. Activity callbacks are
+bounded but synchronous: their cadence is not a constant-rate animation.
+
+The exact static dark-blue display badge is FALCON-9, then 1.0. Frozen model tags,
+artifact filenames and the project slug retain their original Falken spelling.
+INFO uses the original archive frame, white body text, yellow headings and
+cursor up/down scrolling; it shows both requested repository destinations as
+not yet published. No public upload is performed by this package.
+
+The board retains the console artwork and a compact X/O turn-or-winner glyph,
+yellow D for draw, ? for invalid input and ! for an inference error. Commands
+are documented in INFO rather than painted over the console. Title selection
+and ordinary board moves patch bounded cells without blanking the display;
+initial view entry and replay still compose full planes with display disabled.
 
 Minimal test: title `1`, then human `5,2,4,9,7`, waiting each turn, gives
 `OXO / XXO / XOX` and DRAW. Replay, then human `1,2,4` gives
@@ -283,8 +301,8 @@ match. The rebuild is not a replay of emulator lifecycle or exhaustive NN gates.
 
 Artwork provenance: ChatGPT-assisted generation, with Lewis Moten's manual
 GIMP cleanup/layout and editing. Original indexed PNG/JSON bytes are retained;
-the application adds separate numeric-square, identity, INFO, control and
-activity overlays. Number glyphs use native VIC multicolor pixels and matched
+the application adds separate numeric-square, identity, INFO, compact status,
+meter and activity overlays. Number glyphs use native VIC multicolor pixels and matched
 screen-high attributes, confined to one 8x8 footprint inside each empty cell.
 See NOTICE and source/assets/game-art/provenance.json. Source-compiler hashes
 describe the original compilation; overlaid/compressed runtime derivatives

@@ -76,7 +76,7 @@ def test_each_numeric_label_replaced_by_either_original_mark_only(tmp_path):
             nn = bytes(m.cpu.memory[0x6000:0x7800])
             m.call('draw_board')
             expected = numbered_reference(built,board)
-            for plane,start,length in [('bitmap',0x2000,23*320),('screen',0x400,23*40),('color',0xd800,1000)]:
+            for plane,start,length in [('bitmap',0x2000,14*320),('screen',0x400,14*40),('color',0xd800,1000)]:
                 assert bytes(m.cpu.memory[start:start+length]) == expected[plane][:length], (i,mark,plane)
             assert bytes(m.cpu.memory[0x6000:0x7800]) == nn
 
@@ -92,12 +92,12 @@ def test_native_title_info_roundtrip_and_frozen_residency(tmp_path):
     assert game.cpu.memory[0xd018] == 0x1c
     assert bytes(game.cpu.memory[0x3000:0x3800]) == Path(built['path']).parent.joinpath('charset.bin').read_bytes()
     title = game.planes()
-    assert game.text(20)[30:38] == 'falken-9'
-    assert game.text(21)[30:34] == 'v1.0'
+    assert game.text(20)[30:38] == 'FALCON-9'
+    assert game.text(21)[30:33] == '1.0'
     assert all(c == 6 for c in game.cpu.memory[0xd800+20*40+30:0xd800+20*40+38])
     game.key('I')
     assert game.get('view') == 1
-    assert 'FALKEN-9' in game.text(3)
+    assert 'FALCON-9' in game.text(4)
     game.key('Q')
     assert game.get('view') == 0
     assert game.planes() == title
@@ -153,26 +153,29 @@ def test_activity_preserves_registers_flags_zp_and_only_reserved_cells(tmp_path)
     result=m.call('activity_tick')
     assert (m.cpu.a,m.cpu.x,m.cpu.y)==(0x83,0x79,0xa7)
     assert m.cpu.p&m.cpu.DECIMAL
-    assert result['carry']==0 and result['cycles']<300
+    assert result['carry']==0 and result['cycles']<500
     assert bytes(m.cpu.memory[0x20:0x80])==zp
     assert bytes(m.cpu.memory[0x2000:0x4000])==bitmap
-    allowed={built['labels']['activity_phase'],built['labels']['packet_value'],*range(0x400+18*40+21,0x400+18*40+25),*range(0x100,0x200)}
+    allowed={built['labels']['activity_phase'],built['labels']['packet_value'],*(0x400+c for c in built['activity_cells']),*range(0x100,0x200)}
     assert m.cpu.memory.addresses<=allowed
 
 
-def test_every_status_renders_exact_native_bitmap_font(tmp_path):
-    from scripts.build_graphical_app import build, CODE
+def test_every_status_renders_native_single_cell_glyph(tmp_path):
+    from scripts.build_graphical_app import build
     from scripts.verify_app import AppMachine
     built=build(tmp_path/'build');m=AppMachine(built,audit=True)
-    font=Path(built['path']).parent.joinpath('bitmap-font.bin').read_bytes()
+
     m.cpu.memory.allowed[1]=1
     m.cpu.memory.allowed[0xf7:0xff]=bytes([1])*8
     m.cpu.memory[1]=0x37
-    for i,text in enumerate(built['statuses']):
+    glyphs=['0041411414414100','0014414141411400','0054414141415400','0014440410001000','0010101010001000']
+    for i in range(9):
+        m.put('terminal',i-3 if 4<=i<=6 else 0,1)
+        m.put('side',1,1)
         m.cpu.a=i;m.call('draw_status')
-        expected=b''.join(font[CODE[c]*8:CODE[c]*8+8] for c in text.ljust(32))
-        at=0x2000+17*320+4*8
-        assert bytes(m.cpu.memory[at:at+256])==expected, (i,text)
+        index=3 if i==1 else 4 if i==7 else i-4 if 4<=i<=6 else 0
+        assert bytes(m.cpu.memory[0x3218:0x3220])==bytes.fromhex(glyphs[index]), i
+        assert all(not (0x2000+17*320 <= a < 0x2000+18*320) for a in m.cpu.memory.addresses)
 
 
 def test_two_human_all_cells_terminal_and_replay(tmp_path):

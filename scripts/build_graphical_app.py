@@ -6,11 +6,12 @@ import os
 import re
 import subprocess
 import sys
+import textwrap
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.build_runtime import ROOT, FOUR_MODEL, build as build_runtime
 from scripts.compile_graphics import compile_assets
 
-APP_STAGE = '004-graphical'
+APP_STAGE = '005-graphical'
 APP_STEM = 'falken9-'+APP_STAGE
 OUT = ROOT/'build/graphical'
 CODE = {c:i+1 for i,c in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZ')}
@@ -64,10 +65,14 @@ def presentation_forward():
     calls={'token_frontend','matrix8','readout_only','gelu_vector','norm2','matrix_variable','route_top2','route_gates','expert_matrix','expert_merge','output_head'}
     lines=[]
     for line in text.splitlines():
+        if line in ('graph_board_score_row:', 'graph_attention_softmax_row:'):
+            lines.extend([line, '    jsr activity_tick'])
+            continue
         m=re.match(r'\s*(jsr|jmp) (\w+)\s*$',line)
         if m and (m[2] in calls or m[2]=='graph_readout_only'):
-            lines.append('    jsr activity_tick')
-        lines.append(line)
+            lines.extend(['    jsr '+m[2], '    jsr progress_event'])
+            if m[1]=='jmp':lines.append('    rts')
+        else:lines.append(line)
     return 'EXPERT_COUNT = 4\n'+'\n'.join(lines)+'\n'
 
 
@@ -81,23 +86,42 @@ def build(output=None):
     regions = graphics['regions']
     # Application overlays; indexed authority PNGs remain unchanged.
     charset = bytearray(paths['charset'].read_bytes())
-    used = set(paths['title_screen'].read_bytes()) | set(paths['info_screen'].read_bytes()) | set(CODE.values())
-    lower = {'f':'0c10103810101000', 'a':'000038043c443c00', 'l':'3010101010103800', 'k':'4040485060484400', 'e':'000038447c403c00', 'n':'0000784444444400', 'v':'0000444444281000'}
     code = dict(CODE)
-    free = [i for i in range(255,49,-1) if i not in used]
-    for c, mask in lower.items():
-        i = free.pop(0);code[c] = i;charset[8*i:8*i+8] = bytes.fromhex(mask)
     def encode(text): return bytes(code[c] for c in text)
     def overlay(plane, colors, row, col, text, color):
         at=row*40+col;plane[at:at+len(text)] = encode(text);colors[at:at+len(text)] = bytes([color])*len(text)
     title = bytearray(paths['title_screen'].read_bytes());tc=bytearray(paths['title_color'].read_bytes())
-    for row,text in [(20,'falken-9'),(21,'v1.0')]:overlay(title,tc,row,30,text,6)
-    overlay(title,tc,23,30,'I:INFO',5);overlay(title,tc,24,30,'Q:QUIT',5)
+    for row,text in [(20,'FALCON-9'),(21,'1.0')]:overlay(title,tc,row,30,text,6)
+    for row,text in [(22,'INFO'),(23,'QUIT')]:
+        overlay(title,tc,row,2,text,12);tc[row*40+2]=1
     info=bytearray(paths['info_screen'].read_bytes());ic=bytearray(paths['info_color'].read_bytes())
-    overlay(info,ic,1,6,'FALKEN-9 / MODEL INFO'.ljust(28),7)
-    lines=['FALKEN-9 V1.0','5195 BYTES - F9J2 INTEGER','4 EXPERTS / 2 ACTIVE','Q11 / W16 / A32','ATTENTION + ROUTED MLP','ALL WEIGHTS STAY IN RAM','','1-9: SQUARES 123/456/789','R: REPLAY   Q: TITLE','1 PLAYER: YOU X / MODEL O','2 PLAYERS: ALTERNATE X/O','0 AI: BOTH SIDES NEURAL','','EMULATOR-TESTED ONLY','NO PHYSICAL C64 ACCEPTANCE','LIGHTS: ACTIVITY ONLY','NO HOSTED INFERENCE','Q: RETURN TO TITLE']
-    for row,text in enumerate(lines,3):overlay(info,ic,row,5,text.ljust(28),14)
-    overlay(info,ic,23,6,'Q: TITLE'.ljust(28),5)
+    overlay(info,ic,1,6,'FALCON-9 / MODEL INFO'.ljust(28),7)
+    footer='SCROLL: UP/DOWN QUIT: Q'
+    overlay(info,ic,23,10,footer,12)
+    for col in list(range(18,25))+[31]:ic[23*40+col]=1
+    # Same 29x18 viewport and Markdown palette as the original archive viewer.
+    # URLs wrap without clipping. These are requested destinations, not a claim
+    # of publication; model/artifact slugs intentionally retain frozen spelling.
+    sections=[('FALCON-9 1.0',1),('MODEL',7),('5195 BYTES - F9J2 INTEGER',1),
+        ('4 EXPERTS / 2 ACTIVE',1),('Q11 / W16 / A32',1),('ATTENTION + ROUTED MLP',1),
+        ('ALL WEIGHTS STAY IN RAM',1),('',1),('CONTROLS',7),
+        ('1-9: SQUARES 123/456/789',1),('R: REPLAY   Q: TITLE',1),
+        ('1 PLAYER: YOU X / MODEL O',1),('2 PLAYERS: ALTERNATE X/O',1),
+        ('0 PLAYERS: BOTH SIDES NEURAL',1),('',1),('DISPLAY',7),
+        ('X / O: TURN OR WINNER',1),('D: DRAW   ?: INVALID',1),('!: ERROR - R OR Q',1),
+        ('BAR: COMPLETED COMPUTE WORK',1),('RED X / BLUE O',1),
+        ('LIGHTS: ACTIVITY NOT PROGRESS',1),('',1),('REPOSITORIES',7),
+        ('REQUESTED - NOT YET PUBLISHED',1),
+        ('HTTPS://GITHUB.COM/LEWISMOTEN/FALCON-9',1),('',1),
+        ('HTTPS://HUGGINGFACE.CO/LEWISMOTEN/FALCON-9',1),('',1),('RUNTIME BOUNDARY',7),
+        ('EMULATOR-TESTED ONLY',10),('NO PHYSICAL C64 ACCEPTANCE',1),
+        ('NO HOSTED INFERENCE',1),('FIXED BOARD SYMMETRIES',1),
+        ('ROTATE / REFLECT / INVERSE',1),('ARE NOT LEARNED WEIGHTS',1),
+        ('FROZEN MODEL: MODEL-V1.0.0',1),('ARTIFACT SLUG: FALKEN9',1)]
+    info_lines=[];info_colors=[]
+    for text,color in sections:
+        for line in textwrap.wrap(text,29,break_long_words=True,break_on_hyphens=False) or ['']:
+            info_lines.append(line.ljust(29));info_colors.append(color)
     quit_screen=bytearray(info);quit_color=bytearray(ic)
     for row in range(3,22):overlay(quit_screen,quit_color,row,5,' '*28,14)
     overlay(quit_screen,quit_color,7,5,'SESSION ENDED'.center(28),14)
@@ -115,7 +139,25 @@ def build(output=None):
     for name,raw in [('quit_screen',quit_screen),('quit_color',quit_color)]:
         includes += [f'art_{name} = ${0xa000+len(compressed):04x}']
         compressed += pack_runs(raw)
-    includes += ['activity_base:', '    .byte '+','.join(map(str,paths['board_screen'].read_bytes()[18*40+21:18*40+25]))]
+    includes += [f'info_line_count = {len(info_lines)}',f'info_chars = ${0xa000+len(compressed):04x}']
+    compressed += b''.join(encode(line) for line in info_lines)
+    includes += [f'info_line_colors = ${0xa000+len(compressed):04x}']
+    compressed += bytes(info_colors)
+    source_info=paths['info_screen'].read_bytes();source_ic=paths['info_color'].read_bytes()
+    includes += [f'info_track_glyph = {source_info[5*40+34]}',f'info_marker_glyph = {source_info[4*40+34]}',
+        f'info_track_color = {source_ic[5*40+34]}',f'info_marker_color = {source_ic[4*40+34]}',
+        'info_scroll_positions:', '    .byte '+','.join(str(round(i*17/(len(info_lines)-18))) for i in range(len(info_lines)-17)),
+        'info_track_lo:', '    .byte '+','.join(str((0x400+(4+i)*40+34)&255) for i in range(18)),
+        'info_track_hi:', '    .byte '+','.join(str((0x400+(4+i)*40+34)>>8) for i in range(18))]
+    activity_cells=[19*40+c for c in (7,12,13,20,26,27,32)]
+    screen=paths['board_screen'].read_bytes()
+    assert all(screen[c]>>4==7 for c in activity_cells)
+    includes += ['activity_base:', '    .byte '+','.join(str(screen[c]) for c in activity_cells),
+        'activity_offsets:', '    .byte '+','.join(str(c-19*40) for c in activity_cells)]
+    calibration=ROOT/'src/app/progress-calibration.json'
+    fills=json.loads(calibration.read_text())['fills'] if calibration.exists() else [min(46,(i+1)*47//32) for i in range(32)]
+    assert len(fills)==32 and fills==sorted(fills) and max(fills)<=46
+    includes += ['progress_thresholds:', '    .byte '+','.join(map(str,fills))]
     assert len(compressed)<=0x3000, 'compressed artwork must remain below I/O'
     (out/'runtime-graphics.bin').write_bytes(compressed)
     # Compact patch bytecode avoids >8K straight-line code: dest/value records.
@@ -196,7 +238,7 @@ def build(output=None):
     prg=bytearray(full[1:]);prg[:len(stub)]=stub
     path=out/(APP_STEM+'.prg');path.write_bytes(b'\x01\x08'+prg)
     (out/'combined.bin').write_bytes(full)
-    info=dict(prg_path=str(path),prg_sha256=sha(path.read_bytes()),path=str(out/'combined.bin'),load=0x800,labels=labels,core=core,image_sha256=sha(full),app_code_start=0x8000,app_code_end=labels['app_end'],graphics_paths={k:str(v) for k,v in paths.items()},graphics=graphics,numeric_labels=numeric_labels,charset_codes=code,statuses=STATUSES,
+    info=dict(prg_path=str(path),prg_sha256=sha(path.read_bytes()),path=str(out/'combined.bin'),load=0x800,labels=labels,core=core,image_sha256=sha(full),app_code_start=0x8000,app_code_end=labels['app_end'],graphics_paths={k:str(v) for k,v in paths.items()},graphics=graphics,numeric_labels=numeric_labels,charset_codes=code,statuses=STATUSES,activity_cells=activity_cells,
               memory_map=core['memory_map']+[dict(name='app_state',start=0x7800,end=0x7900,writable=True),dict(name='bitmap_or_charset',start=0x2000,end=0x4000,writable=True),dict(name='screen',start=0x400,end=0x800,writable=True),dict(name='color',start=0xd800,end=0xdc00,writable=True)])
     (out/'build.json').write_text(json.dumps(info,indent=2)+'\n')
     return info
