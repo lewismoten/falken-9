@@ -9,9 +9,10 @@ complete integer inference, a resident C64 application, gameplay acceptance, or 
 hardware/VICE timing result. Attention, normalization, learned router/top-2 expert
 execution and model integration remain outside this kernel gate.
 
-The kernels consume raw integer rows. They do not apply a scale, bias, activation,
-rounding or saturation. Python specifies rounding/saturation for later gates;
-those operations are **not yet implemented in assembly**.
+The dot-product kernels consume raw integer rows. They do not apply a scale,
+bias, activation, rounding or saturation. A separate assembled requantization
+helper now implements signed INT32 shifting/rounding and INT16 saturation; it is
+not yet linked into a complete neural layer or model.
 
 ## Integer and serialization contract
 
@@ -202,3 +203,35 @@ as above. These measurements do not prove that INT16 activations preserve any
 trained model's behavior. The host `F9Q1` research export uses a different ternary
 code assignment from these raw kernel experiments; it is not a drop-in kernel
 payload. Future target exports must explicitly convert and test their codebooks.
+
+## Assembled signed requantization helper
+
+`src/kernels/requantize.asm` accepts signed INT32 input in `$e0..$e3` and a
+right-shift count 0..31 in `$e4`, preserving both. It rounds nearest with exact
+halfway cases away from zero, then clamps to INT16 in `$e5..$e6`. Carry reports
+whether clamping occurred. Scratch is `$e7..$ec`; A/X/P are clobbered and decimal
+mode is clear on return. Caller owns those addresses and validates the shift.
+The standalone image starts at `$2000`, occupies 154 bytes, and is not linked
+into the game. It does not handle wider-than-INT32 intermediates.
+
+`tests/test_kernels_requantize.py` was observed failing before implementation,
+then passed **640 subcases**: 20 signed extrema/zero/tie/boundary values at every
+shift 0..31. The independent Python integer oracle checks value and saturation
+flag; poisoned-RAM guards check input preservation and unexpected writes. This
+does not exhaust all possible INT32 inputs.
+
+`python scripts/benchmark_requantize.py` records the same defined cases in
+`results/requantize-summary.json`. Selected mean / observed-worst cycles:
+
+| Shift | Mean cycles | Observed worst |
+|---:|---:|---:|
+| 0 | 139.5 | 170 |
+| 8 | 369.55 | 403 |
+| 16 | 595.2 | 633 |
+| 24 | 816.2 | 844 |
+
+Counts include entry through RTS, not caller JSR, interrupts, VIC stalls or I/O.
+This is an arithmetic building block, not evidence that quantized activations
+preserve a trained policy or that complete Falken-9 inference runs on the C64.
+Final output scores may need a wider representation; do not apply this INT16
+clamp to them merely for uniformity.

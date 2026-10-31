@@ -1,0 +1,203 @@
+{
+  "scope": "isolated signed INT32 right-shift, nearest/ties-away rounding, INT16 saturation",
+  "code_bytes": 154,
+  "cases": 640,
+  "source_sha256": "ffb1db6dc12e29e62782a8d1f792778141dc7bde035a0cca1cb1e032c816c4da",
+  "image_sha256": "75d87b1a6a11ecef243af38d9ad7225ed651eb7491de9fe0682c390fdeab0f79",
+  "cycle_boundary": "entry through RTS; excludes caller JSR, interrupts, VIC stalls and I/O",
+  "all_integer_inputs_exhaustively_tested": false,
+  "timings": [
+    {
+      "shift": 0,
+      "vectors": 20,
+      "mean_cycles": 139.5,
+      "worst_observed_cycles": 170
+    },
+    {
+      "shift": 1,
+      "vectors": 20,
+      "mean_cycles": 178.3,
+      "worst_observed_cycles": 213
+    },
+    {
+      "shift": 2,
+      "vectors": 20,
+      "mean_cycles": 203,
+      "worst_observed_cycles": 235
+    },
+    {
+      "shift": 3,
+      "vectors": 20,
+      "mean_cycles": 231,
+      "worst_observed_cycles": 263
+    },
+    {
+      "shift": 4,
+      "vectors": 20,
+      "mean_cycles": 258.3,
+      "worst_observed_cycles": 291
+    },
+    {
+      "shift": 5,
+      "vectors": 20,
+      "mean_cycles": 286.3,
+      "worst_observed_cycles": 319
+    },
+    {
+      "shift": 6,
+      "vectors": 20,
+      "mean_cycles": 314.3,
+      "worst_observed_cycles": 347
+    },
+    {
+      "shift": 7,
+      "vectors": 20,
+      "mean_cycles": 342.3,
+      "worst_observed_cycles": 375
+    },
+    {
+      "shift": 8,
+      "vectors": 20,
+      "mean_cycles": 369.55,
+      "worst_observed_cycles": 403
+    },
+    {
+      "shift": 9,
+      "vectors": 20,
+      "mean_cycles": 397.55,
+      "worst_observed_cycles": 424
+    },
+    {
+      "shift": 10,
+      "vectors": 20,
+      "mean_cycles": 424.85,
+      "worst_observed_cycles": 452
+    },
+    {
+      "shift": 11,
+      "vectors": 20,
+      "mean_cycles": 452.85,
+      "worst_observed_cycles": 480
+    },
+    {
+      "shift": 12,
+      "vectors": 20,
+      "mean_cycles": 480.85,
+      "worst_observed_cycles": 508
+    },
+    {
+      "shift": 13,
+      "vectors": 20,
+      "mean_cycles": 508.85,
+      "worst_observed_cycles": 536
+    },
+    {
+      "shift": 14,
+      "vectors": 20,
+      "mean_cycles": 536.85,
+      "worst_observed_cycles": 564
+    },
+    {
+      "shift": 15,
+      "vectors": 20,
+      "mean_cycles": 564.85,
+      "worst_observed_cycles": 592
+    },
+    {
+      "shift": 16,
+      "vectors": 20,
+      "mean_cycles": 595.2,
+      "worst_observed_cycles": 633
+    },
+    {
+      "shift": 17,
+      "vectors": 20,
+      "mean_cycles": 621.6,
+      "worst_observed_cycles": 655
+    },
+    {
+      "shift": 18,
+      "vectors": 20,
+      "mean_cycles": 648.9,
+      "worst_observed_cycles": 683
+    },
+    {
+      "shift": 19,
+      "vectors": 20,
+      "mean_cycles": 676.9,
+      "worst_observed_cycles": 711
+    },
+    {
+      "shift": 20,
+      "vectors": 20,
+      "mean_cycles": 704.9,
+      "worst_observed_cycles": 739
+    },
+    {
+      "shift": 21,
+      "vectors": 20,
+      "mean_cycles": 732.9,
+      "worst_observed_cycles": 767
+    },
+    {
+      "shift": 22,
+      "vectors": 20,
+      "mean_cycles": 760.9,
+      "worst_observed_cycles": 795
+    },
+    {
+      "shift": 23,
+      "vectors": 20,
+      "mean_cycles": 788.9,
+      "worst_observed_cycles": 823
+    },
+    {
+      "shift": 24,
+      "vectors": 20,
+      "mean_cycles": 816.2,
+      "worst_observed_cycles": 844
+    },
+    {
+      "shift": 25,
+      "vectors": 20,
+      "mean_cycles": 844.2,
+      "worst_observed_cycles": 872
+    },
+    {
+      "shift": 26,
+      "vectors": 20,
+      "mean_cycles": 872.2,
+      "worst_observed_cycles": 900
+    },
+    {
+      "shift": 27,
+      "vectors": 20,
+      "mean_cycles": 900.2,
+      "worst_observed_cycles": 928
+    },
+    {
+      "shift": 28,
+      "vectors": 20,
+      "mean_cycles": 928.2,
+      "worst_observed_cycles": 956
+    },
+    {
+      "shift": 29,
+      "vectors": 20,
+      "mean_cycles": 956.2,
+      "worst_observed_cycles": 984
+    },
+    {
+      "shift": 30,
+      "vectors": 20,
+      "mean_cycles": 984.2,
+      "worst_observed_cycles": 1012
+    },
+    {
+      "shift": 31,
+      "vectors": 20,
+      "mean_cycles": 1012.2,
+      "worst_observed_cycles": 1040
+    }
+  ]
+}
