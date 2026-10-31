@@ -4,7 +4,7 @@
 
 Build a new small neural tic-tac-toe policy specifically for the Commodore 64, not another proof that an unchanged desktop-oriented model can be paged from disk. The preferred deployment loads its complete model once, retains it in RAM during play, and performs every subsequent move without model-data disk access. Keep Crystal-9 and its published disk immutable.
 
-Preserve real attention, projections, normalization, a learned router and mixture-of-experts execution. Start with nine experts and top-2 routing; search narrower dimensions rather than assuming a CUDA-friendly width of 32 is needed. A CUDA warp's thread count is not an architectural correctness requirement; GPU training throughput is secondary to measured C64 inference cost. Reducing widths may reduce training throughput without making the model invalid.
+Preserve real attention, projections, normalization, a learned router and mixture-of-experts execution. **Expert count is a search variable, not a nine-expert requirement.** The owner explicitly authorizes fewer experts and different configurations provided genuine learned MoE remains demonstrable on the C64. Prioritize 3/4 experts with top-2 routing; also evaluate top-1 variants with a documented trainable routing/gating contract. Search expert count, active count, hidden dimensions and precision jointly rather than assuming a CUDA-friendly width of 32 is needed. A CUDA warp's thread count is not an architectural correctness requirement; GPU training throughput is secondary to measured C64 inference cost. Reducing widths may reduce training throughput without making the model invalid.
 
 **Behavior gate:** identical deterministic legal moves under the published tie order, not identical logits. Compare every supported nonterminal legal history, retain mismatch examples, and reject continuation after terminal play. A few draws or good average accuracy do not pass. Existing model behavior and the dataset targets must be reconciled before claiming equivalence to either. Do not silently replace neural inference with minimax or a move table. Host training checkpoints are research artifacts until the exported arithmetic and target execution pass their gates.
 
@@ -14,7 +14,7 @@ Dataset: https://huggingface.co/datasets/lewismoten/tic-tac-toe at immutable rev
 
 - Keep raw chronological history with BOS and position embeddings.
 - Search model widths 8, 12, 16 and 24, with compatible head counts; expert hidden widths can be smaller than the model width.
-- Begin with a single attention block, nine small experts and learned top-2 routing.
+- Begin with a single attention block, configurable small expert banks and learned routing. Keep the existing nine/top-2 model as a frozen reference, not a restriction on derivatives.
 - Establish a trainable reference before aggressive weight/activation quantization.
 - Preserve a per-game K/V cache only if a tested memory-lifetime map proves validity. Compare full-prefix recomputation against append-only computation; neither is assumed exact without a test.
 
@@ -43,6 +43,8 @@ Benefit: eliminates order redundancy and exposes a smaller supervised state spac
 `results/dataset-audit.json` verifies all 294,778 histories and 4,520 unique nonterminal boards with zero board-label conflicts or independent minimax target mismatches. `results/symmetry-audit.json` reduces those boards to 627 dihedral representatives. Inverse-mapping the complete canonical optimal set preserves every target; inverse-mapping only a selected canonical target fails 406 boards. Approach C therefore has a tested coordinate/label contract, but no learned model or C64 implementation is accepted by that audit.
 
 ## Precision approaches: search jointly with width
+
+Expert-bank search: compare E=3/4 with top-2 first, then E=2/3/4 with top-1 where meaningful. Fewer stored experts primarily reduce model bytes; fewer active experts can also reduce expert arithmetic. Neither change alone reduces shared attention/readout cost. A two-expert/top-2 model is a learned mixture but not sparse expert selection; label it accordingly. A top-1 softmax over only the selected expert is constant and gives no useful router gradient through that gate, so require a tested training strategy, routing participation evidence and clearly separate training versus deployed compute. Reject a fixed expert or hardcoded route masquerading as learned MoE. New expert-count layouts must have explicit versioned metadata; do not reinterpret fixed-nine legacy packets silently.
 
 1. **Binary weights** (`-1,+1`): packed sign bits, add/subtract kernels, preferably shared scales. Binary weights are not binary activations; no XNOR/popcount speed claim without actual kernels and measurements.
 2. **Ternary weights** (`-1,0,+1`): compare dense two-bit codes with any sparse format, counting index/skip overhead and decoder cost. Zeros only save time when the actual implementation skips useful work cheaply.

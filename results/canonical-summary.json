@@ -1,0 +1,1048 @@
+{
+  "scope": "host canonical full-optimal-set neural policy; NOT C64/integer acceptance",
+  "dataset_sha256": "a4539c7cde214440f3369085725ad32faaba03d5de3265c6a8333bdc12723597",
+  "dataset_revision": "6ea253e1fa7de4a61eedeab6bbd9d8117af1fcb7",
+  "canonical_count": 627,
+  "board_count": 4520,
+  "history_count": 294778,
+  "training_device": "cpu",
+  "cpu_threads": 1,
+  "gpu_preflight": {
+    "occupied": true,
+    "pid": 3668511,
+    "owner": "/usr/local/lib/ollama/llama-server",
+    "used_MiB": 10858,
+    "action": "left untouched; no CUDA training launched"
+  },
+  "candidates": [
+    {
+      "name": "qat/w8-h4-binary-islands-float-s23",
+      "result": "artifacts/canonical/qat/w8-h4-binary-islands-float-s23/result.json",
+      "config": {
+        "width": 8,
+        "expert_width": 4,
+        "precision": "binary",
+        "island_precision": "float"
+      },
+      "seed": 23,
+      "lr": 0.001,
+      "steps_completed": 4000,
+      "best_step": 3200,
+      "seconds": 24.297843266976997,
+      "canonical_set_errors": 299,
+      "board_move_errors": 1128,
+      "history_move_errors": 52590,
+      "board_set_errors": 2164,
+      "history_set_errors": 78814,
+      "accepted": false,
+      "encoded_bytes": 4281,
+      "checkpoint_sha256": "33ae665bed4cad82aba8e682bea8005d20efef0468d74031eb9cb186f475c33d",
+      "teacher": {
+        "path": "artifacts/canonical/seed23-wide/w8-h4-float-s23/best.pt",
+        "sha256": "38dcb518e116ae315f6c91a0a31a72e1ca9d6df689e4796818ab3a3d0fc3b727"
+      },
+      "status": "rejected-bounded-QAT",
+      "direct_canonical_set_errors": 455,
+      "packed_sha256": "83b2ebe7775ac85a10239ff1651e031fe5ffa36592647fb90919fcd06aea19e9",
+      "packed_parity_max_abs": 0.0
+    },
+    {
+      "name": "qat/w8-h4-float-islands-int4-s23",
+      "result": "artifacts/canonical/qat/w8-h4-float-islands-int4-s23/result.json",
+      "config": {
+        "width": 8,
+        "expert_width": 4,
+        "precision": "float",
+        "island_precision": "int4"
+      },
+      "seed": 23,
+      "lr": 0.001,
+      "steps_completed": 4000,
+      "best_step": 500,
+      "seconds": 18.520097859902307,
+      "canonical_set_errors": 269,
+      "board_move_errors": 1122,
+      "history_move_errors": 44609,
+      "board_set_errors": 1957,
+      "history_set_errors": 63409,
+      "accepted": false,
+      "encoded_bytes": 4529,
+      "checkpoint_sha256": "8615435e9bb55015fe95d6e274149583cee7fcd315b08cb7cdd119d9770a60b8",
+      "teacher": {
+        "path": "artifacts/canonical/seed23-wide/w8-h4-float-s23/best.pt",
+        "sha256": "38dcb518e116ae315f6c91a0a31a72e1ca9d6df689e4796818ab3a3d0fc3b727"
+      },
+      "status": "rejected-bounded-QAT",
+      "direct_canonical_set_errors": 353,
+      "packed_sha256": "4a70aa6cac2ee268de23a39b316508109b5eee08fa284f2e6c9ba01a082244d2",
+      "packed_parity_max_abs": 0.0
+    },
+    {
+      "name": "qat/w8-h4-float-islands-int8-refine-s23",
+      "result": "artifacts/canonical/qat/w8-h4-float-islands-int8-refine-s23/result.json",
+      "config": {
+        "width": 8,
+        "expert_width": 4,
+        "precision": "float",
+        "island_precision": "int8"
+      },
+      "seed": 23,
+      "lr": 0.0002,
+      "steps_completed": 2200,
+      "best_step": 2200,
+      "seconds": 10.508960057981312,
+      "canonical_set_errors": 0,
+      "board_move_errors": 0,
+      "history_move_errors": 0,
+      "board_set_errors": 0,
+      "history_set_errors": 0,
+      "accepted": true,
+      "encoded_bytes": 4945,
+      "checkpoint_sha256": "fca53d3712105f2647f43897bd66846a940046028c30db414f7b410a8b74402a",
+      "teacher": {
+        "path": "artifacts/canonical/qat/w8-h4-float-islands-int8-s23/best.pt",
+        "sha256": "f06a9dda754cc0e93d7afe30f43a65cc2e6d0dc3380c3ca646a2a6a3d1b5bd09",
+        "strategy": "near-gate int8 continuation; lr-only change"
+      },
+      "status": null,
+      "direct_canonical_set_errors": null,
+      "packed_sha256": "6e10652115c9f373f34b6158eeb6f87a1bec1e7db66a2ee8a96bf5b3dd380464",
+      "packed_parity_max_abs": 0.0
+    },
+    {
+      "name": "qat/w8-h4-float-islands-int8-s23",
+      "result": "artifacts/canonical/qat/w8-h4-float-islands-int8-s23/result.json",
+      "config": {
+        "width": 8,
+        "expert_width": 4,
+        "precision": "float",
+        "island_precision": "int8"
+      },
+      "seed": 23,
+      "lr": 0.001,
+      "steps_completed": 4000,
+      "best_step": 3200,
+      "seconds": 19.017843367997557,
+      "canonical_set_errors": 1,
+      "board_move_errors": 3,
+      "history_move_errors": 108,
+      "board_set_errors": 8,
+      "history_set_errors": 288,
+      "accepted": false,
+      "encoded_bytes": 4945,
+      "checkpoint_sha256": "f06a9dda754cc0e93d7afe30f43a65cc2e6d0dc3380c3ca646a2a6a3d1b5bd09",
+      "teacher": {
+        "path": "artifacts/canonical/seed23-wide/w8-h4-float-s23/best.pt",
+        "sha256": "38dcb518e116ae315f6c91a0a31a72e1ca9d6df689e4796818ab3a3d0fc3b727"
+      },
+      "status": "rejected-bounded-QAT",
+      "direct_canonical_set_errors": 2,
+      "packed_sha256": "24a8f6f976bdd3f87bf3f3cdcca679f53832fc798c8d5cc8fa394827b334255a",
+      "packed_parity_max_abs": 0.0
+    },
+    {
+      "name": "qat/w8-h4-ternary-islands-float-s23",
+      "result": "artifacts/canonical/qat/w8-h4-ternary-islands-float-s23/result.json",
+      "config": {
+        "width": 8,
+        "expert_width": 4,
+        "precision": "ternary",
+        "island_precision": "float"
+      },
+      "seed": 23,
+      "lr": 0.001,
+      "steps_completed": 4000,
+      "best_step": 3200,
+      "seconds": 24.10907489201054,
+      "canonical_set_errors": 269,
+      "board_move_errors": 983,
+      "history_move_errors": 53680,
+      "board_set_errors": 1968,
+      "history_set_errors": 80314,
+      "accepted": false,
+      "encoded_bytes": 4385,
+      "checkpoint_sha256": "79d659138a629bba4594a997a11a03c0cbf808c18bd86f2796ef4c4814844371",
+      "teacher": {
+        "path": "artifacts/canonical/seed23-wide/w8-h4-float-s23/best.pt",
+        "sha256": "38dcb518e116ae315f6c91a0a31a72e1ca9d6df689e4796818ab3a3d0fc3b727"
+      },
+      "status": "rejected-bounded-QAT",
+      "direct_canonical_set_errors": 457,
+      "packed_sha256": "01c8d096f69f2563f4f56c6e0d836e9a794a4e708ac679e92e5461bff62077bb",
+      "packed_parity_max_abs": 0.0
+    },
+    {
+      "name": "seed23/w4-h4-float-s23",
+      "result": "artifacts/canonical/seed23/w4-h4-float-s23/result.json",
+      "config": {
+        "width": 4,
+        "expert_width": 4,
+        "precision": "float"
+      },
+      "seed": 23,
+      "lr": 0.003,
+      "steps_completed": 5000,
+      "best_step": 4000,
+      "seconds": 31.96316277096048,
+      "canonical_set_errors": 241,
+      "board_move_errors": 932,
+      "history_move_errors": 44037,
+      "board_set_errors": 1773,
+      "history_set_errors": 74985,
+      "accepted": false,
+      "encoded_bytes": 3033,
+      "checkpoint_sha256": "9b1d7696bd00912d0318de221dd15a674758240acf7d50df468c0e8c2121bb4b",
+      "teacher": null,
+      "status": null,
+      "direct_canonical_set_errors": null,
+      "packed_sha256": null,
+      "packed_parity_max_abs": null
+    },
+    {
+      "name": "seed23/w6-h6-float-s23",
+      "result": "artifacts/canonical/seed23/w6-h6-float-s23/result.json",
+      "config": {
+        "width": 6,
+        "expert_width": 6,
+        "precision": "float"
+      },
+      "seed": 23,
+      "lr": 0.003,
+      "steps_completed": 5000,
+      "best_step": 4700,
+      "seconds": 29.373444070108235,
+      "canonical_set_errors": 12,
+      "board_move_errors": 40,
+      "history_move_errors": 2112,
+      "board_set_errors": 92,
+      "history_set_errors": 3536,
+      "accepted": false,
+      "encoded_bytes": 5953,
+      "checkpoint_sha256": "6ae2622addadd5dd6114fb5025821c91407aff0067e5f2ed4b2e992d63e9ffb2",
+      "teacher": null,
+      "status": null,
+      "direct_canonical_set_errors": null,
+      "packed_sha256": null,
+      "packed_parity_max_abs": null
+    },
+    {
+      "name": "seed23-wide/w8-h4-float-s23",
+      "result": "artifacts/canonical/seed23-wide/w8-h4-float-s23/result.json",
+      "config": {
+        "width": 8,
+        "expert_width": 4,
+        "precision": "float"
+      },
+      "seed": 23,
+      "lr": 0.003,
+      "steps_completed": 3300,
+      "best_step": 3300,
+      "seconds": 19.041323238052428,
+      "canonical_set_errors": 0,
+      "board_move_errors": 0,
+      "history_move_errors": 0,
+      "board_set_errors": 0,
+      "history_set_errors": 0,
+      "accepted": true,
+      "encoded_bytes": 7417,
+      "checkpoint_sha256": "38dcb518e116ae315f6c91a0a31a72e1ca9d6df689e4796818ab3a3d0fc3b727",
+      "teacher": null,
+      "status": null,
+      "direct_canonical_set_errors": null,
+      "packed_sha256": null,
+      "packed_parity_max_abs": null
+    },
+    {
+      "name": "w4-h4-float-s11",
+      "result": "artifacts/canonical/w4-h4-float-s11/result.json",
+      "config": {
+        "width": 4,
+        "expert_width": 4,
+        "precision": "float"
+      },
+      "seed": 11,
+      "lr": 0.003,
+      "steps_completed": 5000,
+      "best_step": 4800,
+      "seconds": 32.01980517501943,
+      "canonical_set_errors": 253,
+      "board_move_errors": 920,
+      "history_move_errors": 42813,
+      "board_set_errors": 1839,
+      "history_set_errors": 64881,
+      "accepted": false,
+      "encoded_bytes": 3033,
+      "checkpoint_sha256": "1068c63607c8947170bd242c044c4ad10e3a234adad9eaa879917023efb297e9",
+      "teacher": null,
+      "status": null,
+      "direct_canonical_set_errors": null,
+      "packed_sha256": null,
+      "packed_parity_max_abs": null
+    },
+    {
+      "name": "w6-h6-float-s11",
+      "result": "artifacts/canonical/w6-h6-float-s11/result.json",
+      "config": {
+        "width": 6,
+        "expert_width": 6,
+        "precision": "float"
+      },
+      "seed": 11,
+      "lr": 0.003,
+      "steps_completed": 5000,
+      "best_step": 4700,
+      "seconds": 29.563960504019633,
+      "canonical_set_errors": 104,
+      "board_move_errors": 528,
+      "history_move_errors": 23988,
+      "board_set_errors": 776,
+      "history_set_errors": 31024,
+      "accepted": false,
+      "encoded_bytes": 5953,
+      "checkpoint_sha256": "83d67e9b9ca6093b2ed4943e08a661790fa65847b49c5396e5a1376c36d0681c",
+      "teacher": null,
+      "status": null,
+      "direct_canonical_set_errors": null,
+      "packed_sha256": null,
+      "packed_parity_max_abs": null
+    },
+    {
+      "name": "w8-h4-float-refine-s11",
+      "result": "artifacts/canonical/w8-h4-float-refine-s11/result.json",
+      "config": {
+        "width": 8,
+        "expert_width": 4,
+        "precision": "float"
+      },
+      "seed": 11,
+      "lr": 0.001,
+      "steps_completed": 4000,
+      "best_step": 3300,
+      "seconds": 22.858471231069416,
+      "canonical_set_errors": 2,
+      "board_move_errors": 16,
+      "history_move_errors": 128,
+      "board_set_errors": 16,
+      "history_set_errors": 128,
+      "accepted": false,
+      "encoded_bytes": 7417,
+      "checkpoint_sha256": "8cef4d23222f9997300fd264730974f14bffe2dce2e8e04ff6496acc677cdb48",
+      "teacher": {
+        "path": "artifacts/canonical/w8-h4-float-s11/best.pt",
+        "strategy": "near-gate float refinement; lr-only change"
+      },
+      "status": null,
+      "direct_canonical_set_errors": null,
+      "packed_sha256": null,
+      "packed_parity_max_abs": null
+    },
+    {
+      "name": "w8-h4-float-s11",
+      "result": "artifacts/canonical/w8-h4-float-s11/result.json",
+      "config": {
+        "width": 8,
+        "expert_width": 4,
+        "precision": "float"
+      },
+      "seed": 11,
+      "lr": 0.003,
+      "steps_completed": 5000,
+      "best_step": 4900,
+      "seconds": 28.11713163089007,
+      "canonical_set_errors": 2,
+      "board_move_errors": 16,
+      "history_move_errors": 128,
+      "board_set_errors": 16,
+      "history_set_errors": 128,
+      "accepted": false,
+      "encoded_bytes": 7417,
+      "checkpoint_sha256": "681d6e4efa352a4c63124866c8452698720fcda2058ebbc0ab13cbb8128607cc",
+      "teacher": null,
+      "status": null,
+      "direct_canonical_set_errors": null,
+      "packed_sha256": null,
+      "packed_parity_max_abs": null
+    },
+    {
+      "name": "w8-h8-float-s11",
+      "result": "artifacts/canonical/w8-h8-float-s11/result.json",
+      "config": {
+        "width": 8,
+        "expert_width": 8,
+        "precision": "float"
+      },
+      "seed": 11,
+      "lr": 0.003,
+      "steps_completed": 1400,
+      "best_step": 1400,
+      "seconds": 8.613770921016112,
+      "canonical_set_errors": 0,
+      "board_move_errors": 0,
+      "history_move_errors": 0,
+      "board_set_errors": 0,
+      "history_set_errors": 0,
+      "accepted": true,
+      "encoded_bytes": 9865,
+      "checkpoint_sha256": "84c8df0e74ac1e212545accbdf8a563cbb32bb23b3633a57689691b14c2207a0",
+      "teacher": null,
+      "status": null,
+      "direct_canonical_set_errors": null,
+      "packed_sha256": null,
+      "packed_parity_max_abs": null
+    }
+  ],
+  "best": {
+    "name": "qat/w8-h4-float-islands-int8-refine-s23",
+    "checkpoint": "artifacts/canonical/qat/w8-h4-float-islands-int8-refine-s23/best.pt",
+    "checkpoint_sha256": "fca53d3712105f2647f43897bd66846a940046028c30db414f7b410a8b74402a",
+    "encoded_file": "artifacts/canonical/qat/w8-h4-float-islands-int8-refine-s23/packed/model.f9c",
+    "packed_sha256": "6e10652115c9f373f34b6158eeb6f87a1bec1e7db66a2ee8a96bf5b3dd380464",
+    "gate": {
+      "canonical_count": 627,
+      "board_count": 4520,
+      "history_count": 294778,
+      "canonical_set_errors": 0,
+      "canonical_bit_errors": 0,
+      "board_move_errors": 0,
+      "history_move_errors": 0,
+      "board_set_errors": 0,
+      "history_set_errors": 0,
+      "empty_canonical_sets": 0,
+      "minimum_legal_signed_margin": 0.2088550329208374,
+      "restoration_errors": 0,
+      "transform_errors": 0,
+      "transformations_checked": 36160,
+      "dataset_sha256": "a4539c7cde214440f3369085725ad32faaba03d5de3265c6a8333bdc12723597",
+      "accepted": true,
+      "history_gate": "every validated history indexed into evaluated board-dependent canonical neural outputs; no policy lookup at inference",
+      "arithmetic": "host FP32 / optional fake weight quantization; NOT integer or C64 accepted",
+      "forward_seconds": 0.0021080318838357925,
+      "restoration_seconds": 0.06392405414953828,
+      "cpu_benchmark": {
+        "threads": 1,
+        "batch": 627,
+        "repeats": 10,
+        "neural_boards_per_second": 329854.27619526256,
+        "includes_canonicalization": false,
+        "includes_restoration": false,
+        "host_cpu": "",
+        "target_6502_cycles": null
+      }
+    },
+    "packed_gate": {
+      "encoded_bytes": 4945,
+      "sha256": "6e10652115c9f373f34b6158eeb6f87a1bec1e7db66a2ee8a96bf5b3dd380464",
+      "inventory": [
+        {
+          "name": "position",
+          "shape": [
+            9,
+            8
+          ],
+          "elements": 72,
+          "bits": 8,
+          "scale_count": 1,
+          "bytes": 76
+        },
+        {
+          "name": "expert_w1",
+          "shape": [
+            9,
+            8,
+            4
+          ],
+          "elements": 288,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 1152
+        },
+        {
+          "name": "expert_b1",
+          "shape": [
+            9,
+            4
+          ],
+          "elements": 36,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 144
+        },
+        {
+          "name": "expert_w2",
+          "shape": [
+            9,
+            4,
+            8
+          ],
+          "elements": 288,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 1152
+        },
+        {
+          "name": "expert_b2",
+          "shape": [
+            9,
+            8
+          ],
+          "elements": 72,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 288
+        },
+        {
+          "name": "occupancy.weight",
+          "shape": [
+            3,
+            8
+          ],
+          "elements": 24,
+          "bits": 8,
+          "scale_count": 1,
+          "bytes": 28
+        },
+        {
+          "name": "side.weight",
+          "shape": [
+            2,
+            8
+          ],
+          "elements": 16,
+          "bits": 8,
+          "scale_count": 1,
+          "bytes": 20
+        },
+        {
+          "name": "norm1.weight",
+          "shape": [
+            8
+          ],
+          "elements": 8,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 32
+        },
+        {
+          "name": "norm1.bias",
+          "shape": [
+            8
+          ],
+          "elements": 8,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 32
+        },
+        {
+          "name": "query.weight",
+          "shape": [
+            8,
+            8
+          ],
+          "elements": 64,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 256
+        },
+        {
+          "name": "key.weight",
+          "shape": [
+            8,
+            8
+          ],
+          "elements": 64,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 256
+        },
+        {
+          "name": "value.weight",
+          "shape": [
+            8,
+            8
+          ],
+          "elements": 64,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 256
+        },
+        {
+          "name": "projection.weight",
+          "shape": [
+            8,
+            8
+          ],
+          "elements": 64,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 256
+        },
+        {
+          "name": "readout.weight",
+          "shape": [
+            8,
+            72
+          ],
+          "elements": 576,
+          "bits": 8,
+          "scale_count": 1,
+          "bytes": 580
+        },
+        {
+          "name": "readout.bias",
+          "shape": [
+            8
+          ],
+          "elements": 8,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 32
+        },
+        {
+          "name": "norm2.weight",
+          "shape": [
+            8
+          ],
+          "elements": 8,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 32
+        },
+        {
+          "name": "norm2.bias",
+          "shape": [
+            8
+          ],
+          "elements": 8,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 32
+        },
+        {
+          "name": "router.weight",
+          "shape": [
+            9,
+            8
+          ],
+          "elements": 72,
+          "bits": 8,
+          "scale_count": 1,
+          "bytes": 76
+        },
+        {
+          "name": "router.bias",
+          "shape": [
+            9
+          ],
+          "elements": 9,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 36
+        },
+        {
+          "name": "output.weight",
+          "shape": [
+            9,
+            8
+          ],
+          "elements": 72,
+          "bits": 8,
+          "scale_count": 1,
+          "bytes": 76
+        },
+        {
+          "name": "output.bias",
+          "shape": [
+            9
+          ],
+          "elements": 9,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 36
+        }
+      ],
+      "max_abs_logit_error": 0.0,
+      "routes_equal": true,
+      "fake": {
+        "canonical_count": 627,
+        "board_count": 4520,
+        "history_count": 294778,
+        "canonical_set_errors": 0,
+        "canonical_bit_errors": 0,
+        "board_move_errors": 0,
+        "history_move_errors": 0,
+        "board_set_errors": 0,
+        "history_set_errors": 0,
+        "empty_canonical_sets": 0,
+        "minimum_legal_signed_margin": 0.2088550329208374,
+        "restoration_errors": 0,
+        "transform_errors": 0,
+        "transformations_checked": 36160,
+        "dataset_sha256": "a4539c7cde214440f3369085725ad32faaba03d5de3265c6a8333bdc12723597",
+        "accepted": true,
+        "history_gate": "every validated history indexed into evaluated board-dependent canonical neural outputs; no policy lookup at inference",
+        "arithmetic": "host FP32 / optional fake weight quantization; NOT integer or C64 accepted",
+        "forward_seconds": 0.001922947121784091,
+        "restoration_seconds": 0.06301912502385676,
+        "cpu_benchmark": {
+          "threads": 1,
+          "batch": 627,
+          "repeats": 10,
+          "neural_boards_per_second": 327819.67274741887,
+          "includes_canonicalization": false,
+          "includes_restoration": false,
+          "host_cpu": "",
+          "target_6502_cycles": null
+        }
+      },
+      "decoded": {
+        "canonical_count": 627,
+        "board_count": 4520,
+        "history_count": 294778,
+        "canonical_set_errors": 0,
+        "canonical_bit_errors": 0,
+        "board_move_errors": 0,
+        "history_move_errors": 0,
+        "board_set_errors": 0,
+        "history_set_errors": 0,
+        "empty_canonical_sets": 0,
+        "minimum_legal_signed_margin": 0.2088550329208374,
+        "restoration_errors": 0,
+        "transform_errors": 0,
+        "transformations_checked": 36160,
+        "dataset_sha256": "a4539c7cde214440f3369085725ad32faaba03d5de3265c6a8333bdc12723597",
+        "accepted": true,
+        "history_gate": "every validated history indexed into evaluated board-dependent canonical neural outputs; no policy lookup at inference",
+        "arithmetic": "host FP32 / optional fake weight quantization; NOT integer or C64 accepted",
+        "forward_seconds": 0.0016398217994719744,
+        "restoration_seconds": 0.0673981609288603,
+        "cpu_benchmark": {
+          "threads": 1,
+          "batch": 627,
+          "repeats": 10,
+          "neural_boards_per_second": 379383.8128470234,
+          "includes_canonicalization": false,
+          "includes_restoration": false,
+          "host_cpu": "",
+          "target_6502_cycles": null
+        }
+      }
+    },
+    "payload": {
+      "inventory": [
+        {
+          "name": "position",
+          "shape": [
+            9,
+            8
+          ],
+          "elements": 72,
+          "bits": 8,
+          "scale_count": 1,
+          "bytes": 76
+        },
+        {
+          "name": "expert_w1",
+          "shape": [
+            9,
+            8,
+            4
+          ],
+          "elements": 288,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 1152
+        },
+        {
+          "name": "expert_b1",
+          "shape": [
+            9,
+            4
+          ],
+          "elements": 36,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 144
+        },
+        {
+          "name": "expert_w2",
+          "shape": [
+            9,
+            4,
+            8
+          ],
+          "elements": 288,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 1152
+        },
+        {
+          "name": "expert_b2",
+          "shape": [
+            9,
+            8
+          ],
+          "elements": 72,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 288
+        },
+        {
+          "name": "occupancy.weight",
+          "shape": [
+            3,
+            8
+          ],
+          "elements": 24,
+          "bits": 8,
+          "scale_count": 1,
+          "bytes": 28
+        },
+        {
+          "name": "side.weight",
+          "shape": [
+            2,
+            8
+          ],
+          "elements": 16,
+          "bits": 8,
+          "scale_count": 1,
+          "bytes": 20
+        },
+        {
+          "name": "norm1.weight",
+          "shape": [
+            8
+          ],
+          "elements": 8,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 32
+        },
+        {
+          "name": "norm1.bias",
+          "shape": [
+            8
+          ],
+          "elements": 8,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 32
+        },
+        {
+          "name": "query.weight",
+          "shape": [
+            8,
+            8
+          ],
+          "elements": 64,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 256
+        },
+        {
+          "name": "key.weight",
+          "shape": [
+            8,
+            8
+          ],
+          "elements": 64,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 256
+        },
+        {
+          "name": "value.weight",
+          "shape": [
+            8,
+            8
+          ],
+          "elements": 64,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 256
+        },
+        {
+          "name": "projection.weight",
+          "shape": [
+            8,
+            8
+          ],
+          "elements": 64,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 256
+        },
+        {
+          "name": "readout.weight",
+          "shape": [
+            8,
+            72
+          ],
+          "elements": 576,
+          "bits": 8,
+          "scale_count": 1,
+          "bytes": 580
+        },
+        {
+          "name": "readout.bias",
+          "shape": [
+            8
+          ],
+          "elements": 8,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 32
+        },
+        {
+          "name": "norm2.weight",
+          "shape": [
+            8
+          ],
+          "elements": 8,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 32
+        },
+        {
+          "name": "norm2.bias",
+          "shape": [
+            8
+          ],
+          "elements": 8,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 32
+        },
+        {
+          "name": "router.weight",
+          "shape": [
+            9,
+            8
+          ],
+          "elements": 72,
+          "bits": 8,
+          "scale_count": 1,
+          "bytes": 76
+        },
+        {
+          "name": "router.bias",
+          "shape": [
+            9
+          ],
+          "elements": 9,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 36
+        },
+        {
+          "name": "output.weight",
+          "shape": [
+            9,
+            8
+          ],
+          "elements": 72,
+          "bits": 8,
+          "scale_count": 1,
+          "bytes": 76
+        },
+        {
+          "name": "output.bias",
+          "shape": [
+            9
+          ],
+          "elements": 9,
+          "bits": 32,
+          "scale_count": 0,
+          "bytes": 36
+        }
+      ],
+      "weight_bytes": 4824,
+      "scale_bytes": 24,
+      "header_bytes": 16,
+      "symmetry_and_tie_bytes": 81,
+      "nonlinearity_lut_bytes": 0,
+      "alignment_bytes": 0,
+      "total_encoded_bytes": 4945,
+      "parameter_count": 1830,
+      "status": "exact F9C1 encoding size; host FP32 arithmetic; no C64 runtime",
+      "decoder_and_kernel_code_bytes": null,
+      "activation_peak_bytes": null,
+      "fp32_nonlinearities": "LayerNorm, sqrt, softmax, GELU; no LUT used by host runtime"
+    },
+    "frozen_byte_identity": true,
+    "source_frozen_digests": "artifacts/canonical/qat/w8-h4-float-islands-int8-s23/result.json"
+  },
+  "public_wrapper": {
+    "public_wrapper_boards_checked": 4520,
+    "public_wrapper_errors": 0,
+    "counterexamples": [],
+    "public_wrapper_seconds": 2.11560867796652,
+    "singleton_canonical_set_errors": 0,
+    "singleton_vs_bulk_max_abs_logit_error": 0.000492095947265625
+  },
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:18:37) [Clang 22.1.3 ]",
+    "torch": "2.14.0+cu130",
+    "cuda": "13.0",
+    "device": "cpu",
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+    "threads": 1,
+    "argv": [
+      "artifacts/canonical/refine_int8.py"
+    ],
+    "env": {
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONPATH": null,
+      "CUDA_VISIBLE_DEVICES": null
+    }
+  },
+  "total_candidate_seconds": 298.0048889860045,
+  "tests": {
+    "passed": 48,
+    "subtests_passed": 37,
+    "warnings": [
+      "PyTorch NumPy initialization warning: NumPy not installed"
+    ],
+    "log": "artifacts/canonical/all-tests.log"
+  },
+  "source_sha256": {
+    "falken9/canonical_model.py": "4a6520d31c2da31341ccb529ff43a900b6923528005ba681dda83aaa63fd5b04",
+    "falken9/canonical_training.py": "9b817a63a67d7d7b0da82f9871b7bc9f60d512b826534dc7f464fff93fa0ce99",
+    "scripts/train_canonical.py": "eb1749bf8dd27ac965b5d7a39e81726632feeec51291c5878d1e904e326e2d34",
+    "scripts/evaluate_canonical.py": "629a7d547c3e2b373ab02dd35081e306707219fdabfc372bb3bad6275dcfb06b",
+    "falken9/model.py": "8a69ca9d8464add34cbe326ad3c193e7ef637853de9a9c46a823430597b21684",
+    "falken9/symmetry.py": "64cf0b88bc0d7f1fa07b6f9fe6d2a9ab0f1761a4eb356449a1eb75a100f4b8db",
+    "falken9/policy.py": "ee9792dc56f72323f9e161d1dfac62c2b4a11aeac82bb22f94033e39d1d69df7",
+    "artifacts/canonical/run_stages.py": "b3e07210d9f989c2313f5f4376cd012e2e97d33d708209f0d82740fd219218f3",
+    "artifacts/canonical/refine_int8.py": "b7b3da1bc48f977bd2407a60d3cf41522d63175750a741a5ab5db01dd5bf6a46",
+    "artifacts/canonical/verify_public.py": "ad9ab9f98a94d965d3841765e866e8011a988197d3c8ad54288183c5109fa6cb"
+  },
+  "commands": [
+    "OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python scripts/train_canonical.py --steps 5000 --seconds 90",
+    "Float w8/h4 s11 best -> train_candidate steps=4000 seconds=45 lr=.001 seed=11 (artifacts/canonical/refine.log)",
+    "OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python scripts/train_canonical.py --output artifacts/canonical/seed23 --shapes 4x4,6x6 --seeds 23 --steps 5000 --seconds 45",
+    "OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python scripts/train_canonical.py --output artifacts/canonical/seed23-wide --shapes 8x4 --seeds 23 --steps 6000 --seconds 45",
+    "OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python artifacts/canonical/run_stages.py",
+    "OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python artifacts/canonical/refine_int8.py",
+    "OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python scripts/evaluate_canonical.py artifacts/canonical/seed23-wide/w8-h4-float-s23/best.pt --output artifacts/canonical/independent-reload",
+    "OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python artifacts/canonical/verify_public.py",
+    "OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python -m pytest tests -q"
+  ],
+  "dense_multiplication_counts": {
+    "qkv_projection": 2304,
+    "attention_qk_and_av": 1296,
+    "readout": 576,
+    "router_output": 144,
+    "selected_two_experts": 128,
+    "total": 4448,
+    "note": "architecture count per board; excludes normalization, nonlinearities, gates, biases; NOT 6502 cycles"
+  },
+  "limits": [
+    "4945-byte encoded payload is below 8192 but above 4096; runtime code/scratch not included",
+    "FP32 bulk projections/experts, biases/norms, and host nonlinear arithmetic remain",
+    "No target integer activations, 6502 full inference, runtime RAM map, hardware execution, or game integration",
+    "Rejected bounded candidates do not establish representational impossibility"
+  ],
+  "next_stage": "Parity-test per-row/shared-scale quantization of FP32 bulk/readout groups from immutable accepted checkpoint; define target integer activations/nonlinearities before assembled full inference"
+}

@@ -17,8 +17,10 @@ This file distinguishes verified work from active experiments and target integra
 | Initial binary/ternary search | Six rejected candidates retained | Complete counterexamples and actual checkpoints; low bit count alone does not pass gameplay |
 | Assembled arithmetic kernels | Completed, isolated | Binary/ternary/INT8 weights with INT8 inputs, plus binary weights with INT16 inputs; real Py65 correctness/cycle gates |
 | C64 memory map audit | Completed, read-only/provisional | No complete-game arena proven free; 8 KiB model + 4 KiB scratch proposed only for a new harness |
-| Whole-model integer reference/export | Active next-stage workstream | Explicit integer normalization/attention/activation/scales, materialization parity and exhaustive move gate |
-| Smaller canonical-set model search | Active next-stage workstream | Train on 627 canonical boards; predict optimal set, inverse-map, preserve original-coordinate ties |
+| Whole-model integer reference/export | Implemented; direct candidates rejected | Best INT8/Q8: 5,153 bytes, 70 board / 1,189 history misses; decoder and independent scalar oracle agree exactly |
+| Canonical-set host model | Host behavior and packed parity passed | Width 8, expert width 4: 4,945 encoded bytes; zero set/move errors on all 294,778 histories; remaining floating arithmetic prevents target acceptance |
+| Expert count and active routing width | Active configurable-MoE search | Nine experts are not required; compare smaller learned banks and top-1/top-2, preserving genuine MoE |
+| Integer output range and canonical integer conversion | Active numerical-contract workstream | Diagnose final-logit saturation, integer precision and target accumulator costs before further QAT |
 | Full assembled neural inference | Unstarted | Dot-product kernels alone are not a complete neural runtime |
 | RAM-resident game integration | Unstarted | No model-data loads after initial load; complete game and view lifecycle |
 | Physical-hardware testing | Unstarted | Emulator evidence is not physical C64 acceptance |
@@ -34,5 +36,13 @@ The integrated first-wave suite, including the project-local assembler bootstrap
 Environment: Python 3.11.16, PyTorch 2.14.0, pytest 9.1.1, py65 1.2.0, 64tass 1.60.3243. The independent project Python environment and assembler bootstrap were both exercised successfully. CUDA training is available, but no target-performance claim follows from GPU training speed.
 
 The 8 KiB encoded-model goal is an optimization target, not a claim that a C64 cannot hold a larger model. The RAM audit proposes a conservative new-harness layout; complete game residency remains unproven at every size.
+
+## Second-wave verified outcomes
+
+The integrated suite passed **48 tests plus 37 subtests**. Both new artifact hashes were verified. Independent parent execution of the decoded 4,945-byte canonical packet reproduced zero canonical-set, board, history and coordinate-transform errors. Re-running the best integer candidate with the independent scalar oracle reproduced its exact 5,153-byte artifact and rejected result (70 board / 1,189 history errors).
+
+All eight initial whole-integer candidates have materialized-decoder and independent scalar logit/route parity, but none passes gameplay. The best candidate saturates only at final output (2,893 elements); its observed attention-scaled intermediate exceeds INT32. Those facts motivate range/scale diagnosis before blindly extending training. See `INTEGER_MODEL.md` and `CANONICAL_MODEL.md` for distinct acceptance boundaries.
+
+The owner clarified that expert count is configurable: demonstrate learned MoE on the C64 rather than preserve nine experts. The next architecture search varies expert-bank size and active top-k alongside width and precision; fixed-nine results remain frozen references.
 
 A model is not accepted merely because it has a small checkpoint or draws in self-play. Preserve exact deterministic move gates, packed-artifact byte counts and target-execution evidence as separate milestones. Results summaries will be updated as real experiments finish.

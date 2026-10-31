@@ -2,6 +2,8 @@
 
 A new C64-first neural tic-tac-toe policy project. The goal is a compact, RAM-resident model with real attention, learned routing and mixture-of-experts execution—not a stored move table. Crystal-9's published original-model release is preserved separately.
 
+Expert count and active top-k are optimization variables, not a requirement to keep nine experts. New candidates compare smaller learned expert banks while preserving genuine MoE.
+
 **Research status:** width-8/12/16 attention/MoE references pass all 294,778 published histories on the host. A mixed ternary reference also passes, but remains over the preferred size target and uses floating arithmetic. Four isolated assembled dot-product kernels are verified. Whole-model integer conversion and smaller symmetry-aware training are active; no Falken-9 model is yet accepted as a complete C64 deployment. Physical hardware has not been tested.
 
 ## Plan and evidence
@@ -12,6 +14,8 @@ A new C64-first neural tic-tac-toe policy project. The goal is a compact, RAM-re
 - [Trained reference candidates and exhaustive results](docs/TRAINING.md)
 - [Arithmetic contract and measured 6502 kernels](docs/ARITHMETIC.md)
 - [Read-only C64 RAM audit and provisional allocations](docs/RAM_AUDIT.md)
+- [Canonical optimal-set host model](docs/CANONICAL_MODEL.md)
+- [Whole-integer direct-conversion experiments and rejected candidates](docs/INTEGER_MODEL.md)
 - [Dataset audit](results/dataset-audit.json)
 - [Symmetry audit](results/symmetry-audit.json)
 
