@@ -1,0 +1,486 @@
+{
+  "schema": "falken9-inspection-v1",
+  "role": "Derived exact-integer inspection graph, not deployment packet",
+  "source_packet": {
+    "path": "artifacts/flexible-integer/q11-w16-a32-early-interp/model.f9j",
+    "bytes": 5195,
+    "sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1"
+  },
+  "onnx": {
+    "path": "inspection/falken9-model-v1.0.0.onnx",
+    "bytes": 86511,
+    "sha256": "0e92767ffdae27b9cbd7682583839d4541419fb9bedf47dfaec73a0b00ee5160",
+    "external_data_files": [],
+    "opset": 18,
+    "ir_version": 10,
+    "top_level_nodes": 11,
+    "functions": 11,
+    "function_body_nodes": 986,
+    "initializers": 41
+  },
+  "input": {
+    "name": "board",
+    "dtype": "INT64",
+    "shape": [
+      1,
+      9
+    ],
+    "precondition": "Canonical reachable nonterminal board, occupancy 0 empty / 1 X / 2 O. Domain preconditions are external, not validated by this graph."
+  },
+  "outputs": [
+    {
+      "name": "scores",
+      "dtype": "INT64",
+      "shape": [
+        1,
+        9
+      ],
+      "semantic": "Signed INT32-domain Q11 membership scores; legal empty squares >=0 are selected."
+    },
+    {
+      "name": "routes",
+      "dtype": "INT64",
+      "shape": [
+        1,
+        2
+      ],
+      "semantic": "Stable score-descending expert IDs in 0..3"
+    }
+  ],
+  "contract": {
+    "frac": 11,
+    "width": 8,
+    "expert_width": 4,
+    "experts": 4,
+    "topk": 2,
+    "activation_bits": 32,
+    "output_bits": 32,
+    "rounding": "nearest, ties away from zero",
+    "normalization_epsilon": 42,
+    "isqrt": "31 unrolled exact integer bit tests",
+    "attention": "full nine-token board; early round; factor 11585/32768",
+    "lookup": "linear interpolation of accepted 513-entry integer LUTs",
+    "softmax": "Q15; remainder to first argmax",
+    "expert_execution": "Gather selected weights before Mul/ReduceSum; two expert MLPs, not four",
+    "wrapper": "External history validation, canonical symmetry, inverse move symmetry, ebdfhcgia tie order"
+  },
+  "source_file_sha256": {
+    "falken9/canonical_integer.py": "a40f5dd5d9863155fb2857a11c233fe1c011cfdfa667b893fe0c37c6a4c2aba4",
+    "falken9/integer_model.py": "f6aff54d55ea0665f8969c7737cf26c17787d09019000d4a363a87c67aa01cd2",
+    "falken9/canonical_integer_export.py": "1eed279fedb1084c7c68145c499fba1041ae520297f1839d4adb67ae63d6778f",
+    "tests/test_canonical_integer_model.py": "16d5c2d7ab4ecad8cf60d44adce63d01c0981c0cd652af9be496eb2dffdd9abf",
+    "scripts/export_inspection_graph.py": "099c5e17ae09e9192ed09cb426ca02bf8c9c7d777227e10cfbf05881e5c69f3f"
+  },
+  "tensor_count": 21,
+  "tensor_lineage": [
+    {
+      "name": "position",
+      "shape": [
+        9,
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "de5d88308cce1a99475a5d338784ad8e1aa39c697e8e0a9ee5a289abfdb774f0",
+      "exponents": [
+        -11
+      ],
+      "matrix_layout": "native",
+      "onnx_initializer": "position"
+    },
+    {
+      "name": "expert_w1",
+      "shape": [
+        4,
+        8,
+        4
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "6ca2eb327f526d84a1f41ebafd87cd469793973f0b2d9178ec86df55f1ed4c3d",
+      "exponents": [
+        -14,
+        -13,
+        -13,
+        -14,
+        -14,
+        -14,
+        -13,
+        -13,
+        -14,
+        -14,
+        -14,
+        -13,
+        -14,
+        -13,
+        -13,
+        -13
+      ],
+      "matrix_layout": "[expert,input,output]",
+      "onnx_initializer": "expert_w1"
+    },
+    {
+      "name": "expert_b1",
+      "shape": [
+        4,
+        4
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "e3b435e764f9bc00246d88dc5350572312f28f030e1ffed6e7b9d87072f53f6a",
+      "exponents": [
+        -11
+      ],
+      "matrix_layout": "native",
+      "onnx_initializer": "expert_b1"
+    },
+    {
+      "name": "expert_w2",
+      "shape": [
+        4,
+        4,
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "f43b391c37c71b080039159f7a726f2fce12d69acee2e3bc9aeffadba6f35f9c",
+      "exponents": [
+        -13,
+        -12,
+        -12,
+        -13,
+        -14,
+        -14,
+        -13,
+        -13,
+        -14,
+        -12,
+        -14,
+        -14,
+        -13,
+        -13,
+        -14,
+        -13,
+        -14,
+        -13,
+        -13,
+        -13,
+        -14,
+        -13,
+        -13,
+        -18,
+        -12,
+        -13,
+        -13,
+        -13,
+        -13,
+        -13,
+        -13,
+        -13
+      ],
+      "matrix_layout": "[expert,input,output]",
+      "onnx_initializer": "expert_w2"
+    },
+    {
+      "name": "expert_b2",
+      "shape": [
+        4,
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "b4f086539e6e518f8a48b96ad0bce4254fd03f04ec9312099c64051222d4a8ed",
+      "exponents": [
+        -11
+      ],
+      "matrix_layout": "native",
+      "onnx_initializer": "expert_b2"
+    },
+    {
+      "name": "occupancy.weight",
+      "shape": [
+        3,
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "136e43ddbc33e1963bfcf7245babfe0f0f16dae41d054a569f674f4f60a4c6d0",
+      "exponents": [
+        -11
+      ],
+      "matrix_layout": "native",
+      "onnx_initializer": "occupancy.weight"
+    },
+    {
+      "name": "side.weight",
+      "shape": [
+        2,
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "cc13ccbb7a7381d111f253d3413162385a211c443eb21d5aeacf6a13cc9f6877",
+      "exponents": [
+        -11
+      ],
+      "matrix_layout": "native",
+      "onnx_initializer": "side.weight"
+    },
+    {
+      "name": "norm1.weight",
+      "shape": [
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "6dadeb2e2c3823c5abccb61e307fbd5583d8b5600e2c7daa7b0bdcb9f00d802e",
+      "exponents": [
+        -11
+      ],
+      "matrix_layout": "native",
+      "onnx_initializer": "norm1.weight"
+    },
+    {
+      "name": "norm1.bias",
+      "shape": [
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "020c784bf5e7be45490d49619cbca21fa625a2ccd3afb8bbc4f948fb8a1f5eab",
+      "exponents": [
+        -11
+      ],
+      "matrix_layout": "native",
+      "onnx_initializer": "norm1.bias"
+    },
+    {
+      "name": "query.weight",
+      "shape": [
+        8,
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "d0403ae08c619ef8b4a31074de4ff8795b981c7a637daea0fd078b6ff6ee0166",
+      "exponents": [
+        -15,
+        -15,
+        -16,
+        -15,
+        -15,
+        -14,
+        -15,
+        -15
+      ],
+      "matrix_layout": "[output,input]",
+      "onnx_initializer": "query.weight"
+    },
+    {
+      "name": "key.weight",
+      "shape": [
+        8,
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "93f57c8c5e25d8d7732a51deefda7fa8e430d2dd374f81224878dc8b87d46057",
+      "exponents": [
+        -15,
+        -15,
+        -16,
+        -15,
+        -15,
+        -14,
+        -15,
+        -15
+      ],
+      "matrix_layout": "[output,input]",
+      "onnx_initializer": "key.weight"
+    },
+    {
+      "name": "value.weight",
+      "shape": [
+        8,
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "ebcc9b75756a878795d26ad3ad49f460ae86dca315a16c00692b7757dc50daae",
+      "exponents": [
+        -16,
+        -15,
+        -15,
+        -15,
+        -16,
+        -15,
+        -16,
+        -15
+      ],
+      "matrix_layout": "[output,input]",
+      "onnx_initializer": "value.weight"
+    },
+    {
+      "name": "projection.weight",
+      "shape": [
+        8,
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "aed026979bded0fd55b0a1a9ed411dc89536b973ef279e612dfc4bcf8ffc7bfd",
+      "exponents": [
+        -15,
+        -15,
+        -15,
+        -16,
+        -16,
+        -16,
+        -15,
+        -15
+      ],
+      "matrix_layout": "[output,input]",
+      "onnx_initializer": "projection.weight"
+    },
+    {
+      "name": "readout.weight",
+      "shape": [
+        8,
+        72
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "b38aa34b066687c703599072c7e21bbea5fd5381e35dded60d37db8e40df01d0",
+      "exponents": [
+        -16,
+        -15,
+        -15,
+        -16,
+        -15,
+        -15,
+        -15,
+        -15
+      ],
+      "matrix_layout": "[output,input]",
+      "onnx_initializer": "readout.weight"
+    },
+    {
+      "name": "readout.bias",
+      "shape": [
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "e8370ae0b188ced9f280bc25aaac89d52710d1c5699bd84e2f1ee5084745337d",
+      "exponents": [
+        -11
+      ],
+      "matrix_layout": "native",
+      "onnx_initializer": "readout.bias"
+    },
+    {
+      "name": "norm2.weight",
+      "shape": [
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "8f6f60102d467d038fd8076b76d94dbe5eec13b5db1face2cc17e63614a39915",
+      "exponents": [
+        -11
+      ],
+      "matrix_layout": "native",
+      "onnx_initializer": "norm2.weight"
+    },
+    {
+      "name": "norm2.bias",
+      "shape": [
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "498f2612808d0051155f7a32e9e01967fe1b706adc67b48fd7a5448f98c325e8",
+      "exponents": [
+        -11
+      ],
+      "matrix_layout": "native",
+      "onnx_initializer": "norm2.bias"
+    },
+    {
+      "name": "router.weight",
+      "shape": [
+        4,
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "f17c70aa51156e98a1da5c64ba2fb3786bdfa6c5e5aac33ad35339582a950a1d",
+      "exponents": [
+        -14,
+        -15,
+        -14,
+        -14
+      ],
+      "matrix_layout": "[output,input]",
+      "onnx_initializer": "router.weight"
+    },
+    {
+      "name": "router.bias",
+      "shape": [
+        4
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "a98a8d84ad2ba28ac0c9b76646d6e84054f92666badd44ca3393a1540cecca6f",
+      "exponents": [
+        -11
+      ],
+      "matrix_layout": "native",
+      "onnx_initializer": "router.bias"
+    },
+    {
+      "name": "output.weight",
+      "shape": [
+        9,
+        8
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "e9417d87b6751f21dee6d6fc873a7fa25429b74697b609398a7a0819c9a50394",
+      "exponents": [
+        -12,
+        -12,
+        -12,
+        -12,
+        -12,
+        -13,
+        -12,
+        -12,
+        -12
+      ],
+      "matrix_layout": "[output,input]",
+      "onnx_initializer": "output.weight"
+    },
+    {
+      "name": "output.bias",
+      "shape": [
+        9
+      ],
+      "packet_storage_bits": 16,
+      "onnx_dtype": "INT64",
+      "codes_int64_le_sha256": "39958d19cb54b075b80fa686bc1795ff97cf50cbebf527e74ae09306fb6457f2",
+      "exponents": [
+        -11
+      ],
+      "matrix_layout": "native",
+      "onnx_initializer": "output.bias"
+    }
+  ],
+  "validation": "inspection/validation.json",
+  "render_provenance": "artifacts/inspection/netron/provenance.json",
+  "notes": [
+    "No float fallback or custom kernels. ONNX local functions expand into standard ONNX operators.",
+    "INT64 Sign avoided: observed ORT 1.31.1 CPU misclassification for 2290000000; Less/Where sign used instead.",
+    "This ONNX gate does not independently execute or certify the assembled 6502 implementation."
+  ]
+}

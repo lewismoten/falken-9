@@ -2,9 +2,37 @@
 
 A new C64-first neural tic-tac-toe policy project. The goal is a compact, RAM-resident model with real attention, learned routing and mixture-of-experts execution—not a stored move table. Crystal-9's published original-model release is preserved separately.
 
-Expert count and active top-k are optimization variables, not a requirement to keep nine experts. New candidates compare smaller learned expert banks while preserving genuine MoE.
+## Model v1.0.0
 
-**Research status:** the **5,195-byte four-expert integer model now powers a complete resident human-X/model-O game**. Its neural core passes all 627 canonical boards; the assembled symmetry/set-selection wrapper passes all 4,520 unique boards through a documented composed proof. The packaged PRG and true-drive D64 both complete draw/win/replay lifecycles under stock-ROM VICE, without per-turn model loads. Browser/physical-keyboard and physical-C64 acceptance remain separate. A smaller 4,931-byte mixed-precision variant passes host gates but is not yet assembled.
+The stable release uses the **5,195-byte four-expert integer model**, with two learned router-selected experts active per inference. The complete model stays in RAM during gameplay; there are no per-turn model-data disk loads.
+
+![Falken-9 resident neural tic-tac-toe: a completed draw in the C64 emulator](assets/screenshots/falken9-model-v1.0.0-draw.png)
+
+*Actual emulator screenshot supplied by Lewis Moten: a completed human-X/model-O draw. The image is preserved unchanged.*
+
+**Emulator-tested only.** Physical C64/1541 compatibility and performance have not been verified.
+
+The neural core passes all 627 canonical boards; the assembled symmetry/set-selection wrapper passes all 4,520 unique boards through a documented composed proof. The packaged PRG and true-drive D64 both complete draw/win/replay lifecycles under stock-ROM VICE. At the target browser, the PRG also passes complete matches, occupied-input recovery, terminal locking and replay. D64 browser autostart and its opening response pass, but later interaction remains unconfirmed because a host advertising iframe intercepted keyboard events. See [browser acceptance and its format-specific limits](docs/BROWSER_001.md).
+
+Expert count and active top-k remain optimization variables for separate research, not a requirement to keep nine experts. The smaller 4,931-byte mixed-precision candidate passes host gates but is not assembled and is **not** the model-v1.0.0 deployment.
+
+## Model inspection
+
+### Decoded tensor workflow
+
+[![Decoded Falken-9 tensor workflow: embeddings, full board attention, readout, learned routing and four experts](assets/model-v1.0.0-tensor-workflow.png)](assets/model-v1.0.0-tensor-workflow.svg)
+
+Each heatmap cell is one decoded scalar parameter from the accepted model, not a bit or byte. All four expert banks are shown; only two router-selected experts execute per inference. Color intensity is normalized per source tensor and is not comparable across tensors. This is a documentation inspector, **not a reconstructable model-data PNG**.
+
+[Workflow guide](docs/TENSOR_WORKFLOW.md) · [Zoomable SVG](assets/model-v1.0.0-tensor-workflow.svg) · [Tensor/geometry metadata](assets/model-v1.0.0-tensor-workflow.json)
+
+### Executable ONNX graph
+
+[Download the self-contained ONNX graph](inspection/falken9-model-v1.0.0.onnx) and open it in Netron. This is an **exact-integer inspection representation**, not the compact C64 deployment packet: ONNX Runtime matches the independent integer reference on all 627 canonical boards, with zero score or expert-route differences. History validation, symmetry restoration and final move selection remain outside the graph.
+
+[![Native Netron rendering of the Falken-9 integer forward graph](artifacts/inspection/netron/falken9-model-v1.0.0.png)](artifacts/inspection/netron/falken9-model-v1.0.0.svg)
+
+[Inspection guide](docs/INSPECTION_GRAPH.md) · [Zoomable Netron SVG](artifacts/inspection/netron/falken9-model-v1.0.0.svg) · [Source/tensor manifest](inspection/manifest.json) · [Validation](inspection/validation.json)
 
 ## Plan and evidence
 

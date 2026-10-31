@@ -105,3 +105,11 @@ Use a fail-fast progression: dataset/parity correctness first, small smoke train
 - Use tests before new implementation; run smoke execution and exhaustive evaluations on actual produced artifacts.
 - Report completed, active and unstarted components separately. CPU microbenchmarks, host policy accuracy, packed-runtime agreement and target acceptance are distinct claims.
 - Testing is emulator-only unless physical hardware is actually exercised. No wall-time or physical compatibility claim from host arithmetic or cycle counts alone.
+
+## Graphical UI follow-up: inference activity buttons
+
+For the future graphical console, place decorative computer buttons below the play field and let a changing subset blink during neural inference. This is an **activity indicator**, not a percentage or completed-work claim. Use animation state independent of model inputs, routing, tie selection and any gameplay randomness. Update only a reserved presentation footprint, preserve the board and all live neural buffers, and stop/reset the lights when inference completes, errors, or is canceled. Animate at safe, bounded real-computation checkpoints without introducing model-data loads; preserve caller registers, flags and zero-page ownership. Keep the verified `001` game/model artifacts unchanged and test the animation as a separate UI revision.
+
+## Graphical UI follow-up: title model/version identity
+
+When reusing the shared game artwork, identify this deployment on the title screen with `falken-9` and `v1.0` directly below it in the lower-right corner. Align the model/version block with the existing Info/Quit footer row so the Falken-9 disk can be distinguished from the Crystal-9 disk without relying on filenames. Render both model and version in dark blue as static, non-interactive identification: no highlighted shortcut letter, selection styling, blinking, or keyboard binding. Keep the actionable Info (`I`) and Quit (`Q`) controls visually distinct. Reserve a non-overlapping area that preserves footer controls, their highlight states and the shared artwork. Include the badge on first title entry and after every return/replay/restoration path, and verify it in actual emulator pixels. Keep the original Crystal-9 release and the frozen Falken-9 `001` artifacts unchanged; apply this identity treatment in the graphical UI revision.

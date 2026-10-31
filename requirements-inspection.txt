@@ -1,0 +1,7 @@
+# Optional exact-integer ONNX inspection and Netron rendering tools.
+# Install after the project's requirements-dev.txt (which supplies torch).
+onnx==1.23.2
+onnxruntime==1.31.1
+netron==9.3.4
+Pillow==13.0.0
+numpy==2.4.6

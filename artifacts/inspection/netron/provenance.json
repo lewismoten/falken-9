@@ -1,0 +1,53 @@
+{
+  "schema": "falken9-netron-render-v1",
+  "renderer": "Netron",
+  "version": "9.3.4",
+  "capture_utc": "2026-10-31T09:50:15.068182+00:00",
+  "source_onnx": "inspection/falken9-model-v1.0.0.onnx",
+  "source_onnx_sha256": "0e92767ffdae27b9cbd7682583839d4541419fb9bedf47dfaec73a0b00ee5160",
+  "server": "loopback-only Netron Python server, port 18081",
+  "browser": "HeadlessChrome/145.0.0.0 on Linux",
+  "native_export": "window.__view__.export(filename): Netron SVG serializer and Netron PNG encoder; host.export blob saved without pixel editing",
+  "png_scale": 2,
+  "layout": "Netron native top-to-bottom, 11 collapsed executable ONNX local functions; initialized tensors accessible in node properties, function definitions expandable",
+  "expanded_function_verified": "GatherTop2Experts: dynamic routes feed eight Gather operators selecting w1/w2, bias and binary exponent arrays before two Mul/ReduceSum expert layers",
+  "interface_capture": "Chrome DevTools Page.captureScreenshot, viewport 1360x1160, deviceScaleFactor 1",
+  "visual_review": "Full board-to-scores chain and routes output visible; stage names untruncated; no clipping. PNG and SVG are derived documentation assets, not deployment packets.",
+  "renderer_view_js_sha256": "261d527570913b11b486281cd4994b6801e860236b67404ad6d9b505a1e728e1",
+  "files": [
+    {
+      "path": "artifacts/inspection/netron/falken9-model-v1.0.0.png",
+      "bytes": 102902,
+      "sha256": "887396291f33ad313809494ca7a9c4281dd926fe4cb9e0cc80ddd83669639bb2",
+      "dimensions": [
+        648,
+        1750
+      ]
+    },
+    {
+      "path": "artifacts/inspection/netron/falken9-model-v1.0.0.svg",
+      "bytes": 39237,
+      "sha256": "07a7bd3b52deb087e962df60eb15fe2d76c304547834cd73c5b94283beff9430",
+      "dimensions": [
+        324,
+        875
+      ]
+    },
+    {
+      "path": "artifacts/inspection/netron/netron-interface.png",
+      "bytes": 59686,
+      "sha256": "9a82ba3e2899b97ee6ba2f825aa6742ae9c017d5947c0c3f69c1d2de17f12d92",
+      "dimensions": [
+        1360,
+        1160
+      ]
+    }
+  ],
+  "validation": "inspection/validation.json",
+  "tests": {
+    "command": ".venv/bin/python -m pytest tests/ -q",
+    "passed": 122,
+    "skipped": 2,
+    "subtests_passed": 677
+  }
+}

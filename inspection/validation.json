@@ -1,0 +1,27 @@
+{
+  "checker": "onnx.checker.check_model(full_check=True): PASS",
+  "runtime": "1.31.1",
+  "provider": [
+    "CPUExecutionProvider"
+  ],
+  "onnx_version": "1.23.2",
+  "canonical_count": 627,
+  "score_values_compared": 5643,
+  "route_values_compared": 1254,
+  "score_mismatch_boards": 0,
+  "route_mismatch_boards": 0,
+  "max_abs_score_error": 0,
+  "canonical_set_errors": 0,
+  "canonical_membership_bit_errors": 0,
+  "independent_scalar_oracle": true,
+  "oracle_path": "tests/test_canonical_integer_model.py:scalar_oracle",
+  "board_count": 4520,
+  "board_set_errors": 0,
+  "board_move_errors": 0,
+  "indexed_history_count": 294778,
+  "indexed_history_errors": 0,
+  "history_boundary": "History results are externally restored/indexed from ONNX canonical outputs, not ONNX history-wrapper execution.",
+  "dataset_sha256": "a4539c7cde214440f3369085725ad32faaba03d5de3265c6a8333bdc12723597",
+  "output_trace_sha256": "a872ad88b9380de5d99d7b637662f398e04e6c2f0320a46ad96c3e57033eb8f8",
+  "artifact_sha256": "0e92767ffdae27b9cbd7682583839d4541419fb9bedf47dfaec73a0b00ee5160"
+}
