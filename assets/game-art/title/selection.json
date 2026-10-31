@@ -1,0 +1,13 @@
+{
+  "base": "one",
+  "marker": {"source_cell": [9, 9]},
+  "highlight": {
+    "active_color": 7,
+    "inactive_color": 13
+  },
+  "states": {
+    "one": {"row": 9, "hotkey_column": 11, "text_start_column": 13, "text_width": 12},
+    "two": {"row": 11, "hotkey_column": 11, "text_start_column": 13, "text_width": 16},
+    "auto": {"row": 13, "hotkey_column": 11, "text_start_column": 13, "text_width": 8}
+  }
+}

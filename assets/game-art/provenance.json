@@ -1,0 +1,22 @@
+{
+  "compiler_origin": {"path": "scripts/compile_c64_assets.py", "sha256": "89b3404c89c643283133bb1512cba589cfdfeca1fc9043088f987110e398b011"},
+  "format": "falken9-original-cp64-art-v1",
+  "license": "Apache-2.0 (repository root LICENSE)",
+  "policy": "Original indexed PNG and JSON bytes are unmodified; runtime overlays are derivatives, never edits to these sources.",
+  "sources": {
+    "charset/id-order.json": {"bytes": 6214, "minimal_upload_source_identical": true, "origin": "assets/charset/id-order.json", "sha256": "d4061197e0b35738456b4e70eac6dfb00fb6068130d14983d80e69d2ec052b2c"},
+    "cp64-manifest.json": {"bytes": 3803, "minimal_upload_source_identical": true, "origin": "assets/manifest.json", "sha256": "fe961f23aab14199e2023d812f99a979f9c1a3989a8e2b85286c02e15213c177"},
+    "game/board/bitmap-selectors.png": {"bytes": 3298, "minimal_upload_source_identical": true, "origin": "assets/game/board/bitmap-selectors.png", "sha256": "09a41842b63d82bd2f6aa3a1010150b52e57b5b9da485c13c4a5fb7757e67598"},
+    "game/board/color-lo.png": {"bytes": 262, "minimal_upload_source_identical": true, "origin": "assets/game/board/color-lo.png", "sha256": "2d1212774c1c853d6a95eddef76c42027fdab17690ef52530ef3d590f3bf1edc"},
+    "game/board/layout.json": {"bytes": 2377, "minimal_upload_source_identical": true, "origin": "assets/game/board/layout.json", "sha256": "b2b14cb3e49a782f8b3c3176eb7fd927ba26b09bda860bfbf46392671170b72f"},
+    "game/board/screen-hi.png": {"bytes": 434, "minimal_upload_source_identical": true, "origin": "assets/game/board/screen-hi.png", "sha256": "912b02ec4b8a995bc41ca432f1bdf50af47943d1971a9834ddd1232ea969a06d"},
+    "game/board/screen-lo.png": {"bytes": 393, "minimal_upload_source_identical": true, "origin": "assets/game/board/screen-lo.png", "sha256": "fc9dbc9d22310721df9d5e9db5e22fec7815f1746d63bed5c91f49ed0a03bc05"},
+    "game/marks/o.png": {"bytes": 178, "minimal_upload_source_identical": true, "origin": "assets/game/marks/o.png", "sha256": "45cb3d106ac76d43ffb38212ee8d49b6797dacbbeff9644f63116a33c432d27c"},
+    "game/marks/x.png": {"bytes": 182, "minimal_upload_source_identical": true, "origin": "assets/game/marks/x.png", "sha256": "f4ddd9835e1db87975d6b3308ade47e43dcedae1cc6693b3a1600c27e8cb13c4"},
+    "info/image.png": {"bytes": 2142, "minimal_upload_source_identical": true, "origin": "assets/info/image.png", "sha256": "42382c35780a4eb2df9d249cc1a7fad97a421016e92eee30e49939fcd746123e"},
+    "title/image.png": {"bytes": 2933, "minimal_upload_source_identical": true, "origin": "assets/title/image.png", "sha256": "79c143196ead3f606e57de55112d268c9ade210c2a84281265d991faac9ca80e"},
+    "title/selection.json": {"bytes": 408, "minimal_upload_source_identical": true, "origin": "assets/title/selection.json", "sha256": "369fc7bad640d9ae3dce46182f9c723c0c1ca9b8f249a074080406768ba3a252"}
+  },
+  "upstream_commit": "97399bbed57caf63df3be6f4b910deaaaec13951",
+  "upstream_project": "Crystal Palace 9 / CP64"
+}
