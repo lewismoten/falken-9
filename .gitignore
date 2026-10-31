@@ -1,0 +1,10 @@
+# Downloaded/generated artifacts
+/data/
+/artifacts/
+/build/
+/.venv/
+*.d64
+*.pyc
+__pycache__/
+.pytest_cache/
+*.log

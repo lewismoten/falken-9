@@ -1,0 +1,18 @@
+{
+  "dataset_revision": "6ea253e1fa7de4a61eedeab6bbd9d8117af1fcb7",
+  "boards_checked": 4520,
+  "dihedral_canonical_nonterminal_boards": 627,
+  "inverse_optimal_set_mismatches": 0,
+  "single_selected_canonical_move_mismatches": 406,
+  "single_move_counterexample_boards": [
+    ".../.O./X..",
+    ".../.OX/...",
+    ".../.X./O..",
+    ".../.X./OOX",
+    ".../.XO/...",
+    ".../.XO/..X",
+    ".../.XO/.X.",
+    ".../O.X/.X."
+  ],
+  "scope": "Exact coordinate/target audit only; no learned symmetry model is accepted."
+}

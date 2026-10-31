@@ -1,0 +1,59 @@
+{
+  "repository": "lewismoten/tic-tac-toe",
+  "revision": "6ea253e1fa7de4a61eedeab6bbd9d8117af1fcb7",
+  "manifest_sha256": "0258d03ac9a2fd5bbf590736f9758d982d5f179e7415a4ca771418b22b1f2777",
+  "verified_files": {
+    "dihedral-canonical-reachable-board-states.jsonl": {
+      "sha256": "d6902f94079c71667d3f911b6d271bf6da28e6e42ef17e9d7795af24f17ac4e0",
+      "rows": 765,
+      "bytes": 45135
+    },
+    "nonterminal-board-states.jsonl": {
+      "sha256": "1e8904ad9c73e73b8617ab34646b52c409eb9b9a6c19e52e4b3662b9ba19fcad",
+      "rows": 4520,
+      "bytes": 266680
+    },
+    "nonterminal-legal-histories.jsonl": {
+      "sha256": "a4539c7cde214440f3369085725ad32faaba03d5de3265c6a8333bdc12723597",
+      "rows": 294778,
+      "bytes": 41066187
+    },
+    "reachable-board-states.jsonl": {
+      "sha256": "26fdd2b67900d1115bf1e6998abfcb1882b62644c7ec0cce5fe09f3e2d403ae2",
+      "rows": 5478,
+      "bytes": 323202
+    },
+    "rotation-canonical-reachable-board-states.jsonl": {
+      "sha256": "0c48f4a0a56ed4989f16cfdfbddf25d4067995bec114380df2db438ceb0d12c1",
+      "rows": 1383,
+      "bytes": 81597
+    }
+  },
+  "ancillary_sha256": {
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "58fd3c8afe0a779df1bbac50ee32b833f495011a4766377caed5234aa84f5159",
+    "generate_dataset.py": "4646f008f6bc181e361506b022632ee00b2909a743f34f21d2a1a49faa3af028"
+  },
+  "license": "Apache-2.0",
+  "audit": {
+    "histories": 294778,
+    "unique_nonterminal_boards": 4520,
+    "history_length_counts": {
+      "0": 1,
+      "1": 9,
+      "2": 72,
+      "3": 504,
+      "4": 3024,
+      "5": 13680,
+      "6": 49392,
+      "7": 100224,
+      "8": 127872
+    },
+    "independent_minimax_mismatches": 0,
+    "board_label_conflicts": 0,
+    "tie_order": "ebdfhcgia",
+    "board_only_supervision_is_consistent": true,
+    "scope": "dataset semantics only; no trained neural model accepted"
+  },
+  "status": "passed"
+}

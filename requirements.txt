@@ -1,0 +1,2 @@
+# Tested training reference; select the appropriate PyTorch wheel for your host.
+torch==2.14.0
