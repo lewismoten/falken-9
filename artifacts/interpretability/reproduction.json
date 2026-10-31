@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "files": {
+    "study": 14,
+    "maps": 7
+  },
+  "all_output_bytes_identical": true,
+  "source_hashes_verified": true,
+  "scope": "fresh separate output trees; final compact JSON serialization; fixed seeds and one CPU thread"
+}

@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="1130" viewBox="0 0 1480 1130">
+<rect width="100%" height="100%" fill="#101720"/>
+<text x="28" y="22" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="27" fill="#edf2f6">Tactical boards versus matched non-target boards</text>
+<text x="28" y="63" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Same weights; actual production recommendations. Nearest same-ply controls: occupancy-count distance is disclosed.</text>
+<rect x="28" y="105" width="1422" height="318" fill="#182330" stroke="#405368" stroke-width="1"/>
+<rect x="44" y="119" width="24" height="26" fill="#101720" stroke="#eda85f" stroke-width="2"/>
+<text x="51" y="124" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#eda85f">A</text>
+<text x="95" y="123" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#edf2f6">Immediate winning move</text>
+<text x="50" y="163" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">TACTICAL / board595 / test</text>
+<rect x="50" y="195" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63.33" y="203.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="53" y="198" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">1</text>
+<rect x="93" y="195" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="106.33" y="203.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="96" y="198" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">2</text>
+<rect x="136" y="195" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="149.33" y="203.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="50" y="238" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63.33" y="246.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<rect x="93" y="238" width="43" height="43" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="106.33" y="246.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="96" y="241" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">5</text>
+<rect x="136" y="238" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="149.33" y="246.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<rect x="50" y="281" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63.33" y="289.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="93" y="281" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="106.33" y="289.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="96" y="284" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">8</text>
+<rect x="136" y="281" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="149.33" y="289.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="139" y="284" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">9</text>
+<text x="203" y="196" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#82d5a1">Base square5; zero unit -&gt; 5</text>
+<text x="203" y="226" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#eda85f">E0.h2 activation = 32330</text>
+<text x="203" y="256" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">Gates E1:32678/32768, E0:90/32768</text>
+<text x="203" y="284" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#edf2f6">Zero-unit effect on selected logit: -892</text>
+<text x="203" y="316" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#b8a0eb">A1 input lane1=-5627; static code -25136. Exact incoming term before</text>
+<text x="203" y="335" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#b8a0eb">whole-dot rounding: 141440272/8192.</text>
+<text x="735" y="163" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">NON-TARGET / board330 / train / count-distance 4</text>
+<rect x="735" y="195" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="748.33" y="203.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="738" y="198" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">1</text>
+<rect x="778" y="195" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="791.33" y="203.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="781" y="198" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">2</text>
+<rect x="821" y="195" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="834.33" y="203.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="824" y="198" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">3</text>
+<rect x="735" y="238" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="748.33" y="246.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<rect x="778" y="238" width="43" height="43" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="791.33" y="246.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="781" y="241" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">5</text>
+<rect x="821" y="238" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="834.33" y="246.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="735" y="281" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="748.33" y="289.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="778" y="281" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="791.33" y="289.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="781" y="284" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">8</text>
+<rect x="821" y="281" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="834.33" y="289.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<text x="888" y="196" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#82d5a1">Base square5; zero unit -&gt; 5</text>
+<text x="888" y="226" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#eda85f">E0.h2 activation = 34701</text>
+<text x="888" y="256" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">Gates E1:32683/32768, E0:85/32768</text>
+<text x="888" y="284" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#edf2f6">Zero-unit effect on selected logit: -909</text>
+<text x="888" y="316" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#b8a0eb">A1 input lane1=-4308; static code -25136. Exact incoming term before</text>
+<text x="888" y="335" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#b8a0eb">whole-dot rounding: 108285888/8192.</text>
+<text x="48" y="382" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">Higher activation on the non-winning control; tiny E0 gate limits the effect. Not a winning-neuron detector.</text>
+<rect x="28" y="445" width="1422" height="318" fill="#182330" stroke="#405368" stroke-width="1"/>
+<rect x="44" y="459" width="24" height="26" fill="#101720" stroke="#eda85f" stroke-width="2"/>
+<text x="51" y="464" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#eda85f">B</text>
+<text x="95" y="463" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#edf2f6">Blocking an immediate threat</text>
+<text x="50" y="503" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">TACTICAL / board553 / test</text>
+<rect x="50" y="535" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63.33" y="543.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="53" y="538" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">1</text>
+<rect x="93" y="535" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="106.33" y="543.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<rect x="136" y="535" width="43" height="43" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="149.33" y="543.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="139" y="538" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">3</text>
+<rect x="50" y="578" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63.33" y="586.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<rect x="93" y="578" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="106.33" y="586.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="136" y="578" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="149.33" y="586.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="50" y="621" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63.33" y="629.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="93" y="621" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="106.33" y="629.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<rect x="136" y="621" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="149.33" y="629.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="139" y="624" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">9</text>
+<text x="203" y="536" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#82d5a1">Base square3; zero unit -&gt; 3</text>
+<text x="203" y="566" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#eda85f">E0.h2 activation = 38049</text>
+<text x="203" y="596" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">Gates E1:32763/32768, E0:5/32768</text>
+<text x="203" y="624" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#edf2f6">Zero-unit effect on selected logit: +148</text>
+<text x="203" y="656" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#b8a0eb">B1 input lane1=-5341; static code -25136. Exact incoming term before</text>
+<text x="203" y="675" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#b8a0eb">whole-dot rounding: 134251376/8192.</text>
+<text x="735" y="503" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">NON-TARGET / board287 / test / count-distance 2</text>
+<rect x="735" y="535" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="748.33" y="543.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="738" y="538" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">1</text>
+<rect x="778" y="535" width="43" height="43" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="791.33" y="543.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="781" y="538" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">2</text>
+<rect x="821" y="535" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="834.33" y="543.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<rect x="735" y="578" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="748.33" y="586.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<rect x="778" y="578" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="791.33" y="586.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="821" y="578" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="834.33" y="586.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="735" y="621" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="748.33" y="629.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="778" y="621" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="791.33" y="629.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<rect x="821" y="621" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="834.33" y="629.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="824" y="624" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">9</text>
+<text x="888" y="536" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#82d5a1">Base square2; zero unit -&gt; 2</text>
+<text x="888" y="566" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#eda85f">E0.h2 activation = 40609</text>
+<text x="888" y="596" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">Gates E1:32761/32768, E0:7/32768</text>
+<text x="888" y="624" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#edf2f6">Zero-unit effect on selected logit: +103</text>
+<text x="888" y="656" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#b8a0eb">B1 input lane1=-4277; static code -25136. Exact incoming term before</text>
+<text x="888" y="675" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#b8a0eb">whole-dot rounding: 107506672/8192.</text>
+<text x="48" y="722" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">The same E0.h2 unit is also ranked for winning availability: shared, weakly associated behavior, not a dedicated blocker.</text>
+<rect x="28" y="785" width="1422" height="318" fill="#182330" stroke="#405368" stroke-width="1"/>
+<rect x="44" y="799" width="24" height="26" fill="#101720" stroke="#eda85f" stroke-width="2"/>
+<text x="51" y="804" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#eda85f">C</text>
+<text x="95" y="803" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#edf2f6">Creating a double threat / fork</text>
+<text x="50" y="843" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">TACTICAL / board170 / test</text>
+<rect x="50" y="875" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63.33" y="883.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="53" y="878" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">1</text>
+<rect x="93" y="875" width="43" height="43" fill="#101720" stroke="#ee8e90" stroke-width="3"/>
+<text x="106.33" y="883.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="96" y="878" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">2</text>
+<rect x="136" y="875" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="149.33" y="883.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="139" y="878" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">3</text>
+<rect x="50" y="918" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63.33" y="926.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="53" y="921" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">4</text>
+<rect x="93" y="918" width="43" height="43" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="106.33" y="926.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="96" y="921" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">5</text>
+<rect x="136" y="918" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="149.33" y="926.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="50" y="961" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63.33" y="969.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="93" y="961" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="106.33" y="969.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<rect x="136" y="961" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="149.33" y="969.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<text x="203" y="876" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#ee8e90">Base square5; zero unit -&gt; 2</text>
+<text x="203" y="906" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#eda85f">E1.h0 activation = 25125</text>
+<text x="203" y="936" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">Gates E1:32371/32768, E2:397/32768</text>
+<text x="203" y="964" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#edf2f6">Zero-unit effect on selected logit: -427205</text>
+<text x="203" y="996" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#b8a0eb">C1 input lane7=12797; static code 29351. Exact incoming term before</text>
+<text x="203" y="1015" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#b8a0eb">whole-dot rounding: 375604747/16384.</text>
+<text x="735" y="843" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">NON-TARGET / board330 / train / count-distance 0</text>
+<rect x="735" y="875" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="748.33" y="883.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="738" y="878" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">1</text>
+<rect x="778" y="875" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="791.33" y="883.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="781" y="878" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">2</text>
+<rect x="821" y="875" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="834.33" y="883.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="824" y="878" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">3</text>
+<rect x="735" y="918" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="748.33" y="926.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<rect x="778" y="918" width="43" height="43" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="791.33" y="926.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="781" y="921" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">5</text>
+<rect x="821" y="918" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="834.33" y="926.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="735" y="961" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="748.33" y="969.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#88baff">O</text>
+<rect x="778" y="961" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="791.33" y="969.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#aab9c6">.</text>
+<text x="781" y="964" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="10" fill="#aab9c6">8</text>
+<rect x="821" y="961" width="43" height="43" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="834.33" y="969.6" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#ee8e90">X</text>
+<text x="888" y="876" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#82d5a1">Base square5; zero unit -&gt; 5</text>
+<text x="888" y="906" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#eda85f">E1.h0 activation = 5342</text>
+<text x="888" y="936" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">Gates E1:32683/32768, E0:85/32768</text>
+<text x="888" y="964" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#edf2f6">Zero-unit effect on selected logit: -91703</text>
+<text x="888" y="996" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#b8a0eb">C1 input lane7=2237; static code 29351. Exact incoming term before</text>
+<text x="888" y="1015" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#b8a0eb">whole-dot rounding: 65658187/16384.</text>
+<text x="48" y="1062" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">A real decision flip: removing C loses this fork choice. Non-fork effects and comparable control-weight damage prevent a unique fork-detector claim.</text>
+</svg>

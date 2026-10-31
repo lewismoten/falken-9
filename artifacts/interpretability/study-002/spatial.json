@@ -1,0 +1,130 @@
+{
+  "callout": "P1",
+  "tensor": "position",
+  "coordinates": [
+    4,
+    5
+  ],
+  "flat_index": 37,
+  "global_parameter_index": 37,
+  "packet_byte_offset": 407,
+  "stored_value": 581,
+  "bits": 16,
+  "scale": "Q11 constant embedding offset; NOT a rotation parameter",
+  "training_association": {
+    "task": "center_own",
+    "stage": "board_embedding",
+    "coordinates": "4,5",
+    "n": 372,
+    "positives": 101,
+    "residual_ply_correlation": 0.4800985814571985,
+    "positive_mean": 2925.3861386138615,
+    "negative_mean": 1478.309963099631
+  },
+  "attention_association": {
+    "task": "has_win",
+    "stage": "attention_probs",
+    "coordinates": "7,2",
+    "n": 372,
+    "positives": 181,
+    "residual_ply_correlation": -0.13384361201961337,
+    "positive_mean": 6238.049723756906,
+    "negative_mean": 8898.078534031414
+  },
+  "position_values": [
+    [
+      -139,
+      4,
+      550,
+      -127,
+      435,
+      384,
+      -247,
+      -112
+    ],
+    [
+      -557,
+      -305,
+      765,
+      1369,
+      -834,
+      -122,
+      -220,
+      -728
+    ],
+    [
+      -1351,
+      -518,
+      -1498,
+      1029,
+      763,
+      -59,
+      909,
+      1169
+    ],
+    [
+      489,
+      1028,
+      456,
+      220,
+      -487,
+      -254,
+      -586,
+      -706
+    ],
+    [
+      1008,
+      176,
+      268,
+      -1509,
+      376,
+      581,
+      939,
+      -554
+    ],
+    [
+      -417,
+      -749,
+      353,
+      94,
+      1015,
+      -1248,
+      163,
+      159
+    ],
+    [
+      -217,
+      317,
+      285,
+      -661,
+      -124,
+      972,
+      -880,
+      -370
+    ],
+    [
+      127,
+      -109,
+      43,
+      699,
+      -1106,
+      -117,
+      -7,
+      140
+    ],
+    [
+      -1309,
+      483,
+      -141,
+      -540,
+      -277,
+      115,
+      247,
+      -311
+    ]
+  ],
+  "control_coordinates": [
+    4,
+    7
+  ]
+}

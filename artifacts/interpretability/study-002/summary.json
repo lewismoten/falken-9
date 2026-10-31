@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "model_bytes": 5195,
+  "core_sha256": "838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961",
+  "seed": 1729,
+  "canonical_boards": 627,
+  "raw_boards": 4520,
+  "fold_counts": {
+    "train": 372,
+    "validation": 121,
+    "test": 134
+  },
+  "baseline_cached_logit_mismatches": 0,
+  "baseline_stage_vectors_checked": 13167,
+  "baseline_optimal_set_errors": 0,
+  "symmetry_roundtrips": 36160,
+  "interventions": 55,
+  "probe_metric_rows": 480,
+  "exploratory_unit_associations": 3410,
+  "multiplicity": "Exploratory training ranks, no significance/p-value claims or multiplicity-corrected discoveries; fixed held-out probe families reported in full.",
+  "generalization": "Probe-held-out canonical boards; NOT model-held-out states: deployed model was fitted/audited on this finite domain.",
+  "intervention_scope": "Copies only;627 exact integer forward reruns per treatment, composed into4520 original-coordinate wrappers. Fixed rounding/clamp/router/tie contract. Minimax offline diagnostic only.",
+  "release_files_unchanged": 68,
+  "source_sha256": {
+    "falken9/strategy_diagnostics.py": "8c0f2ffda2ef73c6a65409a9774fd67b14239221ea8ed85a26499c87974d9e16",
+    "scripts/model_strategy_study.py": "de6f4ef26cde4d6067fbac0b528503b65fe54befecf13fd077c72f27180fe357",
+    "falken9/flexible_integer.py": "fe221af88b88a99016afc1afbcb4ca492bcfc367e66390182f6c71d6cc326aec",
+    "falken9/flexible_integer_export.py": "d6537d730e56ca44860a9fd6bfb6b94946d6ecb8f31f29d6fc971ce4886e6d10",
+    "falken9/canonical_integer.py": "a40f5dd5d9863155fb2857a11c233fe1c011cfdfa667b893fe0c37c6a4c2aba4",
+    "falken9/canonical_integer_export.py": "1eed279fedb1084c7c68145c499fba1041ae520297f1839d4adb67ae63d6778f",
+    "falken9/integer_model.py": "f6aff54d55ea0665f8969c7737cf26c17787d09019000d4a363a87c67aa01cd2",
+    "falken9/integer_export.py": "b9b04d5c4d16622619df82dc4dedf307b933d0ba5786f9f9b70358201dfc4618",
+    "falken9/policy.py": "ee9792dc56f72323f9e161d1dfac62c2b4a11aeac82bb22f94033e39d1d69df7",
+    "falken9/symmetry.py": "64cf0b88bc0d7f1fa07b6f9fe6d2a9ab0f1761a4eb356449a1eb75a100f4b8db",
+    "src/app/wrapper.asm": "1bda409041da1136604decf0dae9f785d970f80784f25aed17c5ffc0da6abb49"
+  },
+  "fixture_sha256": {
+    "shard-0.jsonl": "ba1dd9201b8948d2519b5be5868ca410854348f90a88b7a4c516c5c3feb7a30c",
+    "shard-1.jsonl": "8e8177cea8c1d173d59b4978793018b79371b3224e2d638c0f4b921993ed64ee",
+    "shard-2.jsonl": "c8623653b8f6b8b6fd9edce9f6c734dfbbb7d22b1b01f2a2afd62b775ba7e4c4",
+    "shard-3.jsonl": "6e040adaf557d3f6a2cec9820e92ea352f524dc73f4b7234664e7532334b03eb"
+  },
+  "versions": {
+    "python": "3.11.16",
+    "numpy": "2.4.6",
+    "torch": "2.14.0+cu130"
+  },
+  "label_prevalence": {
+    "has_win": {
+      "canonical_positive": 321,
+      "canonical_n": 627,
+      "raw_positive": 2358,
+      "raw_n": 4520
+    },
+    "has_opponent_win": {
+      "canonical_positive": 440,
+      "canonical_n": 627,
+      "raw_positive": 3238,
+      "raw_n": 4520
+    },
+    "must_block": {
+      "canonical_positive": 133,
+      "canonical_n": 627,
+      "raw_positive": 976,
+      "raw_n": 4520
+    },
+    "opponent_double_threat": {
+      "canonical_positive": 138,
+      "canonical_n": 627,
+      "raw_positive": 1008,
+      "raw_n": 4520
+    },
+    "has_fork": {
+      "canonical_positive": 26,
+      "canonical_n": 627,
+      "raw_positive": 192,
+      "raw_n": 4520
+    },
+    "has_opponent_fork": {
+      "canonical_positive": 54,
+      "canonical_n": 627,
+      "raw_positive": 378,
+      "raw_n": 4520
+    },
+    "has_fork_prevention": {
+      "canonical_positive": 53,
+      "canonical_n": 627,
+      "raw_positive": 370,
+      "raw_n": 4520
+    },
+    "center_own": {
+      "canonical_positive": 173,
+      "canonical_n": 627,
+      "raw_positive": 1252,
+      "raw_n": 4520
+    },
+    "center_opponent": {
+      "canonical_positive": 190,
+      "canonical_n": 627,
+      "raw_positive": 1385,
+      "raw_n": 4520
+    },
+    "center_empty": {
+      "canonical_positive": 264,
+      "canonical_n": 627,
+      "raw_positive": 1883,
+      "raw_n": 4520
+    }
+  },
+  "unique_intervention_specifications": 50,
+  "unique_intervention_logit_outcomes": 48,
+  "inference_device": "cpu",
+  "cuda_context_initialized": false
+}
