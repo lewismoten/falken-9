@@ -26,8 +26,9 @@ This file distinguishes verified work from active experiments and target integra
 | Four-expert whole-integer conversion | Host integer gate passed | 5,195-byte W16 baseline and 4,931-byte mixed W8/W16 packets; zero set/move errors, independent scalar/materialized parity and public-wrapper checks |
 | Assembled attention-block inference | Partial target gate passed | Entire unchanged 6,110-byte reference resident; exact embedding/norm/QKV/attention/projection/residual on 64 canonical boards; 3,341 code bytes |
 | Full assembled neural forward | Exhaustive neural gate passed | Four-expert W16 packet 5,195 bytes; all intermediate vectors/logits/routes exact on 627 canonical boards, no model-data loads or mutation |
-| Assembled history/symmetry/set-selection wrapper | Next implementation stage | Published-domain expansion currently uses the host wrapper, not target instructions |
-| RAM-resident game integration | Next implementation stage | Neural proof allocation 16,842 bytes including reserved screen/stack; complete game and view lifecycle not yet tested |
+| Assembled history/symmetry/set-selection wrapper | Composed exhaustive gate passed | All 4,520 unique boards; real wrapper instructions with hash-verified logits from the prior 627 neural executions, not 4,520 rerun forwards |
+| RAM-resident game integration | Packaged PRG and true-drive D64 passed | Complete human-X/model-O draw and O-win games, replay, terminal/invalid recovery, unchanged resident model and no per-turn LOAD |
+| Target-browser / physical-keyboard acceptance | Active separate acceptance | Stock-ROM monitor-queue tests do not establish browser key-event behavior |
 | Physical-hardware testing | Unstarted | Emulator evidence is not physical C64 acceptance |
 
 ## Verified first-wave outcomes
@@ -77,3 +78,11 @@ The complete four-expert Q11/W16 neural forward now executes real NMOS 6502 inst
 Parent reran the complete suite: **109 tests plus 677 subtests passed**. Parent independently reconciled all four checkpoint shards into exactly the canonical indices 0..626 and verified the image digest `838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961`. Code is 5,503 bytes, model is 5,195 bytes, and the actual standalone allocation is 16,842 bytes including scratch and reserved screen/stack. Raw contiguous image size is 19,531 bytes, including filled holes; that is not the live allocation total.
 
 The exhaustive audit checked 725,122,178 emulator-visible writes, stack balance, executed instruction ranges and code/model immutability. Actual largest dot prefix was 5,463,132,850; recomputed finite-domain coarse envelopes reach 33,446,567,616, within signed40. Complete forward measured 8,050,591–8,110,463 CPU cycles, excluding IRQ/VIC/ROM/disk/wall-time. The complete neural forward is accepted for this standalone emulated core; no PRG/D64, assembled wrapper, playable game, complete-game residency or physical-hardware acceptance follows from it.
+
+## Sixth-wave application outcomes
+
+The complete resident game now invokes the unchanged accepted neural core through an assembled chronological-history validator, eight-transform canonicalizer, inverse full-set/legal-mask and original-coordinate tie selector. All 4,520 unique boards pass the composed wrapper gate using hash-verified frozen target logits. This does not mean 294,778 assembled wrapper calls or 4,520 additional neural forwards.
+
+The packaged PRG and byte-identical PRG extracted from the D64 complete an optimal-human draw and a deliberately nonoptimal-human O win, replay, invalid/occupied-input recovery and terminal locking through the actual game input loop. Every model response executes the network; model/code remain unchanged and no per-turn LOAD occurs. The BASIC launch restores the sixteen core bytes overlaid by its SYS stub. Neural execution saves/restores KERNAL zero page and disables IRQ while using its scratch; IRQ-enabled GETIN resumes afterward.
+
+Parent independently reran **116 tests plus 677 subtests**, with two optional-ROM tests skipped in the default suite. Parent then independently exercised both exact frozen transports in stock-ROM VICE: each passed complete draw/win lifecycles, seven neural requests and all seven full-logit comparisons, with code/model immutability. ROM monitor-injected keyboard queues remain distinct from physical/browser key events. Physical hardware and RESTORE/NMI during computation remain untested. Fine-grained layer progress and optional AI-vs-AI/title modes are not implemented; the current full-forward busy phase is intentionally honest. See `APP.md` for exact artifacts, byte digests and replay sequences.

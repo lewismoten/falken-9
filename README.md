@@ -4,7 +4,7 @@ A new C64-first neural tic-tac-toe policy project. The goal is a compact, RAM-re
 
 Expert count and active top-k are optimization variables, not a requirement to keep nine experts. New candidates compare smaller learned expert banks while preserving genuine MoE.
 
-**Research status:** the **5,195-byte four-expert integer model now executes its complete neural forward on an emulated NMOS 6502**, with unchanged resident model bytes and exact intermediate vectors, logits and routes on all 627 canonical boards. Target-produced logits pass every published history using the host symmetry/set-selection wrapper. A smaller 4,931-byte mixed-precision variant passes host gates but is not yet assembled. The assembled wrapper, playable C64 application and complete-game residency remain next; physical hardware has not been tested.
+**Research status:** the **5,195-byte four-expert integer model now powers a complete resident human-X/model-O game**. Its neural core passes all 627 canonical boards; the assembled symmetry/set-selection wrapper passes all 4,520 unique boards through a documented composed proof. The packaged PRG and true-drive D64 both complete draw/win/replay lifecycles under stock-ROM VICE, without per-turn model loads. Browser/physical-keyboard and physical-C64 acceptance remain separate. A smaller 4,931-byte mixed-precision variant passes host gates but is not yet assembled.
 
 ## Plan and evidence
 
@@ -21,6 +21,7 @@ Expert count and active top-k are optimization variables, not a requirement to k
 - [Exact local constant folding: storage versus computation](docs/LOCAL_FUSION.md)
 - [Four-expert whole-integer candidates and mixed-precision inventory](docs/FLEXIBLE_INTEGER.md)
 - [Assembled resident attention-block proof and memory map](docs/TARGET_RUNTIME.md)
+- [Resident playable application, build commands and exact test sequences](docs/APP.md)
 - [Dataset audit](results/dataset-audit.json)
 - [Symmetry audit](results/symmetry-audit.json)
 
