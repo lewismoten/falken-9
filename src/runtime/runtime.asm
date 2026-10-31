@@ -164,6 +164,9 @@ negate_acc:
     .include "lookup.asm"
     .include "attention.asm"
     .include "projection.asm"
+.if FULL_FORWARD
+    .include "forward.asm"
+.endif
 code_end:
 .cerror * > $4000, "runtime code overlaps resident model"
 * = $4000

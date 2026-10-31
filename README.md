@@ -4,7 +4,7 @@ A new C64-first neural tic-tac-toe policy project. The goal is a compact, RAM-re
 
 Expert count and active top-k are optimization variables, not a requirement to keep nine experts. New candidates compare smaller learned expert banks while preserving genuine MoE.
 
-**Research status:** a **4,931-byte four-expert whole-integer** attention/MoE model passes all 294,778 published histories on the host. The simpler all-W16 four-expert baseline is 5,195 bytes; the earlier nine-expert integer reference remains preserved. Real assembled 6502 execution now covers embedding through the complete attention block and residual, with unchanged resident model bytes and exact stage vectors on 64 canonical boards. Full inference, gameplay and complete-application residency are not yet accepted. Physical hardware has not been tested.
+**Research status:** the **5,195-byte four-expert integer model now executes its complete neural forward on an emulated NMOS 6502**, with unchanged resident model bytes and exact intermediate vectors, logits and routes on all 627 canonical boards. Target-produced logits pass every published history using the host symmetry/set-selection wrapper. A smaller 4,931-byte mixed-precision variant passes host gates but is not yet assembled. The assembled wrapper, playable C64 application and complete-game residency remain next; physical hardware has not been tested.
 
 ## Plan and evidence
 

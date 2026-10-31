@@ -1,6 +1,134 @@
-# Resident F9J2 target: assembled attention-block proof
+# Resident F9J2 target: complete four-expert neural forward
 
-## Verified result — not whole-model inference
+## Current accepted neural gate — 627/627 canonical boards
+
+The separate **four-expert, top-2, Q11/W16/INT32** packet is now executed through
+**every neural stage** by actual assembled NMOS 6502 instructions. It is the
+unchanged **5,195-byte** packet at
+`artifacts/flexible-integer/q11-w16-a32-early-interp/model.f9j`, SHA-256
+`fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1`.
+There are no host inference callbacks, injected activations, board-policy tables,
+local-feature fusion tables, or replacement weights in this path.
+
+`full_forward` accepts the nine canonical occupancy bytes at `$7020`. It executes
+the existing embedding/norm1/QKV/81-score/softmax/attention-projection/residual path,
+then adds:
+
+- A variable-fan-in matrix kernel with **16-bit advancing input pointers**, including
+  all 72 flattened readout inputs and their original learned row exponents/biases.
+- Exact signed GELU interpolation, including negative LUT samples, both tails,
+  and nearest-ties-away rounding.
+- Complete integer norm2 (mean, centered squares, variance, isqrt, division, affine).
+- Dynamic-`EXPERT_COUNT` stable top-2 ranking, lower-index-first ties, and selected-score
+  softmax gates. A gate of 32,768 is unsigned, not a negative INT16 weight.
+- Both genuinely selected W1/GELU/W2 expert paths in the packet's original
+  `[expert,input,output]` orientation, with each expert's exponents and biases.
+- Signed-40 gated merging, the readout residual, and **nine INT32 final scores**
+  without INT16 clipping.
+
+All **627 canonical boards** passed comparisons of **every retained stage vector,
+router scores, selected indices, gates, both expert hidden/output vectors, merged
+vector, and final logits** against an independent arbitrary-integer oracle.
+A second independently implemented complete scalar oracle also matched every
+logit and route. Expert selection counts were **301, 258, 355, 340**.
+The empty-board complete pass was exercised before the varied-route/range and
+exhaustive gates; its routes are `[1, 2]` and logits are
+`[561150, 447961, 281555, 94790, 275926, 34652, 189453, 501705, 175355]`.
+
+The executed canonical logits also passed **all optimal sets and original-coordinate
+`ebdfhcgia` tie-selected moves** for **4,520 unique boards / 294,778 histories**.
+That expansion uses the existing **host symmetry/inverse-set wrapper**, not an
+assembled wrapper or additional neural execution for each history. The distinction
+is part of the acceptance record: **whole neural forward is accepted; a complete
+C64 game/application is not**. History validation, canonicalization, inverse mapping,
+set selection, UI, launch, and game lifecycle remain to be assembled/integrated.
+No PRG, D64, browser, VICE, physical-C64, or interactive-game claim is made.
+
+### Four-expert artifact, map, safety, and measured CPU cycles
+
+Evidence (not published application artifacts) is under
+`artifacts/runtime/full-forward/q11-w16-e4/`: exact raw image and build/listing/labels,
+frozen source snapshots, four durable JSONL checkpoint shards, `summary.json`, and
+`safety-audit.json`. `results/runtime-summary.json` now describes this successor.
+The raw image SHA-256 is
+`838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961`.
+
+| Range | Four-expert ownership |
+|---|---|
+| `$0800..$1d7f` | 5,503 code/static-metadata bytes |
+| `$4000..$544b` | All 5,195 original packet bytes, including both LUTs |
+| `$6000..$6da0` | Existing attention/local activation reservation |
+| `$7000..$7100` | Existing board/control/softmax ABI reservation |
+| `$7200..$7600` | Readout, norm2, router, selected expert, merge, logits, controls |
+
+Zero page `$20..$80`, stack `$100..$200`, and untouched screen `$400..$800`
+reservations remain as below. Total explicit allocation is **16,842 bytes**,
+including reserved screen/stack and scratch gaps. The raw transport is **19,531
+bytes**, including **8,833 filled gap bytes**, not a PRG. Assembly overlap guards
+still keep code below the model and the entire model below scratch.
+
+Every Py65 CPU write was checked against the writable map, including writes of
+unchanged values and stack writes: **725,122,178 writes** across 627 complete
+executions. Every instruction PC remained inside assembled code, stack balance
+was checked, and code/model bytes were rechecked unchanged after every board.
+The lowest stack write was `$01ec`. These are emulator-visible writes, not a
+claim to count physical NMOS dummy bus writes.
+
+The E4 bounds were recomputed, **not copied from E9**. All 54 local combinations
+have maximum absolute embedding/normalized/Q/K/V values
+**8,156 / 6,289 / 11,875 / 9,065 / 6,775**; centered local maximum is **7,830**.
+Norm2 centered maximum across the complete canonical domain is **12,402**.
+Both centered-square and attention K/V INT16 narrowing sites retain runtime guards.
+The largest stored score magnitude is **1,336,531**, illustrating why final scores
+must not be clipped to INT16.
+
+The independent oracle records every ordered dot-product prefix and each row's
+sum-of-absolute-products envelope. The largest observed signed prefix is
+**5,463,132,850**; the largest exact absolute-product envelope is **8,110,071,082**.
+The deliberately coarser `max_abs_input * max_abs_weight * fan_in` bound reaches
+**33,446,567,616** (36 signed bits). All are below signed-40's positive limit
+**549,755,813,887**. `safety-audit.json` retains per-stage input maxima, each coarse
+matrix bound, and decoder/host-contract source hashes. Actual MAC operand limits,
+per-add signed-40 overflow detection, checked INT32 matrix outputs, invalid-board
+errors, and caller error propagation remain active. The public entry clears decimal
+mode through the board front end. Internal helpers use their caller's established
+arithmetic state; they are not a general untrusted-INT32 API.
+
+Measured complete `full_forward` work across the 627 actual executions:
+
+- Minimum: **8,050,591 CPU cycles**.
+- Mean: **8,087,911.196172249 CPU cycles**.
+- Maximum observed: **8,110,463 CPU cycles**.
+
+These are Py65 entry-through-RTS CPU cycles, excluding caller JSR, IRQs, VIC stalls,
+ROM/disk time, and wall time. Four bounded CPU workers completed all shards; no
+partial sample was promoted to an exhaustive result. The final complete repository
+suite passed **109 tests and 677 subtests** in **152.96 seconds**; its only warning
+is the pre-existing missing-NumPy PyTorch initialization warning. The durable log
+is `full-suite-final.log`. This host test-run duration is not C64 inference time.
+
+### Reproduce without replacing the frozen E9 evidence
+
+```sh
+OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 .venv/bin/python -m pytest tests/test_runtime*.py -q
+.venv/bin/python scripts/verify_runtime.py --full-forward --canonical-limit 627 --workers 4 \
+  --output artifacts/runtime/full-forward/q11-w16-e4-rerun \
+  --summary artifacts/runtime/full-forward/q11-w16-e4-rerun/result.json
+```
+
+`build(model=..., output=...)` accepts only the explicitly SHA-pinned E9 and E4
+packets. Calling `build()` with no arguments still selects E9, and reproduces its
+original raw image byte-for-byte. The E9 64-board frozen raw/checkpoint identities
+below were independently rechecked and remain unchanged. Do not rerun a verifier
+into `artifacts/runtime/verified/`; that earlier evidence is immutable.
+
+## Frozen earlier E9 attention-only proof (historical scope)
+
+The rest of this document describes the retained **E9** gate, not the new E4
+whole-neural gate. Its old missing-stage statements and allocation/cycle figures
+apply only to that frozen executable.
+
+### Verified E9 result — not whole-model inference
 
 The accepted **6,110-byte** F9J2 packet is embedded unchanged at `$4000` and
 remains resident throughout real NMOS 6502 execution. Its SHA-256 remains
@@ -24,7 +152,7 @@ Python arbitrary-int front-end oracle, including mean, variance, root, embedding
 normalized lanes, and Q/K/V. The complete board-to-attention-residual entry matches
 **64 deterministically sampled canonical boards out of 627**, with **zero stage
 vector mismatches**. The sampling includes canonical index zero and fixed-seed
-sampling of the rest; exact indices are in `results/runtime-summary.json`.
+sampling of the rest; exact indices are in `artifacts/runtime/verified/summary.json`.
 Additional assembled unit cases cover eight arbitrary occupancy boards for
 attention and three for projection/residual, including repeated requests without
 resetting model RAM. These arbitrary boards are arithmetic stress inputs, not
@@ -48,7 +176,9 @@ model conversion is required:
 ```sh
 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 .venv/bin/python -m pytest tests/test_runtime*.py -q
 .venv/bin/python scripts/build_runtime.py
-OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 .venv/bin/python scripts/verify_runtime.py --canonical-limit 64
+OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 .venv/bin/python scripts/verify_runtime.py --canonical-limit 64 \
+  --output artifacts/runtime/full-forward/e9-attention-rerun \
+  --summary artifacts/runtime/full-forward/e9-attention-rerun/result.json
 ```
 
 `TASS64` can override the assembler path. The default is
@@ -166,7 +296,7 @@ was fixed before acceptance; its input and failing values are retained under
 `artifacts/runtime/counterexamples/` and are covered by the assembled empty-board
 regression. No remaining mismatches were observed in the declared proof set.
 
-## Next concrete target work
+## Historical E9 successor plan (completed for E4 above)
 
 Reuse the resident packet and extend the real path with a variable-size matrix
 routine: the flattened readout has 72 inputs and needs 16-bit pointer advancement

@@ -15,16 +15,24 @@ MODEL_SHA = '6c2b3dc6ec2a26fbdd28b1d7c78abbd0fcfd285c3f45bea4357fcb9f3fefa8c9'
 OUT = ROOT/'build/runtime'
 
 
-def build():
-    raw = MODEL.read_bytes()
-    assert len(raw) == 6110 and hashlib.sha256(raw).hexdigest() == MODEL_SHA
+FOUR_MODEL = ROOT/'artifacts/flexible-integer/q11-w16-a32-early-interp/model.f9j'
+FOUR_SHA = 'fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1'
+
+
+def build(model=None, output=None):
+    model = MODEL if model is None else Path(model)
+    OUT = globals()['OUT'] if output is None else Path(output)
+    raw = model.read_bytes()
+    digest = hashlib.sha256(raw).hexdigest()
+    assert (len(raw), digest) in [(6110, MODEL_SHA), (5195, FOUR_SHA)], 'unpinned runtime model'
+    full = digest == FOUR_SHA
     OUT.mkdir(parents=True,exist_ok=True)
     (OUT/'model.f9j').write_bytes(raw)
     # Static pointers only. Every weight remains in its original resident bytes.
     names = ('position','expert_w1','expert_b1','expert_w2','expert_b2','occupancy_weight','side_weight','norm1_weight','norm1_bias','query_weight','key_weight','value_weight','projection_weight','readout_weight','readout_bias','norm2_weight','norm2_bias','router_weight','router_bias','output_weight','output_bias')
     pos = 99
     descriptors = []
-    constants = []
+    constants = [f'FULL_FORWARD = {int(full)}', f'EXPERT_COUNT = {4 if full else 9}']
     for name in names:
         bits,rank,count = struct.unpack_from('<BBH',raw,pos)
         pos += 4
@@ -51,10 +59,10 @@ def build():
         match = re.match(r'(\w+)\s*=\s*\$([0-9a-fA-F]+)',line)
         if match: labels[match[1]] = int(match[2],16)
     image = (OUT/'runtime.bin').read_bytes()
-    assert image[0x4000-0x0800:0x4000-0x0800+6110] == raw
+    assert image[0x4000-0x0800:0x4000-0x0800+len(raw)] == raw
     info = dict(path=str(OUT/'runtime.bin'),load=0x0800,labels=labels,
-                image_sha256=hashlib.sha256(image).hexdigest(),model_sha256=MODEL_SHA,
-                code_bytes=labels['code_end']-0x0800,model_bytes=6110,
+                image_sha256=hashlib.sha256(image).hexdigest(),model_sha256=digest,
+                code_bytes=labels['code_end']-0x0800,model_bytes=len(raw),
                 image_bytes=len(image))
     info['memory_map'] = [
         dict(name='math_and_pointer_zero_page',start=0x20,end=0x80,writable=True),
@@ -65,6 +73,8 @@ def build():
         dict(name='activations_and_retained_stage_vectors',start=0x6000,end=0x6da0,writable=True),
         dict(name='ABI_control_and_softmax_scratch_reserved',start=0x7000,end=0x7100,writable=True),
     ]
+    if full:
+        info['memory_map'].append(dict(name='full_forward_vectors_and_controls',start=0x7200,end=0x7600,writable=True))
     info['source_sha256'] = {str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((ROOT/'src/runtime').glob('*.asm'))}
     info['allocated_bytes'] = sum(r['end']-r['start'] for r in info['memory_map'])
     info['image_filled_gap_bytes'] = info['image_bytes']-info['code_bytes']-info['model_bytes']
