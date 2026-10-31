@@ -1,0 +1,55 @@
+{
+  "scope": "isolated INT16 activation/binary dot products, not full inference or game residency",
+  "cycle_boundary": "entry through RTS inclusive; excludes caller JSR, interrupts, VIC stalls and I/O",
+  "code_bytes": 122,
+  "image_sha256": "6bce423a798e18fd8d13d9f6722d276a304ee4b6e63812adca67b86b6aec450b",
+  "source_sha256": "bc981fc0f8fe975603f60557914893a3e3619a134052ed817a786120aa3f0de7",
+  "maximum_accumulator_magnitude_at_32_lanes": 1048576,
+  "dimensions": [
+    {
+      "dimension": 8,
+      "vectors": 10,
+      "mean_cycles": 811.2,
+      "worst_observed_cycles": 821,
+      "activation_bytes": 16,
+      "weight_bytes": 1,
+      "accumulator_bytes": 4
+    },
+    {
+      "dimension": 12,
+      "vectors": 10,
+      "mean_cycles": 1208.5,
+      "worst_observed_cycles": 1225,
+      "activation_bytes": 24,
+      "weight_bytes": 2,
+      "accumulator_bytes": 4
+    },
+    {
+      "dimension": 16,
+      "vectors": 10,
+      "mean_cycles": 1593.8,
+      "worst_observed_cycles": 1613,
+      "activation_bytes": 32,
+      "weight_bytes": 2,
+      "accumulator_bytes": 4
+    },
+    {
+      "dimension": 24,
+      "vectors": 10,
+      "mean_cycles": 2374.6,
+      "worst_observed_cycles": 2405,
+      "activation_bytes": 48,
+      "weight_bytes": 3,
+      "accumulator_bytes": 4
+    },
+    {
+      "dimension": 32,
+      "vectors": 10,
+      "mean_cycles": 3157.6,
+      "worst_observed_cycles": 3197,
+      "activation_bytes": 64,
+      "weight_bytes": 4,
+      "accumulator_bytes": 4
+    }
+  ]
+}

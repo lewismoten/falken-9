@@ -1,0 +1,190 @@
+{
+  "scope": "isolated dot products, not full inference",
+  "cycle_boundary": "entry opcode through RTS inclusive; excludes caller JSR, interrupts, VIC stalls and I/O",
+  "assembler_version": "64tass Turbo Assembler Macro V1.60.3243",
+  "py65_version": "1.2.0",
+  "seed": 90210,
+  "kernels": {
+    "binary": {
+      "sha256": "9965c9d6dd9f5c41465d4d600bcd52d8ab55f8f30067fedd27ae5a137770ce4d",
+      "source_sha256": "721b3b6cf6a224c856a35a862c042e04a1f6f6ec77d89bea2b88aa3b7e58e2e1",
+      "code_bytes": 81,
+      "code_start": 8192,
+      "code_end_exclusive": 8273,
+      "zero_page_bytes_including_length": 8,
+      "dimensions": [
+        {
+          "dimension": 8,
+          "vectors": 10,
+          "min_cycles": 522,
+          "mean_cycles": 533.6,
+          "worst_cycles": 546,
+          "activation_bytes": 8,
+          "weight_bytes": 1,
+          "output_bytes": 2
+        },
+        {
+          "dimension": 12,
+          "vectors": 10,
+          "min_cycles": 774,
+          "mean_cycles": 791.8,
+          "worst_cycles": 810,
+          "activation_bytes": 12,
+          "weight_bytes": 2,
+          "output_bytes": 2
+        },
+        {
+          "dimension": 16,
+          "vectors": 10,
+          "min_cycles": 1018,
+          "mean_cycles": 1039.5,
+          "worst_cycles": 1066,
+          "activation_bytes": 16,
+          "weight_bytes": 2,
+          "output_bytes": 2
+        },
+        {
+          "dimension": 24,
+          "vectors": 10,
+          "min_cycles": 1514,
+          "mean_cycles": 1546.9,
+          "worst_cycles": 1586,
+          "activation_bytes": 24,
+          "weight_bytes": 3,
+          "output_bytes": 2
+        },
+        {
+          "dimension": 32,
+          "vectors": 10,
+          "min_cycles": 2010,
+          "mean_cycles": 2055,
+          "worst_cycles": 2106,
+          "activation_bytes": 32,
+          "weight_bytes": 4,
+          "output_bytes": 2
+        }
+      ]
+    },
+    "ternary": {
+      "sha256": "a6c64888cefa6f827f14155ea001074e3e652f6308560cb090adbf6b067ae6ae",
+      "source_sha256": "ccc925725461344e0542c4f7ca82dc060a9e8ae05a2a143676e28e36885829c2",
+      "code_bytes": 103,
+      "code_start": 8192,
+      "code_end_exclusive": 8295,
+      "zero_page_bytes_including_length": 8,
+      "dimensions": [
+        {
+          "dimension": 8,
+          "vectors": 10,
+          "min_cycles": 346,
+          "mean_cycles": 639.4,
+          "worst_cycles": 762,
+          "activation_bytes": 8,
+          "weight_bytes": 2,
+          "output_bytes": 2
+        },
+        {
+          "dimension": 12,
+          "vectors": 10,
+          "min_cycles": 506,
+          "mean_cycles": 976.4,
+          "worst_cycles": 1130,
+          "activation_bytes": 12,
+          "weight_bytes": 3,
+          "output_bytes": 2
+        },
+        {
+          "dimension": 16,
+          "vectors": 10,
+          "min_cycles": 666,
+          "mean_cycles": 1298.4,
+          "worst_cycles": 1498,
+          "activation_bytes": 16,
+          "weight_bytes": 4,
+          "output_bytes": 2
+        },
+        {
+          "dimension": 24,
+          "vectors": 10,
+          "min_cycles": 986,
+          "mean_cycles": 1906.5,
+          "worst_cycles": 2234,
+          "activation_bytes": 24,
+          "weight_bytes": 6,
+          "output_bytes": 2
+        },
+        {
+          "dimension": 32,
+          "vectors": 10,
+          "min_cycles": 1306,
+          "mean_cycles": 2514.4,
+          "worst_cycles": 2970,
+          "activation_bytes": 32,
+          "weight_bytes": 8,
+          "output_bytes": 2
+        }
+      ]
+    },
+    "int8": {
+      "sha256": "efc0661cdd5608ffa17a0e02418952aa227dd222cf2bdba5dea4c6f94db0f74f",
+      "source_sha256": "e72559bc72c060c18df0c28fced043d5686255186ca4a380a88ac607b3b76c80",
+      "code_bytes": 151,
+      "code_start": 8192,
+      "code_end_exclusive": 8343,
+      "zero_page_bytes_including_length": 13,
+      "dimensions": [
+        {
+          "dimension": 8,
+          "vectors": 10,
+          "min_cycles": 2582,
+          "mean_cycles": 3165.9,
+          "worst_cycles": 3830,
+          "activation_bytes": 8,
+          "weight_bytes": 8,
+          "output_bytes": 4
+        },
+        {
+          "dimension": 12,
+          "vectors": 10,
+          "min_cycles": 3858,
+          "mean_cycles": 4778.4,
+          "worst_cycles": 5730,
+          "activation_bytes": 12,
+          "weight_bytes": 12,
+          "output_bytes": 4
+        },
+        {
+          "dimension": 16,
+          "vectors": 10,
+          "min_cycles": 5134,
+          "mean_cycles": 6312,
+          "worst_cycles": 7630,
+          "activation_bytes": 16,
+          "weight_bytes": 16,
+          "output_bytes": 4
+        },
+        {
+          "dimension": 24,
+          "vectors": 10,
+          "min_cycles": 7686,
+          "mean_cycles": 9476.4,
+          "worst_cycles": 11430,
+          "activation_bytes": 24,
+          "weight_bytes": 24,
+          "output_bytes": 4
+        },
+        {
+          "dimension": 32,
+          "vectors": 10,
+          "min_cycles": 10238,
+          "mean_cycles": 12612.8,
+          "worst_cycles": 15230,
+          "activation_bytes": 32,
+          "weight_bytes": 32,
+          "output_bytes": 4
+        }
+      ]
+    }
+  },
+  "vectors_sha256": "7e763a9d07481c27a5aa7a08c0a3631830ee07ef528f76fc2ce69bc00f6f66de"
+}
