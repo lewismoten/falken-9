@@ -45,7 +45,12 @@ class GraphicalMachine:
             r=regions[name];expected[plane]=bytearray(packed[r['offset']:r['offset']+r['length']])
         for i,c in enumerate('abcdefghi'):
             mark=self.get('original_board',i)
-            if not mark:continue
+            if not mark:
+                label=self.build['numeric_labels'][i]
+                cell=label['cell']
+                expected['bitmap'][cell*8:cell*8+8]=bytes.fromhex(label['glyph_hex'])
+                expected['screen'][cell]=label['screen_value']
+                continue
             for plane,p in self.build['graphics']['cells'][c]['planes'].items():
                 r=regions[p['values']['x' if mark==1 else 'o']]
                 for j,d in enumerate(p['destination_offsets']):expected[plane][d]=packed[r['offset']+j]

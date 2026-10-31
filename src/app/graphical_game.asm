@@ -395,7 +395,7 @@ enter_quit:
     #copy_plane art_quit_screen,$0400,1000
     #copy_plane art_quit_color,$d800,1000
     jmp ui_end
-; Full immutable blank source + sparse legal marks; no tensor/art overlap.
+; Immutable blank source + declared empty labels OR original occupied marks.
 draw_board:
     jsr ui_begin
     lda #$0b
@@ -408,7 +408,7 @@ draw_board:
 draw_mark_loop:
     ldx ui_index
     lda original_board,x
-    beq draw_mark_next
+    beq draw_empty_label
     sec
     sbc #1
     sta ui_count
@@ -426,6 +426,17 @@ draw_mark_loop:
     sta src
     lda mark_pointers+1,x
     sta src+1
+    jmp patch_loop
+draw_empty_label:
+    txa
+    asl a
+    tax
+    lda numeric_label_pointers,x
+    sta src
+    lda numeric_label_pointers+1,x
+    sta src+1
+    lda #9                      ; eight bitmap rows + paired screen attribute
+    sta ui_count
 patch_loop:
     jsr source_byte
     sta dst
@@ -587,3 +598,5 @@ control_text:
     .include "graphics.inc"
 mark_patch_data:
     .binary "mark-patches.bin"
+numeric_label_data:
+    .binary "numeric-labels.bin"

@@ -10,7 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.build_runtime import ROOT, FOUR_MODEL, build as build_runtime
 from scripts.compile_graphics import compile_assets
 
-APP_STAGE = '003-graphical'
+APP_STAGE = '004-graphical'
 APP_STEM = 'falken9-'+APP_STAGE
 OUT = ROOT/'build/graphical'
 CODE = {c:i+1 for i,c in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZ')}
@@ -130,6 +130,32 @@ def build(output=None):
             counts.append(count)
     (out/'mark-patches.bin').write_bytes(records)
     includes += ['mark_pointers:', '    .word '+','.join('mark_patch_data+'+str(p) for p in ptrs), 'mark_counts:', '    .byte '+','.join(map(str,counts))]
+    # Separate declared application overlays, never edits to indexed source art.
+    # 3x5 digits use selector 01 (screen high nibble = medium gray 12), with
+    # black padding to one 8x8 VIC cell. All footprints are inside mark interiors.
+    digit_rows = ('010110010010111', '111001111100111', '111001111001111',
+                  '101101111001001', '111100111001111', '111100111101111',
+                  '111001010010010', '111101111101111', '111101111001111')
+    label_records = bytearray(); label_ptrs = []; numeric_labels = []
+    layout = json.loads((ROOT/'assets/game-art/game/board/layout.json').read_text())
+    blank_bitmap = paths['board_bitmap'].read_bytes()
+    blank_screen = paths['board_screen'].read_bytes()
+    for i, (row, col) in enumerate((r,c) for r in (5,8,11) for c in (16,20,23)):
+        cell = row*40+col
+        x,y,w,h = layout['cell_rectangles']['abcdefghi'[i]]['preview_xywh']
+        assert x <= col*8 and col*8+8 <= x+w and y <= row*8 and row*8+8 <= y+h
+        assert blank_bitmap[cell*8:cell*8+8] == bytes(8)
+        glyph = bytes([0]+[sum(int(digit_rows[i][r*3+c]) << (6-2*c) for c in range(3)) for r in range(5)]+[0,0])
+        screen = 0xc0 | (blank_screen[cell] & 15)
+        writes = [(0x2000+cell*8+j,value) for j,value in enumerate(glyph)] + [(0x400+cell,screen)]
+        label_ptrs.append(len(label_records))
+        for address,value in writes:
+            label_records += address.to_bytes(2,'little') + bytes([value])
+        numeric_labels.append(dict(square=i+1, cell=cell, bitmap_address=0x2000+cell*8,
+                                   screen_address=0x400+cell, glyph_hex=glyph.hex(), screen_value=screen,
+                                   color=12, selectors='00 background / 01 screen high; Color RAM unchanged'))
+    (out/'numeric-labels.bin').write_bytes(label_records)
+    includes += ['numeric_label_pointers:', '    .word '+','.join('numeric_label_data+'+str(p) for p in label_ptrs)]
     # Text in bitmap mode uses native 2-bit pixels; 01 selects screen high color.
     font=bytearray()
     for glyph in range(50):
@@ -170,7 +196,7 @@ def build(output=None):
     prg=bytearray(full[1:]);prg[:len(stub)]=stub
     path=out/(APP_STEM+'.prg');path.write_bytes(b'\x01\x08'+prg)
     (out/'combined.bin').write_bytes(full)
-    info=dict(prg_path=str(path),prg_sha256=sha(path.read_bytes()),path=str(out/'combined.bin'),load=0x800,labels=labels,core=core,image_sha256=sha(full),app_code_start=0x8000,app_code_end=labels['app_end'],graphics_paths={k:str(v) for k,v in paths.items()},graphics=graphics,charset_codes=code,statuses=STATUSES,
+    info=dict(prg_path=str(path),prg_sha256=sha(path.read_bytes()),path=str(out/'combined.bin'),load=0x800,labels=labels,core=core,image_sha256=sha(full),app_code_start=0x8000,app_code_end=labels['app_end'],graphics_paths={k:str(v) for k,v in paths.items()},graphics=graphics,numeric_labels=numeric_labels,charset_codes=code,statuses=STATUSES,
               memory_map=core['memory_map']+[dict(name='app_state',start=0x7800,end=0x7900,writable=True),dict(name='bitmap_or_charset',start=0x2000,end=0x4000,writable=True),dict(name='screen',start=0x400,end=0x800,writable=True),dict(name='color',start=0xd800,end=0xdc00,writable=True)])
     (out/'build.json').write_text(json.dumps(info,indent=2)+'\n')
     return info

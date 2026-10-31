@@ -4,6 +4,83 @@ from pathlib import Path
 import importlib.util
 
 
+# Independent 3x5 digits, one logical multicolor pixel = two physical pixels.
+# The complete 8x8 character footprints lie inside the source cell rectangles.
+NUMBER_ROWS = ('010110010010111', '111001111100111', '111001111001111',
+               '101101111001001', '111100111001111', '111100111101111',
+               '111001010010010', '111101111101111', '111101111001111')
+NUMBER_CELLS = tuple(row*40+col for row in (5,8,11) for col in (16,20,23))
+
+
+def numbered_reference(built, board):
+    packed = Path(built['path']).parent.joinpath('graphics.bin').read_bytes()
+    regions = built['graphics']['regions']
+    planes = {}
+    for plane in ('bitmap', 'screen', 'color'):
+        r = regions['board_'+plane]
+        planes[plane] = bytearray(packed[r['offset']:r['offset']+r['length']])
+    for i, mark in enumerate(board):
+        if mark:
+            for name, p in built['graphics']['cells']['abcdefghi'[i]]['planes'].items():
+                r = regions[p['values']['xo'[mark-1]]]
+                for j, d in enumerate(p['destination_offsets']):
+                    planes[name][d] = packed[r['offset']+j]
+        else:
+            cell = NUMBER_CELLS[i]
+            rows = NUMBER_ROWS[i]
+            glyph = bytes([0]+[sum(int(rows[y*3+x]) << (6-2*x) for x in range(3)) for y in range(5)]+[0,0])
+            planes['bitmap'][cell*8:cell*8+8] = glyph
+            planes['screen'][cell] = 0xc0 | (planes['screen'][cell] & 15)
+    return planes
+
+
+def assert_numbered_board(game):
+    expected = numbered_reference(game.build, [game.get('original_board', i) for i in range(9)])
+    for plane, start, length in [('bitmap',0x2000,14*320),('screen',0x400,14*40),('color',0xd800,14*40)]:
+        assert bytes(game.cpu.memory[start:start+length]) == expected[plane][:length], plane
+
+
+def test_empty_cells_show_native_row_major_numeric_labels(tmp_path):
+    from scripts.build_graphical_app import build
+    from scripts.verify_graphical_app import GraphicalMachine
+    game = GraphicalMachine(build(tmp_path/'build'))
+    game.until_input(); game.key('2')
+    assert_numbered_board(game)
+    # Real dispatch: partial/full board, labels disappear, then replay restores.
+    for key in '532846917':
+        game.key(key)
+        assert_numbered_board(game)
+    assert game.get('terminal') == 3
+    game.key('R'); assert_numbered_board(game)
+    game.key('Q'); title = game.planes()
+    game.key('I'); game.key('Q'); assert game.planes() == title
+    game.key('2'); assert_numbered_board(game)
+    assert game.immutable_intact()
+
+
+def test_each_numeric_label_replaced_by_either_original_mark_only(tmp_path):
+    from scripts.build_graphical_app import build
+    from scripts.verify_app import AppMachine
+    built = build(tmp_path/'build')
+    m = AppMachine(built, audit=True)
+    m.cpu.memory.allowed[1] = 1
+    m.cpu.memory.allowed[0xf7:0xff] = bytes([1])*8
+    m.cpu.memory.allowed[0xd011] = 1
+    m.cpu.memory.allowed[0xd016:0xd019] = bytes([1])*3
+    m.cpu.memory[1] = 0x37
+    # This gate invokes the assembled renderer for both marks in every cell.
+    for i in range(9):
+        for mark in (1,2):
+            board = [0]*9; board[i] = mark
+            for j, value in enumerate(board): m.put(m.labels['original_board']+j,value,1)
+            nn = bytes(m.cpu.memory[0x6000:0x7800])
+            m.call('draw_board')
+            expected = numbered_reference(built,board)
+            for plane,start,length in [('bitmap',0x2000,23*320),('screen',0x400,23*40),('color',0xd800,1000)]:
+                assert bytes(m.cpu.memory[start:start+length]) == expected[plane][:length], (i,mark,plane)
+            assert bytes(m.cpu.memory[0x6000:0x7800]) == nn
+
+
 def test_native_title_info_roundtrip_and_frozen_residency(tmp_path):
     assert importlib.util.find_spec('scripts.build_graphical_app'), 'missing graphical builder'
     from scripts.build_graphical_app import build
