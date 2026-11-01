@@ -9,9 +9,9 @@ import sys
 import textwrap
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.build_runtime import ROOT, FOUR_MODEL, build as build_runtime
-from scripts.compile_graphics import compile_assets
+from scripts.compile_graphics import compile_assets, C64_PALETTE
 
-APP_STAGE = '006-graphical'
+APP_STAGE = '007-graphical'
 APP_STEM = 'falken9-'+APP_STAGE
 OUT = ROOT/'build/graphical'
 CODE = {c:i+1 for i,c in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZ')}
@@ -91,7 +91,9 @@ def build(output=None):
     def overlay(plane, colors, row, col, text, color):
         at=row*40+col;plane[at:at+len(text)] = encode(text);colors[at:at+len(text)] = bytes([color])*len(text)
     title = bytearray(paths['title_screen'].read_bytes());tc=bytearray(paths['title_color'].read_bytes())
-    for row,text in [(20,'FALCON-9'),(21,'1.0')]:overlay(title,tc,row,30,text,6)
+    brand, version, brand_col = 'FALCON-9', '1.0', 30
+    overlay(title,tc,22,brand_col,brand,6)
+    overlay(title,tc,23,brand_col+len(brand)-len(version),version,6)
     for row,text in [(22,'INFO'),(23,'QUIT')]:
         overlay(title,tc,row,2,text,12);tc[row*40+2]=1
     info=bytearray(paths['info_screen'].read_bytes());ic=bytearray(paths['info_color'].read_bytes())
@@ -105,12 +107,16 @@ def build(output=None):
     sections=[('FALCON-9 1.0',1),('MODEL',7),('5195 BYTES - F9J2 INTEGER',1),
         ('4 EXPERTS / 2 ACTIVE',1),('Q11 / W16 / A32',1),('ATTENTION + ROUTED MLP',1),
         ('ALL WEIGHTS STAY IN RAM',1),('',1),('CONTROLS',7),
-        ('1-9: SQUARES 123/456/789',1),('R: REPLAY   Q: TITLE',1),
+        ('1-9: SQUARES 123/456/789',1),('R: REPLAY   Q: TITLE',1),('M: MUTE / UNMUTE SID',1),
         ('1 PLAYER: YOU X / MODEL O',1),('2 PLAYERS: ALTERNATE X/O',1),
-        ('0 PLAYERS: BOTH SIDES NEURAL',1),('',1),('DISPLAY',7),
+        ('0 PLAYERS: CONTINUOUS DEMO',1),('ALL MOVES RUN THE MODEL',1),
+        ('FIRST GAME: FIXED OPENING TIE',1),('LATER OPENINGS: RANDOM TIES',1),
+        ('ONLY FROM MODEL APPROVED SET',1),('FROZEN MODEL - NOT LEARNING',1),
+        ('2 SECOND RESULT / AUTO REPLAY',1),('Q / R AT SAFE TURN BOUNDARIES',1),('',1),('DISPLAY',7),
         ('X / O: TURN OR WINNER',1),('D: DRAW   ?: INVALID',1),('!: ERROR - R OR Q',1),
         ('BAR: COMPLETED COMPUTE WORK',1),('RED X / BLUE O',1),
-        ('LIGHTS: ACTIVITY NOT PROGRESS',1),('',1),('REPOSITORIES',7),
+        ('LIGHTS: ACTIVITY NOT PROGRESS',1),('ORIGINAL SID: PATIENT',1),('CALCULATIONS - TWO VOICES',1),
+        ('VOICE 3: QUIET UI / MARK SFX',1),('DECORATIVE - NOT STRATEGY',1),('',1),('REPOSITORIES',7),
         ('REQUESTED - NOT YET PUBLISHED',1),
         ('HTTPS://GITHUB.COM/LEWISMOTEN/FALCON-9',1),('',1),
         ('HTTPS://HUGGINGFACE.CO/LEWISMOTEN/FALCON-9',1),('',1),('RUNTIME BOUNDARY',7),
@@ -130,6 +136,29 @@ def build(output=None):
     for name,raw in [('charset',charset),('title_screen',title),('title_color',tc),('info_screen',info),('info_color',ic)]:
         r=regions[name];packed[r['offset']:r['offset']+r['length']]=raw
         (out/(name+'.bin')).write_bytes(raw)
+    # Bottom black pockets, outside people/console/meter. R owns its own cell.
+    letters={'R':('110','101','110','101','101'),'E':('111','100','110','100','111'),
+             'P':('110','101','110','100','100'),'L':('100','100','100','100','111'),
+             'A':('010','101','111','101','101'),'Y':('101','101','010','010','010'),
+             'Q':('010','101','101','011','001'),'U':('101','101','101','101','111'),
+             'I':('111','010','010','010','111'),'T':('111','010','010','010','010')}
+    def compact(text, first_separate=False):
+        rows=[''.join(letters[ch][y]+('0' if not first_separate or i==0 else '') for i,ch in enumerate(text)) for y in range(5)]
+        width=(len(rows[0])+3)//4
+        return [bytes([0]+[sum(int(bit)<<(6-2*x) for x,bit in enumerate(row.ljust(width*4,'0')[4*c:4*c+4])) for row in rows]+[0,0]) for c in range(width)]
+    replay=compact('REPLAY',True);quit_glyphs=compact('QUIT')
+    footer_cells=[24*40+c for c in range(len(replay))]+[24*40+c for c in range(36,40)]
+    glyphs=replay+quit_glyphs
+    for cell,glyph in zip(footer_cells,glyphs):
+        r=regions['board_bitmap'];assert packed[r['offset']+cell*8:r['offset']+cell*8+8]==bytes(8)
+        packed[r['offset']+cell*8:r['offset']+cell*8+8]=glyph
+        for plane,value in [('screen',0x60 if cell<24*40+5 else 0xc0),('color',0)]:
+            packed[regions['board_'+plane]['offset']+cell]=value
+    game_footer=dict(cells=footer_cells,glyphs=[g.hex() for g in glyphs],replay_cells=footer_cells[:5],quit_cells=footer_cells[5:])
+    def linear(v):return v/12.92 if v<=.04045 else ((v+.055)/1.055)**2.4
+    luminances=[sum(w*linear(v/255) for w,v in zip((.2126,.7152,.0722),rgb)) for rgb in C64_PALETTE]
+    assert min(range(1,16),key=luminances.__getitem__)==6
+    game_footer['palette_luminance']=luminances
     (out/'graphics.bin').write_bytes(packed)
     includes=[];compressed=bytearray()
     for name in ['charset','title_screen','title_color','info_screen','info_color','board_bitmap','board_screen','board_color']:
@@ -149,17 +178,38 @@ def build(output=None):
         'info_scroll_positions:', '    .byte '+','.join(str(round(i*17/(len(info_lines)-18))) for i in range(len(info_lines)-17)),
         'info_track_lo:', '    .byte '+','.join(str((0x400+(4+i)*40+34)&255) for i in range(18)),
         'info_track_hi:', '    .byte '+','.join(str((0x400+(4+i)*40+34)>>8) for i in range(18))]
-    activity_cells=[19*40+c for c in (7,12,13,20,26,27,32)]
+    # Reviewed selector/color ownership: gold button pixels only. Selectors are
+    # explicit; row16 uses both 01 (high nibble) and 10 (low nibble).
+    light_specs=[(16,c,s) for c,s in [(7,2),(8,2),(11,1),(19,2),(20,2),(27,2),(28,1),(31,2)]]
+    light_specs += [(19,c,1) for c in (0,7,12,13,20,26,27,32,39)]
+    light_specs += [(21,c,1) for c in (8,9,24,25,34,35,38,39)]
+    activity_cells=[row*40+c for row,c,_ in light_specs]
     screen=paths['board_screen'].read_bytes()
-    assert all(screen[c]>>4==7 for c in activity_cells)
-    includes += ['activity_base:', '    .byte '+','.join(str(screen[c]) for c in activity_cells),
-        'activity_offsets:', '    .byte '+','.join(str(c-19*40) for c in activity_cells)]
+    light_masks=[0xf0 if s==1 else 0x0f for _,_,s in light_specs]
+    assert all((screen[c] & mask)==(0x70 if mask==0xf0 else 7) for c,mask in zip(activity_cells,light_masks))
+    services=['* = $5500','activity_prng = $54f0','activity_phase = $785d',
+              'activity_tick:','    php','    pha','    txa','    pha','    tya','    pha','    cld',
+              '    inc activity_phase','    lda activity_prng','    bne +','    lda #$b7','+',
+              '    lsr a','    bcc +','    eor #$b8','+','    sta activity_prng']
+    for i,(c,mask) in enumerate(zip(activity_cells,light_masks)):
+
+        services += ['    lda activity_prng',f'    and #{1<<(i%8)}','    beq +',f'    lda #{screen[c]}','    bne ++','+',
+                     f'    lda #{(screen[c]&(~mask&255))|(0x90 if mask==0xf0 else 9)}','+',f'    sta ${0x400+c:04x}']
+    services += ['    lda #1','    jsr audio_event','    pla','    tay','    pla','    tax','    pla','    plp','    rts','activity_reset:','    lda #0','    sta activity_phase']
+    for c in activity_cells:services += [f'    lda #{screen[c]}',f'    sta ${0x400+c:04x}']
+    services += ['    rts','paint_footer:','    lda $7819','    beq footer_subdued','    lda #$10','    sta $07c0','    lda #$c0','    bne footer_body',
+                 'footer_subdued:','    lda #$b0','    sta $07c0','    lda #$60','footer_body:']
+    services += [f'    sta ${0x400+c:04x}' for c in footer_cells[1:5]]
+    services += ['    lda #$10',f'    sta ${0x400+footer_cells[5]:04x}','    lda #$c0']
+    services += [f'    sta ${0x400+c:04x}' for c in footer_cells[6:]]+['    rts','    .include "sid_audio.asm"','    .include "auto_demo.asm"','services_end:','.cerror * > $6000, "services overlap neural scratch"']
+    (out/'services.asm').write_text('\n'.join(services)+'\n')
+    notes=[round((440*2**((40+i-69)/12))*2**24/clock) for clock in (985248,1022727) for i in range(32)]
+    (out/'notes.inc').write_text('note_lo: .byte '+','.join(str(v&255) for v in notes)+'\nnote_hi: .byte '+','.join(str(v>>8) for v in notes)+'\n')
     calibration=ROOT/'src/app/progress-calibration.json'
     fills=json.loads(calibration.read_text())['fills'] if calibration.exists() else [min(46,(i+1)*47//32) for i in range(32)]
     assert len(fills)==32 and fills==sorted(fills) and max(fills)<=46
     includes += ['progress_thresholds:', '    .byte '+','.join(map(str,fills))]
-    assert len(compressed)<=0x3000, 'compressed artwork must remain below I/O'
-    (out/'runtime-graphics.bin').write_bytes(compressed)
+
     # Compact patch bytecode avoids >8K straight-line code: dest/value records.
     records=bytearray();ptrs=[];counts=[]
     for c in 'abcdefghi':
@@ -198,6 +248,26 @@ def build(output=None):
                                    color=12, selectors='00 background / 01 screen high; Color RAM unchanged'))
     (out/'numeric-labels.bin').write_bytes(label_records)
     includes += ['numeric_label_pointers:', '    .word '+','.join('numeric_label_data+'+str(p) for p in label_ptrs)]
+    # Replay restores only the union of mark/label footprints, never full planes.
+    # Store immutable dest/value records below I/O alongside bundled artwork.
+    empty_ptrs=[];empty_counts=[];empty_records=bytearray()
+    for i,c in enumerate('abcdefghi'):
+        values={}
+        for plane,p in graphics['cells'][c]['planes'].items():
+            r=regions['board_'+plane]
+            for dest in p['destination_offsets']:
+                values[p['destination_base']+dest]=packed[r['offset']+dest]
+        label=label_records[label_ptrs[i]:label_ptrs[i]+27]
+        for j in range(0,len(label),3):values[int.from_bytes(label[j:j+2],'little')]=label[j+2]
+        empty_ptrs.append(0x7900+len(empty_records));empty_counts.append(len(values))
+        for address,value in sorted(values.items()):empty_records+=address.to_bytes(2,'little')+bytes([value])
+    assert max(empty_counts)<256
+    assert len(empty_records)<=0x700, 'empty patches must remain below application'
+    (out/'empty-patches.bin').write_bytes(empty_records)
+    includes += ['empty_pointers:', '    .word '+','.join(map(str,empty_ptrs)),
+                 'empty_counts:', '    .byte '+','.join(map(str,empty_counts))]
+    assert len(compressed)<=0x3000, 'compressed artwork and patches must remain below I/O'
+    (out/'runtime-graphics.bin').write_bytes(compressed)
     # Text in bitmap mode uses native 2-bit pixels; 01 selects screen high color.
     font=bytearray()
     for glyph in range(50):
@@ -220,15 +290,23 @@ def build(output=None):
     assert wrapper.count('jsr full_forward')==1
     (out/'graphical-wrapper.inc').write_text(wrapper.replace('jsr full_forward','jsr graphical_forward'))
     assembler=os.environ.get('TASS64',str(ROOT/'build/tools/64tass/usr/bin/64tass'))
+    svc=subprocess.run([assembler,'--m6502','--long-branch','--case-sensitive','--nostart','-I',str(out),'-I',str(ROOT/'src/app'),'--labels='+str(out/'services.lbl'),'-o',str(out/'services.bin'),str(out/'services.asm')],capture_output=True,text=True)
+    if svc.returncode:raise RuntimeError(svc.stdout+svc.stderr)
+    service_labels={m[1]:int(m[2],16) for line in (out/'services.lbl').read_text().splitlines() if (m:=re.match(r'(\w+)\s*=\s*\$([0-9a-fA-F]+)',line))}
+    (out/'service-labels.inc').write_text('\n'.join(f'{k} = ${v:04x}' for k,v in service_labels.items() if k!='activity_phase')+'\n')
     run=subprocess.run([assembler,'--m6502','--long-branch','--case-sensitive','--nostart','-I',str(out),'-I',str(ROOT/'src/app'),'--labels='+str(out/'app.lbl'),'--list='+str(out/'app.lst'),'-o',str(out/'app.bin'),str(out/'entry.asm')],capture_output=True,text=True)
     (out/'assembly.log').write_text(run.stdout+run.stderr)
     if run.returncode:raise RuntimeError(run.stdout+run.stderr)
     labels=dict(core['labels'])
+    labels.update(service_labels)
     for line in (out/'app.lbl').read_text().splitlines():
         m=re.match(r'(\w+)\s*=\s*\$([0-9a-fA-F]+)',line)
         if m:labels[m[1]]=int(m[2],16)
     full=bytearray(0xa000+len(compressed)-0x800)
     full[:len(core_bytes)]=core_bytes
+    service_bytes=(out/'services.bin').read_bytes()
+    full[0x5500-0x800:0x5500-0x800+len(service_bytes)]=service_bytes
+    full[0x7900-0x800:0x7900-0x800+len(empty_records)]=empty_records
     app=(out/'app.bin').read_bytes();assert labels['app_end']<=0xa000
     full[0x8000-0x800:0x8000-0x800+len(app)]=app
     full[0xa000-0x800:]=compressed
@@ -238,8 +316,8 @@ def build(output=None):
     prg=bytearray(full[1:]);prg[:len(stub)]=stub
     path=out/(APP_STEM+'.prg');path.write_bytes(b'\x01\x08'+prg)
     (out/'combined.bin').write_bytes(full)
-    info=dict(prg_path=str(path),prg_sha256=sha(path.read_bytes()),path=str(out/'combined.bin'),load=0x800,labels=labels,core=core,image_sha256=sha(full),app_code_start=0x8000,app_code_end=labels['app_end'],graphics_paths={k:str(v) for k,v in paths.items()},graphics=graphics,numeric_labels=numeric_labels,charset_codes=code,statuses=STATUSES,activity_cells=activity_cells,
-              memory_map=core['memory_map']+[dict(name='app_state',start=0x7800,end=0x7900,writable=True),dict(name='bitmap_or_charset',start=0x2000,end=0x4000,writable=True),dict(name='screen',start=0x400,end=0x800,writable=True),dict(name='color',start=0xd800,end=0xdc00,writable=True)])
+    info=dict(prg_path=str(path),prg_sha256=sha(path.read_bytes()),path=str(out/'combined.bin'),load=0x800,labels=labels,core=core,image_sha256=sha(full),app_code_start=0x8000,app_code_end=labels['app_end'],graphics_paths={k:str(v) for k,v in paths.items()},graphics=graphics,numeric_labels=numeric_labels,charset_codes=code,statuses=STATUSES,activity_cells=activity_cells,activity_masks=light_masks,game_footer=game_footer,
+              memory_map=core['memory_map']+[dict(name='service_state',start=0x5480,end=0x5500,writable=True),dict(name='sid',start=0xd400,end=0xd419,writable=True),dict(name='irq_vector',start=0x314,end=0x316,writable=True),dict(name='raster',start=0xd011,end=0xd013,writable=True),dict(name='vic_irq',start=0xd019,end=0xd01b,writable=True),dict(name='app_state',start=0x7800,end=0x7900,writable=True),dict(name='bitmap_or_charset',start=0x2000,end=0x4000,writable=True),dict(name='screen',start=0x400,end=0x800,writable=True),dict(name='color',start=0xd800,end=0xdc00,writable=True)])
     (out/'build.json').write_text(json.dumps(info,indent=2)+'\n')
     return info
 

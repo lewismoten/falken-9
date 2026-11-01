@@ -17,6 +17,11 @@ separate runtime identity, model-information, control, and activity overlays.
 Model and code development, verification tooling, and release preparation used
 AI assistance (including Mercury Quill / Hermes Agent by Nous Research).
 
+"Patient Calculations" is an original small SID score authored for this project
+with Mercury Quill assistance. Its note data and SID driver are first-party
+Apache-2.0 source. No film/game soundtrack, third-party SID tune, or player is
+redistributed. The fictional war-room theme does not imply soundtrack reuse.
+
 No Commodore ROMs, emulator binaries, assembler binaries, Python environments,
 third-party font files, or installed dependency distributions are included.
 Emulator screenshots and Netron renderings document actual local executions;

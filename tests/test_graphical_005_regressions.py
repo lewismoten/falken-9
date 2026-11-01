@@ -89,9 +89,9 @@ def test_original_footer_and_exact_requested_badge_on_every_title_return(built):
         for row, text in [(22, 'INFO'), (23, 'QUIT')]:
             assert game.text(row)[2:6] == text
             assert bytes(game.cpu.memory[0xd800+row*40+2:0xd800+row*40+6]) == bytes([1,12,12,12])
-        for row, text in [(20, 'FALCON-9'), (21, '1.0')]:
-            assert game.text(row)[30:30+len(text)] == text
-            assert bytes(game.cpu.memory[0xd800+row*40+30:0xd800+row*40+30+len(text)]) == bytes([6])*len(text)
+        for row,col,text in [(22,30,'FALCON-9'),(23,35,'1.0')]:
+            assert game.text(row)[col:col+len(text)] == text
+            assert bytes(game.cpu.memory[0xd800+row*40+col:0xd800+row*40+col+len(text)]) == bytes([6])*len(text)
 
 
 def test_info_white_markdown_scroll_and_complete_repository_links(built):
@@ -168,7 +168,7 @@ def test_activity_is_dispersed_and_preserves_all_live_state(built):
     assert (machine.cpu.a,machine.cpu.x,machine.cpu.y) == (0x83,0x79,0xa7)
     assert machine.cpu.p & machine.cpu.DECIMAL
     assert bytes(machine.cpu.memory[:256]) == zp and machine.cpu.memory[1] == port
-    allowed={*range(0x100,0x200), built['labels']['activity_phase'], built['labels']['packet_value'],*(0x400+c for c in cells)}
+    allowed={*range(0x100,0x200), built['labels']['activity_phase'], built['labels']['activity_prng'], built['labels']['audio_pending'],*(0x400+c for c in cells)}
     assert machine.cpu.memory.addresses <= allowed
     assert set(0x400+c for c in cells) <= machine.cpu.memory.addresses
 
@@ -214,5 +214,5 @@ def test_progress_callback_preserves_live_state_and_exact_meter_footprint(built)
     assert bytes(m.cpu.memory[:256])==zp and bytes(m.cpu.memory[0x6000:0x7800])==vectors
     assert bytes(m.cpu.memory[0x3218:0x3220])==turn
     cells=[0x63e+i for i in range(13) if i!=5]
-    allowed={*range(0x100,0x200),built['labels']['activity_phase'],built['labels']['packet_value'],*range(built['labels']['progress_active'],built['labels']['progress_pattern']+1),*(0x400+c for c in built['activity_cells']),*cells,*(0x2000+(c-0x400)*8+i for c in cells for i in range(8))}
+    allowed={*range(0x100,0x200),built['labels']['activity_phase'],built['labels']['activity_prng'],built['labels']['audio_pending'],*range(built['labels']['progress_active'],built['labels']['progress_pattern']+1),*(0x400+c for c in built['activity_cells']),*cells,*(0x2000+(c-0x400)*8+i for c in cells for i in range(8))}
     assert m.cpu.memory.addresses<=allowed

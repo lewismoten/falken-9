@@ -1,5 +1,6 @@
 ; Resident native art UI. Live planes bank 0: screen $0400, bitmap $2000,
 ; charset $3000 (view alias). Compressed backing $a000..$cfff, never I/O.
+    .include "service-labels.inc"
 saved_zp = $7880
 pending_key = $7850
 neural_failed = $7851
@@ -54,6 +55,7 @@ app_start:
     sta progress_active
     lda #1
     sta mode
+    jsr audio_init
     jsr enter_title
 input_wait:
     cli
@@ -61,8 +63,27 @@ input_wait:
     sei
     cld
     cmp #0
-    beq input_wait
+    bne input_received
+    lda view
+    cmp #2
+    bne input_wait
+    lda mode
+    bne input_wait
+    jsr auto_pause_due
+    bcc input_wait
+auto_restart:
+    jmp new_game
+input_received:
     sta pending_key
+    and #$df
+    cmp #$4d
+    bne +
+    lda view
+    cmp #3
+    beq input_wait
+    jsr audio_toggle
+    jmp input_wait
++
     lda #0
     sta move_result
     lda view
@@ -113,6 +134,8 @@ next_mode:
 +
     sta mode
     jsr patch_title_selector
+    lda #3
+    jsr audio_event
     jmp input_wait
 previous_mode:
     lda mode
@@ -123,6 +146,8 @@ previous_mode:
     sbc #1
     sta mode
     jsr patch_title_selector
+    lda #3
+    jsr audio_event
     jmp input_wait
 info_key:
     lda pending_key
@@ -141,28 +166,52 @@ info_down:
     bcs input_wait
     inc info_scroll
     jsr render_info
+    lda #2
+    jsr audio_event
     jmp input_wait
 info_up:
     lda info_scroll
     beq input_wait
     dec info_scroll
     jsr render_info
+    lda #2
+    jsr audio_event
     jmp input_wait
 start_game:
     lda #2
     sta view
+    jsr auto_session_reset
+    jsr reset_game_state
+    jsr draw_board
+    jmp new_game_ready
 new_game:
+    lda mode
+    bne +
+    lda #1
+    sta auto_later
++
+    jsr reset_game_state
+    jsr update_board
+    jsr progress_reset
+new_game_ready:
+    jsr ready_status
+    lda mode
+    bne input_wait
+    lda #1
+    sta auto_started
+    jmp auto_turn
+auto_exit:
+    jsr enter_title
+    jmp input_wait
+reset_game_state:
     lda #0
+    sta auto_pausing
+    sta auto_sampled
     sta history_length
     sta neural_failed
     sta move_result
     sta activity_phase
-    jsr validate_history
-    jsr draw_board
-    jsr ready_status
-    lda mode
-    beq auto_turn
-    jmp input_wait
+    jmp validate_history
 game_key:
     lda pending_key
     and #$df
@@ -190,12 +239,29 @@ game_key:
     jsr commit_square
     bcs game_error
     jsr update_board            ; accepted human mark is visible BEFORE NN
+    jsr audio_mark
     lda terminal
     bne game_terminal
     lda mode
     cmp #2
     beq two_human_ready
 auto_turn:
+    lda mode
+    bne compute_forward
+    ; Bounded safe-boundary input only; no KERNAL scanner inside neural work.
+    cli
+    jsr $ffe4
+    sei
+    cld
+    and #$df
+    cmp #$51
+    beq auto_exit
+    cmp #$52
+    beq new_game
+    cmp #$4d
+    bne compute_forward
+    jsr audio_toggle
+compute_forward:
     lda #2
     jsr draw_status
     jsr progress_begin
@@ -206,15 +272,20 @@ auto_turn:
     dex
     bpl -
 neural_begin:
+    jsr audio_work_begin
     jsr policy_request
     php
+    sei
     ldx #$5f
 -
     lda saved_zp,x
     sta $20,x
     dex
     bpl -
+    jsr audio_work_end
     plp
+    bcs game_error
+    jsr auto_resolve_opening
     bcs game_error
     lda #0
     sta activity_phase
@@ -223,10 +294,17 @@ neural_begin:
     bcs game_error
     lda original_board,x
     bne game_error
+    lda mode
+    bne +
+    lda history_length
+    bne +
+    stx auto_last_opening
++
     txa
     jsr commit_square
     bcs game_error
     jsr update_board
+    jsr audio_mark
     jsr progress_commit
     jsr progress_reset
     lda terminal
@@ -246,8 +324,13 @@ game_terminal:
     clc
     adc #3
     jsr draw_status
+    lda mode
+    bne input_wait
+    jsr auto_pause_begin
     jmp input_wait
 game_error:
+    lda #0
+    sta auto_pausing
     jsr progress_reset
     lda #0
     sta move_result
@@ -289,8 +372,10 @@ ui_begin:
     sta ui_port
     and #$fe
     sta $01
+    jsr audio_work_begin
     rts
 ui_end:
+    sei
     lda ui_port
     sta $01
     ldx #7
@@ -299,6 +384,7 @@ ui_end:
     sta $f7,x
     dex
     bpl -
+    jsr audio_work_end
     rts
 ; Expands packet stream into exactly remaining output bytes. Trusted bundled art.
 unpack_plane:
@@ -377,6 +463,8 @@ enter_title:
     sta activity_phase
     sta progress_active
     sta progress_filled
+    sta auto_pausing
+    sta auto_started
     jsr ui_begin
     lda #$0b
     sta $d011
@@ -537,7 +625,8 @@ enter_quit:
     jsr ui_begin
     #copy_plane art_quit_screen,$0400,1000
     #copy_plane art_quit_color,$d800,1000
-    jmp ui_end
+    jsr ui_end
+    jmp audio_stop
 ; Immutable blank source + declared empty labels OR original occupied marks.
 draw_board:
     jsr ui_begin
@@ -594,15 +683,15 @@ draw_mark_loop:
     sta src+1
     jmp patch_loop
 draw_empty_label:
+    lda empty_counts,x
+    sta ui_count
     txa
     asl a
     tax
-    lda numeric_label_pointers,x
+    lda empty_pointers,x
     sta src
-    lda numeric_label_pointers+1,x
+    lda empty_pointers+1,x
     sta src+1
-    lda #9                      ; eight bitmap rows + paired screen attribute
-    sta ui_count
 patch_loop:
     jsr source_byte
     sta dst
@@ -656,6 +745,7 @@ status_paint:
     inx
     dey
     bpl -
+    jsr paint_footer
     jmp ui_end
 status_colors: .byte $a0,$30,$70,$70,$20
 ; Stored reverse-scanline for the descending destination loop above.
@@ -669,44 +759,7 @@ status_glyphs:
 ; 627-vector parity is required before this path can be accepted.
 graphical_forward:
     jmp graph_full_forward
-activity_tick:
-    php
-    pha
-    txa
-    pha
-    tya
-    pha
-    inc activity_phase
-    lda activity_phase
-    and #7
-    tax
-    lda activity_patterns,x
-    sta packet_value
-    ldx #0
--
-    lsr packet_value
-    lda activity_base,x
-    and #$0f
-    bcc +
-    ora #$70
-    bne activity_store
-+
-    ora #$90
-activity_store:
-    ldy activity_offsets,x
-    sta $0400+19*40,y
-    inx
-    cpx #7
-    bne -
-    pla
-    tay
-    pla
-    tax
-    pla
-    plp
-    rts
-activity_patterns:
-    .byte $55,$2a,$63,$1c,$49,$36,$61,$4e
+
 ; Preserves live arithmetic flags, registers, and every ZP byte. No IRQ/timer.
 progress_event:
     php
@@ -759,15 +812,7 @@ progress_reset:
     sta progress_active
     sta progress_filled
     sta progress_color
-    ldx #6
--
-    ldy activity_offsets,x
-    lda activity_base,x
-    sta $0400+19*40,y
-    dex
-    bpl -
-    lda #0
-    sta activity_phase
+    jsr activity_reset
     jmp paint_progress
 ; All eight scanlines, paired with exact screen cells. Two boxes skip turn cell.
 ; Direct absolute indexed writes avoid borrowing neural zero-page pointers.

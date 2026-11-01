@@ -21,7 +21,7 @@ class AppMachine(Machine):
         count=0
         if self.audit: cpu.memory.begin()
         while cpu.pc != 0x200:
-            assert 0x800<=cpu.pc<self.labels['code_end'] or 0x8000<=cpu.pc<self.labels['app_end'], f'PC outside code ${cpu.pc:04x}'
+            assert 0x800<=cpu.pc<self.labels['code_end'] or 0x5500<=cpu.pc<self.labels.get('services_end',0x5500) or 0x8000<=cpu.pc<self.labels['app_end'], f'PC outside code ${cpu.pc:04x}'
             assert count<limit,(name,hex(cpu.pc))
             cpu.step();count+=1
         assert cpu.sp==0xff

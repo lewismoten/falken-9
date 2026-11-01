@@ -92,9 +92,9 @@ def test_native_title_info_roundtrip_and_frozen_residency(tmp_path):
     assert game.cpu.memory[0xd018] == 0x1c
     assert bytes(game.cpu.memory[0x3000:0x3800]) == Path(built['path']).parent.joinpath('charset.bin').read_bytes()
     title = game.planes()
-    assert game.text(20)[30:38] == 'FALCON-9'
-    assert game.text(21)[30:33] == '1.0'
-    assert all(c == 6 for c in game.cpu.memory[0xd800+20*40+30:0xd800+20*40+38])
+    assert game.text(22)[30:38] == 'FALCON-9'
+    assert game.text(23)[35:38] == '1.0'
+    assert all(c == 6 for c in game.cpu.memory[0xd800+22*40+30:0xd800+22*40+38])
     game.key('I')
     assert game.get('view') == 1
     assert 'FALCON-9' in game.text(4)
@@ -153,10 +153,10 @@ def test_activity_preserves_registers_flags_zp_and_only_reserved_cells(tmp_path)
     result=m.call('activity_tick')
     assert (m.cpu.a,m.cpu.x,m.cpu.y)==(0x83,0x79,0xa7)
     assert m.cpu.p&m.cpu.DECIMAL
-    assert result['carry']==0 and result['cycles']<500
+    assert result['carry']==0 and result['cycles']<650
     assert bytes(m.cpu.memory[0x20:0x80])==zp
     assert bytes(m.cpu.memory[0x2000:0x4000])==bitmap
-    allowed={built['labels']['activity_phase'],built['labels']['packet_value'],*(0x400+c for c in built['activity_cells']),*range(0x100,0x200)}
+    allowed={built['labels']['activity_phase'],built['labels']['activity_prng'],built['labels']['audio_pending'],*(0x400+c for c in built['activity_cells']),*range(0x100,0x200)}
     assert m.cpu.memory.addresses<=allowed
 
 

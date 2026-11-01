@@ -15,6 +15,7 @@ class GraphicalMachine:
             dict(start=0xd011,end=0xd012,writable=True),dict(start=0xd016,end=0xd019,writable=True),
             dict(start=0xd020,end=0xd022,writable=True),dict(start=0xdd00,end=0xdd01,writable=True),
             dict(start=0xcc,end=0xcd,writable=True),dict(start=0x800,end=0x810,writable=True)]
+        regions += [dict(start=0x5480,end=0x5500,writable=True)]
         mem=AuditedMemory(regions);self.cpu=MPU(memory=mem)
         raw=Path(built['prg_path']).read_bytes() if prg is None else prg
         start=int.from_bytes(raw[:2],'little');assert start==0x801
@@ -69,7 +70,7 @@ class GraphicalMachine:
             cpu.a=value;cpu.x=0x5a;cpu.y=0xa6;cpu.FlagsNZ(value)
             cpu.pc=(cpu.stPopWord()+1)&65535
             return
-        assert 0x800<=pc<self.labels['code_end'] or 0x8000<=pc<self.labels['app_end'],f'PC outside code ${pc:04x}'
+        assert 0x800<=pc<self.labels['code_end'] or 0x5500<=pc<self.labels['services_end'] or 0x8000<=pc<self.labels['app_end'],f'PC outside code ${pc:04x}'
         if pc==self.labels['neural_begin']:self.zp_before=bytes(mem[0x20:0x80]);self.neural_calls+=1
         if 'activity_tick' in self.labels and pc==self.labels['activity_tick']:self.phases.append(self.get('activity_phase'))
         cpu.step();self.steps+=1
@@ -160,6 +161,7 @@ def _parity_shard(task):
     for region in built['core']['memory_map']:
         if region['writable']:allowed.update(range(region['start'],region['end']))
     allowed.update([m.labels['activity_phase'],m.labels['packet_value'],*(0x400+c for c in built['activity_cells'])])
+    allowed.update([m.labels['activity_prng'],m.labels['audio_pending']])
     allowed.update(range(m.labels['progress_active'],m.labels['progress_pattern']+1))
     meter_cells=[0x63e+i for i in range(13) if i!=5]
     allowed.update(meter_cells)

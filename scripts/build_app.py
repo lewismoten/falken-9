@@ -101,11 +101,13 @@ def extract_disk(path):
     return b''.join(chunks)
 
 
-def package_disk(built,gate,output=None):
+def package_disk(built,gate,output=None,*,stem=APP_STEM,title='FALKEN9 NUMERIC'):
     """Only package an exact PRG which has passed complete live NN games."""
     prg=Path(built['prg_path']).read_bytes()
     assert gate['status']=='passed' and gate['prg_sha256']==hashlib.sha256(prg).hexdigest()
     assert gate['draws']>=1 and gate['model_wins']>=1 and gate['executed_neural_calls']>=7
+    assert re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]*',stem),'unsafe disk filename'
+    assert re.fullmatch(r'[A-Z0-9 -]{1,16}',title),'unsafe disk title'
     output=OUT if output is None else Path(output);output.mkdir(parents=True,exist_ok=True)
     counts,offsets=disk_geometry();disk=bytearray(174848)
     order=[17,19,16,20,15,21,14,22,13,23,12,24,11,25,10,26,9,27,8,28,7,29,6,30,5,31,4,32,3,33,2,34,1,35]
@@ -126,11 +128,12 @@ def package_disk(built,gate,output=None):
         for sector in range(counts[track]):
             if (track,sector) not in used:
                 disk[at]+=1;disk[at+1+sector//8]|=1<<(sector%8)
-    disk[bam+0x90:bam+0xa0]=b'FALKEN9 NUMERIC'.ljust(16,b'\xa0')
+    disk[bam+0x90:bam+0xa0]=title.encode('ascii').ljust(16,b'\xa0')
     disk[bam+0xa0:bam+0xab]=b'\xa0\xa0F9\xa02A\xa0\xa0\xa0\xa0'
-    path=output/f'{APP_STEM}.d64';path.write_bytes(disk)
+    path=output/f'{stem}.d64';path.write_bytes(disk)
     assert extract_disk(path)==prg
-    assert subprocess.run(['git','check-ignore','-q',str(path)],cwd=ROOT).returncode==0,'generated D64 must be ignored'
+    if path.resolve().is_relative_to(ROOT):
+        assert subprocess.run(['git','check-ignore','-q',str(path)],cwd=ROOT).returncode==0,'generated D64 must be ignored'
     result=dict(path=str(path),sha256=hashlib.sha256(disk).hexdigest(),prg_sha256=hashlib.sha256(prg).hexdigest(),blocks=len(chain),bytes=len(disk),extracted_identical=True,bam_reachability_verified=True)
     (output/'disk.json').write_text(json.dumps(result,indent=2)+'\n')
     return result
