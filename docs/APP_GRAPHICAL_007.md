@@ -27,6 +27,10 @@ Native stock-ROM PRG and true-1541 D64 evidence each records three complete game
 
 ## Acceptance boundaries
 
+![Native final title and lower/right-aligned badge](../assets/screenshots/falken9-007-title.png)
+
+![Native final INFO with original audio controls](../assets/screenshots/falken9-007-info-audio.png)
+
 Final candidate PRG SHA-256: ccfe6c5d03ef51c72cd6ca6bab7bc803e1d9e25b132b1c1509e303143dc0b953.
 Final D64 SHA-256: afb4f5788d6bfe87e0bb09427f91d7428dd8ffb2d7fe5ac7d7fe67a17624b3dc.
 

@@ -8,7 +8,7 @@ With the prepared numbered candidate and an actual final-executable screenshot:
 
     .venv/bin/python -m scripts.build_pages \
       --candidate artifacts/app/007-graphical \
-      --screenshot artifacts/operations/deployment/007/vice-prg/title.png \
+      --screenshot assets/screenshots/falken9-007-title.png \
       --output build/pages-007
     python3 -m http.server 8847 --bind 127.0.0.1 --directory build/pages-007
 

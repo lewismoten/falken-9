@@ -1,0 +1,56 @@
+{
+  "status": "passed-with-explicit-browser-and-hardware-limits",
+  "application": "007-graphical",
+  "application_source_commit": "2103df4ec1dbb29de097ca9ce6697fa2e3f5e489",
+  "launcher_source_commit": "498e8dd1e64c86bdf8106c23b70a2126329dddf4",
+  "public_publication": false,
+  "prg": {"bytes": 50066, "sha256": "ccfe6c5d03ef51c72cd6ca6bab7bc803e1d9e25b132b1c1509e303143dc0b953", "standalone": true},
+  "d64": {"bytes": 174848, "sha256": "afb4f5788d6bfe87e0bb09427f91d7428dd8ffb2d7fe5ac7d7fe67a17624b3dc", "exact_same_prg": true, "file_chain_blocks": 198},
+  "upload_zip": {"bytes": 654348, "sha256": "c709ad77b46e90f9abdff69bc57a60c9dbeab45be0cd0b59be287031d0210d2e", "files": 71, "pages_assets": false},
+  "frozen_model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "frozen_core_sha256": "838aa62a854aa58bd603c7525b52dc67c4c4b01ea0f50f58982475959ec61961",
+  "tests": {"pytest_passed": 205, "pytest_skipped": 3, "pytest_deselected": 1, "subtests_passed": 677, "node_passed": 6, "node_failed": 0},
+  "numerical": {"canonical_full_forwards": 627, "stage_route_logit_mismatches": 0, "asynchronous_interrupts_in_exhaustive_gate": false, "fixture_composed_wrapper_boards": 4520},
+  "irq_interleavings": {"representative_boards": 24, "interruptions": 11875, "maximum_observed_protected_irq_cycles": 321, "scope": "stock-ROM prologue/epilogue in flat Py65 with injected device flags; not physical VIC/CIA timing"},
+  "audio": {
+    "original_score": "Patient Calculations",
+    "code_and_tables_bytes": 820,
+    "all_service_code_bytes": 1733,
+    "all_service_state_reserved_bytes": 128,
+    "native_pcm": [
+      {"timing": "PAL", "sha256": "07cbd38a3da402540fd7ead679551f2fe4dd401136b03dd1a9d6c1298163f536", "inference_service_ticks": 448, "maximum_observed_tick_gap_cpu_cycles": 19681, "clipped_samples": 0},
+      {"timing": "NTSC", "sha256": "42d5d592f3aa8eb964476e490977be8db65631fb97d4b84efc8e6a9840a83d9a", "inference_service_ticks": 521, "maximum_observed_tick_gap_cpu_cycles": 17133, "clipped_samples": 0}
+    ],
+    "scope": "actual final-binary VICE MOS8580 recordings and register traces; numeric validation only, not listened or physical hardware"
+  },
+  "continuous_auto": {
+    "first_game_opening": "full NN, deterministic tie",
+    "later_game_openings": "full NN then uniform actual inverse-mapped legal approved-set tie; no previous repeat when alternatives exist",
+    "temperature_or_learning": false,
+    "native_prg_complete_games": 3,
+    "native_true1541_d64_complete_games": 3,
+    "actual_nn_requests_per_native_format": 28,
+    "request_count_scope": "27 game forwards plus one additional safe-boundary quit probe per format",
+    "result_holds_in_place_replays_and_q": true,
+    "separate_fixture_composed_consecutive_games": 40
+  },
+  "native_stock_rom": {"PAL_PRG": "passed", "PAL_true1541_D64": "passed", "NTSC_PRG": "passed", "music_enabled": true, "complete_human_model_draw_and_loss": true, "two_human_win_draw": true, "replay_info_title_recovery": true, "ingame_LOAD_OPEN": 0},
+  "browser": {
+    "c64online_prg": "complete human/model draw and loss, two-human win/draw, replay/INFO recovery, one complete auto draw and automatic replay plus three later-game plies captured",
+    "c64online_d64": "autostart, complete human/model draw and terminal replay; partial second game captured",
+    "interrupted_paths": "browser transport lost with no close frame received or sent; subsequent D64 loss/recovery and a second complete browser auto game unconfirmed",
+    "TY64": "exact complete PRG received; native title and human/model reply observed",
+    "storage_d64": "exact D64 received; native directory/sourceName rendered and identical PRG extracted; retry/reload recovery exercised",
+    "inspector_ui_limit": "external UI displays zero declared blocks despite actual 198-block chain/c1541 count; receiver not modified",
+    "physical_keyboard": "unverified"
+  },
+  "rebuilds": {"expanded_upload": "byte-identical", "extracted_zip": "byte-identical", "isolated_stdlib_Pillow_source_assembler_only": true},
+  "preservation": {"previous_snapshot_files": 529, "all_byte_identical": true},
+  "remaining": ["physical hardware and listening acceptance", "uncaptured browser paths after transport loss", "GitHub repository/Pages workflow activation and Hub publication require authorization"],
+  "screenshots": [
+    {"path": "assets/screenshots/falken9-007-gameplay.png", "sha256": "46074746ad9a98a841dd448ac105b51b1ed9cd9ac6099a014f190c2533f930eb"},
+    {"path": "assets/screenshots/falken9-007-title.png", "sha256": "ad9b52282a7f614f024e4a0c5c2d3492ce6a90bc6470a4ec4e8b8c1d1fa1bb85"},
+    {"path": "assets/screenshots/falken9-007-info-audio.png", "sha256": "6cbe9256c07e3180e54b857b17e06ae3aba1a37d286c5b361a1655fdb69dcb73"}
+  ],
+  "operator_evidence": "Numbered candidate, native traces/screenshots, full gate reports, private download checks and UI-READY/FINAL handoff retained under artifacts/operations/deployment/007; not shipped as public logs."
+}

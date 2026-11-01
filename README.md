@@ -4,6 +4,8 @@ A new C64-first neural tic-tac-toe policy project. The goal is a compact, RAM-re
 
 ## Current graphical game — application 007
 
+![Actual application 007 human/model response in stock-ROM VICE](assets/screenshots/falken9-007-gameplay.png)
+
 [Application 007](docs/APP_GRAPHICAL_007.md) adds the requested lower/right-aligned
 FALCON-9 badge, three decorative light bands, compact REPLAY/QUIT and in-place
 replay without a DEN blackout. [Original SID music/SFX](docs/SID_AUDIO.md) continue
@@ -17,6 +19,8 @@ PRG to TY64 and the exact disk to the existing storage-d64 inspector. It is not
 part of the Hub package, and no public GitHub/Pages/Hub publication is enabled.
 Numerical, stock-ROM, PCM and browser evidence have separate scopes; see the
 application guide for interrupted browser paths and physical-hardware limits.
+The [scoped acceptance summary](results/app-007-summary.json) binds the executable,
+model, package and native audio captures without publishing private operator logs.
 
 ## Historical graphical game — application 004
 

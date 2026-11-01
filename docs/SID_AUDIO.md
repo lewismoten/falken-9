@@ -6,7 +6,7 @@ Two quiet triangle voices provide a slow minor/suspended melody and sustained ba
 
 ## Interrupt and memory contract
 
-This is a narrow stock-ROM/no-cartridge contract, not a generic IRQ framework. VIC raster line 250 owns the SID service. CIA timers are not reassigned, reloaded or reconfigured. Initialization saves VIC IRQ/raster settings and the KERNAL IRQ vector; shutdown restores them. The saved vector remains the normal KERNAL owner outside protected work.
+This is a narrow stock-ROM/no-cartridge contract, not a generic IRQ framework. VIC raster line 250 owns the SID service. CIA timers are not reassigned, reloaded or reconfigured. Initialization saves the VIC IRQ mask and KERNAL IRQ vector; shutdown restores those. The raster compare is owned for this session, not saved/restored: the tested stock startup has no preexisting raster-IRQ client. This is not support for arbitrary prior raster handlers. The saved vector remains the normal KERNAL owner outside protected work.
 
 The stock KERNAL hardware IRQ entry at $ff48 has already saved A/X/Y before entering the installed $0314 vector. The service is ZP-free, CLD-protected, absolute-state-only, and preserves its entry registers; RTI restores the interrupted flags. Protected compute suppresses the KERNAL keyboard/clock scanner and acknowledges pending CIA status so that live neural ZP cannot be corrupted. Outside compute, the original KERNAL route is retained. No graphics/UI pointers, input scans, CIA timers, CPU port or model memory are mutated by the SID service. NMI ownership is not changed.
 
@@ -16,7 +16,7 @@ PAL/NTSC are detected through the standard startup flag; separate generated freq
 
 ## Evidence scope and cost
 
-The final executable passes all 627 numerical stage/route/logit cases without asynchronous interrupts. A separate adversarial suite executes stock-ROM IRQ entry/exit at 11,875 interleavings over 24 representative boards and both port values. Maximum observed complete protected service cost is 321 CPU cycles; it is a measured bound over these cases, not every imaginable machine extension. Per-frame overhead is added work, not a claimed inference speedup. State, code/table ranges, stack low-water and write audits are retained in candidate evidence.
+The final executable passes all 627 numerical stage/route/logit cases without asynchronous interrupts. A separate adversarial suite executes stock-ROM IRQ entry/exit at 11,875 interleavings over 24 representative boards and both port values. Maximum observed complete protected service cost is 321 CPU cycles; it is a measured bound over these cases, not every imaginable machine extension. The assembled SID module/score/frequency tables occupy 820 bytes; the complete relocated service region uses 1,733 bytes, with 128 bytes reserved for all service state. Per-frame overhead is added work, not a claimed inference speedup. State, code/table ranges, stack low-water and write audits are retained in candidate evidence.
 
 Actual x64/MOS8580 WAV output, not a host imitation, spans idle music, title/INFO SFX, a complete human/model response and distinct mark sounds. Both PAL and NTSC PCM are non-silent with zero samples at the clipping extrema. Native trace records include hundreds of SID-service calls inside the full forward, changing score registers and the actual event/mark-frequency writes. These are numeric PCM/register checks, not a claim that a person heard or approved the composition. Private captures and full monitor traces are deliberately excluded from public upload trees.
 
