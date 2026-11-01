@@ -232,6 +232,17 @@ selected mode; cursor up/down changes selection. `I` opens model INFO; `Q`
 returns to title. On the title, `Q` ends at a reset/reload screen, not BASIC.
 Game: row-major `123 / 456 / 789`, `R` replay, `Q` title. Empty squares show
 dim gray 1–9 bitmap labels; X/O replaces its label and replay restores it.
+`M` mutes/unmutes original SID music and SFX, including at safe auto boundaries.
+
+Zero-player mode continuously replays after a roughly two-second result hold
+(100 PAL / 120 NTSC raster frames). Every mark, including every opening,
+executes full frozen-model inference. The first game uses the deterministic
+opening tie. Later openings uniformly resolve the actual model-approved,
+inverse-mapped legal set, excluding the previous opener only when alternatives
+exist. Other turns and human modes retain the deterministic policy. This is a
+WarGames-inspired demonstration, not learning, temperature scaling or a claim
+of thousands of instant games. Q exits and R restarts at safe between-turn or
+result boundaries; no immediate mid-inference cancellation is promised.
 
 Wait for the ready/terminal status before the next key. Rendering and inference
 are synchronous; cancellation/input during those protected intervals is not
@@ -239,26 +250,34 @@ supported. The changing decorative button subset indicates real-work activity,
 not percentage progress. The outlined red-X/blue-O meter advances only after
 completed compute boundaries using measured resident-work weights, not elapsed
 time. It reserves a visible gap until the model's legal mark is committed and
-then resets. No timers or drawing IRQs are installed. Activity callbacks are
-bounded but synchronous: their cadence is not a constant-rate animation.
+then resets. Three decorative light bands use bounded synchronous callbacks;
+their cadence is not constant-rate animation. A separate SID-only raster IRQ
+keeps the original quiet two-voice score and prioritized voice-three SFX live
+during compute and view composition. It uses no neural ZP or CIA timer writes;
+KERNAL scanning is suppressed only during protected work and retained outside.
+No graphics are drawn from that interrupt. Mute is optional; session quit silences
+SID and restores the saved IRQ vector. Stock ROM/no-cartridge is the tested
+interrupt-ownership boundary; physical hardware and arbitrary IRQ extensions
+remain unverified.
 
-The exact static dark-blue display badge is FALCON-9, then 1.0. Frozen model tags,
+The dark-blue badge is FALCON-9 on row22 and right-aligned 1.0 on row23. Frozen model tags,
 artifact filenames and the project slug retain their original Falken spelling.
 INFO uses the original archive frame, white body text, yellow headings and
 cursor up/down scrolling; it shows both requested repository destinations as
 not yet published. No public upload is performed by this package.
 
 The board retains the console artwork and a compact X/O turn-or-winner glyph,
-yellow D for draw, ? for invalid input and ! for an inference error. Commands
-are documented in INFO rather than painted over the console. Title selection
-and ordinary board moves patch bounded cells without blanking the display;
-initial view entry and replay still compose full planes with display disabled.
+yellow D for draw, ? for invalid input and ! for an inference error. Compact
+REPLAY/QUIT sit in original black footer pockets; replay brightens only at a
+terminal result. Title selection, ordinary moves and manual/automatic replay
+patch bounded footprints without DEN-off/full-plane decompression. Initial
+title/game/INFO view transitions still compose full planes with display disabled.
 
 Minimal test: title `1`, then human `5,2,4,9,7`, waiting each turn, gives
 `OXO / XXO / XOX` and DRAW. Replay, then human `1,2,4` gives
 `XXO / XO. / O..` and O WINS. Invalid `0` and occupied cells add no marks.
 Title `2`, then `1,4,2,5,3`, waiting for redraws, gives X WINS.
-Title `0` plays a complete neural-versus-neural game. Candidate-specific
+Title `0` runs continuous real-model self-play. Candidate-specific
 browser and stock-ROM scopes remain distinct in the supplied evidence.
 
 Board squares are row-major 1–9; wrapper result 0 means invalid/no result.

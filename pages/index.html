@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>FALCON-9 · C64 console</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header><span class="eyebrow">COMMODORE 64 / ORIGINAL INTEGER MODEL</span><h1>FALCON-9 <small>1.0</small></h1><p>A patient game of tic-tac-toe. The neural model runs on the emulated C64.</p></header>
+<div class="console">
+<figure><img src="screen.png" width="384" height="272" alt="Actual emulator capture of this release"><figcaption>Native emulator capture · model-v1.0.0 unchanged</figcaption></figure>
+<section aria-label="Launch controls">
+<h2>Load the console</h2>
+<button id="run" type="button" disabled>Run PRG in TY64</button>
+<a id="prg" class="secondary" download>Download PRG</a>
+<div class="disk-actions"><a id="d64" class="secondary" download>Download D64</a><button id="inspect" class="secondary" type="button" disabled>Inspect Disk</button></div>
+<p id="status" role="status" aria-live="polite">Loading release inventory…</p>
+<button id="retry" type="button" hidden>Retry inventory</button>
+<p class="hint">Allow popups. TY64 has no readiness handshake; if its first load misses, return here and click Run again. Inspect starts a fresh owned window; save inspector edits before reopening. Downloads are the manual fallback.</p>
+</section>
+</div>
+<div class="notes">
+<section><h2>Controls</h2><dl><dt>Title</dt><dd>↑ / ↓, Return · 1 human/model · 2 two humans · 0 neural auto</dd><dt>Board</dt><dd>1 2 3 / 4 5 6 / 7 8 9 · R replay · Q title</dd><dt>Sound / info</dt><dd>M mute/unmute · I opens INFO on title · ↑ / ↓ scroll · Q back</dd></dl></section>
+<section><h2>Compatibility & proof</h2><p>Standalone PRG includes model, artwork, original SID score and INFO. No secondary in-game loads, network or host inference. D64 contains the same PRG.</p><p>0-player mode continuously replays after a short result hold. Every move runs the frozen model. Later openings randomize only its approved-set tie; this is a WarGames-inspired demonstration, not learning or temperature scaling. Q exits at safe turn boundaries.</p><p>Emulator-tested only; physical C64/1541 unverified. Decorative lights and sound are not model explanations. Loader, browser interaction and numerical gates have separate evidence scopes.</p><a href="release.json">Byte inventory / SHA-256</a></section>
+</div>
+<footer>Original project by Lewis Moten · fictional war-room presentation, not operational functionality · public deployment pending authorization</footer>
+</main>
+<script type="module" src="index.mjs"></script>
+</body>
+</html>

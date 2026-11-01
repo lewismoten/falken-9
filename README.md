@@ -2,7 +2,23 @@
 
 A new C64-first neural tic-tac-toe policy project. The goal is a compact, RAM-resident model with real attention, learned routing and mixture-of-experts execution—not a stored move table. Crystal-9's published original-model release is preserved separately.
 
-## Graphical game — application 004
+## Current graphical game — application 007
+
+[Application 007](docs/APP_GRAPHICAL_007.md) adds the requested lower/right-aligned
+FALCON-9 badge, three decorative light bands, compact REPLAY/QUIT and in-place
+replay without a DEN blackout. [Original SID music/SFX](docs/SID_AUDIO.md) continue
+through neural computation. M toggles sound. Zero-player mode continuously
+replays: every opening executes full inference, with only later-game opening
+ties randomized inside the actual inverse-mapped model-approved legal set.
+The model is frozen; self-play is not learning or temperature scaling.
+
+The [GitHub-only static launcher](docs/PAGES.md) sends the complete standalone
+PRG to TY64 and the exact disk to the existing storage-d64 inspector. It is not
+part of the Hub package, and no public GitHub/Pages/Hub publication is enabled.
+Numerical, stock-ROM, PCM and browser evidence have separate scopes; see the
+application guide for interrupted browser paths and physical-hardware limits.
+
+## Historical graphical game — application 004
 
 ![Actual graphical Falken-9 game in the target browser](assets/screenshots/falken9-004-gameplay.png)
 
