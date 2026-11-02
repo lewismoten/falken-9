@@ -1,0 +1,740 @@
+[
+  {
+    "code_interval": [
+      -1355,
+      6524
+    ],
+    "delta_interval": [
+      -2989,
+      4890
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-11",
+    "head_row_exponent": -12,
+    "id": "bias-0",
+    "kind": "bias",
+    "legal_population": 552,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      474
+    ],
+    "mathematical_interval": [
+      -1355,
+      6524
+    ],
+    "old_code": 1634,
+    "row": 0,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      0
+    ],
+    "stored_exponent": -11,
+    "tensor": "output.bias",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      308
+    ]
+  },
+  {
+    "code_interval": [
+      861,
+      3023
+    ],
+    "delta_interval": [
+      -54,
+      2108
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-11",
+    "head_row_exponent": -12,
+    "id": "bias-1",
+    "kind": "bias",
+    "legal_population": 457,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      112
+    ],
+    "mathematical_interval": [
+      861,
+      3023
+    ],
+    "old_code": 915,
+    "row": 1,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      1
+    ],
+    "stored_exponent": -11,
+    "tensor": "output.bias",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      133
+    ]
+  },
+  {
+    "code_interval": [
+      -6996,
+      1746
+    ],
+    "delta_interval": [
+      -4238,
+      4504
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-11",
+    "head_row_exponent": -12,
+    "id": "bias-2",
+    "kind": "bias",
+    "legal_population": 165,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      614
+    ],
+    "mathematical_interval": [
+      -6996,
+      1746
+    ],
+    "old_code": -2758,
+    "row": 2,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      2
+    ],
+    "stored_exponent": -11,
+    "tensor": "output.bias",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      110
+    ]
+  },
+  {
+    "code_interval": [
+      -11490,
+      -216
+    ],
+    "delta_interval": [
+      -5437,
+      5837
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-11",
+    "head_row_exponent": -12,
+    "id": "bias-3",
+    "kind": "bias",
+    "legal_population": 149,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      570
+    ],
+    "mathematical_interval": [
+      -11490,
+      -216
+    ],
+    "old_code": -6053,
+    "row": 3,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      3
+    ],
+    "stored_exponent": -11,
+    "tensor": "output.bias",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      213
+    ]
+  },
+  {
+    "code_interval": [
+      -3962,
+      3363
+    ],
+    "delta_interval": [
+      -3666,
+      3659
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-11",
+    "head_row_exponent": -12,
+    "id": "bias-4",
+    "kind": "bias",
+    "legal_population": 264,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      525
+    ],
+    "mathematical_interval": [
+      -3962,
+      3363
+    ],
+    "old_code": -296,
+    "row": 4,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      4
+    ],
+    "stored_exponent": -11,
+    "tensor": "output.bias",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      472
+    ]
+  },
+  {
+    "code_interval": [
+      -13463,
+      -3363
+    ],
+    "delta_interval": [
+      -5434,
+      4666
+    ],
+    "denominator": 8192,
+    "effective_parameter_delta_unit": "2^-11",
+    "head_row_exponent": -13,
+    "id": "bias-5",
+    "kind": "bias",
+    "legal_population": 192,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      201
+    ],
+    "mathematical_interval": [
+      -13463,
+      -3363
+    ],
+    "old_code": -8029,
+    "row": 5,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      5
+    ],
+    "stored_exponent": -11,
+    "tensor": "output.bias",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      340
+    ]
+  },
+  {
+    "code_interval": [
+      -13696,
+      -6139
+    ],
+    "delta_interval": [
+      -4108,
+      3449
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-11",
+    "head_row_exponent": -12,
+    "id": "bias-6",
+    "kind": "bias",
+    "legal_population": 154,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      378
+    ],
+    "mathematical_interval": [
+      -13696,
+      -6139
+    ],
+    "old_code": -9588,
+    "row": 6,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      6
+    ],
+    "stored_exponent": -11,
+    "tensor": "output.bias",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      474
+    ]
+  },
+  {
+    "code_interval": [
+      -8842,
+      -4203
+    ],
+    "delta_interval": [
+      -2238,
+      2401
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-11",
+    "head_row_exponent": -12,
+    "id": "bias-7",
+    "kind": "bias",
+    "legal_population": 186,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      364
+    ],
+    "mathematical_interval": [
+      -8842,
+      -4203
+    ],
+    "old_code": -6604,
+    "row": 7,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      7
+    ],
+    "stored_exponent": -11,
+    "tensor": "output.bias",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      213
+    ]
+  },
+  {
+    "code_interval": [
+      3353,
+      12001
+    ],
+    "delta_interval": [
+      -4838,
+      3810
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-11",
+    "head_row_exponent": -12,
+    "id": "bias-8",
+    "kind": "bias",
+    "legal_population": 151,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      604
+    ],
+    "mathematical_interval": [
+      3353,
+      12001
+    ],
+    "old_code": 8191,
+    "row": 8,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      8
+    ],
+    "stored_exponent": -11,
+    "tensor": "output.bias",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      161
+    ]
+  },
+  {
+    "code_interval": [
+      7957,
+      9916
+    ],
+    "column": 0,
+    "delta_interval": [
+      -964,
+      995
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-12",
+    "head_row_exponent": -12,
+    "id": "weight-0-0",
+    "kind": "weight",
+    "legal_population": 552,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      535
+    ],
+    "mathematical_interval": [
+      7957,
+      9916
+    ],
+    "old_code": 8921,
+    "row": 0,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      0,
+      0
+    ],
+    "stored_exponent": -12,
+    "tensor": "output.weight",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      379
+    ]
+  },
+  {
+    "code_interval": [
+      -2925,
+      -1857
+    ],
+    "column": 0,
+    "delta_interval": [
+      -56,
+      1012
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-12",
+    "head_row_exponent": -12,
+    "id": "weight-1-0",
+    "kind": "weight",
+    "legal_population": 457,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      112
+    ],
+    "mathematical_interval": [
+      -2925,
+      -1857
+    ],
+    "old_code": -2869,
+    "row": 1,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      1,
+      0
+    ],
+    "stored_exponent": -12,
+    "tensor": "output.weight",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      37
+    ]
+  },
+  {
+    "code_interval": [
+      3754,
+      6306
+    ],
+    "column": 0,
+    "delta_interval": [
+      -1453,
+      1099
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-12",
+    "head_row_exponent": -12,
+    "id": "weight-2-0",
+    "kind": "weight",
+    "legal_population": 165,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      138
+    ],
+    "mathematical_interval": [
+      3754,
+      6306
+    ],
+    "old_code": 5207,
+    "row": 2,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      2,
+      0
+    ],
+    "stored_exponent": -12,
+    "tensor": "output.weight",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      57
+    ]
+  },
+  {
+    "code_interval": [
+      -14602,
+      -10991
+    ],
+    "column": 0,
+    "delta_interval": [
+      -1937,
+      1674
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-12",
+    "head_row_exponent": -12,
+    "id": "weight-3-0",
+    "kind": "weight",
+    "legal_population": 149,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      469
+    ],
+    "mathematical_interval": [
+      -14602,
+      -10991
+    ],
+    "old_code": -12665,
+    "row": 3,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      3,
+      0
+    ],
+    "stored_exponent": -12,
+    "tensor": "output.weight",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      66
+    ]
+  },
+  {
+    "code_interval": [
+      14919,
+      21001
+    ],
+    "column": 0,
+    "delta_interval": [
+      -3015,
+      3067
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-12",
+    "head_row_exponent": -12,
+    "id": "weight-4-0",
+    "kind": "weight",
+    "legal_population": 264,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      72
+    ],
+    "mathematical_interval": [
+      14919,
+      21001
+    ],
+    "old_code": 17934,
+    "row": 4,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      4,
+      0
+    ],
+    "stored_exponent": -12,
+    "tensor": "output.weight",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      530
+    ]
+  },
+  {
+    "code_interval": [
+      24579,
+      28434
+    ],
+    "column": 0,
+    "delta_interval": [
+      -1729,
+      2126
+    ],
+    "denominator": 8192,
+    "effective_parameter_delta_unit": "2^-13",
+    "head_row_exponent": -13,
+    "id": "weight-5-0",
+    "kind": "weight",
+    "legal_population": 192,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      201
+    ],
+    "mathematical_interval": [
+      24579,
+      28434
+    ],
+    "old_code": 26308,
+    "row": 5,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      5,
+      0
+    ],
+    "stored_exponent": -13,
+    "tensor": "output.weight",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      379
+    ]
+  },
+  {
+    "code_interval": [
+      8654,
+      11235
+    ],
+    "column": 0,
+    "delta_interval": [
+      -1315,
+      1266
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-12",
+    "head_row_exponent": -12,
+    "id": "weight-6-0",
+    "kind": "weight",
+    "legal_population": 154,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      428
+    ],
+    "mathematical_interval": [
+      8654,
+      11235
+    ],
+    "old_code": 9969,
+    "row": 6,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      6,
+      0
+    ],
+    "stored_exponent": -12,
+    "tensor": "output.weight",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      575
+    ]
+  },
+  {
+    "code_interval": [
+      11129,
+      16952
+    ],
+    "column": 0,
+    "delta_interval": [
+      -2183,
+      3640
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-12",
+    "head_row_exponent": -12,
+    "id": "weight-7-0",
+    "kind": "weight",
+    "legal_population": 186,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      291
+    ],
+    "mathematical_interval": [
+      11129,
+      16952
+    ],
+    "old_code": 13312,
+    "row": 7,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      7,
+      0
+    ],
+    "stored_exponent": -12,
+    "tensor": "output.weight",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      468
+    ]
+  },
+  {
+    "code_interval": [
+      14470,
+      17039
+    ],
+    "column": 0,
+    "delta_interval": [
+      -1543,
+      1026
+    ],
+    "denominator": 4096,
+    "effective_parameter_delta_unit": "2^-12",
+    "head_row_exponent": -12,
+    "id": "weight-8-0",
+    "kind": "weight",
+    "legal_population": 151,
+    "lower_censored": false,
+    "lower_limiting_ids": [
+      288
+    ],
+    "mathematical_interval": [
+      14470,
+      17039
+    ],
+    "old_code": 16013,
+    "row": 8,
+    "source_bits": 16,
+    "source_code_bounds": [
+      -32768,
+      32767
+    ],
+    "source_coordinate": [
+      8,
+      0
+    ],
+    "stored_exponent": -12,
+    "tensor": "output.weight",
+    "upper_censored": false,
+    "upper_limiting_ids": [
+      587
+    ]
+  }
+]

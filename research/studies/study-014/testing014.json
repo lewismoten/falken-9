@@ -1,0 +1,16 @@
+{
+  "canonical_forward_board_executions_per_run": 73359,
+  "canonical_forward_board_executions_two_runs": 146718,
+  "complete_full_network_batches_per_run": 117,
+  "complete_full_network_batches_two_runs": 234,
+  "full_study_unittest_runs": 2,
+  "independent_audits_reexecute_no_neural_batches": true,
+  "test_driven_sequence": [
+    "extrema: missing implementation assertion FAILED; exact integer exhaustive check PASSED",
+    "bias bands: missing function assertion FAILED; all small signed joint codes PASSED",
+    "shrink: missing function assertion FAILED; signed truncation/nesting PASSED",
+    "real study: missing runner assertion FAILED; full frozen integration PASSED twice",
+    "packaging verification: missing module assertion FAILED; real two-run/extremum/preservation audit PASSED"
+  ],
+  "tests_each_full_run": 4
+}

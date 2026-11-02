@@ -1,0 +1,1071 @@
+{
+  "attention_query_is_not_output_square": true,
+  "callouts": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "canonical_id": 341,
+  "embedding_scalar_checks": 8,
+  "exact_head_scalar_checks": 9,
+  "figures": [
+    {
+      "height": 1110,
+      "name": "forward-attention1011",
+      "text_boxes": [
+        {
+          "bounds": [
+            30,
+            23,
+            997,
+            54
+          ],
+          "text": "One actual frozen forward | 1 / 2 | Input \u2192 attention \u2192 readout"
+        },
+        {
+          "bounds": [
+            30,
+            81,
+            1016,
+            103
+          ],
+          "text": "Stored parameter codes are STATIC. All measured activations on this board are DYNAMIC."
+        },
+        {
+          "bounds": [
+            30,
+            138,
+            310,
+            156
+          ],
+          "text": "A  Canonical board 341"
+        },
+        {
+          "bounds": [
+            35,
+            189,
+            44,
+            197
+          ],
+          "text": "a"
+        },
+        {
+          "bounds": [
+            58.5,
+            227.5,
+            68.5,
+            231.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            110,
+            186,
+            119,
+            197
+          ],
+          "text": "b"
+        },
+        {
+          "bounds": [
+            133.5,
+            227.5,
+            143.5,
+            231.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            185,
+            189,
+            193,
+            197
+          ],
+          "text": "c"
+        },
+        {
+          "bounds": [
+            208.5,
+            227.5,
+            218.5,
+            231.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            35,
+            261,
+            44,
+            272
+          ],
+          "text": "d"
+        },
+        {
+          "bounds": [
+            58.5,
+            302.5,
+            68.5,
+            306.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            110,
+            264,
+            119,
+            272
+          ],
+          "text": "e"
+        },
+        {
+          "bounds": [
+            133.5,
+            302.5,
+            143.5,
+            306.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            185,
+            261,
+            191,
+            272
+          ],
+          "text": "f"
+        },
+        {
+          "bounds": [
+            208.5,
+            302.5,
+            218.5,
+            306.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            35,
+            339,
+            44,
+            350
+          ],
+          "text": "g"
+        },
+        {
+          "bounds": [
+            58.5,
+            359.5,
+            79.5,
+            381.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            110,
+            336,
+            119,
+            347
+          ],
+          "text": "h"
+        },
+        {
+          "bounds": [
+            133.5,
+            359.5,
+            154.5,
+            381.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            185,
+            336,
+            189,
+            347
+          ],
+          "text": "i"
+        },
+        {
+          "bounds": [
+            208.5,
+            359.5,
+            232.5,
+            381.5
+          ],
+          "text": "O"
+        },
+        {
+          "bounds": [
+            30,
+            429,
+            163,
+            446
+          ],
+          "text": "side index 1"
+        },
+        {
+          "bounds": [
+            30,
+            460,
+            228,
+            482
+          ],
+          "text": "complete set {cf}"
+        },
+        {
+          "bounds": [
+            370,
+            138,
+            946,
+            162
+          ],
+          "text": "B  One exact embedding sum, query square e"
+        },
+        {
+          "bounds": [
+            370,
+            192,
+            1136,
+            210
+          ],
+          "text": "occupancy code: [-1959, 1256, -1023, 1829, 1212, -1184, -1452, -29]"
+        },
+        {
+          "bounds": [
+            370,
+            227,
+            1056,
+            245
+          ],
+          "text": "position code:  [1008, 176, 268, -1509, 376, 581, 939, -554]"
+        },
+        {
+          "bounds": [
+            370,
+            262,
+            1136,
+            279
+          ],
+          "text": "side code:      [-818, -2371, 2413, -3368, -1134, 1353, 1499, 5066]"
+        },
+        {
+          "bounds": [
+            370,
+            293,
+            370,
+            293
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            370,
+            332,
+            1079,
+            350
+          ],
+          "text": "dynamic sum:   [-1769, -939, 1658, -3048, 454, 750, 986, 4483]"
+        },
+        {
+          "bounds": [
+            370,
+            363,
+            370,
+            363
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            370,
+            402,
+            976,
+            420
+          ],
+          "text": "Integer norm1 \u2192 learned Q / K / V on all nine tokens."
+        },
+        {
+          "bounds": [
+            370,
+            437,
+            1045,
+            455
+          ],
+          "text": "Eight lanes are latent dimensions, not eight other squares."
+        },
+        {
+          "bounds": [
+            30,
+            548,
+            468,
+            570
+          ],
+          "text": "C  Q15 attention (query rows / key cols)"
+        },
+        {
+          "bounds": [
+            82,
+            585,
+            93,
+            595
+          ],
+          "text": "a"
+        },
+        {
+          "bounds": [
+            121,
+            581,
+            132,
+            595
+          ],
+          "text": "b"
+        },
+        {
+          "bounds": [
+            160,
+            585,
+            170,
+            595
+          ],
+          "text": "c"
+        },
+        {
+          "bounds": [
+            199,
+            581,
+            210,
+            595
+          ],
+          "text": "d"
+        },
+        {
+          "bounds": [
+            238,
+            585,
+            249,
+            595
+          ],
+          "text": "e"
+        },
+        {
+          "bounds": [
+            277,
+            581,
+            284,
+            595
+          ],
+          "text": "f"
+        },
+        {
+          "bounds": [
+            316,
+            585,
+            327,
+            599
+          ],
+          "text": "g"
+        },
+        {
+          "bounds": [
+            355,
+            581,
+            366,
+            595
+          ],
+          "text": "h"
+        },
+        {
+          "bounds": [
+            394,
+            581,
+            399,
+            595
+          ],
+          "text": "i"
+        },
+        {
+          "bounds": [
+            32,
+            623,
+            43,
+            633
+          ],
+          "text": "a"
+        },
+        {
+          "bounds": [
+            32,
+            658,
+            43,
+            672
+          ],
+          "text": "b"
+        },
+        {
+          "bounds": [
+            32,
+            701,
+            42,
+            711
+          ],
+          "text": "c"
+        },
+        {
+          "bounds": [
+            32,
+            736,
+            43,
+            750
+          ],
+          "text": "d"
+        },
+        {
+          "bounds": [
+            32,
+            779,
+            43,
+            789
+          ],
+          "text": "e"
+        },
+        {
+          "bounds": [
+            32,
+            814,
+            39,
+            828
+          ],
+          "text": "f"
+        },
+        {
+          "bounds": [
+            32,
+            857,
+            43,
+            871
+          ],
+          "text": "g"
+        },
+        {
+          "bounds": [
+            32,
+            892,
+            43,
+            906
+          ],
+          "text": "h"
+        },
+        {
+          "bounds": [
+            32,
+            931,
+            37,
+            945
+          ],
+          "text": "i"
+        },
+        {
+          "bounds": [
+            30,
+            997,
+            500,
+            1015
+          ],
+          "text": "White 0 \u2192 dark blue 1; every row sums to 32768."
+        },
+        {
+          "bounds": [
+            530,
+            549,
+            1054,
+            573
+          ],
+          "text": "D  Exact query e audit and global readout"
+        },
+        {
+          "bounds": [
+            530,
+            604,
+            796,
+            624
+          ],
+          "text": "Q[e] \u00b7 K[a] = -18660448"
+        },
+        {
+          "bounds": [
+            530,
+            641,
+            779,
+            660
+          ],
+          "text": "Q15 row sum = 32768"
+        },
+        {
+          "bounds": [
+            530,
+            676,
+            972,
+            696
+          ],
+          "text": "P[e] \u00d7 V numerator, lane0 = -54675153"
+        },
+        {
+          "bounds": [
+            530,
+            712,
+            915,
+            732
+          ],
+          "text": "round(numerator / 32768) = -1669"
+        },
+        {
+          "bounds": [
+            530,
+            744,
+            530,
+            744
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            529,
+            784,
+            1178,
+            806
+          ],
+          "text": "Then learned projection + residual \u2192 global 72\u21928 readout."
+        },
+        {
+          "bounds": [
+            530,
+            820,
+            928,
+            842
+          ],
+          "text": "Query e is NOT the output square e."
+        },
+        {
+          "bounds": [
+            530,
+            856,
+            978,
+            873
+          ],
+          "text": "Attention mass is NOT move confidence."
+        },
+        {
+          "bounds": [
+            530,
+            888,
+            530,
+            888
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            530,
+            928,
+            992,
+            950
+          ],
+          "text": "All 21 stages retained in baseline011.npz."
+        },
+        {
+          "bounds": [
+            530,
+            964,
+            1256,
+            986
+          ],
+          "text": "Exact sample vectors/parameter snippets: walkthrough1011.json."
+        },
+        {
+          "bounds": [
+            30,
+            1059,
+            1042,
+            1079
+          ],
+          "text": "A\u2192B\u2192C\u2192D labels follow actual computation. No tactic label or minimax output enters inference."
+        }
+      ],
+      "width": 1400
+    },
+    {
+      "height": 1190,
+      "name": "forward-experts1011",
+      "text_boxes": [
+        {
+          "bounds": [
+            30,
+            23,
+            1028,
+            52
+          ],
+          "text": "One actual frozen forward | 2 / 2 | Routed experts \u2192 head \u2192 wrapper"
+        },
+        {
+          "bounds": [
+            30,
+            80,
+            1090,
+            100
+          ],
+          "text": "E/F/G: learned integer computation. H: fixed masking, inverse coordinates and raw-board tie priority."
+        },
+        {
+          "bounds": [
+            42,
+            149,
+            549,
+            173
+          ],
+          "text": "E  Actual dynamic routing and execution"
+        },
+        {
+          "bounds": [
+            42,
+            199,
+            422,
+            217
+          ],
+          "text": "scores [12921, -16367, -4062, 15078]"
+        },
+        {
+          "bounds": [
+            42,
+            234,
+            289,
+            253
+          ],
+          "text": "ordered expert IDs [3, 0]"
+        },
+        {
+          "bounds": [
+            42,
+            269,
+            395,
+            288
+          ],
+          "text": "matching Q15 gates [24294, 8474]"
+        },
+        {
+          "bounds": [
+            42,
+            300,
+            42,
+            300
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            42,
+            339,
+            381,
+            357
+          ],
+          "text": "E3 hidden [494, 1099, 1282, 795]"
+        },
+        {
+          "bounds": [
+            42,
+            374,
+            299,
+            392
+          ],
+          "text": "E0 hidden [0, 8232, 0, -1]"
+        },
+        {
+          "bounds": [
+            42,
+            405,
+            42,
+            405
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            42,
+            444,
+            479,
+            463
+          ],
+          "text": "Other expert activations: null / unobserved."
+        },
+        {
+          "bounds": [
+            42,
+            479,
+            463,
+            498
+          ],
+          "text": "A selected zero-gate expert still executes."
+        },
+        {
+          "bounds": [
+            41,
+            514,
+            524,
+            533
+          ],
+          "text": "These expert IDs do not uniquely name a tactic."
+        },
+        {
+          "bounds": [
+            727,
+            149,
+            1244,
+            173
+          ],
+          "text": "F  Exact merge, lane0 (all lanes retained)"
+        },
+        {
+          "bounds": [
+            727,
+            200,
+            952,
+            219
+          ],
+          "text": "E3 520 \u00d7 gate 24294"
+        },
+        {
+          "bounds": [
+            727,
+            235,
+            976,
+            254
+          ],
+          "text": "+ E0 4252 \u00d7 gate 8474"
+        },
+        {
+          "bounds": [
+            727,
+            269,
+            1080,
+            289
+          ],
+          "text": "= weighted numerator 48664328"
+        },
+        {
+          "bounds": [
+            727,
+            300,
+            727,
+            300
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            727,
+            339,
+            934,
+            355
+          ],
+          "text": "readout lane0 3820"
+        },
+        {
+          "bounds": [
+            727,
+            374,
+            1023,
+            393
+          ],
+          "text": "+ round(48664328 / 32768)"
+        },
+        {
+          "bounds": [
+            727,
+            409,
+            958,
+            429
+          ],
+          "text": "= merged lane0 5305"
+        },
+        {
+          "bounds": [
+            727,
+            440,
+            727,
+            440
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            727,
+            479,
+            1274,
+            499
+          ],
+          "text": "Both expert outputs feed the merge, then the head."
+        },
+        {
+          "bounds": [
+            727,
+            514,
+            1215,
+            534
+          ],
+          "text": "Exact rounding/clamps belong to the contract."
+        },
+        {
+          "bounds": [
+            42,
+            642,
+            462,
+            666
+          ],
+          "text": "G  Output row f: static \u00d7 dynamic"
+        },
+        {
+          "bounds": [
+            42,
+            693,
+            521,
+            711
+          ],
+          "text": "stored row codes [26308, 7055, -25023, 30728,"
+        },
+        {
+          "bounds": [
+            42,
+            727,
+            371,
+            745
+          ],
+          "text": "-10972, -16030, -29877, -10732]"
+        },
+        {
+          "bounds": [
+            42,
+            761,
+            405,
+            780
+          ],
+          "text": "row exponent -13; native bias -8029"
+        },
+        {
+          "bounds": [
+            42,
+            791,
+            42,
+            791
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            42,
+            829,
+            430,
+            848
+          ],
+          "text": "\u03a3 stored code \u00d7 merged = 376722251"
+        },
+        {
+          "bounds": [
+            42,
+            863,
+            328,
+            879
+          ],
+          "text": "scaled/rounded dot = 45987"
+        },
+        {
+          "bounds": [
+            42,
+            897,
+            249,
+            916
+          ],
+          "text": "+ bias = logit 37958"
+        },
+        {
+          "bounds": [
+            42,
+            927,
+            42,
+            927
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            42,
+            965,
+            520,
+            984
+          ],
+          "text": "One signed membership score, NOT probability."
+        },
+        {
+          "bounds": [
+            42,
+            999,
+            528,
+            1018
+          ],
+          "text": "All eight lanes contribute; all nine rows checked."
+        },
+        {
+          "bounds": [
+            727,
+            642,
+            1209,
+            666
+          ],
+          "text": "H  Integer logits \u2192 legal set \u2192 fixed tie"
+        },
+        {
+          "bounds": [
+            727,
+            688,
+            1104,
+            706
+          ],
+          "text": "sq    score       empty?   member"
+        },
+        {
+          "bounds": [
+            727,
+            723,
+            1070,
+            741
+          ],
+          "text": "a     -17582      yes      out"
+        },
+        {
+          "bounds": [
+            727,
+            750,
+            1070,
+            768
+          ],
+          "text": "b     -77851      yes      out"
+        },
+        {
+          "bounds": [
+            727,
+            777,
+            1059,
+            795
+          ],
+          "text": "c      10868      yes      IN"
+        },
+        {
+          "bounds": [
+            727,
+            804,
+            1070,
+            822
+          ],
+          "text": "d      -9233      yes      out"
+        },
+        {
+          "bounds": [
+            727,
+            831,
+            1070,
+            849
+          ],
+          "text": "e     -42051      yes      out"
+        },
+        {
+          "bounds": [
+            727,
+            858,
+            1059,
+            876
+          ],
+          "text": "f      37958      yes      IN"
+        },
+        {
+          "bounds": [
+            727,
+            885,
+            1070,
+            903
+          ],
+          "text": "g       2725      no       out"
+        },
+        {
+          "bounds": [
+            727,
+            912,
+            1070,
+            926
+          ],
+          "text": "h     -71679      no       out"
+        },
+        {
+          "bounds": [
+            727,
+            939,
+            1070,
+            953
+          ],
+          "text": "i      41868      no       out"
+        },
+        {
+          "bounds": [
+            727,
+            987,
+            959,
+            1006
+          ],
+          "text": "Set {cf}; ebdfhcgia \u2192 f"
+        },
+        {
+          "bounds": [
+            727,
+            1015,
+            1133,
+            1034
+          ],
+          "text": "Inverse-map WHOLE set before raw ties,"
+        },
+        {
+          "bounds": [
+            727,
+            1043,
+            1122,
+            1062
+          ],
+          "text": "never rotate one already chosen move."
+        },
+        {
+          "bounds": [
+            30,
+            1124,
+            1137,
+            1144
+          ],
+          "text": "Numerical execution is not semantic attribution. No \u201cblock/fork expert\u201d claim without selective evidence."
+        }
+      ],
+      "width": 1400
+    }
+  ],
+  "fixed_vs_learned": true,
+  "merged_scalar_checks": 8,
+  "static_vs_dynamic": true,
+  "weighted_value_scalar_checks": 8
+}

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1100" viewBox="0 0 1580 1100">
+<rect width="100%" height="100%" fill="#101720"/>
+<text x="28" y="22" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="26" fill="#edf2f6">Study008 / actual nearest-boundary, masked-flip and robust examples</text>
+<text x="28" y="65" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">No fragile legal case exists in this panel. A-C are descriptive saved-evidence callouts, not new or tuned experiments.</text>
+<rect x="25" y="110" width="1530" height="282" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="45" y="123" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">A / nearest legal boundary / no failure</text>
+<rect x="48" y="174" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="63" y="182" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="96" y="174" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="111" y="182" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="144" y="174" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="182" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="48" y="222" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="230" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="96" y="222" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="230" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="144" y="222" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="230" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="48" y="270" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="278" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="96" y="270" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="278" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="144" y="270" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="278" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<text x="48" y="327" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<text x="240" y="173" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Canonical ID112; fold0; actual pair[3, 2]; Q15 gates[31859, 909]</text>
+<text x="240" y="207" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Legal full set[0, 1]; minimum legal integer flip distance55; zero failures across all76 codes.</text>
+<text x="240" y="241" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Stored output.bias[0]: 1634 -&gt;1633; code bits16, packet byte offset3125</text>
+<text x="240" y="275" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Baseline logits [23136, 54, -3057, -14621, -38706, 17318, 19712, -4361, 62681]</text>
+<text x="240" y="309" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Perturbed logits [23135, 54, -3057, -14621, -38706, 17318, 19712, -4361, 62681]</text>
+<text x="240" y="343" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Robust here means only this finite panel. Selected code is a display control, not the closest parameter boundary.</text>
+<rect x="25" y="415" width="1530" height="282" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="45" y="428" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">B / occupied sign flip / legally masked</text>
+<rect x="48" y="479" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="487" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="96" y="479" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="487" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="144" y="479" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="159" y="487" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="48" y="527" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="535" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="96" y="527" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="535" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="144" y="527" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="535" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="48" y="575" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="583" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="96" y="575" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="583" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="144" y="575" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="583" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<text x="48" y="632" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<text x="240" y="478" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Canonical ID100; fold1; actual pair[0, 1]; Q15 gates[32669, 99]</text>
+<text x="240" y="512" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Legal full set[2]; minimum legal integer flip distance21475; zero failures across all76 codes.</text>
+<text x="240" y="546" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Stored norm2.weight[4]: 5467 -&gt;5466; code bits16, packet byte offset2885</text>
+<text x="240" y="580" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Baseline logits [-89548, -86425, 21474, -41051, -105610, -3414, -3606, -63217, 9]</text>
+<text x="240" y="614" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Perturbed logits [-89552, -86466, 21471, -41064, -105631, -3410, -3605, -63255, -15]</text>
+<text x="240" y="648" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Occupied square8, mark2: score9 -&gt;-15; excluded before inverse/tie.</text>
+<rect x="25" y="720" width="1530" height="282" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="45" y="733" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">C / robust counterexample / finite panel only</text>
+<rect x="48" y="784" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="792" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="96" y="784" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="792" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="144" y="784" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="792" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="48" y="832" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="840" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="96" y="832" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="111" y="840" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="144" y="832" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="840" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="48" y="880" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="888" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="96" y="880" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="888" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="144" y="880" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="888" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<text x="48" y="937" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<text x="240" y="783" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Canonical ID545; fold0; actual pair[1, 0]; Q15 gates[31728, 1040]</text>
+<text x="240" y="817" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Legal full set[4]; minimum legal integer flip distance926363; zero failures across all76 codes.</text>
+<text x="240" y="851" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Stored output.bias[0]: 1634 -&gt;1633; code bits16, packet byte offset3125</text>
+<text x="240" y="885" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Baseline logits [207426, 269674, 188398, -152385, 926362, 127070, 249951, 714824, -116035]</text>
+<text x="240" y="919" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Perturbed logits [207425, 269674, 188398, -152385, 926362, 127070, 249951, 714824, -116035]</text>
+<text x="240" y="953" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Robust here means only this finite panel. Selected code is a display control, not the closest parameter boundary.</text>
+<text x="28" y="1058" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Green outline: actual baseline optimal legal set. Coordinates0..8 row-major. Final logits are &gt;=0 set membership, never probabilities.</text>
+</svg>

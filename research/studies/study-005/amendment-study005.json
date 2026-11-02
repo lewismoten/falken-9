@@ -1,0 +1,13 @@
+{
+  "study":"005","version":3,
+  "scope":"Execution-only repairs. Original experiment-study005.json and its frozen core/source/test hashes unchanged; all19 intervention definitions, matching, training-only selection and probes unchanged.",
+  "issues":["First attempt stopped before interventions on NumPy int64 JSON serialization; normalize scalar/array JSON only.","Second attempt executed all19 interventions then failed because matplotlib unavailable. Use already installed Pillow and unchanged Canvas; no installs.","Third attempt stopped at baseline import-map guard because renderer was imported early; defer renderer import until rendering, preserving exact baseline import map.","Visual review corrected PV/P-ratio example caption: absolute P difference is NOT small. Report adds measured unfavorable probe/control results; inference/selection unchanged."],
+  "repair_source_sha256":{
+    "study005_execute.py":"9335343330d9b23d3ae97355fdecfd527e529f486ff26f2ba98fedfa9b761b05",
+    "study005_render.py":"86d91bdcd18dd8221b272cc01208d3fe8b1088d444b35928d4474471d2442f74",
+    "scripts/render_strategy_maps.py":"3cf759428990392032dcb5c7e3c41963f38c94e80020729b16df96c998ca4bdd"
+  },
+  "attempts_preserved":["artifacts/interpretability/study-005-attempt1-serialization","artifacts/interpretability/study-005-attempt2-render","artifacts/interpretability/study-005-attempt3-importguard","artifacts/interpretability/study-005-pre-caption","artifacts/interpretability/study-005-reproduced-pre-caption"],
+  "previous_amendments":["amendment-study005-v1.json","amendment-study005-v2.json"],
+  "interpretation_correction":"Describe measured heterogeneous/concentrated attention rather than broad-attention hypothesis; PV/P-ratio does not imply small P. No outcomes/selection change."
+}

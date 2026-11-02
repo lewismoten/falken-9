@@ -1,0 +1,1210 @@
+[
+  {
+    "aligned_logits": [
+      -711482,
+      -155613,
+      -300450,
+      -56831,
+      507726,
+      -375864,
+      -204878,
+      -32571,
+      -348977
+    ],
+    "board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "callout": "A",
+    "canonical_board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "canonical_id": 1,
+    "direct_chosen": 4,
+    "direct_legal_set": [
+      4
+    ],
+    "direct_logits": [
+      -711482,
+      -155613,
+      -300450,
+      -56831,
+      507726,
+      -375864,
+      -204878,
+      -32571,
+      -348977
+    ],
+    "expert_hidden": [
+      {
+        "executed": true,
+        "expert_id": 0,
+        "value": [
+          0,
+          0,
+          0,
+          -344
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 1,
+        "value": null
+      },
+      {
+        "executed": false,
+        "expert_id": 2,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 3,
+        "value": [
+          -2,
+          15207,
+          19445,
+          22156
+        ]
+      }
+    ],
+    "expert_outputs": [
+      {
+        "executed": true,
+        "expert_id": 0,
+        "value": [
+          -108,
+          -1338,
+          4901,
+          -8327,
+          3684,
+          3326,
+          -931,
+          -7638
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 1,
+        "value": null
+      },
+      {
+        "executed": false,
+        "expert_id": 2,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 3,
+        "value": [
+          -24593,
+          17972,
+          33141,
+          -12422,
+          -7151,
+          58326,
+          -17420,
+          89603
+        ]
+      }
+    ],
+    "gates": [
+      32768,
+      0
+    ],
+    "raw_id": 1,
+    "routes": [
+      3,
+      0
+    ],
+    "source_to_destination": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "transform_id": 0,
+    "wrapper_chosen": 4,
+    "wrapper_legal_set": [
+      4
+    ]
+  },
+  {
+    "aligned_logits": [
+      -40846,
+      -28180,
+      6520,
+      -46662,
+      -43992,
+      -59353,
+      -8426,
+      -84314,
+      -51646
+    ],
+    "board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "callout": "B",
+    "canonical_board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "canonical_id": 1,
+    "direct_chosen": 8,
+    "direct_legal_set": [
+      8
+    ],
+    "direct_logits": [
+      -8426,
+      -46662,
+      -40846,
+      -84314,
+      -43992,
+      -28180,
+      -51646,
+      -59353,
+      6520
+    ],
+    "expert_hidden": [
+      {
+        "executed": true,
+        "expert_id": 0,
+        "value": [
+          7,
+          923,
+          0,
+          0
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 1,
+        "value": null
+      },
+      {
+        "executed": false,
+        "expert_id": 2,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 3,
+        "value": [
+          9468,
+          -2,
+          3052,
+          -30
+        ]
+      }
+    ],
+    "expert_outputs": [
+      {
+        "executed": true,
+        "expert_id": 0,
+        "value": [
+          592,
+          -2121,
+          4097,
+          -6714,
+          4859,
+          3751,
+          -922,
+          -9890
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 1,
+        "value": null
+      },
+      {
+        "executed": false,
+        "expert_id": 2,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 3,
+        "value": [
+          50156,
+          5918,
+          -33731,
+          12907,
+          -1581,
+          -26256,
+          21595,
+          -4680
+        ]
+      }
+    ],
+    "gates": [
+      32371,
+      397
+    ],
+    "raw_id": 5,
+    "routes": [
+      0,
+      3
+    ],
+    "source_to_destination": [
+      2,
+      5,
+      8,
+      1,
+      4,
+      7,
+      0,
+      3,
+      6
+    ],
+    "transform_id": 1,
+    "wrapper_chosen": 4,
+    "wrapper_legal_set": [
+      4
+    ]
+  },
+  {
+    "aligned_logits": [
+      75526,
+      85132,
+      17653,
+      -15986,
+      27750,
+      18202,
+      7099,
+      94069,
+      36100
+    ],
+    "board": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "callout": "C",
+    "canonical_board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "canonical_id": 1,
+    "direct_chosen": 4,
+    "direct_legal_set": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "direct_logits": [
+      36100,
+      94069,
+      7099,
+      18202,
+      27750,
+      -15986,
+      17653,
+      85132,
+      75526
+    ],
+    "expert_hidden": [
+      {
+        "executed": true,
+        "expert_id": 0,
+        "value": [
+          3624,
+          -4,
+          0,
+          2688
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 1,
+        "value": null
+      },
+      {
+        "executed": false,
+        "expert_id": 2,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 3,
+        "value": [
+          -3,
+          8774,
+          5619,
+          32515
+        ]
+      }
+    ],
+    "expert_outputs": [
+      {
+        "executed": true,
+        "expert_id": 0,
+        "value": [
+          1309,
+          -3241,
+          -8318,
+          -4187,
+          -2395,
+          -2802,
+          6267,
+          4838
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 1,
+        "value": null
+      },
+      {
+        "executed": false,
+        "expert_id": 2,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 3,
+        "value": [
+          30222,
+          23997,
+          20540,
+          -6547,
+          -33435,
+          37844,
+          -17890,
+          96350
+        ]
+      }
+    ],
+    "gates": [
+      32765,
+      3
+    ],
+    "raw_id": 1818,
+    "routes": [
+      0,
+      3
+    ],
+    "source_to_destination": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "transform_id": 2,
+    "wrapper_chosen": 4,
+    "wrapper_legal_set": [
+      4
+    ]
+  },
+  {
+    "aligned_logits": [
+      18637,
+      -14714,
+      33700,
+      -14588,
+      8248,
+      -577,
+      -17134,
+      -31247,
+      -40391
+    ],
+    "board": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "callout": "D",
+    "canonical_board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "canonical_id": 1,
+    "direct_chosen": 4,
+    "direct_legal_set": [
+      0,
+      4,
+      6
+    ],
+    "direct_logits": [
+      33700,
+      -577,
+      -40391,
+      -14714,
+      8248,
+      -31247,
+      18637,
+      -14588,
+      -17134
+    ],
+    "expert_hidden": [
+      {
+        "executed": false,
+        "expert_id": 0,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 1,
+        "value": [
+          0,
+          0,
+          -322,
+          -342
+        ]
+      },
+      {
+        "executed": true,
+        "expert_id": 2,
+        "value": [
+          -5,
+          5037,
+          -348,
+          0
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 3,
+        "value": null
+      }
+    ],
+    "expert_outputs": [
+      {
+        "executed": false,
+        "expert_id": 0,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 1,
+        "value": [
+          -1436,
+          2960,
+          6334,
+          -5665,
+          2414,
+          1380,
+          8320,
+          -4613
+        ]
+      },
+      {
+        "executed": true,
+        "expert_id": 2,
+        "value": [
+          -1783,
+          -7890,
+          3372,
+          -1595,
+          -8294,
+          -2271,
+          -265,
+          1214
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 3,
+        "value": null
+      }
+    ],
+    "gates": [
+      32651,
+      117
+    ],
+    "raw_id": 259,
+    "routes": [
+      2,
+      1
+    ],
+    "source_to_destination": [
+      6,
+      3,
+      0,
+      7,
+      4,
+      1,
+      8,
+      5,
+      2
+    ],
+    "transform_id": 3,
+    "wrapper_chosen": 4,
+    "wrapper_legal_set": [
+      4
+    ]
+  },
+  {
+    "aligned_logits": [
+      -40846,
+      -46662,
+      -8426,
+      -28180,
+      -43992,
+      -84314,
+      6520,
+      -59353,
+      -51646
+    ],
+    "board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "callout": "E",
+    "canonical_board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "canonical_id": 1,
+    "direct_chosen": 8,
+    "direct_legal_set": [
+      8
+    ],
+    "direct_logits": [
+      -8426,
+      -46662,
+      -40846,
+      -84314,
+      -43992,
+      -28180,
+      -51646,
+      -59353,
+      6520
+    ],
+    "expert_hidden": [
+      {
+        "executed": true,
+        "expert_id": 0,
+        "value": [
+          7,
+          923,
+          0,
+          0
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 1,
+        "value": null
+      },
+      {
+        "executed": false,
+        "expert_id": 2,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 3,
+        "value": [
+          9468,
+          -2,
+          3052,
+          -30
+        ]
+      }
+    ],
+    "expert_outputs": [
+      {
+        "executed": true,
+        "expert_id": 0,
+        "value": [
+          592,
+          -2121,
+          4097,
+          -6714,
+          4859,
+          3751,
+          -922,
+          -9890
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 1,
+        "value": null
+      },
+      {
+        "executed": false,
+        "expert_id": 2,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 3,
+        "value": [
+          50156,
+          5918,
+          -33731,
+          12907,
+          -1581,
+          -26256,
+          21595,
+          -4680
+        ]
+      }
+    ],
+    "gates": [
+      32371,
+      397
+    ],
+    "raw_id": 5,
+    "routes": [
+      0,
+      3
+    ],
+    "source_to_destination": [
+      2,
+      1,
+      0,
+      5,
+      4,
+      3,
+      8,
+      7,
+      6
+    ],
+    "transform_id": 4,
+    "wrapper_chosen": 4,
+    "wrapper_legal_set": [
+      4
+    ]
+  },
+  {
+    "aligned_logits": [
+      75526,
+      -15986,
+      7099,
+      85132,
+      27750,
+      94069,
+      17653,
+      18202,
+      36100
+    ],
+    "board": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "callout": "F",
+    "canonical_board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "canonical_id": 1,
+    "direct_chosen": 4,
+    "direct_legal_set": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "direct_logits": [
+      36100,
+      94069,
+      7099,
+      18202,
+      27750,
+      -15986,
+      17653,
+      85132,
+      75526
+    ],
+    "expert_hidden": [
+      {
+        "executed": true,
+        "expert_id": 0,
+        "value": [
+          3624,
+          -4,
+          0,
+          2688
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 1,
+        "value": null
+      },
+      {
+        "executed": false,
+        "expert_id": 2,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 3,
+        "value": [
+          -3,
+          8774,
+          5619,
+          32515
+        ]
+      }
+    ],
+    "expert_outputs": [
+      {
+        "executed": true,
+        "expert_id": 0,
+        "value": [
+          1309,
+          -3241,
+          -8318,
+          -4187,
+          -2395,
+          -2802,
+          6267,
+          4838
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 1,
+        "value": null
+      },
+      {
+        "executed": false,
+        "expert_id": 2,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 3,
+        "value": [
+          30222,
+          23997,
+          20540,
+          -6547,
+          -33435,
+          37844,
+          -17890,
+          96350
+        ]
+      }
+    ],
+    "gates": [
+      32765,
+      3
+    ],
+    "raw_id": 1818,
+    "routes": [
+      0,
+      3
+    ],
+    "source_to_destination": [
+      8,
+      5,
+      2,
+      7,
+      4,
+      1,
+      6,
+      3,
+      0
+    ],
+    "transform_id": 5,
+    "wrapper_chosen": 4,
+    "wrapper_legal_set": [
+      4
+    ]
+  },
+  {
+    "aligned_logits": [
+      18637,
+      -14588,
+      -17134,
+      -14714,
+      8248,
+      -31247,
+      33700,
+      -577,
+      -40391
+    ],
+    "board": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "callout": "G",
+    "canonical_board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "canonical_id": 1,
+    "direct_chosen": 4,
+    "direct_legal_set": [
+      0,
+      4,
+      6
+    ],
+    "direct_logits": [
+      33700,
+      -577,
+      -40391,
+      -14714,
+      8248,
+      -31247,
+      18637,
+      -14588,
+      -17134
+    ],
+    "expert_hidden": [
+      {
+        "executed": false,
+        "expert_id": 0,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 1,
+        "value": [
+          0,
+          0,
+          -322,
+          -342
+        ]
+      },
+      {
+        "executed": true,
+        "expert_id": 2,
+        "value": [
+          -5,
+          5037,
+          -348,
+          0
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 3,
+        "value": null
+      }
+    ],
+    "expert_outputs": [
+      {
+        "executed": false,
+        "expert_id": 0,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 1,
+        "value": [
+          -1436,
+          2960,
+          6334,
+          -5665,
+          2414,
+          1380,
+          8320,
+          -4613
+        ]
+      },
+      {
+        "executed": true,
+        "expert_id": 2,
+        "value": [
+          -1783,
+          -7890,
+          3372,
+          -1595,
+          -8294,
+          -2271,
+          -265,
+          1214
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 3,
+        "value": null
+      }
+    ],
+    "gates": [
+      32651,
+      117
+    ],
+    "raw_id": 259,
+    "routes": [
+      2,
+      1
+    ],
+    "source_to_destination": [
+      6,
+      7,
+      8,
+      3,
+      4,
+      5,
+      0,
+      1,
+      2
+    ],
+    "transform_id": 6,
+    "wrapper_chosen": 4,
+    "wrapper_legal_set": [
+      4
+    ]
+  },
+  {
+    "aligned_logits": [
+      -711482,
+      -56831,
+      -204878,
+      -155613,
+      507726,
+      -32571,
+      -300450,
+      -375864,
+      -348977
+    ],
+    "board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "callout": "H",
+    "canonical_board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "canonical_id": 1,
+    "direct_chosen": 4,
+    "direct_legal_set": [
+      4
+    ],
+    "direct_logits": [
+      -711482,
+      -155613,
+      -300450,
+      -56831,
+      507726,
+      -375864,
+      -204878,
+      -32571,
+      -348977
+    ],
+    "expert_hidden": [
+      {
+        "executed": true,
+        "expert_id": 0,
+        "value": [
+          0,
+          0,
+          0,
+          -344
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 1,
+        "value": null
+      },
+      {
+        "executed": false,
+        "expert_id": 2,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 3,
+        "value": [
+          -2,
+          15207,
+          19445,
+          22156
+        ]
+      }
+    ],
+    "expert_outputs": [
+      {
+        "executed": true,
+        "expert_id": 0,
+        "value": [
+          -108,
+          -1338,
+          4901,
+          -8327,
+          3684,
+          3326,
+          -931,
+          -7638
+        ]
+      },
+      {
+        "executed": false,
+        "expert_id": 1,
+        "value": null
+      },
+      {
+        "executed": false,
+        "expert_id": 2,
+        "value": null
+      },
+      {
+        "executed": true,
+        "expert_id": 3,
+        "value": [
+          -24593,
+          17972,
+          33141,
+          -12422,
+          -7151,
+          58326,
+          -17420,
+          89603
+        ]
+      }
+    ],
+    "gates": [
+      32768,
+      0
+    ],
+    "raw_id": 1,
+    "routes": [
+      3,
+      0
+    ],
+    "source_to_destination": [
+      0,
+      3,
+      6,
+      1,
+      4,
+      7,
+      2,
+      5,
+      8
+    ],
+    "transform_id": 7,
+    "wrapper_chosen": 4,
+    "wrapper_legal_set": [
+      4
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "study": "003",
+  "boundary": "Frozen F9J2 CPU integer offline analysis only. No training or release changes. Canonical grouped exploratory folds are not model-held-out/OOD; domain already fitted and audited.",
+  "baseline_gate": "Verify all 69 RESEARCH-SNAPSHOT evidence digests, every saved stage on all 627 canonical boards, complete legal sets and original-coordinate ties on all 4520 nonterminal raw boards before interventions.",
+  "folds": "Existing seed1729 ply-stratified canonical-grouped 60/20/remaining train/validation/test. No symmetry copy independence. All selection uses train only; validation and test reported separately, no tuning.",
+  "tasks": ["has_win", "must_block", "has_fork", "has_fork_prevention"],
+  "labels": "Existing independent board geometry labels. Fork prevention is bounded one-reply viable-reply audit, not a general strategy oracle. Minimax only offline optimal-set/move audits.",
+  "necessity": {
+    "units": "All 16 expert hidden units (4 experts x4 units), after GELU, post-routing; unselected cells unobserved.",
+    "remaining_doses": [0, 0.25, 0.5, 0.75, 1],
+    "arithmetic": "round_div(integer activation * numerator,4), existing signed rounding; no weight writes.",
+    "training_contrast": "Among 15 units excluding E1.h0, maximize training must-block nonoptimal-move rate minus training fork nonoptimal-move rate. Ties lexicographic expert/unit. Negative findings retained.",
+    "groups_cap": 3,
+    "groups": ["E1.h0+E1.h1 fixed local group", "E1.h0+training contrast", "E1.h0+contrast next unit modulo4 matched-expert control"],
+    "pair_cap": 3,
+    "interaction": "Full-zero pair move/set damage compared with union of single failures and additive signed-logit difference. Not probabilistic causal mediation."
+  },
+  "donors": {
+    "receivers": "validation/test canonical boards only",
+    "donors": "training canonical boards only; different board; one deterministic nearest donor per receiver/task/class",
+    "match_exact": ["ply", "side", "own_corners", "opponent_corners", "own_edges", "opponent_edges", "center_own", "center_opponent", "ordered top2 expert IDs"],
+    "gate_tolerance": 4096,
+    "nearest": "minimum canonical board Hamming occupancy distance, then maximum absolute gate delta, then canonical index. No matching on outcomes or activation values. No fallback if absent.",
+    "class": ["same task Boolean", "opposite task Boolean"],
+    "components_cap": 4,
+    "components": ["E1.h0", "E1.h1 matched unit", "training contrast", "contrast next unit modulo4"],
+    "alignment": "Both boards are canonical NN inputs. Same expert ID, same hidden-unit coordinate; gates retained from receiver. No assumed semantic neuron rotation. Save canonical boards, raw-to-canonical transforms, donor IDs and distances.",
+    "controls": ["identity all627 full vectors", "same-class", "cross-class", "matched-unit"],
+    "restriction": "Patch only when expert is routed in both; inactive is unobserved, never donor zero. Coverage is a primary result; low coverage narrows claims."
+  },
+  "mediation": {
+    "upstream_candidates_cap": 8,
+    "selection": "Training only: halve each norm2_output lane; select lane with maximum mean absolute change in E1.h0 among rows routed E1 before and after. No labels/outcomes used for lane selection.",
+    "followup": "Selected upstream half-dose alone; restore baseline E1.h0, contrast, or both where corresponding expert observed in both routes. Record route/gate changes, covered rescue and newly introduced damage. Identity restoration under upstream no-op is checked.",
+    "interpretation": "Restoration conditional on observed routes is path-specific intervention, not identified natural indirect effect. Upstream lesion may reroute; downstream lesions/patches must not."
+  },
+  "metrics": "Raw4520 and canonical627, fold/class/active counts; empty sets, selected nonoptimal moves, complete-set differences, optimal equivalent-tie changes. Geometry/routing matched non-target covered error rates and denominators. Canonical units of evidence, raw symmetry expansion descriptive only. Retain all cases, negative effects, counterexamples, exact logits/routes/gates.",
+  "selection_timing": "This manifest is fixed before any new intervention evaluation; baseline parity is a prerequisite. No adaptive candidate/group expansion.",
+  "reproduction": "Run scripts/model_strategy_study003.py --output artifacts/interpretability/study-003 then same command with a fresh output path; compare deterministic files byte-for-byte. Renderer uses saved measurements only."
+}

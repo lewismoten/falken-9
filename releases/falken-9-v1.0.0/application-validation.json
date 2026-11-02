@@ -1,0 +1,848 @@
+{
+  "schema": "falken9-application011-validation-v1",
+  "status": "passed",
+  "revision": "011",
+  "prg": {
+    "path": "artifacts/app/011-graphical-final/falken-9-011-graphical.prg",
+    "bytes": 50507,
+    "sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f"
+  },
+  "d64": {
+    "path": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+    "bytes": 174848,
+    "sha256": "101ddad7de1055a238550bdf189e3ad26300484aae45c4ebda481ef5fe4168ec"
+  },
+  "model": {
+    "path": "artifacts/flexible-integer/q11-w16-a32-early-interp/model.f9j",
+    "bytes": 5195,
+    "sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1"
+  },
+  "focused_tests": {
+    "status": "passed",
+    "evidence": "artifacts/operations/deployment/011/publication-final/focused-tests.txt",
+    "native_scanner_optional_tests": "Two opt-in tests skipped; separate native capture/Q gate executed"
+  },
+  "py65_games": {
+    "status": "passed",
+    "boundary": "packaged input-loop NMOS Py65 + GETIN-only queue shim; NOT stock ROM/browser/physical keys",
+    "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+    "matches": [
+      {
+        "human_keys": [
+          "5",
+          "2",
+          "4",
+          "9",
+          "7"
+        ],
+        "outcome": 3,
+        "history": "ecbhdfiag"
+      },
+      {
+        "human_keys": [
+          "1",
+          "2",
+          "4"
+        ],
+        "outcome": 2,
+        "history": "aebcdg"
+      }
+    ],
+    "requests": [
+      {
+        "history": "e",
+        "selected": "c",
+        "logits": [
+          15528,
+          -27340,
+          10344,
+          -9066,
+          -41298,
+          -22139,
+          14018,
+          -31401,
+          16505
+        ],
+        "canonical_index": 624
+      },
+      {
+        "history": "ecb",
+        "selected": "h",
+        "logits": [
+          -48847,
+          29497,
+          -8226,
+          -63473,
+          -18891,
+          -34262,
+          -52077,
+          34942,
+          102444
+        ],
+        "canonical_index": 563
+      },
+      {
+        "history": "ecbhd",
+        "selected": "f",
+        "logits": [
+          -179907,
+          36647,
+          66952,
+          28742,
+          591865,
+          22131,
+          -8868,
+          251241,
+          -9947
+        ],
+        "canonical_index": 575
+      },
+      {
+        "history": "ecbhdfi",
+        "selected": "a",
+        "logits": [
+          7411,
+          41053,
+          -620657,
+          -209468,
+          -36062,
+          -23195,
+          209163,
+          -39711,
+          -157745
+        ],
+        "canonical_index": 197
+      },
+      {
+        "history": "a",
+        "selected": "e",
+        "logits": [
+          -711482,
+          -155613,
+          -300450,
+          -56831,
+          507726,
+          -375864,
+          -204878,
+          -32571,
+          -348977
+        ],
+        "canonical_index": 1
+      },
+      {
+        "history": "aeb",
+        "selected": "c",
+        "logits": [
+          -91364,
+          -6531,
+          -7263,
+          -57346,
+          82288,
+          -7844,
+          5181,
+          64307,
+          56819
+        ],
+        "canonical_index": 481
+      },
+      {
+        "history": "aebcd",
+        "selected": "g",
+        "logits": [
+          -11290,
+          -4751,
+          4895,
+          -9569,
+          113030,
+          27104,
+          11441,
+          38999,
+          45424
+        ],
+        "canonical_index": 343
+      }
+    ],
+    "human_model_outcomes": [
+      3,
+      2
+    ],
+    "two_human_outcomes": [
+      1,
+      2,
+      3
+    ],
+    "auto_outcome": 3,
+    "auto_neural_calls": 9,
+    "auto_history": "ecbhdfiag",
+    "executed_neural_calls": 16,
+    "draws": 1,
+    "model_wins": 1,
+    "code_model_art_immutable": true,
+    "kernal_zp_restored": true,
+    "cpu_port_preserved": true,
+    "stack_final": 255,
+    "stack_low_water": 484,
+    "activity_ticks": 800,
+    "board_planes_exact": true
+  },
+  "extracted_disk_games": {
+    "status": "passed",
+    "boundary": "packaged input-loop NMOS Py65 + GETIN-only queue shim; NOT stock ROM/browser/physical keys",
+    "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+    "matches": [
+      {
+        "human_keys": [
+          "5",
+          "2",
+          "4",
+          "9",
+          "7"
+        ],
+        "outcome": 3,
+        "history": "ecbhdfiag"
+      },
+      {
+        "human_keys": [
+          "1",
+          "2",
+          "4"
+        ],
+        "outcome": 2,
+        "history": "aebcdg"
+      }
+    ],
+    "requests": [
+      {
+        "history": "e",
+        "selected": "c",
+        "logits": [
+          15528,
+          -27340,
+          10344,
+          -9066,
+          -41298,
+          -22139,
+          14018,
+          -31401,
+          16505
+        ],
+        "canonical_index": 624
+      },
+      {
+        "history": "ecb",
+        "selected": "h",
+        "logits": [
+          -48847,
+          29497,
+          -8226,
+          -63473,
+          -18891,
+          -34262,
+          -52077,
+          34942,
+          102444
+        ],
+        "canonical_index": 563
+      },
+      {
+        "history": "ecbhd",
+        "selected": "f",
+        "logits": [
+          -179907,
+          36647,
+          66952,
+          28742,
+          591865,
+          22131,
+          -8868,
+          251241,
+          -9947
+        ],
+        "canonical_index": 575
+      },
+      {
+        "history": "ecbhdfi",
+        "selected": "a",
+        "logits": [
+          7411,
+          41053,
+          -620657,
+          -209468,
+          -36062,
+          -23195,
+          209163,
+          -39711,
+          -157745
+        ],
+        "canonical_index": 197
+      },
+      {
+        "history": "a",
+        "selected": "e",
+        "logits": [
+          -711482,
+          -155613,
+          -300450,
+          -56831,
+          507726,
+          -375864,
+          -204878,
+          -32571,
+          -348977
+        ],
+        "canonical_index": 1
+      },
+      {
+        "history": "aeb",
+        "selected": "c",
+        "logits": [
+          -91364,
+          -6531,
+          -7263,
+          -57346,
+          82288,
+          -7844,
+          5181,
+          64307,
+          56819
+        ],
+        "canonical_index": 481
+      },
+      {
+        "history": "aebcd",
+        "selected": "g",
+        "logits": [
+          -11290,
+          -4751,
+          4895,
+          -9569,
+          113030,
+          27104,
+          11441,
+          38999,
+          45424
+        ],
+        "canonical_index": 343
+      }
+    ],
+    "human_model_outcomes": [
+      3,
+      2
+    ],
+    "two_human_outcomes": [
+      1,
+      2,
+      3
+    ],
+    "auto_outcome": 3,
+    "auto_neural_calls": 9,
+    "auto_history": "ecbhdfiag",
+    "executed_neural_calls": 16,
+    "draws": 1,
+    "model_wins": 1,
+    "code_model_art_immutable": true,
+    "kernal_zp_restored": true,
+    "cpu_port_preserved": true,
+    "stack_final": 255,
+    "stack_low_water": 484,
+    "activity_ticks": 800,
+    "board_planes_exact": true
+  },
+  "native_lifecycle": {
+    "status": "passed",
+    "boundary": "VICE x64 stock C64 ROM, monitor-injected KERNAL keyboard queue; NOT browser or physical keys",
+    "launch_sha256": "101ddad7de1055a238550bdf189e3ad26300484aae45c4ebda481ef5fe4168ec",
+    "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+    "prg_autostart": false,
+    "d64_true_drive_autostart": true,
+    "matches": [
+      {
+        "history": "ecbhdfiag",
+        "outcome": 3
+      },
+      {
+        "history": "aebcdg",
+        "outcome": 2
+      }
+    ],
+    "human_model_requests": [
+      {
+        "history": "e",
+        "selected": "c",
+        "logits": [
+          15528,
+          -27340,
+          10344,
+          -9066,
+          -41298,
+          -22139,
+          14018,
+          -31401,
+          16505
+        ]
+      },
+      {
+        "history": "ecb",
+        "selected": "h",
+        "logits": [
+          -48847,
+          29497,
+          -8226,
+          -63473,
+          -18891,
+          -34262,
+          -52077,
+          34942,
+          102444
+        ]
+      },
+      {
+        "history": "ecbhd",
+        "selected": "f",
+        "logits": [
+          -179907,
+          36647,
+          66952,
+          28742,
+          591865,
+          22131,
+          -8868,
+          251241,
+          -9947
+        ]
+      },
+      {
+        "history": "ecbhdfi",
+        "selected": "a",
+        "logits": [
+          7411,
+          41053,
+          -620657,
+          -209468,
+          -36062,
+          -23195,
+          209163,
+          -39711,
+          -157745
+        ]
+      },
+      {
+        "history": "a",
+        "selected": "e",
+        "logits": [
+          -711482,
+          -155613,
+          -300450,
+          -56831,
+          507726,
+          -375864,
+          -204878,
+          -32571,
+          -348977
+        ]
+      },
+      {
+        "history": "aeb",
+        "selected": "c",
+        "logits": [
+          -91364,
+          -6531,
+          -7263,
+          -57346,
+          82288,
+          -7844,
+          5181,
+          64307,
+          56819
+        ]
+      },
+      {
+        "history": "aebcd",
+        "selected": "g",
+        "logits": [
+          -11290,
+          -4751,
+          4895,
+          -9569,
+          113030,
+          27104,
+          11441,
+          38999,
+          45424
+        ]
+      }
+    ],
+    "auto_draw": true,
+    "neural_calls": 16,
+    "full_logits_equal_to_py65": true,
+    "code_model_app_immutable": true,
+    "stack_final": 255,
+    "cpu_port": 55,
+    "irq_vector_restored_on_session_quit": true,
+    "sid_driver_enabled_during_games": true,
+    "timing": "PAL",
+    "no_ingame_LOAD_OPEN": true,
+    "screenshots": {
+      "info-audio.png": "921cb2a78413612172d68fc7041ebedcc29999a2133df9048f7b894640102bf0",
+      "two-human-1.png": "a6fdead0add4006c9699eee8a4d774c8f6a017bde5c6dbf2c0447bf628a59c6d",
+      "two-human-2.png": "53ed58f3c2c61c815cbe34ea466bedf957df39221eb471c7429f02299776488d",
+      "midgame-replay.png": "2f91cd2365bdbfe8ef9b030a8b48a5e9666bb05ce666ce97f73c7a19660e710b",
+      "activity.png": "7018445924a4298542e4aa07707aaefa313a5352364783701f7fbb2be341545c",
+      "two-human-3.png": "9f36d90f9d3de1b34b1207d51aaa73978b18f8020e5fe2a6e6e48ba1387f9bbe",
+      "title.png": "591e324ed463c12c60538754d90ba303ff027fb438992dc0a8bc9eeefaa96c58",
+      "info.png": "a1d0809d9901e89405566eb0743d1df5c192b445213b9a682414cf9cc30fc5fe",
+      "labels.png": "2f91cd2365bdbfe8ef9b030a8b48a5e9666bb05ce666ce97f73c7a19660e710b",
+      "quit.png": "a2182d17aaefdcc3718e80950bc8b94fd6eb9c07a996e605b8b516df25e11944",
+      "replayed.png": "2f91cd2365bdbfe8ef9b030a8b48a5e9666bb05ce666ce97f73c7a19660e710b",
+      "gameplay.png": "f94bee272f2ab46817bee910bdd3fa0e30a6e5c7fe2b2aa7a13b959063bf506e",
+      "draw.png": "9f36d90f9d3de1b34b1207d51aaa73978b18f8020e5fe2a6e6e48ba1387f9bbe",
+      "model-win.png": "53ed58f3c2c61c815cbe34ea466bedf957df39221eb471c7429f02299776488d",
+      "auto-draw.png": "b01ac99a8542d1ff3f809d53e4bbb72f4e3ffc9aeff2e0cbacd23bf898e5044b",
+      "info-links.png": "13b47d1394d7b4984309dacf4e16f056dc31d9cc8fbbc9b8e9aaccd7989671e2"
+    }
+  },
+  "native_info": {
+    "status": "passed",
+    "scope": "stock-ROM VICE, actual framebuffer and monitor KERNAL queue input; not physical/browser keys",
+    "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+    "image_sha256": "101ddad7de1055a238550bdf189e3ad26300484aae45c4ebda481ef5fe4168ec",
+    "line_count": 68,
+    "all_offsets": 51,
+    "pages": [
+      {
+        "scroll": 0,
+        "screen_sha256": "17aaab58361d9cdde7ea7dd14914a7bde5a1004abda5600fb84dde29ad9ac087",
+        "color_sha256": "a5a1f0b5721a0d50759ab7dda58b0ed4e3037099ecca35c67360b779a1ec80fd"
+      },
+      {
+        "scroll": 1,
+        "screen_sha256": "249f49af91faa7d6ab644fc15b1af6c12db6dc6e38ab7f3fb2ed24b0c77f8718",
+        "color_sha256": "fb8d3e567d3b34b6464d5f547b4713c9c0dba261f061d8135f54aca971a5103f"
+      },
+      {
+        "scroll": 2,
+        "screen_sha256": "56e2a179a73190e61ec8a4eb8c06ae548a3a943fdd5d3cc886ce421372aea6e0",
+        "color_sha256": "8289dd2eda15272a283e4c5f5d12e77d247cac92fad714c0f83e534cf07bc4fe"
+      },
+      {
+        "scroll": 3,
+        "screen_sha256": "65f18e7677221c2e0bfb19270745b3af81a336d1c5f990d470fc5cc604771adf",
+        "color_sha256": "b0990a7eeb1acb93ffa5397f9ffedcdcdc7d270f8d5efd40038fc164a94f50b8"
+      },
+      {
+        "scroll": 4,
+        "screen_sha256": "43d56149cc2243d8cf067ca51671fa037e07a4cdce480d3cdbe3cb66638f6f97",
+        "color_sha256": "37bb75c7783eb13d2b84f96c93a80d03f227dec7bf0509c269f089f5da8c6ef7"
+      },
+      {
+        "scroll": 5,
+        "screen_sha256": "334c94156c0c2a054208aa6f03ed18981526a3d8b83fe0e4453f36c11ed1f726",
+        "color_sha256": "8b285f6964a1df55e2fa9b2fded07e25ea2fffefb301e71e784943dee15feebe"
+      },
+      {
+        "scroll": 6,
+        "screen_sha256": "28022b450b2886428a24f718a86c270c0794ce975488b9faf271363c9ff4fa3e",
+        "color_sha256": "4ebeab572eb2aee057a9bb1ca9042de961d1a35c31dfbdb81657fe89830c0c0d"
+      },
+      {
+        "scroll": 7,
+        "screen_sha256": "8139e8bcb6fa20cc7634feb0086708ec483ee68f414e85867fd2df7aed0cbf2c",
+        "color_sha256": "ec9f52a695f07472e00ba625a54b59e0f58d61e81d9caa308a1ebeb1e4cc0b4d"
+      },
+      {
+        "scroll": 8,
+        "screen_sha256": "f10ea61bceb139cab667a4bc339239fbf573939788c594e86e09f537d7f59c0e",
+        "color_sha256": "edb9fe15d537843d184ba16c16b8bb630a566595156fe79f0e0e093f2adf46e2"
+      },
+      {
+        "scroll": 9,
+        "screen_sha256": "b304c48001d17aa1f0409e72dd68d6eefd280d8dcf5dc8748b57a05a19e4a0e2",
+        "color_sha256": "e0f8bf3185f5db6d5d0d9f86070ca983465ed8a858f4b2e95530d39ac824cb1c"
+      },
+      {
+        "scroll": 10,
+        "screen_sha256": "fb086d9696b1d91a3272fb497b26046c4db014875f6482783ccbaf493f8fca0d",
+        "color_sha256": "c129ab022fbf3feb6e8108b04537e2dfc6a8abe6688f28b184682577e0b9f544"
+      },
+      {
+        "scroll": 11,
+        "screen_sha256": "c956116b7e421555884e126591481a8d071d700f5b2c4b7a597f71bbf73999cb",
+        "color_sha256": "640c9c3085a885dad89cc1897a25aa25cb2fd777db1501c350d0df6cfcb7d3f6"
+      },
+      {
+        "scroll": 12,
+        "screen_sha256": "821c05908708282004efbb9059193464f5447b5408e29f4579bdbbc0d91bba02",
+        "color_sha256": "5957e020e38c62cccb826c8a3d419be2e58a29483cfefbd9ed6c0228275df8f9"
+      },
+      {
+        "scroll": 13,
+        "screen_sha256": "1e0ac4cc6e12da88c2f9caaa8eadabb8a9208e96ff7b3e61a6363f8b40ae2934",
+        "color_sha256": "238fb1222da451b45386ec42c27dc9b087e06586809c391a17e0a9cf32baddc0"
+      },
+      {
+        "scroll": 14,
+        "screen_sha256": "e673c86cf981af910a569c76c976e85da9d3a18f20df1713fbd9d66df303d671",
+        "color_sha256": "26d8fd21861031f9e33c975e16f771afe3fd3c58ffd7666b115a0c4d67d5c1f5"
+      },
+      {
+        "scroll": 15,
+        "screen_sha256": "f51f71f2605fbc6f1748dcc1de3921fcdb652cb1658cb76dcedb8ec12983a83a",
+        "color_sha256": "be8b5a8ef2ce342878f6184dd90f048902ebec0b88817e9fa3639b8fe929c610"
+      },
+      {
+        "scroll": 16,
+        "screen_sha256": "b4552589905aa9b42d59da0018bcef669d0fa74412e981cad2058c2bf0349074",
+        "color_sha256": "eb0accfcc9befa6eea36b0812d42adde0e013e5c097fe72444505237d60e6216"
+      },
+      {
+        "scroll": 17,
+        "screen_sha256": "fed889ff94758f1a635c6996df8d5fcf5b2e837fb91baf05fd12233ad23f15af",
+        "color_sha256": "595af793242751e8f4be32fed03b71c34ac80bc0eba529f43dec547b9f00603b"
+      },
+      {
+        "scroll": 18,
+        "screen_sha256": "525a99aac601dca4ba5640e35c1d1fbc8664f355a06a9836f9217456bc6decab",
+        "color_sha256": "3b0bfb434e27ebee907ec8965a4ad283ce0c2fb985f1b9ccc4b2494daa484931"
+      },
+      {
+        "scroll": 19,
+        "screen_sha256": "a307549b4921aac0e13288ff8060f423d4c5ecbf22f23d3b6ede745c03971207",
+        "color_sha256": "18825ee363116c94abf9aa56197bfe243037d2baaa22747162ee7418b5bca97b"
+      },
+      {
+        "scroll": 20,
+        "screen_sha256": "6797db354cf2c64821bb98a696fb1d537aa6a414715f11db3a0be4244cf3eeb0",
+        "color_sha256": "aee5dbd71a144f6309647b35ab83b5fd8e311a3932d01bd6643ed978b2cd825b"
+      },
+      {
+        "scroll": 21,
+        "screen_sha256": "0cbe61426d7b0e9ed771e5438ccb011f94d3dade5acc7f046ce108467ac2915b",
+        "color_sha256": "490f14d938f9acd1952228fc1c4aa26846ba5d740e3d5235740cea924754e988"
+      },
+      {
+        "scroll": 22,
+        "screen_sha256": "5c4843d2951b9a817dcb1214cfe54595763b8b59472f618ae8f995cd96842779",
+        "color_sha256": "842e4f5c2dceaf9329967be70fbef814ccd95a20fcf0a5d97d0ab49dc0484255"
+      },
+      {
+        "scroll": 23,
+        "screen_sha256": "11201709d3865f0a0c5db58814b61f8f1005dc5c046ca9af3055368d77fdc605",
+        "color_sha256": "8d031f811ad80694dd998ef1dec68821c30ac581056766dc8bf8104a87c4aa20"
+      },
+      {
+        "scroll": 24,
+        "screen_sha256": "e66c7c97f7330399cb99b8c24decd26420d38d2e445ec152ce07ac1b379c8ee4",
+        "color_sha256": "705422a631c707ec28cbfc33523ff430a966d2fb5492be8e59ba343219b1a032"
+      },
+      {
+        "scroll": 25,
+        "screen_sha256": "9f20a18e3a12defb7699fc2460d6d6b2e547a7d02128b6ab14566ba3c5efe1eb",
+        "color_sha256": "c30022d9c169a576f2130290b6d9ff73dfcd86eb11f7f0f3ead0b5880a006256"
+      },
+      {
+        "scroll": 26,
+        "screen_sha256": "58d9a6d8c436265f49250f9065381ee96ba67b7f9971849547b52c0f69a1eb7a",
+        "color_sha256": "8b7f3b82b35f7be46d43028947fd40db446c3ea9c7ee93f5324a2114aada89a9"
+      },
+      {
+        "scroll": 27,
+        "screen_sha256": "e95af5719f553858558a6b075ddeb890464a27b4606c45d0bbf52392c075f87e",
+        "color_sha256": "ce8767747e814b701a1834982ffe5b1b6ee3ce6340f53dd8a012ed6d34533e6d"
+      },
+      {
+        "scroll": 28,
+        "screen_sha256": "5417f249bf204fa7a0164d472d865c1eec1c94dd95f36929883faeee8ddbdb45",
+        "color_sha256": "42b3fe26256601b7c4a8a1e42be36b33fa2b18bb9eb6090e69304e4763b3f7a1"
+      },
+      {
+        "scroll": 29,
+        "screen_sha256": "ed98fa0705e2e3bb6d139aa098b49d801fcfb0358cc8fd5ed04e0683b9088684",
+        "color_sha256": "acccd9d3a55da6d724a8ce9934b010bdb0d8f9a489c52f24b79697e9a435f907"
+      },
+      {
+        "scroll": 30,
+        "screen_sha256": "e28dc8500832a9b87e33f203afe3ebced8ec1884f63a871735c47563f194ad6a",
+        "color_sha256": "91b5ab6919e4118f16e28a2a92c42d4976669071b4e1a1087cea3c60fd86f75e"
+      },
+      {
+        "scroll": 31,
+        "screen_sha256": "c08d990e2c081694b0efdfc38fdc524ddd9de250b756389c5a521d950495dfd6",
+        "color_sha256": "77220bb7b26efaedbb22da932725cf6157102ba970dd6f103a5118d5dc79fd29"
+      },
+      {
+        "scroll": 32,
+        "screen_sha256": "ffbe215ed56bb9780e318a83e9a675deab1bab6be74add31b6c5d85f95ddda81",
+        "color_sha256": "28306e671ead4978ae8e7b3e3df89c645dea73824d5cb2de2209f62df4582dd7"
+      },
+      {
+        "scroll": 33,
+        "screen_sha256": "fd3d801901b99a6fe8b7f7fdf9b5929c54d9ed55e330c03a0c7e6a37e696a8e2",
+        "color_sha256": "4260ea0f8b166c50e00fe6a9bc4b00299c156797014f946883d8a72aebca3d64"
+      },
+      {
+        "scroll": 34,
+        "screen_sha256": "1ebd1d1a3a1c861b357cf0694df88956a76f9a61deeb371cc15d5c68394dfcce",
+        "color_sha256": "a1fd6a3df6ee5cb1522517ee21de2626867cd484b78d39198d4026f5a1c77ccb"
+      },
+      {
+        "scroll": 35,
+        "screen_sha256": "dc7943743271838909f1de58a53104021f95713bbe267aec52e92a694a1def95",
+        "color_sha256": "e232bfb08a75c3898c7f6f5d921a53fd28c3ec13f4b7800aacb5ee03e206fa5a"
+      },
+      {
+        "scroll": 36,
+        "screen_sha256": "f6c9991769e33db06b8f73f3d9c454a27c1b45f2349e332681ffad03e4936df0",
+        "color_sha256": "695577a729c19cd0393d92a5964ae241429cc6714966dae009bcb92ef782149a"
+      },
+      {
+        "scroll": 37,
+        "screen_sha256": "a8909e62991fed7d4632fbbd2b573f7117e4ab447c2aa6d0dfba5efe9d783753",
+        "color_sha256": "00bc39493d10b21deffbe49401507d4a7a55d30015e03f492a090528cbe42437"
+      },
+      {
+        "scroll": 38,
+        "screen_sha256": "3f8142cabc6b158218e1b9f143277c0218436b6c9e0a16824cf357286b20500a",
+        "color_sha256": "216a085737ec454a011527419675117967bfccf9c42f75383a46da82373f4f4c"
+      },
+      {
+        "scroll": 39,
+        "screen_sha256": "f6a68976feb7f13ca9c13a503265ef3882cc4448c47e68d93f6534dfb1d144eb",
+        "color_sha256": "6994ba6fb3444e2f35006e3195fcb279644ecb2d4081e5cda572c78cdbf55ff5"
+      },
+      {
+        "scroll": 40,
+        "screen_sha256": "15adcb0c228e24604a1a7d90485f5628685cb8505f579986df43d9d72ab5df83",
+        "color_sha256": "3887135912b470a8e32da45adef894518a7219423ce65b68c72a03ab6df5d2fe"
+      },
+      {
+        "scroll": 41,
+        "screen_sha256": "b35b590d2f34ccaac57e9447f10bb26aba594d9d94a287f8781e9687aa8b8fbf",
+        "color_sha256": "eaa876b4956b9dd87f5016d34c249d6dd6614225c754bfe09ef9e927cfcfd6bb"
+      },
+      {
+        "scroll": 42,
+        "screen_sha256": "c2cbc4eb0df8488ec84165105bbc8c39429e2342cda73c4aa1df5bbf477bbe8a",
+        "color_sha256": "1eaf7ceb6a58f34c31534092b607ff02f64c5b8ef6d3afa4a3741229e31d8d26"
+      },
+      {
+        "scroll": 43,
+        "screen_sha256": "f9695220688918aeb81f242fcc7da130de61c2582645ff759050d29808c41282",
+        "color_sha256": "c8d841835221e2b294cda2086eeb709abb1164fff80d6e7df55c963dea5ed29e"
+      },
+      {
+        "scroll": 44,
+        "screen_sha256": "9e684e3a8f36bb7440d8d41298e92fac3b76cc534bed3a928d689682550c7081",
+        "color_sha256": "5a98fb292860e6af0a77e250b8783a9bb537e7b3e19189cb16f31c4874c4bdb6"
+      },
+      {
+        "scroll": 45,
+        "screen_sha256": "d509f5f4b1572c1a3b9d3890a5bb29ae78b7489945d522b92378bfe42223164b",
+        "color_sha256": "a7c186a6455b23412a9884858ebdee6244cc821ab4a59287f150bd0949e2e173"
+      },
+      {
+        "scroll": 46,
+        "screen_sha256": "eea850ef0f80c505bdb829490dcef5f75d8cce6af71e39fa1cbdaa4080b3b225",
+        "color_sha256": "d9c0c99c5a2b4d7926a7b00a05a9e6634e6ecac12ca5a41db791e929fc781bf1"
+      },
+      {
+        "scroll": 47,
+        "screen_sha256": "2d809e1d1c4c42c6277e5ea31709fa214c64e08bcbe75d6ce0a9d723c2db33d2",
+        "color_sha256": "ace703cff3f38d6740af4ac21e2380e9212521c839b7aa0d7270e943d5191c5e"
+      },
+      {
+        "scroll": 48,
+        "screen_sha256": "986414f6d1fd0e594747255026b7def7adeb989043443e0ac190d6912a83ec17",
+        "color_sha256": "54981cd0ec6a719c1376e4a3518372fd8f6a7afdfc1a941d1031314d84782f20"
+      },
+      {
+        "scroll": 49,
+        "screen_sha256": "72e0d7c76403a779d97457d569e3375d6c4250f88d1274d7fa1c79ecb92e6707",
+        "color_sha256": "19dafc3a30c1731b6e8d7932f5d48809500859606eac1ba7efc5defc683ae3d7"
+      },
+      {
+        "scroll": 50,
+        "screen_sha256": "f4db29bee5baeee489d8a35cbc31189e18d711366ffc7a903d6a3468647908c4",
+        "color_sha256": "aaea25ecdffb7d87892e659e242594f9722cab314734baf6d8cdce19b87ea68d"
+      }
+    ],
+    "template_preserved": true,
+    "white_body_yellow_headings": true,
+    "up_down_clamps": true,
+    "replay_info_title_roundtrip": true,
+    "screenshots": {
+      "info-26.png": "921cb2a78413612172d68fc7041ebedcc29999a2133df9048f7b894640102bf0",
+      "title.png": "591e324ed463c12c60538754d90ba303ff027fb438992dc0a8bc9eeefaa96c58",
+      "info-35.png": "c8cc53f58942088e0ebcd0efeeec899213e92592e93f378292e399d0d05a11c9",
+      "info-43.png": "682629adcdda195d1d26beb249bb82385b7666988b0781a5bc8816c26ee32a12",
+      "info-00.png": "a1d0809d9901e89405566eb0743d1df5c192b445213b9a682414cf9cc30fc5fe",
+      "info-12.png": "72ad947420fc25ebd5e9c5d46d9815e9738f60f585b5da7b86f0411644a9f574",
+      "info-50.png": "644f48490ce9ba470979412c8ecb6f1b579997fd40ff3440721f5b4ec45df58a",
+      "info-after-replay.png": "a1d0809d9901e89405566eb0743d1df5c192b445213b9a682414cf9cc30fc5fe"
+    }
+  },
+  "native_footer": {
+    "human_active_hidden": true,
+    "human_terminal_visible": true,
+    "human_replay_hidden": true,
+    "auto_terminal_hidden": true,
+    "quit_colors": [
+      12,
+      6,
+      6,
+      6
+    ],
+    "info_after_auto": true
+  },
+  "screenshots": [
+    {
+      "path": "assets/screenshots/falken-9-011-title.png",
+      "sha256": "591e324ed463c12c60538754d90ba303ff027fb438992dc0a8bc9eeefaa96c58",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. monitor KERNAL queue navigation; title at genuine D64 autostart",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-presentation/title.png"
+    },
+    {
+      "path": "assets/screenshots/falken-9-011-gameplay.png",
+      "sha256": "f94bee272f2ab46817bee910bdd3fa0e30a6e5c7fe2b2aa7a13b959063bf506e",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. monitor KERNAL queue human move plus complete native neural response; settled native VICE PNG",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-d64/gameplay.png"
+    },
+    {
+      "path": "assets/screenshots/falken-9-011-info-inspiration.png",
+      "sha256": "83e1328de4bee208ad27ace83362b2ec742770dfc2a57427caa9d5e36fb9412e",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. monitor KERNAL queue I and cursor-down scrolling",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-presentation/info-inspiration.png"
+    },
+    {
+      "path": "assets/screenshots/falken-9-011-info-bottom.png",
+      "sha256": "644f48490ce9ba470979412c8ecb6f1b579997fd40ff3440721f5b4ec45df58a",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. monitor KERNAL queue cursor-down to actual bottom clamp",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-presentation/info-bottom.png"
+    },
+    {
+      "path": "assets/screenshots/falken-9-011-quit-session.png",
+      "sha256": "a2182d17aaefdcc3718e80950bc8b94fd6eb9c07a996e605b8b516df25e11944",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. XTest native-window q key-down/up through stock-ROM scanner; view 3, audio off, stock IRQ restored",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-presentation/quit-session.png"
+    }
+  ],
+  "screenshot_provenance": {
+    "path": "assets/screenshots/application011-provenance.json",
+    "bytes": 4494,
+    "sha256": "c4b230b64cdeebda8adba53f36b8de6959a525b6bb97795b27981589133ba118"
+  },
+  "model_unchanged": true,
+  "accepted010_prg_sha256": "c571353a61c8a663050c33809b6ca880d29aebc969c545a717da2644eed3143a",
+  "protected_sources_unchanged": true,
+  "boundary": "Emulator-tested only. Lifecycle and INFO input are monitor-injected KERNAL queue bytes; session Q is an isolated native XTest key-down/up. Not browser or physical C64/drive acceptance.",
+  "publication": "local preparation only; no upload or push"
+}

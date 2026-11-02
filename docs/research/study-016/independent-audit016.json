@@ -1,0 +1,86 @@
+{
+  "explicit_all_human_reply_adversarial_tree": true,
+  "independent_arbitrary_int_full_forwards": 627,
+  "independent_bottom_up_rational_DP": true,
+  "independent_geometry": true,
+  "independent_packet_decoder": true,
+  "native_execution": false,
+  "panels": [
+    {
+      "adversarial_all_legal_human_replies": true,
+      "all_reachable_state_values_checked": 120,
+      "complete_history_leaves": 108,
+      "independent_bottom_up_DP": true,
+      "independent_rational_leaf_sum": true,
+      "loss_leaves": 0,
+      "loss_witness": null,
+      "policy": "accepted",
+      "role": "X",
+      "worst_case_from_empty": "draw"
+    },
+    {
+      "adversarial_all_legal_human_replies": true,
+      "all_reachable_state_values_checked": 180,
+      "complete_history_leaves": 187,
+      "independent_bottom_up_DP": true,
+      "independent_rational_leaf_sum": true,
+      "loss_leaves": 0,
+      "loss_witness": null,
+      "policy": "reversed",
+      "role": "X",
+      "worst_case_from_empty": "draw"
+    },
+    {
+      "adversarial_all_legal_human_replies": true,
+      "all_reachable_state_values_checked": 200,
+      "complete_history_leaves": 167,
+      "independent_bottom_up_DP": true,
+      "independent_rational_leaf_sum": true,
+      "loss_leaves": 0,
+      "loss_witness": null,
+      "policy": "largest_score",
+      "role": "X",
+      "worst_case_from_empty": "draw"
+    },
+    {
+      "adversarial_all_legal_human_replies": true,
+      "all_reachable_state_values_checked": 455,
+      "complete_history_leaves": 561,
+      "independent_bottom_up_DP": true,
+      "independent_rational_leaf_sum": true,
+      "loss_leaves": 0,
+      "loss_witness": null,
+      "policy": "accepted",
+      "role": "O",
+      "worst_case_from_empty": "draw"
+    },
+    {
+      "adversarial_all_legal_human_replies": true,
+      "all_reachable_state_values_checked": 674,
+      "complete_history_leaves": 675,
+      "independent_bottom_up_DP": true,
+      "independent_rational_leaf_sum": true,
+      "loss_leaves": 0,
+      "loss_witness": null,
+      "policy": "reversed",
+      "role": "O",
+      "worst_case_from_empty": "draw"
+    },
+    {
+      "adversarial_all_legal_human_replies": true,
+      "all_reachable_state_values_checked": 716,
+      "complete_history_leaves": 589,
+      "independent_bottom_up_DP": true,
+      "independent_rational_leaf_sum": true,
+      "loss_leaves": 0,
+      "loss_witness": null,
+      "policy": "largest_score",
+      "role": "O",
+      "worst_case_from_empty": "draw"
+    }
+  ],
+  "passed": true,
+  "raw_whole_set_minimax_inverse_tie_checks": 4520,
+  "stage_array_checks": 13167,
+  "stage_scalar_checks": 533577
+}

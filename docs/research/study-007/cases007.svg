@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1130" viewBox="0 0 1580 1130">
+<rect width="100%" height="100%" fill="#101720"/>
+<text x="28" y="22" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="27" fill="#edf2f6">Study007 / actual cases, controls and counterexamples</text>
+<text x="28" y="65" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">A-C callouts refer to exact evidence records; green outline = baseline full optimal set, not score ranking.</text>
+<rect x="25" y="110" width="1530" height="290" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="44" y="124" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">A / local-rescue</text>
+<rect x="48" y="175" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="183" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="96" y="175" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="183" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="144" y="175" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="183" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="48" y="223" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="231" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="96" y="223" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="231" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="144" y="223" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="231" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="48" y="271" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="279" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="96" y="271" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="279" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="144" y="271" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="279" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<text x="48" y="328" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<rect x="230" y="175" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="245" y="183" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="278" y="175" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="293" y="183" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="326" y="175" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="341" y="183" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="230" y="223" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="245" y="231" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="278" y="223" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="293" y="231" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="326" y="223" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="341" y="231" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="230" y="271" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="245" y="279" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="278" y="271" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="293" y="279" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="326" y="271" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="341" y="279" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<text x="230" y="328" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<text x="425" y="168" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">IDs 231 &lt;- 223; win fold0 / route-fixed</text>
+<text x="425" y="202" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Routes [0, 3] / [0, 3]; gates [31701, 1067] / [30719, 2049]</text>
+<text x="425" y="236" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Expert3 actual output prefix [42236, -177, -22272, 20156, -32718] -&gt; donor [47867, 598, -23666, 21610, -36760]</text>
+<text x="425" y="270" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Natural all-shared set [0]; restore set [0]</text>
+<text x="425" y="304" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Zero-all set []; candidate restored [0]</text>
+<text x="425" y="338" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Raw donor-&gt;canonical transform [8, 5, 2, 7, 4, 1, 6, 3, 0]; unavailable []</text>
+<rect x="25" y="422" width="1530" height="290" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="44" y="436" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">B / insufficient-path</text>
+<rect x="48" y="487" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="495" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="96" y="487" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="495" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="144" y="487" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="495" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="48" y="535" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="543" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="96" y="535" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="543" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="144" y="535" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="543" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="48" y="583" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="591" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="96" y="583" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="591" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="144" y="583" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="591" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<text x="48" y="640" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<rect x="230" y="487" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="245" y="495" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="278" y="487" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="293" y="495" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="326" y="487" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="341" y="495" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="230" y="535" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="245" y="543" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="278" y="535" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="293" y="543" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="326" y="535" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="341" y="543" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="230" y="583" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="245" y="591" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="278" y="583" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="293" y="591" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="326" y="583" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="341" y="591" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<text x="230" y="640" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<text x="425" y="480" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">IDs 106 &lt;- 102; threat fold0 / route-fixed</text>
+<text x="425" y="514" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Routes [0, 3] / [0, 3]; gates [32749, 19] / [32744, 24]</text>
+<text x="425" y="548" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Expert3 actual output prefix [38229, 8199, 4231, 6981, -45833] -&gt; donor [68238, 11612, -41042, 11977, 2748]</text>
+<text x="425" y="582" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Natural all-shared set [0, 1, 5]; restore set [0, 1, 5]</text>
+<text x="425" y="616" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Zero-all set [1]; candidate restored [1, 5]</text>
+<text x="425" y="650" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Raw donor-&gt;canonical transform [2, 1, 0, 5, 4, 3, 8, 7, 6]; unavailable []</text>
+<rect x="25" y="734" width="1530" height="290" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="44" y="748" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">C / robust-preservation</text>
+<rect x="48" y="799" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="807" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="96" y="799" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="807" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="144" y="799" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="807" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="48" y="847" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="855" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="96" y="847" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="855" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="144" y="847" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="855" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="48" y="895" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="903" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="96" y="895" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="903" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="144" y="895" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="903" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<text x="48" y="952" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<rect x="230" y="799" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="245" y="807" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="278" y="799" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="293" y="807" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="326" y="799" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="341" y="807" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="230" y="847" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="245" y="855" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="278" y="847" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="293" y="855" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="326" y="847" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="341" y="855" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="230" y="895" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="245" y="903" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="278" y="895" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="293" y="903" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="326" y="895" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="341" y="903" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<text x="230" y="952" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<text x="425" y="792" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">IDs 31 &lt;- 48; win fold0 / route-fixed</text>
+<text x="425" y="826" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Routes [3, 2] / [3, 2]; gates [32768, 0] / [32481, 287]</text>
+<text x="425" y="860" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Expert3 actual output prefix [12035, -810, 2944, 8421, -32209] -&gt; donor [4353, -1636, 855, 5629, -18146]</text>
+<text x="425" y="894" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Natural all-shared set [0, 4]; restore set [0, 4]</text>
+<text x="425" y="928" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Zero-all set [4]; candidate restored [0, 4]</text>
+<text x="425" y="962" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Raw donor-&gt;canonical transform [0, 1, 2, 3, 4, 5, 6, 7, 8]; unavailable []</text>
+<text x="28" y="1084" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">All output sets are full nonnegative legal membership. Raw inverse transforms and fixed ties are non-neural; no strategy names inferred.</text>
+</svg>

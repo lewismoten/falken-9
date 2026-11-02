@@ -1,0 +1,1381 @@
+[
+  {
+    "callout": "A",
+    "task": "has_win",
+    "kind": "tactical",
+    "canonical_index": 595,
+    "probe_split": "test",
+    "board": [
+      0,
+      0,
+      2,
+      1,
+      0,
+      1,
+      2,
+      0,
+      0
+    ],
+    "labels": {
+      "side": 1,
+      "wins": [
+        4
+      ],
+      "opponent_wins": [
+        4
+      ],
+      "forks": [],
+      "opponent_forks": [
+        0,
+        1,
+        7,
+        8
+      ],
+      "block_squares": [],
+      "fork_prevention_squares": [],
+      "ply": 4,
+      "own_corners": 0,
+      "opponent_corners": 2,
+      "own_edges": 2,
+      "opponent_edges": 0,
+      "center_own": false,
+      "center_opponent": false,
+      "center_empty": true,
+      "has_win": true,
+      "has_opponent_win": true,
+      "must_block": false,
+      "opponent_double_threat": false,
+      "has_fork": false,
+      "has_opponent_fork": false,
+      "has_fork_prevention": false
+    },
+    "same_ply_match": true,
+    "occupancy_control_L1_distance": 4.0,
+    "move": 4,
+    "after_zero_move": 4,
+    "after_zero_optimal": true,
+    "unit_value": 32330,
+    "routes": [
+      1,
+      0
+    ],
+    "gates_q15": [
+      32678,
+      90
+    ],
+    "expert_hidden": [
+      [
+        -44,
+        0,
+        32330,
+        25747
+      ],
+      [
+        16923,
+        14788,
+        9424,
+        1022
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "readout_gelu": [
+      307,
+      -179,
+      4851,
+      -3,
+      252,
+      0,
+      3091,
+      3478
+    ],
+    "norm2_output": [
+      -4781,
+      -5627,
+      8954,
+      -5182,
+      -4934,
+      -6147,
+      5238,
+      6457
+    ],
+    "logits": [
+      -468236,
+      -303084,
+      -158909,
+      -261278,
+      205803,
+      -79753,
+      -132554,
+      -114525,
+      -204458
+    ],
+    "zero_logits": [
+      -471124,
+      -302064,
+      -156626,
+      -258399,
+      204911,
+      -79042,
+      -133885,
+      -114015,
+      -205071
+    ],
+    "selected_logit_delta": -892,
+    "attention_probs_q15": [
+      [
+        53,
+        1,
+        3,
+        0,
+        16425,
+        0,
+        11,
+        3,
+        16272
+      ],
+      [
+        70,
+        0,
+        1,
+        0,
+        2280,
+        0,
+        0,
+        17,
+        30400
+      ],
+      [
+        398,
+        151,
+        13,
+        0,
+        139,
+        10,
+        0,
+        687,
+        31370
+      ],
+      [
+        17,
+        977,
+        68,
+        230,
+        0,
+        30793,
+        0,
+        683,
+        0
+      ],
+      [
+        2184,
+        3076,
+        650,
+        759,
+        8781,
+        1725,
+        305,
+        736,
+        14552
+      ],
+      [
+        3,
+        369,
+        11,
+        180,
+        0,
+        32053,
+        0,
+        152,
+        0
+      ],
+      [
+        721,
+        167,
+        38,
+        0,
+        133,
+        3,
+        0,
+        1035,
+        30671
+      ],
+      [
+        117,
+        4,
+        3,
+        0,
+        1667,
+        0,
+        0,
+        41,
+        30936
+      ],
+      [
+        79,
+        20,
+        26,
+        389,
+        29678,
+        17,
+        556,
+        6,
+        1997
+      ]
+    ]
+  },
+  {
+    "callout": "A",
+    "task": "has_win",
+    "kind": "matched-nontarget",
+    "canonical_index": 330,
+    "probe_split": "train",
+    "board": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      2,
+      0,
+      1
+    ],
+    "labels": {
+      "side": 1,
+      "wins": [],
+      "opponent_wins": [],
+      "forks": [],
+      "opponent_forks": [],
+      "block_squares": [],
+      "fork_prevention_squares": [],
+      "ply": 4,
+      "own_corners": 1,
+      "opponent_corners": 1,
+      "own_edges": 1,
+      "opponent_edges": 1,
+      "center_own": false,
+      "center_opponent": false,
+      "center_empty": true,
+      "has_win": false,
+      "has_opponent_win": false,
+      "must_block": false,
+      "opponent_double_threat": false,
+      "has_fork": false,
+      "has_opponent_fork": false,
+      "has_fork_prevention": false
+    },
+    "same_ply_match": true,
+    "occupancy_control_L1_distance": 4.0,
+    "move": 4,
+    "after_zero_move": 4,
+    "after_zero_optimal": true,
+    "unit_value": 34701,
+    "routes": [
+      1,
+      0
+    ],
+    "gates_q15": [
+      32683,
+      85
+    ],
+    "expert_hidden": [
+      [
+        4239,
+        0,
+        34701,
+        9909
+      ],
+      [
+        5342,
+        10377,
+        4863,
+        7009
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "readout_gelu": [
+      -31,
+      -332,
+      4030,
+      0,
+      -144,
+      -168,
+      -99,
+      1097
+    ],
+    "norm2_output": [
+      -3459,
+      -4308,
+      12724,
+      -2699,
+      -4085,
+      -4327,
+      -1452,
+      2237
+    ],
+    "logits": [
+      14657,
+      42584,
+      199590,
+      -32469,
+      102466,
+      6608,
+      -99974,
+      112584,
+      15248
+    ],
+    "zero_logits": [
+      11737,
+      43623,
+      201905,
+      -29550,
+      101557,
+      7338,
+      -101324,
+      113104,
+      14630
+    ],
+    "selected_logit_delta": -909,
+    "attention_probs_q15": [
+      [
+        106,
+        2,
+        17,
+        0,
+        32599,
+        17,
+        21,
+        5,
+        1
+      ],
+      [
+        951,
+        9,
+        726,
+        0,
+        30817,
+        16,
+        12,
+        236,
+        1
+      ],
+      [
+        857,
+        450,
+        1204,
+        1014,
+        26703,
+        230,
+        139,
+        352,
+        1819
+      ],
+      [
+        114,
+        6103,
+        16471,
+        1440,
+        0,
+        56,
+        8,
+        4262,
+        4314
+      ],
+      [
+        2896,
+        4081,
+        8012,
+        1007,
+        11650,
+        1164,
+        404,
+        976,
+        2578
+      ],
+      [
+        755,
+        81,
+        30775,
+        0,
+        491,
+        3,
+        0,
+        663,
+        0
+      ],
+      [
+        521,
+        121,
+        31278,
+        0,
+        96,
+        3,
+        0,
+        749,
+        0
+      ],
+      [
+        1749,
+        65,
+        5302,
+        6,
+        24965,
+        30,
+        11,
+        623,
+        17
+      ],
+      [
+        28,
+        5451,
+        2952,
+        6971,
+        0,
+        52,
+        9,
+        1221,
+        16084
+      ]
+    ]
+  },
+  {
+    "callout": "B",
+    "task": "must_block",
+    "kind": "tactical",
+    "canonical_index": 553,
+    "probe_split": "test",
+    "board": [
+      0,
+      1,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      0
+    ],
+    "labels": {
+      "side": 1,
+      "wins": [],
+      "opponent_wins": [
+        2
+      ],
+      "forks": [],
+      "opponent_forks": [
+        0,
+        8
+      ],
+      "block_squares": [
+        2
+      ],
+      "fork_prevention_squares": [],
+      "ply": 6,
+      "own_corners": 0,
+      "opponent_corners": 1,
+      "own_edges": 3,
+      "opponent_edges": 1,
+      "center_own": false,
+      "center_opponent": true,
+      "center_empty": false,
+      "has_win": false,
+      "has_opponent_win": true,
+      "must_block": true,
+      "opponent_double_threat": false,
+      "has_fork": false,
+      "has_opponent_fork": false,
+      "has_fork_prevention": false
+    },
+    "same_ply_match": true,
+    "occupancy_control_L1_distance": 2.0,
+    "move": 2,
+    "after_zero_move": 2,
+    "after_zero_optimal": true,
+    "unit_value": 38049,
+    "routes": [
+      1,
+      0
+    ],
+    "gates_q15": [
+      32763,
+      5
+    ],
+    "expert_hidden": [
+      [
+        -223,
+        0,
+        38049,
+        21058
+      ],
+      [
+        13115,
+        17790,
+        3782,
+        4407
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "readout_gelu": [
+      -299,
+      -283,
+      6726,
+      -224,
+      1920,
+      -334,
+      2292,
+      5966
+    ],
+    "norm2_output": [
+      -6124,
+      -5341,
+      8670,
+      -5292,
+      -1461,
+      -6548,
+      1485,
+      8971
+    ],
+    "logits": [
+      -258385,
+      -87953,
+      137277,
+      -161503,
+      56134,
+      -45266,
+      -214333,
+      31487,
+      -75341
+    ],
+    "zero_logits": [
+      -258569,
+      -87880,
+      137425,
+      -161321,
+      56075,
+      -45219,
+      -214420,
+      31527,
+      -75380
+    ],
+    "selected_logit_delta": 148,
+    "attention_probs_q15": [
+      [
+        107,
+        0,
+        17,
+        0,
+        132,
+        17,
+        21,
+        0,
+        32474
+      ],
+      [
+        41,
+        15612,
+        7799,
+        594,
+        0,
+        16,
+        1,
+        8704,
+        1
+      ],
+      [
+        749,
+        452,
+        1052,
+        886,
+        481,
+        201,
+        121,
+        525,
+        28301
+      ],
+      [
+        49,
+        16323,
+        7147,
+        625,
+        0,
+        24,
+        3,
+        8596,
+        1
+      ],
+      [
+        259,
+        0,
+        27214,
+        0,
+        0,
+        2,
+        0,
+        0,
+        5293
+      ],
+      [
+        182,
+        0,
+        7412,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25174
+      ],
+      [
+        316,
+        0,
+        18984,
+        0,
+        0,
+        2,
+        0,
+        0,
+        13466
+      ],
+      [
+        32,
+        17085,
+        6230,
+        595,
+        0,
+        13,
+        1,
+        8811,
+        1
+      ],
+      [
+        460,
+        380,
+        26,
+        2247,
+        13398,
+        1117,
+        3211,
+        394,
+        11535
+      ]
+    ]
+  },
+  {
+    "callout": "B",
+    "task": "must_block",
+    "kind": "matched-nontarget",
+    "canonical_index": 287,
+    "probe_split": "test",
+    "board": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      0
+    ],
+    "labels": {
+      "side": 1,
+      "wins": [],
+      "opponent_wins": [],
+      "forks": [],
+      "opponent_forks": [],
+      "block_squares": [],
+      "fork_prevention_squares": [],
+      "ply": 6,
+      "own_corners": 1,
+      "opponent_corners": 1,
+      "own_edges": 2,
+      "opponent_edges": 1,
+      "center_own": false,
+      "center_opponent": true,
+      "center_empty": false,
+      "has_win": false,
+      "has_opponent_win": false,
+      "must_block": false,
+      "opponent_double_threat": false,
+      "has_fork": false,
+      "has_opponent_fork": false,
+      "has_fork_prevention": false
+    },
+    "same_ply_match": true,
+    "occupancy_control_L1_distance": 2.0,
+    "move": 1,
+    "after_zero_move": 1,
+    "after_zero_optimal": true,
+    "unit_value": 40609,
+    "routes": [
+      1,
+      0
+    ],
+    "gates_q15": [
+      32761,
+      7
+    ],
+    "expert_hidden": [
+      [
+        5368,
+        0,
+        40609,
+        9704
+      ],
+      [
+        2995,
+        11454,
+        405,
+        5093
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "readout_gelu": [
+      -318,
+      -85,
+      6857,
+      0,
+      1594,
+      75,
+      -191,
+      3287
+    ],
+    "norm2_output": [
+      -5432,
+      -4277,
+      11577,
+      -3944,
+      -917,
+      -4627,
+      -2496,
+      4730
+    ],
+    "logits": [
+      10919,
+      62808,
+      299164,
+      -13455,
+      -59397,
+      -15325,
+      -186619,
+      80791,
+      64299
+    ],
+    "zero_logits": [
+      10638,
+      62911,
+      299384,
+      -13179,
+      -59480,
+      -15251,
+      -186757,
+      80843,
+      64236
+    ],
+    "selected_logit_delta": 103,
+    "attention_probs_q15": [
+      [
+        107,
+        2,
+        0,
+        0,
+        132,
+        17,
+        21,
+        0,
+        32489
+      ],
+      [
+        75,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        32690
+      ],
+      [
+        4,
+        474,
+        26883,
+        396,
+        0,
+        2,
+        0,
+        5009,
+        0
+      ],
+      [
+        18,
+        965,
+        28419,
+        227,
+        0,
+        8,
+        0,
+        3131,
+        0
+      ],
+      [
+        1477,
+        886,
+        281,
+        0,
+        1,
+        13,
+        0,
+        6,
+        30104
+      ],
+      [
+        235,
+        25,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        32505
+      ],
+      [
+        748,
+        173,
+        30,
+        0,
+        0,
+        5,
+        0,
+        0,
+        31812
+      ],
+      [
+        11,
+        735,
+        28730,
+        207,
+        0,
+        5,
+        0,
+        3080,
+        0
+      ],
+      [
+        463,
+        119,
+        46,
+        2264,
+        13497,
+        1125,
+        3235,
+        397,
+        11622
+      ]
+    ]
+  },
+  {
+    "callout": "C",
+    "task": "has_fork",
+    "kind": "tactical",
+    "canonical_index": 170,
+    "probe_split": "test",
+    "board": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      1,
+      1
+    ],
+    "labels": {
+      "side": 1,
+      "wins": [],
+      "opponent_wins": [],
+      "forks": [
+        4
+      ],
+      "opponent_forks": [
+        3,
+        4
+      ],
+      "block_squares": [],
+      "fork_prevention_squares": [
+        3
+      ],
+      "ply": 4,
+      "own_corners": 1,
+      "opponent_corners": 1,
+      "own_edges": 1,
+      "opponent_edges": 1,
+      "center_own": false,
+      "center_opponent": false,
+      "center_empty": true,
+      "has_win": false,
+      "has_opponent_win": false,
+      "must_block": false,
+      "opponent_double_threat": false,
+      "has_fork": true,
+      "has_opponent_fork": true,
+      "has_fork_prevention": true
+    },
+    "same_ply_match": true,
+    "occupancy_control_L1_distance": 0.0,
+    "move": 4,
+    "after_zero_move": 1,
+    "after_zero_optimal": false,
+    "unit_value": 25125,
+    "routes": [
+      1,
+      2
+    ],
+    "gates_q15": [
+      32371,
+      397
+    ],
+    "expert_hidden": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        25125,
+        25332,
+        -320,
+        1867
+      ],
+      [
+        6428,
+        0,
+        26052,
+        24196
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "readout_gelu": [
+      -281,
+      -205,
+      3924,
+      0,
+      0,
+      -140,
+      1731,
+      5961
+    ],
+    "norm2_output": [
+      -5578,
+      -4734,
+      5554,
+      -4130,
+      -4764,
+      -5462,
+      1704,
+      12797
+    ],
+    "logits": [
+      -502021,
+      -175389,
+      -16057,
+      -360843,
+      33078,
+      -95660,
+      -332803,
+      -16581,
+      -199780
+    ],
+    "zero_logits": [
+      -155335,
+      34575,
+      680179,
+      95974,
+      -394127,
+      71964,
+      -589371,
+      -64164,
+      149680
+    ],
+    "selected_logit_delta": -427205,
+    "attention_probs_q15": [
+      [
+        68,
+        1,
+        11,
+        11582,
+        21080,
+        11,
+        14,
+        0,
+        1
+      ],
+      [
+        359,
+        3,
+        274,
+        20482,
+        11640,
+        6,
+        4,
+        0,
+        0
+      ],
+      [
+        711,
+        374,
+        1000,
+        6188,
+        22179,
+        191,
+        115,
+        499,
+        1511
+      ],
+      [
+        69,
+        0,
+        6,
+        18992,
+        13691,
+        4,
+        6,
+        0,
+        0
+      ],
+      [
+        2812,
+        3961,
+        7778,
+        1646,
+        11311,
+        1130,
+        392,
+        1235,
+        2503
+      ],
+      [
+        766,
+        82,
+        31256,
+        163,
+        498,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        532,
+        123,
+        31976,
+        36,
+        98,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        55,
+        3599,
+        10658,
+        0,
+        0,
+        23,
+        2,
+        15077,
+        3354
+      ],
+      [
+        7,
+        1495,
+        810,
+        0,
+        0,
+        14,
+        2,
+        26027,
+        4413
+      ]
+    ]
+  },
+  {
+    "callout": "C",
+    "task": "has_fork",
+    "kind": "matched-nontarget",
+    "canonical_index": 330,
+    "probe_split": "train",
+    "board": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      2,
+      0,
+      1
+    ],
+    "labels": {
+      "side": 1,
+      "wins": [],
+      "opponent_wins": [],
+      "forks": [],
+      "opponent_forks": [],
+      "block_squares": [],
+      "fork_prevention_squares": [],
+      "ply": 4,
+      "own_corners": 1,
+      "opponent_corners": 1,
+      "own_edges": 1,
+      "opponent_edges": 1,
+      "center_own": false,
+      "center_opponent": false,
+      "center_empty": true,
+      "has_win": false,
+      "has_opponent_win": false,
+      "must_block": false,
+      "opponent_double_threat": false,
+      "has_fork": false,
+      "has_opponent_fork": false,
+      "has_fork_prevention": false
+    },
+    "same_ply_match": true,
+    "occupancy_control_L1_distance": 0.0,
+    "move": 4,
+    "after_zero_move": 4,
+    "after_zero_optimal": true,
+    "unit_value": 5342,
+    "routes": [
+      1,
+      0
+    ],
+    "gates_q15": [
+      32683,
+      85
+    ],
+    "expert_hidden": [
+      [
+        4239,
+        0,
+        34701,
+        9909
+      ],
+      [
+        5342,
+        10377,
+        4863,
+        7009
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "readout_gelu": [
+      -31,
+      -332,
+      4030,
+      0,
+      -144,
+      -168,
+      -99,
+      1097
+    ],
+    "norm2_output": [
+      -3459,
+      -4308,
+      12724,
+      -2699,
+      -4085,
+      -4327,
+      -1452,
+      2237
+    ],
+    "logits": [
+      14657,
+      42584,
+      199590,
+      -32469,
+      102466,
+      6608,
+      -99974,
+      112584,
+      15248
+    ],
+    "zero_logits": [
+      89079,
+      87652,
+      349042,
+      65594,
+      10763,
+      42589,
+      -155049,
+      102365,
+      90263
+    ],
+    "selected_logit_delta": -91703,
+    "attention_probs_q15": [
+      [
+        106,
+        2,
+        17,
+        0,
+        32599,
+        17,
+        21,
+        5,
+        1
+      ],
+      [
+        951,
+        9,
+        726,
+        0,
+        30817,
+        16,
+        12,
+        236,
+        1
+      ],
+      [
+        857,
+        450,
+        1204,
+        1014,
+        26703,
+        230,
+        139,
+        352,
+        1819
+      ],
+      [
+        114,
+        6103,
+        16471,
+        1440,
+        0,
+        56,
+        8,
+        4262,
+        4314
+      ],
+      [
+        2896,
+        4081,
+        8012,
+        1007,
+        11650,
+        1164,
+        404,
+        976,
+        2578
+      ],
+      [
+        755,
+        81,
+        30775,
+        0,
+        491,
+        3,
+        0,
+        663,
+        0
+      ],
+      [
+        521,
+        121,
+        31278,
+        0,
+        96,
+        3,
+        0,
+        749,
+        0
+      ],
+      [
+        1749,
+        65,
+        5302,
+        6,
+        24965,
+        30,
+        11,
+        623,
+        17
+      ],
+      [
+        28,
+        5451,
+        2952,
+        6971,
+        0,
+        52,
+        9,
+        1221,
+        16084
+      ]
+    ]
+  }
+]

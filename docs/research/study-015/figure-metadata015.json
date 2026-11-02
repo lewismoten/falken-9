@@ -1,0 +1,27 @@
+{
+  "d4_classes": 7,
+  "diagram_not_screenshot": true,
+  "expert_numbering": "zero-based IDs",
+  "fixed_seed_cycle_transition_support": 26,
+  "fixed_seed_including_transient_support": 27,
+  "gate_cells": 81,
+  "path_boards": 90,
+  "path_rows": [
+    5,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9
+  ],
+  "png_svg_pairs": [
+    "paths015",
+    "routes015",
+    "sampler015"
+  ],
+  "route_table_rows": 12,
+  "square_numbering": "one-based123/456/789"
+}

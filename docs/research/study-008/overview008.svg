@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="900" viewBox="0 0 1580 900">
+<rect width="100%" height="100%" fill="#101720"/>
+<text x="28" y="22" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="26" fill="#edf2f6">Study008 / a bounded negative finding: no legal decision fragility observed</text>
+<text x="28" y="64" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">76 one-code changes across38 coordinates; exact integer host recomputation, not a precision conversion or target benchmark.</text>
+<rect x="25" y="110" width="1530" height="218" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="45" y="129" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#eda85f">A / all declared perturbations preserve legal complete sets</text>
+<text x="45" y="174" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">0/627 boards changed legal full sets;0/627 changed chosen moves; all627 robust to this finite76-intervention panel.</text>
+<text x="45" y="211" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">2270 legal scores;0 exact zeros. Negative-&gt;nonnegative legal flips0; nonnegative-&gt;negative legal flips0.</text>
+<text x="45" y="248" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">Occupied sign flips4 board-square-intervention observations: ignored by the fixed legal mask, not hidden decision failures.</text>
+<text x="45" y="285" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">All76 original-code restorations recover627 baseline boards and every saved stage; frozen5195-byte packet never rewritten.</text>
+<rect x="25" y="352" width="1530" height="290" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="45" y="371" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#eda85f">B / exact legal membership-boundary distance census</text>
+<rect x="70" y="569.6164383561644" width="125" height="0.3835616438356164" fill="#82d5a1" stroke="#82d5a1" stroke-width="1"/>
+<text x="70" y="578" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#edf2f6">1..99</text>
+<text x="70" y="545.6164383561644" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">1</text>
+<rect x="305" y="570.0" width="125" height="0.0" fill="#82d5a1" stroke="#82d5a1" stroke-width="1"/>
+<text x="305" y="578" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#edf2f6">100..999</text>
+<text x="305" y="546.0" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">0</text>
+<rect x="540" y="494.82191780821915" width="125" height="75.17808219178082" fill="#82d5a1" stroke="#82d5a1" stroke-width="1"/>
+<text x="540" y="578" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#edf2f6">1,000..9,999</text>
+<text x="540" y="470.82191780821915" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">196</text>
+<rect x="775" y="430.0" width="125" height="140.0" fill="#82d5a1" stroke="#82d5a1" stroke-width="1"/>
+<text x="775" y="578" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#edf2f6">10,000..99,999</text>
+<text x="775" y="406.0" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">365</text>
+<rect x="1010" y="545.068493150685" width="125" height="24.931506849315067" fill="#82d5a1" stroke="#82d5a1" stroke-width="1"/>
+<text x="1010" y="578" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#edf2f6">100,000..999,999</text>
+<text x="1010" y="521.068493150685" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">65</text>
+<rect x="1245" y="570.0" width="125" height="0.0" fill="#82d5a1" stroke="#82d5a1" stroke-width="1"/>
+<text x="1245" y="578" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#edf2f6">1,000,000..9,999,999</text>
+<text x="1245" y="546.0" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">0</text>
+<text x="45" y="613" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Distance: y+1 if y&gt;=0; -y if y&lt;0. Board minimum over legal squares. Not a ranking margin.</text>
+<rect x="25" y="668" width="1530" height="175" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="45" y="686" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">C / limits and controls</text>
+<text x="45" y="729" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">Actual descriptor width8: all9 output biases,4 router biases,8 norm2 weights,8 norm2 biases,9 output weights chosen from TRAIN activation only.38 coordinates</text>
+<text x="45" y="753" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">x2 doses; no code boundary rejects.</text>
+<text x="45" y="789" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">Closest legal score is+54 (distance55); this is not a parameter-space robustness certificate. No failure-prone coordinate ranking or human strategy established.</text>
+</svg>

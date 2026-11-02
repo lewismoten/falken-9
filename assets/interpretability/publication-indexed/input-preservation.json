@@ -1,0 +1,729 @@
+{
+  "deferred_sources": [],
+  "protected_screenshots": [
+    {
+      "bytes": 3216,
+      "path": "assets/screenshots/application010-additional-provenance.json",
+      "sha256": "61d2f42154a495fa12f44035eec9f2b60355fe4c0523b7b686e181d56942d77e"
+    },
+    {
+      "bytes": 4494,
+      "path": "assets/screenshots/application011-provenance.json",
+      "sha256": "c4b230b64cdeebda8adba53f36b8de6959a525b6bb97795b27981589133ba118"
+    },
+    {
+      "bytes": 7202,
+      "path": "assets/screenshots/falken-9-011-gameplay.png",
+      "sha256": "f94bee272f2ab46817bee910bdd3fa0e30a6e5c7fe2b2aa7a13b959063bf506e"
+    },
+    {
+      "bytes": 6898,
+      "path": "assets/screenshots/falken-9-011-info-bottom.png",
+      "sha256": "644f48490ce9ba470979412c8ecb6f1b579997fd40ff3440721f5b4ec45df58a"
+    },
+    {
+      "bytes": 6702,
+      "path": "assets/screenshots/falken-9-011-info-inspiration.png",
+      "sha256": "83e1328de4bee208ad27ace83362b2ec742770dfc2a57427caa9d5e36fb9412e"
+    },
+    {
+      "bytes": 3771,
+      "path": "assets/screenshots/falken-9-011-quit-session.png",
+      "sha256": "a2182d17aaefdcc3718e80950bc8b94fd6eb9c07a996e605b8b516df25e11944"
+    },
+    {
+      "bytes": 5499,
+      "path": "assets/screenshots/falken-9-011-title.png",
+      "sha256": "591e324ed463c12c60538754d90ba303ff027fb438992dc0a8bc9eeefaa96c58"
+    },
+    {
+      "bytes": 6920,
+      "path": "assets/screenshots/falken9-003-activity.png",
+      "sha256": "a34ef0154652404348a99b7adc1667c87b90f3d52398d11f31c8f6ed37ea179e"
+    },
+    {
+      "bytes": 13193,
+      "path": "assets/screenshots/falken9-003-draw.png",
+      "sha256": "6781de38728349304825fb232e679c07c33e3e3118f5bfd0d60822c73a3b3242"
+    },
+    {
+      "bytes": 12268,
+      "path": "assets/screenshots/falken9-003-gameplay.png",
+      "sha256": "6d9d25d5cad0f45f43aa988fb3260e8ea16b1c168457e23e3240a2bda7d01d3b"
+    },
+    {
+      "bytes": 13575,
+      "path": "assets/screenshots/falken9-003-info.png",
+      "sha256": "843b5546bd1a310b8b26579abd8ed46b06c35e3cec1f04ff23deb1c6713ee000"
+    },
+    {
+      "bytes": 12938,
+      "path": "assets/screenshots/falken9-003-model-win.png",
+      "sha256": "8c7d5ab6b4ae6bcd1222b17b3307ea4e2ea89b6a8115d91f3843e8d982e825e9"
+    },
+    {
+      "bytes": 10312,
+      "path": "assets/screenshots/falken9-003-title.png",
+      "sha256": "117c90dcfadfc7870512a69656292dafd82939841686e8a9b59056d62186ded5"
+    },
+    {
+      "bytes": 7068,
+      "path": "assets/screenshots/falken9-004-activity.png",
+      "sha256": "b1cf80e0b6b49cccd674a3abec9c349c6ac073966e0fd1ee9692790ca47ce958"
+    },
+    {
+      "bytes": 13193,
+      "path": "assets/screenshots/falken9-004-draw.png",
+      "sha256": "6781de38728349304825fb232e679c07c33e3e3118f5bfd0d60822c73a3b3242"
+    },
+    {
+      "bytes": 12460,
+      "path": "assets/screenshots/falken9-004-gameplay.png",
+      "sha256": "156e55b916cb41a2d25850d0e4a5c1d226c8dbc88d998298d0bcfad5a6fd382d"
+    },
+    {
+      "bytes": 13575,
+      "path": "assets/screenshots/falken9-004-info.png",
+      "sha256": "843b5546bd1a310b8b26579abd8ed46b06c35e3cec1f04ff23deb1c6713ee000"
+    },
+    {
+      "bytes": 12230,
+      "path": "assets/screenshots/falken9-004-labels.png",
+      "sha256": "89eea9e3d651375c10123b713b6e95418879e63f00e4e8d89bfccf8525ea1bec"
+    },
+    {
+      "bytes": 10312,
+      "path": "assets/screenshots/falken9-004-title.png",
+      "sha256": "117c90dcfadfc7870512a69656292dafd82939841686e8a9b59056d62186ded5"
+    },
+    {
+      "bytes": 12064,
+      "path": "assets/screenshots/falken9-005-activity.png",
+      "sha256": "1377e9da8bfeb2dba9b00d7866c863518ea4a1b2fddb10c6e1dcead9e488d431"
+    },
+    {
+      "bytes": 12736,
+      "path": "assets/screenshots/falken9-005-draw.png",
+      "sha256": "98330bc9a5ce1858fe885d8661b2edb737ed43bb13e8520e6ea41690053a174a"
+    },
+    {
+      "bytes": 12116,
+      "path": "assets/screenshots/falken9-005-gameplay.png",
+      "sha256": "2c4e38c3e690e7c128b50018abac93bee314271aada9d695af125da3c1548370"
+    },
+    {
+      "bytes": 13935,
+      "path": "assets/screenshots/falken9-005-info-links.png",
+      "sha256": "8e3fa632eac8530a7d83fba0753076cce92aa25530a514d29fef49b4fc66a7d7"
+    },
+    {
+      "bytes": 14019,
+      "path": "assets/screenshots/falken9-005-info.png",
+      "sha256": "e1b53ba67a72e6c45db5c01ec7cc6995c8d01321fd57632ac2e15ecc89c6e9eb"
+    },
+    {
+      "bytes": 11901,
+      "path": "assets/screenshots/falken9-005-labels.png",
+      "sha256": "50c0aef83c5166b5222385ad4df89ecd765ee7126c7e183f9c01e0fb651f47f1"
+    },
+    {
+      "bytes": 10232,
+      "path": "assets/screenshots/falken9-005-title.png",
+      "sha256": "e70a7fb985b3956737dd4b3d30a581886fe9071efc919d8b083f8a142434ba27"
+    },
+    {
+      "bytes": 12064,
+      "path": "assets/screenshots/falken9-006-activity.png",
+      "sha256": "1377e9da8bfeb2dba9b00d7866c863518ea4a1b2fddb10c6e1dcead9e488d431"
+    },
+    {
+      "bytes": 12736,
+      "path": "assets/screenshots/falken9-006-draw.png",
+      "sha256": "98330bc9a5ce1858fe885d8661b2edb737ed43bb13e8520e6ea41690053a174a"
+    },
+    {
+      "bytes": 12116,
+      "path": "assets/screenshots/falken9-006-gameplay.png",
+      "sha256": "2c4e38c3e690e7c128b50018abac93bee314271aada9d695af125da3c1548370"
+    },
+    {
+      "bytes": 14188,
+      "path": "assets/screenshots/falken9-006-info-links.png",
+      "sha256": "017e1d65001a48ec589305aa83a9e33f5c17287f6cce46e321093601e2b3de1b"
+    },
+    {
+      "bytes": 14020,
+      "path": "assets/screenshots/falken9-006-info.png",
+      "sha256": "6c79d5581e63e8d754f3da8437bfe79dbe95b64cc4c0bca4d8995d4943cf8ff0"
+    },
+    {
+      "bytes": 11901,
+      "path": "assets/screenshots/falken9-006-labels.png",
+      "sha256": "50c0aef83c5166b5222385ad4df89ecd765ee7126c7e183f9c01e0fb651f47f1"
+    },
+    {
+      "bytes": 10232,
+      "path": "assets/screenshots/falken9-006-title.png",
+      "sha256": "e70a7fb985b3956737dd4b3d30a581886fe9071efc919d8b083f8a142434ba27"
+    },
+    {
+      "bytes": 7274,
+      "path": "assets/screenshots/falken9-007-gameplay.png",
+      "sha256": "46074746ad9a98a841dd448ac105b51b1ed9cd9ac6099a014f190c2533f930eb"
+    },
+    {
+      "bytes": 6725,
+      "path": "assets/screenshots/falken9-007-info-audio.png",
+      "sha256": "6cbe9256c07e3180e54b857b17e06ae3aba1a37d286c5b361a1655fdb69dcb73"
+    },
+    {
+      "bytes": 5483,
+      "path": "assets/screenshots/falken9-007-title.png",
+      "sha256": "ad9b52282a7f614f024e4a0c5c2d3492ce6a90bc6470a4ec4e8b8c1d1fa1bb85"
+    },
+    {
+      "bytes": 7274,
+      "path": "assets/screenshots/falken9-010-gameplay.png",
+      "sha256": "46074746ad9a98a841dd448ac105b51b1ed9cd9ac6099a014f190c2533f930eb"
+    },
+    {
+      "bytes": 6880,
+      "path": "assets/screenshots/falken9-010-info-bottom.png",
+      "sha256": "22bee9d6f57a7d5c1f68950bf5044dc4e25dac6a7e061aadc7e8cbc2ae487a22"
+    },
+    {
+      "bytes": 6856,
+      "path": "assets/screenshots/falken9-010-info-inspiration.png",
+      "sha256": "455af86798c8631332dd84294a3ebf7cef701aad692a3f0eff84f8510f53cb0c"
+    },
+    {
+      "bytes": 3768,
+      "path": "assets/screenshots/falken9-010-quit-session.png",
+      "sha256": "093b6acced727e3121c8c962e910561ffa0922dd8f2073cfa4ca3f8555dc4060"
+    },
+    {
+      "bytes": 5483,
+      "path": "assets/screenshots/falken9-010-title.png",
+      "sha256": "ad9b52282a7f614f024e4a0c5c2d3492ce6a90bc6470a4ec4e8b8c1d1fa1bb85"
+    },
+    {
+      "bytes": 6800,
+      "path": "assets/screenshots/falken9-model-v1.0.0-draw.png",
+      "sha256": "fb51b6ece13333f0dd4aa68bdb15f80d7e47829ca14fb4c0a591beab45fc5b8b"
+    }
+  ],
+  "protected_svgs": [
+    {
+      "bytes": 38352,
+      "path": "assets/interpretability/model-inspection/netron-dark.svg",
+      "sha256": "e204f79a228af02e60e75c9caf8533c5d992a90a41e774f9be215c1083c30ab6"
+    },
+    {
+      "bytes": 39237,
+      "path": "assets/interpretability/model-inspection/netron-original.svg",
+      "sha256": "07a7bd3b52deb087e962df60eb15fe2d76c304547834cd73c5b94283beff9430"
+    },
+    {
+      "bytes": 170091,
+      "path": "assets/interpretability/model-inspection/tensor-workflow.svg",
+      "sha256": "dacef58524a47696e7cba92f00d1ea2a11f9ed9c96f32f1204efe61a99f49a6a"
+    },
+    {
+      "bytes": 14576,
+      "path": "assets/interpretability/publication-dark/study-009/mechanism009.svg",
+      "sha256": "768af954517a7177c79a49c5bdb237489ea2c953ac44bd0524cbcdd8b27f2ccf"
+    },
+    {
+      "bytes": 4317,
+      "path": "assets/interpretability/publication-dark/study-009/overview009.svg",
+      "sha256": "d5b08aea95cd6e962319513f72cd00e256f91bd350e44430c60e4e4697fc08bf"
+    },
+    {
+      "bytes": 13151,
+      "path": "assets/interpretability/publication-dark/study-009/raw-alignment009.svg",
+      "sha256": "a4ec25605342e9cd86ac34ebc36b9adf0f93a64786c4f655129127c47706dfb9"
+    },
+    {
+      "bytes": 14577,
+      "path": "assets/interpretability/publication-dark/study-009/restoration-damage009.svg",
+      "sha256": "c0a5dd4af7676b615106edffbd4d30393a232b364480212a73cd2e2942b0dffd"
+    },
+    {
+      "bytes": 14588,
+      "path": "assets/interpretability/publication-dark/study-009/robust009.svg",
+      "sha256": "fd9710ce6d9af280b30ca935b321adf182d8d635ef92302d4e11f9cf3a8c2738"
+    },
+    {
+      "bytes": 25382,
+      "path": "assets/interpretability/publication-dark/study-010/orbits010.svg",
+      "sha256": "d4efc5934556e40dc607bec2c4859517ae5eb0cac5b915a29281f4cf2932c5b1"
+    },
+    {
+      "bytes": 3664,
+      "path": "assets/interpretability/publication-dark/study-010/overview010.svg",
+      "sha256": "068f12be6fe8bd5d48e79193c1ec70db2f062847524e8d43490970ee548cd591"
+    },
+    {
+      "bytes": 15678,
+      "path": "assets/interpretability/publication-dark/study-010-011-walkthrough/forward-attention1011.svg",
+      "sha256": "c9061e1ec35aea8fcc2fc9e5835dea2350bef40570cfe7a5455f31e1a9e4a1f2"
+    },
+    {
+      "bytes": 6530,
+      "path": "assets/interpretability/publication-dark/study-010-011-walkthrough/forward-experts1011.svg",
+      "sha256": "2aae13ea3b8636a3498e29a0eed2c72274c2ebc28950049b8ea64ac6a558a7aa"
+    },
+    {
+      "bytes": 8519,
+      "path": "assets/interpretability/publication-dark/study-011/cardinality011.svg",
+      "sha256": "4a30e3d35796c87dfb0902e4a95cf49de6850f3c432bb90ea9019e8f6ccc7611"
+    },
+    {
+      "bytes": 14616,
+      "path": "assets/interpretability/publication-dark/study-011/collisions011.svg",
+      "sha256": "9ebdc1ff2d6bf3c2ec7d93f165d7e96c7e08137fd44b48b4d9cc0c25e60ead84"
+    },
+    {
+      "bytes": 13941,
+      "path": "assets/interpretability/publication-dark/study-012/case012.svg",
+      "sha256": "b1c1d8f5e8de41b0301afa2777a7ece2bea4306d52e3f96695a91bb387fc58d8"
+    },
+    {
+      "bytes": 3384,
+      "path": "assets/interpretability/publication-dark/study-012/overview012.svg",
+      "sha256": "0f006771bff1bde59fbafdefb30b6eba9520c0bf67d1917bd1421be25bf1d9d6"
+    },
+    {
+      "bytes": 17011,
+      "path": "assets/interpretability/publication-dark/study-013/intervals013.svg",
+      "sha256": "857e15c16e8a1ba9bdcf927dae7e3dbef8d52e654abcc55a9affabd87a5d47dd"
+    },
+    {
+      "bytes": 10780,
+      "path": "assets/interpretability/publication-dark/study-013/witnesses013.svg",
+      "sha256": "e17ab4b3e06016253b59898d9b4cf99d52d23a6cd64951933680d8e8d0a02f3a"
+    },
+    {
+      "bytes": 53751,
+      "path": "assets/interpretability/publication-dark/study-014/joint014.svg",
+      "sha256": "d1d996de177aea25fec0bb289f7eb75ee3c5cca2e75b1c61f11083560eb77cd6"
+    },
+    {
+      "bytes": 8102,
+      "path": "assets/interpretability/publication-dark/study-014/witness014.svg",
+      "sha256": "6cb5a2315738927bb24e95b9e04ebaaa1e9f1c9c0c442f7bac89e32fa6536b8e"
+    },
+    {
+      "bytes": 179702,
+      "path": "assets/interpretability/publication-dark/study-015/paths015.svg",
+      "sha256": "2531900bbf8cdb0071ec9a83d1512d77442d1c051daf3b31ece8eb739cb134fb"
+    },
+    {
+      "bytes": 30216,
+      "path": "assets/interpretability/publication-dark/study-015/routes015.svg",
+      "sha256": "218e2924668a426848740b6313108f4ef12f472c41b5c3c4976e819774b4ef38"
+    },
+    {
+      "bytes": 19731,
+      "path": "assets/interpretability/publication-dark/study-015/sampler015.svg",
+      "sha256": "ee241da0dfe8a55579b44a400e14892ec0f80965b4e7205cb171bb92065d2e99"
+    },
+    {
+      "bytes": 11292,
+      "path": "assets/interpretability/publication-dark/study-016/branching-example016.svg",
+      "sha256": "e8e1e97c3bab2deec8101022f4ae2d8d9e84076d3336f73368f50942e4e91195"
+    },
+    {
+      "bytes": 4889,
+      "path": "assets/interpretability/publication-dark/study-016/roles-outcomes016.svg",
+      "sha256": "0324d909c686bed4d4b515e1377b16eb3cc51eb8775f35c2a64479b317b5e52c"
+    },
+    {
+      "bytes": 25069,
+      "path": "assets/interpretability/strategy-board-comparisons.svg",
+      "sha256": "a4d96d33750df2e40568f7154385d9d2dd5abf8f24975a05c0494991cd379a0f"
+    },
+    {
+      "bytes": 29368,
+      "path": "assets/interpretability/strategy-circuit-map.svg",
+      "sha256": "3c0b1fdded73fc0d5e47c1ef7150f10b46555c76ec334333569b3b7f329bbab4"
+    },
+    {
+      "bytes": 22775,
+      "path": "assets/interpretability/study-003/necessity-context.svg",
+      "sha256": "66d29a3ca51ca2e9fa94ed951483e0cfbfc3f94ff2353b299aaf730306bb8ac9"
+    },
+    {
+      "bytes": 17685,
+      "path": "assets/interpretability/study-003/patch-and-restoration.svg",
+      "sha256": "66d7f054423853b352914a1c95a9c8f2bce07ea3eb560364390c7e4fc18253a7"
+    },
+    {
+      "bytes": 18425,
+      "path": "assets/interpretability/study-004/position-contrasts.svg",
+      "sha256": "53b41c0d7893b508d166044503f80d9e2f5a1bbb6a190441000411f19ab31d7a"
+    },
+    {
+      "bytes": 21523,
+      "path": "assets/interpretability/study-004/square-paths.svg",
+      "sha256": "075224dba67abecf4e60ce1b3262af99f99daf98188982532a9a1f4b618c86c6"
+    },
+    {
+      "bytes": 60004,
+      "path": "assets/interpretability/study-005/attention-contrasts005.svg",
+      "sha256": "36ef67c97f1140ce2347492e8b07a05ccfad35fe8148ff00af51f0e0dd1b0768"
+    },
+    {
+      "bytes": 17344,
+      "path": "assets/interpretability/study-005/attention-overview005.svg",
+      "sha256": "aba4eeb01bddc6531e7baf8d30be1b919f30ff421ef4f86d0cd766f940ab2032"
+    },
+    {
+      "bytes": 57800,
+      "path": "assets/interpretability/symmetry-position-map.svg",
+      "sha256": "d09cc0f696b49754f9635e05594ff7ef5b2ff245ab2eb10ca1f675da4e79b730"
+    },
+    {
+      "bytes": 8631,
+      "path": "docs/research/study-006/cases006.svg",
+      "sha256": "af93660d45a62b87dd7b16a4039993a09f35ceb2d4ac5f47979bbb8655c6b518"
+    },
+    {
+      "bytes": 5222,
+      "path": "docs/research/study-006/overview006.svg",
+      "sha256": "2747495066e2314647c79575023cba0d0eada48fea36eb3be5508d0840db34c7"
+    },
+    {
+      "bytes": 17767,
+      "path": "docs/research/study-007/cases007.svg",
+      "sha256": "a2327331ee37bf7669a296c3dbc81eff45a5033059896a764603dbfd5369cf61"
+    },
+    {
+      "bytes": 9293,
+      "path": "docs/research/study-007/matched-controls007.svg",
+      "sha256": "4d48dac030736a2a3167a4e349672e2bfc488287a7ccb0564fc9cff8cfaacf42"
+    },
+    {
+      "bytes": 4950,
+      "path": "docs/research/study-007/overview007.svg",
+      "sha256": "163e17d118b90d622f2f62e029d344feda11be0745b867703bac14b7f16b4d63"
+    },
+    {
+      "bytes": 11786,
+      "path": "docs/research/study-008/cases008.svg",
+      "sha256": "bee754f67cd7bba5ddde1fdd57f5dcfada3f7928a393758163b836f67012c7ce"
+    },
+    {
+      "bytes": 5618,
+      "path": "docs/research/study-008/overview008.svg",
+      "sha256": "6fae41b72cca91d5d797d5be077420f9a7c4cbcdd5bb69f615bc8c77fe8cb383"
+    },
+    {
+      "bytes": 14555,
+      "path": "docs/research/study-009/mechanism009.svg",
+      "sha256": "2a18c9ad3d7a3f5275a135c7015ca51e89bc50cedb6ec22486c9283a6182391f"
+    },
+    {
+      "bytes": 4296,
+      "path": "docs/research/study-009/overview009.svg",
+      "sha256": "2980aa7708e58aa994bbb1ba51aadcd33db65b73b6713cefa7ca484ee49a66fd"
+    },
+    {
+      "bytes": 13130,
+      "path": "docs/research/study-009/raw-alignment009.svg",
+      "sha256": "c7c69be0155803ee56f6944ce5ff66a3188b5159bde412b71372f125f2eaa6e5"
+    },
+    {
+      "bytes": 14556,
+      "path": "docs/research/study-009/restoration-damage009.svg",
+      "sha256": "b2bc3aafb4139be0c08a3e748b23ea6f051b75a87ca99eaf000244d3ffd0fedc"
+    },
+    {
+      "bytes": 14567,
+      "path": "docs/research/study-009/robust009.svg",
+      "sha256": "6ecac130392ff05635bc18798165d5e0e2a084e820bc72567b0702958d7d067b"
+    },
+    {
+      "bytes": 25361,
+      "path": "docs/research/study-010/orbits010.svg",
+      "sha256": "2a8096582f9492a23447346edd8fdf9d11f3735fafc7552cb802557cc9788e65"
+    },
+    {
+      "bytes": 3643,
+      "path": "docs/research/study-010/overview010.svg",
+      "sha256": "99671f85bf4df70f5c3b4739b7e31bd5c138ca5333cc9a9b981144370c9d8946"
+    },
+    {
+      "bytes": 15650,
+      "path": "docs/research/study-010-011-walkthrough/forward-attention1011.svg",
+      "sha256": "e16f0eb4fd2cd46bc8ce5f63b9212640c02a76470a3c76d9474f813da46fefde"
+    },
+    {
+      "bytes": 6509,
+      "path": "docs/research/study-010-011-walkthrough/forward-experts1011.svg",
+      "sha256": "62505e40e0c488c422efc369684ac7b092571f7ee1a4fb07d55438a729dffdba"
+    },
+    {
+      "bytes": 8498,
+      "path": "docs/research/study-011/cardinality011.svg",
+      "sha256": "fb84a4caa3e9eea65caa8796b99a8bccea83bdc9af5457da5d453273e302e803"
+    },
+    {
+      "bytes": 14595,
+      "path": "docs/research/study-011/collisions011.svg",
+      "sha256": "9693f21e10d101c5c7c06ff7552acc1c78431ac778cdea3a42145cb18f9a392c"
+    },
+    {
+      "bytes": 13920,
+      "path": "docs/research/study-012/case012.svg",
+      "sha256": "9a7d1a9dc7ac76be5652d4b01c1213b63c645012a74e059bd874b149361f6fb5"
+    },
+    {
+      "bytes": 3363,
+      "path": "docs/research/study-012/overview012.svg",
+      "sha256": "11ab03d0f55157d6f63e6e8a8ceea7487ef0dd0b11d0281c4b3e4432bd6b76fd"
+    },
+    {
+      "bytes": 16990,
+      "path": "docs/research/study-013/intervals013.svg",
+      "sha256": "3b604874a70e53822e2abf83553dbdc6e08234533b57c2a9976bdcd09db9165b"
+    },
+    {
+      "bytes": 10759,
+      "path": "docs/research/study-013/witnesses013.svg",
+      "sha256": "d736e2995160fed0d16a08bb5f665611bd2f157d0a9a9491190b5f5043932302"
+    },
+    {
+      "bytes": 53730,
+      "path": "docs/research/study-014/joint014.svg",
+      "sha256": "8b3120f3599ed8dbe9dc512dd512117e284d7d5f4b3c92281704fe5a5d5087d6"
+    },
+    {
+      "bytes": 8081,
+      "path": "docs/research/study-014/witness014.svg",
+      "sha256": "e1f17ecc528a87137d602cc37d3514b3c105d2cf5657985a27f0f8406d8fa994"
+    },
+    {
+      "bytes": 179681,
+      "path": "docs/research/study-015/paths015.svg",
+      "sha256": "7c73ad0754192aeaa9b2f4d1ef08e491ee753a0785f7204cf682330462d9617c"
+    },
+    {
+      "bytes": 30195,
+      "path": "docs/research/study-015/routes015.svg",
+      "sha256": "74ac85db5eb1e5e19e218011227bd6b7d3e0908ae6be34593c90e0159ad904d9"
+    },
+    {
+      "bytes": 19710,
+      "path": "docs/research/study-015/sampler015.svg",
+      "sha256": "13c9e2247f2fcf92aa055c75e9a782299250b9072f4c27ff56ab982d905b238a"
+    },
+    {
+      "bytes": 11269,
+      "path": "docs/research/study-016/branching-example016.svg",
+      "sha256": "998ad4a1408b9a2b732a2ac3894bcc3e07d2f69a8bb3af30a1902bfe641f3726"
+    },
+    {
+      "bytes": 4866,
+      "path": "docs/research/study-016/roles-outcomes016.svg",
+      "sha256": "9dbd8143476444de5a8527fa348dca1bf95aa6c26d8057000bc915be9f8a8679"
+    }
+  ],
+  "report_inputs": [
+    {
+      "bytes": 190462,
+      "path": "assets/interpretability/model-inspection/tensor-workflow.png",
+      "sha256": "81e3af15bc66a9bc87e21e025f99f47109a17d8e1e239f3fe9b8e33bb4a508f7"
+    },
+    {
+      "bytes": 168178,
+      "path": "assets/interpretability/model-inspection/netron-dark.png",
+      "sha256": "33982cf05690532e9745e16e1c9ec3ae073dde1b948b71f41d00d40bf7ae8ff9"
+    },
+    {
+      "bytes": 138156,
+      "path": "assets/interpretability/strategy-circuit-map.png",
+      "sha256": "c649f7175cdc5a31f47b4d98cb1d5f31dc850664920b598d136816a4acc0b6d3"
+    },
+    {
+      "bytes": 132675,
+      "path": "assets/interpretability/strategy-board-comparisons.png",
+      "sha256": "c6a59698b5fb1a45e60e5852b2c4b7c5bae9f75fbb022e7cec521a617f23e446"
+    },
+    {
+      "bytes": 140736,
+      "path": "assets/interpretability/study-003/necessity-context.png",
+      "sha256": "dfa9168f228df87a55c6c8063eea6370bb09f0f68e568fe6ef2029146c078be3"
+    },
+    {
+      "bytes": 125960,
+      "path": "assets/interpretability/study-003/patch-and-restoration.png",
+      "sha256": "108087da790f5607ead8fd11675d2a763e9c4973285ed7f523094734cc1e3e16"
+    },
+    {
+      "bytes": 189547,
+      "path": "assets/interpretability/study-004/square-paths.png",
+      "sha256": "205e87f2889710520fc6f2d86b7845d10b8312808c03fafd08705b979ba2af82"
+    },
+    {
+      "bytes": 163763,
+      "path": "assets/interpretability/study-004/position-contrasts.png",
+      "sha256": "5fbee8051a1dfe21d1db9de3f45154ef31183215c33171fc8ee8d028ab55b84c"
+    },
+    {
+      "bytes": 162343,
+      "path": "assets/interpretability/study-005/attention-overview005.png",
+      "sha256": "79c4161fa0f6b27ede1bd7949a1788ccd2734d75b2a4e714b1b39e17df02cfd1"
+    },
+    {
+      "bytes": 173315,
+      "path": "assets/interpretability/study-005/attention-contrasts005.png",
+      "sha256": "0414add900f60567b74589c667f22e1767883dde51d895a2acbb38881016de1b"
+    },
+    {
+      "bytes": 76105,
+      "path": "docs/research/study-006/overview006.png",
+      "sha256": "e5bce3f24a01f2c6241a040c82733c7b6849561f6553c5a27fa602aae798e5b7"
+    },
+    {
+      "bytes": 115847,
+      "path": "docs/research/study-006/cases006.png",
+      "sha256": "f6c65f7c6dda6bb23f7abc9050e6ae369a8a305a0cf01724549ba488abfdc839"
+    },
+    {
+      "bytes": 121665,
+      "path": "docs/research/study-007/overview007.png",
+      "sha256": "e973db71f6d3531ba157f290746a06ef00900666ca878c253958bdebc3d3a5f0"
+    },
+    {
+      "bytes": 129306,
+      "path": "docs/research/study-007/cases007.png",
+      "sha256": "25a8523484b0bfe5b288529ab116476d5af1798012984113de401ea29ded8843"
+    },
+    {
+      "bytes": 125357,
+      "path": "docs/research/study-007/matched-controls007.png",
+      "sha256": "93c5ff94f932a55069be6fb26933dc6f3d3567eed3c8c221dd72a59d59253915"
+    },
+    {
+      "bytes": 89820,
+      "path": "docs/research/study-008/overview008.png",
+      "sha256": "40d88d6bfe181082bd61bc867bbc39f8bf6e98e29272bda392a59074af60bb83"
+    },
+    {
+      "bytes": 152504,
+      "path": "docs/research/study-008/cases008.png",
+      "sha256": "78dbcb343239d6307dfbb7901123025cb3da84b3c56af18dd2282b052e5afc14"
+    },
+    {
+      "bytes": 151091,
+      "path": "assets/interpretability/publication-dark/study-009/overview009.png",
+      "sha256": "e02b5a7bdf023da664915b8b09320181b9e0ed65b5c2734e8d4f639041675a68"
+    },
+    {
+      "bytes": 162551,
+      "path": "assets/interpretability/publication-dark/study-009/mechanism009.png",
+      "sha256": "9a7b8bf9a758fcb9ed4c1e6bddb5c7b95e3c6ef9f1389b2251110554004b42f5"
+    },
+    {
+      "bytes": 160610,
+      "path": "assets/interpretability/publication-dark/study-009/restoration-damage009.png",
+      "sha256": "9dd5768906221068d1fe91976aad24eb5c3a890989d41264400da373933b237e"
+    },
+    {
+      "bytes": 132879,
+      "path": "assets/interpretability/publication-dark/study-009/raw-alignment009.png",
+      "sha256": "704ce94d268b14efcc8ac4cd0fa0bfe4ac1af68a978443f93b9b7c013efdd15b"
+    },
+    {
+      "bytes": 157939,
+      "path": "assets/interpretability/publication-dark/study-009/robust009.png",
+      "sha256": "4f299f118f0cf3a3ab5f5ef8780ddb0fff8dc9ad0e61fbe1f8bd256d30e42b7a"
+    },
+    {
+      "bytes": 165803,
+      "path": "assets/interpretability/publication-dark/study-010-011-walkthrough/forward-attention1011.png",
+      "sha256": "f91a908c45247ad17e883bb669dbbc4d638c222305b6042d60968afbeeea00bf"
+    },
+    {
+      "bytes": 208540,
+      "path": "assets/interpretability/publication-dark/study-010-011-walkthrough/forward-experts1011.png",
+      "sha256": "7542d7cde85db1fd25f8dd7a71d8bffe11e070b6505b4647f810e86981019fcc"
+    },
+    {
+      "bytes": 121544,
+      "path": "assets/interpretability/publication-dark/study-010/overview010.png",
+      "sha256": "b11dd2ce1b0bd8df748c72d21d491843b464f1585bd473dc202a07081a5d0ad9"
+    },
+    {
+      "bytes": 97112,
+      "path": "assets/interpretability/publication-dark/study-010/orbits010.png",
+      "sha256": "d336e4182fc0f14cfe953e37b594dce4adfcc5b14a3f0ecadfccd7f6be32a595"
+    },
+    {
+      "bytes": 143940,
+      "path": "assets/interpretability/publication-dark/study-011/cardinality011.png",
+      "sha256": "8d921f03b9c6f7852958a1a0867d121a31ab40368b27ff8e1f23f4fb0e37e5f1"
+    },
+    {
+      "bytes": 151350,
+      "path": "assets/interpretability/publication-dark/study-011/collisions011.png",
+      "sha256": "e8388da6ecdc8cfcaee371d62aec46b9af023ceb3a251aafe945ba9774b4e865"
+    },
+    {
+      "bytes": 132865,
+      "path": "assets/interpretability/publication-dark/study-012/overview012.png",
+      "sha256": "c85f2d816e3a32de55467fd0fe391d25e7bb87128b8736ed58aa24fc4222cce3"
+    },
+    {
+      "bytes": 105094,
+      "path": "assets/interpretability/publication-dark/study-012/case012.png",
+      "sha256": "2bb258b52e846d181838bd81b1fd8f5da4846fc9cad1d94f1210af0e8f4528c5"
+    },
+    {
+      "bytes": 156123,
+      "path": "assets/interpretability/publication-dark/study-013/intervals013.png",
+      "sha256": "2d6fbac0a5de4526eb9e4d0dd616cf7ae62a59d68b6625c4732d8c087fd0b8c5"
+    },
+    {
+      "bytes": 172052,
+      "path": "assets/interpretability/publication-dark/study-013/witnesses013.png",
+      "sha256": "ed431ca46a3c250d052cf5c9f3784ae96bb0829094cc0d8bd0cd310c5713c522"
+    },
+    {
+      "bytes": 113110,
+      "path": "assets/interpretability/publication-dark/study-014/joint014.png",
+      "sha256": "5d303025a7b13b4015d5e75e711af83ee7d4e1f55a5ab2b37aa1c9f42ee435bb"
+    },
+    {
+      "bytes": 154879,
+      "path": "assets/interpretability/publication-dark/study-014/witness014.png",
+      "sha256": "531c2cbb1c50b10c3e6f08641f1472c240d16b16d32b764570e96652fc95ddf0"
+    },
+    {
+      "bytes": 249493,
+      "path": "assets/interpretability/publication-dark/study-015/paths015.png",
+      "sha256": "81aa0c6b8edf9e4742e8a62f53c7c5127749c384faa230175f3d5c281c8eb30a"
+    },
+    {
+      "bytes": 248516,
+      "path": "assets/interpretability/publication-dark/study-015/routes015.png",
+      "sha256": "58e979f708012143c5c00e4cf329458bc58914a131296f43673dabd8f7ae87fa"
+    },
+    {
+      "bytes": 148377,
+      "path": "assets/interpretability/publication-dark/study-015/sampler015.png",
+      "sha256": "93217731c28dc813cffb6a75cc8b8791c1b15bddc602520f55ee72b33175f525"
+    },
+    {
+      "bytes": 127102,
+      "path": "assets/interpretability/publication-dark/study-016/roles-outcomes016.png",
+      "sha256": "48e1de2b4d7fa968ae4a0c8d522fb9130fcdf1513d1549a18433e55a581f232d"
+    },
+    {
+      "bytes": 154975,
+      "path": "assets/interpretability/publication-dark/study-016/branching-example016.png",
+      "sha256": "24dc27df75b1cb94be47a981cb1654f190d42c184bd301d5708b8efdc7569111"
+    }
+  ]
+}

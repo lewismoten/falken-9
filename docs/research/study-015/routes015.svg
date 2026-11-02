@@ -1,0 +1,296 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1880" height="1510" viewBox="0 0 1880 1510"><rect width="100%" height="100%" fill="#f5f7fb"/>
+<text x="30" y="49" font-family="DejaVu Sans" font-size="29" fill="#172438">C | Variety is not coverage: 37 of 627 canonical decision boards</text>
+<text x="30" y="87" font-family="DejaVu Sans" font-size="21" fill="#172438">64/4520 raw decision boards (1.42%) | 37/627 canonical (5.90%) | 81 model-mark forwards</text>
+<text x="30" y="126" font-family="DejaVu Sans" font-size="18" fill="#172438">D | Each cell: ordered expert IDs, then exact Q15 gates (sum 32768). Columns are the pre-move ply.</text>
+<text x="195" y="166" font-family="DejaVu Sans" font-size="17" fill="#172438">ply 0</text>
+<text x="315" y="166" font-family="DejaVu Sans" font-size="17" fill="#172438">ply 1</text>
+<text x="435" y="166" font-family="DejaVu Sans" font-size="17" fill="#172438">ply 2</text>
+<text x="555" y="166" font-family="DejaVu Sans" font-size="17" fill="#172438">ply 3</text>
+<text x="675" y="166" font-family="DejaVu Sans" font-size="17" fill="#172438">ply 4</text>
+<text x="795" y="166" font-family="DejaVu Sans" font-size="17" fill="#172438">ply 5</text>
+<text x="915" y="166" font-family="DejaVu Sans" font-size="17" fill="#172438">ply 6</text>
+<text x="1035" y="166" font-family="DejaVu Sans" font-size="17" fill="#172438">ply 7</text>
+<text x="1155" y="166" font-family="DejaVu Sans" font-size="17" fill="#172438">ply 8</text>
+<text x="30" y="221" font-family="DejaVu Sans" font-size="19" fill="#172438">open 5</text>
+<rect x="180" y="190" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="187" y="215" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 2</text>
+<text x="185" y="241" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">25507/7261</text>
+<rect x="300" y="190" width="112" height="66" fill="#dceaf5" stroke="none" stroke-width="1"/>
+<text x="307" y="215" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">0 &gt; 3</text>
+<text x="305" y="241" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32743/25</text>
+<rect x="420" y="190" width="112" height="66" fill="#dceaf5" stroke="none" stroke-width="1"/>
+<text x="427" y="215" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">0 &gt; 3</text>
+<text x="425" y="241" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="540" y="190" width="112" height="66" fill="#dceaf5" stroke="none" stroke-width="1"/>
+<text x="547" y="215" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">0 &gt; 3</text>
+<text x="545" y="241" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32767/1</text>
+<rect x="660" y="190" width="112" height="66" fill="#f2e8d7" stroke="none" stroke-width="1"/>
+<text x="667" y="215" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">2 &gt; 1</text>
+<text x="665" y="241" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">28788/3980</text>
+<rect x="780" y="190" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="787" y="215" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="785" y="241" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32451/317</text>
+<rect x="900" y="190" width="112" height="66" fill="#f2e8d7" stroke="none" stroke-width="1"/>
+<text x="907" y="215" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">2 &gt; 1</text>
+<text x="905" y="241" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">31906/862</text>
+<rect x="1020" y="190" width="112" height="66" fill="#f2e8d7" stroke="none" stroke-width="1"/>
+<text x="1027" y="215" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">2 &gt; 1</text>
+<text x="1025" y="241" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32558/210</text>
+<rect x="1140" y="190" width="112" height="66" fill="#dceaf5" stroke="none" stroke-width="1"/>
+<text x="1147" y="215" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">0 &gt; 3</text>
+<text x="1145" y="241" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">31767/1001</text>
+<text x="30" y="295" font-family="DejaVu Sans" font-size="19" fill="#172438">open 1</text>
+<rect x="180" y="264" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="187" y="289" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 2</text>
+<text x="185" y="315" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">25507/7261</text>
+<rect x="300" y="264" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="307" y="289" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="305" y="315" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="420" y="264" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="427" y="289" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="425" y="315" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">30248/2520</text>
+<rect x="540" y="264" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="547" y="289" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="545" y="315" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="660" y="264" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="667" y="289" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="665" y="315" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">31678/1090</text>
+<rect x="780" y="264" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="787" y="289" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="785" y="315" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="900" y="264" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="907" y="289" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="905" y="315" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32410/358</text>
+<rect x="1020" y="264" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="1027" y="289" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="1025" y="315" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">30479/2289</text>
+<rect x="1140" y="264" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="1147" y="289" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="1145" y="315" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<text x="30" y="369" font-family="DejaVu Sans" font-size="19" fill="#172438">open 2</text>
+<rect x="180" y="338" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="187" y="363" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 2</text>
+<text x="185" y="389" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">25507/7261</text>
+<rect x="300" y="338" width="112" height="66" fill="#f2e8d7" stroke="none" stroke-width="1"/>
+<text x="307" y="363" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">2 &gt; 3</text>
+<text x="305" y="389" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="420" y="338" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="427" y="363" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="425" y="389" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">31602/1166</text>
+<rect x="540" y="338" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="547" y="363" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="545" y="389" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="660" y="338" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="667" y="363" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="665" y="389" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">31607/1161</text>
+<rect x="780" y="338" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="787" y="363" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="785" y="389" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="900" y="338" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="907" y="363" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="905" y="389" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32728/40</text>
+<rect x="1020" y="338" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="1027" y="363" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="1025" y="389" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="1140" y="338" width="112" height="66" fill="#dceaf5" stroke="none" stroke-width="1"/>
+<text x="1147" y="363" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">0 &gt; 3</text>
+<text x="1145" y="389" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">29795/2973</text>
+<text x="30" y="443" font-family="DejaVu Sans" font-size="19" fill="#172438">open 3</text>
+<rect x="180" y="412" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="187" y="437" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 2</text>
+<text x="185" y="463" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">25507/7261</text>
+<rect x="300" y="412" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="307" y="437" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="305" y="463" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="420" y="412" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="427" y="437" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="425" y="463" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">30248/2520</text>
+<rect x="540" y="412" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="547" y="437" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="545" y="463" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="660" y="412" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="667" y="437" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="665" y="463" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">31678/1090</text>
+<rect x="780" y="412" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="787" y="437" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="785" y="463" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="900" y="412" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="907" y="437" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="905" y="463" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32410/358</text>
+<rect x="1020" y="412" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="1027" y="437" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="1025" y="463" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">30479/2289</text>
+<rect x="1140" y="412" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="1147" y="437" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="1145" y="463" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<text x="30" y="517" font-family="DejaVu Sans" font-size="19" fill="#172438">open 4</text>
+<rect x="180" y="486" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="187" y="511" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 2</text>
+<text x="185" y="537" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">25507/7261</text>
+<rect x="300" y="486" width="112" height="66" fill="#f2e8d7" stroke="none" stroke-width="1"/>
+<text x="307" y="511" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">2 &gt; 3</text>
+<text x="305" y="537" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="420" y="486" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="427" y="511" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="425" y="537" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">31602/1166</text>
+<rect x="540" y="486" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="547" y="511" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="545" y="537" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="660" y="486" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="667" y="511" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="665" y="537" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">31607/1161</text>
+<rect x="780" y="486" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="787" y="511" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="785" y="537" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="900" y="486" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="907" y="511" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="905" y="537" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32728/40</text>
+<rect x="1020" y="486" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="1027" y="511" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="1025" y="537" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="1140" y="486" width="112" height="66" fill="#dceaf5" stroke="none" stroke-width="1"/>
+<text x="1147" y="511" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">0 &gt; 3</text>
+<text x="1145" y="537" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">29795/2973</text>
+<text x="30" y="591" font-family="DejaVu Sans" font-size="19" fill="#172438">open 6</text>
+<rect x="180" y="560" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="187" y="585" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 2</text>
+<text x="185" y="611" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">25507/7261</text>
+<rect x="300" y="560" width="112" height="66" fill="#f2e8d7" stroke="none" stroke-width="1"/>
+<text x="307" y="585" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">2 &gt; 3</text>
+<text x="305" y="611" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="420" y="560" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="427" y="585" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="425" y="611" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">31602/1166</text>
+<rect x="540" y="560" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="547" y="585" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="545" y="611" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="660" y="560" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="667" y="585" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="665" y="611" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32428/340</text>
+<rect x="780" y="560" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="787" y="585" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="785" y="611" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32295/473</text>
+<rect x="900" y="560" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="907" y="585" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="905" y="611" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32761/7</text>
+<rect x="1020" y="560" width="112" height="66" fill="#f2e8d7" stroke="none" stroke-width="1"/>
+<text x="1027" y="585" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">2 &gt; 1</text>
+<text x="1025" y="611" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="1140" y="560" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="1147" y="585" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="1145" y="611" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<text x="30" y="665" font-family="DejaVu Sans" font-size="19" fill="#172438">open 7</text>
+<rect x="180" y="634" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="187" y="659" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 2</text>
+<text x="185" y="685" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">25507/7261</text>
+<rect x="300" y="634" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="307" y="659" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="305" y="685" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="420" y="634" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="427" y="659" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="425" y="685" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">30248/2520</text>
+<rect x="540" y="634" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="547" y="659" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="545" y="685" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="660" y="634" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="667" y="659" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="665" y="685" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">31451/1317</text>
+<rect x="780" y="634" width="112" height="66" fill="#f2e8d7" stroke="none" stroke-width="1"/>
+<text x="787" y="659" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">2 &gt; 1</text>
+<text x="785" y="685" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="900" y="634" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="907" y="659" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="905" y="685" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32761/7</text>
+<rect x="1020" y="634" width="112" height="66" fill="#f2e8d7" stroke="none" stroke-width="1"/>
+<text x="1027" y="659" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">2 &gt; 1</text>
+<text x="1025" y="685" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="1140" y="634" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="1147" y="659" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="1145" y="685" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<text x="30" y="739" font-family="DejaVu Sans" font-size="19" fill="#172438">open 8</text>
+<rect x="180" y="708" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="187" y="733" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 2</text>
+<text x="185" y="759" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">25507/7261</text>
+<rect x="300" y="708" width="112" height="66" fill="#f2e8d7" stroke="none" stroke-width="1"/>
+<text x="307" y="733" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">2 &gt; 3</text>
+<text x="305" y="759" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="420" y="708" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="427" y="733" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="425" y="759" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">31602/1166</text>
+<rect x="540" y="708" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="547" y="733" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="545" y="759" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="660" y="708" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="667" y="733" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="665" y="759" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32428/340</text>
+<rect x="780" y="708" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="787" y="733" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="785" y="759" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32295/473</text>
+<rect x="900" y="708" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="907" y="733" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="905" y="759" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32761/7</text>
+<rect x="1020" y="708" width="112" height="66" fill="#f2e8d7" stroke="none" stroke-width="1"/>
+<text x="1027" y="733" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">2 &gt; 1</text>
+<text x="1025" y="759" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="1140" y="708" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="1147" y="733" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="1145" y="759" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<text x="30" y="813" font-family="DejaVu Sans" font-size="19" fill="#172438">open 9</text>
+<rect x="180" y="782" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="187" y="807" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 2</text>
+<text x="185" y="833" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">25507/7261</text>
+<rect x="300" y="782" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="307" y="807" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="305" y="833" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="420" y="782" width="112" height="66" fill="#e4eedc" stroke="none" stroke-width="1"/>
+<text x="427" y="807" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">1 &gt; 0</text>
+<text x="425" y="833" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">30248/2520</text>
+<rect x="540" y="782" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="547" y="807" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="545" y="833" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="660" y="782" width="112" height="66" fill="#f2e8d7" stroke="none" stroke-width="1"/>
+<text x="667" y="807" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">2 &gt; 1</text>
+<text x="665" y="833" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32548/220</text>
+<rect x="780" y="782" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="787" y="807" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 2</text>
+<text x="785" y="833" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32733/35</text>
+<rect x="900" y="782" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="907" y="807" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="905" y="833" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="1020" y="782" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="1027" y="807" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="1025" y="833" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<rect x="1140" y="782" width="112" height="66" fill="#eadff4" stroke="none" stroke-width="1"/>
+<text x="1147" y="807" font-family="DejaVu Sans Mono" font-size="19" fill="#172438">3 &gt; 0</text>
+<text x="1145" y="833" font-family="DejaVu Sans Mono" font-size="12" fill="#172438">32768/0</text>
+<text x="1320" y="137" font-family="DejaVu Sans" font-size="22" fill="#172438">E | Ordered route coverage</text>
+<text x="1320" y="170" font-family="DejaVu Sans Mono" font-size="16" fill="#172438">route   full627  unique37  visits81</text>
+<text x="1320" y="212" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">0&gt;1      48       0        0</text>
+<text x="1320" y="260" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">0&gt;2       9       0        0</text>
+<text x="1320" y="308" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">0&gt;3      77       5        6</text>
+<text x="1320" y="356" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">1&gt;0      58       8       21</text>
+<text x="1320" y="404" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">1&gt;2      12       1        9</text>
+<text x="1320" y="452" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">1&gt;3       7       0        0</text>
+<text x="1320" y="500" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">2&gt;0      34       0        0</text>
+<text x="1320" y="548" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">2&gt;1     126       6        8</text>
+<text x="1320" y="596" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">2&gt;3      49       1        4</text>
+<text x="1320" y="644" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">3&gt;0      75       7       15</text>
+<text x="1320" y="692" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">3&gt;1       7       0        0</text>
+<text x="1320" y="740" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">3&gt;2     125       9       18</text>
+<text x="30" y="915" font-family="DejaVu Sans" font-size="22" fill="#172438">F | Where paths miss the domain (terminal boards excluded from both denominators)</text>
+<text x="30" y="957" font-family="DejaVu Sans Mono" font-size="20" fill="#172438">ply      0     1     2     3     4     5     6     7     8</text>
+<text x="30" y="996" font-family="DejaVu Sans Mono" font-size="20" fill="#172438">domain       1     3    12    38   108   153   183    95    34</text>
+<text x="30" y="1030" font-family="DejaVu Sans Mono" font-size="20" fill="#172438">path D4      1     3     3     4     6     6     5     5     4</text>
+<text x="30" y="1064" font-family="DejaVu Sans Mono" font-size="20" fill="#172438">path raw     1     9     9     8     8     8     7     7     7</text>
+<text x="30" y="1128" font-family="DejaVu Sans" font-size="18" fill="#172438">Coverage bars: one canonical decision board per unit; green = visited; grey = unvisited.</text>
+<rect x="30" y="1152" width="1254" height="25" fill="#d5dce5" stroke="none" stroke-width="1"/>
+<rect x="30" y="1152" width="74" height="25" fill="#218772" stroke="none" stroke-width="1"/>
+<text x="30" y="1209" font-family="DejaVu Sans" font-size="19" fill="#172438">37 visited / 590 unvisited. Playing these games forever cannot expand this fixed branch union.</text>
+<text x="1320" y="872" font-family="DejaVu Sans" font-size="22" fill="#172438">7/12 ordered routes visited</text>
+<text x="1320" y="906" font-family="DejaVu Sans" font-size="17" fill="#172438">Route IDs are not strategies.</text>
+<text x="30" y="1280" font-family="DejaVu Sans" font-size="20" fill="#172438">G | All path boards have minimax value 0 (draw under optimal play). Full canonical-domain values:</text>
+<text x="30" y="1321" font-family="DejaVu Sans" font-size="21" fill="#172438">loss-to-move: 89 | draw: 148 | win-to-move: 390</text>
+<text x="30" y="1388" font-family="DejaVu Sans" font-size="18" fill="#172438">Q15 gates weight expert outputs, not move confidence. A zero gate can still accompany an executed expert.</text>
+<text x="30" y="1428" font-family="DejaVu Sans" font-size="18" fill="#172438">Inactive expert arrays are storage placeholders, never observed zero activations. Only the listed two experts executed.</text>
+<text x="30" y="1468" font-family="DejaVu Sans" font-size="18" fill="#172438">Reference627: fresh exact host forwards matched saved target-stage fixtures. No new native replay or timing claim.</text>
+</svg>

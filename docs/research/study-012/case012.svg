@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1060" viewBox="0 0 1400 1060"><rect width="100%" height="100%" fill="#f5f7fb"/>
+<text x="30" y="46" font-family="DejaVu Sans" font-size="28" fill="#17283f">One actual counterexample | Canonical ID2 | Whole sets, fresh raw ties</text>
+<text x="30" y="97" font-family="DejaVu Sans" font-size="21" fill="#17283f">Blue fill = correct member; red fill = false member; green border = complete optimal set.</text>
+<text x="25" y="153" font-family="DejaVu Sans" font-size="23" fill="#17283f">Exact group mean</text>
+<rect x="60" y="180" width="75" height="75" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="65" y="197" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="88.5" y="232.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="135" y="180" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="140" y="197" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="163.5" y="232.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="210" y="180" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="215" y="197" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="238.5" y="232.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="60" y="255" width="75" height="75" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="65" y="272" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="88.5" y="307.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="135" y="255" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="140" y="272" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="163.5" y="307.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="210" y="255" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="215" y="272" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="238.5" y="307.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="60" y="330" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="65" y="347" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="88.5" y="382.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="135" y="330" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="140" y="347" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="163.5" y="382.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">O</text>
+<rect x="210" y="330" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="215" y="347" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="238.5" y="382.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">X</text>
+<text x="25" y="451" font-family="DejaVu Sans" font-size="21" fill="#17283f">set {acdef}</text>
+<text x="25" y="485" font-family="DejaVu Sans" font-size="21" fill="#17283f">chosen e</text>
+<text x="25" y="519" font-family="DejaVu Sans" font-size="21" fill="#17283f">truth {cef}</text>
+<text x="371" y="153" font-family="DejaVu Sans" font-size="23" fill="#17283f">Intersection (all8)</text>
+<rect x="406" y="180" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="411" y="197" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="434.5" y="232.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="481" y="180" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="486" y="197" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="509.5" y="232.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="556" y="180" width="75" height="75" fill="#ffffff" stroke="#248553" stroke-width="2"/>
+<text x="561" y="197" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="584.5" y="232.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="406" y="255" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="411" y="272" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="434.5" y="307.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="481" y="255" width="75" height="75" fill="#ffffff" stroke="#248553" stroke-width="2"/>
+<text x="486" y="272" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="509.5" y="307.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="556" y="255" width="75" height="75" fill="#ffffff" stroke="#248553" stroke-width="2"/>
+<text x="561" y="272" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="584.5" y="307.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="406" y="330" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="411" y="347" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="434.5" y="382.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="481" y="330" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="486" y="347" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="509.5" y="382.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">O</text>
+<rect x="556" y="330" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="561" y="347" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="584.5" y="382.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">X</text>
+<text x="371" y="451" font-family="DejaVu Sans" font-size="21" fill="#17283f">set {EMPTY}</text>
+<text x="371" y="485" font-family="DejaVu Sans" font-size="21" fill="#17283f">chosen EMPTY</text>
+<text x="371" y="519" font-family="DejaVu Sans" font-size="21" fill="#17283f">truth {cef}</text>
+<text x="717" y="153" font-family="DejaVu Sans" font-size="23" fill="#17283f">Union (any1)</text>
+<rect x="752" y="180" width="75" height="75" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="757" y="197" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="780.5" y="232.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="827" y="180" width="75" height="75" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="832" y="197" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="855.5" y="232.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="902" y="180" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="907" y="197" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="930.5" y="232.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="752" y="255" width="75" height="75" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="757" y="272" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="780.5" y="307.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="827" y="255" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="832" y="272" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="855.5" y="307.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="902" y="255" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="907" y="272" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="930.5" y="307.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="752" y="330" width="75" height="75" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="757" y="347" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="780.5" y="382.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="827" y="330" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="832" y="347" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="855.5" y="382.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">O</text>
+<rect x="902" y="330" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="907" y="347" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="930.5" y="382.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">X</text>
+<text x="717" y="451" font-family="DejaVu Sans" font-size="21" fill="#17283f">set {abcdefg}</text>
+<text x="717" y="485" font-family="DejaVu Sans" font-size="21" fill="#17283f">chosen e</text>
+<text x="717" y="519" font-family="DejaVu Sans" font-size="21" fill="#17283f">truth {cef}</text>
+<text x="1063" y="153" font-family="DejaVu Sans" font-size="23" fill="#17283f">At least4 /8 votes</text>
+<rect x="1098" y="180" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1103" y="197" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="1126.5" y="232.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="1173" y="180" width="75" height="75" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1178" y="197" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="1201.5" y="232.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="1248" y="180" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="1253" y="197" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="1276.5" y="232.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="1098" y="255" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1103" y="272" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="1126.5" y="307.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="1173" y="255" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="1178" y="272" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="1201.5" y="307.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="1248" y="255" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="1253" y="272" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="1276.5" y="307.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="1098" y="330" width="75" height="75" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1103" y="347" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="1126.5" y="382.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="1173" y="330" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1178" y="347" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="1201.5" y="382.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">O</text>
+<rect x="1248" y="330" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1253" y="347" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="1276.5" y="382.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">X</text>
+<text x="1063" y="451" font-family="DejaVu Sans" font-size="21" fill="#17283f">set {bcefg}</text>
+<text x="1063" y="485" font-family="DejaVu Sans" font-size="21" fill="#17283f">chosen e</text>
+<text x="1063" y="519" font-family="DejaVu Sans" font-size="21" fill="#17283f">truth {cef}</text>
+<text x="30" y="601" font-family="DejaVu Sans" font-size="25" fill="#17283f">D  Exact aligned aggregate evidence (mean displayed as numerator /8)</text>
+<text x="30" y="646" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">square       mean numerator      min score      max score      nonnegative votes /8</text>
+<text x="30" y="690" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">  a                18653         -144690         267528                 3</text>
+<text x="30" y="721" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">  b              -310424         -206150          56167                 4</text>
+<text x="30" y="752" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">  c               376702         -239389         606004                 4</text>
+<text x="30" y="783" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">  d               490296         -145600         545360                 3</text>
+<text x="30" y="814" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">  e               400497          -52390         208622                 6</text>
+<text x="30" y="845" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">  f               373255         -292348         522716                 5</text>
+<text x="30" y="876" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">  g                 -945         -515533         348174                 4</text>
+<text x="30" y="907" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">  h                 8757         -138943         126140                 5</text>
+<text x="30" y="938" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">  i               -74513         -419077         175288                 5</text>
+<text x="30" y="1006" font-family="DejaVu Sans" font-size="20" fill="#17283f">Source contains all eight branch logits and actual masks. Canonicalization still chooses the verified correct branch.</text>
+</svg>

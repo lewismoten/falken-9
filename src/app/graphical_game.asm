@@ -58,6 +58,14 @@ app_start:
     jsr audio_init
     jsr enter_title
 input_wait:
+    sei
+    jsr quit_release_guard
+    lda quit_pending
+    beq +
+    lda view
+    cmp #2
+    beq auto_exit
++
     cli
     jsr $ffe4
     sei
@@ -76,6 +84,13 @@ auto_restart:
 input_received:
     sta pending_key
     and #$df
+    cmp #$51
+    bne +
+    lda quit_blocked
+    bne input_wait
+    lda pending_key
+    and #$df
++
     cmp #$4d
     bne +
     lda view
@@ -178,6 +193,10 @@ info_up:
     jsr audio_event
     jmp input_wait
 start_game:
+    lda #0
+    sta quit_pending
+    lda #1
+    sta quit_active
     lda #2
     sta view
     jsr auto_session_reset
@@ -201,6 +220,18 @@ new_game_ready:
     sta auto_started
     jmp auto_turn
 auto_exit:
+    lda #0
+    sta quit_active
+    sta quit_pending
+    sta move_result
+    sta history_length
+    sta auto_pausing
+    sta auto_started
+    sta auto_later
+    sta auto_sampled
+    lda #1
+    sta quit_blocked
+    jsr validate_history
     jsr enter_title
     jmp input_wait
 reset_game_state:
@@ -217,8 +248,7 @@ game_key:
     and #$df
     cmp #$51
     bne +
-    jsr enter_title
-    jmp input_wait
+    jmp auto_exit
 +
     cmp #$52
     beq new_game
@@ -246,6 +276,8 @@ game_key:
     cmp #2
     beq two_human_ready
 auto_turn:
+    lda quit_pending
+    bne auto_exit
     lda mode
     bne compute_forward
     ; Bounded safe-boundary input only; no KERNAL scanner inside neural work.
@@ -283,6 +315,13 @@ neural_begin:
     dex
     bpl -
     jsr audio_work_end
+    plp
+    php
+    lda quit_pending
+    beq +
+    plp
+    jmp auto_exit
++
     plp
     bcs game_error
     jsr auto_resolve_opening
@@ -458,6 +497,8 @@ copy_plane .macro source, dest, length
 .endmacro
 enter_title:
     lda #0
+    sta quit_active
+    sta quit_pending
     sta view
     sta move_result
     sta activity_phase

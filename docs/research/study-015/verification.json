@@ -1,0 +1,89 @@
+{
+  "accepted_model_bytes": 5195,
+  "artifact_sha256": {
+    "REPORT015.md": "51b20ea3d749ac2c5fc1a84965449af4eba7f32fe604cefd06326e319c42f36b",
+    "coverage-by-ply015.json": "facd9345b399680a890234aff22e00a431a92540dcf8337cb417dfb919f08beb",
+    "domain-stages015.npz": "866155bce41ba97b6e5900f9448b31ba94e05c3974efdf6d22b45cc5b6eae671",
+    "figure-metadata015.json": "c4329dfb1f4e163626becd42aa58a327edb264a4493e3bf87480dad9801b154b",
+    "game-stages015.npz": "fc9786a4a1e346bfe26686eef5185a4edbefae075ca8b4bb41b2b7372b7a5c08",
+    "games015.json": "b1fe8f89b3be819c972ebbe42a419dfbf6fe68b79b36d9e9ef8e629b0f5eff85",
+    "independent-audit015.json": "fc608c3ce332bc8455994bd5ba1799d1f02a5f052e253d673dde57777d96c29e",
+    "opening-transitions015.json": "80255470daeb624546000e047420d2e876a0c5a4b6147d009ace40ed234a4ee8",
+    "opening015.json": "9e8f839420a9ee52e301e55349890ea4f424560144f82f6b6e1f7dcf0a21b89e",
+    "paths015.png": "da5265d5b8a77f6f90cfdb53b3e9c55fdde2d4ba80ac571c879d949c2863a826",
+    "paths015.svg": "7c73ad0754192aeaa9b2f4d1ef08e491ee753a0785f7204cf682330462d9617c",
+    "results015.json": "cfcb08d705ec16d773bc986c1b99c04eb6bcd0c16e214140bf448e1a0326c77c",
+    "routes015.png": "a4b69e5acf2afba5e968aa1793afe024e68ebc47b647dc53a5fae104a684af08",
+    "routes015.svg": "74ac85db5eb1e5e19e218011227bd6b7d3e0908ae6be34593c90e0159ad904d9",
+    "sampler-state-census015.json": "547bad14b9685e54619834f21c8450e249e6309e391393339f92b9a8c7959760",
+    "sampler015.png": "f1f8492aa9833e059ac449356f32c338dc7c2e21fb9090a2037d6c5dbc60fa15",
+    "sampler015.svg": "13c9e2247f2fcf92aa055c75e9a782299250b9072f4c27ff56ab982d905b238a",
+    "value-coverage015.json": "74cdf2e63321cea01ecade62fd5331e2f63125ca27d45c45494ace5a1a042b0f"
+  },
+  "bundle": {
+    "archive_rebuild_byte_identical": true,
+    "bytes": 6687589,
+    "extracted_source_smoke_test_passed": true,
+    "files": 82,
+    "model_included": false,
+    "path": "/home/ai/falken9-playpath-study-015/study015-source-evidence.zip",
+    "sha256": "c86c65a52b201239cd1eac737ea0e9312041dbdf528a018134aac9c6d7e4be12",
+    "smoke_comparison": "Every artifact exact except absolute import path provenance in results015.json"
+  },
+  "deterministic_output_artifacts": 18,
+  "elapsed_seconds_from_first_tool": 1100.485734,
+  "findings": {
+    "d4_trajectory_classes": 7,
+    "first_game_sequence_one_based": [
+      5,
+      3,
+      2,
+      8,
+      4,
+      6,
+      9,
+      1,
+      7
+    ],
+    "game_forward_calls": 81,
+    "opening_count": 9,
+    "outcomes": {
+      "draw": 9
+    },
+    "raw_distinct_sequences": 9,
+    "unique_canonical_nonterminal_boards": 37,
+    "unique_raw_nonterminal_boards": 64
+  },
+  "finished_utc": "2026-11-01T17:26:27.485734+00:00",
+  "independent_audit": {
+    "all_sets_optimal": true,
+    "domain_full_forward_audits": 627,
+    "fixed_seed_prng_joint_state_records": 249,
+    "game_forward_audits": 81,
+    "game_stage_array_checks": 1701,
+    "game_stage_integer_checks": 68931,
+    "geometry_restore_fresh_raw_ties": true,
+    "independent_arbitrary_int_full_forward": true,
+    "independent_canonical_boards": 627,
+    "independent_packet_decoder": true,
+    "independent_raw_boards": 4520,
+    "native_execution": false,
+    "packet_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+    "passed": true,
+    "source_flow_bound": true
+  },
+  "manifest_sha256": "561c1dcea70868e22185096252b00cddc54732893eda739f35e01d1d2e26b0e2",
+  "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "no_native_replay": true,
+  "no_release_changes": true,
+  "preserved_files_total": 1742,
+  "protected_file_counts": {
+    "falken9-coordinate-study-013": 86,
+    "falken9-joint-study-014": 89,
+    "falken9-strategy-study-003": 1492,
+    "main-protected": 75
+  },
+  "reader_report": "/home/ai/falken9-playpath-study-015/results015/REPORT015.md",
+  "root": "/home/ai/falken9-playpath-study-015",
+  "status": "COMPLETE; stopped after015"
+}

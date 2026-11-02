@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1140" viewBox="0 0 1400 1140"><rect width="100%" height="100%" fill="#f5f7fb"/>
+<text x="30" y="49" font-family="DejaVu Sans" font-size="31" fill="#17283f">One real board | Eight transforms | Canonical ID1</text>
+<text x="30" y="88" font-family="DejaVu Sans" font-size="21" fill="#17283f">Blue fill = NN member; red fill = false member; green border = wrapper optimal member.</text>
+<rect x="25" y="120" width="330" height="420" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="37" y="155" font-family="DejaVu Sans" font-size="23" fill="#17283f">A  T0   raw 1</text>
+<rect x="90" y="178" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="95" y="195" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="114.7" y="223.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="155" y="178" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="160" y="195" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="179.7" y="223.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="220" y="178" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="225" y="195" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="244.7" y="223.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="90" y="243" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="95" y="260" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="114.7" y="288.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="155" y="243" width="65" height="65" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="160" y="260" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="179.7" y="288.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="220" y="243" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="225" y="260" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="244.7" y="288.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="90" y="308" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="95" y="325" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="114.7" y="353.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="155" y="308" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="160" y="325" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="179.7" y="353.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="220" y="308" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="225" y="325" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="244.7" y="353.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">X</text>
+<text x="37" y="409" font-family="DejaVu Sans" font-size="19" fill="#17283f">NN set {e}</text>
+<text x="37" y="441" font-family="DejaVu Sans" font-size="19" fill="#17283f">wrapper {e}</text>
+<text x="37" y="473" font-family="DejaVu Sans" font-size="19" fill="#17283f">experts [3, 0]</text>
+<text x="37" y="505" font-family="DejaVu Sans" font-size="19" fill="#17283f">Q15 gates [32768, 0]</text>
+<rect x="371" y="120" width="330" height="420" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="383" y="155" font-family="DejaVu Sans" font-size="23" fill="#17283f">B  T1   raw 5</text>
+<rect x="436" y="178" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="441" y="195" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="460.7" y="223.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="501" y="178" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="506" y="195" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="525.7" y="223.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="566" y="178" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="571" y="195" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="590.7" y="223.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="436" y="243" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="441" y="260" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="460.7" y="288.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="501" y="243" width="65" height="65" fill="#ffffff" stroke="#248553" stroke-width="2"/>
+<text x="506" y="260" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="525.7" y="288.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="566" y="243" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="571" y="260" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="590.7" y="288.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="436" y="308" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="441" y="325" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="460.7" y="353.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">X</text>
+<rect x="501" y="308" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="506" y="325" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="525.7" y="353.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="566" y="308" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="571" y="325" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="590.7" y="353.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<text x="383" y="409" font-family="DejaVu Sans" font-size="19" fill="#17283f">NN set {i}</text>
+<text x="383" y="441" font-family="DejaVu Sans" font-size="19" fill="#17283f">wrapper {e}</text>
+<text x="383" y="473" font-family="DejaVu Sans" font-size="19" fill="#17283f">experts [0, 3]</text>
+<text x="383" y="505" font-family="DejaVu Sans" font-size="19" fill="#17283f">Q15 gates [32371, 397]</text>
+<rect x="717" y="120" width="330" height="420" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="729" y="155" font-family="DejaVu Sans" font-size="23" fill="#17283f">C  T2   raw 1818</text>
+<rect x="782" y="178" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="787" y="195" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="806.7" y="223.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">X</text>
+<rect x="847" y="178" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="852" y="195" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="871.7" y="223.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="912" y="178" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="917" y="195" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="936.7" y="223.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="782" y="243" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="787" y="260" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="806.7" y="288.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="847" y="243" width="65" height="65" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="852" y="260" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="871.7" y="288.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="912" y="243" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="917" y="260" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="936.7" y="288.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="782" y="308" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="787" y="325" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="806.7" y="353.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="847" y="308" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="852" y="325" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="871.7" y="353.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="912" y="308" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="917" y="325" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="936.7" y="353.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<text x="729" y="409" font-family="DejaVu Sans" font-size="19" fill="#17283f">NN set {bcdeghi}</text>
+<text x="729" y="441" font-family="DejaVu Sans" font-size="19" fill="#17283f">wrapper {e}</text>
+<text x="729" y="473" font-family="DejaVu Sans" font-size="19" fill="#17283f">experts [0, 3]</text>
+<text x="729" y="505" font-family="DejaVu Sans" font-size="19" fill="#17283f">Q15 gates [32765, 3]</text>
+<rect x="1063" y="120" width="330" height="420" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="1075" y="155" font-family="DejaVu Sans" font-size="23" fill="#17283f">D  T3   raw 259</text>
+<rect x="1128" y="178" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1133" y="195" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="1152.7" y="223.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1193" y="178" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1198" y="195" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="1217.7" y="223.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1258" y="178" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1263" y="195" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="1282.7" y="223.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">X</text>
+<rect x="1128" y="243" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1133" y="260" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="1152.7" y="288.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1193" y="243" width="65" height="65" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="1198" y="260" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="1217.7" y="288.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1258" y="243" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1263" y="260" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="1282.7" y="288.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1128" y="308" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1133" y="325" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="1152.7" y="353.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1193" y="308" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1198" y="325" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="1217.7" y="353.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1258" y="308" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1263" y="325" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="1282.7" y="353.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<text x="1075" y="409" font-family="DejaVu Sans" font-size="19" fill="#17283f">NN set {aeg}</text>
+<text x="1075" y="441" font-family="DejaVu Sans" font-size="19" fill="#17283f">wrapper {e}</text>
+<text x="1075" y="473" font-family="DejaVu Sans" font-size="19" fill="#17283f">experts [2, 1]</text>
+<text x="1075" y="505" font-family="DejaVu Sans" font-size="19" fill="#17283f">Q15 gates [32651, 117]</text>
+<rect x="25" y="570" width="330" height="420" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="37" y="605" font-family="DejaVu Sans" font-size="23" fill="#17283f">E  T4   raw 5</text>
+<rect x="90" y="628" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="95" y="645" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="114.7" y="673.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="155" y="628" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="160" y="645" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="179.7" y="673.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="220" y="628" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="225" y="645" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="244.7" y="673.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="90" y="693" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="95" y="710" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="114.7" y="738.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="155" y="693" width="65" height="65" fill="#ffffff" stroke="#248553" stroke-width="2"/>
+<text x="160" y="710" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="179.7" y="738.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="220" y="693" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="225" y="710" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="244.7" y="738.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="90" y="758" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="95" y="775" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="114.7" y="803.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">X</text>
+<rect x="155" y="758" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="160" y="775" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="179.7" y="803.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="220" y="758" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="225" y="775" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="244.7" y="803.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<text x="37" y="859" font-family="DejaVu Sans" font-size="19" fill="#17283f">NN set {i}</text>
+<text x="37" y="891" font-family="DejaVu Sans" font-size="19" fill="#17283f">wrapper {e}</text>
+<text x="37" y="923" font-family="DejaVu Sans" font-size="19" fill="#17283f">experts [0, 3]</text>
+<text x="37" y="955" font-family="DejaVu Sans" font-size="19" fill="#17283f">Q15 gates [32371, 397]</text>
+<rect x="371" y="570" width="330" height="420" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="383" y="605" font-family="DejaVu Sans" font-size="23" fill="#17283f">F  T5   raw 1818</text>
+<rect x="436" y="628" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="441" y="645" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="460.7" y="673.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">X</text>
+<rect x="501" y="628" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="506" y="645" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="525.7" y="673.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="566" y="628" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="571" y="645" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="590.7" y="673.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="436" y="693" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="441" y="710" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="460.7" y="738.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="501" y="693" width="65" height="65" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="506" y="710" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="525.7" y="738.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="566" y="693" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="571" y="710" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="590.7" y="738.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="436" y="758" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="441" y="775" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="460.7" y="803.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="501" y="758" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="506" y="775" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="525.7" y="803.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="566" y="758" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="571" y="775" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="590.7" y="803.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<text x="383" y="859" font-family="DejaVu Sans" font-size="19" fill="#17283f">NN set {bcdeghi}</text>
+<text x="383" y="891" font-family="DejaVu Sans" font-size="19" fill="#17283f">wrapper {e}</text>
+<text x="383" y="923" font-family="DejaVu Sans" font-size="19" fill="#17283f">experts [0, 3]</text>
+<text x="383" y="955" font-family="DejaVu Sans" font-size="19" fill="#17283f">Q15 gates [32765, 3]</text>
+<rect x="717" y="570" width="330" height="420" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="729" y="605" font-family="DejaVu Sans" font-size="23" fill="#17283f">G  T6   raw 259</text>
+<rect x="782" y="628" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="787" y="645" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="806.7" y="673.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="847" y="628" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="852" y="645" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="871.7" y="673.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="912" y="628" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="917" y="645" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="936.7" y="673.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">X</text>
+<rect x="782" y="693" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="787" y="710" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="806.7" y="738.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="847" y="693" width="65" height="65" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="852" y="710" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="871.7" y="738.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="912" y="693" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="917" y="710" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="936.7" y="738.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="782" y="758" width="65" height="65" fill="#f6d3cc" stroke="#bbc8d4" stroke-width="2"/>
+<text x="787" y="775" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="806.7" y="803.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="847" y="758" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="852" y="775" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="871.7" y="803.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="912" y="758" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="917" y="775" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="936.7" y="803.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<text x="729" y="859" font-family="DejaVu Sans" font-size="19" fill="#17283f">NN set {aeg}</text>
+<text x="729" y="891" font-family="DejaVu Sans" font-size="19" fill="#17283f">wrapper {e}</text>
+<text x="729" y="923" font-family="DejaVu Sans" font-size="19" fill="#17283f">experts [2, 1]</text>
+<text x="729" y="955" font-family="DejaVu Sans" font-size="19" fill="#17283f">Q15 gates [32651, 117]</text>
+<rect x="1063" y="570" width="330" height="420" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="1075" y="605" font-family="DejaVu Sans" font-size="23" fill="#17283f">H  T7   raw 1</text>
+<rect x="1128" y="628" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1133" y="645" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="1152.7" y="673.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1193" y="628" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1198" y="645" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="1217.7" y="673.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1258" y="628" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1263" y="645" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="1282.7" y="673.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1128" y="693" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1133" y="710" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="1152.7" y="738.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1193" y="693" width="65" height="65" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="1198" y="710" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="1217.7" y="738.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1258" y="693" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1263" y="710" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="1282.7" y="738.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1128" y="758" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1133" y="775" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="1152.7" y="803.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1193" y="758" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1198" y="775" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="1217.7" y="803.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">.</text>
+<rect x="1258" y="758" width="65" height="65" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="1263" y="775" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="1282.7" y="803.5" font-family="DejaVu Sans" font-size="26" fill="#17283f">X</text>
+<text x="1075" y="859" font-family="DejaVu Sans" font-size="19" fill="#17283f">NN set {e}</text>
+<text x="1075" y="891" font-family="DejaVu Sans" font-size="19" fill="#17283f">wrapper {e}</text>
+<text x="1075" y="923" font-family="DejaVu Sans" font-size="19" fill="#17283f">experts [3, 0]</text>
+<text x="1075" y="955" font-family="DejaVu Sans" font-size="19" fill="#17283f">Q15 gates [32768, 0]</text>
+<text x="30" y="1064" font-family="DejaVu Sans" font-size="21" fill="#17283f">Repeated raw IDs are identical inputs. A zero gate is executed, not inactive.</text>
+<text x="30" y="1097" font-family="DejaVu Sans" font-size="21" fill="#17283f">T1/T4: NN chooses i with X on g; fixed wrapper chooses e. Full vectors: examples010.json.</text>
+</svg>

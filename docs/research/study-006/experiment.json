@@ -1,0 +1,97 @@
+{
+  "baseline_sha256": "446d0dc45de156dd87a7a11bb177f700d37459e155059cfb6de261ccbc54979f",
+  "common": {
+    "controls": "baseline/noop first; restoration; exact complete set/legal/raw tie; empty vs nonoptimal nonempty vs optimal tie separated",
+    "folds": [
+      372,
+      121,
+      134
+    ],
+    "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+    "no_posthoc_relaxation": true,
+    "novel_domain_generalization": false,
+    "target_benchmark": false,
+    "training": false
+  },
+  "design": {
+    "cap": "28 runs: actual, joint reverse, assignment swap, actual uniform; six memberships x3 gate modes; two natural donor contracts x3 modes",
+    "gates": [
+      "native receiver pair renormalization",
+      "receiver actual slot gates, pair ordered by scores",
+      "uniform16384/16384"
+    ],
+    "natural_donors": "lowest ID other board within same fold/ply/side/own-opponent corner-edge-center counts; alternative membership or identical ordered routes/different gates; no matching relaxation",
+    "offline_compute": "all4 experts627 boards2508 vs normal1254; normally unselected outputs are additional counterfactual compute",
+    "pair_memberships": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "selection": "training only minimize fixed-pair chosen errors, then set changes, then lexicographic pair; confirmation untouched",
+    "task_controls": "has_win/must_block/has_fork positives vs same-fold/ply/geometry neutral, lowest ID; report support/reuse/empty strata",
+    "title": "Router usefulness"
+  },
+  "frozen_before_confirmation": true,
+  "preservation_manifest_sha256": "d29288fc7694a8357b0a9a3d66aefe1bfce6e13a6a1213a8ec6b8dbfc8c7eeb5",
+  "source_sha256": {
+    "artifacts/interpretability/study-005-final/matched-relocations005.json": "972a8c983749a00d0cad9ee98c5175966ab2d0b76432d9cf920c9258d457e798",
+    "falken9/__init__.py": "fe6ebfcc80d5500f5490fd5e33074567864fbb1e5e533bdac65c6f663f1f763e",
+    "falken9/arithmetic.py": "3c301f1fb8534e31a5a46b39daef8cf8b23afcf9c1fbc0f1626a0581d534d225",
+    "falken9/canonical_integer.py": "a40f5dd5d9863155fb2857a11c233fe1c011cfdfa667b893fe0c37c6a4c2aba4",
+    "falken9/canonical_integer_export.py": "1eed279fedb1084c7c68145c499fba1041ae520297f1839d4adb67ae63d6778f",
+    "falken9/canonical_model.py": "4a6520d31c2da31341ccb529ff43a900b6923528005ba681dda83aaa63fd5b04",
+    "falken9/canonical_training.py": "9b817a63a67d7d7b0da82f9871b7bc9f60d512b826534dc7f464fff93fa0ce99",
+    "falken9/dataset.py": "718516a132f67a35d31b22c4594b6e09aac2e53f424bc662f51f8b9c19c39edd",
+    "falken9/export.py": "1d3bfbb468d55d04aeac44ae6814547dd13b38ebebfdc2952efdb276273556d5",
+    "falken9/flexible_export.py": "fe71bb5c1eef34d742f69a1d2822be35c17ff0d3023d67016bc57e8fd7a8411c",
+    "falken9/flexible_integer.py": "fe221af88b88a99016afc1afbcb4ca492bcfc367e66390182f6c71d6cc326aec",
+    "falken9/flexible_integer_export.py": "d6537d730e56ca44860a9fd6bfb6b94946d6ecb8f31f29d6fc971ce4886e6d10",
+    "falken9/flexible_model.py": "63b48574e7cea161a8b202793712f6a39fd7c595fc15f6c7cbbd18b1062ad804",
+    "falken9/flexible_training.py": "624990235d6b0fb9e3082adb1f8492b60ef5a892e8f02551f8fd9824cceebcd8",
+    "falken9/integer_export.py": "b9b04d5c4d16622619df82dc4dedf307b933d0ba5786f9f9b70358201dfc4618",
+    "falken9/integer_model.py": "f6aff54d55ea0665f8969c7737cf26c17787d09019000d4a363a87c67aa01cd2",
+    "falken9/local_fusion.py": "b51f64386f62067e4c9df783c062ae484d898cc927c9e4f7036bd1f8817f8cca",
+    "falken9/model.py": "8a69ca9d8464add34cbe326ad3c193e7ef637853de9a9c46a823430597b21684",
+    "falken9/packing.py": "26c0702278fcff9bcd3267774f186d9cb128b3c31da01f2fc9f819e82596e0ee",
+    "falken9/policy.py": "ee9792dc56f72323f9e161d1dfac62c2b4a11aeac82bb22f94033e39d1d69df7",
+    "falken9/range_integer_model.py": "95356c6cdf5744ac22e8068390454169d94fd37da4029e101d8c9803ac58a738",
+    "falken9/strategy_diagnostics.py": "8c0f2ffda2ef73c6a65409a9774fd67b14239221ea8ed85a26499c87974d9e16",
+    "falken9/strategy_patching.py": "6856b52cc9ef7ddc593b076b6422a73bde3a5f9f1dbf24e35ee38768c19e2558",
+    "falken9/strategy_square004.py": "214987ef805717e79e42749aa4857a9061c4e505de8fe23c10674b9ce317a24d",
+    "falken9/symmetry.py": "64cf0b88bc0d7f1fa07b6f9fe6d2a9ab0f1761a4eb356449a1eb75a100f4b8db",
+    "falken9/training.py": "f4b7c8fa4628d2a58d6ab85f5b8776392f27c11a14f3558f65b864585bdd89cf",
+    "research678_core.py": "bdfae9197baeac517676ae031f4f7d536f17d90f8c4b1a304d909389cb35c8ab",
+    "research678_init.py": "49cfca320ab7d28bdabcf7ef843019f5b95ace3b483e82342ce9645e806f65c1",
+    "research678_render.py": "6a44634d6432fba300f0d4658c553b59184360a8fcc8f9a9b3e1271326e06690",
+    "research678_run.py": "28c985814b382b6b4ab418a137d01642eeab90156d3120181af2a010892161e7",
+    "scripts/build_runtime.py": "fa1df8c899d320b3e0093b392f9a0a2a1f46bf277d40074c94db2c5b1bf40b98",
+    "scripts/model_strategy_study.py": "de6f4ef26cde4d6067fbac0b528503b65fe54befecf13fd077c72f27180fe357",
+    "scripts/render_strategy_maps.py": "3cf759428990392032dcb5c7e3c41963f38c94e80020729b16df96c998ca4bdd",
+    "scripts/verify_app.py": "a43e62825d869922424f7317c6cf778eebd15d8e3a7659359682339819f91757",
+    "study005_core.py": "b2898893cdaf15da7e807c74e8a332cad676a3de84b6bdd693b4136935596a8e",
+    "study005_run.py": "2de9b5d206235980afbfeec6616d66a113ba65a9a348c012cca2c543aaa3c72f",
+    "test_research678.py": "c7600458e165a295cc1846730ea3ac597c6a60ccf642886435c1ce79d73f7f6f"
+  },
+  "study": "006"
+}

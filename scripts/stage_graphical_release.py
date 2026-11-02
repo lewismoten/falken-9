@@ -214,6 +214,20 @@ Compact custom F9J2 integer model: 5,195 bytes, four learned experts with two
 active, Q11/W16/A32. Not GGUF, Transformers, or hosted inference. The original
 model-v1.0.0 identity is preserved; this is a separate application release.
 
+Inspired by *WarGames* (1983), Falken-9 is named for **Dr. Stephen Falken**, the
+fictional researcher who developed Joshua, the AI on the WOPR war-simulation
+computer. This project plays **tic-tac-toe only**. Its military setting is
+fictional, and its frozen-model self-play is not learning. The SID music is original.
+
+Falken-9 follows [Palace-9](https://huggingface.co/lewismoten/palace-9)
+(GGUF/local-LLM compatibility), [Crystal-9](https://huggingface.co/lewismoten/crystal-9)
+(custom INT4 with FP16 scales), and [Crystal Palace](https://github.com/lewismoten/crystal-palace)
+(the C64 port). It is a newly trained C64-first model, not repacked Crystal-9
+weights: width 8, expert hidden width 4, four learned experts/top-2.
+
+[Source and research](https://github.com/lewismoten/falcon-9) ·
+[Model distribution](https://huggingface.co/lewismoten/falcon-9)
+
 [Rebuild and controls](DEPLOYMENT.md) · [Exact inventory](release-manifest.json) ·
 [License](LICENSE) · [Decoded tensors](assets/model-v1.0.0-tensor-workflow.svg)
 
@@ -241,12 +255,25 @@ opening tie. Later openings uniformly resolve the actual model-approved,
 inverse-mapped legal set, excluding the previous opener only when alternatives
 exist. Other turns and human modes retain the deterministic policy. This is a
 WarGames-inspired demonstration, not learning, temperature scaling or a claim
-of thousands of instant games. Q exits and R restarts at safe between-turn or
-result boundaries; no immediate mid-inference cancellation is promised.
+of thousands of instant games. Q is latched by a read-only raster sampler
+under the stock-ROM CIA1 idle matrix contract and cancels through normal RTS
+returns at existing stage boundaries; a canceled forward commits no mark.
+R remains a between-turn/result-boundary control. Held cancellation Q is
+consumed until release so it cannot end the restored title session.
 
-Wait for the ready/terminal status before the next key. Rendering and inference
-are synchronous; cancellation/input during those protected intervals is not
-supported. The changing decorative button subset indicates real-work activity,
+This input contract requires stock 901227-03 ROM, idle CIA1 PRA=$7f,
+DDRA=$ff, DDRB=$00, and default timer PB6 ownership (PBON=0); no custom
+keyboard/raster clients, cartridges, or active joystick-2 pins. The sampler
+checks port/direction state and never writes CIA registers, timers, or latches,
+or reads its interrupt-control register. As specified by the 6526, reading
+PRB pulses its PC handshake output for one cycle; an external handshake client
+is outside this stock-machine contract. Joystick-1 PB0..4 alone cannot appear
+as Q on PB6. Simultaneous-key ghosting is not solved. The protected IRQ still
+acknowledges CIA1 as before without chaining the KERNAL scanner through live
+neural zero page. No jump to menu occurs in IRQ and no stack frame is abandoned.
+
+Other input/rendering is synchronous: wait for ready/terminal status before
+the next non-Q key. The changing decorative button subset indicates real-work activity,
 not percentage progress. The outlined red-X/blue-O meter advances only after
 completed compute boundaries using measured resident-work weights, not elapsed
 time. It reserves a visible gap until the model's legal mark is committed and
@@ -263,8 +290,10 @@ remain unverified.
 The dark-blue badge is FALCON-9 on row22 and right-aligned 1.0 on row23. Frozen model tags,
 artifact filenames and the project slug retain their original Falken spelling.
 INFO uses the original archive frame, white body text, yellow headings and
-cursor up/down scrolling; it shows both requested repository destinations as
-not yet published. No public upload is performed by this package.
+cursor up/down scrolling. It covers model/game lineage, WarGames inspiration,
+Dr. Stephen Falken's fictional namesake, controls and public model/source destinations.
+The project plays tic-tac-toe only, not warfare simulations; the military setting
+is fictional. Self-play does not train the frozen model.
 
 The board retains the console artwork and a compact X/O turn-or-winner glyph,
 yellow D for draw, ? for invalid input and ! for an inference error. Compact

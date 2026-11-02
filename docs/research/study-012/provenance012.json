@@ -1,0 +1,10 @@
+{
+  "independent_board_count": 4520,
+  "manifest_sha256": "c129608ce9318b41f3edd05442f319a24e7eda6bdbea296916d014baa46f99f1",
+  "new_neural_forward_calls": 0,
+  "policies": 4,
+  "prior_files_unchanged": 1414,
+  "scope": "Reuses study010 direct measured logits; all627/4520 boards previously trained/audited. No new neural calls/independent examples/target performance. All ensembling is off-contract offline extra computation, never shipped or called learned equivariance.",
+  "source_logits_sha256": "7d0e07c6e406925530a6b3feb1bf9422c536a9c168786c9bb5eaafef7679aad5",
+  "source_orbit_observations": 5016
+}

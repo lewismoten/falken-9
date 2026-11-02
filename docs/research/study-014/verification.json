@@ -1,0 +1,69 @@
+{
+  "byte_identical": true,
+  "figure_checks": {
+    "joint014": {
+      "png_dimensions": [
+        1380,
+        1120
+      ],
+      "png_sha256": "5187a05a6e177a40d0b7c8068be2bd77abcf459d3e58ccedb132b1c56db18346",
+      "svg_sha256": "8b3120f3599ed8dbe9dc512dd512117e284d7d5f4b3c92281704fe5a5d5087d6",
+      "svg_text_within_canvas": true,
+      "visually_inspected": true
+    },
+    "witness014": {
+      "png_dimensions": [
+        1380,
+        930
+      ],
+      "png_sha256": "e56c6555efdbe9415f482146a5010118a56e53800feee9afb059fe2eb7d7789d",
+      "svg_sha256": "e1f17ecc528a87137d602cc37d3514b3c105d2cf5657985a27f0f8406d8fa994",
+      "svg_text_within_canvas": true,
+      "visually_inspected": true
+    }
+  },
+  "fresh_independent_audit_matches_saved": true,
+  "imports": {
+    "falken9": "/home/ai/falken9-joint-study-014/falken9/__init__.py",
+    "falken9.canonical_integer": "/home/ai/falken9-joint-study-014/falken9/canonical_integer.py",
+    "falken9.canonical_integer_export": "/home/ai/falken9-joint-study-014/falken9/canonical_integer_export.py",
+    "falken9.flexible_integer": "/home/ai/falken9-joint-study-014/falken9/flexible_integer.py",
+    "falken9.integer_export": "/home/ai/falken9-joint-study-014/falken9/integer_export.py",
+    "falken9.integer_model": "/home/ai/falken9-joint-study-014/falken9/integer_model.py",
+    "falken9.policy": "/home/ai/falken9-joint-study-014/falken9/policy.py",
+    "falken9.strategy_diagnostics": "/home/ai/falken9-joint-study-014/falken9/strategy_diagnostics.py",
+    "falken9.symmetry": "/home/ai/falken9-joint-study-014/falken9/symmetry.py",
+    "study013_verify": "/home/ai/falken9-joint-study-014/study013_verify.py",
+    "study014_core": "/home/ai/falken9-joint-study-014/study014_core.py",
+    "study014_run": "/home/ai/falken9-joint-study-014/study014_run.py",
+    "study014_verify": "/home/ai/falken9-joint-study-014/study014_verify.py"
+  },
+  "matched_output_files": 15,
+  "next_grid_failure_certificates": 3,
+  "observed_accepted_extrema": 18,
+  "observed_original_extrema": 18,
+  "output_sha256": {
+    "REPORT014.md": "d43e614a285c712f4e89a3b4392462193de905a51e86e1aa9e58694e2a498e40",
+    "baseline014.npz": "d15342cf5142e48182a8ef5edbf0148ed025bec1a727f4497ad5722e8edef017",
+    "boxes014.json": "1055cf7e7e658581cd144f5064eb634a3005817181aec68d74aaf3e727d65ecc",
+    "constraints014.json": "82609ae071f5bb5524f30434fd26211b494a0b3ced861fcd56c9141a948f2b5a",
+    "extrema014.npz": "048589423e0bd5c2da8a93a99b4f9e57ed4ab3b48f8b50affb3a889aa755977c",
+    "forwards014.npz": "30a4543bfb32724f89ccdf4c72e076bf1adcee458acfa31ee263bd3778cc3fde",
+    "independent-audit014.json": "1aece04ae5b30f32b7df98278da17c238a37f1265fe59566287a9d6d479dcc47",
+    "joint-bands014.npz": "0bc3fdecc7fb3ccab3476c04ed45164436c955ad6e53bd6be13acbc55c859f8e",
+    "joint014.png": "5187a05a6e177a40d0b7c8068be2bd77abcf459d3e58ccedb132b1c56db18346",
+    "joint014.svg": "8b3120f3599ed8dbe9dc512dd512117e284d7d5f4b3c92281704fe5a5d5087d6",
+    "manifest014.json": "2cf56a0b55f45274fb8ae760ac9ef4891e6271652b2f008a2a965428426c3582",
+    "results014.json": "674234768ec78bb41970a1327c5f830b5e7e2d9f344973d1d03bb6f39c4d0d06",
+    "validations014.json": "d19018bf1032823ef2e61672be73839fa03baf7f664265377efc302e72ce195c",
+    "witness014.png": "e56c6555efdbe9415f482146a5010118a56e53800feee9afb059fe2eb7d7789d",
+    "witness014.svg": "e1f17ecc528a87137d602cc37d3514b3c105d2cf5657985a27f0f8406d8fa994"
+  },
+  "prior_and_main_protected_hashes_unchanged": true,
+  "prior_file_counts": {
+    "main-protected": 51,
+    "study003": 1492,
+    "study013": 86
+  },
+  "prior_source_file_lists_unchanged": true
+}

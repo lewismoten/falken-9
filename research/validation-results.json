@@ -1,0 +1,205 @@
+{
+  "schema": "falken9-research-integration-validation-v1",
+  "passed": true,
+  "scope": "Local GitHub-side source curation and model-free method tests only; no fresh full-study or native-game acceptance.",
+  "inventory": {
+    "passed": true,
+    "studies": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "groups": 14,
+    "members": 1415,
+    "retained_member_records": 911,
+    "unique_curated_files": 269,
+    "curated_bytes": 87323158,
+    "inventory_sha256": "6c75935407870fa553825ba03a03ea53c5a9ad21aab6c33787bc85c61c175355"
+  },
+  "original_source_audits": [
+    {
+      "group": "003",
+      "kind": "filesystem-recovery",
+      "verified_source_files": 83,
+      "archive_sha256": null
+    },
+    {
+      "group": "004",
+      "kind": "verified-zip-subset",
+      "archive": "study-004-research-bundle.zip",
+      "sha256": "c4894d760ac84ee86a95f6e76b70b23a3bcbce61d4d606896bd9c7e3a0e22639",
+      "verified_members": 73,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    },
+    {
+      "group": "005",
+      "kind": "verified-zip-subset",
+      "archive": "study005-source-evidence.zip",
+      "sha256": "0e1f0a876b2b7693962b33814bef5bb823bbb514cb76f0df8958bb6236960966",
+      "verified_members": 58,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    },
+    {
+      "group": "006",
+      "kind": "verified-zip-subset",
+      "archive": "study006-source-evidence.zip",
+      "sha256": "8fd6ba943fcfb5b962894bb463e28179b8eba157eabd1e6f26eccfab40ea9fd2",
+      "verified_members": 117,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    },
+    {
+      "group": "007",
+      "kind": "verified-zip-subset",
+      "archive": "study007-source-evidence.zip",
+      "sha256": "eea7bb6b6e07c2f163fe7dca89f0a220ed5038e0ad7f5b45e432a956f2e126f7",
+      "verified_members": 120,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    },
+    {
+      "group": "008",
+      "kind": "verified-zip-subset",
+      "archive": "study008-source-evidence.zip",
+      "sha256": "e79b97d7a1fb45cfed28fd77bbb0c6c2377e3fbf06e1e182bd70612f35a6665d",
+      "verified_members": 125,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    },
+    {
+      "group": "009",
+      "kind": "verified-zip-subset",
+      "archive": "study009-source-evidence.zip",
+      "sha256": "5ac682b8d36f4dcbe867528738c3440c521a8698a4f545e11921ff6b410be393",
+      "verified_members": 152,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    },
+    {
+      "group": "010-011",
+      "kind": "verified-zip-subset",
+      "archive": "study010-011-source-evidence.zip",
+      "sha256": "414a664c7ff25e301a7e77d2b980154bd66ca90e225ffc5df0c1df82b8c92381",
+      "verified_members": 170,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    },
+    {
+      "group": "012",
+      "kind": "verified-zip-subset",
+      "archive": "study012-source-evidence.zip",
+      "sha256": "910e6b436acbe22af0e01a3802c7625bdbd662016335f6cc2859483aed4d6872",
+      "verified_members": 209,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    },
+    {
+      "group": "013",
+      "kind": "verified-zip-subset",
+      "archive": "study013-source-evidence.zip",
+      "sha256": "f8e6c04caccd13ff4ce35f76ab3b9efd59335191ab0aae47e7515a7a83a7a4f1",
+      "verified_members": 69,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    },
+    {
+      "group": "014",
+      "kind": "verified-zip-subset",
+      "archive": "study014-source-evidence.zip",
+      "sha256": "1bb2c06636a3d30fd02995ba9ef5007c1ff7a9b799bdd46114cef36a51dfc364",
+      "verified_members": 67,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    },
+    {
+      "group": "015",
+      "kind": "verified-zip-subset",
+      "archive": "study015-source-evidence.zip",
+      "sha256": "c86c65a52b201239cd1eac737ea0e9312041dbdf528a018134aac9c6d7e4be12",
+      "verified_members": 82,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    },
+    {
+      "group": "016",
+      "kind": "verified-zip-subset",
+      "archive": "study016-source-evidence.zip",
+      "sha256": "2eaec74deff60cbbbcfbe786b3cf4fc395aa407444a08b056f1ac12e6dbe435b",
+      "verified_members": 84,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    },
+    {
+      "group": "007-supplement",
+      "kind": "verified-zip-subset",
+      "archive": "study007-common-support-supplement.zip",
+      "sha256": "499be6d229c17146250e8bc3f995e9ec47c50f957e35759e43be570858c4933b",
+      "verified_members": 6,
+      "crc_passed": true,
+      "path_symlink_size_expansion_audit_passed": true
+    }
+  ],
+  "method_tests": {
+    "passed": 31,
+    "failed": 0,
+    "groups": 13,
+    "report": "research/method-test-results.json",
+    "selected_only": true
+  },
+  "security_tests": {
+    "passed": 8,
+    "failed": 0,
+    "runner": "python -B -m unittest discover -s tests -p test_research_inventory.py -v",
+    "output": "test_all_hashes_paths_source_and_study_coverage (test_research_inventory.ResearchInventory.test_all_hashes_paths_source_and_study_coverage) ... ok\ntest_hash_change_and_missing_coverage_detected (test_research_inventory.ResearchInventory.test_hash_change_and_missing_coverage_detected) ... ok\ntest_machine_sampler_harness_and_actual_binary_boundary (test_research_inventory.ResearchInventory.test_machine_sampler_harness_and_actual_binary_boundary) ... ok\ntest_manifest_member_and_source_closure (test_research_inventory.ResearchInventory.test_manifest_member_and_source_closure) ... ok\ntest_no_model_rom_archive_environment_or_secret_paths (test_research_inventory.ResearchInventory.test_no_model_rom_archive_environment_or_secret_paths) ... ok\ntest_symlink_path_rejected (test_research_inventory.ResearchInventory.test_symlink_path_rejected) ... ok\ntest_traversal_and_absolute_paths_rejected (test_research_inventory.ResearchInventory.test_traversal_and_absolute_paths_rejected) ... ok\ntest_zip_symlink_traversal_duplicate_and_ratio_rejected (test_research_inventory.ResearchInventory.test_zip_symlink_traversal_duplicate_and_ratio_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.444s\n\nOK\n"
+  },
+  "dependencies": {
+    "numpy": "2.4.6",
+    "torch": "2.14.0",
+    "Pillow": "13.0.0",
+    "pytest": "9.1.1",
+    "py65": "1.2.0"
+  },
+  "original_python_files_AST_parsed": 107,
+  "source_token_private_key_signature_scan": "passed; signature scan is not a universal proof of absence of secrets",
+  "observed_URL_hosts": [
+    "github.com",
+    "huggingface.co",
+    "www.w3.org"
+  ],
+  "git_ignored_curated_files": 0,
+  "local_documentation_links_verified": 24,
+  "frozen_model_read_only_check": {
+    "modified": false,
+    "passed": true,
+    "sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+    "size": 5195
+  },
+  "machine_sampler": {
+    "harness": "docs/research/study-015/machine-sampler-parity.py",
+    "sha256": "f26825576966762a003d31c9f7fa4daa635bced76e6d1f234677ecb5573c2ac2",
+    "portable_execution": false,
+    "binary_dependencies_excluded": true
+  },
+  "limitations": [
+    "No original study003 source/evidence ZIP was present in the supplied workspace; direct source recovery has no claimed archive digest.",
+    "Unauthenticated expected Hugging Face repository API returned HTTP401; no remote artifact download or availability verification claimed.",
+    "Historical full-study tests/finalizers/preservation roots, actual model inference and native sampler execution were not rerun by this integration.",
+    "An initial broader selection exposed two003 model/fixture-dependent tests and one004 model-dependent test; excluded from the explicitly model-free method allowlist, original source preserved.",
+    "Historical absolute paths remain inside immutable original scientific source/provenance, not in new public source-group/manifest locator values."
+  ],
+  "remote_writes": false,
+  "accepted_model_or_application_changed": false
+}

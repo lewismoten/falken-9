@@ -92,6 +92,7 @@ audio_irq:
     beq audio_cia
     lda #1
     sta $d019
+    jsr quit_sample             ; read-only stock matrix; private quit state only
     jsr audio_tick
     lda audio_protected
     beq audio_irq_exit
@@ -315,9 +316,11 @@ melody: .byte 12,19,22,19,17,19,24,19,12,19,22,26,24,19,17,14
         .byte 12,17,19,22,24,22,19,17,10,17,22,19,14,17,19,14
 bass:   .byte 0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5
         .byte 0,0,0,0,0,0,0,0,10,10,10,10,7,7,7,7
-effect_note:    .byte 0,7,24,26,12,19
+; Foreground cues sustain above the restrained music; thinking/scroll unchanged.
+; Keep one-frame retrigger and finite voice-three ownership (no volume boost).
+effect_note:    .byte 0,7,24,26,24,31
 effect_control: .byte 0,$11,$81,$11,$21,$11
-effect_length:  .byte 0,2,2,3,6,9
+effect_length:  .byte 0,2,2,6,10,12
 effect_ad:      .byte 0,$02,$01,$02,$03,$13
-effect_sr:      .byte 0,$02,$02,$03,$05,$06
+effect_sr:      .byte 0,$02,$02,$a3,$c5,$b6
     .include "notes.inc"

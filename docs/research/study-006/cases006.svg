@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1130" viewBox="0 0 1580 1130">
+<rect width="100%" height="100%" fill="#101720"/>
+<text x="28" y="22" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="27" fill="#edf2f6">Study006 / actual cases, controls and counterexamples</text>
+<text x="28" y="65" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">A-C callouts refer to exact evidence records; green outline = baseline full optimal set, not score ranking.</text>
+<rect x="25" y="110" width="1530" height="420" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="44" y="124" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">A / actual-needed</text>
+<rect x="48" y="175" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="63" y="183" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="96" y="175" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="111" y="183" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="144" y="175" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="159" y="183" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="48" y="223" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="63" y="231" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="96" y="223" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="111" y="231" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="144" y="223" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="159" y="231" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="48" y="271" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="63" y="279" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="96" y="271" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="111" y="279" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="144" y="271" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="159" y="279" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<text x="48" y="328" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<text x="240" y="175" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Canonical ID0; fold0; actual pair[1, 2], Q15 gates[25507, 7261]</text>
+<text x="240" y="210" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Actual &gt;=0 legal set [0, 1, 2, 3, 4, 5, 6, 7, 8]; actual logits[561150, 447961, 281555, 94790, 275926, 34652, 189453, 501705, 175355]</text>
+<text x="240" y="245" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Alternative pair[0, 1]: full set[0, 1, 2, 3, 4, 5, 6, 7, 8]; chosen move4</text>
+<text x="240" y="280" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Alternative pair[0, 2]: full set[4, 8]; chosen move4</text>
+<text x="240" y="315" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Alternative pair[0, 3]: full set[0, 1, 2, 4, 5, 6, 7, 8]; chosen move4</text>
+<text x="240" y="350" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Alternative pair[1, 2]: full set[0, 1, 2, 3, 4, 5, 6, 7, 8]; chosen move4</text>
+<text x="240" y="385" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Alternative pair[1, 3]: full set[0, 1, 2, 3, 4, 5, 6, 7, 8]; chosen move4</text>
+<text x="240" y="420" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Alternative pair[2, 3]: full set[1, 4, 7, 8]; chosen move4</text>
+<rect x="25" y="552" width="1530" height="420" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="44" y="566" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">B / robust-all-pairs</text>
+<rect x="48" y="617" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="625" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="96" y="617" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="625" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="144" y="617" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="625" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="48" y="665" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="673" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="96" y="665" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="673" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="144" y="665" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="159" y="673" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="48" y="713" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="721" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="96" y="713" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="721" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="144" y="713" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="721" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<text x="48" y="770" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<text x="240" y="617" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Canonical ID12; fold0; actual pair[0, 3], Q15 gates[32743, 25]</text>
+<text x="240" y="652" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Actual &gt;=0 legal set [5]; actual logits[53364, -11955, 39270, 47354, -21480, 13148, 50002, -18846, -2341]</text>
+<text x="240" y="687" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Alternative pair[0, 1]: full set[5]; chosen move5</text>
+<text x="240" y="722" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Alternative pair[0, 2]: full set[5]; chosen move5</text>
+<text x="240" y="757" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Alternative pair[0, 3]: full set[5]; chosen move5</text>
+<text x="240" y="792" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Alternative pair[1, 2]: full set[5]; chosen move5</text>
+<text x="240" y="827" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Alternative pair[1, 3]: full set[5]; chosen move5</text>
+<text x="240" y="862" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Alternative pair[2, 3]: full set[5]; chosen move5</text>
+<text x="28" y="1084" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">All output sets are full nonnegative legal membership. Raw inverse transforms and fixed ties are non-neural; no strategy names inferred.</text>
+</svg>

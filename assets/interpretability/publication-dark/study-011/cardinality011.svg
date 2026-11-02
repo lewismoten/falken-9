@@ -1,0 +1,83 @@
+<svg xml:space="preserve" xmlns="http://www.w3.org/2000/svg" width="1400" height="1370" viewBox="0 0 1400 1370"><rect width="100%" height="100%" fill="#11151a"/>
+<text x="30" y="51" font-family="DejaVu Sans" font-size="31" fill="#e7e8e4">Research011 | Exact classes are not strategic meaning</text>
+<text x="30" y="100" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">A  Distinct full integer vectors / 627 canonical boards. No projection or trained decoder.</text>
+<text x="30" y="154" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">embedding</text>
+<rect x="570" y="133" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="151" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="194" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">normalized</text>
+<rect x="570" y="173" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="191" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="234" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">query</text>
+<rect x="570" y="213" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="231" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="274" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">key</text>
+<rect x="570" y="253" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="271" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="314" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">value</text>
+<rect x="570" y="293" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="311" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="354" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">attention_scores</text>
+<rect x="570" y="333" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="351" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="394" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">attention_probs</text>
+<rect x="570" y="373" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="391" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="434" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">attended</text>
+<rect x="570" y="413" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="431" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="474" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">projected</text>
+<rect x="570" y="453" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="471" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="514" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">attention_residual</text>
+<rect x="570" y="493" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="511" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="554" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">readout_pre</text>
+<rect x="570" y="533" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="551" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="594" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">readout_gelu</text>
+<rect x="570" y="573" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="591" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="634" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">norm2_output</text>
+<rect x="570" y="613" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="631" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="674" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">router_scores</text>
+<rect x="570" y="653" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="671" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="714" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">routes</text>
+<rect x="570" y="693" width="13.397129186602871" height="27" fill="#7fb7e3" stroke="#7fb7e3" stroke-width="2"/>
+<text x="595.3971291866029" y="711" font-family="DejaVu Sans" font-size="21" fill="#7fb7e3">12</text>
+<text x="30" y="754" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">unordered_routes</text>
+<rect x="570" y="733" width="6.698564593301436" height="27" fill="#7fb7e3" stroke="#7fb7e3" stroke-width="2"/>
+<text x="588.6985645933014" y="751" font-family="DejaVu Sans" font-size="21" fill="#7fb7e3">6</text>
+<text x="30" y="794" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">gates</text>
+<rect x="570" y="773" width="449.9202551834131" height="27" fill="#7fb7e3" stroke="#7fb7e3" stroke-width="2"/>
+<text x="1031.920255183413" y="791" font-family="DejaVu Sans" font-size="21" fill="#7fb7e3">403</text>
+<text x="30" y="834" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">pair_and_gates</text>
+<rect x="570" y="813" width="535.8851674641148" height="27" fill="#7fb7e3" stroke="#7fb7e3" stroke-width="2"/>
+<text x="1117.8851674641148" y="831" font-family="DejaVu Sans" font-size="21" fill="#7fb7e3">480</text>
+<text x="30" y="874" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">executed experts: hidden_pre</text>
+<rect x="570" y="853" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="871" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="914" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">executed experts: hidden</text>
+<rect x="570" y="893" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="911" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="954" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">executed experts: outputs</text>
+<rect x="570" y="933" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="951" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="994" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">merged</text>
+<rect x="570" y="973" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="991" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="1034" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">logits</text>
+<rect x="570" y="1013" width="700.0" height="27" fill="#82d5a1" stroke="#82d5a1" stroke-width="2"/>
+<text x="1282.0" y="1031" font-family="DejaVu Sans" font-size="21" fill="#82d5a1">627</text>
+<text x="30" y="1074" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">unmasked_signs</text>
+<rect x="570" y="1053" width="187.55980861244018" height="27" fill="#7fb7e3" stroke="#7fb7e3" stroke-width="2"/>
+<text x="769.5598086124402" y="1071" font-family="DejaVu Sans" font-size="21" fill="#7fb7e3">168</text>
+<text x="30" y="1114" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">legal_sign_set</text>
+<rect x="570" y="1093" width="131.7384370015949" height="27" fill="#7fb7e3" stroke="#7fb7e3" stroke-width="2"/>
+<text x="713.7384370015949" y="1111" font-family="DejaVu Sans" font-size="21" fill="#7fb7e3">118</text>
+<text x="30" y="1182" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">B  Routes: 12 ordered classes (6 unordered). Routes + exact Q15 gates: 480.</text>
+<text x="30" y="1222" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">C  Full merged vectors and integer logits: 627 distinct, despite coarse routing metadata.</text>
+<text x="30" y="1262" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">D  Legal sign sets: 118. Different boards can legitimately need identical optimal moves.</text>
+<text x="30" y="1302" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">Green = injective only on this finite census; NOT semantic decoding or causal strategy use.</text>
+</svg>

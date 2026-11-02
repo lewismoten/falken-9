@@ -1,0 +1,1537 @@
+{
+  "callouts": {
+    "A": 452,
+    "B": 413,
+    "C": 299,
+    "D": 524
+  },
+  "figures": [
+    {
+      "height": 1370,
+      "name": "cardinality011",
+      "text_boxes": [
+        {
+          "bounds": [
+            30,
+            25,
+            883,
+            56
+          ],
+          "text": "Research011 | Exact classes are not strategic meaning"
+        },
+        {
+          "bounds": [
+            30,
+            82,
+            992,
+            104
+          ],
+          "text": "A  Distinct full integer vectors / 627 canonical boards. No projection or trained decoder."
+        },
+        {
+          "bounds": [
+            30,
+            136,
+            154,
+            158
+          ],
+          "text": "embedding"
+        },
+        {
+          "bounds": [
+            1282.0,
+            135,
+            1322.0,
+            150
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            176,
+            152,
+            193
+          ],
+          "text": "normalized"
+        },
+        {
+          "bounds": [
+            1282.0,
+            175,
+            1322.0,
+            190
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            221,
+            94,
+            238
+          ],
+          "text": "query"
+        },
+        {
+          "bounds": [
+            1282.0,
+            215,
+            1322.0,
+            230
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            256,
+            69,
+            278
+          ],
+          "text": "key"
+        },
+        {
+          "bounds": [
+            1282.0,
+            255,
+            1322.0,
+            270
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            296,
+            90,
+            313
+          ],
+          "text": "value"
+        },
+        {
+          "bounds": [
+            1282.0,
+            295,
+            1322.0,
+            310
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            336,
+            212,
+            358
+          ],
+          "text": "attention_scores"
+        },
+        {
+          "bounds": [
+            1282.0,
+            335,
+            1322.0,
+            350
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            376,
+            203,
+            398
+          ],
+          "text": "attention_probs"
+        },
+        {
+          "bounds": [
+            1282.0,
+            375,
+            1322.0,
+            390
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            416,
+            130,
+            433
+          ],
+          "text": "attended"
+        },
+        {
+          "bounds": [
+            1282.0,
+            415,
+            1322.0,
+            430
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            456,
+            134,
+            478
+          ],
+          "text": "projected"
+        },
+        {
+          "bounds": [
+            1282.0,
+            455,
+            1322.0,
+            470
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            496,
+            229,
+            518
+          ],
+          "text": "attention_residual"
+        },
+        {
+          "bounds": [
+            1282.0,
+            495,
+            1322.0,
+            510
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            536,
+            163,
+            558
+          ],
+          "text": "readout_pre"
+        },
+        {
+          "bounds": [
+            1282.0,
+            535,
+            1322.0,
+            550
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            576,
+            174,
+            598
+          ],
+          "text": "readout_gelu"
+        },
+        {
+          "bounds": [
+            1282.0,
+            575,
+            1322.0,
+            590
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            617,
+            185,
+            638
+          ],
+          "text": "norm2_output"
+        },
+        {
+          "bounds": [
+            1282.0,
+            615,
+            1322.0,
+            630
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            658,
+            179,
+            678
+          ],
+          "text": "router_scores"
+        },
+        {
+          "bounds": [
+            1282.0,
+            655,
+            1322.0,
+            670
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            698,
+            100,
+            713
+          ],
+          "text": "routes"
+        },
+        {
+          "bounds": [
+            595.3971291866029,
+            695,
+            622.3971291866029,
+            710
+          ],
+          "text": "12"
+        },
+        {
+          "bounds": [
+            30,
+            736,
+            224,
+            758
+          ],
+          "text": "unordered_routes"
+        },
+        {
+          "bounds": [
+            588.6985645933014,
+            735,
+            601.6985645933014,
+            750
+          ],
+          "text": "6"
+        },
+        {
+          "bounds": [
+            30,
+            778,
+            91,
+            798
+          ],
+          "text": "gates"
+        },
+        {
+          "bounds": [
+            1031.920255183413,
+            775,
+            1071.920255183413,
+            790
+          ],
+          "text": "403"
+        },
+        {
+          "bounds": [
+            30,
+            816,
+            197,
+            838
+          ],
+          "text": "pair_and_gates"
+        },
+        {
+          "bounds": [
+            1117.8851674641148,
+            815,
+            1157.8851674641148,
+            830
+          ],
+          "text": "480"
+        },
+        {
+          "bounds": [
+            30,
+            856,
+            358,
+            878
+          ],
+          "text": "executed experts: hidden_pre"
+        },
+        {
+          "bounds": [
+            1282.0,
+            855,
+            1322.0,
+            870
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            896,
+            311,
+            918
+          ],
+          "text": "executed experts: hidden"
+        },
+        {
+          "bounds": [
+            1282.0,
+            895,
+            1322.0,
+            910
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            936,
+            319,
+            958
+          ],
+          "text": "executed experts: outputs"
+        },
+        {
+          "bounds": [
+            1282.0,
+            935,
+            1322.0,
+            950
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            976,
+            115,
+            998
+          ],
+          "text": "merged"
+        },
+        {
+          "bounds": [
+            1282.0,
+            975,
+            1322.0,
+            990
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            1016,
+            90,
+            1038
+          ],
+          "text": "logits"
+        },
+        {
+          "bounds": [
+            1282.0,
+            1015,
+            1322.0,
+            1030
+          ],
+          "text": "627"
+        },
+        {
+          "bounds": [
+            30,
+            1056,
+            212,
+            1078
+          ],
+          "text": "unmasked_signs"
+        },
+        {
+          "bounds": [
+            769.5598086124402,
+            1055,
+            809.5598086124402,
+            1070
+          ],
+          "text": "168"
+        },
+        {
+          "bounds": [
+            30,
+            1096,
+            185,
+            1118
+          ],
+          "text": "legal_sign_set"
+        },
+        {
+          "bounds": [
+            713.7384370015949,
+            1095,
+            753.7384370015949,
+            1110
+          ],
+          "text": "118"
+        },
+        {
+          "bounds": [
+            30,
+            1164,
+            881,
+            1186
+          ],
+          "text": "B  Routes: 12 ordered classes (6 unordered). Routes + exact Q15 gates: 480."
+        },
+        {
+          "bounds": [
+            30,
+            1204,
+            1004,
+            1226
+          ],
+          "text": "C  Full merged vectors and integer logits: 627 distinct, despite coarse routing metadata."
+        },
+        {
+          "bounds": [
+            30,
+            1244,
+            997,
+            1266
+          ],
+          "text": "D  Legal sign sets: 118. Different boards can legitimately need identical optimal moves."
+        },
+        {
+          "bounds": [
+            30,
+            1284,
+            1040,
+            1306
+          ],
+          "text": "Green = injective only on this finite census; NOT semantic decoding or causal strategy use."
+        }
+      ],
+      "width": 1400
+    },
+    {
+      "height": 1090,
+      "name": "collisions011",
+      "text_boxes": [
+        {
+          "bounds": [
+            30,
+            25,
+            864,
+            55
+          ],
+          "text": "Exact collisions | What routing and signs do not tell you"
+        },
+        {
+          "bounds": [
+            30,
+            80,
+            982,
+            100
+          ],
+          "text": "Actual boards; blue fill and green borders = complete optimal legal sets, not a preference."
+        },
+        {
+          "bounds": [
+            30,
+            137,
+            233,
+            155
+          ],
+          "text": "A  Canonical 452"
+        },
+        {
+          "bounds": [
+            35,
+            189,
+            44,
+            197
+          ],
+          "text": "a"
+        },
+        {
+          "bounds": [
+            58.5,
+            227.5,
+            68.5,
+            231.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            110,
+            186,
+            119,
+            197
+          ],
+          "text": "b"
+        },
+        {
+          "bounds": [
+            133.5,
+            227.5,
+            143.5,
+            231.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            185,
+            189,
+            193,
+            197
+          ],
+          "text": "c"
+        },
+        {
+          "bounds": [
+            208.5,
+            227.5,
+            218.5,
+            231.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            35,
+            261,
+            44,
+            272
+          ],
+          "text": "d"
+        },
+        {
+          "bounds": [
+            58.5,
+            302.5,
+            68.5,
+            306.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            110,
+            264,
+            119,
+            272
+          ],
+          "text": "e"
+        },
+        {
+          "bounds": [
+            133.5,
+            302.5,
+            143.5,
+            306.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            185,
+            261,
+            191,
+            272
+          ],
+          "text": "f"
+        },
+        {
+          "bounds": [
+            208.5,
+            284.5,
+            229.5,
+            306.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            35,
+            339,
+            44,
+            350
+          ],
+          "text": "g"
+        },
+        {
+          "bounds": [
+            58.5,
+            359.5,
+            79.5,
+            381.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            110,
+            336,
+            119,
+            347
+          ],
+          "text": "h"
+        },
+        {
+          "bounds": [
+            133.5,
+            377.5,
+            143.5,
+            381.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            185,
+            336,
+            189,
+            347
+          ],
+          "text": "i"
+        },
+        {
+          "bounds": [
+            208.5,
+            359.5,
+            232.5,
+            381.5
+          ],
+          "text": "O"
+        },
+        {
+          "bounds": [
+            30,
+            431,
+            113,
+            449
+          ],
+          "text": "set {de}"
+        },
+        {
+          "bounds": [
+            30,
+            461,
+            137,
+            478
+          ],
+          "text": "route [3, 0]"
+        },
+        {
+          "bounds": [
+            30,
+            491,
+            188,
+            509
+          ],
+          "text": "gates [32768, 0]"
+        },
+        {
+          "bounds": [
+            345,
+            137,
+            548,
+            155
+          ],
+          "text": "B  Canonical 413"
+        },
+        {
+          "bounds": [
+            350,
+            189,
+            359,
+            197
+          ],
+          "text": "a"
+        },
+        {
+          "bounds": [
+            373.5,
+            227.5,
+            383.5,
+            231.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            425,
+            186,
+            434,
+            197
+          ],
+          "text": "b"
+        },
+        {
+          "bounds": [
+            448.5,
+            227.5,
+            458.5,
+            231.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            500,
+            189,
+            508,
+            197
+          ],
+          "text": "c"
+        },
+        {
+          "bounds": [
+            523.5,
+            227.5,
+            533.5,
+            231.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            350,
+            261,
+            359,
+            272
+          ],
+          "text": "d"
+        },
+        {
+          "bounds": [
+            373.5,
+            302.5,
+            383.5,
+            306.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            425,
+            264,
+            434,
+            272
+          ],
+          "text": "e"
+        },
+        {
+          "bounds": [
+            448.5,
+            302.5,
+            458.5,
+            306.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            500,
+            261,
+            506,
+            272
+          ],
+          "text": "f"
+        },
+        {
+          "bounds": [
+            523.5,
+            284.5,
+            544.5,
+            306.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            350,
+            339,
+            359,
+            350
+          ],
+          "text": "g"
+        },
+        {
+          "bounds": [
+            373.5,
+            359.5,
+            397.5,
+            381.5
+          ],
+          "text": "O"
+        },
+        {
+          "bounds": [
+            425,
+            336,
+            434,
+            347
+          ],
+          "text": "h"
+        },
+        {
+          "bounds": [
+            448.5,
+            377.5,
+            458.5,
+            381.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            500,
+            336,
+            504,
+            347
+          ],
+          "text": "i"
+        },
+        {
+          "bounds": [
+            523.5,
+            359.5,
+            544.5,
+            381.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            345,
+            431,
+            474,
+            449
+          ],
+          "text": "set {abcdeh}"
+        },
+        {
+          "bounds": [
+            345,
+            461,
+            452,
+            478
+          ],
+          "text": "route [3, 0]"
+        },
+        {
+          "bounds": [
+            345,
+            491,
+            503,
+            509
+          ],
+          "text": "gates [32768, 0]"
+        },
+        {
+          "bounds": [
+            675,
+            144,
+            1011,
+            166
+          ],
+          "text": "Same exact routing metadata:"
+        },
+        {
+          "bounds": [
+            675,
+            177,
+            846,
+            197
+          ],
+          "text": "[3, 0, 32768, 0]"
+        },
+        {
+          "bounds": [
+            675,
+            206,
+            675,
+            206
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            675,
+            243,
+            1154,
+            265
+          ],
+          "text": "Same ply / side / geometry and legal mask."
+        },
+        {
+          "bounds": [
+            675,
+            276,
+            1037,
+            298
+          ],
+          "text": "452: opponent fork + prevention"
+        },
+        {
+          "bounds": [
+            675,
+            309,
+            1084,
+            331
+          ],
+          "text": "413: one immediate opponent threat"
+        },
+        {
+          "bounds": [
+            675,
+            338,
+            675,
+            338
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            675,
+            375,
+            1225,
+            397
+          ],
+          "text": "Distinct expert activity, merged values and logits."
+        },
+        {
+          "bounds": [
+            675,
+            408,
+            1187,
+            430
+          ],
+          "text": "Expert0 executes at zero gate; inactive is null."
+        },
+        {
+          "bounds": [
+            675,
+            441,
+            1158,
+            458
+          ],
+          "text": "No tactical-detector name follows from this."
+        },
+        {
+          "bounds": [
+            30,
+            547,
+            233,
+            565
+          ],
+          "text": "C  Canonical 299"
+        },
+        {
+          "bounds": [
+            35,
+            599,
+            44,
+            607
+          ],
+          "text": "a"
+        },
+        {
+          "bounds": [
+            58.5,
+            637.5,
+            68.5,
+            641.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            110,
+            596,
+            119,
+            607
+          ],
+          "text": "b"
+        },
+        {
+          "bounds": [
+            133.5,
+            637.5,
+            143.5,
+            641.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            185,
+            599,
+            193,
+            607
+          ],
+          "text": "c"
+        },
+        {
+          "bounds": [
+            208.5,
+            637.5,
+            218.5,
+            641.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            35,
+            671,
+            44,
+            682
+          ],
+          "text": "d"
+        },
+        {
+          "bounds": [
+            58.5,
+            712.5,
+            68.5,
+            716.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            110,
+            674,
+            119,
+            682
+          ],
+          "text": "e"
+        },
+        {
+          "bounds": [
+            133.5,
+            712.5,
+            143.5,
+            716.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            185,
+            671,
+            191,
+            682
+          ],
+          "text": "f"
+        },
+        {
+          "bounds": [
+            208.5,
+            694.5,
+            232.5,
+            716.5
+          ],
+          "text": "O"
+        },
+        {
+          "bounds": [
+            35,
+            749,
+            44,
+            760
+          ],
+          "text": "g"
+        },
+        {
+          "bounds": [
+            58.5,
+            769.5,
+            79.5,
+            791.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            110,
+            746,
+            119,
+            757
+          ],
+          "text": "h"
+        },
+        {
+          "bounds": [
+            133.5,
+            787.5,
+            143.5,
+            791.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            185,
+            746,
+            189,
+            757
+          ],
+          "text": "i"
+        },
+        {
+          "bounds": [
+            208.5,
+            769.5,
+            229.5,
+            791.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            30,
+            841,
+            159,
+            859
+          ],
+          "text": "set {abcdeh}"
+        },
+        {
+          "bounds": [
+            30,
+            871,
+            137,
+            888
+          ],
+          "text": "route [3, 2]"
+        },
+        {
+          "bounds": [
+            30,
+            901,
+            212,
+            919
+          ],
+          "text": "gates [31969, 799]"
+        },
+        {
+          "bounds": [
+            345,
+            547,
+            550,
+            565
+          ],
+          "text": "D  Canonical 524"
+        },
+        {
+          "bounds": [
+            350,
+            599,
+            359,
+            607
+          ],
+          "text": "a"
+        },
+        {
+          "bounds": [
+            373.5,
+            637.5,
+            383.5,
+            641.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            425,
+            596,
+            434,
+            607
+          ],
+          "text": "b"
+        },
+        {
+          "bounds": [
+            448.5,
+            637.5,
+            458.5,
+            641.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            500,
+            599,
+            508,
+            607
+          ],
+          "text": "c"
+        },
+        {
+          "bounds": [
+            523.5,
+            619.5,
+            544.5,
+            641.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            350,
+            671,
+            359,
+            682
+          ],
+          "text": "d"
+        },
+        {
+          "bounds": [
+            373.5,
+            694.5,
+            397.5,
+            716.5
+          ],
+          "text": "O"
+        },
+        {
+          "bounds": [
+            425,
+            674,
+            434,
+            682
+          ],
+          "text": "e"
+        },
+        {
+          "bounds": [
+            448.5,
+            712.5,
+            458.5,
+            716.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            500,
+            671,
+            506,
+            682
+          ],
+          "text": "f"
+        },
+        {
+          "bounds": [
+            523.5,
+            712.5,
+            533.5,
+            716.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            350,
+            749,
+            359,
+            760
+          ],
+          "text": "g"
+        },
+        {
+          "bounds": [
+            373.5,
+            787.5,
+            383.5,
+            791.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            425,
+            746,
+            434,
+            757
+          ],
+          "text": "h"
+        },
+        {
+          "bounds": [
+            448.5,
+            787.5,
+            458.5,
+            791.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            500,
+            746,
+            504,
+            757
+          ],
+          "text": "i"
+        },
+        {
+          "bounds": [
+            523.5,
+            769.5,
+            544.5,
+            791.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            345,
+            841,
+            470,
+            859
+          ],
+          "text": "set {abefgh}"
+        },
+        {
+          "bounds": [
+            345,
+            871,
+            452,
+            888
+          ],
+          "text": "route [3, 0]"
+        },
+        {
+          "bounds": [
+            345,
+            901,
+            503,
+            919
+          ],
+          "text": "gates [32762, 6]"
+        },
+        {
+          "bounds": [
+            675,
+            554,
+            994,
+            576
+          ],
+          "text": "Same unmasked sign vector:"
+        },
+        {
+          "bounds": [
+            675,
+            587,
+            970,
+            607
+          ],
+          "text": "[+, +, +, +, +, +, +, +, +]"
+        },
+        {
+          "bounds": [
+            675,
+            616,
+            675,
+            616
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            675,
+            653,
+            1060,
+            675
+          ],
+          "text": "Same ply / side / geometry counts."
+        },
+        {
+          "bounds": [
+            675,
+            686,
+            1189,
+            708
+          ],
+          "text": "Occupied squares differ; external masks differ."
+        },
+        {
+          "bounds": [
+            675,
+            719,
+            1109,
+            741
+          ],
+          "text": "299 legal set {abcdeh}; 524 {abefgh}."
+        },
+        {
+          "bounds": [
+            675,
+            748,
+            675,
+            748
+          ],
+          "text": ""
+        },
+        {
+          "bounds": [
+            674,
+            785,
+            1114,
+            807
+          ],
+          "text": "The full integer logits are NOT identical."
+        },
+        {
+          "bounds": [
+            675,
+            818,
+            1103,
+            840
+          ],
+          "text": "No full-logit collision on all 627 boards."
+        },
+        {
+          "bounds": [
+            675,
+            851,
+            1142,
+            873
+          ],
+          "text": "Sign equality is weaker than logit equality."
+        },
+        {
+          "bounds": [
+            30,
+            1004,
+            1010,
+            1023
+          ],
+          "text": "Geometry controls: own/opponent corner, edge, center counts. Tactical labels describe geometry;"
+        },
+        {
+          "bounds": [
+            30,
+            1036,
+            1225,
+            1055
+          ],
+          "text": "an immediate threat need not have one uniquely saving block on an already lost board. Exact data: examples011.json."
+        }
+      ],
+      "width": 1400
+    }
+  ],
+  "no_projection_proof": true
+}

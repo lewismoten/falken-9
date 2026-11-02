@@ -1,0 +1,1 @@
+{"pre_round_convention":"readout + output bias + all routed unit paths + expert biases; all named rounding/clamp residuals omitted ONLY for this descriptive comparison","legal_sign_change_coordinates":[],"max_abs_combined_residual":11.964528487931602,"not_a_new_inference_contract":true}

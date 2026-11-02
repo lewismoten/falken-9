@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="930" viewBox="0 0 1380 930"><rect width="100%" height="100%" fill="#f5f7fb"/>
+<text x="30" y="44" font-family="DejaVu Sans Mono" font-size="24" fill="#172438">A | Actual counterexample: separate safe changes can combine into a sign flip</text>
+<text x="30" y="80" font-family="DejaVu Sans Mono" font-size="18" fill="#172438">original-row0-b0-w0 | canonical #38, output row0; square0 is legal</text>
+<rect x="45" y="125" width="75" height="75" fill="#ffded7" stroke="#7b8798" stroke-width="1"/>
+<text x="52" y="142" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">0</text>
+<rect x="120" y="125" width="75" height="75" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="127" y="142" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">1</text>
+<rect x="195" y="125" width="75" height="75" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="202" y="142" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">2</text>
+<text x="217" y="171" font-family="DejaVu Sans Mono" font-size="29" fill="#172438">X</text>
+<rect x="45" y="200" width="75" height="75" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="52" y="217" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">3</text>
+<rect x="120" y="200" width="75" height="75" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="127" y="217" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">4</text>
+<text x="142" y="246" font-family="DejaVu Sans Mono" font-size="29" fill="#172438">O</text>
+<rect x="195" y="200" width="75" height="75" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="202" y="217" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">5</text>
+<text x="217" y="246" font-family="DejaVu Sans Mono" font-size="29" fill="#172438">O</text>
+<rect x="45" y="275" width="75" height="75" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="52" y="292" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">6</text>
+<text x="67" y="321" font-family="DejaVu Sans Mono" font-size="29" fill="#172438">X</text>
+<rect x="120" y="275" width="75" height="75" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="127" y="292" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">7</text>
+<text x="142" y="321" font-family="DejaVu Sans Mono" font-size="29" fill="#172438">O</text>
+<rect x="195" y="275" width="75" height="75" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="202" y="292" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">8</text>
+<text x="217" y="321" font-family="DejaVu Sans Mono" font-size="29" fill="#172438">X</text>
+<text x="45" y="381" font-family="DejaVu Sans Mono" font-size="16" fill="#172438">X=first player; O=second</text>
+<text x="45" y="410" font-family="DejaVu Sans Mono" font-size="15" fill="#172438">Baseline legal set: [0, 1, 3]</text>
+<text x="45" y="440" font-family="DejaVu Sans Mono" font-size="15" fill="#172438">Changed legal set: [1, 3]</text>
+<text x="350" y="141" font-family="DejaVu Sans Mono" font-size="21" fill="#172438">B | Exact arithmetic for this same board</text>
+<text x="350" y="182" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">merged[0] = 17009; other dot = -136054925</text>
+<text x="350" y="222" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">score = round_half_away((other + merged[0]*w)/4096) + b</text>
+<text x="350" y="262" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">Original codes: b=1634, w=8921; score 5463</text>
+<text x="350" y="302" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">Bias endpoint alone: b=-1355, w=8921; score 2474</text>
+<text x="350" y="342" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">Weight endpoint alone: b=1634, w=7957; score 1460</text>
+<text x="350" y="382" font-family="DejaVu Sans Mono" font-size="17" fill="#b64d32">JOINT: b=-1355, w=7957; score -1529</text>
+<text x="350" y="435" font-family="DejaVu Sans Mono" font-size="15" fill="#172438">Joint score above: observed FULL network; single-coordinate scores: exact scalar head.</text>
+<text x="350" y="465" font-family="DejaVu Sans Mono" font-size="15" fill="#172438">Source013 independently validated each one-coordinate endpoint. Zero counts as a member.</text>
+<text x="30" y="533" font-family="DejaVu Sans Mono" font-size="23" fill="#172438">C | Accepted 8/16 box: actual worst-case full-network witness for row0</text>
+<rect x="45" y="560" width="65" height="65" fill="#ffded7" stroke="#7b8798" stroke-width="1"/>
+<text x="52" y="577" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">0</text>
+<rect x="110" y="560" width="65" height="65" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="117" y="577" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">1</text>
+<rect x="175" y="560" width="65" height="65" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="182" y="577" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">2</text>
+<text x="197" y="606" font-family="DejaVu Sans Mono" font-size="29" fill="#172438">X</text>
+<rect x="45" y="625" width="65" height="65" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="52" y="642" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">3</text>
+<text x="67" y="671" font-family="DejaVu Sans Mono" font-size="29" fill="#172438">X</text>
+<rect x="110" y="625" width="65" height="65" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="117" y="642" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">4</text>
+<text x="132" y="671" font-family="DejaVu Sans Mono" font-size="29" fill="#172438">O</text>
+<rect x="175" y="625" width="65" height="65" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="182" y="642" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">5</text>
+<rect x="45" y="690" width="65" height="65" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="52" y="707" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">6</text>
+<rect x="110" y="690" width="65" height="65" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="117" y="707" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">7</text>
+<rect x="175" y="690" width="65" height="65" fill="#ffffff" stroke="#7b8798" stroke-width="1"/>
+<text x="182" y="707" font-family="DejaVu Sans Mono" font-size="12" fill="#566377">8</text>
+<text x="197" y="736" font-family="DejaVu Sans Mono" font-size="29" fill="#172438">O</text>
+<text x="300" y="575" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">Canonical #474: member-min</text>
+<text x="300" y="607" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">Full network score: 1287; baseline 2989</text>
+<text x="300" y="639" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">Corner codes: b=140, w=9418</text>
+<text x="300" y="671" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">All627 canonical and4520 raw sets/ties unchanged.</text>
+<text x="300" y="703" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">PROOF: each legal member has min score &gt;=0;</text>
+<text x="300" y="735" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">each legal nonmember has max score &lt;0.</text>
+<text x="300" y="767" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">Rows separate, so all18-coordinate combinations satisfy these bounds.</text>
+<text x="30" y="817" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">OBSERVATIONS: 36 original row corners +18 accepted extrema +4 whole-box patterns; 58 full restorations.</text>
+<text x="30" y="855" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">CERTIFICATE: affine dot extrema + monotone exact rounding; independent exhaustive weight/bias bands.</text>
+<text x="30" y="893" font-family="DejaVu Sans Mono" font-size="17" fill="#172438">Not 2^18 neural batches; no retraining, novel-input inference, probability, export or target timing claim.</text>
+</svg>

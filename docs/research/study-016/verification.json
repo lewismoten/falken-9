@@ -1,0 +1,217 @@
+{
+  "artifact_sha256": {
+    "REPORT016.md": "d961666fbc22d4efe0d765d98fda4b7c94751050117c0f6b341477e6d56507cd",
+    "branching-example016.png": "06b11a374e4f58ab74f72b332888ebab22fa587d0d8d7c1ba375d24ea48e65e7",
+    "branching-example016.svg": "998ad4a1408b9a2b732a2ac3894bcc3e07d2f69a8bb3af30a1902bfe641f3726",
+    "dag-1-accepted016.json": "b99d759b613d4812987954e2d8a71da6a617189f48e7e309d49739d07db046ac",
+    "dag-1-largest_score016.json": "6b1f4f2ed14db5ac8035f491615a2ea6ae9c305716c1c5e96049eed6fa4241ac",
+    "dag-1-reversed016.json": "4ec5d64588e85b6aa81f016b0c5c01b6dfb7d3fc777cde784c3c542b303f2479",
+    "dag-2-accepted016.json": "b97492e94cdbd18ef84551401ad9a16fdad935128a7aed363ddff0d920ee86a5",
+    "dag-2-largest_score016.json": "c5c0523747e4b5dee67159e58df45bdeb741574c38a222e1975e3cac655c3d66",
+    "dag-2-reversed016.json": "b44d8103964dc1c0fb7990fd0485fde1a018b2a22885896d6d9482c2e59ce51c",
+    "domain016.npz": "3f234a76166d8498398c5dc78deb0c2a7b06f017b911f9bcdd04a9cea4f9e662",
+    "example016.json": "bf165de803da43f0ba8f9e6cc5b7a3b1dd9c491a101e126894fcd6c5ad911b4e",
+    "figure-metadata016.json": "d0cec41a145aa840368142a75f1c78b629b242ae21d9b5eb461da3ac029aa7a8",
+    "independent-audit016.json": "6b5882aa83a95c66664424509df6badc7c5545bfa7680c793a27eba8e8864731",
+    "raw-bindings016.json": "f0e0d955fd0282fd74360e0b0430ebc71b433dfdc06fbaf4109ceeccc205bdfc",
+    "results016.json": "ed8a13b06aab50a93fd3702fdd97c0c285448b378a2809837f0ed339999f5f23",
+    "roles-outcomes016.png": "f03955ea4fe901b7d3f1a14312a669eee3a1cbcc28b24e54ddf29b7f09daa5ed",
+    "roles-outcomes016.svg": "9dbd8143476444de5a8527fa348dca1bf95aa6c26d8057000bc915be9f8a8679"
+  },
+  "bundle": {
+    "bytes": 1740123,
+    "files": 84,
+    "model_included": false,
+    "observed_public_urls": [
+      "http://www.w3.org/1999/xlink",
+      "http://www.w3.org/2000/svg",
+      "https://github.com/lewismoten/",
+      "https://github.com/lewismoten/crystal-9)",
+      "https://github.com/lewismoten/crystal-palace)",
+      "https://github.com/lewismoten/falcon-9)",
+      "https://huggingface.co/",
+      "https://huggingface.co/datasets/{DATASET_REPOSITORY}/resolve/{DATASET_REVISION}/{remote}",
+      "https://huggingface.co/lewismoten/falcon-9)"
+    ],
+    "path": "/home/ai/falken9-opponent-study-016/study016-source-evidence.zip",
+    "rebuild_byte_identical": true,
+    "runtime_binaries_included": false,
+    "secrets_or_private_endpoints_found": false,
+    "sha256": "2eaec74deff60cbbbcfbe786b3cf4fc395aa407444a08b056f1ac12e6dbe435b"
+  },
+  "elapsed_seconds": 1076.444958,
+  "figures": [
+    "roles-outcomes016.png",
+    "roles-outcomes016.svg",
+    "branching-example016.png",
+    "branching-example016.svg"
+  ],
+  "finished_utc": "2026-11-01T17:52:21.444958+00:00",
+  "fresh_extraction_passed": true,
+  "further_studies": false,
+  "independent_audit": {
+    "explicit_all_human_reply_adversarial_tree": true,
+    "independent_arbitrary_int_full_forwards": 627,
+    "independent_bottom_up_rational_DP": true,
+    "independent_geometry": true,
+    "independent_packet_decoder": true,
+    "native_execution": false,
+    "panels": [
+      {
+        "adversarial_all_legal_human_replies": true,
+        "all_reachable_state_values_checked": 120,
+        "complete_history_leaves": 108,
+        "independent_bottom_up_DP": true,
+        "independent_rational_leaf_sum": true,
+        "loss_leaves": 0,
+        "loss_witness": null,
+        "policy": "accepted",
+        "role": "X",
+        "worst_case_from_empty": "draw"
+      },
+      {
+        "adversarial_all_legal_human_replies": true,
+        "all_reachable_state_values_checked": 180,
+        "complete_history_leaves": 187,
+        "independent_bottom_up_DP": true,
+        "independent_rational_leaf_sum": true,
+        "loss_leaves": 0,
+        "loss_witness": null,
+        "policy": "reversed",
+        "role": "X",
+        "worst_case_from_empty": "draw"
+      },
+      {
+        "adversarial_all_legal_human_replies": true,
+        "all_reachable_state_values_checked": 200,
+        "complete_history_leaves": 167,
+        "independent_bottom_up_DP": true,
+        "independent_rational_leaf_sum": true,
+        "loss_leaves": 0,
+        "loss_witness": null,
+        "policy": "largest_score",
+        "role": "X",
+        "worst_case_from_empty": "draw"
+      },
+      {
+        "adversarial_all_legal_human_replies": true,
+        "all_reachable_state_values_checked": 455,
+        "complete_history_leaves": 561,
+        "independent_bottom_up_DP": true,
+        "independent_rational_leaf_sum": true,
+        "loss_leaves": 0,
+        "loss_witness": null,
+        "policy": "accepted",
+        "role": "O",
+        "worst_case_from_empty": "draw"
+      },
+      {
+        "adversarial_all_legal_human_replies": true,
+        "all_reachable_state_values_checked": 674,
+        "complete_history_leaves": 675,
+        "independent_bottom_up_DP": true,
+        "independent_rational_leaf_sum": true,
+        "loss_leaves": 0,
+        "loss_witness": null,
+        "policy": "reversed",
+        "role": "O",
+        "worst_case_from_empty": "draw"
+      },
+      {
+        "adversarial_all_legal_human_replies": true,
+        "all_reachable_state_values_checked": 716,
+        "complete_history_leaves": 589,
+        "independent_bottom_up_DP": true,
+        "independent_rational_leaf_sum": true,
+        "loss_leaves": 0,
+        "loss_witness": null,
+        "policy": "largest_score",
+        "role": "O",
+        "worst_case_from_empty": "draw"
+      }
+    ],
+    "passed": true,
+    "raw_whole_set_minimax_inverse_tie_checks": 4520,
+    "stage_array_checks": 13167,
+    "stage_scalar_checks": 533577
+  },
+  "issues": [
+    "Matplotlib unavailable; replaced with existing Pillow plus explicit SVG, no installation or panel change.",
+    "One concurrently parent-updated mutable main research verification document is explicitly excluded in preservation-exceptions016.json; original baseline and both observed hashes retained."
+  ],
+  "manifest_sha256": "6805ef385fb0efad4aa0681f3a87d6bf4654b0408c63028f8bca73f82a7427e8",
+  "native_replay": false,
+  "packet_bytes": 5195,
+  "packet_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "panels": [
+    {
+      "draw": "1/96",
+      "expected_terminal_marks": "93/16",
+      "loss": "0",
+      "policy": "accepted",
+      "role": "X",
+      "supported_games": 108,
+      "win": "95/96"
+    },
+    {
+      "draw": "1/96",
+      "expected_terminal_marks": "659/96",
+      "loss": "0",
+      "policy": "reversed",
+      "role": "X",
+      "supported_games": 187,
+      "win": "95/96"
+    },
+    {
+      "draw": "1/96",
+      "expected_terminal_marks": "211/32",
+      "loss": "0",
+      "policy": "largest_score",
+      "role": "X",
+      "supported_games": 167,
+      "win": "95/96"
+    },
+    {
+      "draw": "97/945",
+      "expected_terminal_marks": "1301/189",
+      "loss": "0",
+      "policy": "accepted",
+      "role": "O",
+      "supported_games": 561,
+      "win": "848/945"
+    },
+    {
+      "draw": "241/945",
+      "expected_terminal_marks": "6991/945",
+      "loss": "0",
+      "policy": "reversed",
+      "role": "O",
+      "supported_games": 675,
+      "win": "704/945"
+    },
+    {
+      "draw": "131/945",
+      "expected_terminal_marks": "6623/945",
+      "loss": "0",
+      "policy": "largest_score",
+      "role": "O",
+      "supported_games": 589,
+      "win": "814/945"
+    }
+  ],
+  "preserved_files": 7175,
+  "protected_roots": {
+    "/home/ai/falken-9": 5282,
+    "/home/ai/falken9-coordinate-study-013": 86,
+    "/home/ai/falken9-joint-study-014": 89,
+    "/home/ai/falken9-playpath-study-015": 226,
+    "/home/ai/falken9-strategy-study-003": 1492
+  },
+  "relocation_only_difference": "absolute imports provenance in results016.json",
+  "report": "/home/ai/falken9-opponent-study-016/results016/REPORT016.md",
+  "runtime_model_changes": false,
+  "same_workspace_byte_identical_artifacts": 17,
+  "status": "COMPLETE \u2014 stop after016",
+  "tests": "7 tests passed (real neural binding integration included)",
+  "training": false
+}

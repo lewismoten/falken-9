@@ -1,0 +1,590 @@
+{
+  "all_representable_codes_enumerated": true,
+  "certificates_verified": 18,
+  "code_byte_evidence": [
+    {
+      "new_code": -1355,
+      "new_signed16_hex": "b5fa",
+      "old_code": 1634,
+      "old_signed16_hex": "6206",
+      "source_byte_offset": 3125,
+      "validation": "bias-0-lower-endpoint"
+    },
+    {
+      "new_code": -1356,
+      "new_signed16_hex": "b4fa",
+      "old_code": 1634,
+      "old_signed16_hex": "6206",
+      "source_byte_offset": 3125,
+      "validation": "bias-0-lower-nearest-failure"
+    },
+    {
+      "new_code": 6524,
+      "new_signed16_hex": "7c19",
+      "old_code": 1634,
+      "old_signed16_hex": "6206",
+      "source_byte_offset": 3125,
+      "validation": "bias-0-upper-endpoint"
+    },
+    {
+      "new_code": 6525,
+      "new_signed16_hex": "7d19",
+      "old_code": 1634,
+      "old_signed16_hex": "6206",
+      "source_byte_offset": 3125,
+      "validation": "bias-0-upper-nearest-failure"
+    },
+    {
+      "new_code": 861,
+      "new_signed16_hex": "5d03",
+      "old_code": 915,
+      "old_signed16_hex": "9303",
+      "source_byte_offset": 3127,
+      "validation": "bias-1-lower-endpoint"
+    },
+    {
+      "new_code": 860,
+      "new_signed16_hex": "5c03",
+      "old_code": 915,
+      "old_signed16_hex": "9303",
+      "source_byte_offset": 3127,
+      "validation": "bias-1-lower-nearest-failure"
+    },
+    {
+      "new_code": 3023,
+      "new_signed16_hex": "cf0b",
+      "old_code": 915,
+      "old_signed16_hex": "9303",
+      "source_byte_offset": 3127,
+      "validation": "bias-1-upper-endpoint"
+    },
+    {
+      "new_code": 3024,
+      "new_signed16_hex": "d00b",
+      "old_code": 915,
+      "old_signed16_hex": "9303",
+      "source_byte_offset": 3127,
+      "validation": "bias-1-upper-nearest-failure"
+    },
+    {
+      "new_code": -6996,
+      "new_signed16_hex": "ace4",
+      "old_code": -2758,
+      "old_signed16_hex": "3af5",
+      "source_byte_offset": 3129,
+      "validation": "bias-2-lower-endpoint"
+    },
+    {
+      "new_code": -6997,
+      "new_signed16_hex": "abe4",
+      "old_code": -2758,
+      "old_signed16_hex": "3af5",
+      "source_byte_offset": 3129,
+      "validation": "bias-2-lower-nearest-failure"
+    },
+    {
+      "new_code": 1746,
+      "new_signed16_hex": "d206",
+      "old_code": -2758,
+      "old_signed16_hex": "3af5",
+      "source_byte_offset": 3129,
+      "validation": "bias-2-upper-endpoint"
+    },
+    {
+      "new_code": 1747,
+      "new_signed16_hex": "d306",
+      "old_code": -2758,
+      "old_signed16_hex": "3af5",
+      "source_byte_offset": 3129,
+      "validation": "bias-2-upper-nearest-failure"
+    },
+    {
+      "new_code": -11490,
+      "new_signed16_hex": "1ed3",
+      "old_code": -6053,
+      "old_signed16_hex": "5be8",
+      "source_byte_offset": 3131,
+      "validation": "bias-3-lower-endpoint"
+    },
+    {
+      "new_code": -11491,
+      "new_signed16_hex": "1dd3",
+      "old_code": -6053,
+      "old_signed16_hex": "5be8",
+      "source_byte_offset": 3131,
+      "validation": "bias-3-lower-nearest-failure"
+    },
+    {
+      "new_code": -216,
+      "new_signed16_hex": "28ff",
+      "old_code": -6053,
+      "old_signed16_hex": "5be8",
+      "source_byte_offset": 3131,
+      "validation": "bias-3-upper-endpoint"
+    },
+    {
+      "new_code": -215,
+      "new_signed16_hex": "29ff",
+      "old_code": -6053,
+      "old_signed16_hex": "5be8",
+      "source_byte_offset": 3131,
+      "validation": "bias-3-upper-nearest-failure"
+    },
+    {
+      "new_code": -3962,
+      "new_signed16_hex": "86f0",
+      "old_code": -296,
+      "old_signed16_hex": "d8fe",
+      "source_byte_offset": 3133,
+      "validation": "bias-4-lower-endpoint"
+    },
+    {
+      "new_code": -3963,
+      "new_signed16_hex": "85f0",
+      "old_code": -296,
+      "old_signed16_hex": "d8fe",
+      "source_byte_offset": 3133,
+      "validation": "bias-4-lower-nearest-failure"
+    },
+    {
+      "new_code": 3363,
+      "new_signed16_hex": "230d",
+      "old_code": -296,
+      "old_signed16_hex": "d8fe",
+      "source_byte_offset": 3133,
+      "validation": "bias-4-upper-endpoint"
+    },
+    {
+      "new_code": 3364,
+      "new_signed16_hex": "240d",
+      "old_code": -296,
+      "old_signed16_hex": "d8fe",
+      "source_byte_offset": 3133,
+      "validation": "bias-4-upper-nearest-failure"
+    },
+    {
+      "new_code": -13463,
+      "new_signed16_hex": "69cb",
+      "old_code": -8029,
+      "old_signed16_hex": "a3e0",
+      "source_byte_offset": 3135,
+      "validation": "bias-5-lower-endpoint"
+    },
+    {
+      "new_code": -13464,
+      "new_signed16_hex": "68cb",
+      "old_code": -8029,
+      "old_signed16_hex": "a3e0",
+      "source_byte_offset": 3135,
+      "validation": "bias-5-lower-nearest-failure"
+    },
+    {
+      "new_code": -3363,
+      "new_signed16_hex": "ddf2",
+      "old_code": -8029,
+      "old_signed16_hex": "a3e0",
+      "source_byte_offset": 3135,
+      "validation": "bias-5-upper-endpoint"
+    },
+    {
+      "new_code": -3362,
+      "new_signed16_hex": "def2",
+      "old_code": -8029,
+      "old_signed16_hex": "a3e0",
+      "source_byte_offset": 3135,
+      "validation": "bias-5-upper-nearest-failure"
+    },
+    {
+      "new_code": -13696,
+      "new_signed16_hex": "80ca",
+      "old_code": -9588,
+      "old_signed16_hex": "8cda",
+      "source_byte_offset": 3137,
+      "validation": "bias-6-lower-endpoint"
+    },
+    {
+      "new_code": -13697,
+      "new_signed16_hex": "7fca",
+      "old_code": -9588,
+      "old_signed16_hex": "8cda",
+      "source_byte_offset": 3137,
+      "validation": "bias-6-lower-nearest-failure"
+    },
+    {
+      "new_code": -6139,
+      "new_signed16_hex": "05e8",
+      "old_code": -9588,
+      "old_signed16_hex": "8cda",
+      "source_byte_offset": 3137,
+      "validation": "bias-6-upper-endpoint"
+    },
+    {
+      "new_code": -6138,
+      "new_signed16_hex": "06e8",
+      "old_code": -9588,
+      "old_signed16_hex": "8cda",
+      "source_byte_offset": 3137,
+      "validation": "bias-6-upper-nearest-failure"
+    },
+    {
+      "new_code": -8842,
+      "new_signed16_hex": "76dd",
+      "old_code": -6604,
+      "old_signed16_hex": "34e6",
+      "source_byte_offset": 3139,
+      "validation": "bias-7-lower-endpoint"
+    },
+    {
+      "new_code": -8843,
+      "new_signed16_hex": "75dd",
+      "old_code": -6604,
+      "old_signed16_hex": "34e6",
+      "source_byte_offset": 3139,
+      "validation": "bias-7-lower-nearest-failure"
+    },
+    {
+      "new_code": -4203,
+      "new_signed16_hex": "95ef",
+      "old_code": -6604,
+      "old_signed16_hex": "34e6",
+      "source_byte_offset": 3139,
+      "validation": "bias-7-upper-endpoint"
+    },
+    {
+      "new_code": -4202,
+      "new_signed16_hex": "96ef",
+      "old_code": -6604,
+      "old_signed16_hex": "34e6",
+      "source_byte_offset": 3139,
+      "validation": "bias-7-upper-nearest-failure"
+    },
+    {
+      "new_code": 3353,
+      "new_signed16_hex": "190d",
+      "old_code": 8191,
+      "old_signed16_hex": "ff1f",
+      "source_byte_offset": 3141,
+      "validation": "bias-8-lower-endpoint"
+    },
+    {
+      "new_code": 3352,
+      "new_signed16_hex": "180d",
+      "old_code": 8191,
+      "old_signed16_hex": "ff1f",
+      "source_byte_offset": 3141,
+      "validation": "bias-8-lower-nearest-failure"
+    },
+    {
+      "new_code": 12001,
+      "new_signed16_hex": "e12e",
+      "old_code": 8191,
+      "old_signed16_hex": "ff1f",
+      "source_byte_offset": 3141,
+      "validation": "bias-8-upper-endpoint"
+    },
+    {
+      "new_code": 12002,
+      "new_signed16_hex": "e22e",
+      "old_code": 8191,
+      "old_signed16_hex": "ff1f",
+      "source_byte_offset": 3141,
+      "validation": "bias-8-upper-nearest-failure"
+    },
+    {
+      "new_code": 7957,
+      "new_signed16_hex": "151f",
+      "old_code": 8921,
+      "old_signed16_hex": "d922",
+      "source_byte_offset": 2981,
+      "validation": "weight-0-0-lower-endpoint"
+    },
+    {
+      "new_code": 7956,
+      "new_signed16_hex": "141f",
+      "old_code": 8921,
+      "old_signed16_hex": "d922",
+      "source_byte_offset": 2981,
+      "validation": "weight-0-0-lower-nearest-failure"
+    },
+    {
+      "new_code": 9916,
+      "new_signed16_hex": "bc26",
+      "old_code": 8921,
+      "old_signed16_hex": "d922",
+      "source_byte_offset": 2981,
+      "validation": "weight-0-0-upper-endpoint"
+    },
+    {
+      "new_code": 9917,
+      "new_signed16_hex": "bd26",
+      "old_code": 8921,
+      "old_signed16_hex": "d922",
+      "source_byte_offset": 2981,
+      "validation": "weight-0-0-upper-nearest-failure"
+    },
+    {
+      "new_code": -2925,
+      "new_signed16_hex": "93f4",
+      "old_code": -2869,
+      "old_signed16_hex": "cbf4",
+      "source_byte_offset": 2997,
+      "validation": "weight-1-0-lower-endpoint"
+    },
+    {
+      "new_code": -2926,
+      "new_signed16_hex": "92f4",
+      "old_code": -2869,
+      "old_signed16_hex": "cbf4",
+      "source_byte_offset": 2997,
+      "validation": "weight-1-0-lower-nearest-failure"
+    },
+    {
+      "new_code": -1857,
+      "new_signed16_hex": "bff8",
+      "old_code": -2869,
+      "old_signed16_hex": "cbf4",
+      "source_byte_offset": 2997,
+      "validation": "weight-1-0-upper-endpoint"
+    },
+    {
+      "new_code": -1856,
+      "new_signed16_hex": "c0f8",
+      "old_code": -2869,
+      "old_signed16_hex": "cbf4",
+      "source_byte_offset": 2997,
+      "validation": "weight-1-0-upper-nearest-failure"
+    },
+    {
+      "new_code": 3754,
+      "new_signed16_hex": "aa0e",
+      "old_code": 5207,
+      "old_signed16_hex": "5714",
+      "source_byte_offset": 3013,
+      "validation": "weight-2-0-lower-endpoint"
+    },
+    {
+      "new_code": 3753,
+      "new_signed16_hex": "a90e",
+      "old_code": 5207,
+      "old_signed16_hex": "5714",
+      "source_byte_offset": 3013,
+      "validation": "weight-2-0-lower-nearest-failure"
+    },
+    {
+      "new_code": 6306,
+      "new_signed16_hex": "a218",
+      "old_code": 5207,
+      "old_signed16_hex": "5714",
+      "source_byte_offset": 3013,
+      "validation": "weight-2-0-upper-endpoint"
+    },
+    {
+      "new_code": 6307,
+      "new_signed16_hex": "a318",
+      "old_code": 5207,
+      "old_signed16_hex": "5714",
+      "source_byte_offset": 3013,
+      "validation": "weight-2-0-upper-nearest-failure"
+    },
+    {
+      "new_code": -14602,
+      "new_signed16_hex": "f6c6",
+      "old_code": -12665,
+      "old_signed16_hex": "87ce",
+      "source_byte_offset": 3029,
+      "validation": "weight-3-0-lower-endpoint"
+    },
+    {
+      "new_code": -14603,
+      "new_signed16_hex": "f5c6",
+      "old_code": -12665,
+      "old_signed16_hex": "87ce",
+      "source_byte_offset": 3029,
+      "validation": "weight-3-0-lower-nearest-failure"
+    },
+    {
+      "new_code": -10991,
+      "new_signed16_hex": "11d5",
+      "old_code": -12665,
+      "old_signed16_hex": "87ce",
+      "source_byte_offset": 3029,
+      "validation": "weight-3-0-upper-endpoint"
+    },
+    {
+      "new_code": -10990,
+      "new_signed16_hex": "12d5",
+      "old_code": -12665,
+      "old_signed16_hex": "87ce",
+      "source_byte_offset": 3029,
+      "validation": "weight-3-0-upper-nearest-failure"
+    },
+    {
+      "new_code": 14919,
+      "new_signed16_hex": "473a",
+      "old_code": 17934,
+      "old_signed16_hex": "0e46",
+      "source_byte_offset": 3045,
+      "validation": "weight-4-0-lower-endpoint"
+    },
+    {
+      "new_code": 14918,
+      "new_signed16_hex": "463a",
+      "old_code": 17934,
+      "old_signed16_hex": "0e46",
+      "source_byte_offset": 3045,
+      "validation": "weight-4-0-lower-nearest-failure"
+    },
+    {
+      "new_code": 21001,
+      "new_signed16_hex": "0952",
+      "old_code": 17934,
+      "old_signed16_hex": "0e46",
+      "source_byte_offset": 3045,
+      "validation": "weight-4-0-upper-endpoint"
+    },
+    {
+      "new_code": 21002,
+      "new_signed16_hex": "0a52",
+      "old_code": 17934,
+      "old_signed16_hex": "0e46",
+      "source_byte_offset": 3045,
+      "validation": "weight-4-0-upper-nearest-failure"
+    },
+    {
+      "new_code": 24579,
+      "new_signed16_hex": "0360",
+      "old_code": 26308,
+      "old_signed16_hex": "c466",
+      "source_byte_offset": 3061,
+      "validation": "weight-5-0-lower-endpoint"
+    },
+    {
+      "new_code": 24578,
+      "new_signed16_hex": "0260",
+      "old_code": 26308,
+      "old_signed16_hex": "c466",
+      "source_byte_offset": 3061,
+      "validation": "weight-5-0-lower-nearest-failure"
+    },
+    {
+      "new_code": 28434,
+      "new_signed16_hex": "126f",
+      "old_code": 26308,
+      "old_signed16_hex": "c466",
+      "source_byte_offset": 3061,
+      "validation": "weight-5-0-upper-endpoint"
+    },
+    {
+      "new_code": 28435,
+      "new_signed16_hex": "136f",
+      "old_code": 26308,
+      "old_signed16_hex": "c466",
+      "source_byte_offset": 3061,
+      "validation": "weight-5-0-upper-nearest-failure"
+    },
+    {
+      "new_code": 8654,
+      "new_signed16_hex": "ce21",
+      "old_code": 9969,
+      "old_signed16_hex": "f126",
+      "source_byte_offset": 3077,
+      "validation": "weight-6-0-lower-endpoint"
+    },
+    {
+      "new_code": 8653,
+      "new_signed16_hex": "cd21",
+      "old_code": 9969,
+      "old_signed16_hex": "f126",
+      "source_byte_offset": 3077,
+      "validation": "weight-6-0-lower-nearest-failure"
+    },
+    {
+      "new_code": 11235,
+      "new_signed16_hex": "e32b",
+      "old_code": 9969,
+      "old_signed16_hex": "f126",
+      "source_byte_offset": 3077,
+      "validation": "weight-6-0-upper-endpoint"
+    },
+    {
+      "new_code": 11236,
+      "new_signed16_hex": "e42b",
+      "old_code": 9969,
+      "old_signed16_hex": "f126",
+      "source_byte_offset": 3077,
+      "validation": "weight-6-0-upper-nearest-failure"
+    },
+    {
+      "new_code": 11129,
+      "new_signed16_hex": "792b",
+      "old_code": 13312,
+      "old_signed16_hex": "0034",
+      "source_byte_offset": 3093,
+      "validation": "weight-7-0-lower-endpoint"
+    },
+    {
+      "new_code": 11128,
+      "new_signed16_hex": "782b",
+      "old_code": 13312,
+      "old_signed16_hex": "0034",
+      "source_byte_offset": 3093,
+      "validation": "weight-7-0-lower-nearest-failure"
+    },
+    {
+      "new_code": 16952,
+      "new_signed16_hex": "3842",
+      "old_code": 13312,
+      "old_signed16_hex": "0034",
+      "source_byte_offset": 3093,
+      "validation": "weight-7-0-upper-endpoint"
+    },
+    {
+      "new_code": 16953,
+      "new_signed16_hex": "3942",
+      "old_code": 13312,
+      "old_signed16_hex": "0034",
+      "source_byte_offset": 3093,
+      "validation": "weight-7-0-upper-nearest-failure"
+    },
+    {
+      "new_code": 14470,
+      "new_signed16_hex": "8638",
+      "old_code": 16013,
+      "old_signed16_hex": "8d3e",
+      "source_byte_offset": 3109,
+      "validation": "weight-8-0-lower-endpoint"
+    },
+    {
+      "new_code": 14469,
+      "new_signed16_hex": "8538",
+      "old_code": 16013,
+      "old_signed16_hex": "8d3e",
+      "source_byte_offset": 3109,
+      "validation": "weight-8-0-lower-nearest-failure"
+    },
+    {
+      "new_code": 17039,
+      "new_signed16_hex": "8f42",
+      "old_code": 16013,
+      "old_signed16_hex": "8d3e",
+      "source_byte_offset": 3109,
+      "validation": "weight-8-0-upper-endpoint"
+    },
+    {
+      "new_code": 17040,
+      "new_signed16_hex": "9042",
+      "old_code": 16013,
+      "old_signed16_hex": "8d3e",
+      "source_byte_offset": 3109,
+      "validation": "weight-8-0-upper-nearest-failure"
+    }
+  ],
+  "independent_canonical_boards": 627,
+  "independent_raw_boards": 4520,
+  "independent_reachability_minimax_D4_masks_ties": true,
+  "independent_scalar_full_head_checks": 411939,
+  "independent_signed16_code_board_sign_evaluations": 297533440,
+  "no_shared_threshold_or_decoder_or_policy_arithmetic": true,
+  "packet_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "pass_all": true
+}

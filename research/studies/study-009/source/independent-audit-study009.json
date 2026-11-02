@@ -1,0 +1,286 @@
+{
+  "actual_target_execution": false,
+  "all_clean_restorations_exact": true,
+  "all_merged_restore_logits_exact": true,
+  "all_self_controls_exact": true,
+  "clipping": 0,
+  "figures_structurally_verified": 5,
+  "final_affine_scalar_checks": 135432,
+  "gate_scalar_checks": 30096,
+  "historical_INT8_reproduction": false,
+  "independent_raw_alignments": 4520,
+  "merged_scalar_checks": 100320,
+  "norm2_scalar_checks": 120384,
+  "prior_files_unchanged": 1114,
+  "quantization_scalar_checks": 736,
+  "raw_member_scalar_checks": 976320,
+  "raw_public_wrapper_calls": 108480,
+  "restoration_contrasts": [
+    {
+      "canonical": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 0,
+        "full_sets_restored": 1,
+        "introduced_set_damage": 0
+      },
+      "raw": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 0,
+        "full_sets_restored": 8,
+        "introduced_set_damage": 0
+      },
+      "scope": "query",
+      "variant": "restore-baseline-router-scores"
+    },
+    {
+      "canonical": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 0,
+        "full_sets_restored": 1,
+        "introduced_set_damage": 0
+      },
+      "raw": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 0,
+        "full_sets_restored": 8,
+        "introduced_set_damage": 0
+      },
+      "scope": "query",
+      "variant": "restore-baseline-merged"
+    },
+    {
+      "canonical": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 1,
+        "full_sets_restored": 2,
+        "introduced_set_damage": 0
+      },
+      "raw": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 11,
+        "full_sets_restored": 16,
+        "introduced_set_damage": 0
+      },
+      "scope": "value",
+      "variant": "restore-baseline-router-scores"
+    },
+    {
+      "canonical": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 1,
+        "full_sets_restored": 3,
+        "introduced_set_damage": 0
+      },
+      "raw": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 11,
+        "full_sets_restored": 20,
+        "introduced_set_damage": 0
+      },
+      "scope": "value",
+      "variant": "restore-baseline-merged"
+    },
+    {
+      "canonical": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 0,
+        "full_sets_restored": 1,
+        "introduced_set_damage": 0
+      },
+      "raw": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 4,
+        "full_sets_restored": 8,
+        "introduced_set_damage": 0
+      },
+      "scope": "router",
+      "variant": "restore-baseline-router-scores"
+    },
+    {
+      "canonical": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 0,
+        "full_sets_restored": 1,
+        "introduced_set_damage": 0
+      },
+      "raw": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 4,
+        "full_sets_restored": 8,
+        "introduced_set_damage": 0
+      },
+      "scope": "router",
+      "variant": "restore-baseline-merged"
+    },
+    {
+      "canonical": {
+        "chosen_introduced_damage": 1,
+        "chosen_rescued": 5,
+        "full_sets_restored": 11,
+        "introduced_set_damage": 1
+      },
+      "raw": {
+        "chosen_introduced_damage": 8,
+        "chosen_rescued": 34,
+        "full_sets_restored": 84,
+        "introduced_set_damage": 8
+      },
+      "scope": "readout",
+      "variant": "restore-baseline-router-scores"
+    },
+    {
+      "canonical": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 12,
+        "full_sets_restored": 24,
+        "introduced_set_damage": 0
+      },
+      "raw": {
+        "chosen_introduced_damage": 0,
+        "chosen_rescued": 91,
+        "full_sets_restored": 180,
+        "introduced_set_damage": 0
+      },
+      "scope": "readout",
+      "variant": "restore-baseline-merged"
+    }
+  ],
+  "route_board_checks": 15048,
+  "scales_and_sizes": [
+    {
+      "coarse_payload_bytes": 72,
+      "coarse_row_exponents": [
+        -7,
+        -7,
+        -8,
+        -7,
+        -7,
+        -6,
+        -7,
+        -7
+      ],
+      "hypothetical_packet_bytes": 5131,
+      "original_payload_bytes": 136,
+      "original_row_exponents": [
+        -15,
+        -15,
+        -16,
+        -15,
+        -15,
+        -14,
+        -15,
+        -15
+      ],
+      "scope": "query.weight",
+      "shifts": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "coarse_payload_bytes": 72,
+      "coarse_row_exponents": [
+        -8,
+        -7,
+        -7,
+        -7,
+        -8,
+        -7,
+        -8,
+        -7
+      ],
+      "hypothetical_packet_bytes": 5131,
+      "original_payload_bytes": 136,
+      "original_row_exponents": [
+        -16,
+        -15,
+        -15,
+        -15,
+        -16,
+        -15,
+        -16,
+        -15
+      ],
+      "scope": "value.weight",
+      "shifts": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "coarse_payload_bytes": 36,
+      "coarse_row_exponents": [
+        -6,
+        -6,
+        -6,
+        -6
+      ],
+      "hypothetical_packet_bytes": 5163,
+      "original_payload_bytes": 68,
+      "original_row_exponents": [
+        -14,
+        -15,
+        -14,
+        -14
+      ],
+      "scope": "router.weight",
+      "shifts": [
+        8,
+        9,
+        8,
+        8
+      ]
+    },
+    {
+      "coarse_payload_bytes": 584,
+      "coarse_row_exponents": [
+        -8,
+        -7,
+        -7,
+        -8,
+        -7,
+        -7,
+        -7,
+        -7
+      ],
+      "hypothetical_packet_bytes": 4619,
+      "original_payload_bytes": 1160,
+      "original_row_exponents": [
+        -16,
+        -15,
+        -15,
+        -16,
+        -15,
+        -15,
+        -15,
+        -15
+      ],
+      "scope": "readout.weight",
+      "shifts": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    }
+  ],
+  "source_model_bytes": 5195,
+  "source_model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "specifications": 24
+}

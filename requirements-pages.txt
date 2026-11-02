@@ -1,0 +1,2 @@
+# Real Markdown renderer; tables, fenced_code and toc ship in this package.
+Markdown==3.10.2

@@ -1,0 +1,4 @@
+# Keep the accepted release as ordinary byte-exact Git blobs, not LFS pointers.
+releases/falken-9-v1.0.0/*.prg -filter -diff -merge -text
+releases/falken-9-v1.0.0/*.d64 -filter -diff -merge -text
+releases/falken-9-v1.0.0/*.f9j -filter -diff -merge -text

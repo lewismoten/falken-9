@@ -1,0 +1,17 @@
+{
+  "canonical": 627,
+  "raw": 4520,
+  "all_stage_vectors_checked": 13167,
+  "evidence_hashes_verified": 69,
+  "fixture_sha256": {
+    "shard-0.jsonl": "ba1dd9201b8948d2519b5be5868ca410854348f90a88b7a4c516c5c3feb7a30c",
+    "shard-1.jsonl": "8e8177cea8c1d173d59b4978793018b79371b3224e2d638c0f4b921993ed64ee",
+    "shard-2.jsonl": "c8623653b8f6b8b6fd9edce9f6c734dfbbb7d22b1b01f2a2afd62b775ba7e4c4",
+    "shard-3.jsonl": "6e040adaf557d3f6a2cec9820e92ea352f524dc73f4b7234664e7532334b03eb"
+  },
+  "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "legal_set_errors": 0,
+  "nonoptimal_moves": 0,
+  "tie_mismatches": 0,
+  "wrapper_scope": "Python composed full-set inverse/legal-mask/original-tie wrapper against saved actual627 vectors; no new 6502 execution"
+}

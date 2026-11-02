@@ -1,0 +1,3014 @@
+
+; 64tass Turbo Assembler Macro V1.60.3243 listing file
+; 64tass --m6502 --long-branch --case-sensitive --nostart -I /home/ai/falken-9/artifacts/app/010-graphical -I /home/ai/falken-9/src/app --labels=/home/ai/falken-9/artifacts/app/010-graphical/app.lbl --list=/home/ai/falken-9/artifacts/app/010-graphical/app.lst -o /home/ai/falken-9/artifacts/app/010-graphical/app.bin /home/ai/falken-9/artifacts/app/010-graphical/entry.asm
+; Sun Nov  1 13:49:14 2026
+
+;Offset	;Hex		;Monitor	;Source
+
+;******  Processing input file: /home/ai/falken-9/artifacts/app/010-graphical/entry.asm
+
+
+;******  Processing file: /home/ai/falken-9/artifacts/app/010-graphical/core-labels.inc
+
+=$150d					gelu_interpolate = $150d
+=$7388					matrix_row_step = $7388
+=$42dd					expert_b1_data = $42dd
+=$13b9					row_offset_high = $13b9
+=$003e					oldsign = $003e
+=$408f					expert_w2_exponents = $408f
+=$64c0					board_key = $64c0
+=$6040					query = $6040
+=$7030					board_index = $7030
+=$4ba5					output_weight_data = $4ba5
+=$4b4d					norm2_bias_data = $4b4d
+=$0e2b					matrix_done = $0e2b
+=$4b2d					readout_bias_data = $4b2d
+=$7035					winner = $7035
+=$4b5d					router_weight_data = $4b5d
+=$0060					ptr_occ = $0060
+=$6100					board_embedding = $6100
+=$7002					token_side = $7002
+=$738a					gelu_count = $738a
+=$19ec					full_forward = $19ec
+=$7310					merged = $7310
+=$0062					ptr_pos = $0062
+=$7382					matrix_weight_base = $7382
+=$1791					norm2_done = $1791
+=$0f29					exp_clamp = $0f29
+=$4c47					exp_table = $4c47
+=$739a					route_best = $739a
+=$7048					exp_total = $7048
+=$0e2d					clear_acc = $0e2d
+=$4b9d					router_bias_data = $4b9d
+=$40f2					value_weight_exponents = $40f2
+=$7034					att_lane = $7034
+=$449d					norm1_bias_data = $449d
+=$45ad					value_weight_data = $45ad
+=$0a28					sqrt40 = $0a28
+=$125f					attention_p_shift = $125f
+=$4071					expert_w1_exponents = $4071
+=$1377					load_key_weight = $1377
+=$15d4					gelu_zero = $15d4
+=$0d99					norm_done = $0d99
+=$7014					lut_fraction = $7014
+=$141c					attended_rows = $141c
+=$096a					div_width_ok = $096a
+=$7033					att_j = $7033
+=$003c					sign = $003c
+=$0072					copy_dest = $0072
+=$18dc					route_update = $18dc
+=$0f7f					board_local = $0f7f
+=$7011					matrix_row = $7011
+=$0076					k_ptr = $0076
+=$7384					matrix_input_count = $7384
+=$412e					router_weight_exponents = $412e
+=$0963					div_common = $0963
+=$1afd					expert_matrix_ready = $1afd
+=$0cf3					norm_bad = $0cf3
+=$0a43					sqrt_loop = $0a43
+=$1b35					e2_ptrs = $1b35
+=$003a					wm = $003a
+=$7060					exponents = $7060
+=$73b1					expert_id = $73b1
+=$10c1					attention_softmax_start = $10c1
+=$6060					key = $6060
+=$40c3					side_weight_exponents = $40c3
+=$7386					matrix_weight_step = $7386
+=$139a					key_weight_bad = $139a
+=$5049					gelu_table = $5049
+=$002b					shift = $002b
+=$13a6					local_destinations = $13a6
+=$0050					trial = $0050
+=$17cc					gelu_vector = $17cc
+=$4137					router_bias_exponents = $4137
+=$6000					embedding = $6000
+=$60c8					variance = $60c8
+=$43fd					expert_b2_data = $43fd
+=$0859					mac_wcopy = $0859
+=$0f96					board_copy = $0f96
+=$1159					attention_new_max = $1159
+=$0ad6					sqrt_skip = $0ad6
+=$7380					matrix_input_base = $7380
+=$08f6					math_ok = $08f6
+=$0be1					norm1 = $0be1
+=$40b5					expert_b2_exponents = $40b5
+=$40bc					occupancy_weight_exponents = $40bc
+=$12e7					attention_weighted_lane = $12e7
+=$6a00					attended = $6a00
+=$181b					board_router = $181b
+=$1b3d					expert_merge = $1b3d
+=$14d5					block_done = $14d5
+=$739c					route_maximum = $739c
+=$13b0					row_offset_low = $13b0
+=$0976					div_nonzero = $0976
+=$0064					ptr_side = $0064
+=$448d					norm1_weight_data = $448d
+=$0074					q_ptr = $0074
+=$1525					gelu_negative = $1525
+=$142e					board_attention_block = $142e
+=$40d6					query_weight_exponents = $40d6
+=$08fa					scale40 = $08fa
+=$0871					mac_loop = $0871
+=$14e9					projected_rows = $14e9
+=$1c0b					output_head = $1c0b
+=$1922					route_gates = $1922
+=$73b3					merge_lane = $73b3
+=$6020					normalized = $6020
+=$72b0					expert_hidden = $72b0
+=$1b0d					w1_ptrs = $1b0d
+=$13f8					score_rows = $13f8
+=$13c2					q_rows = $13c2
+=$0edd					exp_index = $0edd
+=$6080					value = $6080
+=$13e6					v_rows = $13e6
+=$1c5a					readout_only = $1c5a
+=$1883					route_candidate = $1883
+=$0da8					matrix_col_loop = $0da8
+=$0f3a					exp_load = $0f3a
+=$0045					root = $0045
+=$42fd					expert_w2_data = $42fd
+=$68a0					attention_probs = $68a0
+=$6240					board_normalized = $6240
+=$0938					negate_acc = $0938
+=$0066					ptr_weight = $0066
+=$40cf					norm1_bias_exponents = $40cf
+=$1540					gelu_in_range = $1540
+=$007a					score_ptr = $007a
+=$16ed					norm2_affine = $16ed
+=$44ad					query_weight_data = $44ad
+=$161f					norm2_squares = $161f
+=$1ab4					expert_matrix = $1ab4
+=$72d0					expert_outputs = $72d0
+=$411b					readout_bias_exponents = $411b
+=$19ac					gate_shift = $19ac
+=$1d7f					code_end = $1d7f
+=$40e4					key_weight_exponents = $40e4
+=$0e79					add_weight40 = $0e79
+=$0f55					board_validate = $0f55
+=$1713					norm2_shift = $1713
+=$0da0					matrix_row_loop = $0da0
+=$082b					mac_copy = $082b
+=$0030					mag = $0030
+=$14d7					embedding_rows = $14d7
+=$1439					block_projection_row = $1439
+=$1873					route_top2 = $1873
+=$14fb					residual_rows = $14fb
+=$0a26					div_done = $0a26
+=$7330					logits = $7330
+=$100b					board_score_col = $100b
+=$0fe8					board_scores_start = $0fe8
+=$0ebf					exp_interpolate = $0ebf
+=$1bf0					mac_gate = $1bf0
+=$1554					gelu_index = $1554
+=$003d					counter = $003d
+=$0add					sqrt_done = $0add
+=$15e1					norm2_sum = $15e1
+=$0896					mac_skip = $0896
+=$4000					model = $4000
+=$410e					readout_weight_exponents = $410e
+=$7284					gates = $7284
+=$0cf5					norm_affine = $0cf5
+=$0958					divide40 = $0958
+=$097f					div_abs = $097f
+=$09d0					div_loop = $09d0
+=$16eb					norm2_bad = $16eb
+=$0035					product = $0035
+=$7385					matrix_output_count = $7385
+=$46ad					readout_weight_data = $46ad
+=$006a					ptr_output = $006a
+=$007e					att_ptr = $007e
+=$1375					attention_done = $1375
+=$0800					mac40 = $0800
+=$7020					board = $7020
+=$7390					norm2_root = $7390
+=$4069					position_exponents = $4069
+=$117a					attention_max_skip = $117a
+=$095f					floor40 = $095f
+=$4127					norm2_bias_exponents = $4127
+=$4121					norm2_weight_exponents = $4121
+=$7001					token_pos = $7001
+=$452d					key_weight_data = $452d
+=$1368					attention_next_row = $1368
+=$7013					matrix_stage = $7013
+=$0fc8					board_copy_bytes = $0fc8
+=$007c					prob_ptr = $007c
+=$73b2					expert_stage = $73b2
+=$7031					copy_stage = $7031
+=$41dd					expert_w1_data = $41dd
+=$1ca3					matrix_variable = $1ca3
+=$17a8					board_norm2 = $17a8
+=$60c0					mean = $60c0
+=$12ef					attention_weighted_key = $12ef
+=$0024					weight = $0024
+=$73b0					expert_slot = $73b0
+=$7000					token_occ = $7000
+=$090e					scale_loop = $090e
+=$0d9b					matrix8 = $0d9b
+=$0020					operand = $0020
+=$0fed					board_score_row = $0fed
+=$6b40					projected = $6b40
+=$18fd					route_skip = $18fd
+=$0f38					exp_bad = $0f38
+=$1b43					merge_loop = $1b43
+=$08c7					mac_add = $08c7
+=$1497					block_copy_projected = $1497
+=$1b1d					b1_ptrs = $1b1d
+=$6380					board_query = $6380
+=$0bd5					matrix_exponents = $0bd5
+=$1793					load_readout_operand = $1793
+=$0026					acc = $0026
+=$004a					remainder = $004a
+=$0bcf					matrix_weights = $0bcf
+=$19f7					expert_slot_loop = $19f7
+=$13d4					k_rows = $13d4
+=$1ca8					matrix_variable_row = $1ca8
+=$7220					readout_gelu = $7220
+=$123f					attention_probability = $123f
+=$0e3a					load_embedding_operand = $0e3a
+=$11a7					attention_exp = $11a7
+=$140a					prob_rows = $140a
+=$1879					route_select = $1879
+=$7280					routes = $7280
+=$10c6					attention_softmax_row = $10c6
+=$090a					scale_abs_done = $090a
+=$7240					norm2_output = $7240
+=$7399					route_scan = $7399
+=$4b3d					norm2_weight_data = $4b3d
+=$1b2d					e1_ptrs = $1b2d
+=$544b					model_end = $544b
+=$15d9					norm2 = $15d9
+=$0e4f					add_operand40 = $0e4f
+=$1b15					w2_ptrs = $1b15
+=$446d					side_weight_data = $446d
+=$413e					output_weight_exponents = $413e
+=$08f8					math_bad = $08f8
+=$0845					mac_valid = $0845
+=$1adf					expert_second_matrix = $1adf
+=$443d					occupancy_weight_data = $443d
+=$60a0					centered = $60a0
+=$0b35					embedding_loop = $0b35
+=$110d					attention_max = $110d
+=$15a6					gelu_load = $15a6
+=$0078					v_ptr = $0078
+=$6c80					attention_residual = $6c80
+=$15be					gelu_identity = $15be
+=$7010					lane = $7010
+=$1b25					b2_ptrs = $1b25
+=$60d0					norm_root = $60d0
+=$1022					board_score_dot = $1022
+=$14a3					block_residual_lane = $14a3
+=$0a1b					div_skip = $0a1b
+=$0055					round_mode = $0055
+=$7040					maximum = $7040
+=$0843					mac_bad = $0843
+=$0eaf					check_acc32 = $0eaf
+=$0adf					token_frontend = $0adf
+=$414c					output_bias_exponents = $414c
+=$0068					ptr_exponent = $0068
+=$7290					expert_hidden_pre = $7290
+=$0861					mac_init = $0861
+=$6600					board_value = $6600
+=$0b33					frontend_invalid = $0b33
+=$0f4c					board_attention = $0f4c
+=$0d1b					norm_shift = $0d1b
+=$4087					expert_b1_exponents = $4087
+=$0c27					norm_squares = $0c27
+=$0bdb					matrix_outputs = $0bdb
+=$09c0					div_prepare = $09c0
+=$0b9a					frontend_matrix = $0b9a
+=$10b4					board_score_next = $10b4
+=$7398					route_slot = $7398
+=$7032					att_i = $7032
+=$006c					lut_ptr = $006c
+=$1c54					board_readout = $1c54
+=$083b					mac_bound = $083b
+=$006e					matrix_bias = $006e
+=$7200					readout_pre = $7200
+=$7260					router_scores = $7260
+=$4100					projection_weight_exponents = $4100
+=$1cc4					matrix_variable_col = $1cc4
+=$0040					denominator = $0040
+=$144a					block_copy_attended = $144a
+=$40c9					norm1_weight_exponents = $40c9
+=$139c					local_sources = $139c
+=$0be9					norm_sum = $0be9
+=$1c09					gate_invalid = $1c09
+=$4c35					output_bias_data = $4c35
+=$7012					matrix_col = $7012
+=$6740					attention_scores = $6740
+=$414d					position_data = $414d
+=$462d					projection_weight_data = $462d
+=$7050					prob_total = $7050
+=$0070					copy_source = $0070
+=$73a0					gate_exp = $73a0
+=$092f					scale_sign = $092f
+
+;******  Return to file: /home/ai/falken-9/artifacts/app/010-graphical/entry.asm
+
+=$7800					history = $7800
+=$7809					history_length = $7809
+=$7810					original_board = $7810
+=$7819					terminal = $7819             ; 0 ongoing, 1 X win, 2 O win, 3 draw
+=$781a					side = $781a
+=$781b					history_index = $781b
+=$781c					cell_index = $781c
+=$781d					line_index = $781d
+=$781e					line_mark = $781e
+.8000	4c f4 81	jmp $81f4	    jmp app_start
+.8003					validate_history:
+.8003	d8		cld		    cld
+.8004	ad 09 78	lda $7809	    lda history_length
+.8007	c9 0a		cmp #$0a	    cmp #10
+.8009	90 02		bcc $800d	    bcc +
+.800b	38		sec		    sec
+.800c	60		rts		    rts
+.800d					+
+.800d	a9 00		lda #$00	    lda #0
+.800f	8d 19 78	sta $7819	    sta terminal
+.8012	8d 1b 78	sta $781b	    sta history_index
+.8015	a2 08		ldx #$08	    ldx #8
+.8017					-
+.8017	9d 10 78	sta $7810,x	    sta original_board,x
+.801a	ca		dex		    dex
+.801b	10 fa		bpl $8017	    bpl -
+.801d	a9 01		lda #$01	    lda #1
+.801f	8d 1a 78	sta $781a	    sta side
+.8022					history_loop:
+.8022	ad 1b 78	lda $781b	    lda history_index
+.8025	cd 09 78	cmp $7809	    cmp history_length
+.8028	f0 3a		beq $8064	    beq history_good
+.802a	ad 19 78	lda $7819	    lda terminal
+.802d	d0 37		bne $8066	    bne history_bad
+.802f	ae 1b 78	ldx $781b	    ldx history_index
+.8032	bd 00 78	lda $7800,x	    lda history,x
+.8035	c9 41		cmp #$41	    cmp #$41
+.8037	90 06		bcc $803f	    bcc +
+.8039	c9 4a		cmp #$4a	    cmp #$4a
+.803b	b0 02		bcs $803f	    bcs +
+.803d	09 20		ora #$20	    ora #$20
+.803f					+
+.803f	c9 61		cmp #$61	    cmp #$61
+.8041	90 23		bcc $8066	    bcc history_bad
+.8043	c9 6a		cmp #$6a	    cmp #$6a
+.8045	b0 1f		bcs $8066	    bcs history_bad
+.8047	38		sec		    sec
+.8048	e9 61		sbc #$61	    sbc #$61
+.804a	aa		tax		    tax
+.804b	bd 10 78	lda $7810,x	    lda original_board,x
+.804e	d0 16		bne $8066	    bne history_bad
+.8050	ad 1a 78	lda $781a	    lda side
+.8053	9d 10 78	sta $7810,x	    sta original_board,x
+.8056	49 03		eor #$03	    eor #3
+.8058	8d 1a 78	sta $781a	    sta side
+.805b	ee 1b 78	inc $781b	    inc history_index
+.805e	20 68 80	jsr $8068	    jsr check_terminal
+.8061	4c 22 80	jmp $8022	    jmp history_loop
+.8064					history_good:
+.8064	18		clc		    clc
+.8065	60		rts		    rts
+.8066					history_bad:
+.8066	38		sec		    sec
+.8067	60		rts		    rts
+.8068					check_terminal:
+.8068	a9 00		lda #$00	    lda #0
+.806a	8d 19 78	sta $7819	    sta terminal
+.806d	8d 1d 78	sta $781d	    sta line_index
+.8070					terminal_lines_loop:
+.8070	ac 1d 78	ldy $781d	    ldy line_index
+.8073	be b1 80	ldx $80b1,y	    ldx winning_lines,y
+.8076	bd 10 78	lda $7810,x	    lda original_board,x
+.8079	f0 19		beq $8094	    beq terminal_next
+.807b	8d 1e 78	sta $781e	    sta line_mark
+.807e	c8		iny		    iny
+.807f	be b1 80	ldx $80b1,y	    ldx winning_lines,y
+.8082	dd 10 78	cmp $7810,x	    cmp original_board,x
+.8085	d0 0d		bne $8094	    bne terminal_next
+.8087	c8		iny		    iny
+.8088	be b1 80	ldx $80b1,y	    ldx winning_lines,y
+.808b	dd 10 78	cmp $7810,x	    cmp original_board,x
+.808e	d0 04		bne $8094	    bne terminal_next
+.8090	8d 19 78	sta $7819	    sta terminal
+.8093	60		rts		    rts
+.8094					terminal_next:
+.8094	ad 1d 78	lda $781d	    lda line_index
+.8097	18		clc		    clc
+.8098	69 03		adc #$03	    adc #3
+.809a	8d 1d 78	sta $781d	    sta line_index
+.809d	c9 18		cmp #$18	    cmp #24
+.809f	d0 cf		bne $8070	    bne terminal_lines_loop
+.80a1	a2 08		ldx #$08	    ldx #8
+.80a3					-
+.80a3	bd 10 78	lda $7810,x	    lda original_board,x
+.80a6	f0 08		beq $80b0	    beq terminal_done
+.80a8	ca		dex		    dex
+.80a9	10 f8		bpl $80a3	    bpl -
+.80ab	a9 03		lda #$03	    lda #3
+.80ad	8d 19 78	sta $7819	    sta terminal
+.80b0					terminal_done:
+.80b0	60		rts		    rts
+.80b1					winning_lines:
+>80b1	00 01 02 03 04 05 06 07		    .byte 0,1,2,3,4,5,6,7,8,0,3,6,1,4,7,2,5,8,0,4,8,2,4,6
+>80b9	08 00 03 06 01 04 07 02 05 08 00 04 08 02 04 06
+
+;******  Processing file: /home/ai/falken-9/artifacts/app/010-graphical/graphical-wrapper.inc
+
+=$7820					candidate_board = $7820
+=$7830					selected_transform = $7830
+=$7840					original_set = $7840
+=$7849					selected_move = $7849
+=$784a					transform_offset = $784a
+=$784b					transform_index = $784b
+=$784c					source_index = $784c
+=$784d					move_result = $784d             ; public 1..9 square, 0 invalid/no result
+.80c9					canonicalize_board:
+.80c9	d8		cld		    cld
+.80ca	a9 00		lda #$00	    lda #0
+.80cc	8d 4a 78	sta $784a	    sta transform_offset
+.80cf	8d 4b 78	sta $784b	    sta transform_index
+.80d2	a2 08		ldx #$08	    ldx #8
+.80d4					-
+.80d4	a9 03		lda #$03	    lda #3
+.80d6	9d 20 70	sta $7020,x	    sta board,x
+.80d9	ca		dex		    dex
+.80da	10 f8		bpl $80d4	    bpl -
+.80dc					canonical_transform_loop:
+.80dc	a9 00		lda #$00	    lda #0
+.80de	8d 4c 78	sta $784c	    sta source_index
+.80e1					canonical_build:
+.80e1	ae 4c 78	ldx $784c	    ldx source_index
+.80e4	8a		txa		    txa
+.80e5	18		clc		    clc
+.80e6	6d 4a 78	adc $784a	    adc transform_offset
+.80e9	a8		tay		    tay
+.80ea	b9 a3 81	lda $81a3,y	    lda transforms,y
+.80ed	a8		tay		    tay
+.80ee	bd 10 78	lda $7810,x	    lda original_board,x
+.80f1	99 20 78	sta $7820,y	    sta candidate_board,y
+.80f4	ee 4c 78	inc $784c	    inc source_index
+.80f7	ad 4c 78	lda $784c	    lda source_index
+.80fa	c9 09		cmp #$09	    cmp #9
+.80fc	d0 e3		bne $80e1	    bne canonical_build
+.80fe	a2 00		ldx #$00	    ldx #0
+.8100					canonical_compare:
+.8100	bd 20 78	lda $7820,x	    lda candidate_board,x
+.8103	dd 20 70	cmp $7020,x	    cmp board,x
+.8106	90 09		bcc $8111	    bcc canonical_keep
+.8108	d0 20		bne $812a	    bne canonical_next
+.810a	e8		inx		    inx
+.810b	e0 09		cpx #$09	    cpx #9
+.810d	d0 f1		bne $8100	    bne canonical_compare
+.810f	f0 19		beq $812a	    beq canonical_next     ; retain first transform on equal board
+.8111					canonical_keep:
+.8111	a2 00		ldx #$00	    ldx #0
+.8113					canonical_copy:
+.8113	bd 20 78	lda $7820,x	    lda candidate_board,x
+.8116	9d 20 70	sta $7020,x	    sta board,x
+.8119	8a		txa		    txa
+.811a	18		clc		    clc
+.811b	6d 4a 78	adc $784a	    adc transform_offset
+.811e	a8		tay		    tay
+.811f	b9 a3 81	lda $81a3,y	    lda transforms,y
+.8122	9d 30 78	sta $7830,x	    sta selected_transform,x
+.8125	e8		inx		    inx
+.8126	e0 09		cpx #$09	    cpx #9
+.8128	d0 e9		bne $8113	    bne canonical_copy
+.812a					canonical_next:
+.812a	ad 4a 78	lda $784a	    lda transform_offset
+.812d	18		clc		    clc
+.812e	69 09		adc #$09	    adc #9
+.8130	8d 4a 78	sta $784a	    sta transform_offset
+.8133	ee 4b 78	inc $784b	    inc transform_index
+.8136	ad 4b 78	lda $784b	    lda transform_index
+.8139	c9 08		cmp #$08	    cmp #8
+.813b	d0 9f		bne $80dc	    bne canonical_transform_loop
+.813d	18		clc		    clc
+.813e	60		rts		    rts
+.813f					restore_set:
+.813f	a9 00		lda #$00	    lda #0
+.8141	8d 4d 78	sta $784d	    sta move_result
+.8144	a2 00		ldx #$00	    ldx #0
+.8146					restore_loop:
+.8146	a9 00		lda #$00	    lda #0
+.8148	9d 40 78	sta $7840,x	    sta original_set,x
+.814b	bd 10 78	lda $7810,x	    lda original_board,x
+.814e	d0 10		bne $8160	    bne restore_next
+.8150	bd 30 78	lda $7830,x	    lda selected_transform,x
+.8153	0a		asl a		    asl a
+.8154	0a		asl a		    asl a
+.8155	a8		tay		    tay
+.8156	b9 33 73	lda $7333,y	    lda logits+3,y
+.8159	30 05		bmi $8160	    bmi restore_next
+.815b	a9 01		lda #$01	    lda #1
+.815d	9d 40 78	sta $7840,x	    sta original_set,x
+.8160					restore_next:
+.8160	e8		inx		    inx
+.8161	e0 09		cpx #$09	    cpx #9
+.8163	d0 e1		bne $8146	    bne restore_loop
+.8165	a0 00		ldy #$00	    ldy #0
+.8167					restore_tie:
+.8167	be eb 81	ldx $81eb,y	    ldx tie_order,y
+.816a	bd 40 78	lda $7840,x	    lda original_set,x
+.816d	d0 0c		bne $817b	    bne restore_found
+.816f	c8		iny		    iny
+.8170	c0 09		cpy #$09	    cpy #9
+.8172	d0 f3		bne $8167	    bne restore_tie
+.8174	a9 ff		lda #$ff	    lda #$ff
+.8176	8d 49 78	sta $7849	    sta selected_move
+.8179	38		sec		    sec
+.817a	60		rts		    rts
+.817b					restore_found:
+.817b	8e 49 78	stx $7849	    stx selected_move
+.817e	8a		txa		    txa
+.817f	18		clc		    clc
+.8180	69 01		adc #$01	    adc #1
+.8182	8d 4d 78	sta $784d	    sta move_result
+.8185	18		clc		    clc
+.8186	60		rts		    rts
+.8187					policy_request:
+.8187	a9 00		lda #$00	    lda #0
+.8189	8d 4d 78	sta $784d	    sta move_result
+.818c	20 03 80	jsr $8003	    jsr validate_history
+.818f	b0 10		bcs $81a1	    bcs policy_bad
+.8191	ad 19 78	lda $7819	    lda terminal
+.8194	d0 0b		bne $81a1	    bne policy_bad
+.8196	20 c9 80	jsr $80c9	    jsr canonicalize_board
+.8199	20 33 89	jsr $8933	    jsr graphical_forward
+.819c	b0 03		bcs $81a1	    bcs policy_bad
+.819e	4c 3f 81	jmp $813f	    jmp restore_set
+.81a1					policy_bad:
+.81a1	38		sec		    sec
+.81a2	60		rts		    rts
+.81a3					transforms:
+>81a3	00 01 02 03 04 05 06 07		    .byte 0,1,2,3,4,5,6,7,8
+>81ab	08
+>81ac	02 05 08 01 04 07 00 03		    .byte 2,5,8,1,4,7,0,3,6
+>81b4	06
+>81b5	08 07 06 05 04 03 02 01		    .byte 8,7,6,5,4,3,2,1,0
+>81bd	00
+>81be	06 03 00 07 04 01 08 05		    .byte 6,3,0,7,4,1,8,5,2
+>81c6	02
+>81c7	02 01 00 05 04 03 08 07		    .byte 2,1,0,5,4,3,8,7,6
+>81cf	06
+>81d0	08 05 02 07 04 01 06 03		    .byte 8,5,2,7,4,1,6,3,0
+>81d8	00
+>81d9	06 07 08 03 04 05 00 01		    .byte 6,7,8,3,4,5,0,1,2
+>81e1	02
+>81e2	00 03 06 01 04 07 02 05		    .byte 0,3,6,1,4,7,2,5,8
+>81ea	08
+.81eb					tie_order:
+>81eb	04 01 03 05 07 02 06 08		    .byte 4,1,3,5,7,2,6,8,0
+>81f3	00
+
+;******  Return to file: /home/ai/falken-9/artifacts/app/010-graphical/entry.asm
+
+
+;******  Processing file: /home/ai/falken-9/src/app/graphical_game.asm
+
+
+;******  Processing file: /home/ai/falken-9/artifacts/app/010-graphical/service-labels.inc
+
+=$5b99					auto_pause_due = $5b99
+=$5aa1					auto_session_reset = $5aa1
+=$5b71					auto_sampler_bad = $5b71
+=$5481					audio_protected = $5481
+=$54a8					auto_elapsed = $54a8
+=$5ae2					auto_count_loop = $5ae2
+=$5484					audio_sfx_priority = $5484
+=$548c					audio_installed = $548c
+=$54aa					auto_count = $54aa
+=$59c3					melody = $59c3
+=$5500					activity_tick = $5500
+=$5bf7					quit_sample_done = $5bf7
+=$5b5d					auto_pick = $5b5d
+=$54ba					quit_pending = $54ba
+=$5486					audio_period = $5486
+=$54a1					auto_pause_start = $54a1
+=$576a					audio_init = $576a
+=$5bf8					quit_release_guard = $5bf8
+=$5483					audio_sfx_left = $5483
+=$5a61					note_hi = $5a61
+=$548f					audio_cooldown = $548f
+=$54b9					quit_active = $54b9
+=$5be8					quit_sample_down = $5be8
+=$54a0					auto_pausing = $54a0
+=$5868					audio_silence = $5868
+=$54b0					auto_candidates = $54b0
+=$5835					audio_work_end = $5835
+=$54ab					auto_candidate_count = $54ab
+=$57ff					audio_irq = $57ff
+=$5aba					auto_resolve_opening = $5aba
+=$58ab					audio_tick = $58ab
+=$58d9					audio_pending_check = $58d9
+=$54a5					auto_sampled = $54a5
+=$5aff					auto_collect_loop = $5aff
+=$5a03					effect_note = $5a03
+=$54a4					auto_later = $54a4
+=$5b10					auto_collect = $5b10
+=$5bc8					quit_sample = $5bc8
+=$5b31					auto_random_byte = $5b31
+=$54f0					activity_prng = $54f0
+=$5b7d					auto_limits = $5b7d
+=$5880					audio_stop = $5880
+=$5bc4					auto_not_due = $5bc4
+=$5485					audio_frames = $5485
+=$58f7					audio_start_effect = $58f7
+=$5480					audio_enabled = $5480
+=$5c22					quit_filter_done = $5c22
+=$54bb					quit_down = $54bb
+=$574d					footer_body = $574d
+=$548b					audio_old_mask = $548b
+=$5a0f					effect_length = $5a0f
+=$5b50					auto_reduce = $5b50
+=$5488					audio_ntsc = $5488
+=$592d					audio_music = $592d
+=$5845					audio_mark = $5845
+=$5b5b					auto_single = $5b5b
+=$581e					audio_cia = $581e
+=$5746					footer_subdued = $5746
+=$54a3					auto_started = $54a3
+=$59e3					bass = $59e3
+=$5738					paint_footer = $5738
+=$5482					audio_pending = $5482
+=$5c2d					services_end = $5c2d
+=$5a21					note_lo = $5a21
+=$59c2					audio_tick_done = $59c2
+=$54a6					auto_last_opening = $54a6
+=$5c2c					quit_guard_done = $5c2c
+=$5c07					quit_filter_loop = $5c07
+=$548d					audio_ticks = $548d
+=$5826					audio_irq_exit = $5826
+=$583c					audio_event = $583c
+=$5850					audio_toggle = $5850
+=$5489					audio_old_irq = $5489
+=$582a					audio_chain = $582a
+=$56b5					activity_reset = $56b5
+=$582e					audio_work_begin = $582e
+=$54bc					quit_blocked = $54bc
+=$5c1f					quit_filter_next = $5c1f
+=$5a09					effect_control = $5a09
+=$54ad					auto_attempts = $54ad
+=$5bc6					auto_due = $5bc6
+=$54ac					auto_limit = $54ac
+=$5487					audio_step = $5487
+=$5b6f					auto_sampler_skip = $5b6f
+=$5b87					auto_pause_begin = $5b87
+=$5b1a					auto_collect_next = $5b1a
+=$5a15					effect_ad = $5a15
+=$54a7					auto_opening_prng = $54a7
+=$5a1b					effect_sr = $5a1b
+
+;******  Return to file: /home/ai/falken-9/src/app/graphical_game.asm
+
+=$7880					saved_zp = $7880
+=$7850					pending_key = $7850
+=$7851					neural_failed = $7851
+=$7852					view = $7852                    ; 0 title, 1 info, 2 game, 3 quit
+=$7853					mode = $7853                    ; 1 human/model, 2 human/human, 0 model/model
+=$7854					ui_port = $7854
+=$7855					ui_index = $7855
+=$7856					ui_count = $7856
+=$7857					packet_count = $7857
+=$7858					packet_kind = $7858
+=$7859					packet_value = $7859
+=$785a					status_index = $785a
+=$785b					text_column = $785b
+=$785c					text_glyph = $785c
+=$785d					activity_phase = $785d
+=$78e0					painted_board = $78e0           ; after saved_zp $7880..$78df; never model input
+=$785e					info_scroll = $785e
+=$785f					info_row = $785f
+=$78e9					progress_active = $78e9
+=$78ea					progress_event_index = $78ea
+=$78eb					progress_filled = $78eb
+=$78ec					progress_color = $78ec
+=$78ed					progress_segment = $78ed
+=$78ee					progress_pattern = $78ee
+=$7860					ui_saved = $7860
+=$f7					src = $f7
+=$f9					dst = $f9
+=$fb					remaining = $fb
+=$fd					aux = $fd
+.81f4					app_start:
+.81f4	78		sei		    sei
+.81f5	d8		cld		    cld
+.81f6	a2 ff		ldx #$ff	    ldx #$ff
+.81f8	9a		txs		    txs
+.81f9	a2 0f		ldx #$0f	    ldx #15
+.81fb					-
+.81fb	bd 84 91	lda $9184,x	    lda core_backup,x
+.81fe	9d 00 08	sta $0800,x	    sta $0800,x
+.8201	ca		dex		    dex
+.8202	10 f7		bpl $81fb	    bpl -
+.8204	a9 ff		lda #$ff	    lda #$ff
+.8206	85 cc		sta $cc		    sta $cc
+.8208	ad 00 dd	lda $dd00	    lda $dd00
+.820b	09 03		ora #$03	    ora #3
+.820d	8d 00 dd	sta $dd00	    sta $dd00
+.8210	a9 00		lda #$00	    lda #0
+.8212	8d 20 d0	sta $d020	    sta $d020
+.8215	8d 21 d0	sta $d021	    sta $d021
+.8218	8d 09 78	sta $7809	    sta history_length
+.821b	8d 51 78	sta $7851	    sta neural_failed
+.821e	8d 5d 78	sta $785d	    sta activity_phase
+.8221	8d e9 78	sta $78e9	    sta progress_active
+.8224	a9 01		lda #$01	    lda #1
+.8226	8d 53 78	sta $7853	    sta mode
+.8229	20 6a 57	jsr $576a	    jsr audio_init
+.822c	20 ad 85	jsr $85ad	    jsr enter_title
+.822f					input_wait:
+.822f	78		sei		    sei
+.8230	20 f8 5b	jsr $5bf8	    jsr quit_release_guard
+.8233	ad ba 54	lda $54ba	    lda quit_pending
+.8236	f0 0a		beq $8242	    beq +
+.8238	ad 52 78	lda $7852	    lda view
+.823b	c9 02		cmp #$02	    cmp #2
+.823d	d0 03		bne $8242	    beq auto_exit
+.823f	4c 8a 83	jmp $838a
+.8242					+
+.8242	58		cli		    cli
+.8243	20 e4 ff	jsr $ffe4	    jsr $ffe4
+.8246	78		sei		    sei
+.8247	d8		cld		    cld
+.8248	c9 00		cmp #$00	    cmp #0
+.824a	d0 14		bne $8260	    bne input_received
+.824c	ad 52 78	lda $7852	    lda view
+.824f	c9 02		cmp #$02	    cmp #2
+.8251	d0 dc		bne $822f	    bne input_wait
+.8253	ad 53 78	lda $7853	    lda mode
+.8256	d0 d7		bne $822f	    bne input_wait
+.8258	20 99 5b	jsr $5b99	    jsr auto_pause_due
+.825b	90 d2		bcc $822f	    bcc input_wait
+.825d					auto_restart:
+.825d	4c 67 83	jmp $8367	    jmp new_game
+.8260					input_received:
+.8260	8d 50 78	sta $7850	    sta pending_key
+.8263	29 df		and #$df	    and #$df
+.8265	c9 51		cmp #$51	    cmp #$51
+.8267	d0 0a		bne $8273	    bne +
+.8269	ad bc 54	lda $54bc	    lda quit_blocked
+.826c	d0 c1		bne $822f	    bne input_wait
+.826e	ad 50 78	lda $7850	    lda pending_key
+.8271	29 df		and #$df	    and #$df
+.8273					+
+.8273	c9 4d		cmp #$4d	    cmp #$4d
+.8275	d0 0d		bne $8284	    bne +
+.8277	ad 52 78	lda $7852	    lda view
+.827a	c9 03		cmp #$03	    cmp #3
+.827c	f0 b1		beq $822f	    beq input_wait
+.827e	20 50 58	jsr $5850	    jsr audio_toggle
+.8281	4c 2f 82	jmp $822f	    jmp input_wait
+.8284					+
+.8284	a9 00		lda #$00	    lda #0
+.8286	8d 4d 78	sta $784d	    sta move_result
+.8289	ad 52 78	lda $7852	    lda view
+.828c	f0 0e		beq $829c	    beq title_key
+.828e	c9 01		cmp #$01	    cmp #1
+.8290	f0 78		beq $830a	    beq info_key
+.8292	c9 02		cmp #$02	    cmp #2
+.8294	d0 03		bne $8299	    beq game_key
+.8296	4c c9 83	jmp $83c9
+.8299	4c 2f 82	jmp $822f	    jmp input_wait
+.829c					title_key:
+.829c	ad 50 78	lda $7850	    lda pending_key
+.829f	29 df		and #$df	    and #$df
+.82a1	c9 49		cmp #$49	    cmp #$49
+.82a3	d0 06		bne $82ab	    bne +
+.82a5	20 55 86	jsr $8655	    jsr enter_info
+.82a8	4c 2f 82	jmp $822f	    jmp input_wait
+.82ab					+
+.82ab	c9 51		cmp #$51	    cmp #$51
+.82ad	d0 06		bne $82b5	    bne +
+.82af	20 8c 87	jsr $878c	    jsr enter_quit
+.82b2	4c 2f 82	jmp $822f	    jmp input_wait
+.82b5					+
+.82b5	ad 50 78	lda $7850	    lda pending_key
+.82b8	c9 30		cmp #$30	    cmp #$30
+.82ba	90 0d		bcc $82c9	    bcc title_navigation
+.82bc	c9 33		cmp #$33	    cmp #$33
+.82be	b0 09		bcs $82c9	    bcs title_navigation
+.82c0	38		sec		    sec
+.82c1	e9 30		sbc #$30	    sbc #$30
+.82c3	8d 53 78	sta $7853	    sta mode
+.82c6	4c 4c 83	jmp $834c	    jmp start_game
+.82c9					title_navigation:
+.82c9	c9 0d		cmp #$0d	    cmp #13
+.82cb	f0 7f		beq $834c	    beq start_game
+.82cd	c9 11		cmp #$11	    cmp #$11
+.82cf	f0 07		beq $82d8	    beq next_mode
+.82d1	c9 91		cmp #$91	    cmp #$91
+.82d3	f0 1d		beq $82f2	    beq previous_mode
+.82d5	4c 2f 82	jmp $822f	    jmp input_wait
+.82d8					next_mode:
+.82d8	ad 53 78	lda $7853	    lda mode
+.82db	18		clc		    clc
+.82dc	69 01		adc #$01	    adc #1
+.82de	c9 03		cmp #$03	    cmp #3
+.82e0	90 02		bcc $82e4	    bcc +
+.82e2	a9 00		lda #$00	    lda #0
+.82e4					+
+.82e4	8d 53 78	sta $7853	    sta mode
+.82e7	20 38 86	jsr $8638	    jsr patch_title_selector
+.82ea	a9 03		lda #$03	    lda #3
+.82ec	20 3c 58	jsr $583c	    jsr audio_event
+.82ef	4c 2f 82	jmp $822f	    jmp input_wait
+.82f2					previous_mode:
+.82f2	ad 53 78	lda $7853	    lda mode
+.82f5	d0 02		bne $82f9	    bne +
+.82f7	a9 03		lda #$03	    lda #3
+.82f9					+
+.82f9	38		sec		    sec
+.82fa	e9 01		sbc #$01	    sbc #1
+.82fc	8d 53 78	sta $7853	    sta mode
+.82ff	20 38 86	jsr $8638	    jsr patch_title_selector
+.8302	a9 03		lda #$03	    lda #3
+.8304	20 3c 58	jsr $583c	    jsr audio_event
+.8307	4c 2f 82	jmp $822f	    jmp input_wait
+.830a					info_key:
+.830a	ad 50 78	lda $7850	    lda pending_key
+.830d	c9 11		cmp #$11	    cmp #$11
+.830f	f0 13		beq $8324	    beq info_down
+.8311	c9 91		cmp #$91	    cmp #$91
+.8313	f0 24		beq $8339	    beq info_up
+.8315	29 df		and #$df	    and #$df
+.8317	c9 51		cmp #$51	    cmp #$51
+.8319	f0 03		beq $831e	    bne input_wait
+.831b	4c 2f 82	jmp $822f
+.831e	20 ad 85	jsr $85ad	    jsr enter_title
+.8321	4c 2f 82	jmp $822f	    jmp input_wait
+.8324					info_down:
+.8324	ad 5e 78	lda $785e	    lda info_scroll
+.8327	c9 32		cmp #$32	    cmp #info_line_count-18
+.8329	b0 f0		bcs $831b	    bcs input_wait
+.832b	ee 5e 78	inc $785e	    inc info_scroll
+.832e	20 d0 86	jsr $86d0	    jsr render_info
+.8331	a9 02		lda #$02	    lda #2
+.8333	20 3c 58	jsr $583c	    jsr audio_event
+.8336	4c 2f 82	jmp $822f	    jmp input_wait
+.8339					info_up:
+.8339	ad 5e 78	lda $785e	    lda info_scroll
+.833c	f0 dd		beq $831b	    beq input_wait
+.833e	ce 5e 78	dec $785e	    dec info_scroll
+.8341	20 d0 86	jsr $86d0	    jsr render_info
+.8344	a9 02		lda #$02	    lda #2
+.8346	20 3c 58	jsr $583c	    jsr audio_event
+.8349	4c 2f 82	jmp $822f	    jmp input_wait
+.834c					start_game:
+.834c	a9 00		lda #$00	    lda #0
+.834e	8d ba 54	sta $54ba	    sta quit_pending
+.8351	a9 01		lda #$01	    lda #1
+.8353	8d b9 54	sta $54b9	    sta quit_active
+.8356	a9 02		lda #$02	    lda #2
+.8358	8d 52 78	sta $7852	    sta view
+.835b	20 a1 5a	jsr $5aa1	    jsr auto_session_reset
+.835e	20 b2 83	jsr $83b2	    jsr reset_game_state
+.8361	20 d3 87	jsr $87d3	    jsr draw_board
+.8364	4c 7a 83	jmp $837a	    jmp new_game_ready
+.8367					new_game:
+.8367	ad 53 78	lda $7853	    lda mode
+.836a	d0 05		bne $8371	    bne +
+.836c	a9 01		lda #$01	    lda #1
+.836e	8d a4 54	sta $54a4	    sta auto_later
+.8371					+
+.8371	20 b2 83	jsr $83b2	    jsr reset_game_state
+.8374	20 4c 88	jsr $884c	    jsr update_board
+.8377	20 89 89	jsr $8989	    jsr progress_reset
+.837a					new_game_ready:
+.837a	20 13 85	jsr $8513	    jsr ready_status
+.837d	ad 53 78	lda $7853	    lda mode
+.8380	d0 99		bne $831b	    bne input_wait
+.8382	a9 01		lda #$01	    lda #1
+.8384	8d a3 54	sta $54a3	    sta auto_started
+.8387	4c 1c 84	jmp $841c	    jmp auto_turn
+.838a					auto_exit:
+.838a	a9 00		lda #$00	    lda #0
+.838c	8d b9 54	sta $54b9	    sta quit_active
+.838f	8d ba 54	sta $54ba	    sta quit_pending
+.8392	8d 4d 78	sta $784d	    sta move_result
+.8395	8d 09 78	sta $7809	    sta history_length
+.8398	8d a0 54	sta $54a0	    sta auto_pausing
+.839b	8d a3 54	sta $54a3	    sta auto_started
+.839e	8d a4 54	sta $54a4	    sta auto_later
+.83a1	8d a5 54	sta $54a5	    sta auto_sampled
+.83a4	a9 01		lda #$01	    lda #1
+.83a6	8d bc 54	sta $54bc	    sta quit_blocked
+.83a9	20 03 80	jsr $8003	    jsr validate_history
+.83ac	20 ad 85	jsr $85ad	    jsr enter_title
+.83af	4c 2f 82	jmp $822f	    jmp input_wait
+.83b2					reset_game_state:
+.83b2	a9 00		lda #$00	    lda #0
+.83b4	8d a0 54	sta $54a0	    sta auto_pausing
+.83b7	8d a5 54	sta $54a5	    sta auto_sampled
+.83ba	8d 09 78	sta $7809	    sta history_length
+.83bd	8d 51 78	sta $7851	    sta neural_failed
+.83c0	8d 4d 78	sta $784d	    sta move_result
+.83c3	8d 5d 78	sta $785d	    sta activity_phase
+.83c6	4c 03 80	jmp $8003	    jmp validate_history
+.83c9					game_key:
+.83c9	ad 50 78	lda $7850	    lda pending_key
+.83cc	29 df		and #$df	    and #$df
+.83ce	c9 51		cmp #$51	    cmp #$51
+.83d0	d0 03		bne $83d5	    bne +
+.83d2	4c 8a 83	jmp $838a	    jmp auto_exit
+.83d5					+
+.83d5	c9 52		cmp #$52	    cmp #$52
+.83d7	f0 8e		beq $8367	    beq new_game
+.83d9	ad 19 78	lda $7819	    lda terminal
+.83dc	0d 51 78	ora $7851	    ora neural_failed
+.83df	f0 03		beq $83e4	    bne input_wait
+.83e1	4c 2f 82	jmp $822f
+.83e4	ad 50 78	lda $7850	    lda pending_key
+.83e7	c9 31		cmp #$31	    cmp #$31
+.83e9	b0 03		bcs $83ee	    bcc invalid_key
+.83eb	4c c6 84	jmp $84c6
+.83ee	c9 3a		cmp #$3a	    cmp #$3a
+.83f0	b0 f9		bcs $83eb	    bcs invalid_key
+.83f2	38		sec		    sec
+.83f3	e9 31		sbc #$31	    sbc #$31
+.83f5	aa		tax		    tax
+.83f6	bd 10 78	lda $7810,x	    lda original_board,x
+.83f9	d0 f0		bne $83eb	    bne invalid_key
+.83fb	8a		txa		    txa
+.83fc	20 04 85	jsr $8504	    jsr commit_square
+.83ff	90 03		bcc $8404	    bcs game_error
+.8401	4c e2 84	jmp $84e2
+.8404	20 4c 88	jsr $884c	    jsr update_board            ; accepted human mark is visible BEFORE NN
+.8407	20 45 58	jsr $5845	    jsr audio_mark
+.840a	ad 19 78	lda $7819	    lda terminal
+.840d	f0 03		beq $8412	    bne game_terminal
+.840f	4c ce 84	jmp $84ce
+.8412	ad 53 78	lda $7853	    lda mode
+.8415	c9 02		cmp #$02	    cmp #2
+.8417	d0 03		bne $841c	    beq two_human_ready
+.8419	4c c0 84	jmp $84c0
+.841c					auto_turn:
+.841c	ad ba 54	lda $54ba	    lda quit_pending
+.841f	f0 03		beq $8424	    bne auto_exit
+.8421	4c 8a 83	jmp $838a
+.8424	ad 53 78	lda $7853	    lda mode
+.8427	d0 1a		bne $8443	    bne compute_forward
+.8429	58		cli		    cli
+.842a	20 e4 ff	jsr $ffe4	    jsr $ffe4
+.842d	78		sei		    sei
+.842e	d8		cld		    cld
+.842f	29 df		and #$df	    and #$df
+.8431	c9 51		cmp #$51	    cmp #$51
+.8433	f0 ec		beq $8421	    beq auto_exit
+.8435	c9 52		cmp #$52	    cmp #$52
+.8437	d0 03		bne $843c	    beq new_game
+.8439	4c 67 83	jmp $8367
+.843c	c9 4d		cmp #$4d	    cmp #$4d
+.843e	d0 03		bne $8443	    bne compute_forward
+.8440	20 50 58	jsr $5850	    jsr audio_toggle
+.8443					compute_forward:
+.8443	a9 02		lda #$02	    lda #2
+.8445	20 c3 88	jsr $88c3	    jsr draw_status
+.8448	20 63 89	jsr $8963	    jsr progress_begin
+.844b	a2 5f		ldx #$5f	    ldx #$5f
+.844d					-
+.844d	b5 20		lda $20,x	    lda $20,x
+.844f	9d 80 78	sta $7880,x	    sta saved_zp,x
+.8452	ca		dex		    dex
+.8453	10 f8		bpl $844d	    bpl -
+.8455					neural_begin:
+.8455	20 2e 58	jsr $582e	    jsr audio_work_begin
+.8458	20 87 81	jsr $8187	    jsr policy_request
+.845b	08		php		    php
+.845c	78		sei		    sei
+.845d	a2 5f		ldx #$5f	    ldx #$5f
+.845f					-
+.845f	bd 80 78	lda $7880,x	    lda saved_zp,x
+.8462	95 20		sta $20,x	    sta $20,x
+.8464	ca		dex		    dex
+.8465	10 f8		bpl $845f	    bpl -
+.8467	20 35 58	jsr $5835	    jsr audio_work_end
+.846a	28		plp		    plp
+.846b	08		php		    php
+.846c	ad ba 54	lda $54ba	    lda quit_pending
+.846f	f0 04		beq $8475	    beq +
+.8471	28		plp		    plp
+.8472	4c 8a 83	jmp $838a	    jmp auto_exit
+.8475					+
+.8475	28		plp		    plp
+.8476	b0 6a		bcs $84e2	    bcs game_error
+.8478	20 ba 5a	jsr $5aba	    jsr auto_resolve_opening
+.847b	b0 65		bcs $84e2	    bcs game_error
+.847d	a9 00		lda #$00	    lda #0
+.847f	8d 5d 78	sta $785d	    sta activity_phase
+.8482	ae 49 78	ldx $7849	    ldx selected_move
+.8485	e0 09		cpx #$09	    cpx #9
+.8487	b0 59		bcs $84e2	    bcs game_error
+.8489	bd 10 78	lda $7810,x	    lda original_board,x
+.848c	d0 54		bne $84e2	    bne game_error
+.848e	ad 53 78	lda $7853	    lda mode
+.8491	d0 08		bne $849b	    bne +
+.8493	ad 09 78	lda $7809	    lda history_length
+.8496	d0 03		bne $849b	    bne +
+.8498	8e a6 54	stx $54a6	    stx auto_last_opening
+.849b					+
+.849b	8a		txa		    txa
+.849c	20 04 85	jsr $8504	    jsr commit_square
+.849f	b0 41		bcs $84e2	    bcs game_error
+.84a1	20 4c 88	jsr $884c	    jsr update_board
+.84a4	20 45 58	jsr $5845	    jsr audio_mark
+.84a7	20 81 89	jsr $8981	    jsr progress_commit
+.84aa	20 89 89	jsr $8989	    jsr progress_reset
+.84ad	ad 19 78	lda $7819	    lda terminal
+.84b0	d0 1c		bne $84ce	    bne game_terminal
+.84b2	ad 53 78	lda $7853	    lda mode
+.84b5	d0 03		bne $84ba	    beq auto_turn
+.84b7	4c 1c 84	jmp $841c
+.84ba	20 13 85	jsr $8513	    jsr ready_status
+.84bd	4c 2f 82	jmp $822f	    jmp input_wait
+.84c0					two_human_ready:
+.84c0	20 13 85	jsr $8513	    jsr ready_status
+.84c3	4c 2f 82	jmp $822f	    jmp input_wait
+.84c6					invalid_key:
+.84c6	a9 01		lda #$01	    lda #1
+.84c8	20 c3 88	jsr $88c3	    jsr draw_status
+.84cb	4c 2f 82	jmp $822f	    jmp input_wait
+.84ce					game_terminal:
+.84ce	18		clc		    clc
+.84cf	69 03		adc #$03	    adc #3
+.84d1	20 c3 88	jsr $88c3	    jsr draw_status
+.84d4	ad 53 78	lda $7853	    lda mode
+.84d7	f0 03		beq $84dc	    bne input_wait
+.84d9	4c 2f 82	jmp $822f
+.84dc	20 87 5b	jsr $5b87	    jsr auto_pause_begin
+.84df	4c 2f 82	jmp $822f	    jmp input_wait
+.84e2					game_error:
+.84e2	a9 00		lda #$00	    lda #0
+.84e4	8d a0 54	sta $54a0	    sta auto_pausing
+.84e7	20 89 89	jsr $8989	    jsr progress_reset
+.84ea	a9 00		lda #$00	    lda #0
+.84ec	8d 4d 78	sta $784d	    sta move_result
+.84ef	8d 5d 78	sta $785d	    sta activity_phase
+.84f2	a9 01		lda #$01	    lda #1
+.84f4	8d 51 78	sta $7851	    sta neural_failed
+.84f7	a9 07		lda #$07	    lda #7
+.84f9	48		pha		    pha
+.84fa	20 d3 87	jsr $87d3	    jsr draw_board
+.84fd	68		pla		    pla
+.84fe	20 c3 88	jsr $88c3	    jsr draw_status
+.8501	4c 2f 82	jmp $822f	    jmp input_wait
+.8504					commit_square:
+.8504	18		clc		    clc
+.8505	69 61		adc #$61	    adc #$61
+.8507	ae 09 78	ldx $7809	    ldx history_length
+.850a	9d 00 78	sta $7800,x	    sta history,x
+.850d	ee 09 78	inc $7809	    inc history_length
+.8510	4c 03 80	jmp $8003	    jmp validate_history
+.8513					ready_status:
+.8513	a9 00		lda #$00	    lda #0
+.8515	ae 53 78	ldx $7853	    ldx mode
+.8518	e0 02		cpx #$02	    cpx #2
+.851a	d0 02		bne $851e	    bne +
+.851c	a9 08		lda #$08	    lda #8
+.851e					+
+.851e	4c c3 88	jmp $88c3	    jmp draw_status
+.8521					ui_begin:
+.8521	78		sei		    sei
+.8522	d8		cld		    cld
+.8523	a2 07		ldx #$07	    ldx #7
+.8525					-
+.8525	b5 f7		lda $f7,x	    lda $f7,x
+.8527	9d 60 78	sta $7860,x	    sta ui_saved,x
+.852a	ca		dex		    dex
+.852b	10 f8		bpl $8525	    bpl -
+.852d	a5 01		lda $01		    lda $01
+.852f	8d 54 78	sta $7854	    sta ui_port
+.8532	29 fe		and #$fe	    and #$fe
+.8534	85 01		sta $01		    sta $01
+.8536	20 2e 58	jsr $582e	    jsr audio_work_begin
+.8539	60		rts		    rts
+.853a					ui_end:
+.853a	78		sei		    sei
+.853b	ad 54 78	lda $7854	    lda ui_port
+.853e	85 01		sta $01		    sta $01
+.8540	a2 07		ldx #$07	    ldx #7
+.8542					-
+.8542	bd 60 78	lda $7860,x	    lda ui_saved,x
+.8545	95 f7		sta $f7,x	    sta $f7,x
+.8547	ca		dex		    dex
+.8548	10 f8		bpl $8542	    bpl -
+.854a	20 35 58	jsr $5835	    jsr audio_work_end
+.854d	60		rts		    rts
+.854e					unpack_plane:
+.854e	a9 00		lda #$00	    lda #0
+.8550	8d 57 78	sta $7857	    sta packet_count
+.8553					unpack_next:
+.8553	a5 fb		lda $fb		    lda remaining
+.8555	05 fc		ora $fc		    ora remaining+1
+.8557	f0 48		beq $85a1	    beq unpack_done
+.8559	ad 57 78	lda $7857	    lda packet_count
+.855c	d0 1d		bne $857b	    bne unpack_byte
+.855e	20 a2 85	jsr $85a2	    jsr source_byte
+.8561	48		pha		    pha
+.8562	29 80		and #$80	    and #$80
+.8564	8d 58 78	sta $7858	    sta packet_kind
+.8567	68		pla		    pla
+.8568	29 7f		and #$7f	    and #$7f
+.856a	18		clc		    clc
+.856b	69 01		adc #$01	    adc #1
+.856d	8d 57 78	sta $7857	    sta packet_count
+.8570	ad 58 78	lda $7858	    lda packet_kind
+.8573	f0 06		beq $857b	    beq unpack_byte
+.8575	20 a2 85	jsr $85a2	    jsr source_byte
+.8578	8d 59 78	sta $7859	    sta packet_value
+.857b					unpack_byte:
+.857b	ad 58 78	lda $7858	    lda packet_kind
+.857e	f0 06		beq $8586	    beq unpack_literal
+.8580	ad 59 78	lda $7859	    lda packet_value
+.8583	4c 89 85	jmp $8589	    jmp unpack_store
+.8586					unpack_literal:
+.8586	20 a2 85	jsr $85a2	    jsr source_byte
+.8589					unpack_store:
+.8589	a0 00		ldy #$00	    ldy #0
+.858b	91 f9		sta ($f9),y	    sta (dst),y
+.858d	e6 f9		inc $f9		    inc dst
+.858f	d0 02		bne $8593	    bne +
+.8591	e6 fa		inc $fa		    inc dst+1
+.8593					+
+.8593	a5 fb		lda $fb		    lda remaining
+.8595	d0 02		bne $8599	    bne +
+.8597	c6 fc		dec $fc		    dec remaining+1
+.8599					+
+.8599	c6 fb		dec $fb		    dec remaining
+.859b	ce 57 78	dec $7857	    dec packet_count
+.859e	4c 53 85	jmp $8553	    jmp unpack_next
+.85a1					unpack_done:
+.85a1	60		rts		    rts
+.85a2					source_byte:
+.85a2	a0 00		ldy #$00	    ldy #0
+.85a4	b1 f7		lda ($f7),y	    lda (src),y
+.85a6	e6 f7		inc $f7		    inc src
+.85a8	d0 02		bne $85ac	    bne +
+.85aa	e6 f8		inc $f8		    inc src+1
+.85ac					+
+.85ac	60		rts		    rts
+.85ad					enter_title:
+.85ad	a9 00		lda #$00	    lda #0
+.85af	8d b9 54	sta $54b9	    sta quit_active
+.85b2	8d ba 54	sta $54ba	    sta quit_pending
+.85b5	8d 52 78	sta $7852	    sta view
+.85b8	8d 4d 78	sta $784d	    sta move_result
+.85bb	8d 5d 78	sta $785d	    sta activity_phase
+.85be	8d e9 78	sta $78e9	    sta progress_active
+.85c1	8d eb 78	sta $78eb	    sta progress_filled
+.85c4	8d a0 54	sta $54a0	    sta auto_pausing
+.85c7	8d a3 54	sta $54a3	    sta auto_started
+.85ca	20 21 85	jsr $8521	    jsr ui_begin
+.85cd	a9 0b		lda #$0b	    lda #$0b
+.85cf	8d 11 d0	sta $d011	    sta $d011
+.85d2	a9 00		lda #$00	    lda #<art_charset
+.85d4	85 f7		sta $f7		    sta src
+.85d6	a9 a0		lda #$a0	    lda #>art_charset
+.85d8	85 f8		sta $f8		    sta src+1
+.85da	a9 00		lda #$00	    lda #<$3000
+.85dc	85 f9		sta $f9		    sta dst
+.85de	a9 30		lda #$30	    lda #>$3000
+.85e0	85 fa		sta $fa		    sta dst+1
+.85e2	a9 00		lda #$00	    lda #<2048
+.85e4	85 fb		sta $fb		    sta remaining
+.85e6	a9 08		lda #$08	    lda #>2048
+.85e8	85 fc		sta $fc		    sta remaining+1
+.85ea	20 4e 85	jsr $854e	    jsr unpack_plane
+.85ed	a9 f6		lda #$f6	    lda #<art_title_screen
+.85ef	85 f7		sta $f7		    sta src
+.85f1	a9 a4		lda #$a4	    lda #>art_title_screen
+.85f3	85 f8		sta $f8		    sta src+1
+.85f5	a9 00		lda #$00	    lda #<$0400
+.85f7	85 f9		sta $f9		    sta dst
+.85f9	a9 04		lda #$04	    lda #>$0400
+.85fb	85 fa		sta $fa		    sta dst+1
+.85fd	a9 e8		lda #$e8	    lda #<1000
+.85ff	85 fb		sta $fb		    sta remaining
+.8601	a9 03		lda #$03	    lda #>1000
+.8603	85 fc		sta $fc		    sta remaining+1
+.8605	20 4e 85	jsr $854e	    jsr unpack_plane
+.8608	a9 c6		lda #$c6	    lda #<art_title_color
+.860a	85 f7		sta $f7		    sta src
+.860c	a9 a7		lda #$a7	    lda #>art_title_color
+.860e	85 f8		sta $f8		    sta src+1
+.8610	a9 00		lda #$00	    lda #<$d800
+.8612	85 f9		sta $f9		    sta dst
+.8614	a9 d8		lda #$d8	    lda #>$d800
+.8616	85 fa		sta $fa		    sta dst+1
+.8618	a9 e8		lda #$e8	    lda #<1000
+.861a	85 fb		sta $fb		    sta remaining
+.861c	a9 03		lda #$03	    lda #>1000
+.861e	85 fc		sta $fc		    sta remaining+1
+.8620	20 4e 85	jsr $854e	    jsr unpack_plane
+.8623	20 38 86	jsr $8638	    jsr patch_title_selector
+.8626	a9 1c		lda #$1c	    lda #$1c
+.8628	8d 18 d0	sta $d018	    sta $d018
+.862b	a9 08		lda #$08	    lda #8
+.862d	8d 16 d0	sta $d016	    sta $d016
+.8630	a9 1b		lda #$1b	    lda #$1b
+.8632	8d 11 d0	sta $d011	    sta $d011
+.8635	4c 3a 85	jmp $853a	    jmp ui_end
+.8638					patch_title_selector:
+.8638	a9 00		lda #$00	    lda #0
+.863a	8d 71 05	sta $0571	    sta $0400+9*40+9
+.863d	8d c1 05	sta $05c1	    sta $0400+11*40+9
+.8640	8d 11 06	sta $0611	    sta $0400+13*40+9
+.8643	ae 53 78	ldx $7853	    ldx mode
+.8646	bd cd 86	lda $86cd,x	    lda selector_rows,x
+.8649	aa		tax		    tax
+.864a	a9 2c		lda #$2c	    lda #44
+.864c	9d 71 05	sta $0571,x	    sta $0400+9*40+9,x
+.864f	a9 07		lda #$07	    lda #7
+.8651	9d 71 d9	sta $d971,x	    sta $d800+9*40+9,x
+.8654	60		rts		    rts
+.8655					enter_info:
+.8655	a9 01		lda #$01	    lda #1
+.8657	8d 52 78	sta $7852	    sta view
+.865a	a9 00		lda #$00	    lda #0
+.865c	8d 5e 78	sta $785e	    sta info_scroll
+.865f	20 21 85	jsr $8521	    jsr ui_begin
+.8662	a9 0b		lda #$0b	    lda #$0b
+.8664	8d 11 d0	sta $d011	    sta $d011
+.8667	a9 00		lda #$00	    lda #<art_charset
+.8669	85 f7		sta $f7		    sta src
+.866b	a9 a0		lda #$a0	    lda #>art_charset
+.866d	85 f8		sta $f8		    sta src+1
+.866f	a9 00		lda #$00	    lda #<$3000
+.8671	85 f9		sta $f9		    sta dst
+.8673	a9 30		lda #$30	    lda #>$3000
+.8675	85 fa		sta $fa		    sta dst+1
+.8677	a9 00		lda #$00	    lda #<2048
+.8679	85 fb		sta $fb		    sta remaining
+.867b	a9 08		lda #$08	    lda #>2048
+.867d	85 fc		sta $fc		    sta remaining+1
+.867f	20 4e 85	jsr $854e	    jsr unpack_plane
+.8682	a9 e1		lda #$e1	    lda #<art_info_screen
+.8684	85 f7		sta $f7		    sta src
+.8686	a9 a9		lda #$a9	    lda #>art_info_screen
+.8688	85 f8		sta $f8		    sta src+1
+.868a	a9 00		lda #$00	    lda #<$0400
+.868c	85 f9		sta $f9		    sta dst
+.868e	a9 04		lda #$04	    lda #>$0400
+.8690	85 fa		sta $fa		    sta dst+1
+.8692	a9 e8		lda #$e8	    lda #<1000
+.8694	85 fb		sta $fb		    sta remaining
+.8696	a9 03		lda #$03	    lda #>1000
+.8698	85 fc		sta $fc		    sta remaining+1
+.869a	20 4e 85	jsr $854e	    jsr unpack_plane
+.869d	a9 8b		lda #$8b	    lda #<art_info_color
+.869f	85 f7		sta $f7		    sta src
+.86a1	a9 ab		lda #$ab	    lda #>art_info_color
+.86a3	85 f8		sta $f8		    sta src+1
+.86a5	a9 00		lda #$00	    lda #<$d800
+.86a7	85 f9		sta $f9		    sta dst
+.86a9	a9 d8		lda #$d8	    lda #>$d800
+.86ab	85 fa		sta $fa		    sta dst+1
+.86ad	a9 e8		lda #$e8	    lda #<1000
+.86af	85 fb		sta $fb		    sta remaining
+.86b1	a9 03		lda #$03	    lda #>1000
+.86b3	85 fc		sta $fc		    sta remaining+1
+.86b5	20 4e 85	jsr $854e	    jsr unpack_plane
+.86b8	20 d9 86	jsr $86d9	    jsr paint_info
+.86bb	a9 1c		lda #$1c	    lda #$1c
+.86bd	8d 18 d0	sta $d018	    sta $d018
+.86c0	a9 08		lda #$08	    lda #8
+.86c2	8d 16 d0	sta $d016	    sta $d016
+.86c5	a9 1b		lda #$1b	    lda #$1b
+.86c7	8d 11 d0	sta $d011	    sta $d011
+.86ca	4c 3a 85	jmp $853a	    jmp ui_end
+.86cd					selector_rows:
+>86cd	a0 00 50			    .byte 160,0,80
+.86d0					render_info:
+.86d0	20 21 85	jsr $8521	    jsr ui_begin
+.86d3	20 d9 86	jsr $86d9	    jsr paint_info
+.86d6	4c 3a 85	jmp $853a	    jmp ui_end
+.86d9					paint_info:
+.86d9	a9 79		lda #$79	    lda #<info_chars
+.86db	85 f7		sta $f7		    sta src
+.86dd	a9 c5		lda #$c5	    lda #>info_chars
+.86df	85 f8		sta $f8		    sta src+1
+.86e1	ae 5e 78	ldx $785e	    ldx info_scroll
+.86e4	f0 0e		beq $86f4	    beq info_seek_done
+.86e6					info_seek:
+.86e6	18		clc		    clc
+.86e7	a5 f7		lda $f7		    lda src
+.86e9	69 1d		adc #$1d	    adc #29
+.86eb	85 f7		sta $f7		    sta src
+.86ed	90 02		bcc $86f1	    bcc +
+.86ef	e6 f8		inc $f8		    inc src+1
+.86f1					+
+.86f1	ca		dex		    dex
+.86f2	d0 f2		bne $86e6	    bne info_seek
+.86f4					info_seek_done:
+.86f4	a9 a5		lda #$a5	    lda #<$04a5
+.86f6	85 f9		sta $f9		    sta dst
+.86f8	a9 04		lda #$04	    lda #>$04a5
+.86fa	85 fa		sta $fa		    sta dst+1
+.86fc	a9 a5		lda #$a5	    lda #<$d8a5
+.86fe	85 fd		sta $fd		    sta aux
+.8700	a9 d8		lda #$d8	    lda #>$d8a5
+.8702	85 fe		sta $fe		    sta aux+1
+.8704	a9 00		lda #$00	    lda #0
+.8706	8d 5f 78	sta $785f	    sta info_row
+.8709					info_copy_row:
+.8709	ad 5e 78	lda $785e	    lda info_scroll
+.870c	18		clc		    clc
+.870d	6d 5f 78	adc $785f	    adc info_row
+.8710	aa		tax		    tax
+.8711	bd 2d cd	lda $cd2d,x	    lda info_line_colors,x
+.8714	8d 59 78	sta $7859	    sta packet_value
+.8717	a0 00		ldy #$00	    ldy #0
+.8719					-
+.8719	b1 f7		lda ($f7),y	    lda (src),y
+.871b	91 f9		sta ($f9),y	    sta (dst),y
+.871d	ad 59 78	lda $7859	    lda packet_value
+.8720	91 fd		sta ($fd),y	    sta (aux),y
+.8722	c8		iny		    iny
+.8723	c0 1d		cpy #$1d	    cpy #29
+.8725	d0 f2		bne $8719	    bne -
+.8727	18		clc		    clc
+.8728	a5 f7		lda $f7		    lda src
+.872a	69 1d		adc #$1d	    adc #29
+.872c	85 f7		sta $f7		    sta src
+.872e	90 02		bcc $8732	    bcc +
+.8730	e6 f8		inc $f8		    inc src+1
+.8732					+
+.8732	18		clc		    clc
+.8733	a5 f9		lda $f9		    lda dst
+.8735	69 28		adc #$28	    adc #40
+.8737	85 f9		sta $f9		    sta dst
+.8739	90 02		bcc $873d	    bcc +
+.873b	e6 fa		inc $fa		    inc dst+1
+.873d					+
+.873d	18		clc		    clc
+.873e	a5 fd		lda $fd		    lda aux
+.8740	69 28		adc #$28	    adc #40
+.8742	85 fd		sta $fd		    sta aux
+.8744	90 02		bcc $8748	    bcc +
+.8746	e6 fe		inc $fe		    inc aux+1
+.8748					+
+.8748	ee 5f 78	inc $785f	    inc info_row
+.874b	ad 5f 78	lda $785f	    lda info_row
+.874e	c9 12		cmp #$12	    cmp #18
+.8750	d0 b7		bne $8709	    bne info_copy_row
+.8752	ae 5e 78	ldx $785e	    ldx info_scroll
+.8755	bd 94 91	lda $9194,x	    lda info_scroll_positions,x
+.8758	8d 59 78	sta $7859	    sta packet_value
+.875b	a2 00		ldx #$00	    ldx #0
+.875d					info_track_loop:
+.875d	bd c7 91	lda $91c7,x	    lda info_track_lo,x
+.8760	85 f9		sta $f9		    sta dst
+.8762	bd d9 91	lda $91d9,x	    lda info_track_hi,x
+.8765	85 fa		sta $fa		    sta dst+1
+.8767	a9 54		lda #$54	    lda #info_track_glyph
+.8769	ec 59 78	cpx $7859	    cpx packet_value
+.876c	d0 02		bne $8770	    bne +
+.876e	a9 53		lda #$53	    lda #info_marker_glyph
+.8770					+
+.8770	a0 00		ldy #$00	    ldy #0
+.8772	91 f9		sta ($f9),y	    sta (dst),y
+.8774	a5 fa		lda $fa		    lda dst+1
+.8776	18		clc		    clc
+.8777	69 d4		adc #$d4	    adc #$d4
+.8779	85 fa		sta $fa		    sta dst+1
+.877b	a9 0b		lda #$0b	    lda #info_track_color
+.877d	ec 59 78	cpx $7859	    cpx packet_value
+.8780	d0 02		bne $8784	    bne +
+.8782	a9 07		lda #$07	    lda #info_marker_color
+.8784					+
+.8784	91 f9		sta ($f9),y	    sta (dst),y
+.8786	e8		inx		    inx
+.8787	e0 12		cpx #$12	    cpx #18
+.8789	d0 d2		bne $875d	    bne info_track_loop
+.878b	60		rts		    rts
+.878c					enter_quit:
+.878c	20 55 86	jsr $8655	    jsr enter_info
+.878f	a9 03		lda #$03	    lda #3
+.8791	8d 52 78	sta $7852	    sta view
+.8794	20 21 85	jsr $8521	    jsr ui_begin
+.8797	a9 b6		lda #$b6	    lda #<art_quit_screen
+.8799	85 f7		sta $f7		    sta src
+.879b	a9 c2		lda #$c2	    lda #>art_quit_screen
+.879d	85 f8		sta $f8		    sta src+1
+.879f	a9 00		lda #$00	    lda #<$0400
+.87a1	85 f9		sta $f9		    sta dst
+.87a3	a9 04		lda #$04	    lda #>$0400
+.87a5	85 fa		sta $fa		    sta dst+1
+.87a7	a9 e8		lda #$e8	    lda #<1000
+.87a9	85 fb		sta $fb		    sta remaining
+.87ab	a9 03		lda #$03	    lda #>1000
+.87ad	85 fc		sta $fc		    sta remaining+1
+.87af	20 4e 85	jsr $854e	    jsr unpack_plane
+.87b2	a9 71		lda #$71	    lda #<art_quit_color
+.87b4	85 f7		sta $f7		    sta src
+.87b6	a9 c4		lda #$c4	    lda #>art_quit_color
+.87b8	85 f8		sta $f8		    sta src+1
+.87ba	a9 00		lda #$00	    lda #<$d800
+.87bc	85 f9		sta $f9		    sta dst
+.87be	a9 d8		lda #$d8	    lda #>$d800
+.87c0	85 fa		sta $fa		    sta dst+1
+.87c2	a9 e8		lda #$e8	    lda #<1000
+.87c4	85 fb		sta $fb		    sta remaining
+.87c6	a9 03		lda #$03	    lda #>1000
+.87c8	85 fc		sta $fc		    sta remaining+1
+.87ca	20 4e 85	jsr $854e	    jsr unpack_plane
+.87cd	20 3a 85	jsr $853a	    jsr ui_end
+.87d0	4c 80 58	jmp $5880	    jmp audio_stop
+.87d3					draw_board:
+.87d3	20 21 85	jsr $8521	    jsr ui_begin
+.87d6	a9 0b		lda #$0b	    lda #$0b
+.87d8	8d 11 d0	sta $d011	    sta $d011
+.87db	a9 a6		lda #$a6	    lda #<art_board_bitmap
+.87dd	85 f7		sta $f7		    sta src
+.87df	a9 ac		lda #$ac	    lda #>art_board_bitmap
+.87e1	85 f8		sta $f8		    sta src+1
+.87e3	a9 00		lda #$00	    lda #<$2000
+.87e5	85 f9		sta $f9		    sta dst
+.87e7	a9 20		lda #$20	    lda #>$2000
+.87e9	85 fa		sta $fa		    sta dst+1
+.87eb	a9 40		lda #$40	    lda #<8000
+.87ed	85 fb		sta $fb		    sta remaining
+.87ef	a9 1f		lda #$1f	    lda #>8000
+.87f1	85 fc		sta $fc		    sta remaining+1
+.87f3	20 4e 85	jsr $854e	    jsr unpack_plane
+.87f6	a9 a1		lda #$a1	    lda #<art_board_screen
+.87f8	85 f7		sta $f7		    sta src
+.87fa	a9 be		lda #$be	    lda #>art_board_screen
+.87fc	85 f8		sta $f8		    sta src+1
+.87fe	a9 00		lda #$00	    lda #<$0400
+.8800	85 f9		sta $f9		    sta dst
+.8802	a9 04		lda #$04	    lda #>$0400
+.8804	85 fa		sta $fa		    sta dst+1
+.8806	a9 e8		lda #$e8	    lda #<1000
+.8808	85 fb		sta $fb		    sta remaining
+.880a	a9 03		lda #$03	    lda #>1000
+.880c	85 fc		sta $fc		    sta remaining+1
+.880e	20 4e 85	jsr $854e	    jsr unpack_plane
+.8811	a9 8f		lda #$8f	    lda #<art_board_color
+.8813	85 f7		sta $f7		    sta src
+.8815	a9 c1		lda #$c1	    lda #>art_board_color
+.8817	85 f8		sta $f8		    sta src+1
+.8819	a9 00		lda #$00	    lda #<$d800
+.881b	85 f9		sta $f9		    sta dst
+.881d	a9 d8		lda #$d8	    lda #>$d800
+.881f	85 fa		sta $fa		    sta dst+1
+.8821	a9 e8		lda #$e8	    lda #<1000
+.8823	85 fb		sta $fb		    sta remaining
+.8825	a9 03		lda #$03	    lda #>1000
+.8827	85 fc		sta $fc		    sta remaining+1
+.8829	20 4e 85	jsr $854e	    jsr unpack_plane
+.882c	a2 08		ldx #$08	    ldx #8
+.882e	a9 ff		lda #$ff	    lda #$ff
+.8830					-
+.8830	9d e0 78	sta $78e0,x	    sta painted_board,x
+.8833	ca		dex		    dex
+.8834	10 fa		bpl $8830	    bpl -
+.8836	20 55 88	jsr $8855	    jsr patch_board
+.8839	20 89 89	jsr $8989	    jsr progress_reset
+.883c	a9 18		lda #$18	    lda #$18
+.883e	8d 18 d0	sta $d018	    sta $d018
+.8841	8d 16 d0	sta $d016	    sta $d016
+.8844	a9 3b		lda #$3b	    lda #$3b
+.8846	8d 11 d0	sta $d011	    sta $d011
+.8849	4c 3a 85	jmp $853a	    jmp ui_end
+.884c					update_board:
+.884c	20 21 85	jsr $8521	    jsr ui_begin
+.884f	20 55 88	jsr $8855	    jsr patch_board
+.8852	4c 3a 85	jmp $853a	    jmp ui_end
+.8855					patch_board:
+.8855	a9 00		lda #$00	    lda #0
+.8857	8d 55 78	sta $7855	    sta ui_index
+.885a					draw_mark_loop:
+.885a	ae 55 78	ldx $7855	    ldx ui_index
+.885d	bd 10 78	lda $7810,x	    lda original_board,x
+.8860	dd e0 78	cmp $78e0,x	    cmp painted_board,x
+.8863	f0 53		beq $88b8	    beq draw_mark_next
+.8865	9d e0 78	sta $78e0,x	    sta painted_board,x
+.8868	c9 00		cmp #$00	    cmp #0
+.886a	f0 23		beq $888f	    beq draw_empty_label
+.886c	38		sec		    sec
+.886d	e9 01		sbc #$01	    sbc #1
+.886f	8d 56 78	sta $7856	    sta ui_count
+.8872	8a		txa		    txa
+.8873	0a		asl a		    asl a
+.8874	18		clc		    clc
+.8875	6d 56 78	adc $7856	    adc ui_count
+.8878	aa		tax		    tax
+.8879	bd 2f 92	lda $922f,x	    lda mark_counts,x
+.887c	8d 56 78	sta $7856	    sta ui_count
+.887f	8a		txa		    txa
+.8880	0a		asl a		    asl a
+.8881	aa		tax		    tax
+.8882	bd 0b 92	lda $920b,x	    lda mark_pointers,x
+.8885	85 f7		sta $f7		    sta src
+.8887	bd 0c 92	lda $920c,x	    lda mark_pointers+1,x
+.888a	85 f8		sta $f8		    sta src+1
+.888c	4c a2 88	jmp $88a2	    jmp patch_loop
+.888f					draw_empty_label:
+.888f	bd 65 92	lda $9265,x	    lda empty_counts,x
+.8892	8d 56 78	sta $7856	    sta ui_count
+.8895	8a		txa		    txa
+.8896	0a		asl a		    asl a
+.8897	aa		tax		    tax
+.8898	bd 53 92	lda $9253,x	    lda empty_pointers,x
+.889b	85 f7		sta $f7		    sta src
+.889d	bd 54 92	lda $9254,x	    lda empty_pointers+1,x
+.88a0	85 f8		sta $f8		    sta src+1
+.88a2					patch_loop:
+.88a2	20 a2 85	jsr $85a2	    jsr source_byte
+.88a5	85 f9		sta $f9		    sta dst
+.88a7	20 a2 85	jsr $85a2	    jsr source_byte
+.88aa	85 fa		sta $fa		    sta dst+1
+.88ac	20 a2 85	jsr $85a2	    jsr source_byte
+.88af	a0 00		ldy #$00	    ldy #0
+.88b1	91 f9		sta ($f9),y	    sta (dst),y
+.88b3	ce 56 78	dec $7856	    dec ui_count
+.88b6	d0 ea		bne $88a2	    bne patch_loop
+.88b8					draw_mark_next:
+.88b8	ee 55 78	inc $7855	    inc ui_index
+.88bb	ad 55 78	lda $7855	    lda ui_index
+.88be	c9 09		cmp #$09	    cmp #9
+.88c0	d0 98		bne $885a	    bne draw_mark_loop
+.88c2	60		rts		    rts
+.88c3					draw_status:
+.88c3	8d 5a 78	sta $785a	    sta status_index
+.88c6	20 21 85	jsr $8521	    jsr ui_begin
+.88c9	ad 5a 78	lda $785a	    lda status_index
+.88cc	c9 01		cmp #$01	    cmp #1
+.88ce	f0 13		beq $88e3	    beq status_invalid
+.88d0	c9 07		cmp #$07	    cmp #7
+.88d2	f0 13		beq $88e7	    beq status_error
+.88d4	ad 19 78	lda $7819	    lda terminal
+.88d7	d0 03		bne $88dc	    bne +
+.88d9	ad 1a 78	lda $781a	    lda side
+.88dc					+
+.88dc	38		sec		    sec
+.88dd	e9 01		sbc #$01	    sbc #1
+.88df	aa		tax		    tax
+.88e0	4c e9 88	jmp $88e9	    jmp status_paint
+.88e3					status_invalid:
+.88e3	a2 03		ldx #$03	    ldx #3
+.88e5	d0 02		bne $88e9	    bne status_paint
+.88e7					status_error:
+.88e7	a2 04		ldx #$04	    ldx #4
+.88e9					status_paint:
+.88e9	bd 06 89	lda $8906,x	    lda status_colors,x
+.88ec	8d 43 06	sta $0643	    sta $0643
+.88ef	8a		txa		    txa
+.88f0	0a		asl a		    asl a
+.88f1	0a		asl a		    asl a
+.88f2	0a		asl a		    asl a
+.88f3	aa		tax		    tax
+.88f4	a0 07		ldy #$07	    ldy #7
+.88f6					-
+.88f6	bd 0b 89	lda $890b,x	    lda status_glyphs,x
+.88f9	99 18 32	sta $3218,y	    sta $3218,y
+.88fc	e8		inx		    inx
+.88fd	88		dey		    dey
+.88fe	10 f6		bpl $88f6	    bpl -
+.8900	20 38 57	jsr $5738	    jsr paint_footer
+.8903	4c 3a 85	jmp $853a	    jmp ui_end
+>8906	a0 30 70 70 20			status_colors: .byte $a0,$30,$70,$70,$20
+.890b					status_glyphs:
+>890b	00 41 41 14 14 41 41 00		    .byte $00,$41,$41,$14,$14,$41,$41,$00
+>8913	00 14 41 41 41 41 14 00		    .byte $00,$14,$41,$41,$41,$41,$14,$00
+>891b	00 54 41 41 41 41 54 00		    .byte $00,$54,$41,$41,$41,$41,$54,$00
+>8923	00 10 00 10 04 44 14 00		    .byte $00,$10,$00,$10,$04,$44,$14,$00
+>892b	00 10 00 10 10 10 10 00		    .byte $00,$10,$00,$10,$10,$10,$10,$00
+.8933					graphical_forward:
+.8933	4c 24 8a	jmp $8a24	    jmp graph_full_forward
+.8936					progress_event:
+.8936	08		php		    php
+.8937	48		pha		    pha
+.8938	8a		txa		    txa
+.8939	48		pha		    pha
+.893a	98		tya		    tya
+.893b	48		pha		    pha
+.893c	20 00 55	jsr $5500	    jsr activity_tick
+.893f	b0 1b		bcs $895c	    bcs progress_event_done       ; failed computations earn no completed work
+.8941	d8		cld		    cld
+.8942	ad e9 78	lda $78e9	    lda progress_active
+.8945	c9 01		cmp #$01	    cmp #1
+.8947	d0 13		bne $895c	    bne progress_event_done
+.8949	ae ea 78	ldx $78ea	    ldx progress_event_index
+.894c	e0 20		cpx #$20	    cpx #32
+.894e	b0 0c		bcs $895c	    bcs progress_event_done
+.8950	bd eb 91	lda $91eb,x	    lda progress_thresholds,x
+.8953	8d eb 78	sta $78eb	    sta progress_filled
+.8956	ee ea 78	inc $78ea	    inc progress_event_index
+.8959	20 9a 89	jsr $899a	    jsr paint_progress
+.895c					progress_event_done:
+.895c	68		pla		    pla
+.895d	a8		tay		    tay
+.895e	68		pla		    pla
+.895f	aa		tax		    tax
+.8960	68		pla		    pla
+.8961	28		plp		    plp
+.8962	60		rts		    rts
+.8963					progress_begin:
+.8963	a9 01		lda #$01	    lda #1
+.8965	8d e9 78	sta $78e9	    sta progress_active
+.8968	a9 00		lda #$00	    lda #0
+.896a	8d ea 78	sta $78ea	    sta progress_event_index
+.896d	8d eb 78	sta $78eb	    sta progress_filled
+.8970	a9 20		lda #$20	    lda #$20
+.8972	ae 1a 78	ldx $781a	    ldx side
+.8975	e0 01		cpx #$01	    cpx #1
+.8977	f0 02		beq $897b	    beq +
+.8979	a9 60		lda #$60	    lda #$60
+.897b					+
+.897b	8d ec 78	sta $78ec	    sta progress_color
+.897e	4c 9a 89	jmp $899a	    jmp paint_progress
+.8981					progress_commit:
+.8981	a9 30		lda #$30	    lda #48
+.8983	8d eb 78	sta $78eb	    sta progress_filled
+.8986	4c 9a 89	jmp $899a	    jmp paint_progress
+.8989					progress_reset:
+.8989	a9 00		lda #$00	    lda #0
+.898b	8d e9 78	sta $78e9	    sta progress_active
+.898e	8d eb 78	sta $78eb	    sta progress_filled
+.8991	8d ec 78	sta $78ec	    sta progress_color
+.8994	20 b5 56	jsr $56b5	    jsr activity_reset
+.8997	4c 9a 89	jmp $899a	    jmp paint_progress
+.899a					paint_progress:
+.899a	a2 00		ldx #$00	    ldx #0
+.899c	ad eb 78	lda $78eb	    lda progress_filled
+.899f	8d ed 78	sta $78ed	    sta progress_segment
+.89a2					progress_cell_loop:
+.89a2	ad ec 78	lda $78ec	    lda progress_color
+.89a5	9d 3e 06	sta $063e,x	    sta $063e,x
+.89a8	a9 00		lda #$00	    lda #0
+.89aa	ac ed 78	ldy $78ed	    ldy progress_segment
+.89ad	c0 04		cpy #$04	    cpy #4
+.89af	90 04		bcc $89b5	    bcc +
+.89b1	a9 55		lda #$55	    lda #$55
+.89b3	d0 03		bne $89b8	    bne progress_pattern_ready
+.89b5					+
+.89b5	b9 20 8a	lda $8a20,y	    lda progress_partial,y
+.89b8					progress_pattern_ready:
+.89b8	8d ee 78	sta $78ee	    sta progress_pattern
+.89bb	ad ec 78	lda $78ec	    lda progress_color
+.89be	f0 19		beq $89d9	    beq +
+.89c0	ad ee 78	lda $78ee	    lda progress_pattern
+.89c3	e0 00		cpx #$00	    cpx #0
+.89c5	f0 10		beq $89d7	    beq progress_left
+.89c7	e0 06		cpx #$06	    cpx #6
+.89c9	f0 0c		beq $89d7	    beq progress_left
+.89cb	e0 04		cpx #$04	    cpx #4
+.89cd	f0 04		beq $89d3	    beq progress_right
+.89cf	e0 0c		cpx #$0c	    cpx #12
+.89d1	d0 06		bne $89d9	    bne +
+.89d3					progress_right:
+.89d3	09 01		ora #$01	    ora #$01
+.89d5	d0 02		bne $89d9	    bne +
+.89d7					progress_left:
+.89d7	09 40		ora #$40	    ora #$40
+.89d9					+
+.89d9	8d ee 78	sta $78ee	    sta progress_pattern
+.89dc	8a		txa		    txa
+.89dd	48		pha		    pha
+.89de	0a		asl a		    asl a
+.89df	0a		asl a		    asl a
+.89e0	0a		asl a		    asl a
+.89e1	aa		tax		    tax
+.89e2	ad ee 78	lda $78ee	    lda progress_pattern
+.89e5	9d f1 31	sta $31f1,x	    sta $31f1,x
+.89e8	9d f2 31	sta $31f2,x	    sta $31f2,x
+.89eb	9d f3 31	sta $31f3,x	    sta $31f3,x
+.89ee	9d f4 31	sta $31f4,x	    sta $31f4,x
+.89f1	9d f5 31	sta $31f5,x	    sta $31f5,x
+.89f4	9d f6 31	sta $31f6,x	    sta $31f6,x
+.89f7	a9 00		lda #$00	    lda #0
+.89f9	ac ec 78	ldy $78ec	    ldy progress_color
+.89fc	f0 02		beq $8a00	    beq +
+.89fe	a9 55		lda #$55	    lda #$55
+.8a00					+
+.8a00	9d f0 31	sta $31f0,x	    sta $31f0,x
+.8a03	9d f7 31	sta $31f7,x	    sta $31f7,x
+.8a06	68		pla		    pla
+.8a07	aa		tax		    tax
+.8a08	ad ed 78	lda $78ed	    lda progress_segment
+.8a0b	38		sec		    sec
+.8a0c	e9 04		sbc #$04	    sbc #4
+.8a0e	b0 02		bcs $8a12	    bcs +
+.8a10	a9 00		lda #$00	    lda #0
+.8a12					+
+.8a12	8d ed 78	sta $78ed	    sta progress_segment
+.8a15	e8		inx		    inx
+.8a16	e0 05		cpx #$05	    cpx #5
+.8a18	d0 01		bne $8a1b	    bne +
+.8a1a	e8		inx		    inx                         ; native turn/result glyph is $0643/$3218
+.8a1b					+
+.8a1b	e0 0d		cpx #$0d	    cpx #13
+.8a1d	d0 83		bne $89a2	    bne progress_cell_loop
+.8a1f	60		rts		    rts
+>8a20	00 40 50 54			progress_partial: .byte $00,$40,$50,$54
+
+;******  Processing file: /home/ai/falken-9/artifacts/app/010-graphical/presentation-forward.inc
+
+=4					EXPERT_COUNT = 4
+.8a24					graph_full_forward:
+.8a24	20 38 8b	jsr $8b38	    jsr graph_board_router
+.8a27	08		php		    php
+.8a28	2c ba 54	bit $54ba	    bit quit_pending
+.8a2b	10 03		bpl $8a30	    bpl quit_continue_1
+.8a2d	28		plp		    plp
+.8a2e	38		sec		    sec
+.8a2f	60		rts		    rts
+.8a30					quit_continue_1:
+.8a30	28		plp		    plp
+.8a31	90 01		bcc $8a34	    bcc +
+.8a33	60		rts		    rts
+.8a34					+
+.8a34	a9 00		lda #$00	    lda #0
+.8a36	8d b0 73	sta $73b0	    sta expert_slot
+.8a39					graph_expert_slot_loop:
+.8a39	ae b0 73	ldx $73b0	    ldx expert_slot
+.8a3c	bd 80 72	lda $7280,x	    lda routes,x
+.8a3f	c9 04		cmp #$04	    cmp #EXPERT_COUNT
+.8a41	90 02		bcc $8a45	    bcc +
+.8a43	38		sec		    sec
+.8a44	60		rts		    rts
+.8a45					+
+.8a45	8d b1 73	sta $73b1	    sta expert_id
+.8a48	a9 00		lda #$00	    lda #0
+.8a4a	8d b2 73	sta $73b2	    sta expert_stage
+.8a4d	a9 40		lda #$40	    lda #<norm2_output
+.8a4f	8d 80 73	sta $7380	    sta matrix_input_base
+.8a52	a9 72		lda #$72	    lda #>norm2_output
+.8a54	8d 81 73	sta $7381	    sta matrix_input_base+1
+.8a57	a9 08		lda #$08	    lda #8
+.8a59	8d 84 73	sta $7384	    sta matrix_input_count
+.8a5c	a9 04		lda #$04	    lda #4
+.8a5e	8d 85 73	sta $7385	    sta matrix_output_count
+.8a61	a9 08		lda #$08	    lda #8
+.8a63	8d 86 73	sta $7386	    sta matrix_weight_step
+.8a66	ad b0 73	lda $73b0	    lda expert_slot
+.8a69	0a		asl a		    asl a
+.8a6a	0a		asl a		    asl a
+.8a6b	0a		asl a		    asl a
+.8a6c	0a		asl a		    asl a
+.8a6d	18		clc		    clc
+.8a6e	69 90		adc #$90	    adc #<expert_hidden_pre
+.8a70	85 6a		sta $6a		    sta ptr_output
+.8a72	a9 72		lda #$72	    lda #>expert_hidden_pre
+.8a74	69 00		adc #$00	    adc #0
+.8a76	85 6b		sta $6b		    sta ptr_output+1
+.8a78	20 b4 1a	jsr $1ab4	    jsr expert_matrix
+.8a7b	20 36 89	jsr $8936	    jsr progress_event
+.8a7e	08		php		    php
+.8a7f	2c ba 54	bit $54ba	    bit quit_pending
+.8a82	10 03		bpl $8a87	    bpl quit_continue_2
+.8a84	28		plp		    plp
+.8a85	38		sec		    sec
+.8a86	60		rts		    rts
+.8a87					quit_continue_2:
+.8a87	28		plp		    plp
+.8a88	90 01		bcc $8a8b	    bcc +
+.8a8a	60		rts		    rts
+.8a8b					+
+.8a8b	ad b0 73	lda $73b0	    lda expert_slot
+.8a8e	0a		asl a		    asl a
+.8a8f	0a		asl a		    asl a
+.8a90	0a		asl a		    asl a
+.8a91	0a		asl a		    asl a
+.8a92	18		clc		    clc
+.8a93	69 90		adc #$90	    adc #<expert_hidden_pre
+.8a95	85 70		sta $70		    sta copy_source
+.8a97	a9 72		lda #$72	    lda #>expert_hidden_pre
+.8a99	69 00		adc #$00	    adc #0
+.8a9b	85 71		sta $71		    sta copy_source+1
+.8a9d	ad b0 73	lda $73b0	    lda expert_slot
+.8aa0	0a		asl a		    asl a
+.8aa1	0a		asl a		    asl a
+.8aa2	0a		asl a		    asl a
+.8aa3	0a		asl a		    asl a
+.8aa4	18		clc		    clc
+.8aa5	69 b0		adc #$b0	    adc #<expert_hidden
+.8aa7	85 72		sta $72		    sta copy_dest
+.8aa9	8d 80 73	sta $7380	    sta matrix_input_base
+.8aac	a9 72		lda #$72	    lda #>expert_hidden
+.8aae	69 00		adc #$00	    adc #0
+.8ab0	85 73		sta $73		    sta copy_dest+1
+.8ab2	8d 81 73	sta $7381	    sta matrix_input_base+1
+.8ab5	a9 04		lda #$04	    lda #4
+.8ab7	8d 8a 73	sta $738a	    sta gelu_count
+.8aba	20 cc 17	jsr $17cc	    jsr gelu_vector
+.8abd	20 36 89	jsr $8936	    jsr progress_event
+.8ac0	08		php		    php
+.8ac1	2c ba 54	bit $54ba	    bit quit_pending
+.8ac4	10 03		bpl $8ac9	    bpl quit_continue_3
+.8ac6	28		plp		    plp
+.8ac7	38		sec		    sec
+.8ac8	60		rts		    rts
+.8ac9					quit_continue_3:
+.8ac9	28		plp		    plp
+.8aca	90 01		bcc $8acd	    bcc +
+.8acc	60		rts		    rts
+.8acd					+
+.8acd	a9 01		lda #$01	    lda #1
+.8acf	8d b2 73	sta $73b2	    sta expert_stage
+.8ad2	a9 04		lda #$04	    lda #4
+.8ad4	8d 84 73	sta $7384	    sta matrix_input_count
+.8ad7	a9 08		lda #$08	    lda #8
+.8ad9	8d 85 73	sta $7385	    sta matrix_output_count
+.8adc	a9 10		lda #$10	    lda #16
+.8ade	8d 86 73	sta $7386	    sta matrix_weight_step
+.8ae1	ad b0 73	lda $73b0	    lda expert_slot
+.8ae4	0a		asl a		    asl a
+.8ae5	0a		asl a		    asl a
+.8ae6	0a		asl a		    asl a
+.8ae7	0a		asl a		    asl a
+.8ae8	0a		asl a		    asl a
+.8ae9	18		clc		    clc
+.8aea	69 d0		adc #$d0	    adc #<expert_outputs
+.8aec	85 6a		sta $6a		    sta ptr_output
+.8aee	a9 72		lda #$72	    lda #>expert_outputs
+.8af0	69 00		adc #$00	    adc #0
+.8af2	85 6b		sta $6b		    sta ptr_output+1
+.8af4	20 b4 1a	jsr $1ab4	    jsr expert_matrix
+.8af7	20 36 89	jsr $8936	    jsr progress_event
+.8afa	08		php		    php
+.8afb	2c ba 54	bit $54ba	    bit quit_pending
+.8afe	10 03		bpl $8b03	    bpl quit_continue_4
+.8b00	28		plp		    plp
+.8b01	38		sec		    sec
+.8b02	60		rts		    rts
+.8b03					quit_continue_4:
+.8b03	28		plp		    plp
+.8b04	90 01		bcc $8b07	    bcc +
+.8b06	60		rts		    rts
+.8b07					+
+.8b07	ee b0 73	inc $73b0	    inc expert_slot
+.8b0a	ad b0 73	lda $73b0	    lda expert_slot
+.8b0d	c9 02		cmp #$02	    cmp #2
+.8b0f	f0 03		beq $8b14	    beq +
+.8b11	4c 39 8a	jmp $8a39	    jmp graph_expert_slot_loop
+.8b14					+
+.8b14	20 3d 1b	jsr $1b3d	    jsr expert_merge
+.8b17	20 36 89	jsr $8936	    jsr progress_event
+.8b1a	08		php		    php
+.8b1b	2c ba 54	bit $54ba	    bit quit_pending
+.8b1e	10 03		bpl $8b23	    bpl quit_continue_5
+.8b20	28		plp		    plp
+.8b21	38		sec		    sec
+.8b22	60		rts		    rts
+.8b23					quit_continue_5:
+.8b23	28		plp		    plp
+.8b24	90 01		bcc $8b27	    bcc +
+.8b26	60		rts		    rts
+.8b27					+
+.8b27	20 0b 1c	jsr $1c0b	    jsr output_head
+.8b2a	20 36 89	jsr $8936	    jsr progress_event
+.8b2d	08		php		    php
+.8b2e	2c ba 54	bit $54ba	    bit quit_pending
+.8b31	10 03		bpl $8b36	    bpl quit_continue_6
+.8b33	28		plp		    plp
+.8b34	38		sec		    sec
+.8b35	60		rts		    rts
+.8b36					quit_continue_6:
+.8b36	28		plp		    plp
+.8b37	60		rts		    rts
+.8b38					graph_board_router:
+.8b38	20 c2 8b	jsr $8bc2	    jsr graph_board_norm2
+.8b3b	08		php		    php
+.8b3c	2c ba 54	bit $54ba	    bit quit_pending
+.8b3f	10 03		bpl $8b44	    bpl quit_continue_7
+.8b41	28		plp		    plp
+.8b42	38		sec		    sec
+.8b43	60		rts		    rts
+.8b44					quit_continue_7:
+.8b44	28		plp		    plp
+.8b45	90 01		bcc $8b48	    bcc +
+.8b47	60		rts		    rts
+.8b48					+
+.8b48	a9 40		lda #$40	    lda #<norm2_output
+.8b4a	8d 80 73	sta $7380	    sta matrix_input_base
+.8b4d	a9 72		lda #$72	    lda #>norm2_output
+.8b4f	8d 81 73	sta $7381	    sta matrix_input_base+1
+.8b52	a9 5d		lda #$5d	    lda #<router_weight_data
+.8b54	85 66		sta $66		    sta ptr_weight
+.8b56	a9 4b		lda #$4b	    lda #>router_weight_data
+.8b58	85 67		sta $67		    sta ptr_weight+1
+.8b5a	a9 2e		lda #$2e	    lda #<router_weight_exponents
+.8b5c	85 68		sta $68		    sta ptr_exponent
+.8b5e	a9 41		lda #$41	    lda #>router_weight_exponents
+.8b60	85 69		sta $69		    sta ptr_exponent+1
+.8b62	a9 9d		lda #$9d	    lda #<router_bias_data
+.8b64	85 6e		sta $6e		    sta matrix_bias
+.8b66	a9 4b		lda #$4b	    lda #>router_bias_data
+.8b68	85 6f		sta $6f		    sta matrix_bias+1
+.8b6a	a9 60		lda #$60	    lda #<router_scores
+.8b6c	85 6a		sta $6a		    sta ptr_output
+.8b6e	a9 72		lda #$72	    lda #>router_scores
+.8b70	85 6b		sta $6b		    sta ptr_output+1
+.8b72	a9 08		lda #$08	    lda #8
+.8b74	8d 84 73	sta $7384	    sta matrix_input_count
+.8b77	a9 04		lda #$04	    lda #EXPERT_COUNT
+.8b79	8d 85 73	sta $7385	    sta matrix_output_count
+.8b7c	a9 02		lda #$02	    lda #2
+.8b7e	8d 86 73	sta $7386	    sta matrix_weight_step
+.8b81	a9 10		lda #$10	    lda #16
+.8b83	8d 88 73	sta $7388	    sta matrix_row_step
+.8b86	a9 00		lda #$00	    lda #0
+.8b88	8d 87 73	sta $7387	    sta matrix_weight_step+1
+.8b8b	8d 89 73	sta $7389	    sta matrix_row_step+1
+.8b8e	20 a3 1c	jsr $1ca3	    jsr matrix_variable
+.8b91	20 36 89	jsr $8936	    jsr progress_event
+.8b94	08		php		    php
+.8b95	2c ba 54	bit $54ba	    bit quit_pending
+.8b98	10 03		bpl $8b9d	    bpl quit_continue_8
+.8b9a	28		plp		    plp
+.8b9b	38		sec		    sec
+.8b9c	60		rts		    rts
+.8b9d					quit_continue_8:
+.8b9d	28		plp		    plp
+.8b9e	90 01		bcc $8ba1	    bcc +
+.8ba0	60		rts		    rts
+.8ba1					+
+.8ba1	20 73 18	jsr $1873	    jsr route_top2
+.8ba4	20 36 89	jsr $8936	    jsr progress_event
+.8ba7	08		php		    php
+.8ba8	2c ba 54	bit $54ba	    bit quit_pending
+.8bab	10 03		bpl $8bb0	    bpl quit_continue_9
+.8bad	28		plp		    plp
+.8bae	38		sec		    sec
+.8baf	60		rts		    rts
+.8bb0					quit_continue_9:
+.8bb0	28		plp		    plp
+.8bb1	20 22 19	jsr $1922	    jsr route_gates
+.8bb4	20 36 89	jsr $8936	    jsr progress_event
+.8bb7	08		php		    php
+.8bb8	2c ba 54	bit $54ba	    bit quit_pending
+.8bbb	10 03		bpl $8bc0	    bpl quit_continue_10
+.8bbd	28		plp		    plp
+.8bbe	38		sec		    sec
+.8bbf	60		rts		    rts
+.8bc0					quit_continue_10:
+.8bc0	28		plp		    plp
+.8bc1	60		rts		    rts
+.8bc2					graph_board_norm2:
+.8bc2	20 0b 8c	jsr $8c0b	    jsr graph_board_readout
+.8bc5	08		php		    php
+.8bc6	2c ba 54	bit $54ba	    bit quit_pending
+.8bc9	10 03		bpl $8bce	    bpl quit_continue_11
+.8bcb	28		plp		    plp
+.8bcc	38		sec		    sec
+.8bcd	60		rts		    rts
+.8bce					quit_continue_11:
+.8bce	28		plp		    plp
+.8bcf	90 01		bcc $8bd2	    bcc +
+.8bd1	60		rts		    rts
+.8bd2					+
+.8bd2	a9 00		lda #$00	    lda #<readout_pre
+.8bd4	85 70		sta $70		    sta copy_source
+.8bd6	a9 72		lda #$72	    lda #>readout_pre
+.8bd8	85 71		sta $71		    sta copy_source+1
+.8bda	a9 20		lda #$20	    lda #<readout_gelu
+.8bdc	85 72		sta $72		    sta copy_dest
+.8bde	a9 72		lda #$72	    lda #>readout_gelu
+.8be0	85 73		sta $73		    sta copy_dest+1
+.8be2	a9 08		lda #$08	    lda #8
+.8be4	8d 8a 73	sta $738a	    sta gelu_count
+.8be7	20 cc 17	jsr $17cc	    jsr gelu_vector
+.8bea	20 36 89	jsr $8936	    jsr progress_event
+.8bed	08		php		    php
+.8bee	2c ba 54	bit $54ba	    bit quit_pending
+.8bf1	10 03		bpl $8bf6	    bpl quit_continue_12
+.8bf3	28		plp		    plp
+.8bf4	38		sec		    sec
+.8bf5	60		rts		    rts
+.8bf6					quit_continue_12:
+.8bf6	28		plp		    plp
+.8bf7	90 01		bcc $8bfa	    bcc +
+.8bf9	60		rts		    rts
+.8bfa					+
+.8bfa	20 d9 15	jsr $15d9	    jsr norm2
+.8bfd	20 36 89	jsr $8936	    jsr progress_event
+.8c00	08		php		    php
+.8c01	2c ba 54	bit $54ba	    bit quit_pending
+.8c04	10 03		bpl $8c09	    bpl quit_continue_13
+.8c06	28		plp		    plp
+.8c07	38		sec		    sec
+.8c08	60		rts		    rts
+.8c09					quit_continue_13:
+.8c09	28		plp		    plp
+.8c0a	60		rts		    rts
+.8c0b					graph_board_readout:
+.8c0b	20 72 8c	jsr $8c72	    jsr graph_board_attention_block
+.8c0e	08		php		    php
+.8c0f	2c ba 54	bit $54ba	    bit quit_pending
+.8c12	10 03		bpl $8c17	    bpl quit_continue_14
+.8c14	28		plp		    plp
+.8c15	38		sec		    sec
+.8c16	60		rts		    rts
+.8c17					quit_continue_14:
+.8c17	28		plp		    plp
+.8c18	90 01		bcc $8c1b	    bcc +
+.8c1a	60		rts		    rts
+.8c1b					+
+.8c1b					graph_readout_only:
+.8c1b	a9 80		lda #$80	    lda #<attention_residual
+.8c1d	8d 80 73	sta $7380	    sta matrix_input_base
+.8c20	a9 6c		lda #$6c	    lda #>attention_residual
+.8c22	8d 81 73	sta $7381	    sta matrix_input_base+1
+.8c25	a9 ad		lda #$ad	    lda #<readout_weight_data
+.8c27	85 66		sta $66		    sta ptr_weight
+.8c29	a9 46		lda #$46	    lda #>readout_weight_data
+.8c2b	85 67		sta $67		    sta ptr_weight+1
+.8c2d	a9 0e		lda #$0e	    lda #<readout_weight_exponents
+.8c2f	85 68		sta $68		    sta ptr_exponent
+.8c31	a9 41		lda #$41	    lda #>readout_weight_exponents
+.8c33	85 69		sta $69		    sta ptr_exponent+1
+.8c35	a9 2d		lda #$2d	    lda #<readout_bias_data
+.8c37	85 6e		sta $6e		    sta matrix_bias
+.8c39	a9 4b		lda #$4b	    lda #>readout_bias_data
+.8c3b	85 6f		sta $6f		    sta matrix_bias+1
+.8c3d	a9 00		lda #$00	    lda #<readout_pre
+.8c3f	85 6a		sta $6a		    sta ptr_output
+.8c41	a9 72		lda #$72	    lda #>readout_pre
+.8c43	85 6b		sta $6b		    sta ptr_output+1
+.8c45	a9 48		lda #$48	    lda #72
+.8c47	8d 84 73	sta $7384	    sta matrix_input_count
+.8c4a	a9 08		lda #$08	    lda #8
+.8c4c	8d 85 73	sta $7385	    sta matrix_output_count
+.8c4f	a9 02		lda #$02	    lda #2
+.8c51	8d 86 73	sta $7386	    sta matrix_weight_step
+.8c54	a9 90		lda #$90	    lda #144
+.8c56	8d 88 73	sta $7388	    sta matrix_row_step
+.8c59	a9 00		lda #$00	    lda #0
+.8c5b	8d 87 73	sta $7387	    sta matrix_weight_step+1
+.8c5e	8d 89 73	sta $7389	    sta matrix_row_step+1
+.8c61	20 a3 1c	jsr $1ca3	    jsr matrix_variable
+.8c64	20 36 89	jsr $8936	    jsr progress_event
+.8c67	08		php		    php
+.8c68	2c ba 54	bit $54ba	    bit quit_pending
+.8c6b	10 03		bpl $8c70	    bpl quit_continue_15
+.8c6d	28		plp		    plp
+.8c6e	38		sec		    sec
+.8c6f	60		rts		    rts
+.8c70					quit_continue_15:
+.8c70	28		plp		    plp
+.8c71	60		rts		    rts
+.8c72					graph_board_attention_block:
+.8c72	20 32 8d	jsr $8d32	    jsr graph_board_attention
+.8c75	08		php		    php
+.8c76	2c ba 54	bit $54ba	    bit quit_pending
+.8c79	10 03		bpl $8c7e	    bpl quit_continue_16
+.8c7b	28		plp		    plp
+.8c7c	38		sec		    sec
+.8c7d	60		rts		    rts
+.8c7e					quit_continue_16:
+.8c7e	28		plp		    plp
+.8c7f	90 01		bcc $8c82	    bcc +
+.8c81	60		rts		    rts
+.8c82					+
+.8c82	a9 00		lda #$00	    lda #0
+.8c84	8d 30 70	sta $7030	    sta board_index
+.8c87					graph_block_projection_row:
+.8c87	ad 30 70	lda $7030	    lda board_index
+.8c8a	0a		asl a		    asl a
+.8c8b	aa		tax		    tax
+.8c8c	bd 1c 14	lda $141c,x	    lda attended_rows,x
+.8c8f	85 70		sta $70		    sta copy_source
+.8c91	bd 1d 14	lda $141d,x	    lda attended_rows+1,x
+.8c94	85 71		sta $71		    sta copy_source+1
+.8c96	a0 00		ldy #$00	    ldy #0
+.8c98					graph_block_copy_attended:
+.8c98	b1 70		lda ($70),y	    lda (copy_source),y
+.8c9a	99 20 60	sta $6020,y	    sta normalized,y
+.8c9d	c8		iny		    iny
+.8c9e	c0 20		cpy #$20	    cpy #32
+.8ca0	d0 f6		bne $8c98	    bne graph_block_copy_attended
+.8ca2	a9 2d		lda #$2d	    lda #<projection_weight_data
+.8ca4	85 66		sta $66		    sta ptr_weight
+.8ca6	a9 46		lda #$46	    lda #>projection_weight_data
+.8ca8	85 67		sta $67		    sta ptr_weight+1
+.8caa	a9 00		lda #$00	    lda #<projection_weight_exponents
+.8cac	85 68		sta $68		    sta ptr_exponent
+.8cae	a9 41		lda #$41	    lda #>projection_weight_exponents
+.8cb0	85 69		sta $69		    sta ptr_exponent+1
+.8cb2	a9 40		lda #$40	    lda #<query
+.8cb4	85 6a		sta $6a		    sta ptr_output
+.8cb6	a9 60		lda #$60	    lda #>query
+.8cb8	85 6b		sta $6b		    sta ptr_output+1
+.8cba	20 9b 0d	jsr $0d9b	    jsr matrix8
+.8cbd	20 36 89	jsr $8936	    jsr progress_event
+.8cc0	08		php		    php
+.8cc1	2c ba 54	bit $54ba	    bit quit_pending
+.8cc4	10 03		bpl $8cc9	    bpl quit_continue_17
+.8cc6	28		plp		    plp
+.8cc7	38		sec		    sec
+.8cc8	60		rts		    rts
+.8cc9					quit_continue_17:
+.8cc9	28		plp		    plp
+.8cca	90 01		bcc $8ccd	    bcc +
+.8ccc	60		rts		    rts
+.8ccd					+
+.8ccd	ad 30 70	lda $7030	    lda board_index
+.8cd0	0a		asl a		    asl a
+.8cd1	aa		tax		    tax
+.8cd2	bd e9 14	lda $14e9,x	    lda projected_rows,x
+.8cd5	85 72		sta $72		    sta copy_dest
+.8cd7	bd ea 14	lda $14ea,x	    lda projected_rows+1,x
+.8cda	85 73		sta $73		    sta copy_dest+1
+.8cdc	bd d7 14	lda $14d7,x	    lda embedding_rows,x
+.8cdf	85 76		sta $76		    sta k_ptr
+.8ce1	bd d8 14	lda $14d8,x	    lda embedding_rows+1,x
+.8ce4	85 77		sta $77		    sta k_ptr+1
+.8ce6	bd fb 14	lda $14fb,x	    lda residual_rows,x
+.8ce9	85 74		sta $74		    sta q_ptr
+.8ceb	bd fc 14	lda $14fc,x	    lda residual_rows+1,x
+.8cee	85 75		sta $75		    sta q_ptr+1
+.8cf0	a0 00		ldy #$00	    ldy #0
+.8cf2					graph_block_copy_projected:
+.8cf2	b9 40 60	lda $6040,y	    lda query,y
+.8cf5	91 72		sta ($72),y	    sta (copy_dest),y
+.8cf7	c8		iny		    iny
+.8cf8	c0 20		cpy #$20	    cpy #32
+.8cfa	d0 f6		bne $8cf2	    bne graph_block_copy_projected
+.8cfc	a0 00		ldy #$00	    ldy #0
+.8cfe					graph_block_residual_lane:
+.8cfe	18		clc		    clc
+.8cff	b9 40 60	lda $6040,y	        lda query,y
+.8d02	71 76		adc ($76),y	        adc (k_ptr),y
+.8d04	91 74		sta ($74),y	        sta (q_ptr),y
+.8d06	c8		iny		        iny
+.8d07	b9 40 60	lda $6040,y	        lda query,y
+.8d0a	71 76		adc ($76),y	        adc (k_ptr),y
+.8d0c	91 74		sta ($74),y	        sta (q_ptr),y
+.8d0e	c8		iny		        iny
+.8d0f	b9 40 60	lda $6040,y	        lda query,y
+.8d12	71 76		adc ($76),y	        adc (k_ptr),y
+.8d14	91 74		sta ($74),y	        sta (q_ptr),y
+.8d16	c8		iny		        iny
+.8d17	b9 40 60	lda $6040,y	        lda query,y
+.8d1a	71 76		adc ($76),y	        adc (k_ptr),y
+.8d1c	91 74		sta ($74),y	        sta (q_ptr),y
+.8d1e	c8		iny		        iny
+.8d1f	c0 20		cpy #$20	    cpy #32
+.8d21	d0 db		bne $8cfe	    bne graph_block_residual_lane
+.8d23	ee 30 70	inc $7030	    inc board_index
+.8d26	ad 30 70	lda $7030	    lda board_index
+.8d29	c9 09		cmp #$09	    cmp #9
+.8d2b	f0 03		beq $8d30	    beq graph_block_done
+.8d2d	4c 87 8c	jmp $8c87	    jmp graph_block_projection_row
+.8d30					graph_block_done:
+.8d30	18		clc		    clc
+.8d31	60		rts		    rts
+.8d32					graph_board_attention:
+.8d32	d8		cld		    cld
+.8d33	a9 00		lda #$00	    lda #0
+.8d35	8d 02 70	sta $7002	    sta token_side
+.8d38	8d 30 70	sta $7030	    sta board_index
+.8d3b					graph_board_validate:
+.8d3b	ae 30 70	ldx $7030	    ldx board_index
+.8d3e	bd 20 70	lda $7020,x	    lda board,x
+.8d41	c9 03		cmp #$03	    cmp #3
+.8d43	90 02		bcc $8d47	    bcc +
+.8d45	38		sec		    sec
+.8d46	60		rts		    rts
+.8d47					+
+.8d47	c9 00		cmp #$00	    cmp #0
+.8d49	f0 03		beq $8d4e	    beq +
+.8d4b	ee 02 70	inc $7002	    inc token_side
+.8d4e					+
+.8d4e	ee 30 70	inc $7030	    inc board_index
+.8d51	ad 30 70	lda $7030	    lda board_index
+.8d54	c9 09		cmp #$09	    cmp #9
+.8d56	d0 e3		bne $8d3b	    bne graph_board_validate
+.8d58	ad 02 70	lda $7002	    lda token_side
+.8d5b	29 01		and #$01	    and #1
+.8d5d	8d 02 70	sta $7002	    sta token_side
+.8d60	a9 00		lda #$00	    lda #0
+.8d62	8d 30 70	sta $7030	    sta board_index
+.8d65					graph_board_local:
+.8d65	ae 30 70	ldx $7030	    ldx board_index
+.8d68	bd 20 70	lda $7020,x	    lda board,x
+.8d6b	8d 00 70	sta $7000	    sta token_occ
+.8d6e	8e 01 70	stx $7001	    stx token_pos
+.8d71	20 df 0a	jsr $0adf	    jsr token_frontend
+.8d74	20 36 89	jsr $8936	    jsr progress_event
+.8d77	08		php		    php
+.8d78	2c ba 54	bit $54ba	    bit quit_pending
+.8d7b	10 03		bpl $8d80	    bpl quit_continue_18
+.8d7d	28		plp		    plp
+.8d7e	38		sec		    sec
+.8d7f	60		rts		    rts
+.8d80					quit_continue_18:
+.8d80	28		plp		    plp
+.8d81	90 01		bcc $8d84	    bcc +
+.8d83	60		rts		    rts
+.8d84					+
+.8d84	a9 00		lda #$00	    lda #0
+.8d86	8d 31 70	sta $7031	    sta copy_stage
+.8d89					graph_board_copy:
+.8d89	ad 31 70	lda $7031	    lda copy_stage
+.8d8c	0a		asl a		    asl a
+.8d8d	aa		tax		    tax
+.8d8e	bd 9c 13	lda $139c,x	    lda local_sources,x
+.8d91	85 70		sta $70		    sta copy_source
+.8d93	bd 9d 13	lda $139d,x	    lda local_sources+1,x
+.8d96	85 71		sta $71		    sta copy_source+1
+.8d98	ae 30 70	ldx $7030	    ldx board_index
+.8d9b	bd b0 13	lda $13b0,x	    lda row_offset_low,x
+.8d9e	85 72		sta $72		    sta copy_dest
+.8da0	bd b9 13	lda $13b9,x	    lda row_offset_high,x
+.8da3	85 73		sta $73		    sta copy_dest+1
+.8da5	ad 31 70	lda $7031	    lda copy_stage
+.8da8	0a		asl a		    asl a
+.8da9	aa		tax		    tax
+.8daa	18		clc		    clc
+.8dab	a5 72		lda $72		    lda copy_dest
+.8dad	7d a6 13	adc $13a6,x	    adc local_destinations,x
+.8db0	85 72		sta $72		    sta copy_dest
+.8db2	a5 73		lda $73		    lda copy_dest+1
+.8db4	7d a7 13	adc $13a7,x	    adc local_destinations+1,x
+.8db7	85 73		sta $73		    sta copy_dest+1
+.8db9	a0 00		ldy #$00	    ldy #0
+.8dbb					graph_board_copy_bytes:
+.8dbb	b1 70		lda ($70),y	    lda (copy_source),y
+.8dbd	91 72		sta ($72),y	    sta (copy_dest),y
+.8dbf	c8		iny		    iny
+.8dc0	c0 20		cpy #$20	    cpy #32
+.8dc2	d0 f7		bne $8dbb	    bne graph_board_copy_bytes
+.8dc4	ee 31 70	inc $7031	    inc copy_stage
+.8dc7	ad 31 70	lda $7031	    lda copy_stage
+.8dca	c9 05		cmp #$05	    cmp #5
+.8dcc	d0 bb		bne $8d89	    bne graph_board_copy
+.8dce	ee 30 70	inc $7030	    inc board_index
+.8dd1	ad 30 70	lda $7030	    lda board_index
+.8dd4	c9 09		cmp #$09	    cmp #9
+.8dd6	f0 03		beq $8ddb	    beq graph_board_scores_start
+.8dd8	4c 65 8d	jmp $8d65	    jmp graph_board_local
+.8ddb					graph_board_scores_start:
+.8ddb	a9 00		lda #$00	    lda #0
+.8ddd	8d 32 70	sta $7032	    sta att_i
+.8de0					graph_board_score_row:
+.8de0	20 00 55	jsr $5500	    jsr activity_tick
+.8de3	08		php		    php
+.8de4	2c ba 54	bit $54ba	    bit quit_pending
+.8de7	10 03		bpl $8dec	    bpl quit_continue_19
+.8de9	28		plp		    plp
+.8dea	38		sec		    sec
+.8deb	60		rts		    rts
+.8dec					quit_continue_19:
+.8dec	28		plp		    plp
+.8ded	ad 32 70	lda $7032	    lda att_i
+.8df0	0a		asl a		    asl a
+.8df1	aa		tax		    tax
+.8df2	bd c2 13	lda $13c2,x	    lda q_rows,x
+.8df5	85 74		sta $74		    sta q_ptr
+.8df7	bd c3 13	lda $13c3,x	    lda q_rows+1,x
+.8dfa	85 75		sta $75		    sta q_ptr+1
+.8dfc	bd f8 13	lda $13f8,x	    lda score_rows,x
+.8dff	85 7a		sta $7a		    sta score_ptr
+.8e01	bd f9 13	lda $13f9,x	    lda score_rows+1,x
+.8e04	85 7b		sta $7b		    sta score_ptr+1
+.8e06	a9 00		lda #$00	    lda #0
+.8e08	8d 33 70	sta $7033	    sta att_j
+.8e0b					graph_board_score_col:
+.8e0b	ad 33 70	lda $7033	    lda att_j
+.8e0e	0a		asl a		    asl a
+.8e0f	aa		tax		    tax
+.8e10	bd d4 13	lda $13d4,x	    lda k_rows,x
+.8e13	85 76		sta $76		    sta k_ptr
+.8e15	bd d5 13	lda $13d5,x	    lda k_rows+1,x
+.8e18	85 77		sta $77		    sta k_ptr+1
+.8e1a	20 2d 0e	jsr $0e2d	    jsr clear_acc
+.8e1d	a9 00		lda #$00	    lda #0
+.8e1f	8d 34 70	sta $7034	    sta att_lane
+.8e22					graph_board_score_dot:
+.8e22	ad 34 70	lda $7034	    lda att_lane
+.8e25	0a		asl a		    asl a
+.8e26	0a		asl a		    asl a
+.8e27	a8		tay		    tay
+.8e28	b1 74		lda ($74),y	        lda (q_ptr),y
+.8e2a	85 20		sta $20		        sta operand+i
+.8e2c	c8		iny		        iny
+.8e2d	b1 74		lda ($74),y	        lda (q_ptr),y
+.8e2f	85 21		sta $21		        sta operand+i
+.8e31	c8		iny		        iny
+.8e32	b1 74		lda ($74),y	        lda (q_ptr),y
+.8e34	85 22		sta $22		        sta operand+i
+.8e36	c8		iny		        iny
+.8e37	b1 74		lda ($74),y	        lda (q_ptr),y
+.8e39	85 23		sta $23		        sta operand+i
+.8e3b	c8		iny		        iny
+.8e3c	ad 34 70	lda $7034	    lda att_lane
+.8e3f	0a		asl a		    asl a
+.8e40	0a		asl a		    asl a
+.8e41	a8		tay		    tay
+.8e42	20 77 13	jsr $1377	    jsr load_key_weight
+.8e45	90 01		bcc $8e48	    bcc +
+.8e47	60		rts		    rts
+.8e48					+
+.8e48	20 00 08	jsr $0800	    jsr mac40
+.8e4b	90 01		bcc $8e4e	    bcc +
+.8e4d	60		rts		    rts
+.8e4e					+
+.8e4e	ee 34 70	inc $7034	    inc att_lane
+.8e51	ad 34 70	lda $7034	    lda att_lane
+.8e54	c9 08		cmp #$08	    cmp #8
+.8e56	d0 ca		bne $8e22	    bne graph_board_score_dot
+.8e58	a9 0b		lda #$0b	    lda #11
+.8e5a	85 2b		sta $2b		    sta shift
+.8e5c	20 fa 08	jsr $08fa	    jsr scale40
+.8e5f	a5 26		lda $26		        lda acc+i
+.8e61	85 20		sta $20		        sta operand+i
+.8e63	a5 27		lda $27		        lda acc+i
+.8e65	85 21		sta $21		        sta operand+i
+.8e67	a5 28		lda $28		        lda acc+i
+.8e69	85 22		sta $22		        sta operand+i
+.8e6b	a5 29		lda $29		        lda acc+i
+.8e6d	85 23		sta $23		        sta operand+i
+.8e6f	20 2d 0e	jsr $0e2d	    jsr clear_acc
+.8e72	a9 41		lda #$41	    lda #<11585
+.8e74	85 24		sta $24		    sta weight
+.8e76	a9 2d		lda #$2d	    lda #>11585
+.8e78	85 25		sta $25		    sta weight+1
+.8e7a	20 00 08	jsr $0800	    jsr mac40
+.8e7d	90 01		bcc $8e80	    bcc +
+.8e7f	60		rts		    rts
+.8e80					+
+.8e80	a9 0f		lda #$0f	    lda #15
+.8e82	85 2b		sta $2b		    sta shift
+.8e84	20 fa 08	jsr $08fa	    jsr scale40
+.8e87	20 af 0e	jsr $0eaf	    jsr check_acc32
+.8e8a	90 01		bcc $8e8d	    bcc +
+.8e8c	60		rts		    rts
+.8e8d					+
+.8e8d	ad 33 70	lda $7033	    lda att_j
+.8e90	0a		asl a		    asl a
+.8e91	0a		asl a		    asl a
+.8e92	a8		tay		    tay
+.8e93	a5 26		lda $26		        lda acc+i
+.8e95	91 7a		sta ($7a),y	        sta (score_ptr),y
+.8e97	c8		iny		        iny
+.8e98	a5 27		lda $27		        lda acc+i
+.8e9a	91 7a		sta ($7a),y	        sta (score_ptr),y
+.8e9c	c8		iny		        iny
+.8e9d	a5 28		lda $28		        lda acc+i
+.8e9f	91 7a		sta ($7a),y	        sta (score_ptr),y
+.8ea1	c8		iny		        iny
+.8ea2	a5 29		lda $29		        lda acc+i
+.8ea4	91 7a		sta ($7a),y	        sta (score_ptr),y
+.8ea6	c8		iny		        iny
+.8ea7	ee 33 70	inc $7033	    inc att_j
+.8eaa	ad 33 70	lda $7033	    lda att_j
+.8ead	c9 09		cmp #$09	    cmp #9
+.8eaf	f0 03		beq $8eb4	    beq graph_board_score_next
+.8eb1	4c 0b 8e	jmp $8e0b	    jmp graph_board_score_col
+.8eb4					graph_board_score_next:
+.8eb4	ee 32 70	inc $7032	    inc att_i
+.8eb7	ad 32 70	lda $7032	    lda att_i
+.8eba	c9 09		cmp #$09	    cmp #9
+.8ebc	f0 03		beq $8ec1	    beq graph_attention_softmax_start
+.8ebe	4c e0 8d	jmp $8de0	    jmp graph_board_score_row
+.8ec1					graph_attention_softmax_start:
+.8ec1	a9 00		lda #$00	    lda #0
+.8ec3	8d 32 70	sta $7032	    sta att_i
+.8ec6					graph_attention_softmax_row:
+.8ec6	20 00 55	jsr $5500	    jsr activity_tick
+.8ec9	08		php		    php
+.8eca	2c ba 54	bit $54ba	    bit quit_pending
+.8ecd	10 03		bpl $8ed2	    bpl quit_continue_20
+.8ecf	28		plp		    plp
+.8ed0	38		sec		    sec
+.8ed1	60		rts		    rts
+.8ed2					quit_continue_20:
+.8ed2	28		plp		    plp
+.8ed3	ad 32 70	lda $7032	    lda att_i
+.8ed6	0a		asl a		    asl a
+.8ed7	aa		tax		    tax
+.8ed8	bd f8 13	lda $13f8,x	    lda score_rows,x
+.8edb	85 7a		sta $7a		    sta score_ptr
+.8edd	bd f9 13	lda $13f9,x	    lda score_rows+1,x
+.8ee0	85 7b		sta $7b		    sta score_ptr+1
+.8ee2	bd 0a 14	lda $140a,x	    lda prob_rows,x
+.8ee5	85 7c		sta $7c		    sta prob_ptr
+.8ee7	bd 0b 14	lda $140b,x	    lda prob_rows+1,x
+.8eea	85 7d		sta $7d		    sta prob_ptr+1
+.8eec	bd 1c 14	lda $141c,x	    lda attended_rows,x
+.8eef	85 7e		sta $7e		    sta att_ptr
+.8ef1	bd 1d 14	lda $141d,x	    lda attended_rows+1,x
+.8ef4	85 7f		sta $7f		    sta att_ptr+1
+.8ef6	a0 00		ldy #$00	    ldy #0
+.8ef8	b1 7a		lda ($7a),y	        lda (score_ptr),y
+.8efa	8d 40 70	sta $7040	        sta maximum+i
+.8efd	c8		iny		        iny
+.8efe	b1 7a		lda ($7a),y	        lda (score_ptr),y
+.8f00	8d 41 70	sta $7041	        sta maximum+i
+.8f03	c8		iny		        iny
+.8f04	b1 7a		lda ($7a),y	        lda (score_ptr),y
+.8f06	8d 42 70	sta $7042	        sta maximum+i
+.8f09	c8		iny		        iny
+.8f0a	b1 7a		lda ($7a),y	        lda (score_ptr),y
+.8f0c	8d 43 70	sta $7043	        sta maximum+i
+.8f0f	c8		iny		        iny
+.8f10	a9 00		lda #$00	    lda #0
+.8f12	8d 35 70	sta $7035	    sta winner
+.8f15	a9 01		lda #$01	    lda #1
+.8f17	8d 33 70	sta $7033	    sta att_j
+.8f1a					graph_attention_max:
+.8f1a	ad 33 70	lda $7033	    lda att_j
+.8f1d	0a		asl a		    asl a
+.8f1e	0a		asl a		    asl a
+.8f1f	a8		tay		    tay
+.8f20	38		sec		    sec
+.8f21	b1 7a		lda ($7a),y	        lda (score_ptr),y
+.8f23	ed 40 70	sbc $7040	        sbc maximum+i
+.8f26	c8		iny		        iny
+.8f27	b1 7a		lda ($7a),y	        lda (score_ptr),y
+.8f29	ed 41 70	sbc $7041	        sbc maximum+i
+.8f2c	c8		iny		        iny
+.8f2d	b1 7a		lda ($7a),y	        lda (score_ptr),y
+.8f2f	ed 42 70	sbc $7042	        sbc maximum+i
+.8f32	c8		iny		        iny
+.8f33	b1 7a		lda ($7a),y	        lda (score_ptr),y
+.8f35	ed 43 70	sbc $7043	        sbc maximum+i
+.8f38	c8		iny		        iny
+.8f39	50 02		bvc $8f3d	    bvc +
+.8f3b	49 80		eor #$80	    eor #$80
+.8f3d					+
+.8f3d	09 00		ora #$00	    ora #0                         ; INY changed N after the last SBC.
+.8f3f	30 46		bmi $8f87	    bmi graph_attention_max_skip
+.8f41	ad 33 70	lda $7033	    lda att_j
+.8f44	0a		asl a		    asl a
+.8f45	0a		asl a		    asl a
+.8f46	a8		tay		    tay
+.8f47	b1 7a		lda ($7a),y	    lda (score_ptr),y
+.8f49	cd 40 70	cmp $7040	    cmp maximum
+.8f4c	d0 18		bne $8f66	    bne graph_attention_new_max
+.8f4e	c8		iny		    iny
+.8f4f	b1 7a		lda ($7a),y	    lda (score_ptr),y
+.8f51	cd 41 70	cmp $7041	    cmp maximum+1
+.8f54	d0 10		bne $8f66	    bne graph_attention_new_max
+.8f56	c8		iny		    iny
+.8f57	b1 7a		lda ($7a),y	    lda (score_ptr),y
+.8f59	cd 42 70	cmp $7042	    cmp maximum+2
+.8f5c	d0 08		bne $8f66	    bne graph_attention_new_max
+.8f5e	c8		iny		    iny
+.8f5f	b1 7a		lda ($7a),y	    lda (score_ptr),y
+.8f61	cd 43 70	cmp $7043	    cmp maximum+3
+.8f64	f0 21		beq $8f87	    beq graph_attention_max_skip
+.8f66					graph_attention_new_max:
+.8f66	ad 33 70	lda $7033	    lda att_j
+.8f69	8d 35 70	sta $7035	    sta winner
+.8f6c	0a		asl a		    asl a
+.8f6d	0a		asl a		    asl a
+.8f6e	a8		tay		    tay
+.8f6f	b1 7a		lda ($7a),y	        lda (score_ptr),y
+.8f71	8d 40 70	sta $7040	        sta maximum+i
+.8f74	c8		iny		        iny
+.8f75	b1 7a		lda ($7a),y	        lda (score_ptr),y
+.8f77	8d 41 70	sta $7041	        sta maximum+i
+.8f7a	c8		iny		        iny
+.8f7b	b1 7a		lda ($7a),y	        lda (score_ptr),y
+.8f7d	8d 42 70	sta $7042	        sta maximum+i
+.8f80	c8		iny		        iny
+.8f81	b1 7a		lda ($7a),y	        lda (score_ptr),y
+.8f83	8d 43 70	sta $7043	        sta maximum+i
+.8f86	c8		iny		        iny
+.8f87					graph_attention_max_skip:
+.8f87	ee 33 70	inc $7033	    inc att_j
+.8f8a	ad 33 70	lda $7033	    lda att_j
+.8f8d	c9 09		cmp #$09	    cmp #9
+.8f8f	d0 89		bne $8f1a	    bne graph_attention_max
+.8f91	a9 00		lda #$00	    lda #0
+.8f93	8d 48 70	sta $7048	        sta exp_total+i
+.8f96	8d 50 70	sta $7050	        sta prob_total+i
+.8f99	8d 49 70	sta $7049	        sta exp_total+i
+.8f9c	8d 51 70	sta $7051	        sta prob_total+i
+.8f9f	8d 4a 70	sta $704a	        sta exp_total+i
+.8fa2	8d 52 70	sta $7052	        sta prob_total+i
+.8fa5	8d 4b 70	sta $704b	        sta exp_total+i
+.8fa8	8d 53 70	sta $7053	        sta prob_total+i
+.8fab	8d 4c 70	sta $704c	        sta exp_total+i
+.8fae	8d 54 70	sta $7054	        sta prob_total+i
+.8fb1	8d 33 70	sta $7033	    sta att_j
+.8fb4					graph_attention_exp:
+.8fb4	ad 33 70	lda $7033	    lda att_j
+.8fb7	0a		asl a		    asl a
+.8fb8	0a		asl a		    asl a
+.8fb9	a8		tay		    tay
+.8fba	38		sec		    sec
+.8fbb	ad 40 70	lda $7040	        lda maximum+i
+.8fbe	f1 7a		sbc ($7a),y	        sbc (score_ptr),y
+.8fc0	85 20		sta $20		        sta operand+i
+.8fc2	c8		iny		        iny
+.8fc3	ad 41 70	lda $7041	        lda maximum+i
+.8fc6	f1 7a		sbc ($7a),y	        sbc (score_ptr),y
+.8fc8	85 21		sta $21		        sta operand+i
+.8fca	c8		iny		        iny
+.8fcb	ad 42 70	lda $7042	        lda maximum+i
+.8fce	f1 7a		sbc ($7a),y	        sbc (score_ptr),y
+.8fd0	85 22		sta $22		        sta operand+i
+.8fd2	c8		iny		        iny
+.8fd3	ad 43 70	lda $7043	        lda maximum+i
+.8fd6	f1 7a		sbc ($7a),y	        sbc (score_ptr),y
+.8fd8	85 23		sta $23		        sta operand+i
+.8fda	c8		iny		        iny
+.8fdb	20 bf 0e	jsr $0ebf	    jsr exp_interpolate
+.8fde	90 01		bcc $8fe1	    bcc +
+.8fe0	60		rts		    rts
+.8fe1					+
+.8fe1	ad 33 70	lda $7033	    lda att_j
+.8fe4	0a		asl a		    asl a
+.8fe5	0a		asl a		    asl a
+.8fe6	aa		tax		    tax
+.8fe7	a5 26		lda $26		        lda acc+i
+.8fe9	9d 60 70	sta $7060,x	        sta exponents+i,x
+.8fec	a5 27		lda $27		        lda acc+i
+.8fee	9d 61 70	sta $7061,x	        sta exponents+i,x
+.8ff1	a5 28		lda $28		        lda acc+i
+.8ff3	9d 62 70	sta $7062,x	        sta exponents+i,x
+.8ff6	a5 29		lda $29		        lda acc+i
+.8ff8	9d 63 70	sta $7063,x	        sta exponents+i,x
+.8ffb	18		clc		    clc
+.8ffc	ad 48 70	lda $7048	        lda exp_total+i
+.8fff	65 26		adc $26		        adc acc+i
+.9001	8d 48 70	sta $7048	        sta exp_total+i
+.9004	ad 49 70	lda $7049	        lda exp_total+i
+.9007	65 27		adc $27		        adc acc+i
+.9009	8d 49 70	sta $7049	        sta exp_total+i
+.900c	ad 4a 70	lda $704a	        lda exp_total+i
+.900f	65 28		adc $28		        adc acc+i
+.9011	8d 4a 70	sta $704a	        sta exp_total+i
+.9014	ad 4b 70	lda $704b	        lda exp_total+i
+.9017	65 29		adc $29		        adc acc+i
+.9019	8d 4b 70	sta $704b	        sta exp_total+i
+.901c	ad 4c 70	lda $704c	        lda exp_total+i
+.901f	65 2a		adc $2a		        adc acc+i
+.9021	8d 4c 70	sta $704c	        sta exp_total+i
+.9024	ee 33 70	inc $7033	    inc att_j
+.9027	ad 33 70	lda $7033	    lda att_j
+.902a	c9 09		cmp #$09	    cmp #9
+.902c	d0 86		bne $8fb4	    bne graph_attention_exp
+.902e	ad 48 70	lda $7048	        lda exp_total+i
+.9031	85 40		sta $40		        sta denominator+i
+.9033	ad 49 70	lda $7049	        lda exp_total+i
+.9036	85 41		sta $41		        sta denominator+i
+.9038	ad 4a 70	lda $704a	        lda exp_total+i
+.903b	85 42		sta $42		        sta denominator+i
+.903d	ad 4b 70	lda $704b	        lda exp_total+i
+.9040	85 43		sta $43		        sta denominator+i
+.9042	ad 4c 70	lda $704c	        lda exp_total+i
+.9045	85 44		sta $44		        sta denominator+i
+.9047	a9 00		lda #$00	    lda #0
+.9049	8d 33 70	sta $7033	    sta att_j
+.904c					graph_attention_probability:
+.904c	ad 33 70	lda $7033	    lda att_j
+.904f	0a		asl a		    asl a
+.9050	0a		asl a		    asl a
+.9051	aa		tax		    tax
+.9052	bd 60 70	lda $7060,x	        lda exponents+i,x
+.9055	85 26		sta $26		        sta acc+i
+.9057	bd 61 70	lda $7061,x	        lda exponents+i,x
+.905a	85 27		sta $27		        sta acc+i
+.905c	bd 62 70	lda $7062,x	        lda exponents+i,x
+.905f	85 28		sta $28		        sta acc+i
+.9061	bd 63 70	lda $7063,x	        lda exponents+i,x
+.9064	85 29		sta $29		        sta acc+i
+.9066	a9 00		lda #$00	    lda #0
+.9068	85 2a		sta $2a		    sta acc+4
+.906a	a2 0f		ldx #$0f	    ldx #15
+.906c					graph_attention_p_shift:
+.906c	06 26		asl $26		    asl acc
+.906e	26 27		rol $27		        rol acc+i
+.9070	26 28		rol $28		        rol acc+i
+.9072	26 29		rol $29		        rol acc+i
+.9074	26 2a		rol $2a		        rol acc+i
+.9076	ca		dex		    dex
+.9077	d0 f3		bne $906c	    bne graph_attention_p_shift
+.9079	20 5f 09	jsr $095f	    jsr floor40
+.907c	90 01		bcc $907f	    bcc +
+.907e	60		rts		    rts
+.907f					+
+.907f	18		clc		    clc
+.9080	ad 50 70	lda $7050	        lda prob_total+i
+.9083	65 26		adc $26		        adc acc+i
+.9085	8d 50 70	sta $7050	        sta prob_total+i
+.9088	ad 51 70	lda $7051	        lda prob_total+i
+.908b	65 27		adc $27		        adc acc+i
+.908d	8d 51 70	sta $7051	        sta prob_total+i
+.9090	ad 52 70	lda $7052	        lda prob_total+i
+.9093	65 28		adc $28		        adc acc+i
+.9095	8d 52 70	sta $7052	        sta prob_total+i
+.9098	ad 53 70	lda $7053	        lda prob_total+i
+.909b	65 29		adc $29		        adc acc+i
+.909d	8d 53 70	sta $7053	        sta prob_total+i
+.90a0	ad 54 70	lda $7054	        lda prob_total+i
+.90a3	65 2a		adc $2a		        adc acc+i
+.90a5	8d 54 70	sta $7054	        sta prob_total+i
+.90a8	ad 33 70	lda $7033	    lda att_j
+.90ab	0a		asl a		    asl a
+.90ac	0a		asl a		    asl a
+.90ad	a8		tay		    tay
+.90ae	a5 26		lda $26		        lda acc+i
+.90b0	91 7c		sta ($7c),y	        sta (prob_ptr),y
+.90b2	c8		iny		        iny
+.90b3	a5 27		lda $27		        lda acc+i
+.90b5	91 7c		sta ($7c),y	        sta (prob_ptr),y
+.90b7	c8		iny		        iny
+.90b8	a5 28		lda $28		        lda acc+i
+.90ba	91 7c		sta ($7c),y	        sta (prob_ptr),y
+.90bc	c8		iny		        iny
+.90bd	a5 29		lda $29		        lda acc+i
+.90bf	91 7c		sta ($7c),y	        sta (prob_ptr),y
+.90c1	c8		iny		        iny
+.90c2	ee 33 70	inc $7033	    inc att_j
+.90c5	ad 33 70	lda $7033	    lda att_j
+.90c8	c9 09		cmp #$09	    cmp #9
+.90ca	d0 80		bne $904c	    bne graph_attention_probability
+.90cc	38		sec		    sec
+.90cd	a9 00		lda #$00	    lda #0
+.90cf	ed 50 70	sbc $7050	    sbc prob_total
+.90d2	85 26		sta $26		    sta acc
+.90d4	a9 80		lda #$80	    lda #$80
+.90d6	ed 51 70	sbc $7051	    sbc prob_total+1
+.90d9	85 27		sta $27		    sta acc+1
+.90db	ad 35 70	lda $7035	    lda winner
+.90de	0a		asl a		    asl a
+.90df	0a		asl a		    asl a
+.90e0	a8		tay		    tay
+.90e1	18		clc		    clc
+.90e2	b1 7c		lda ($7c),y	    lda (prob_ptr),y
+.90e4	65 26		adc $26		    adc acc
+.90e6	91 7c		sta ($7c),y	    sta (prob_ptr),y
+.90e8	c8		iny		    iny
+.90e9	b1 7c		lda ($7c),y	    lda (prob_ptr),y
+.90eb	65 27		adc $27		    adc acc+1
+.90ed	91 7c		sta ($7c),y	    sta (prob_ptr),y
+.90ef	a9 00		lda #$00	    lda #0
+.90f1	8d 34 70	sta $7034	    sta att_lane
+.90f4					graph_attention_weighted_lane:
+.90f4	20 2d 0e	jsr $0e2d	    jsr clear_acc
+.90f7	a9 00		lda #$00	    lda #0
+.90f9	8d 33 70	sta $7033	    sta att_j
+.90fc					graph_attention_weighted_key:
+.90fc	ad 33 70	lda $7033	    lda att_j
+.90ff	0a		asl a		    asl a
+.9100	aa		tax		    tax
+.9101	bd e6 13	lda $13e6,x	    lda v_rows,x
+.9104	85 76		sta $76		    sta k_ptr
+.9106	bd e7 13	lda $13e7,x	    lda v_rows+1,x
+.9109	85 77		sta $77		    sta k_ptr+1
+.910b	ad 34 70	lda $7034	    lda att_lane
+.910e	0a		asl a		    asl a
+.910f	0a		asl a		    asl a
+.9110	a8		tay		    tay
+.9111	20 77 13	jsr $1377	    jsr load_key_weight
+.9114	90 01		bcc $9117	    bcc +
+.9116	60		rts		    rts
+.9117					+
+.9117	ad 33 70	lda $7033	    lda att_j
+.911a	0a		asl a		    asl a
+.911b	0a		asl a		    asl a
+.911c	a8		tay		    tay
+.911d	b1 7c		lda ($7c),y	        lda (prob_ptr),y
+.911f	85 20		sta $20		        sta operand+i
+.9121	c8		iny		        iny
+.9122	b1 7c		lda ($7c),y	        lda (prob_ptr),y
+.9124	85 21		sta $21		        sta operand+i
+.9126	c8		iny		        iny
+.9127	b1 7c		lda ($7c),y	        lda (prob_ptr),y
+.9129	85 22		sta $22		        sta operand+i
+.912b	c8		iny		        iny
+.912c	b1 7c		lda ($7c),y	        lda (prob_ptr),y
+.912e	85 23		sta $23		        sta operand+i
+.9130	c8		iny		        iny
+.9131	20 00 08	jsr $0800	    jsr mac40
+.9134	90 01		bcc $9137	    bcc +
+.9136	60		rts		    rts
+.9137					+
+.9137	ee 33 70	inc $7033	    inc att_j
+.913a	ad 33 70	lda $7033	    lda att_j
+.913d	c9 09		cmp #$09	    cmp #9
+.913f	d0 bb		bne $90fc	    bne graph_attention_weighted_key
+.9141	a9 0f		lda #$0f	    lda #15
+.9143	85 2b		sta $2b		    sta shift
+.9145	20 fa 08	jsr $08fa	    jsr scale40
+.9148	20 af 0e	jsr $0eaf	    jsr check_acc32
+.914b	90 01		bcc $914e	    bcc +
+.914d	60		rts		    rts
+.914e					+
+.914e	ad 34 70	lda $7034	    lda att_lane
+.9151	0a		asl a		    asl a
+.9152	0a		asl a		    asl a
+.9153	a8		tay		    tay
+.9154	a5 26		lda $26		        lda acc+i
+.9156	91 7e		sta ($7e),y	        sta (att_ptr),y
+.9158	c8		iny		        iny
+.9159	a5 27		lda $27		        lda acc+i
+.915b	91 7e		sta ($7e),y	        sta (att_ptr),y
+.915d	c8		iny		        iny
+.915e	a5 28		lda $28		        lda acc+i
+.9160	91 7e		sta ($7e),y	        sta (att_ptr),y
+.9162	c8		iny		        iny
+.9163	a5 29		lda $29		        lda acc+i
+.9165	91 7e		sta ($7e),y	        sta (att_ptr),y
+.9167	c8		iny		        iny
+.9168	ee 34 70	inc $7034	    inc att_lane
+.916b	ad 34 70	lda $7034	    lda att_lane
+.916e	c9 08		cmp #$08	    cmp #8
+.9170	f0 03		beq $9175	    beq graph_attention_next_row
+.9172	4c f4 90	jmp $90f4	    jmp graph_attention_weighted_lane
+.9175					graph_attention_next_row:
+.9175	ee 32 70	inc $7032	    inc att_i
+.9178	ad 32 70	lda $7032	    lda att_i
+.917b	c9 09		cmp #$09	    cmp #9
+.917d	f0 03		beq $9182	    beq graph_attention_done
+.917f	4c c6 8e	jmp $8ec6	    jmp graph_attention_softmax_row
+.9182					graph_attention_done:
+.9182	18		clc		    clc
+.9183	60		rts		    rts
+
+;******  Return to file: /home/ai/falken-9/src/app/graphical_game.asm
+
+.9184					core_backup:
+>9184	d8 a5 23 45 25 85 3c a9		    .binary "core-backup.bin"
+>918c	00 85 34 a5 23 10 1c 38
+
+;******  Processing file: /home/ai/falken-9/artifacts/app/010-graphical/graphics.inc
+
+=$a000					art_charset = $a000
+=2048					art_charset_length = 2048
+=$a4f6					art_title_screen = $a4f6
+=1000					art_title_screen_length = 1000
+=$a7c6					art_title_color = $a7c6
+=1000					art_title_color_length = 1000
+=$a9e1					art_info_screen = $a9e1
+=1000					art_info_screen_length = 1000
+=$ab8b					art_info_color = $ab8b
+=1000					art_info_color_length = 1000
+=$aca6					art_board_bitmap = $aca6
+=8000					art_board_bitmap_length = 8000
+=$bea1					art_board_screen = $bea1
+=1000					art_board_screen_length = 1000
+=$c18f					art_board_color = $c18f
+=1000					art_board_color_length = 1000
+=$c2b6					art_quit_screen = $c2b6
+=$c471					art_quit_color = $c471
+=68					info_line_count = 68
+=$c579					info_chars = $c579
+=$cd2d					info_line_colors = $cd2d
+=84					info_track_glyph = 84
+=83					info_marker_glyph = 83
+=11					info_track_color = 11
+=7					info_marker_color = 7
+.9194					info_scroll_positions:
+>9194	00 00 01 01 01 02 02 02		    .byte 0,0,1,1,1,2,2,2,3,3,3,4,4,4,5,5,5,6,6,6,7,7,7,8,8,8,9,9,10,10,10,11,11,11,12,12,12,13,13,13,14,14,14,15,15,15,16,16,16,17,17
+>919c	03 03 03 04 04 04 05 05 05 06 06 06 07 07 07 08
+>91ac	08 08 09 09 0a 0a 0a 0b 0b 0b 0c 0c 0c 0d 0d 0d
+>91bc	0e 0e 0e 0f 0f 0f 10 10 10 11 11
+.91c7					info_track_lo:
+>91c7	c2 ea 12 3a 62 8a b2 da		    .byte 194,234,18,58,98,138,178,218,2,42,82,122,162,202,242,26,66,106
+>91cf	02 2a 52 7a a2 ca f2 1a 42 6a
+.91d9					info_track_hi:
+>91d9	04 04 05 05 05 05 05 05		    .byte 4,4,5,5,5,5,5,5,6,6,6,6,6,6,6,7,7,7
+>91e1	06 06 06 06 06 06 06 07 07 07
+.91eb					progress_thresholds:
+>91eb	02 04 06 08 0a 0c 0e 10		    .byte 2,4,6,8,10,12,14,16,18,34,35,36,36,37,37,38,38,39,44,44,44,44,44,44,45,45,45,45,45,46,46,46
+>91f3	12 22 23 24 24 25 25 26 26 27 2c 2c 2c 2c 2c 2c
+>9203	2d 2d 2d 2d 2d 2e 2e 2e
+.920b					mark_pointers:
+>920b	6e 92 31 93 f4 93 7e 94		    .word mark_patch_data+0,mark_patch_data+195,mark_patch_data+390,mark_patch_data+528,mark_patch_data+666,mark_patch_data+870,mark_patch_data+1074,mark_patch_data+1269,mark_patch_data+1464,mark_patch_data+1602,mark_patch_data+1740,mark_patch_data+1944,mark_patch_data+2148,mark_patch_data+2334,mark_patch_data+2520,mark_patch_data+2652,mark_patch_data+2784,mark_patch_data+2979
+>9213	08 95 d4 95 a0 96 63 97 26 98 b0 98 3a 99 06 9a
+>9223	d2 9a 8c 9b 46 9c ca 9c 4e 9d 11 9e
+.922f					mark_counts:
+>922f	41 41 2e 2e 44 44 41 41		    .byte 65,65,46,46,68,68,65,65,46,46,68,68,62,62,44,44,65,65
+>9237	2e 2e 44 44 3e 3e 2c 2c 41 41
+.9241					numeric_label_pointers:
+>9241	d4 9e ef 9e 0a 9f 25 9f		    .word numeric_label_data+0,numeric_label_data+27,numeric_label_data+54,numeric_label_data+81,numeric_label_data+108,numeric_label_data+135,numeric_label_data+162,numeric_label_data+189,numeric_label_data+216
+>9249	40 9f 5b 9f 76 9f 91 9f ac 9f
+.9253					empty_pointers:
+>9253	00 79 c3 79 4d 7a 19 7b		    .word 30976,31171,31309,31513,31708,31846,32050,32236,32368
+>925b	dc 7b 66 7c 32 7d ec 7d 70 7e
+.9265					empty_counts:
+>9265	41 2e 44 41 2e 44 3e 2c		    .byte 65,46,68,65,46,68,62,44,65
+>926d	41
+
+;******  Return to file: /home/ai/falken-9/src/app/graphical_game.asm
+
+.926e					mark_patch_data:
+>926e	7a 25 10 7b 25 10 7c 25		    .binary "mark-patches.bin"
+>9276	14 7d 25 04 7e 25 05 7f 25 01 82 25 00 83 25 01
+>9286	84 25 03 85 25 07 86 25 0c 87 25 1c 8a 25 c0 8b
+>9296	25 c0 8e 25 00 8f 25 00 b8 26 01 b9 26 00 ba 26
+>92a6	00 bb 26 01 bc 26 01 bd 26 05 be 26 04 bf 26 14
+>92b6	c0 26 50 c1 26 70 c2 26 70 c3 26 70 c4 26 3c c5
+>92c6	26 0c c6 26 0f c7 26 03 c8 26 00 c9 26 00 ca 26
+>92d6	00 cb 26 00 cc 26 00 cd 26 00 f8 27 10 f9 27 10
+>92e6	fe 27 aa 00 28 03 01 28 00 06 28 aa 08 28 c0 09
+>92f6	28 c0 0e 28 aa af 04 a0 b0 04 a0 b1 04 a0 d7 04
+>9306	a0 d8 04 a0 d9 04 00 ff 04 ad 00 05 ad 01 05 ad
+>9316	af d8 02 b0 d8 02 b1 d8 02 d7 d8 02 d8 d8 02 d9
+>9326	d8 00 ff d8 00 00 d9 02 01 d9 02 7a 25 03 7b 25
+>9336	0d 7c 25 0f 7d 25 34 7e 25 3c 7f 25 10 82 25 f4
+>9346	83 25 54 84 25 f5 85 25 05 86 25 01 87 25 01 8a
+>9356	25 00 8b 25 00 8e 25 c0 8f 25 c0 b8 26 10 b9 26
+>9366	10 ba 26 10 bb 26 10 bc 26 10 bd 26 14 be 26 14
+>9376	bf 26 05 c0 26 01 c1 26 01 c2 26 01 c3 26 01 c4
+>9386	26 01 c5 26 03 c6 26 07 c7 26 5f c8 26 c0 c9 26
+>9396	c0 ca 26 c0 cb 26 c0 cc 26 c0 cd 26 c0 f8 27 05
+>93a6	f9 27 01 fe 27 aa 00 28 5c 01 28 fc 06 28 aa 08
+>93b6	28 00 09 28 00 0e 28 55 af 04 30 b0 04 30 b1 04
+>93c6	30 d7 04 30 d8 04 30 d9 04 30 ff 04 3d 00 05 3d
+>93d6	01 05 d0 af d8 0d b0 d8 0e b1 d8 0e d7 d8 0e d8
+>93e6	d8 0e d9 d8 0e ff d8 0e 00 d9 0e 01 d9 00 9a 25
+>93f6	40 9b 25 40 9c 25 50 9d 25 10 9e 25 14 9f 25 04
+>9406	a2 25 03 a3 25 07 a4 25 0c a5 25 1c a6 25 30 a7
+>9416	25 70 d8 26 05 d9 26 01 da 26 01 db 26 05 dc 26
+>9426	04 dd 26 14 de 26 10 df 26 50 e0 26 40 e1 26 c0
+>9436	e2 26 c0 e3 26 c0 e4 26 f0 e5 26 30 e6 26 3c e7
+>9446	26 0c 18 28 40 19 28 40 1e 28 aa 20 28 0f 21 28
+>9456	03 26 28 aa b3 04 a0 b4 04 a0 db 04 a0 dc 04 a0
+>9466	03 05 ad 04 05 ad b3 d8 02 b4 d8 02 db d8 02 dc
+>9476	d8 02 03 d9 00 04 d9 02 9a 25 0f 9b 25 35 9c 25
+>9486	3f 9d 25 d0 9e 25 f0 9f 25 40 a2 25 d0 a3 25 50
+>9496	a4 25 d4 a5 25 14 a6 25 07 a7 25 07 d8 26 40 d9
+>94a6	26 40 da 26 40 db 26 40 dc 26 40 dd 26 50 de 26
+>94b6	50 df 26 15 e0 26 07 e1 26 07 e2 26 07 e3 26 07
+>94c6	e4 26 07 e5 26 0f e6 26 1c e7 26 7c 18 28 15 19
+>94d6	28 07 1e 28 aa 20 28 70 21 28 f0 26 28 aa b3 04
+>94e6	30 b4 04 30 db 04 30 dc 04 30 03 05 3d 04 05 3d
+>94f6	b3 d8 0d b4 d8 0e db d8 0e dc d8 0e 03 d9 0e 04
+>9506	d9 0e b2 25 01 b3 25 01 b4 25 01 b5 25 00 b6 25
+>9516	00 b7 25 00 ba 25 00 bb 25 00 bc 25 40 bd 25 40
+>9526	be 25 50 bf 25 11 c2 25 0c c3 25 1c c4 25 30 c5
+>9536	25 70 c6 25 c0 c7 25 c0 f0 26 00 f1 26 00 f2 26
+>9546	00 f3 26 00 f4 26 00 f5 26 00 f6 26 00 f7 26 01
+>9556	f8 26 15 f9 26 07 fa 26 07 fb 26 17 fc 26 13 fd
+>9566	26 50 fe 26 40 ff 26 40 00 27 00 01 27 00 02 27
+>9576	00 03 27 00 04 27 c0 05 27 c0 06 27 f0 07 27 30
+>9586	30 28 01 31 28 01 36 28 aa 38 28 00 39 28 00 3e
+>9596	28 55 40 28 3c 41 28 0c 46 28 aa b6 04 a0 b7 04
+>95a6	a0 b8 04 a0 de 04 a0 df 04 a0 e0 04 a0 06 05 ad
+>95b6	07 05 d0 08 05 ad b6 d8 00 b7 d8 02 b8 d8 02 de
+>95c6	d8 00 df d8 02 e0 d8 02 07 d9 00 08 d9 02 b2 25
+>95d6	00 b3 25 00 b4 25 00 b5 25 03 b6 25 03 b7 25 01
+>95e6	ba 25 3f bb 25 d5 bc 25 ff bd 25 40 be 25 c0 bf
+>95f6	25 00 c2 25 40 c3 25 40 c4 25 50 c5 25 50 c6 25
+>9606	1c c7 25 1c f0 26 01 f1 26 01 f2 26 01 f3 26 01
+>9616	f4 26 01 f5 26 01 f6 26 01 f7 26 00 f8 26 00 f9
+>9626	26 00 fa 26 00 fb 26 00 fc 26 00 fd 26 40 fe 26
+>9636	40 ff 26 55 00 27 1c 01 27 1c 02 27 1c 03 27 1c
+>9646	04 27 1c 05 27 3c 06 27 70 07 27 f0 30 28 00 31
+>9656	28 00 36 28 55 38 28 55 39 28 1f 3e 28 aa 40 28
+>9666	c0 41 28 c0 46 28 aa b6 04 30 b7 04 30 b8 04 30
+>9676	de 04 30 df 04 30 e0 04 30 06 05 d0 07 05 3d 08
+>9686	05 3d b6 d8 0d b7 d8 0e b8 d8 0e de d8 0d df d8
+>9696	0e e0 d8 0e 07 d9 0e 08 d9 0e 3b 29 10 3c 29 10
+>96a6	3d 29 14 3e 29 04 3f 29 05 43 29 00 44 29 01 45
+>96b6	29 03 46 29 07 47 29 0c 4b 29 c0 4c 29 c0 4f 29
+>96c6	00 78 2a 01 79 2a 01 7a 2a 00 7b 2a 00 7c 2a 01
+>96d6	7d 2a 01 7e 2a 05 7f 2a 04 80 2a 1c 81 2a 50 82
+>96e6	2a 70 83 2a 70 84 2a 70 85 2a 3c 86 2a 0c 87 2a
+>96f6	0f 88 2a 00 89 2a 00 8a 2a 00 8b 2a 00 8c 2a 00
+>9706	8d 2a 00 8e 2a 00 b8 2b 14 b9 2b 10 ba 2b 10 bf
+>9716	2b aa c0 2b 03 c1 2b 03 c2 2b 00 c7 2b aa c9 2b
+>9726	c0 ca 2b c0 cf 2b aa 27 05 a0 28 05 a0 29 05 a0
+>9736	4f 05 a0 50 05 a0 51 05 00 77 05 ad 78 05 ad 79
+>9746	05 ad 27 d9 02 28 d9 02 29 d9 02 4f d9 02 50 d9
+>9756	02 51 d9 00 77 d9 00 78 d9 02 79 d9 02 3b 29 03
+>9766	3c 29 0d 3d 29 0f 3e 29 34 3f 29 3c 43 29 f4 44
+>9776	29 54 45 29 f5 46 29 05 47 29 01 4b 29 00 4c 29
+>9786	00 4f 29 c0 78 2a 10 79 2a 10 7a 2a 10 7b 2a 10
+>9796	7c 2a 10 7d 2a 10 7e 2a 14 7f 2a 14 80 2a 01 81
+>97a6	2a 01 82 2a 01 83 2a 01 84 2a 01 85 2a 01 86 2a
+>97b6	03 87 2a 07 88 2a c0 89 2a c0 8a 2a c0 8b 2a c0
+>97c6	8c 2a c0 8d 2a c0 8e 2a c0 b8 2b 05 b9 2b 05 ba
+>97d6	2b 01 bf 2b aa c0 2b 5f c1 2b 5c c2 2b fc c7 2b
+>97e6	aa c9 2b 00 ca 2b 00 cf 2b 55 27 05 30 28 05 30
+>97f6	29 05 30 4f 05 30 50 05 30 51 05 30 77 05 3d 78
+>9806	05 3d 79 05 d0 27 d9 0e 28 d9 0e 29 d9 0e 4f d9
+>9816	0e 50 d9 0e 51 d9 0e 77 d9 0e 78 d9 0e 79 d9 00
+>9826	5b 29 40 5c 29 40 5d 29 50 5e 29 10 5f 29 14 63
+>9836	29 03 64 29 07 65 29 0c 66 29 1c 67 29 30 98 2a
+>9846	04 99 2a 05 9a 2a 01 9b 2a 01 9c 2a 05 9d 2a 04
+>9856	9e 2a 14 9f 2a 10 a0 2a 70 a1 2a 40 a2 2a c0 a3
+>9866	2a c0 a4 2a c0 a5 2a f0 a6 2a 30 a7 2a 3c d8 2b
+>9876	50 d9 2b 40 da 2b 40 df 2b aa e0 2b 0c e1 2b 0f
+>9886	e2 2b 03 e7 2b aa 2b 05 a0 2c 05 a0 53 05 a0 54
+>9896	05 a0 7b 05 ad 7c 05 ad 2b d9 02 2c d9 02 53 d9
+>98a6	02 54 d9 02 7b d9 00 7c d9 02 5b 29 0f 5c 29 35
+>98b6	5d 29 3f 5e 29 d0 5f 29 f0 63 29 d0 64 29 50 65
+>98c6	29 d4 66 29 14 67 29 07 98 2a 40 99 2a 40 9a 2a
+>98d6	40 9b 2a 40 9c 2a 40 9d 2a 40 9e 2a 50 9f 2a 50
+>98e6	a0 2a 07 a1 2a 07 a2 2a 07 a3 2a 07 a4 2a 07 a5
+>98f6	2a 07 a6 2a 0f a7 2a 1c d8 2b 15 d9 2b 15 da 2b
+>9906	07 df 2b aa e0 2b 7c e1 2b 70 e2 2b f0 e7 2b aa
+>9916	2b 05 30 2c 05 30 53 05 30 54 05 30 7b 05 3d 7c
+>9926	05 3d 2b d9 0e 2c d9 0e 53 d9 0e 54 d9 0e 7b d9
+>9936	0e 7c d9 0e 73 29 01 74 29 01 75 29 01 76 29 00
+>9946	77 29 00 7b 29 00 7c 29 00 7d 29 40 7e 29 40 7f
+>9956	29 50 83 29 0c 84 29 1c 85 29 30 86 29 70 87 29
+>9966	c0 b0 2a 00 b1 2a 00 b2 2a 00 b3 2a 00 b4 2a 00
+>9976	b5 2a 00 b6 2a 00 b7 2a 00 b8 2a 11 b9 2a 15 ba
+>9986	2a 07 bb 2a 07 bc 2a 17 bd 2a 13 be 2a 50 bf 2a
+>9996	40 c0 2a c0 c1 2a 00 c2 2a 00 c3 2a 00 c4 2a 00
+>99a6	c5 2a c0 c6 2a c0 c7 2a f0 f0 2b 01 f1 2b 01 f2
+>99b6	2b 01 f7 2b aa f8 2b 40 f9 2b 00 fa 2b 00 ff 2b
+>99c6	aa 00 2c 30 01 2c 3c 02 2c 0c 07 2c aa 2e 05 a0
+>99d6	2f 05 a0 30 05 a0 56 05 00 57 05 a0 58 05 a0 7e
+>99e6	05 ad 7f 05 ad 80 05 ad 2e d9 00 2f d9 02 30 d9
+>99f6	02 56 d9 00 57 d9 02 58 d9 02 7f d9 00 80 d9 02
+>9a06	73 29 00 74 29 00 75 29 00 76 29 03 77 29 03 7b
+>9a16	29 3f 7c 29 d5 7d 29 ff 7e 29 40 7f 29 c0 83 29
+>9a26	40 84 29 40 85 29 50 86 29 50 87 29 1c b0 2a 01
+>9a36	b1 2a 01 b2 2a 01 b3 2a 01 b4 2a 01 b5 2a 01 b6
+>9a46	2a 01 b7 2a 01 b8 2a 00 b9 2a 00 ba 2a 00 bb 2a
+>9a56	00 bc 2a 00 bd 2a 00 be 2a 40 bf 2a 40 c0 2a 1c
+>9a66	c1 2a 1c c2 2a 1c c3 2a 1c c4 2a 1c c5 2a 1c c6
+>9a76	2a 3c c7 2a 70 f0 2b 00 f1 2b 00 f2 2b 00 f7 2b
+>9a86	55 f8 2b 55 f9 2b 55 fa 2b 1f ff 2b aa 00 2c f0
+>9a96	01 2c c0 02 2c c0 07 2c aa 2e 05 30 2f 05 30 30
+>9aa6	05 30 56 05 30 57 05 30 58 05 30 7e 05 d0 7f 05
+>9ab6	3d 80 05 3d 2e d9 0d 2f d9 0e 30 d9 0e 56 d9 0d
+>9ac6	57 d9 0e 58 d9 0e 7f d9 0e 80 d9 0e fc 2c 10 fd
+>9ad6	2c 10 fe 2c 14 ff 2c 04 04 2d 00 05 2d 01 06 2d
+>9ae6	03 07 2d 07 0c 2d c0 0d 2d c0 38 2e 05 39 2e 01
+>9af6	3a 2e 01 3b 2e 00 3c 2e 00 3d 2e 01 3e 2e 01 3f
+>9b06	2e 05 40 2e 0c 41 2e 1c 42 2e 50 43 2e 70 44 2e
+>9b16	70 45 2e 70 46 2e 3c 47 2e 0c 48 2e 00 49 2e 00
+>9b26	4a 2e 00 4b 2e 00 4c 2e 00 4d 2e 00 4e 2e 00 4f
+>9b36	2e 00 78 2f 04 79 2f 14 7a 2f 10 7b 2f 10 80 2f
+>9b46	0f 81 2f 03 82 2f 03 83 2f 00 8a 2f c0 8b 2f c0
+>9b56	9f 05 a0 a0 05 a0 a1 05 a0 c7 05 a0 c8 05 a0 c9
+>9b66	05 00 ef 05 a0 f0 05 a0 f1 05 a0 9f d9 00 a0 d9
+>9b76	02 a1 d9 02 c7 d9 02 c8 d9 02 c9 d9 00 ef d9 00
+>9b86	f0 d9 02 f1 d9 02 fc 2c 03 fd 2c 0d fe 2c 0f ff
+>9b96	2c 34 04 2d f4 05 2d 54 06 2d f5 07 2d 05 0c 2d
+>9ba6	00 0d 2d 00 38 2e 3c 39 2e 10 3a 2e 10 3b 2e 10
+>9bb6	3c 2e 10 3d 2e 10 3e 2e 10 3f 2e 14 40 2e 01 41
+>9bc6	2e 01 42 2e 01 43 2e 01 44 2e 01 45 2e 01 46 2e
+>9bd6	01 47 2e 03 48 2e c0 49 2e c0 4a 2e c0 4b 2e c0
+>9be6	4c 2e c0 4d 2e c0 4e 2e c0 4f 2e c0 78 2f 14 79
+>9bf6	2f 05 7a 2f 05 7b 2f 01 80 2f 07 81 2f 5f 82 2f
+>9c06	5c 83 2f fc 8a 2f 00 8b 2f 00 9f 05 30 a0 05 30
+>9c16	a1 05 00 c7 05 30 c8 05 30 c9 05 30 ef 05 30 f0
+>9c26	05 30 f1 05 00 9f d9 0e a0 d9 0e a1 d9 00 c7 d9
+>9c36	0e c8 d9 0e c9 d9 0e ef d9 0e f0 d9 0e f1 d9 00
+>9c46	1c 2d 40 1d 2d 40 1e 2d 50 1f 2d 10 24 2d 03 25
+>9c56	2d 07 26 2d 0c 27 2d 1c 58 2e 14 59 2e 04 5a 2e
+>9c66	05 5b 2e 01 5c 2e 01 5d 2e 05 5e 2e 04 5f 2e 14
+>9c76	60 2e 30 61 2e 70 62 2e 40 63 2e c0 64 2e c0 65
+>9c86	2e c0 66 2e f0 67 2e 30 98 2f 10 99 2f 50 9a 2f
+>9c96	40 9b 2f 40 a0 2f 3c a1 2f 0c a2 2f 0f a3 2f 03
+>9ca6	a3 05 a0 a4 05 a0 cb 05 a0 cc 05 a0 f3 05 a0 f4
+>9cb6	05 a0 a3 d9 00 a4 d9 02 cb d9 02 cc d9 02 f3 d9
+>9cc6	00 f4 d9 02 1c 2d 0f 1d 2d 35 1e 2d 3f 1f 2d d0
+>9cd6	24 2d d0 25 2d 50 26 2d d4 27 2d 14 58 2e f0 59
+>9ce6	2e 40 5a 2e 40 5b 2e 40 5c 2e 40 5d 2e 40 5e 2e
+>9cf6	40 5f 2e 50 60 2e 07 61 2e 07 62 2e 07 63 2e 07
+>9d06	64 2e 07 65 2e 07 66 2e 07 67 2e 0f 98 2f 50 99
+>9d16	2f 15 9a 2f 15 9b 2f 07 a0 2f 1c a1 2f 7c a2 2f
+>9d26	70 a3 2f f0 a3 05 30 a4 05 30 cb 05 30 cc 05 30
+>9d36	f3 05 30 f4 05 30 a3 d9 0e a4 d9 0e cb d9 0e cc
+>9d46	d9 0e f3 d9 0e f4 d9 0e 34 2d 01 35 2d 01 36 2d
+>9d56	01 37 2d 00 3c 2d 00 3d 2d 00 3e 2d 40 3f 2d 40
+>9d66	44 2d 0c 45 2d 1c 46 2d 30 47 2d 70 70 2e 00 71
+>9d76	2e 00 72 2e 00 73 2e 00 74 2e 00 75 2e 00 76 2e
+>9d86	00 77 2e 00 78 2e 50 79 2e 11 7a 2e 15 7b 2e 07
+>9d96	7c 2e 07 7d 2e 17 7e 2e 13 7f 2e 50 80 2e c0 81
+>9da6	2e c0 82 2e 00 83 2e 00 84 2e 00 85 2e 00 86 2e
+>9db6	c0 87 2e c0 b0 2f 00 b1 2f 01 b2 2f 01 b3 2f 01
+>9dc6	b8 2f 40 b9 2f 40 ba 2f 00 bb 2f 00 c0 2f f0 c1
+>9dd6	2f 30 c2 2f 3c c3 2f 0c a6 05 a0 a7 05 a0 a8 05
+>9de6	a0 ce 05 00 cf 05 a0 d0 05 a0 f6 05 a0 f7 05 a0
+>9df6	f8 05 a0 a6 d9 00 a7 d9 00 a8 d9 02 ce d9 00 cf
+>9e06	d9 02 d0 d9 02 f7 d9 00 f8 d9 02 34 2d 00 35 2d
+>9e16	00 36 2d 00 37 2d 03 3c 2d 3f 3d 2d d5 3e 2d ff
+>9e26	3f 2d 40 44 2d 40 45 2d 40 46 2d 50 47 2d 50 70
+>9e36	2e 03 71 2e 01 72 2e 01 73 2e 01 74 2e 01 75 2e
+>9e46	01 76 2e 01 77 2e 01 78 2e c0 79 2e 00 7a 2e 00
+>9e56	7b 2e 00 7c 2e 00 7d 2e 00 7e 2e 00 7f 2e 40 80
+>9e66	2e 1c 81 2e 1c 82 2e 1c 83 2e 1c 84 2e 1c 85 2e
+>9e76	1c 86 2e 1c 87 2e 3c b0 2f 01 b1 2f 00 b2 2f 00
+>9e86	b3 2f 00 b8 2f 40 b9 2f 55 ba 2f 55 bb 2f 1f c0
+>9e96	2f 70 c1 2f f0 c2 2f c0 c3 2f c0 a6 05 30 a7 05
+>9ea6	30 a8 05 30 ce 05 30 cf 05 30 d0 05 30 f6 05 30
+>9eb6	f7 05 30 f8 05 30 a6 d9 0d a7 d9 0e a8 d9 00 ce
+>9ec6	d9 0d cf d9 0e d0 d9 0e f7 d9 0e f8 d9 0e
+.9ed4					numeric_label_data:
+>9ed4	c0 26 00 c1 26 10 c2 26		    .binary "numeric-labels.bin"
+>9edc	50 c3 26 10 c4 26 10 c5 26 54 c6 26 00 c7 26 00
+>9eec	d8 04 c0 e0 26 00 e1 26 54 e2 26 04 e3 26 54 e4
+>9efc	26 40 e5 26 54 e6 26 00 e7 26 00 dc 04 c0 f8 26
+>9f0c	00 f9 26 54 fa 26 04 fb 26 54 fc 26 04 fd 26 54
+>9f1c	fe 26 00 ff 26 00 df 04 c0 80 2a 00 81 2a 44 82
+>9f2c	2a 44 83 2a 54 84 2a 04 85 2a 04 86 2a 00 87 2a
+>9f3c	00 50 05 c0 a0 2a 00 a1 2a 54 a2 2a 40 a3 2a 54
+>9f4c	a4 2a 04 a5 2a 54 a6 2a 00 a7 2a 00 54 05 c0 b8
+>9f5c	2a 00 b9 2a 54 ba 2a 40 bb 2a 54 bc 2a 44 bd 2a
+>9f6c	54 be 2a 00 bf 2a 00 57 05 c0 40 2e 00 41 2e 54
+>9f7c	42 2e 04 43 2e 10 44 2e 10 45 2e 10 46 2e 00 47
+>9f8c	2e 00 c8 05 c0 60 2e 00 61 2e 54 62 2e 44 63 2e
+>9f9c	54 64 2e 44 65 2e 54 66 2e 00 67 2e 00 cc 05 c0
+>9fac	78 2e 00 79 2e 54 7a 2e 44 7b 2e 54 7c 2e 04 7d
+>9fbc	2e 54 7e 2e 00 7f 2e 00 cf 05 c0
+
+;******  Return to file: /home/ai/falken-9/artifacts/app/010-graphical/entry.asm
+
+.9fc7					app_end:
+
+;******  End of listing

@@ -1,0 +1,7 @@
+# Optional, tested CPU method-suite dependencies; no model downloads.
+# Integrity/security validator itself uses the Python standard library only.
+numpy==2.4.6
+torch==2.14.0
+Pillow==13.0.0
+pytest==9.1.1
+py65==1.2.0

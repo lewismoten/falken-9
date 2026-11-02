@@ -1,0 +1,6964 @@
+[
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ]
+    ],
+    "d4_key": [
+      0,
+      4,
+      1,
+      2,
+      6,
+      3,
+      5,
+      7,
+      8
+    ],
+    "is_first_deterministic": false,
+    "length": 9,
+    "opening": 0,
+    "outcome": "draw",
+    "sequence": [
+      0,
+      4,
+      1,
+      2,
+      6,
+      3,
+      5,
+      7,
+      8
+    ],
+    "steps": [
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          561150,
+          447961,
+          281555,
+          94790,
+          275926,
+          34652,
+          189453,
+          501705,
+          175355
+        ],
+        "gates": [
+          25507,
+          7261
+        ],
+        "opening_override": true,
+        "ordinary_move": 4,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 0,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          2
+        ],
+        "selected_move": 0,
+        "side": "X",
+        "stage_prefix": "g0-p0"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "canonical_logits": [
+          -711482,
+          -155613,
+          -300450,
+          -56831,
+          507726,
+          -375864,
+          -204878,
+          -32571,
+          -348977
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 4,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 1,
+        "raw_approved": [
+          4
+        ],
+        "raw_board": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          4
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 4,
+        "side": "O",
+        "stage_prefix": "g0-p1"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "canonical_logits": [
+          217065,
+          99520,
+          336948,
+          135028,
+          391702,
+          169749,
+          27400,
+          232699,
+          43519
+        ],
+        "gates": [
+          30248,
+          2520
+        ],
+        "opening_override": false,
+        "ordinary_move": 1,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 2,
+        "raw_approved": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          1,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 1,
+        "side": "X",
+        "stage_prefix": "g0-p2"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1
+        ],
+        "canonical_logits": [
+          -91364,
+          -6531,
+          -7263,
+          -57346,
+          82288,
+          -7844,
+          5181,
+          64307,
+          56819
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 2,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 3,
+        "raw_approved": [
+          2
+        ],
+        "raw_board": [
+          1,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          2
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 2,
+        "side": "O",
+        "stage_prefix": "g0-p3"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          36743,
+          -45155,
+          -19181,
+          -72812,
+          2226,
+          -89493,
+          -2324,
+          -34709,
+          56122
+        ],
+        "gates": [
+          31678,
+          1090
+        ],
+        "opening_override": false,
+        "ordinary_move": 6,
+        "permutation": [
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ],
+        "ply": 4,
+        "raw_approved": [
+          6
+        ],
+        "raw_board": [
+          1,
+          1,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          6
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 6,
+        "side": "X",
+        "stage_prefix": "g0-p4"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          2,
+          1,
+          1
+        ],
+        "canonical_logits": [
+          -31339,
+          -6664,
+          -4185,
+          -10221,
+          103109,
+          11847,
+          1698,
+          31215,
+          35259
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 3,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 5,
+        "raw_approved": [
+          3
+        ],
+        "raw_board": [
+          1,
+          1,
+          2,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          3
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 3,
+        "side": "O",
+        "stage_prefix": "g0-p5"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "canonical_logits": [
+          -37689,
+          -11873,
+          264191,
+          16736,
+          -90503,
+          7823,
+          -215691,
+          -25809,
+          69543
+        ],
+        "gates": [
+          32410,
+          358
+        ],
+        "opening_override": false,
+        "ordinary_move": 5,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 6,
+        "raw_approved": [
+          5
+        ],
+        "raw_board": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          5
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 5,
+        "side": "X",
+        "stage_prefix": "g0-p6"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "canonical_logits": [
+          282144,
+          195364,
+          303593,
+          57782,
+          99768,
+          291192,
+          258242,
+          366796,
+          449666
+        ],
+        "gates": [
+          30479,
+          2289
+        ],
+        "opening_override": false,
+        "ordinary_move": 7,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 7,
+        "raw_approved": [
+          7,
+          8
+        ],
+        "raw_board": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          7,
+          8
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 7,
+        "side": "O",
+        "stage_prefix": "g0-p7"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          2,
+          1
+        ],
+        "canonical_logits": [
+          28823,
+          19898,
+          31329,
+          39223,
+          233028,
+          56809,
+          7043,
+          70748,
+          31446
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 8,
+        "permutation": [
+          8,
+          5,
+          2,
+          7,
+          4,
+          1,
+          6,
+          3,
+          0
+        ],
+        "ply": 8,
+        "raw_approved": [
+          8
+        ],
+        "raw_board": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          2,
+          0
+        ],
+        "raw_optimal_audit": [
+          8
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 8,
+        "side": "X",
+        "stage_prefix": "g0-p8"
+      }
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1
+      ]
+    ],
+    "d4_key": [
+      1,
+      4,
+      3,
+      2,
+      6,
+      0,
+      8,
+      7,
+      5
+    ],
+    "is_first_deterministic": false,
+    "length": 9,
+    "opening": 1,
+    "outcome": "draw",
+    "sequence": [
+      1,
+      4,
+      3,
+      2,
+      6,
+      0,
+      8,
+      7,
+      5
+    ],
+    "steps": [
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          561150,
+          447961,
+          281555,
+          94790,
+          275926,
+          34652,
+          189453,
+          501705,
+          175355
+        ],
+        "gates": [
+          25507,
+          7261
+        ],
+        "opening_override": true,
+        "ordinary_move": 4,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 0,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          2
+        ],
+        "selected_move": 1,
+        "side": "X",
+        "stage_prefix": "g1-p0"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -6766,
+          1322,
+          -24438,
+          -24823,
+          4262,
+          -35720,
+          9176,
+          5007,
+          54749
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 4,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 1,
+        "raw_approved": [
+          0,
+          2,
+          4,
+          7
+        ],
+        "raw_board": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          2,
+          4,
+          7
+        ],
+        "routes": [
+          2,
+          3
+        ],
+        "selected_move": 4,
+        "side": "O",
+        "stage_prefix": "g1-p1"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          46038,
+          -47263,
+          106460,
+          18693,
+          198364,
+          25790,
+          13663,
+          34692,
+          11074
+        ],
+        "gates": [
+          31602,
+          1166
+        ],
+        "opening_override": false,
+        "ordinary_move": 3,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 2,
+        "raw_approved": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "raw_board": [
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 3,
+        "side": "X",
+        "stage_prefix": "g1-p2"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -8742,
+          -4122,
+          4238,
+          -13744,
+          58263,
+          25116,
+          8099,
+          24383,
+          62116
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 2,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 3,
+        "raw_approved": [
+          0,
+          2,
+          6
+        ],
+        "raw_board": [
+          0,
+          1,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          2,
+          6
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 2,
+        "side": "O",
+        "stage_prefix": "g1-p3"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          2,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -28862,
+          -122306,
+          52279,
+          -12392,
+          155892,
+          -7250,
+          -4788,
+          -45246,
+          -12272
+        ],
+        "gates": [
+          31607,
+          1161
+        ],
+        "opening_override": false,
+        "ordinary_move": 6,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 4,
+        "raw_approved": [
+          6
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          6
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 6,
+        "side": "X",
+        "stage_prefix": "g1-p4"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          1,
+          2,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -193246,
+          -21986,
+          -54362,
+          -85143,
+          20025,
+          -86065,
+          -21650,
+          37799,
+          11195
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 0,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 5,
+        "raw_approved": [
+          0
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          1,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 0,
+        "side": "O",
+        "stage_prefix": "g1-p5"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          1,
+          2,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          14188,
+          -45481,
+          -7232,
+          -14617,
+          143421,
+          -38762,
+          62097,
+          18019,
+          6495
+        ],
+        "gates": [
+          32728,
+          40
+        ],
+        "opening_override": false,
+        "ordinary_move": 8,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 6,
+        "raw_approved": [
+          8
+        ],
+        "raw_board": [
+          2,
+          1,
+          2,
+          1,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 8,
+        "side": "X",
+        "stage_prefix": "g1-p6"
+      },
+      {
+        "canonical_board": [
+          1,
+          0,
+          1,
+          0,
+          2,
+          1,
+          2,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          -75035,
+          12071,
+          6852,
+          -45037,
+          106040,
+          -454,
+          6848,
+          84878,
+          50406
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 7,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 7,
+        "raw_approved": [
+          7
+        ],
+        "raw_board": [
+          2,
+          1,
+          2,
+          1,
+          2,
+          0,
+          1,
+          0,
+          1
+        ],
+        "raw_optimal_audit": [
+          7
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 7,
+        "side": "O",
+        "stage_prefix": "g1-p7"
+      },
+      {
+        "canonical_board": [
+          1,
+          0,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          395936,
+          23437,
+          207184,
+          414252,
+          70911,
+          232663,
+          489064,
+          52470,
+          106798
+        ],
+        "gates": [
+          29795,
+          2973
+        ],
+        "opening_override": false,
+        "ordinary_move": 5,
+        "permutation": [
+          8,
+          5,
+          2,
+          7,
+          4,
+          1,
+          6,
+          3,
+          0
+        ],
+        "ply": 8,
+        "raw_approved": [
+          5
+        ],
+        "raw_board": [
+          2,
+          1,
+          2,
+          1,
+          2,
+          0,
+          1,
+          2,
+          1
+        ],
+        "raw_optimal_audit": [
+          5
+        ],
+        "routes": [
+          0,
+          3
+        ],
+        "selected_move": 5,
+        "side": "X",
+        "stage_prefix": "g1-p8"
+      }
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        0,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2,
+        1
+      ]
+    ],
+    "d4_key": [
+      0,
+      4,
+      1,
+      2,
+      6,
+      3,
+      5,
+      7,
+      8
+    ],
+    "is_first_deterministic": false,
+    "length": 9,
+    "opening": 2,
+    "outcome": "draw",
+    "sequence": [
+      2,
+      4,
+      1,
+      0,
+      8,
+      5,
+      3,
+      7,
+      6
+    ],
+    "steps": [
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          561150,
+          447961,
+          281555,
+          94790,
+          275926,
+          34652,
+          189453,
+          501705,
+          175355
+        ],
+        "gates": [
+          25507,
+          7261
+        ],
+        "opening_override": true,
+        "ordinary_move": 4,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 0,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          2
+        ],
+        "selected_move": 2,
+        "side": "X",
+        "stage_prefix": "g2-p0"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "canonical_logits": [
+          -711482,
+          -155613,
+          -300450,
+          -56831,
+          507726,
+          -375864,
+          -204878,
+          -32571,
+          -348977
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 4,
+        "permutation": [
+          2,
+          5,
+          8,
+          1,
+          4,
+          7,
+          0,
+          3,
+          6
+        ],
+        "ply": 1,
+        "raw_approved": [
+          4
+        ],
+        "raw_board": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          4
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 4,
+        "side": "O",
+        "stage_prefix": "g2-p1"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "canonical_logits": [
+          217065,
+          99520,
+          336948,
+          135028,
+          391702,
+          169749,
+          27400,
+          232699,
+          43519
+        ],
+        "gates": [
+          30248,
+          2520
+        ],
+        "opening_override": false,
+        "ordinary_move": 1,
+        "permutation": [
+          2,
+          5,
+          8,
+          1,
+          4,
+          7,
+          0,
+          3,
+          6
+        ],
+        "ply": 2,
+        "raw_approved": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 1,
+        "side": "X",
+        "stage_prefix": "g2-p2"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          1
+        ],
+        "canonical_logits": [
+          -91364,
+          -6531,
+          -7263,
+          -57346,
+          82288,
+          -7844,
+          5181,
+          64307,
+          56819
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 0,
+        "permutation": [
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ],
+        "ply": 3,
+        "raw_approved": [
+          0
+        ],
+        "raw_board": [
+          0,
+          1,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 0,
+        "side": "O",
+        "stage_prefix": "g2-p3"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          36743,
+          -45155,
+          -19181,
+          -72812,
+          2226,
+          -89493,
+          -2324,
+          -34709,
+          56122
+        ],
+        "gates": [
+          31678,
+          1090
+        ],
+        "opening_override": false,
+        "ordinary_move": 8,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 4,
+        "raw_approved": [
+          8
+        ],
+        "raw_board": [
+          2,
+          1,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 8,
+        "side": "X",
+        "stage_prefix": "g2-p4"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          2,
+          1,
+          1
+        ],
+        "canonical_logits": [
+          -31339,
+          -6664,
+          -4185,
+          -10221,
+          103109,
+          11847,
+          1698,
+          31215,
+          35259
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 5,
+        "permutation": [
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ],
+        "ply": 5,
+        "raw_approved": [
+          5
+        ],
+        "raw_board": [
+          2,
+          1,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "raw_optimal_audit": [
+          5
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 5,
+        "side": "O",
+        "stage_prefix": "g2-p5"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "canonical_logits": [
+          -37689,
+          -11873,
+          264191,
+          16736,
+          -90503,
+          7823,
+          -215691,
+          -25809,
+          69543
+        ],
+        "gates": [
+          32410,
+          358
+        ],
+        "opening_override": false,
+        "ordinary_move": 3,
+        "permutation": [
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ],
+        "ply": 6,
+        "raw_approved": [
+          3
+        ],
+        "raw_board": [
+          2,
+          1,
+          1,
+          0,
+          2,
+          2,
+          0,
+          0,
+          1
+        ],
+        "raw_optimal_audit": [
+          3
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 3,
+        "side": "X",
+        "stage_prefix": "g2-p6"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "canonical_logits": [
+          282144,
+          195364,
+          303593,
+          57782,
+          99768,
+          291192,
+          258242,
+          366796,
+          449666
+        ],
+        "gates": [
+          30479,
+          2289
+        ],
+        "opening_override": false,
+        "ordinary_move": 7,
+        "permutation": [
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ],
+        "ply": 7,
+        "raw_approved": [
+          6,
+          7
+        ],
+        "raw_board": [
+          2,
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          0,
+          1
+        ],
+        "raw_optimal_audit": [
+          6,
+          7
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 7,
+        "side": "O",
+        "stage_prefix": "g2-p7"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          2,
+          1
+        ],
+        "canonical_logits": [
+          28823,
+          19898,
+          31329,
+          39223,
+          233028,
+          56809,
+          7043,
+          70748,
+          31446
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 6,
+        "permutation": [
+          2,
+          5,
+          8,
+          1,
+          4,
+          7,
+          0,
+          3,
+          6
+        ],
+        "ply": 8,
+        "raw_approved": [
+          6
+        ],
+        "raw_board": [
+          2,
+          1,
+          1,
+          1,
+          2,
+          2,
+          0,
+          2,
+          1
+        ],
+        "raw_optimal_audit": [
+          6
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 6,
+        "side": "X",
+        "stage_prefix": "g2-p8"
+      }
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1
+      ]
+    ],
+    "d4_key": [
+      1,
+      4,
+      3,
+      6,
+      2,
+      0,
+      8,
+      5,
+      7
+    ],
+    "is_first_deterministic": false,
+    "length": 9,
+    "opening": 3,
+    "outcome": "draw",
+    "sequence": [
+      3,
+      4,
+      1,
+      2,
+      6,
+      0,
+      8,
+      7,
+      5
+    ],
+    "steps": [
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          561150,
+          447961,
+          281555,
+          94790,
+          275926,
+          34652,
+          189453,
+          501705,
+          175355
+        ],
+        "gates": [
+          25507,
+          7261
+        ],
+        "opening_override": true,
+        "ordinary_move": 4,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 0,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          2
+        ],
+        "selected_move": 3,
+        "side": "X",
+        "stage_prefix": "g3-p0"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -6766,
+          1322,
+          -24438,
+          -24823,
+          4262,
+          -35720,
+          9176,
+          5007,
+          54749
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 4,
+        "permutation": [
+          6,
+          3,
+          0,
+          7,
+          4,
+          1,
+          8,
+          5,
+          2
+        ],
+        "ply": 1,
+        "raw_approved": [
+          0,
+          4,
+          5,
+          6
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          4,
+          5,
+          6
+        ],
+        "routes": [
+          2,
+          3
+        ],
+        "selected_move": 4,
+        "side": "O",
+        "stage_prefix": "g3-p1"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          46038,
+          -47263,
+          106460,
+          18693,
+          198364,
+          25790,
+          13663,
+          34692,
+          11074
+        ],
+        "gates": [
+          31602,
+          1166
+        ],
+        "opening_override": false,
+        "ordinary_move": 1,
+        "permutation": [
+          6,
+          3,
+          0,
+          7,
+          4,
+          1,
+          8,
+          5,
+          2
+        ],
+        "ply": 2,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 1,
+        "side": "X",
+        "stage_prefix": "g3-p2"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -8742,
+          -4122,
+          4238,
+          -13744,
+          58263,
+          25116,
+          8099,
+          24383,
+          62116
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 2,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 3,
+        "raw_approved": [
+          0,
+          2,
+          6
+        ],
+        "raw_board": [
+          0,
+          1,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          2,
+          6
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 2,
+        "side": "O",
+        "stage_prefix": "g3-p3"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          2,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -28862,
+          -122306,
+          52279,
+          -12392,
+          155892,
+          -7250,
+          -4788,
+          -45246,
+          -12272
+        ],
+        "gates": [
+          31607,
+          1161
+        ],
+        "opening_override": false,
+        "ordinary_move": 6,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 4,
+        "raw_approved": [
+          6
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          6
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 6,
+        "side": "X",
+        "stage_prefix": "g3-p4"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          1,
+          2,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -193246,
+          -21986,
+          -54362,
+          -85143,
+          20025,
+          -86065,
+          -21650,
+          37799,
+          11195
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 0,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 5,
+        "raw_approved": [
+          0
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          1,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 0,
+        "side": "O",
+        "stage_prefix": "g3-p5"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          1,
+          2,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          14188,
+          -45481,
+          -7232,
+          -14617,
+          143421,
+          -38762,
+          62097,
+          18019,
+          6495
+        ],
+        "gates": [
+          32728,
+          40
+        ],
+        "opening_override": false,
+        "ordinary_move": 8,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 6,
+        "raw_approved": [
+          8
+        ],
+        "raw_board": [
+          2,
+          1,
+          2,
+          1,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 8,
+        "side": "X",
+        "stage_prefix": "g3-p6"
+      },
+      {
+        "canonical_board": [
+          1,
+          0,
+          1,
+          0,
+          2,
+          1,
+          2,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          -75035,
+          12071,
+          6852,
+          -45037,
+          106040,
+          -454,
+          6848,
+          84878,
+          50406
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 7,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 7,
+        "raw_approved": [
+          7
+        ],
+        "raw_board": [
+          2,
+          1,
+          2,
+          1,
+          2,
+          0,
+          1,
+          0,
+          1
+        ],
+        "raw_optimal_audit": [
+          7
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 7,
+        "side": "O",
+        "stage_prefix": "g3-p7"
+      },
+      {
+        "canonical_board": [
+          1,
+          0,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          395936,
+          23437,
+          207184,
+          414252,
+          70911,
+          232663,
+          489064,
+          52470,
+          106798
+        ],
+        "gates": [
+          29795,
+          2973
+        ],
+        "opening_override": false,
+        "ordinary_move": 5,
+        "permutation": [
+          8,
+          5,
+          2,
+          7,
+          4,
+          1,
+          6,
+          3,
+          0
+        ],
+        "ply": 8,
+        "raw_approved": [
+          5
+        ],
+        "raw_board": [
+          2,
+          1,
+          2,
+          1,
+          2,
+          0,
+          1,
+          2,
+          1
+        ],
+        "raw_optimal_audit": [
+          5
+        ],
+        "routes": [
+          0,
+          3
+        ],
+        "selected_move": 5,
+        "side": "X",
+        "stage_prefix": "g3-p8"
+      }
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        1,
+        2,
+        0,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        0,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1
+      ]
+    ],
+    "d4_key": [
+      4,
+      0,
+      1,
+      7,
+      5,
+      3,
+      6,
+      2,
+      8
+    ],
+    "is_first_deterministic": true,
+    "length": 9,
+    "opening": 4,
+    "outcome": "draw",
+    "sequence": [
+      4,
+      2,
+      1,
+      7,
+      3,
+      5,
+      8,
+      0,
+      6
+    ],
+    "steps": [
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          561150,
+          447961,
+          281555,
+          94790,
+          275926,
+          34652,
+          189453,
+          501705,
+          175355
+        ],
+        "gates": [
+          25507,
+          7261
+        ],
+        "opening_override": false,
+        "ordinary_move": 4,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 0,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          2
+        ],
+        "selected_move": 4,
+        "side": "X",
+        "stage_prefix": "g4-p0"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          15528,
+          -27340,
+          10344,
+          -9066,
+          -41298,
+          -22139,
+          14018,
+          -31401,
+          16505
+        ],
+        "gates": [
+          32743,
+          25
+        ],
+        "opening_override": false,
+        "ordinary_move": 2,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 1,
+        "raw_approved": [
+          0,
+          2,
+          6,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          2,
+          6,
+          8
+        ],
+        "routes": [
+          0,
+          3
+        ],
+        "selected_move": 2,
+        "side": "O",
+        "stage_prefix": "g4-p1"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          2
+        ],
+        "canonical_logits": [
+          18590,
+          2483,
+          54815,
+          39127,
+          -27634,
+          8823,
+          34197,
+          5766,
+          6104
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 1,
+        "permutation": [
+          2,
+          5,
+          8,
+          1,
+          4,
+          7,
+          0,
+          3,
+          6
+        ],
+        "ply": 2,
+        "raw_approved": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          0,
+          3
+        ],
+        "selected_move": 1,
+        "side": "X",
+        "stage_prefix": "g4-p2"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          -48847,
+          29497,
+          -8226,
+          -63473,
+          -18891,
+          -34262,
+          -52077,
+          34942,
+          102444
+        ],
+        "gates": [
+          32767,
+          1
+        ],
+        "opening_override": false,
+        "ordinary_move": 7,
+        "permutation": [
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ],
+        "ply": 3,
+        "raw_approved": [
+          7
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          7
+        ],
+        "routes": [
+          0,
+          3
+        ],
+        "selected_move": 7,
+        "side": "O",
+        "stage_prefix": "g4-p3"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          -51866,
+          25442,
+          10520,
+          -7189,
+          -11469,
+          -32168,
+          44911,
+          58569,
+          58060
+        ],
+        "gates": [
+          28788,
+          3980
+        ],
+        "opening_override": false,
+        "ordinary_move": 3,
+        "permutation": [
+          0,
+          3,
+          6,
+          1,
+          4,
+          7,
+          2,
+          5,
+          8
+        ],
+        "ply": 4,
+        "raw_approved": [
+          3,
+          5,
+          6,
+          8
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0
+        ],
+        "raw_optimal_audit": [
+          3,
+          5,
+          6,
+          8
+        ],
+        "routes": [
+          2,
+          1
+        ],
+        "selected_move": 3,
+        "side": "X",
+        "stage_prefix": "g4-p4"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          2,
+          2,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -179907,
+          36647,
+          66952,
+          28742,
+          591865,
+          22131,
+          -8868,
+          251241,
+          -9947
+        ],
+        "gates": [
+          32451,
+          317
+        ],
+        "opening_override": false,
+        "ordinary_move": 5,
+        "permutation": [
+          8,
+          5,
+          2,
+          7,
+          4,
+          1,
+          6,
+          3,
+          0
+        ],
+        "ply": 5,
+        "raw_approved": [
+          5
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          1,
+          1,
+          0,
+          0,
+          2,
+          0
+        ],
+        "raw_optimal_audit": [
+          5
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 5,
+        "side": "O",
+        "stage_prefix": "g4-p5"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          2,
+          2,
+          2,
+          0
+        ],
+        "canonical_logits": [
+          -44832,
+          25200,
+          -166131,
+          -56588,
+          -69184,
+          -32719,
+          195531,
+          61179,
+          118603
+        ],
+        "gates": [
+          31906,
+          862
+        ],
+        "opening_override": false,
+        "ordinary_move": 8,
+        "permutation": [
+          0,
+          3,
+          6,
+          1,
+          4,
+          7,
+          2,
+          5,
+          8
+        ],
+        "ply": 6,
+        "raw_approved": [
+          8
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          1,
+          1,
+          2,
+          0,
+          2,
+          0
+        ],
+        "raw_optimal_audit": [
+          8
+        ],
+        "routes": [
+          2,
+          1
+        ],
+        "selected_move": 8,
+        "side": "X",
+        "stage_prefix": "g4-p6"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1
+        ],
+        "canonical_logits": [
+          7411,
+          41053,
+          -620657,
+          -209468,
+          -36062,
+          -23195,
+          209163,
+          -39711,
+          -157745
+        ],
+        "gates": [
+          32558,
+          210
+        ],
+        "opening_override": false,
+        "ordinary_move": 0,
+        "permutation": [
+          0,
+          3,
+          6,
+          1,
+          4,
+          7,
+          2,
+          5,
+          8
+        ],
+        "ply": 7,
+        "raw_approved": [
+          0
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          1,
+          1,
+          2,
+          0,
+          2,
+          1
+        ],
+        "raw_optimal_audit": [
+          0
+        ],
+        "routes": [
+          2,
+          1
+        ],
+        "selected_move": 0,
+        "side": "O",
+        "stage_prefix": "g4-p7"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "canonical_logits": [
+          62416,
+          442208,
+          86821,
+          141718,
+          209619,
+          -15709,
+          60649,
+          454082,
+          349567
+        ],
+        "gates": [
+          31767,
+          1001
+        ],
+        "opening_override": false,
+        "ordinary_move": 6,
+        "permutation": [
+          2,
+          5,
+          8,
+          1,
+          4,
+          7,
+          0,
+          3,
+          6
+        ],
+        "ply": 8,
+        "raw_approved": [
+          6
+        ],
+        "raw_board": [
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          0,
+          2,
+          1
+        ],
+        "raw_optimal_audit": [
+          6
+        ],
+        "routes": [
+          0,
+          3
+        ],
+        "selected_move": 6,
+        "side": "X",
+        "stage_prefix": "g4-p8"
+      }
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2
+      ]
+    ],
+    "d4_key": [
+      1,
+      4,
+      3,
+      0,
+      8,
+      7,
+      5,
+      2,
+      6
+    ],
+    "is_first_deterministic": false,
+    "length": 9,
+    "opening": 5,
+    "outcome": "draw",
+    "sequence": [
+      5,
+      4,
+      1,
+      2,
+      6,
+      3,
+      7,
+      8,
+      0
+    ],
+    "steps": [
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          561150,
+          447961,
+          281555,
+          94790,
+          275926,
+          34652,
+          189453,
+          501705,
+          175355
+        ],
+        "gates": [
+          25507,
+          7261
+        ],
+        "opening_override": true,
+        "ordinary_move": 4,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 0,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          2
+        ],
+        "selected_move": 5,
+        "side": "X",
+        "stage_prefix": "g5-p0"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -6766,
+          1322,
+          -24438,
+          -24823,
+          4262,
+          -35720,
+          9176,
+          5007,
+          54749
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 4,
+        "permutation": [
+          2,
+          5,
+          8,
+          1,
+          4,
+          7,
+          0,
+          3,
+          6
+        ],
+        "ply": 1,
+        "raw_approved": [
+          2,
+          3,
+          4,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          2,
+          3,
+          4,
+          8
+        ],
+        "routes": [
+          2,
+          3
+        ],
+        "selected_move": 4,
+        "side": "O",
+        "stage_prefix": "g5-p1"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          46038,
+          -47263,
+          106460,
+          18693,
+          198364,
+          25790,
+          13663,
+          34692,
+          11074
+        ],
+        "gates": [
+          31602,
+          1166
+        ],
+        "opening_override": false,
+        "ordinary_move": 1,
+        "permutation": [
+          2,
+          5,
+          8,
+          1,
+          4,
+          7,
+          0,
+          3,
+          6
+        ],
+        "ply": 2,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 1,
+        "side": "X",
+        "stage_prefix": "g5-p2"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -8742,
+          -4122,
+          4238,
+          -13744,
+          58263,
+          25116,
+          8099,
+          24383,
+          62116
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 2,
+        "permutation": [
+          2,
+          5,
+          8,
+          1,
+          4,
+          7,
+          0,
+          3,
+          6
+        ],
+        "ply": 3,
+        "raw_approved": [
+          0,
+          2,
+          8
+        ],
+        "raw_board": [
+          0,
+          1,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          2,
+          8
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 2,
+        "side": "O",
+        "stage_prefix": "g5-p3"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          8299,
+          -54639,
+          -6903,
+          -62024,
+          -9277,
+          -101392,
+          -15157,
+          -45808,
+          36973
+        ],
+        "gates": [
+          32428,
+          340
+        ],
+        "opening_override": false,
+        "ordinary_move": 6,
+        "permutation": [
+          2,
+          5,
+          8,
+          1,
+          4,
+          7,
+          0,
+          3,
+          6
+        ],
+        "ply": 4,
+        "raw_approved": [
+          6
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          6
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 6,
+        "side": "X",
+        "stage_prefix": "g5-p4"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          2,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          571503,
+          301448,
+          496677,
+          267930,
+          235712,
+          504220,
+          449901,
+          505422,
+          703189
+        ],
+        "gates": [
+          32295,
+          473
+        ],
+        "opening_override": false,
+        "ordinary_move": 3,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 5,
+        "raw_approved": [
+          0,
+          3,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          0,
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          3,
+          7,
+          8
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 3,
+        "side": "O",
+        "stage_prefix": "g5-p5"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          10919,
+          62808,
+          299164,
+          -13455,
+          -59397,
+          -15325,
+          -186619,
+          80791,
+          64299
+        ],
+        "gates": [
+          32761,
+          7
+        ],
+        "opening_override": false,
+        "ordinary_move": 7,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 6,
+        "raw_approved": [
+          0,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 7,
+        "side": "X",
+        "stage_prefix": "g5-p6"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          116961,
+          53966,
+          -38361,
+          25193,
+          8081,
+          14661,
+          70538,
+          21970,
+          -26372
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 8,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 7,
+        "raw_approved": [
+          8
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0
+        ],
+        "raw_optimal_audit": [
+          8
+        ],
+        "routes": [
+          2,
+          1
+        ],
+        "selected_move": 8,
+        "side": "O",
+        "stage_prefix": "g5-p7"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          256890,
+          47614,
+          104845,
+          216444,
+          95192,
+          158522,
+          136034,
+          9000,
+          214081
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 0,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 8,
+        "raw_approved": [
+          0
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "raw_optimal_audit": [
+          0
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 0,
+        "side": "X",
+        "stage_prefix": "g5-p8"
+      }
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2
+      ]
+    ],
+    "d4_key": [
+      0,
+      4,
+      5,
+      1,
+      7,
+      8,
+      3,
+      6,
+      2
+    ],
+    "is_first_deterministic": false,
+    "length": 9,
+    "opening": 6,
+    "outcome": "draw",
+    "sequence": [
+      6,
+      4,
+      1,
+      3,
+      5,
+      2,
+      7,
+      8,
+      0
+    ],
+    "steps": [
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          561150,
+          447961,
+          281555,
+          94790,
+          275926,
+          34652,
+          189453,
+          501705,
+          175355
+        ],
+        "gates": [
+          25507,
+          7261
+        ],
+        "opening_override": true,
+        "ordinary_move": 4,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 0,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          2
+        ],
+        "selected_move": 6,
+        "side": "X",
+        "stage_prefix": "g6-p0"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "canonical_logits": [
+          -711482,
+          -155613,
+          -300450,
+          -56831,
+          507726,
+          -375864,
+          -204878,
+          -32571,
+          -348977
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 4,
+        "permutation": [
+          6,
+          3,
+          0,
+          7,
+          4,
+          1,
+          8,
+          5,
+          2
+        ],
+        "ply": 1,
+        "raw_approved": [
+          4
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          4
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 4,
+        "side": "O",
+        "stage_prefix": "g6-p1"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "canonical_logits": [
+          217065,
+          99520,
+          336948,
+          135028,
+          391702,
+          169749,
+          27400,
+          232699,
+          43519
+        ],
+        "gates": [
+          30248,
+          2520
+        ],
+        "opening_override": false,
+        "ordinary_move": 1,
+        "permutation": [
+          6,
+          3,
+          0,
+          7,
+          4,
+          1,
+          8,
+          5,
+          2
+        ],
+        "ply": 2,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 1,
+        "side": "X",
+        "stage_prefix": "g6-p2"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          -125942,
+          16511,
+          14883,
+          -50684,
+          264150,
+          3060,
+          -1567,
+          148084,
+          38550
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 3,
+        "permutation": [
+          8,
+          5,
+          2,
+          7,
+          4,
+          1,
+          6,
+          3,
+          0
+        ],
+        "ply": 3,
+        "raw_approved": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "raw_board": [
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 3,
+        "side": "O",
+        "stage_prefix": "g6-p3"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          1,
+          2,
+          0
+        ],
+        "canonical_logits": [
+          -183893,
+          9582,
+          -33720,
+          -70937,
+          243769,
+          -40224,
+          -21624,
+          129516,
+          -16400
+        ],
+        "gates": [
+          31451,
+          1317
+        ],
+        "opening_override": false,
+        "ordinary_move": 5,
+        "permutation": [
+          8,
+          5,
+          2,
+          7,
+          4,
+          1,
+          6,
+          3,
+          0
+        ],
+        "ply": 4,
+        "raw_approved": [
+          5
+        ],
+        "raw_board": [
+          0,
+          1,
+          0,
+          2,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          5
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 5,
+        "side": "X",
+        "stage_prefix": "g6-p4"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          151812,
+          -116884,
+          -620695,
+          -150693,
+          111546,
+          4217,
+          10249,
+          -311751,
+          -560251
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 2,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 5,
+        "raw_approved": [
+          2,
+          8
+        ],
+        "raw_board": [
+          0,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          2,
+          8
+        ],
+        "routes": [
+          2,
+          1
+        ],
+        "selected_move": 2,
+        "side": "O",
+        "stage_prefix": "g6-p5"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          10919,
+          62808,
+          299164,
+          -13455,
+          -59397,
+          -15325,
+          -186619,
+          80791,
+          64299
+        ],
+        "gates": [
+          32761,
+          7
+        ],
+        "opening_override": false,
+        "ordinary_move": 7,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 6,
+        "raw_approved": [
+          0,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 7,
+        "side": "X",
+        "stage_prefix": "g6-p6"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          116961,
+          53966,
+          -38361,
+          25193,
+          8081,
+          14661,
+          70538,
+          21970,
+          -26372
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 8,
+        "permutation": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "ply": 7,
+        "raw_approved": [
+          8
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0
+        ],
+        "raw_optimal_audit": [
+          8
+        ],
+        "routes": [
+          2,
+          1
+        ],
+        "selected_move": 8,
+        "side": "O",
+        "stage_prefix": "g6-p7"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          256890,
+          47614,
+          104845,
+          216444,
+          95192,
+          158522,
+          136034,
+          9000,
+          214081
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 0,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 8,
+        "raw_approved": [
+          0
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "raw_optimal_audit": [
+          0
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 0,
+        "side": "X",
+        "stage_prefix": "g6-p8"
+      }
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        2,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ]
+    ],
+    "d4_key": [
+      1,
+      4,
+      3,
+      0,
+      8,
+      7,
+      5,
+      2,
+      6
+    ],
+    "is_first_deterministic": false,
+    "length": 9,
+    "opening": 7,
+    "outcome": "draw",
+    "sequence": [
+      7,
+      4,
+      3,
+      6,
+      2,
+      1,
+      5,
+      8,
+      0
+    ],
+    "steps": [
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          561150,
+          447961,
+          281555,
+          94790,
+          275926,
+          34652,
+          189453,
+          501705,
+          175355
+        ],
+        "gates": [
+          25507,
+          7261
+        ],
+        "opening_override": true,
+        "ordinary_move": 4,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 0,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          2
+        ],
+        "selected_move": 7,
+        "side": "X",
+        "stage_prefix": "g7-p0"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -6766,
+          1322,
+          -24438,
+          -24823,
+          4262,
+          -35720,
+          9176,
+          5007,
+          54749
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 4,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 1,
+        "raw_approved": [
+          1,
+          4,
+          6,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "raw_optimal_audit": [
+          1,
+          4,
+          6,
+          8
+        ],
+        "routes": [
+          2,
+          3
+        ],
+        "selected_move": 4,
+        "side": "O",
+        "stage_prefix": "g7-p1"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          46038,
+          -47263,
+          106460,
+          18693,
+          198364,
+          25790,
+          13663,
+          34692,
+          11074
+        ],
+        "gates": [
+          31602,
+          1166
+        ],
+        "opening_override": false,
+        "ordinary_move": 3,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 2,
+        "raw_approved": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 3,
+        "side": "X",
+        "stage_prefix": "g7-p2"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -8742,
+          -4122,
+          4238,
+          -13744,
+          58263,
+          25116,
+          8099,
+          24383,
+          62116
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 6,
+        "permutation": [
+          6,
+          3,
+          0,
+          7,
+          4,
+          1,
+          8,
+          5,
+          2
+        ],
+        "ply": 3,
+        "raw_approved": [
+          0,
+          6,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          1,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          6,
+          8
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 6,
+        "side": "O",
+        "stage_prefix": "g7-p3"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          8299,
+          -54639,
+          -6903,
+          -62024,
+          -9277,
+          -101392,
+          -15157,
+          -45808,
+          36973
+        ],
+        "gates": [
+          32428,
+          340
+        ],
+        "opening_override": false,
+        "ordinary_move": 2,
+        "permutation": [
+          6,
+          3,
+          0,
+          7,
+          4,
+          1,
+          8,
+          5,
+          2
+        ],
+        "ply": 4,
+        "raw_approved": [
+          2
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          2,
+          1,
+          0
+        ],
+        "raw_optimal_audit": [
+          2
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 2,
+        "side": "X",
+        "stage_prefix": "g7-p4"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          2,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          571503,
+          301448,
+          496677,
+          267930,
+          235712,
+          504220,
+          449901,
+          505422,
+          703189
+        ],
+        "gates": [
+          32295,
+          473
+        ],
+        "opening_override": false,
+        "ordinary_move": 1,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 5,
+        "raw_approved": [
+          0,
+          1,
+          5,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          2,
+          1,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          5,
+          8
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 1,
+        "side": "O",
+        "stage_prefix": "g7-p5"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          10919,
+          62808,
+          299164,
+          -13455,
+          -59397,
+          -15325,
+          -186619,
+          80791,
+          64299
+        ],
+        "gates": [
+          32761,
+          7
+        ],
+        "opening_override": false,
+        "ordinary_move": 5,
+        "permutation": [
+          8,
+          5,
+          2,
+          7,
+          4,
+          1,
+          6,
+          3,
+          0
+        ],
+        "ply": 6,
+        "raw_approved": [
+          0,
+          5,
+          8
+        ],
+        "raw_board": [
+          0,
+          2,
+          1,
+          1,
+          2,
+          0,
+          2,
+          1,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          5,
+          8
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 5,
+        "side": "X",
+        "stage_prefix": "g7-p6"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          116961,
+          53966,
+          -38361,
+          25193,
+          8081,
+          14661,
+          70538,
+          21970,
+          -26372
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 8,
+        "permutation": [
+          8,
+          5,
+          2,
+          7,
+          4,
+          1,
+          6,
+          3,
+          0
+        ],
+        "ply": 7,
+        "raw_approved": [
+          8
+        ],
+        "raw_board": [
+          0,
+          2,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          0
+        ],
+        "raw_optimal_audit": [
+          8
+        ],
+        "routes": [
+          2,
+          1
+        ],
+        "selected_move": 8,
+        "side": "O",
+        "stage_prefix": "g7-p7"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          256890,
+          47614,
+          104845,
+          216444,
+          95192,
+          158522,
+          136034,
+          9000,
+          214081
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 0,
+        "permutation": [
+          0,
+          3,
+          6,
+          1,
+          4,
+          7,
+          2,
+          5,
+          8
+        ],
+        "ply": 8,
+        "raw_approved": [
+          0
+        ],
+        "raw_board": [
+          0,
+          2,
+          1,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2
+        ],
+        "raw_optimal_audit": [
+          0
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 0,
+        "side": "X",
+        "stage_prefix": "g7-p8"
+      }
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ]
+    ],
+    "d4_key": [
+      0,
+      4,
+      5,
+      7,
+      1,
+      2,
+      6,
+      3,
+      8
+    ],
+    "is_first_deterministic": false,
+    "length": 9,
+    "opening": 8,
+    "outcome": "draw",
+    "sequence": [
+      8,
+      4,
+      1,
+      3,
+      5,
+      2,
+      6,
+      7,
+      0
+    ],
+    "steps": [
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          561150,
+          447961,
+          281555,
+          94790,
+          275926,
+          34652,
+          189453,
+          501705,
+          175355
+        ],
+        "gates": [
+          25507,
+          7261
+        ],
+        "opening_override": true,
+        "ordinary_move": 4,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 0,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "routes": [
+          1,
+          2
+        ],
+        "selected_move": 8,
+        "side": "X",
+        "stage_prefix": "g8-p0"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "canonical_logits": [
+          -711482,
+          -155613,
+          -300450,
+          -56831,
+          507726,
+          -375864,
+          -204878,
+          -32571,
+          -348977
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 4,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 1,
+        "raw_approved": [
+          4
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "raw_optimal_audit": [
+          4
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 4,
+        "side": "O",
+        "stage_prefix": "g8-p1"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "canonical_logits": [
+          217065,
+          99520,
+          336948,
+          135028,
+          391702,
+          169749,
+          27400,
+          232699,
+          43519
+        ],
+        "gates": [
+          30248,
+          2520
+        ],
+        "opening_override": false,
+        "ordinary_move": 1,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 2,
+        "raw_approved": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7
+        ],
+        "raw_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "raw_optimal_audit": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7
+        ],
+        "routes": [
+          1,
+          0
+        ],
+        "selected_move": 1,
+        "side": "X",
+        "stage_prefix": "g8-p2"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "canonical_logits": [
+          -125942,
+          16511,
+          14883,
+          -50684,
+          264150,
+          3060,
+          -1567,
+          148084,
+          38550
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 3,
+        "permutation": [
+          2,
+          5,
+          8,
+          1,
+          4,
+          7,
+          0,
+          3,
+          6
+        ],
+        "ply": 3,
+        "raw_approved": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "raw_board": [
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "raw_optimal_audit": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 3,
+        "side": "O",
+        "stage_prefix": "g8-p3"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          0,
+          2,
+          0
+        ],
+        "canonical_logits": [
+          -5517,
+          2160,
+          -35475,
+          -36949,
+          22557,
+          -46735,
+          -33909,
+          -9346,
+          -7052
+        ],
+        "gates": [
+          32548,
+          220
+        ],
+        "opening_override": false,
+        "ordinary_move": 5,
+        "permutation": [
+          6,
+          3,
+          0,
+          7,
+          4,
+          1,
+          8,
+          5,
+          2
+        ],
+        "ply": 4,
+        "raw_approved": [
+          5
+        ],
+        "raw_board": [
+          0,
+          1,
+          0,
+          2,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "raw_optimal_audit": [
+          5
+        ],
+        "routes": [
+          2,
+          1
+        ],
+        "selected_move": 5,
+        "side": "X",
+        "stage_prefix": "g8-p4"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          1,
+          0
+        ],
+        "canonical_logits": [
+          -15088,
+          -55720,
+          -41185,
+          -6077,
+          20943,
+          17845,
+          -16946,
+          -67123,
+          57823
+        ],
+        "gates": [
+          32733,
+          35
+        ],
+        "opening_override": false,
+        "ordinary_move": 2,
+        "permutation": [
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ],
+        "ply": 5,
+        "raw_approved": [
+          2
+        ],
+        "raw_board": [
+          0,
+          1,
+          0,
+          2,
+          2,
+          1,
+          0,
+          0,
+          1
+        ],
+        "raw_optimal_audit": [
+          2
+        ],
+        "routes": [
+          3,
+          2
+        ],
+        "selected_move": 2,
+        "side": "O",
+        "stage_prefix": "g8-p5"
+      },
+      {
+        "canonical_board": [
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          1,
+          2
+        ],
+        "canonical_logits": [
+          13073,
+          -14806,
+          -15634,
+          137765,
+          442232,
+          45496,
+          -53075,
+          2738,
+          -96087
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 6,
+        "permutation": [
+          6,
+          7,
+          8,
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ],
+        "ply": 6,
+        "raw_approved": [
+          6
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          0,
+          0,
+          1
+        ],
+        "raw_optimal_audit": [
+          6
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 6,
+        "side": "X",
+        "stage_prefix": "g8-p6"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          0,
+          1
+        ],
+        "canonical_logits": [
+          -101244,
+          -20790,
+          -34258,
+          -41350,
+          60248,
+          -35350,
+          -9025,
+          20360,
+          18080
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 7,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 7,
+        "raw_approved": [
+          7
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          0,
+          1
+        ],
+        "raw_optimal_audit": [
+          7
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 7,
+        "side": "O",
+        "stage_prefix": "g8-p7"
+      },
+      {
+        "canonical_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          2,
+          1
+        ],
+        "canonical_logits": [
+          28823,
+          19898,
+          31329,
+          39223,
+          233028,
+          56809,
+          7043,
+          70748,
+          31446
+        ],
+        "gates": [
+          32768,
+          0
+        ],
+        "opening_override": false,
+        "ordinary_move": 0,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ply": 8,
+        "raw_approved": [
+          0
+        ],
+        "raw_board": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          2,
+          1
+        ],
+        "raw_optimal_audit": [
+          0
+        ],
+        "routes": [
+          3,
+          0
+        ],
+        "selected_move": 0,
+        "side": "X",
+        "stage_prefix": "g8-p8"
+      }
+    ]
+  }
+]

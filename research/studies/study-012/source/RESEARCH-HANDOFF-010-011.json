@@ -1,0 +1,76 @@
+{
+  "artifact_files_byte_identical": 38,
+  "bundle_entries": 170,
+  "bundle_path": "/home/ai/falken9-strategy-study-003/study010-011-source-evidence.zip",
+  "bundle_sha256": "414a664c7ff25e301a7e77d2b980154bd66ca90e225ffc5df0c1df82b8c92381",
+  "preserved_files": 1258,
+  "stage_artifacts": {
+    "010": {
+      "artifact_count": 14,
+      "artifacts_byte_identical": true,
+      "sha256": {
+        "REPORT010.md": "40d49d23b39b4b0b32277a0aadd0586de48b3fba371eb17afdfc37fba853c854",
+        "baseline-gate010.json": "446d0dc45de156dd87a7a11bb177f700d37459e155059cfb6de261ccbc54979f",
+        "baseline010.npz": "ec81bed1e5bcb42b1cc78688e48106b457ae3ddd6302946b577d39ed00c1c317",
+        "examples010.json": "6e33ad8fd06bf4728c242c437c7a25354d233454cb8204743f200303640a6c66",
+        "figure-metadata010.json": "b9336c32ce8a702f4fc1cbde58e9f66991af37cf43ae518dbcafdf99f6572995",
+        "independent-audit010.json": "c8a989816f474ced60bfd74561259ac7d568a2869f276de0a9f7b22aee3137e6",
+        "manifest010.json": "a6cb3ea81a7d7006b09cf8fa44bd8eeb2ddee54c26f398da32d3b8dc864bb07d",
+        "measurements010.npz": "7d0e07c6e406925530a6b3feb1bf9422c536a9c168786c9bb5eaafef7679aad5",
+        "orbits010.png": "664d7862af2e694b9a45f4c5b97e52e4050fd38e79c189a0be923b3802e87b9b",
+        "orbits010.svg": "2a8096582f9492a23447346edd8fdf9d11f3735fafc7552cb802557cc9788e65",
+        "overview010.png": "c70fd0ad7bedbb05ef8bc01561a5617eb26a2ed6ba32ebdabbc6c2f198b09068",
+        "overview010.svg": "99671f85bf4df70f5c3b4739b7e31bd5c138ca5333cc9a9b981144370c9d8946",
+        "provenance010.json": "278f3ab55d138f594537ef7830920985e3c4446e9acc7cad8eb73c4d338593f9",
+        "results010.json": "968ef3c00913c8d49640dd8ad441b25263b0c0a24c8dc4dad7a17aa3a6b96c5f"
+      }
+    },
+    "011": {
+      "artifact_count": 16,
+      "artifacts_byte_identical": true,
+      "sha256": {
+        "REPORT011.md": "fb90e418e379a99b6d96f426082a3dd0307a4e324804803c9facc6d9ddeeb92c",
+        "baseline-gate011.json": "446d0dc45de156dd87a7a11bb177f700d37459e155059cfb6de261ccbc54979f",
+        "baseline011.npz": "ec81bed1e5bcb42b1cc78688e48106b457ae3ddd6302946b577d39ed00c1c317",
+        "boards011.json": "19c6664d7b21cf4150f07c874f0eae25daee489aefb3aa01dada1d6d122c30c6",
+        "cardinality011.png": "99a1e6144a6fd7cf4910d03df1678dcbfd6474bec583dfb740c7841a51d9da13",
+        "cardinality011.svg": "fb84a4caa3e9eea65caa8796b99a8bccea83bdc9af5457da5d453273e302e803",
+        "classes011.json": "0f1fbbc99f32bf45eb821faffa6655b9ab6d5604e329df6319ff5ecf750baca5",
+        "collisions011.png": "d03a9c4918987e1f6b067b9ccfc6200abbab23543e75ae32100229ab5c66af8f",
+        "collisions011.svg": "9693f21e10d101c5c7c06ff7552acc1c78431ac778cdea3a42145cb18f9a392c",
+        "examples011.json": "0808c34ee4721b20040275c1e247463776cbd4c0ebe51d6852a9da615706e870",
+        "expert-census011.json": "8d8eec902a892853027ebbd775f2f408baf4879bba60578b07bb70921c00eccd",
+        "figure-metadata011.json": "e8d000a1f658b4997b87d21be2be8e0f28236754e1d47c06a96239894c3c754a",
+        "independent-audit011.json": "bcd2af79a478fd9d75b74bf8877ef786032a7b88e287afe9eec16e6ae5a7d0d7",
+        "manifest011.json": "66a35399ef529e8d5bb23b6660c1d165fc946adb8499c09e9be2495717913e85",
+        "provenance011.json": "cdb62f1e6bf3117ef0c297f3a7e834dedc00c713e5eacc8ba431143d519a959e",
+        "results011.json": "32f1cf9b8bb8b2f2fd5b76de798934bdf1afb2b129cc83d928be77a0cbb3c5f2"
+      }
+    },
+    "walkthrough": {
+      "artifact_count": 8,
+      "artifacts_byte_identical": true,
+      "sha256": {
+        "ILLUSTRATED-SYNTHESIS1011.md": "9a69b314a55ec96625995801b991ddb22267d69b813f5c291e86c79feba85d90",
+        "figure-metadata-walkthrough1011.json": "d49697a64e4d4177b68339fc2ca5a841ddf3c43e1c806b5f2f77dc99ae8d80de",
+        "forward-attention1011.png": "e4ca77c9ebeba7b2651bb9e02000874192bc97bb35d3e96d2e51f72331830f4f",
+        "forward-attention1011.svg": "e16f0eb4fd2cd46bc8ce5f63b9212640c02a76470a3c76d9474f813da46fefde",
+        "forward-experts1011.png": "90ce3c5d10f30bf99527bd85c2f3c7133ab1380d2465c8add3446280a0fa409a",
+        "forward-experts1011.svg": "62505e40e0c488c422efc369684ac7b092571f7ee1a4fb07d55438a729dffdba",
+        "independent-audit-walkthrough1011.json": "1ea9e6d745220aba92abcb03d9f2ea3c36ab5adec598133aa768a4c4b9297836",
+        "walkthrough1011.json": "ce5b70594db2f48a2c874fbb743d37e50761cdf7884dbdab962203c1bc329333"
+      }
+    }
+  },
+  "status": "PASS",
+  "studies": [
+    "010",
+    "011"
+  ],
+  "synthesis": "/home/ai/falken9-strategy-study-003/artifacts/interpretability/study-010-011-walkthrough/ILLUSTRATED-SYNTHESIS1011.md",
+  "verification_paths": [
+    "/home/ai/falken9-strategy-study-003/verification-study010.json",
+    "/home/ai/falken9-strategy-study-003/verification-study011.json"
+  ],
+  "wall_seconds": 2896.051163
+}

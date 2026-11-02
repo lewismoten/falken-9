@@ -1,0 +1,70 @@
+{
+  "schema": "falken9-application011-screenshots-v1",
+  "revision": "011",
+  "prg": {
+    "path": "artifacts/app/011-graphical-final/falken-9-011-graphical.prg",
+    "bytes": 50507,
+    "sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f"
+  },
+  "d64": {
+    "path": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+    "bytes": 174848,
+    "sha256": "101ddad7de1055a238550bdf189e3ad26300484aae45c4ebda481ef5fe4168ec"
+  },
+  "screenshots": [
+    {
+      "path": "assets/screenshots/falken-9-011-title.png",
+      "sha256": "591e324ed463c12c60538754d90ba303ff027fb438992dc0a8bc9eeefaa96c58",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. monitor KERNAL queue navigation; title at genuine D64 autostart",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-presentation/title.png"
+    },
+    {
+      "path": "assets/screenshots/falken-9-011-gameplay.png",
+      "sha256": "f94bee272f2ab46817bee910bdd3fa0e30a6e5c7fe2b2aa7a13b959063bf506e",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. monitor KERNAL queue human move plus complete native neural response; settled native VICE PNG",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-d64/gameplay.png"
+    },
+    {
+      "path": "assets/screenshots/falken-9-011-info-inspiration.png",
+      "sha256": "83e1328de4bee208ad27ace83362b2ec742770dfc2a57427caa9d5e36fb9412e",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. monitor KERNAL queue I and cursor-down scrolling",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-presentation/info-inspiration.png"
+    },
+    {
+      "path": "assets/screenshots/falken-9-011-info-bottom.png",
+      "sha256": "644f48490ce9ba470979412c8ecb6f1b579997fd40ff3440721f5b4ec45df58a",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. monitor KERNAL queue cursor-down to actual bottom clamp",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-presentation/info-bottom.png"
+    },
+    {
+      "path": "assets/screenshots/falken-9-011-quit-session.png",
+      "sha256": "a2182d17aaefdcc3718e80950bc8b94fd6eb9c07a996e605b8b516df25e11944",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. XTest native-window q key-down/up through stock-ROM scanner; view 3, audio off, stock IRQ restored",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-presentation/quit-session.png"
+    }
+  ],
+  "emulator": {
+    "program": "VICE x64",
+    "sha256": "4da4aa26f02419bd6fd51d3c88bc8535671ffb7a64930e646f0af83e24e5b931",
+    "timing": "PAL",
+    "launch": "stock C64 ROMs, genuine1541 D64 autostart; sound enabled; warp",
+    "roms": {
+      "kernal-901227-03.bin": "83c60d47047d7beab8e5b7bf6f67f80daa088b7a6a27de0d7e016f6484042721",
+      "basic-901226-01.bin": "89878cea0a268734696de11c4bae593eaaa506465d2029d619c0e0cbccdfa62d",
+      "chargen-901225-01.bin": "fd0d53b8480e86163ac98998976c72cc58d5dd8eb824ed7b829774e74213b420"
+    }
+  },
+  "boundary": "Emulator-tested only. Lifecycle and INFO input are monitor-injected KERNAL queue bytes; session Q is an isolated native XTest key-down/up. Not browser or physical C64/drive acceptance.",
+  "source_snapshot": "artifacts/operations/deployment/011/publication-final/protected-before.json",
+  "protected_before_after_identical": true
+}

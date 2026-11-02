@@ -1,0 +1,80 @@
+{
+  "schema": "falken9-music-preview-v1",
+  "title": "Patient Calculations",
+  "credit": "Original score: Mercury Quill / Lewis Moten project, as credited in src/app/sid_audio.asm",
+  "rights": "First-party project contribution under the existing Apache-2.0/NOTICE terms; no third-party melody or SID tune imported. Artwork exceptions are unchanged.",
+  "recording_boundary": "Actual native VICE x64 3.9 reSID MOS8580 emulator PCM from the exact accepted010 PRG, PAL stock-ROM title-screen idle. Not a physical SID recording, host-synthesized approximation, listening approval, or hardware acceptance. No navigation, gameplay, injected keys, injected events, or voice-three SFX in the monitored interval.",
+  "score_source": {
+    "path": "src/app/sid_audio.asm",
+    "sha256": "a2c821a7f835de21a26e04e088bed807c2820e1757e208e081ed97771f8c65fa"
+  },
+  "capture": {
+    "id": "accepted010-pal-title-music-2100-ticks",
+    "prg": "falken9-010-graphical.prg",
+    "prg_sha256": "c571353a61c8a663050c33809b6ca880d29aebc969c545a717da2644eed3143a",
+    "emulator": "VICE x64 3.9",
+    "renderer": "reSID MOS8580, filter on, resampling, passband 21600 Hz",
+    "timing": "PAL",
+    "title_only": true,
+    "injected_keys": 0,
+    "injected_events": 0,
+    "raster_ticks": 2100,
+    "cpu_clock_begin": 128192674,
+    "cpu_clock_end": 169470242,
+    "audio_event_trace_hits": 0,
+    "voice_three_control_write_trace_hits": 0,
+    "voice_three_control_at_end": 0,
+    "monitor_sha256": "15d12fb549d241df882d07198e04bdfbc143b53deb1c9a23694c6103b87e1419",
+    "vice_executable_sha256": "4da4aa26f02419bd6fd51d3c88bc8535671ffb7a64930e646f0af83e24e5b931",
+    "private_evidence_policy": "Raw sid.wav, capture.json, vice.log and monitor.log are retained in ignored build/music-preview-010, not duplicated in public release assets. WAV recording/mixer edges are not claimed sample-aligned to the monitor interval."
+  },
+  "source": {
+    "codec": "pcm_s16le",
+    "container": "wav",
+    "sample_rate": 48000,
+    "channels": 1,
+    "duration_seconds": 41.898667,
+    "decoded_frames": 2011136,
+    "decoded_duration_seconds": 41.898666666666664,
+    "bytes": 4022316,
+    "sha256": "9bfe4fbe67b5967377a8ed394a8059939d532faa1e51a5418e7c4f95df456541",
+    "pcm_s16le": {
+      "samples": 2011136,
+      "nonzero_samples": 2004636,
+      "clipped_samples": 0,
+      "peak": 2292,
+      "rms": 386.6456013000098
+    }
+  },
+  "output": {
+    "path": "assets/audio/patient-calculations.ogg",
+    "codec": "vorbis",
+    "container": "ogg",
+    "sample_rate": 48000,
+    "channels": 1,
+    "duration_seconds": 38.0,
+    "decoded_frames": 1824000,
+    "decoded_duration_seconds": 38.0,
+    "bytes": 330979,
+    "sha256": "a0ce1a0d94cda8e2599a393683d51e381835c28eb88e03f486e5ec9b4e8a3461",
+    "pcm_s16le": {
+      "samples": 1824000,
+      "nonzero_samples": 1773020,
+      "clipped_samples": 0,
+      "peak": 2283,
+      "rms": 379.05304322173424
+    }
+  },
+  "conversion": {
+    "start_seconds": 1.0,
+    "duration_seconds": 38.0,
+    "encoder": "libvorbis",
+    "quality": 5,
+    "gain_normalization": false,
+    "fade_in_seconds": 0.05,
+    "fade_out_seconds": 1.0,
+    "excerpt_boundary": "WAV seconds [1,39); presentation fades only, no claim of seamless loop or sample-exact score start."
+  },
+  "ffmpeg_version": "ffmpeg version 8.0.1-3ubuntu2 Copyright (c) 2000-2025 the FFmpeg developers",
+  "verification": "ffprobe stream/container/duration plus full ffmpeg -xerror decode to signed 16-bit PCM, nonzero/RMS/peak/clipping metrics, and byte-identical repeat encoding from this source WAV with this toolchain. Numeric checks only; no subjective listening approval."
+}

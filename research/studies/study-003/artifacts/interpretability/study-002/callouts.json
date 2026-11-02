@@ -1,0 +1,320 @@
+[
+  {
+    "callout": "A",
+    "task": "has_win",
+    "stage": "expert_hidden",
+    "coordinates": [
+      0,
+      2
+    ],
+    "training_association": {
+      "task": "has_win",
+      "stage": "expert_hidden",
+      "coordinates": "0,2",
+      "n": 184,
+      "positives": 81,
+      "residual_ply_correlation": -0.21172187372665605,
+      "positive_mean": 5066.913580246914,
+      "negative_mean": 6220.0291262135925
+    },
+    "baseline_value": 0,
+    "heldout_unit_probe": {
+      "n": 134,
+      "positives": 75,
+      "prevalence": 0.5597014925373134,
+      "accuracy": 0.7313432835820896,
+      "majority_accuracy": 0.5597014925373134,
+      "balanced_accuracy": 0.7310734463276836,
+      "precision": 0.7746478873239436,
+      "recall": 0.7333333333333333,
+      "f1": 0.7534246575342466,
+      "auc": 0.8184180790960452,
+      "tp": 55,
+      "fp": 16,
+      "tn": 43,
+      "fn": 20
+    },
+    "heldout_route_control_probe": {
+      "n": 134,
+      "positives": 75,
+      "prevalence": 0.5597014925373134,
+      "accuracy": 0.7313432835820896,
+      "majority_accuracy": 0.5597014925373134,
+      "balanced_accuracy": 0.7310734463276836,
+      "precision": 0.7746478873239436,
+      "recall": 0.7333333333333333,
+      "f1": 0.7534246575342466,
+      "auc": 0.8194350282485876,
+      "tp": 55,
+      "fp": 16,
+      "tn": 43,
+      "fn": 20
+    },
+    "heldout_active_only_probe": {
+      "n": 62,
+      "positives": 27,
+      "prevalence": 0.43548387096774194,
+      "accuracy": 0.7903225806451613,
+      "majority_accuracy": 0.5645161290322581,
+      "balanced_accuracy": 0.7804232804232805,
+      "precision": 0.7916666666666666,
+      "recall": 0.7037037037037037,
+      "f1": 0.7450980392156863,
+      "auc": 0.8650793650793651,
+      "tp": 19,
+      "fp": 5,
+      "tn": 30,
+      "fn": 8
+    },
+    "zero_intervention": "expert-0-hidden-2-zero",
+    "parameter": {
+      "callout": "A1",
+      "tensor": "expert_w1",
+      "coordinates": [
+        0,
+        1,
+        2
+      ],
+      "flat_index": 6,
+      "global_parameter_index": 78,
+      "packet_byte_offset": 489,
+      "stored_value": -25136,
+      "bits": 16,
+      "exponents": [
+        -14,
+        -13,
+        -13,
+        -14,
+        -14,
+        -14,
+        -13,
+        -13,
+        -14,
+        -14,
+        -14,
+        -13,
+        -14,
+        -13,
+        -13,
+        -13
+      ],
+      "control_coordinates": [
+        0,
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "callout": "B",
+    "task": "must_block",
+    "stage": "expert_hidden",
+    "coordinates": [
+      0,
+      2
+    ],
+    "training_association": {
+      "task": "must_block",
+      "stage": "expert_hidden",
+      "coordinates": "0,2",
+      "n": 184,
+      "positives": 47,
+      "residual_ply_correlation": 0.18627980329964686,
+      "positive_mean": 7706.851063829788,
+      "negative_mean": 5028.1824817518245
+    },
+    "baseline_value": 0,
+    "heldout_unit_probe": {
+      "n": 134,
+      "positives": 20,
+      "prevalence": 0.14925373134328357,
+      "accuracy": 0.8507462686567164,
+      "majority_accuracy": 0.8507462686567164,
+      "balanced_accuracy": 0.6030701754385965,
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1": 0.3333333333333333,
+      "auc": 0.7149122807017544,
+      "tp": 5,
+      "fp": 5,
+      "tn": 109,
+      "fn": 15
+    },
+    "heldout_route_control_probe": {
+      "n": 134,
+      "positives": 20,
+      "prevalence": 0.14925373134328357,
+      "accuracy": 0.8582089552238806,
+      "majority_accuracy": 0.8507462686567164,
+      "balanced_accuracy": 0.6074561403508771,
+      "precision": 0.5555555555555556,
+      "recall": 0.25,
+      "f1": 0.3448275862068966,
+      "auc": 0.6820175438596491,
+      "tp": 5,
+      "fp": 4,
+      "tn": 110,
+      "fn": 15
+    },
+    "heldout_active_only_probe": {
+      "n": 62,
+      "positives": 12,
+      "prevalence": 0.1935483870967742,
+      "accuracy": 0.8548387096774194,
+      "majority_accuracy": 0.8064516129032258,
+      "balanced_accuracy": 0.6566666666666666,
+      "precision": 0.8,
+      "recall": 0.3333333333333333,
+      "f1": 0.47058823529411764,
+      "auc": 0.695,
+      "tp": 4,
+      "fp": 1,
+      "tn": 49,
+      "fn": 8
+    },
+    "zero_intervention": "expert-0-hidden-2-zero",
+    "parameter": {
+      "callout": "B1",
+      "tensor": "expert_w1",
+      "coordinates": [
+        0,
+        1,
+        2
+      ],
+      "flat_index": 6,
+      "global_parameter_index": 78,
+      "packet_byte_offset": 489,
+      "stored_value": -25136,
+      "bits": 16,
+      "exponents": [
+        -14,
+        -13,
+        -13,
+        -14,
+        -14,
+        -14,
+        -13,
+        -13,
+        -14,
+        -14,
+        -14,
+        -13,
+        -14,
+        -13,
+        -13,
+        -13
+      ],
+      "control_coordinates": [
+        0,
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "callout": "C",
+    "task": "has_fork",
+    "stage": "expert_hidden",
+    "coordinates": [
+      1,
+      0
+    ],
+    "training_association": {
+      "task": "has_fork",
+      "stage": "expert_hidden",
+      "coordinates": "1,0",
+      "n": 159,
+      "positives": 11,
+      "residual_ply_correlation": 0.20163784220278333,
+      "positive_mean": 7108.363636363636,
+      "negative_mean": 2282.824324324324
+    },
+    "baseline_value": 0,
+    "heldout_unit_probe": {
+      "n": 134,
+      "positives": 6,
+      "prevalence": 0.04477611940298507,
+      "accuracy": 0.9552238805970149,
+      "majority_accuracy": 0.9552238805970149,
+      "balanced_accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.8014322916666666,
+      "tp": 0,
+      "fp": 0,
+      "tn": 128,
+      "fn": 6
+    },
+    "heldout_route_control_probe": {
+      "n": 134,
+      "positives": 6,
+      "prevalence": 0.04477611940298507,
+      "accuracy": 0.9552238805970149,
+      "majority_accuracy": 0.9552238805970149,
+      "balanced_accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.8391927083333334,
+      "tp": 0,
+      "fp": 0,
+      "tn": 128,
+      "fn": 6
+    },
+    "heldout_active_only_probe": {
+      "n": 53,
+      "positives": 4,
+      "prevalence": 0.07547169811320754,
+      "accuracy": 0.9245283018867925,
+      "majority_accuracy": 0.9245283018867925,
+      "balanced_accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.7704081632653061,
+      "tp": 0,
+      "fp": 0,
+      "tn": 49,
+      "fn": 4
+    },
+    "zero_intervention": "expert-1-hidden-0-zero",
+    "parameter": {
+      "callout": "C1",
+      "tensor": "expert_w1",
+      "coordinates": [
+        1,
+        7,
+        0
+      ],
+      "flat_index": 60,
+      "global_parameter_index": 132,
+      "packet_byte_offset": 597,
+      "stored_value": 29351,
+      "bits": 16,
+      "exponents": [
+        -14,
+        -13,
+        -13,
+        -14,
+        -14,
+        -14,
+        -13,
+        -13,
+        -14,
+        -14,
+        -14,
+        -13,
+        -14,
+        -13,
+        -13,
+        -13
+      ],
+      "control_coordinates": [
+        1,
+        4,
+        0
+      ]
+    }
+  }
+]

@@ -89,7 +89,7 @@ def test_original_footer_and_exact_requested_badge_on_every_title_return(built):
         for row, text in [(22, 'INFO'), (23, 'QUIT')]:
             assert game.text(row)[2:6] == text
             assert bytes(game.cpu.memory[0xd800+row*40+2:0xd800+row*40+6]) == bytes([1,12,12,12])
-        for row,col,text in [(22,30,'FALCON-9'),(23,35,'1.0')]:
+        for row,col,text in [(22,30,'FALKEN-9'),(23,35,'1.0')]:
             assert game.text(row)[col:col+len(text)] == text
             assert bytes(game.cpu.memory[0xd800+row*40+col:0xd800+row*40+col+len(text)]) == bytes([6])*len(text)
 
@@ -98,15 +98,16 @@ def test_info_white_markdown_scroll_and_complete_repository_links(built):
     game = GraphicalMachine(built); game.until_input(); game.key('I')
     assert bytes(game.cpu.memory[0xd800+4*40+5:0xd800+4*40+34]) == bytes([1])*29
     rows = [game.text(r)[5:34].rstrip() for r in range(4,22)]
-    assert 'FALCON-9' in ''.join(rows)
+    assert 'FALKEN-9' in ''.join(rows)
     for _ in range(100):
         before = game.planes(); game.key(0x11)
         if game.planes() == before: break
         rows.append(game.text(21)[5:34].rstrip())
     text = ''.join(rows)
-    assert 'HTTPS://GITHUB.COM/LEWISMOTEN/FALCON-9' in text
-    assert 'HTTPS://HUGGINGFACE.CO/LEWISMOTEN/FALCON-9' in text
-    assert 'NOT YET PUBLISHED' in text
+    assert 'HTTPS://GITHUB.COM/LEWISMOTEN/FALKEN-9' in text
+    assert 'HTTPS://HUGGINGFACE.CO/LEWISMOTEN/FALKEN-9' in text
+    assert 'NOT YET PUBLISHED' not in text
+    assert 'WARGAMES (1983)' in text and 'DR. STEPHEN FALKEN' in text
     assert 'QUIT: Q' in game.text(23)
     game.key('Q'); assert game.get('view') == 0
 

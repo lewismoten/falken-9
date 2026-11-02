@@ -1,0 +1,23 @@
+{
+  "byte_identical_artifacts": 17,
+  "passed": true,
+  "sha256": {
+    "REPORT016.md": "d961666fbc22d4efe0d765d98fda4b7c94751050117c0f6b341477e6d56507cd",
+    "branching-example016.png": "06b11a374e4f58ab74f72b332888ebab22fa587d0d8d7c1ba375d24ea48e65e7",
+    "branching-example016.svg": "998ad4a1408b9a2b732a2ac3894bcc3e07d2f69a8bb3af30a1902bfe641f3726",
+    "dag-1-accepted016.json": "b99d759b613d4812987954e2d8a71da6a617189f48e7e309d49739d07db046ac",
+    "dag-1-largest_score016.json": "6b1f4f2ed14db5ac8035f491615a2ea6ae9c305716c1c5e96049eed6fa4241ac",
+    "dag-1-reversed016.json": "4ec5d64588e85b6aa81f016b0c5c01b6dfb7d3fc777cde784c3c542b303f2479",
+    "dag-2-accepted016.json": "b97492e94cdbd18ef84551401ad9a16fdad935128a7aed363ddff0d920ee86a5",
+    "dag-2-largest_score016.json": "c5c0523747e4b5dee67159e58df45bdeb741574c38a222e1975e3cac655c3d66",
+    "dag-2-reversed016.json": "b44d8103964dc1c0fb7990fd0485fde1a018b2a22885896d6d9482c2e59ce51c",
+    "domain016.npz": "3f234a76166d8498398c5dc78deb0c2a7b06f017b911f9bcdd04a9cea4f9e662",
+    "example016.json": "bf165de803da43f0ba8f9e6cc5b7a3b1dd9c491a101e126894fcd6c5ad911b4e",
+    "figure-metadata016.json": "d0cec41a145aa840368142a75f1c78b629b242ae21d9b5eb461da3ac029aa7a8",
+    "independent-audit016.json": "6b5882aa83a95c66664424509df6badc7c5545bfa7680c793a27eba8e8864731",
+    "raw-bindings016.json": "f0e0d955fd0282fd74360e0b0430ebc71b433dfdc06fbaf4109ceeccc205bdfc",
+    "results016.json": "ed8a13b06aab50a93fd3702fdd97c0c285448b378a2809837f0ed339999f5f23",
+    "roles-outcomes016.png": "f03955ea4fe901b7d3f1a14312a669eee3a1cbcc28b24e54ddf29b7f09daa5ed",
+    "roles-outcomes016.svg": "9dbd8143476444de5a8527fa348dca1bf95aa6c26d8057000bc915be9f8a8679"
+  }
+}

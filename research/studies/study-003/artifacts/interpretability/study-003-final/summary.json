@@ -1,0 +1,48 @@
+{
+  "raw_boards": 4520,
+  "canonical_boards": 627,
+  "fold_counts": {
+    "train": 372,
+    "validation": 121,
+    "test": 134
+  },
+  "class_counts": {
+    "has_win": {
+      "train": 181,
+      "validation": 65,
+      "test": 75
+    },
+    "must_block": {
+      "train": 91,
+      "validation": 22,
+      "test": 20
+    },
+    "has_fork": {
+      "train": 15,
+      "validation": 5,
+      "test": 6
+    },
+    "has_fork_prevention": {
+      "train": 25,
+      "validation": 14,
+      "test": 14
+    }
+  },
+  "raw_class_counts": {
+    "has_win": 2358,
+    "must_block": 976,
+    "has_fork": 192,
+    "has_fork_prevention": 370
+  },
+  "experiments": 128,
+  "donor_pairs": 1044,
+  "unique_donors": 113,
+  "unique_receivers": 116,
+  "contrast": [
+    3,
+    3
+  ],
+  "upstream_unit": 7,
+  "source_evidence_unchanged": true,
+  "model_immutable": true
+}

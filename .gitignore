@@ -6,7 +6,13 @@
 /release/
 /.venv/
 *.d64
+# Accepted public disk only; historical/generated proof disks stay ignored.
+!/releases/falken-9-v1.0.0/falken-9-c64.d64
 *.pyc
 __pycache__/
 .pytest_cache/
 *.log
+
+# Withdrawn local comparison experiment (not part of the published project)
+/baselines/
+/tests/test_conventional_baseline_delivery.py

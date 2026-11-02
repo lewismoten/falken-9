@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1090" viewBox="0 0 1400 1090"><rect width="100%" height="100%" fill="#f5f7fb"/>
+<text x="30" y="50" font-family="DejaVu Sans" font-size="30" fill="#17283f">Exact collisions | What routing and signs do not tell you</text>
+<text x="30" y="97" font-family="DejaVu Sans" font-size="21" fill="#17283f">Actual boards; blue fill and green borders = complete optimal legal sets, not a preference.</text>
+<text x="30" y="156" font-family="DejaVu Sans" font-size="24" fill="#17283f">A  Canonical 452</text>
+<rect x="30" y="181" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="35" y="198" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="58.5" y="233.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="105" y="181" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="110" y="198" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="133.5" y="233.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="180" y="181" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="185" y="198" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="208.5" y="233.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="30" y="256" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="35" y="273" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="58.5" y="308.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="105" y="256" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="110" y="273" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="133.5" y="308.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="180" y="256" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="185" y="273" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="208.5" y="308.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">X</text>
+<rect x="30" y="331" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="35" y="348" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="58.5" y="383.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">X</text>
+<rect x="105" y="331" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="110" y="348" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="133.5" y="383.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="180" y="331" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="185" y="348" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="208.5" y="383.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">O</text>
+<text x="30" y="446" font-family="DejaVu Sans" font-size="19" fill="#17283f">set {de}</text>
+<text x="30" y="476" font-family="DejaVu Sans" font-size="19" fill="#17283f">route [3, 0]</text>
+<text x="30" y="506" font-family="DejaVu Sans" font-size="19" fill="#17283f">gates [32768, 0]</text>
+<text x="345" y="156" font-family="DejaVu Sans" font-size="24" fill="#17283f">B  Canonical 413</text>
+<rect x="345" y="181" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="350" y="198" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="373.5" y="233.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="420" y="181" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="425" y="198" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="448.5" y="233.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="495" y="181" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="500" y="198" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="523.5" y="233.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="345" y="256" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="350" y="273" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="373.5" y="308.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="420" y="256" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="425" y="273" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="448.5" y="308.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="495" y="256" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="500" y="273" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="523.5" y="308.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">X</text>
+<rect x="345" y="331" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="350" y="348" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="373.5" y="383.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">O</text>
+<rect x="420" y="331" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="425" y="348" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="448.5" y="383.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="495" y="331" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="500" y="348" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="523.5" y="383.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">X</text>
+<text x="345" y="446" font-family="DejaVu Sans" font-size="19" fill="#17283f">set {abcdeh}</text>
+<text x="345" y="476" font-family="DejaVu Sans" font-size="19" fill="#17283f">route [3, 0]</text>
+<text x="345" y="506" font-family="DejaVu Sans" font-size="19" fill="#17283f">gates [32768, 0]</text>
+<text x="675" y="162" font-family="DejaVu Sans" font-size="22" fill="#17283f">Same exact routing metadata:</text>
+<text x="675" y="195" font-family="DejaVu Sans" font-size="22" fill="#17283f">[3, 0, 32768, 0]</text>
+<text x="675" y="228" font-family="DejaVu Sans" font-size="22" fill="#17283f"></text>
+<text x="675" y="261" font-family="DejaVu Sans" font-size="22" fill="#17283f">Same ply / side / geometry and legal mask.</text>
+<text x="675" y="294" font-family="DejaVu Sans" font-size="22" fill="#17283f">452: opponent fork + prevention</text>
+<text x="675" y="327" font-family="DejaVu Sans" font-size="22" fill="#17283f">413: one immediate opponent threat</text>
+<text x="675" y="360" font-family="DejaVu Sans" font-size="22" fill="#17283f"></text>
+<text x="675" y="393" font-family="DejaVu Sans" font-size="22" fill="#17283f">Distinct expert activity, merged values and logits.</text>
+<text x="675" y="426" font-family="DejaVu Sans" font-size="22" fill="#17283f">Expert0 executes at zero gate; inactive is null.</text>
+<text x="675" y="459" font-family="DejaVu Sans" font-size="22" fill="#17283f">No tactical-detector name follows from this.</text>
+<text x="30" y="566" font-family="DejaVu Sans" font-size="24" fill="#17283f">C  Canonical 299</text>
+<rect x="30" y="591" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="35" y="608" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="58.5" y="643.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="105" y="591" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="110" y="608" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="133.5" y="643.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="180" y="591" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="185" y="608" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="208.5" y="643.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="30" y="666" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="35" y="683" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="58.5" y="718.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="105" y="666" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="110" y="683" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="133.5" y="718.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="180" y="666" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="185" y="683" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="208.5" y="718.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">O</text>
+<rect x="30" y="741" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="35" y="758" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="58.5" y="793.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">X</text>
+<rect x="105" y="741" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="110" y="758" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="133.5" y="793.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="180" y="741" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="185" y="758" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="208.5" y="793.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">X</text>
+<text x="30" y="856" font-family="DejaVu Sans" font-size="19" fill="#17283f">set {abcdeh}</text>
+<text x="30" y="886" font-family="DejaVu Sans" font-size="19" fill="#17283f">route [3, 2]</text>
+<text x="30" y="916" font-family="DejaVu Sans" font-size="19" fill="#17283f">gates [31969, 799]</text>
+<text x="345" y="566" font-family="DejaVu Sans" font-size="24" fill="#17283f">D  Canonical 524</text>
+<rect x="345" y="591" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="350" y="608" font-family="DejaVu Sans" font-size="14" fill="#687785">a</text>
+<text x="373.5" y="643.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="420" y="591" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="425" y="608" font-family="DejaVu Sans" font-size="14" fill="#687785">b</text>
+<text x="448.5" y="643.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="495" y="591" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="500" y="608" font-family="DejaVu Sans" font-size="14" fill="#687785">c</text>
+<text x="523.5" y="643.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">X</text>
+<rect x="345" y="666" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="350" y="683" font-family="DejaVu Sans" font-size="14" fill="#687785">d</text>
+<text x="373.5" y="718.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">O</text>
+<rect x="420" y="666" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="425" y="683" font-family="DejaVu Sans" font-size="14" fill="#687785">e</text>
+<text x="448.5" y="718.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="495" y="666" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="500" y="683" font-family="DejaVu Sans" font-size="14" fill="#687785">f</text>
+<text x="523.5" y="718.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="345" y="741" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="350" y="758" font-family="DejaVu Sans" font-size="14" fill="#687785">g</text>
+<text x="373.5" y="793.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="420" y="741" width="75" height="75" fill="#d9ebfb" stroke="#248553" stroke-width="2"/>
+<text x="425" y="758" font-family="DejaVu Sans" font-size="14" fill="#687785">h</text>
+<text x="448.5" y="793.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">.</text>
+<rect x="495" y="741" width="75" height="75" fill="#ffffff" stroke="#bbc8d4" stroke-width="2"/>
+<text x="500" y="758" font-family="DejaVu Sans" font-size="14" fill="#687785">i</text>
+<text x="523.5" y="793.5" font-family="DejaVu Sans" font-size="30" fill="#17283f">X</text>
+<text x="345" y="856" font-family="DejaVu Sans" font-size="19" fill="#17283f">set {abefgh}</text>
+<text x="345" y="886" font-family="DejaVu Sans" font-size="19" fill="#17283f">route [3, 0]</text>
+<text x="345" y="916" font-family="DejaVu Sans" font-size="19" fill="#17283f">gates [32762, 6]</text>
+<text x="675" y="572" font-family="DejaVu Sans" font-size="22" fill="#17283f">Same unmasked sign vector:</text>
+<text x="675" y="605" font-family="DejaVu Sans" font-size="22" fill="#17283f">[+, +, +, +, +, +, +, +, +]</text>
+<text x="675" y="638" font-family="DejaVu Sans" font-size="22" fill="#17283f"></text>
+<text x="675" y="671" font-family="DejaVu Sans" font-size="22" fill="#17283f">Same ply / side / geometry counts.</text>
+<text x="675" y="704" font-family="DejaVu Sans" font-size="22" fill="#17283f">Occupied squares differ; external masks differ.</text>
+<text x="675" y="737" font-family="DejaVu Sans" font-size="22" fill="#17283f">299 legal set {abcdeh}; 524 {abefgh}.</text>
+<text x="675" y="770" font-family="DejaVu Sans" font-size="22" fill="#17283f"></text>
+<text x="675" y="803" font-family="DejaVu Sans" font-size="22" fill="#17283f">The full integer logits are NOT identical.</text>
+<text x="675" y="836" font-family="DejaVu Sans" font-size="22" fill="#17283f">No full-logit collision on all 627 boards.</text>
+<text x="675" y="869" font-family="DejaVu Sans" font-size="22" fill="#17283f">Sign equality is weaker than logit equality.</text>
+<text x="30" y="1020" font-family="DejaVu Sans" font-size="20" fill="#17283f">Geometry controls: own/opponent corner, edge, center counts. Tactical labels describe geometry;</text>
+<text x="30" y="1052" font-family="DejaVu Sans" font-size="20" fill="#17283f">an immediate threat need not have one uniquely saving block on an already lost board. Exact data: examples011.json.</text>
+</svg>

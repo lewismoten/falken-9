@@ -1,0 +1,31 @@
+{
+  "controls": [
+    "single canonical branch exactly baseline627",
+    "group permutation-order invariance",
+    "8\u219216 exact-duplication invariance (votes8/16)",
+    "intersection has zero false legal members",
+    "union misses zero optimal members",
+    "full-set D4 equivariance all4520raw\u00d78transforms; chosen moves freshly tied in actual raw coordinates",
+    "independent recomputation uses all8 direct-orientation measured logits for every4520raw board, not just canonical expansion"
+  ],
+  "definitions": "Aligned integer logits across all8 D4 group elements, equally weighted including stabilizers. mean: sum>=0 without rounded mean; intersection: min>=0; union: max>=0; votes: at least4/8 nonnegative. Apply original legal mask and raw-coordinate fixed priority ebdfhcgia.",
+  "examples": "First canonical ID with mean full-set error, else0; additionally first canonical ID with mean nonoptimal nonempty choice or null if none. No expansion.",
+  "independence": "Reuses study010 direct measured logits; all627/4520 boards previously trained/audited. No new neural calls/independent examples/target performance. All ensembling is off-contract offline extra computation, never shipped or called learned equivariance.",
+  "maximum_seconds": 1800,
+  "no_further_studies": true,
+  "novelty_sha256": "68f133694ef5324151ee6c2427fb27c41939d2b1fe86cd1ff69ae09a1c3d0068",
+  "policies": [
+    "mean-exact-sign",
+    "intersection",
+    "union",
+    "vote-at-least-half"
+  ],
+  "preservation_sha256": "b54220f21cb8eea09e5c40af2ffe89070d21c8576155aa8614da76902137c316",
+  "question": "Can an exactly D4-equivariant external group aggregation replace canonicalization with correct complete legal sets?",
+  "source010_handoff_sha256": "8400917873107acb5ed9dc1837a8ebd8cb2bfdff76096141b7b2a62c76c0be95",
+  "source_logits_path": "artifacts/interpretability/study-010-final/measurements010.npz",
+  "source_logits_sha256": "7d0e07c6e406925530a6b3feb1bf9422c536a9c168786c9bb5eaafef7679aad5",
+  "source_model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "started_utc": "2026-11-01T16:03:22.300371+00:00",
+  "study": "012"
+}

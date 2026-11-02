@@ -92,12 +92,12 @@ def test_native_title_info_roundtrip_and_frozen_residency(tmp_path):
     assert game.cpu.memory[0xd018] == 0x1c
     assert bytes(game.cpu.memory[0x3000:0x3800]) == Path(built['path']).parent.joinpath('charset.bin').read_bytes()
     title = game.planes()
-    assert game.text(22)[30:38] == 'FALCON-9'
+    assert game.text(22)[30:38] == 'FALKEN-9'
     assert game.text(23)[35:38] == '1.0'
     assert all(c == 6 for c in game.cpu.memory[0xd800+22*40+30:0xd800+22*40+38])
     game.key('I')
     assert game.get('view') == 1
-    assert 'FALCON-9' in game.text(4)
+    assert 'FALKEN-9' in game.text(4)
     game.key('Q')
     assert game.get('view') == 0
     assert game.planes() == title

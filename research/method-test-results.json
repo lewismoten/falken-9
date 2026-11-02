@@ -1,0 +1,138 @@
+{
+  "schema": "falken9-research-method-tests-v1",
+  "passed": true,
+  "inventory_sha256": "6c75935407870fa553825ba03a03ea53c5a9ad21aab6c33787bc85c61c175355",
+  "scope": "Allowlisted original model-free unit/method tests in disposable copies; not full historical reproduction, model inference, emulator/game or hardware acceptance.",
+  "interpreter": "3.11.16",
+  "original_and_curated_sources_unchanged": true,
+  "results": [
+    {
+      "group": "003",
+      "node_ids": [
+        "tests/test_strategy_study003.py::test_donor_alignment_reversed_batch_and_inactive_rejection"
+      ],
+      "returncode": 0,
+      "output": ".                                                                        [100%]\n1 passed in 1.02s\n",
+      "isolated_project_import": true
+    },
+    {
+      "group": "004",
+      "node_ids": [
+        "tests/test_strategy_study004.py::test_independent_signed_rounding",
+        "tests/test_strategy_study004.py::test_new_square_geometry_and_mask_separation"
+      ],
+      "returncode": 0,
+      "output": "..                                                                       [100%]\n2 passed in 0.03s\n",
+      "isolated_project_import": true
+    },
+    {
+      "group": "005",
+      "node_ids": [
+        "test_study005.py::test_apportion_zero_and_leftovers005",
+        "test_study005.py::test_edges_inactive_identity_query_key_and_mass005"
+      ],
+      "returncode": 0,
+      "output": "..                                                                       [100%]\n2 passed in 1.04s\n",
+      "isolated_project_import": true
+    },
+    {
+      "group": "006",
+      "node_ids": [
+        "test_research678.py"
+      ],
+      "returncode": 0,
+      "output": "...                                                                      [100%]\n3 passed in 0.99s\n",
+      "isolated_project_import": true
+    },
+    {
+      "group": "007",
+      "node_ids": [
+        "test_research678.py"
+      ],
+      "returncode": 0,
+      "output": "...                                                                      [100%]\n3 passed in 0.99s\n",
+      "isolated_project_import": true
+    },
+    {
+      "group": "008",
+      "node_ids": [
+        "test_research678.py",
+        "test_research678_descriptor.py"
+      ],
+      "returncode": 0,
+      "output": "....                                                                     [100%]\n4 passed in 1.04s\n",
+      "isolated_project_import": true
+    },
+    {
+      "group": "009",
+      "node_ids": [
+        "test_study009.py::test_signed8_exact_row_scaling"
+      ],
+      "returncode": 0,
+      "output": ".                                                                        [100%]\n1 passed in 1.01s\n",
+      "isolated_project_import": true
+    },
+    {
+      "group": "010-011",
+      "node_ids": [
+        "test_study1011.py::Test1011::test_alignment_and_inverse",
+        "test_study1011.py::Test1011::test_census_equality_and_inactive_nulls"
+      ],
+      "returncode": 0,
+      "output": "..                                                                       [100%]\n2 passed in 0.05s\n",
+      "isolated_project_import": true
+    },
+    {
+      "group": "012",
+      "node_ids": [
+        "test_study012.py::Test012::test_exact_mean_sign_and_fixed_aggregators"
+      ],
+      "returncode": 0,
+      "output": ".                                                                        [100%]\n1 passed in 1.03s\n",
+      "isolated_project_import": true
+    },
+    {
+      "group": "013",
+      "node_ids": [
+        "test_study013.py::ExactArithmetic::test_rounding_threshold_exact_including_zero_and_halves",
+        "test_study013.py::ExactArithmetic::test_integer_constraint_interval_matches_exhaustive_signed_codes",
+        "test_study013.py::ExactArithmetic::test_coordinate_certificate_matches_full_code_census",
+        "test_study013.py::ExactArithmetic::test_source_code_bounds_are_enforced"
+      ],
+      "returncode": 0,
+      "output": "....                                                                     [100%]\n4 passed in 0.99s\n",
+      "isolated_project_import": true
+    },
+    {
+      "group": "014",
+      "node_ids": [
+        "test_study014.py::CoreTests::test_exact_extrema_include_negative_activation_and_half_ties",
+        "test_study014.py::CoreTests::test_bands_match_all_small_joint_codes",
+        "test_study014.py::CoreTests::test_shrink_rounds_negative_deltas_toward_zero_and_is_nested"
+      ],
+      "returncode": 0,
+      "output": "...                                                                      [100%]\n3 passed in 0.06s\n",
+      "isolated_project_import": true
+    },
+    {
+      "group": "015",
+      "node_ids": [
+        "test_study015.py::Contract"
+      ],
+      "returncode": 0,
+      "output": ".                                                                        [100%]\n1 passed in 0.01s\n",
+      "isolated_project_import": true
+    },
+    {
+      "group": "016",
+      "node_ids": [
+        "test_study016.py::PolicyTests",
+        "test_study016.py::DagTests",
+        "test_study016.py::AuditTests"
+      ],
+      "returncode": 0,
+      "output": "....                                                                     [100%]\n4 passed in 0.10s\n",
+      "isolated_project_import": true
+    }
+  ]
+}

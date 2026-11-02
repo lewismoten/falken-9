@@ -62,7 +62,14 @@ def capture(built,output,root,ntsc=False):
         assert v.history()=='ec' and v.acks==1 and v.value('audio_enabled')==1
         idle(25);snapshot('model-O-sfx-released')
         assert v.memory(0xd412)[0]&1==0
-        v.key('Q');v.key('Q');assert v.value('audio_enabled')==0
+        v.key('Q')
+        # A second queue byte inserted before the title release guard runs is
+        # intentionally stale-cancel input, not a physically fresh Q press.
+        # Give the real released matrix/raster and foreground guard an epoch;
+        # the following injected byte tests shutdown, not hardware identity.
+        idle(2)
+        assert v.value('quit_down')==0 and v.value('quit_blocked')==0
+        v.key('Q');assert v.value('audio_enabled')==0
         assert all(v.memory(a)[0]==0 for a in (0xd404,0xd40b,0xd412,0xd418))
     finally:v.close()
     path=out/'sid.wav'

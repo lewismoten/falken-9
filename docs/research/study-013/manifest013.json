@@ -1,0 +1,161 @@
+{
+  "arithmetic_bound": "signed32 merged * signed16 weights summed8 gives absolute dot <=2^49; thresholds and isolated affine terms <2^51, hence symbolic bound2^100 strictly beyond every finite integer boundary",
+  "budget": "one bounded study; no panel widening, training, GPU, services, target/app writes, publication or subsequent study; at most72 endpoint/neighbor and72 restoration full batches plus baseline; approx60minutes",
+  "certification": "exact integer half-line intersections then code-domain intersection; independent full65536-code census per coordinate",
+  "confirmation": "BOTH interval endpoints and nearest failing code on BOTH sides if representable, full627-board integer forwards, independent scalar all9 scores, unchanged upstream21-stage evidence except logits; full original-code restoration forwards and4520 raw full-set/tie validation; censored out-of-domain neighbors not executed",
+  "coordinates": [
+    {
+      "id": "bias-0",
+      "kind": "bias",
+      "row": 0
+    },
+    {
+      "id": "bias-1",
+      "kind": "bias",
+      "row": 1
+    },
+    {
+      "id": "bias-2",
+      "kind": "bias",
+      "row": 2
+    },
+    {
+      "id": "bias-3",
+      "kind": "bias",
+      "row": 3
+    },
+    {
+      "id": "bias-4",
+      "kind": "bias",
+      "row": 4
+    },
+    {
+      "id": "bias-5",
+      "kind": "bias",
+      "row": 5
+    },
+    {
+      "id": "bias-6",
+      "kind": "bias",
+      "row": 6
+    },
+    {
+      "id": "bias-7",
+      "kind": "bias",
+      "row": 7
+    },
+    {
+      "id": "bias-8",
+      "kind": "bias",
+      "row": 8
+    },
+    {
+      "column": 0,
+      "id": "weight-0-0",
+      "kind": "weight",
+      "row": 0
+    },
+    {
+      "column": 0,
+      "id": "weight-1-0",
+      "kind": "weight",
+      "row": 1
+    },
+    {
+      "column": 0,
+      "id": "weight-2-0",
+      "kind": "weight",
+      "row": 2
+    },
+    {
+      "column": 0,
+      "id": "weight-3-0",
+      "kind": "weight",
+      "row": 3
+    },
+    {
+      "column": 0,
+      "id": "weight-4-0",
+      "kind": "weight",
+      "row": 4
+    },
+    {
+      "column": 0,
+      "id": "weight-5-0",
+      "kind": "weight",
+      "row": 5
+    },
+    {
+      "column": 0,
+      "id": "weight-6-0",
+      "kind": "weight",
+      "row": 6
+    },
+    {
+      "column": 0,
+      "id": "weight-7-0",
+      "kind": "weight",
+      "row": 7
+    },
+    {
+      "column": 0,
+      "id": "weight-8-0",
+      "kind": "weight",
+      "row": 8
+    }
+  ],
+  "figures": "two annotated PNG/SVG pairs: all18 intervals and first declared bias/weight lower-bound limiting board, lowest crossing canonical ID; first safe endpoint occupied crossing and first canonical-good/raw-bad record retained if present",
+  "frozen_utc": "2026-11-01T16:36:48.415326+00:00",
+  "input_sha256": {
+    "artifacts/flexible-integer/q11-w16-a32-early-interp/model.f9j": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+    "artifacts/interpretability/study-008-final/REPORT008.md": "1aac3fb532f1b53ede3f5148d0b069403c80b853b7dcbbb3622c744889fac34d",
+    "artifacts/interpretability/study-009-final/REPORT009.md": "663c99da26f6e5f398f3b0771087d190b1f336ed1b6d7db0fa4296d719353291",
+    "artifacts/interpretability/study-010-final/REPORT010.md": "40d49d23b39b4b0b32277a0aadd0586de48b3fba371eb17afdfc37fba853c854",
+    "artifacts/interpretability/study-010-final/baseline-gate010.json": "446d0dc45de156dd87a7a11bb177f700d37459e155059cfb6de261ccbc54979f",
+    "artifacts/interpretability/study-010-final/baseline010.npz": "ec81bed1e5bcb42b1cc78688e48106b457ae3ddd6302946b577d39ed00c1c317",
+    "artifacts/interpretability/study-010-final/measurements010.npz": "7d0e07c6e406925530a6b3feb1bf9422c536a9c168786c9bb5eaafef7679aad5",
+    "artifacts/interpretability/study-011-final/REPORT011.md": "fb90e418e379a99b6d96f426082a3dd0307a4e324804803c9facc6d9ddeeb92c",
+    "artifacts/interpretability/study-012-final/REPORT012.md": "915894541d6ef5e95f43d92aac8567e34a06f9ea698e866df8afe7e1702e9f4e",
+    "falken9/__init__.py": "fe6ebfcc80d5500f5490fd5e33074567864fbb1e5e533bdac65c6f663f1f763e",
+    "falken9/arithmetic.py": "3c301f1fb8534e31a5a46b39daef8cf8b23afcf9c1fbc0f1626a0581d534d225",
+    "falken9/canonical_integer.py": "a40f5dd5d9863155fb2857a11c233fe1c011cfdfa667b893fe0c37c6a4c2aba4",
+    "falken9/canonical_integer_export.py": "1eed279fedb1084c7c68145c499fba1041ae520297f1839d4adb67ae63d6778f",
+    "falken9/canonical_model.py": "4a6520d31c2da31341ccb529ff43a900b6923528005ba681dda83aaa63fd5b04",
+    "falken9/canonical_training.py": "9b817a63a67d7d7b0da82f9871b7bc9f60d512b826534dc7f464fff93fa0ce99",
+    "falken9/dataset.py": "718516a132f67a35d31b22c4594b6e09aac2e53f424bc662f51f8b9c19c39edd",
+    "falken9/export.py": "1d3bfbb468d55d04aeac44ae6814547dd13b38ebebfdc2952efdb276273556d5",
+    "falken9/flexible_export.py": "fe71bb5c1eef34d742f69a1d2822be35c17ff0d3023d67016bc57e8fd7a8411c",
+    "falken9/flexible_integer.py": "fe221af88b88a99016afc1afbcb4ca492bcfc367e66390182f6c71d6cc326aec",
+    "falken9/flexible_integer_export.py": "d6537d730e56ca44860a9fd6bfb6b94946d6ecb8f31f29d6fc971ce4886e6d10",
+    "falken9/flexible_model.py": "63b48574e7cea161a8b202793712f6a39fd7c595fc15f6c7cbbd18b1062ad804",
+    "falken9/flexible_training.py": "624990235d6b0fb9e3082adb1f8492b60ef5a892e8f02551f8fd9824cceebcd8",
+    "falken9/integer_export.py": "b9b04d5c4d16622619df82dc4dedf307b933d0ba5786f9f9b70358201dfc4618",
+    "falken9/integer_model.py": "f6aff54d55ea0665f8969c7737cf26c17787d09019000d4a363a87c67aa01cd2",
+    "falken9/local_fusion.py": "b51f64386f62067e4c9df783c062ae484d898cc927c9e4f7036bd1f8817f8cca",
+    "falken9/model.py": "8a69ca9d8464add34cbe326ad3c193e7ef637853de9a9c46a823430597b21684",
+    "falken9/packing.py": "26c0702278fcff9bcd3267774f186d9cb128b3c31da01f2fc9f819e82596e0ee",
+    "falken9/policy.py": "ee9792dc56f72323f9e161d1dfac62c2b4a11aeac82bb22f94033e39d1d69df7",
+    "falken9/range_integer_model.py": "95356c6cdf5744ac22e8068390454169d94fd37da4029e101d8c9803ac58a738",
+    "falken9/strategy_diagnostics.py": "8c0f2ffda2ef73c6a65409a9774fd67b14239221ea8ed85a26499c87974d9e16",
+    "falken9/strategy_patching.py": "6856b52cc9ef7ddc593b076b6422a73bde3a5f9f1dbf24e35ee38768c19e2558",
+    "falken9/strategy_square004.py": "214987ef805717e79e42749aa4857a9061c4e505de8fe23c10674b9ce317a24d",
+    "falken9/symmetry.py": "64cf0b88bc0d7f1fa07b6f9fe6d2a9ab0f1761a4eb356449a1eb75a100f4b8db",
+    "falken9/training.py": "f4b7c8fa4628d2a58d6ab85f5b8776392f27c11a14f3558f65b864585bdd89cf"
+  },
+  "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "question": "Exact maximal one-coordinate stored-integer code intervals preserving every legally masked membership sign on all627 canonical boards",
+  "scope": "All boards already trained/audited; host finite-domain one-coordinate certificates only, no multi-parameter/universal/generalization/probability/target timing claims",
+  "selection": "All nine biases plus descriptor-first input coordinate0 in each actual output row; no outcomes inspected or search",
+  "source_codebook": "signed16 full decoder domain [-32768,32767], descriptors/exponents fixed; biases added after scaled head dot rounding",
+  "source_sha256": {
+    "copied-inputs.json": "e3e973b1a00d08930d67d0663044dd64e6bb2421cc020a1287eebcff7bfa7306",
+    "preservation-main-protected.json": "8bff83ff3769e947444511bf5c4bc06715cffa46159ac4630e39917b14241882",
+    "preservation-prior.json": "e444337cab6f4a5c9b1807a6c671cf8405d605f54ce78a0bf445291471a173d9",
+    "study013_core.py": "dd72ae1e2ac8f7fb5a8557cd58268a225740734ff0bfa3d236910c799fa23e48",
+    "study013_render.py": "f18a6a9fa9d70140351c4653f850308c01a88a7d913cedebaff410b22bd1451b",
+    "study013_run.py": "198c3f96db5beff9f83cec3e5f96d959e3922be9c22873bc3b3499492b82c444",
+    "study013_verify.py": "c6b2e85d48c66d31982c3ea9f4c1b01f53c4874fcda3ac4403655a94e11274e3",
+    "test_study013.py": "90b44b2d990fd282445f80a620fcbb976e13224849d1a66da74efddc5c435418"
+  },
+  "study": "013"
+}

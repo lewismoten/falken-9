@@ -1,0 +1,40 @@
+{
+  "study": "005",
+  "status": "FROZEN before any new study005 evaluation; baseline exact reproduction already passed",
+  "baseline_gate_sha256": "2643af649e39f104cd94d301dcd0c9c6c74bb85dcf50da3dd3314aeda7bef2ca",
+  "source_sha256": {
+    "study005_core.py": "b2898893cdaf15da7e807c74e8a332cad676a3de84b6bdd693b4136935596a8e",
+    "study005_run.py": "2de9b5d206235980afbfeec6616d66a113ba65a9a348c012cca2c543aaa3c72f",
+    "test_study005.py": "c9bc8015118c6527d4c25c73bcfbd34d90212dc4e956cb1ad1a47ec1ebc75ea4"
+  },
+  "intervention_count": 19,
+  "interventions": [
+    "noop",
+    "uniform",
+    "identity-attention",
+    "position-mean",
+    "half-position-mean",
+    "horizontal-target-1of2",
+    "horizontal-target-2of2",
+    "horizontal-control-1of2",
+    "horizontal-control-2of2",
+    "diagonals-target-1of2",
+    "diagonals-target-2of2",
+    "diagonals-control-1of2",
+    "diagonals-control-2of2",
+    "training-line-target-1of2",
+    "training-line-target-2of2",
+    "training-line-control-1of2",
+    "training-line-control-2of2",
+    "value-position-mean",
+    "projection-position-mean"
+  ],
+  "selection_rule": "Rank exactly8 fixed winning lines by absolute training-only mean candidate-row line probability mass positive-minus-legal-relocation-negative contrast for win/threat; select1, largest magnitude then lowest line ID. No lesion outcomes used.",
+  "matching": "One lexicographic legal single-mark relocation per positive candidate; same ply, own/opponent corner/edge/center counts, candidate raw square remains empty, same canonical fold; donor may canonicalize differently; align both P axes and V/projected rows. No route match, route/gate changes separate.",
+  "controls": "Disjoint same-cardinality per-query mask chosen lowest available nonself key indices. Paired target/control moved mass min(target,control) times half/full integer dose, apportion proportional removal and complement redistribution; floor largest remainder lowest-key ties. Inactive/zero-budget rows unchanged. Static control may lie on other winning lines.",
+  "descriptive": "Entropy/sparsity/effective keys; board vs training position mean variation; within-stratum ply/query/key/own-opponent-occupancy probability variance and local QKV invariance.",
+  "probes": "Geometric candidate win/threat/fork; legal empty only; controls ply+square onehots own/opponent corner/edge/center counts; ridge10 threshold0.5 controls vs controls+P row/column vs controls+candidate projected/global mean. Train372 validation121 test134 seed1729; no model-heldout claim.",
+  "outcomes": "Complete-set change, selected move error/empty/tie, true set classification margin, route-order/membership and gate changes, route-changed and route-unchanged separately, raw4520/canonical627 plus folds and matched positive-negative square flips.",
+  "limits": "19 finite CPU interventions only. No training/search expansion/weights/game/main checkout/emulator/GPU/install/remote writes. OOD probability/value/projection overrides; no query-output identity or strategic-circuit claim. Bright actual attention alone is not causality. Fork candidate label differs from prior gated board label.",
+  "environment": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/ai/falken9-strategy-study-003; /home/ai/falken-9/.venv/bin/python dependency environment only"
+}

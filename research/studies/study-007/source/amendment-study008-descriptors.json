@@ -1,0 +1,23 @@
+{
+  "study": "008",
+  "status": "FROZEN PRECONFIRMATION DESCRIPTOR CORRECTION",
+  "prior_manifest_sha256": "396926c4fa79afcff44b4b3645ba77441630c4239a670c8e82ff73503b579a8f",
+  "before_any_study008_parameter_intervention": true,
+  "reason": "Packet descriptor inventory shows model width8 and expert hidden width4, not16 norm2 coordinates. Independent audit exposed an unrelated hardcoded16 vector extent before its baseline-head gate. Original experiment source and all manifests are preserved unchanged.",
+  "actual_descriptor_shapes": {
+    "norm2.weight": [8], "norm2.bias": [8], "output.bias": [9], "router.bias": [4], "output.weight": [9,8], "expert_w1": [4,8,4], "expert_w2": [4,4,8]
+  },
+  "panel": "all9 output.bias +all4 router.bias +all8 norm2.weight +all8 norm2.bias +one output.weight per row at training-only maximum mean-absolute merged unit (low-unit tie)",
+  "coordinates": 38,
+  "attempted_interventions": 76,
+  "no_outcome_based_change": true,
+  "runner": "research678_stage008.py 008 --out <fresh-directory>",
+  "source_sha256": {
+    "research678_stage008.py": "bd86246e5bdde9cf9d5d9f19cd400d63e52197706898273d66ecad363563dbb6",
+    "test_research678_descriptor.py": "c981d83ccbdf506b6ff470dfa502dddbad8efba099d4f854207af6022273ca36"
+  },
+  "audit_correction_sha256": "7979208de5e89dd6d6fda73ff18134e7d8e8075b566a01855e56c73420628958",
+  "tests": "test_research678_descriptor.py: observed missing-panel RED then4 total tests GREEN; coordinates validated against all axes before confirmation",
+  "no_original_packet_write": true,
+  "no_posthoc_boundary_replacement": true
+}

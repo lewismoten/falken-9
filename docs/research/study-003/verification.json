@@ -1,0 +1,63 @@
+{
+  "byte_identical_files": 23,
+  "compared_directories": [
+    "/home/ai/falken9-strategy-study-003/artifacts/interpretability/study-003-final",
+    "/home/ai/falken9-strategy-study-003/artifacts/interpretability/study-003-reproduced"
+  ],
+  "sha256": {
+    "REPORT.md": "2efe55ee02126ace8d231e62ddcc5274cf6ffabf5fdc33650b4f1164b8afd289",
+    "baseline-gate.json": "bb7938e9004a3746bd0ef2eccb4d4b04b36cc2d6ca2a00b6b80009ebbc04f7f1",
+    "cases.json": "a141352ad96fce45280e6e8ad633d6355d2e8e578a7eddaaa36a51912216fec2",
+    "counterexamples.json": "d3372b938901325591d2e8bb199e52a5b023726981c0a094e15850f2271cc992",
+    "donor-pairs.json": "c7ca5f10873959ce1d2a3e2b9f0c20680240f024c429c3e32bb255620644bf60",
+    "effect-table.csv": "56fbe52e3f21a4449a469e32afadf27025bc699c28c3d3cc4fc6bb3ba181bf69",
+    "experiment-manifest.json": "23fe882d8ab15f0e51c172ea82e23237cdfe6a8f27059f667187e0770bf01b77",
+    "experiment-vectors.json": "ae38e2f86e393dfc38f9a18175a9538b61b114c9616965308637833f3b711eb4",
+    "figure-metadata.json": "f35f8c853ab0e75b73db7b84fce6982a9789de79e4e69f3e7d101d51d5aeecc3",
+    "hashes.json": "998ca704a10a9e7cf372657e5288bd57183ff3628476bd43b3947347e22c5979",
+    "identity-controls.json": "38dd6d405439f9994a85e8886662b5a9abfc4834fc7c9ef8d023a65a31176109",
+    "necessity-context.png": "dfa9168f228df87a55c6c8063eea6370bb09f0f68e568fe6ef2029146c078be3",
+    "necessity-context.svg": "66d29a3ca51ca2e9fa94ed951483e0cfbfc3f94ff2353b299aaf730306bb8ac9",
+    "pair-interactions.json": "fa3a7621d2c518d3db7488b0f026592917f4dcd811c685e095370fa8b868455a",
+    "patch-and-restoration.png": "108087da790f5607ead8fd11675d2a763e9c4973285ed7f523094734cc1e3e16",
+    "patch-and-restoration.svg": "66d7f054423853b352914a1c95a9c8f2bce07ea3eb560364390c7e4fc18253a7",
+    "path-restoration.json": "610abe8e01208a573baecd0f1b5b8595118cad520ea2e15caadf24a8daacefe8",
+    "provenance.json": "a333a8e71bf15626f051a1afcae0bc53f424c8bb6ffefe14d56b3a7ab0e870cc",
+    "raw-alignment.json": "fbebb2696290229044b8d8c45832953fcfdc32d0c3b909981284597a0d19b269",
+    "render-provenance.json": "dc02036f2c0ebd030823ab753e562f03b8c5365a67c5f94fd972c67b223aa369",
+    "results.json": "ee577ad06e280baf9cf6b25c5bb8417a8c718c44c0c87e1348890d18604324d1",
+    "summary.json": "fc9929afc45fc9f3fac016a17cbd4ac63aeab328ddd9ac5af03657befa228946",
+    "training-selection.json": "5a3c999760dc042d08718898db1db91facf3531298b12e1d7ce4c5efbfd84012"
+  },
+  "evidence_hashes_unchanged": 69,
+  "total_artifact_bytes": 18008047,
+  "focused_tests": {
+    "passed": 8,
+    "failed": 0,
+    "log": "/home/ai/falken9-strategy-study-003/artifacts/study003-final-tests.log",
+    "scope": "new patch tests, independent artifact recounts, all prior strategy diagnostic tests"
+  },
+  "legacy_tests": {
+    "passed": 1,
+    "failed_missing_uncopied_artifacts": 5,
+    "log": "/home/ai/falken9-strategy-study-003/artifacts/study003-legacy-tests.log",
+    "missing": [
+      "artifacts/flexible/refine-scratch/w8-h4-e4-k2-float-s23/packed/model.f9f",
+      "artifacts/training/float-search/w8-h8-float/best.pt"
+    ]
+  },
+  "visual_review": {
+    "native_pngs_inspected": 2,
+    "revision": "wrapped final panel title and replaced trivial zero-activation survivor with nonzero case259",
+    "legible_no_cropping": true
+  },
+  "new_source_files": [
+    "experiment-study003.json",
+    "falken9/strategy_patching.py",
+    "scripts/model_strategy_study003.py",
+    "scripts/render_strategy_study003.py",
+    "tests/test_strategy_study003.py",
+    "tests/test_strategy_study003_artifacts.py"
+  ],
+  "scope": "Isolated root only; source model and prior69 evidence files unchanged; no training/release/package/main checkout modifications"
+}

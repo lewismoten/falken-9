@@ -1,0 +1,2131 @@
+{
+  "fixed_seed_host_emulation": {
+    "cycle_counts": {
+      "0": 31,
+      "1": 31,
+      "2": 31,
+      "3": 16,
+      "4": 17,
+      "5": 29,
+      "6": 41,
+      "7": 31,
+      "8": 21
+    },
+    "cycle_length": 248,
+    "records": [
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 4,
+        "prng_after": 235,
+        "prng_before": 167
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 205,
+        "prng_before": 235
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 222,
+        "prng_before": 205
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 111,
+        "prng_before": 222
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 7,
+        "prng_after": 143,
+        "prng_before": 111
+      },
+      {
+        "attempts": 2,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 199,
+        "prng_before": 143
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 7,
+        "prng_after": 219,
+        "prng_before": 199
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 213,
+        "prng_before": 219
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 210,
+        "prng_before": 213
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 105,
+        "prng_before": 210
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 140,
+        "prng_before": 105
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 4,
+        "prng_after": 70,
+        "prng_before": 140
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 35,
+        "prng_before": 70
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 169,
+        "prng_before": 35
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 236,
+        "prng_before": 169
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 4,
+        "prng_after": 118,
+        "prng_before": 236
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 59,
+        "prng_before": 118
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 165,
+        "prng_before": 59
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 234,
+        "prng_before": 165
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 117,
+        "prng_before": 234
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 130,
+        "prng_before": 117
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 65,
+        "prng_before": 130
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 152,
+        "prng_before": 65
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 8,
+        "prng_after": 76,
+        "prng_before": 152
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 3,
+        "prng_after": 38,
+        "prng_before": 76
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 19,
+        "prng_before": 38
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 177,
+        "prng_before": 19
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 224,
+        "prng_before": 177
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 8,
+        "prng_after": 112,
+        "prng_before": 224
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 7,
+        "prng_after": 56,
+        "prng_before": 112
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 8,
+        "prng_after": 28,
+        "prng_before": 56
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 3,
+        "prng_after": 14,
+        "prng_before": 28
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 7,
+        "prng_before": 14
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 7,
+        "prng_after": 187,
+        "prng_before": 7
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 229,
+        "prng_before": 187
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 202,
+        "prng_before": 229
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 101,
+        "prng_before": 202
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 138,
+        "prng_before": 101
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 69,
+        "prng_before": 138
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 154,
+        "prng_before": 69
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 77,
+        "prng_before": 154
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 158,
+        "prng_before": 77
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 79,
+        "prng_before": 158
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 7,
+        "prng_after": 159,
+        "prng_before": 79
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 247,
+        "prng_before": 159
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 7,
+        "prng_after": 195,
+        "prng_before": 247
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 217,
+        "prng_before": 195
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 212,
+        "prng_before": 217
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 4,
+        "prng_after": 106,
+        "prng_before": 212
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 53,
+        "prng_before": 106
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 162,
+        "prng_before": 53
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 81,
+        "prng_before": 162
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 144,
+        "prng_before": 81
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 8,
+        "prng_after": 72,
+        "prng_before": 144
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 7,
+        "prng_after": 36,
+        "prng_before": 72
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 3,
+        "prng_after": 18,
+        "prng_before": 36
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 9,
+        "prng_before": 18
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 188,
+        "prng_before": 9
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 4,
+        "prng_after": 94,
+        "prng_before": 188
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 47,
+        "prng_before": 94
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 7,
+        "prng_after": 175,
+        "prng_before": 47
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 239,
+        "prng_before": 175
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 7,
+        "prng_after": 207,
+        "prng_before": 239
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 223,
+        "prng_before": 207
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 7,
+        "prng_after": 215,
+        "prng_before": 223
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 211,
+        "prng_before": 215
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 209,
+        "prng_before": 211
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 208,
+        "prng_before": 209
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 8,
+        "prng_after": 104,
+        "prng_before": 208
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 7,
+        "prng_after": 52,
+        "prng_before": 104
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 3,
+        "prng_after": 26,
+        "prng_before": 52
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 13,
+        "prng_before": 26
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 190,
+        "prng_before": 13
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 95,
+        "prng_before": 190
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 7,
+        "prng_after": 151,
+        "prng_before": 95
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 243,
+        "prng_before": 151
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 193,
+        "prng_before": 243
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 216,
+        "prng_before": 193
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 8,
+        "prng_after": 108,
+        "prng_before": 216
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 3,
+        "prng_after": 54,
+        "prng_before": 108
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 27,
+        "prng_before": 54
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 181,
+        "prng_before": 27
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 226,
+        "prng_before": 181
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 113,
+        "prng_before": 226
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 128,
+        "prng_before": 113
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 8,
+        "prng_after": 64,
+        "prng_before": 128
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 7,
+        "prng_after": 32,
+        "prng_before": 64
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 8,
+        "prng_after": 16,
+        "prng_before": 32
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 7,
+        "prng_after": 8,
+        "prng_before": 16
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 8,
+        "prng_after": 4,
+        "prng_before": 8
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 3,
+        "prng_after": 2,
+        "prng_before": 4
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 1,
+        "prng_before": 2
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 184,
+        "prng_before": 1
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 8,
+        "prng_after": 92,
+        "prng_before": 184
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 3,
+        "prng_after": 46,
+        "prng_before": 92
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 23,
+        "prng_before": 46
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 7,
+        "prng_after": 179,
+        "prng_before": 23
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 225,
+        "prng_before": 179
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 200,
+        "prng_before": 225
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 8,
+        "prng_after": 100,
+        "prng_before": 200
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 3,
+        "prng_after": 50,
+        "prng_before": 100
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 25,
+        "prng_before": 50
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 180,
+        "prng_before": 25
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 4,
+        "prng_after": 90,
+        "prng_before": 180
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 45,
+        "prng_before": 90
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 174,
+        "prng_before": 45
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 87,
+        "prng_before": 174
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 7,
+        "prng_after": 147,
+        "prng_before": 87
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 241,
+        "prng_before": 147
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 192,
+        "prng_before": 241
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 8,
+        "prng_after": 96,
+        "prng_before": 192
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 7,
+        "prng_after": 48,
+        "prng_before": 96
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 8,
+        "prng_after": 24,
+        "prng_before": 48
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 7,
+        "prng_after": 12,
+        "prng_before": 24
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 3,
+        "prng_after": 6,
+        "prng_before": 12
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 3,
+        "prng_before": 6
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 185,
+        "prng_before": 3
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 228,
+        "prng_before": 185
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 4,
+        "prng_after": 114,
+        "prng_before": 228
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 57,
+        "prng_before": 114
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 164,
+        "prng_before": 57
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 4,
+        "prng_after": 82,
+        "prng_before": 164
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 41,
+        "prng_before": 82
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 172,
+        "prng_before": 41
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 4,
+        "prng_after": 86,
+        "prng_before": 172
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 43,
+        "prng_before": 86
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 173,
+        "prng_before": 43
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 238,
+        "prng_before": 173
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 119,
+        "prng_before": 238
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 7,
+        "prng_after": 131,
+        "prng_before": 119
+      },
+      {
+        "attempts": 2,
+        "opening": 4,
+        "previous": 2,
+        "prng_after": 196,
+        "prng_before": 131
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 4,
+        "prng_after": 98,
+        "prng_before": 196
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 49,
+        "prng_before": 98
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 160,
+        "prng_before": 49
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 8,
+        "prng_after": 80,
+        "prng_before": 160
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 7,
+        "prng_after": 40,
+        "prng_before": 80
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 8,
+        "prng_after": 20,
+        "prng_before": 40
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 3,
+        "prng_after": 10,
+        "prng_before": 20
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 5,
+        "prng_before": 10
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 186,
+        "prng_before": 5
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 93,
+        "prng_before": 186
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 150,
+        "prng_before": 93
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 75,
+        "prng_before": 150
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 157,
+        "prng_before": 75
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 246,
+        "prng_before": 157
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 123,
+        "prng_before": 246
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 133,
+        "prng_before": 123
+      },
+      {
+        "attempts": 2,
+        "opening": 4,
+        "previous": 5,
+        "prng_after": 125,
+        "prng_before": 133
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 4,
+        "prng_after": 134,
+        "prng_before": 125
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 67,
+        "prng_before": 134
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 153,
+        "prng_before": 67
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 244,
+        "prng_before": 153
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 4,
+        "prng_after": 122,
+        "prng_before": 244
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 61,
+        "prng_before": 122
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 166,
+        "prng_before": 61
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 83,
+        "prng_before": 166
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 145,
+        "prng_before": 83
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 240,
+        "prng_before": 145
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 8,
+        "prng_after": 120,
+        "prng_before": 240
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 7,
+        "prng_after": 60,
+        "prng_before": 120
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 3,
+        "prng_after": 30,
+        "prng_before": 60
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 15,
+        "prng_before": 30
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 7,
+        "prng_after": 191,
+        "prng_before": 15
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 231,
+        "prng_before": 191
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 7,
+        "prng_after": 203,
+        "prng_before": 231
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 221,
+        "prng_before": 203
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 214,
+        "prng_before": 221
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 107,
+        "prng_before": 214
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 141,
+        "prng_before": 107
+      },
+      {
+        "attempts": 2,
+        "opening": 7,
+        "previous": 5,
+        "prng_after": 127,
+        "prng_before": 141
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 7,
+        "prng_after": 135,
+        "prng_before": 127
+      },
+      {
+        "attempts": 2,
+        "opening": 4,
+        "previous": 6,
+        "prng_after": 197,
+        "prng_before": 135
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 4,
+        "prng_after": 218,
+        "prng_before": 197
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 109,
+        "prng_before": 218
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 142,
+        "prng_before": 109
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 71,
+        "prng_before": 142
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 7,
+        "prng_after": 155,
+        "prng_before": 71
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 245,
+        "prng_before": 155
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 194,
+        "prng_before": 245
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 97,
+        "prng_before": 194
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 136,
+        "prng_before": 97
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 8,
+        "prng_after": 68,
+        "prng_before": 136
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 3,
+        "prng_after": 34,
+        "prng_before": 68
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 17,
+        "prng_before": 34
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 176,
+        "prng_before": 17
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 8,
+        "prng_after": 88,
+        "prng_before": 176
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 7,
+        "prng_after": 44,
+        "prng_before": 88
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 3,
+        "prng_after": 22,
+        "prng_before": 44
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 11,
+        "prng_before": 22
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 189,
+        "prng_before": 11
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 230,
+        "prng_before": 189
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 115,
+        "prng_before": 230
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 129,
+        "prng_before": 115
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 248,
+        "prng_before": 129
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 8,
+        "prng_after": 124,
+        "prng_before": 248
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 3,
+        "prng_after": 62,
+        "prng_before": 124
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 31,
+        "prng_before": 62
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 7,
+        "prng_after": 183,
+        "prng_before": 31
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 227,
+        "prng_before": 183
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 201,
+        "prng_before": 227
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 220,
+        "prng_before": 201
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 4,
+        "prng_after": 110,
+        "prng_before": 220
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 55,
+        "prng_before": 110
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 7,
+        "prng_after": 163,
+        "prng_before": 55
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 233,
+        "prng_before": 163
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 204,
+        "prng_before": 233
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 4,
+        "prng_after": 102,
+        "prng_before": 204
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 51,
+        "prng_before": 102
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 161,
+        "prng_before": 51
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 232,
+        "prng_before": 161
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 8,
+        "prng_after": 116,
+        "prng_before": 232
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 3,
+        "prng_after": 58,
+        "prng_before": 116
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 29,
+        "prng_before": 58
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 182,
+        "prng_before": 29
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 91,
+        "prng_before": 182
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 149,
+        "prng_before": 91
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 242,
+        "prng_before": 149
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 121,
+        "prng_before": 242
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 132,
+        "prng_before": 121
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 4,
+        "prng_after": 66,
+        "prng_before": 132
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 33,
+        "prng_before": 66
+      },
+      {
+        "attempts": 1,
+        "opening": 8,
+        "previous": 0,
+        "prng_after": 168,
+        "prng_before": 33
+      },
+      {
+        "attempts": 1,
+        "opening": 3,
+        "previous": 8,
+        "prng_after": 84,
+        "prng_before": 168
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 3,
+        "prng_after": 42,
+        "prng_before": 84
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 21,
+        "prng_before": 42
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 178,
+        "prng_before": 21
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 89,
+        "prng_before": 178
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 148,
+        "prng_before": 89
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 4,
+        "prng_after": 74,
+        "prng_before": 148
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 37,
+        "prng_before": 74
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 170,
+        "prng_before": 37
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 1,
+        "prng_after": 85,
+        "prng_before": 170
+      },
+      {
+        "attempts": 1,
+        "opening": 1,
+        "previous": 5,
+        "prng_after": 146,
+        "prng_before": 85
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 1,
+        "prng_after": 73,
+        "prng_before": 146
+      },
+      {
+        "attempts": 1,
+        "opening": 4,
+        "previous": 0,
+        "prng_after": 156,
+        "prng_before": 73
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 4,
+        "prng_after": 78,
+        "prng_before": 156
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 39,
+        "prng_before": 78
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 7,
+        "prng_after": 171,
+        "prng_before": 39
+      },
+      {
+        "attempts": 1,
+        "opening": 5,
+        "previous": 2,
+        "prng_after": 237,
+        "prng_before": 171
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 5,
+        "prng_after": 206,
+        "prng_before": 237
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 103,
+        "prng_before": 206
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 7,
+        "prng_after": 139,
+        "prng_before": 103
+      },
+      {
+        "attempts": 2,
+        "opening": 6,
+        "previous": 2,
+        "prng_after": 198,
+        "prng_before": 139
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 99,
+        "prng_before": 198
+      },
+      {
+        "attempts": 1,
+        "opening": 0,
+        "previous": 2,
+        "prng_after": 137,
+        "prng_before": 99
+      },
+      {
+        "attempts": 2,
+        "opening": 6,
+        "previous": 0,
+        "prng_after": 126,
+        "prng_before": 137
+      },
+      {
+        "attempts": 1,
+        "opening": 7,
+        "previous": 6,
+        "prng_after": 63,
+        "prng_before": 126
+      },
+      {
+        "attempts": 1,
+        "opening": 6,
+        "previous": 7,
+        "prng_after": 167,
+        "prng_before": 63
+      },
+      {
+        "attempts": 1,
+        "opening": 2,
+        "previous": 6,
+        "prng_after": 235,
+        "prng_before": 167
+      }
+    ],
+    "seed": 167,
+    "transient_length": 1,
+    "warning": "Exact deterministic host LFSR enumeration, NOT measured native sampling or empirical RNG fairness"
+  },
+  "idealized": {
+    "allowed_transitions": [
+      {
+        "ideal_conditional": "1/8",
+        "next": 1,
+        "previous": 0
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 2,
+        "previous": 0
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 3,
+        "previous": 0
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 4,
+        "previous": 0
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 5,
+        "previous": 0
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 6,
+        "previous": 0
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 7,
+        "previous": 0
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 8,
+        "previous": 0
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 0,
+        "previous": 1
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 2,
+        "previous": 1
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 3,
+        "previous": 1
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 4,
+        "previous": 1
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 5,
+        "previous": 1
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 6,
+        "previous": 1
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 7,
+        "previous": 1
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 8,
+        "previous": 1
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 0,
+        "previous": 2
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 1,
+        "previous": 2
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 3,
+        "previous": 2
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 4,
+        "previous": 2
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 5,
+        "previous": 2
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 6,
+        "previous": 2
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 7,
+        "previous": 2
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 8,
+        "previous": 2
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 0,
+        "previous": 3
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 1,
+        "previous": 3
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 2,
+        "previous": 3
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 4,
+        "previous": 3
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 5,
+        "previous": 3
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 6,
+        "previous": 3
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 7,
+        "previous": 3
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 8,
+        "previous": 3
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 0,
+        "previous": 4
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 1,
+        "previous": 4
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 2,
+        "previous": 4
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 3,
+        "previous": 4
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 5,
+        "previous": 4
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 6,
+        "previous": 4
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 7,
+        "previous": 4
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 8,
+        "previous": 4
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 0,
+        "previous": 5
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 1,
+        "previous": 5
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 2,
+        "previous": 5
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 3,
+        "previous": 5
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 4,
+        "previous": 5
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 6,
+        "previous": 5
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 7,
+        "previous": 5
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 8,
+        "previous": 5
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 0,
+        "previous": 6
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 1,
+        "previous": 6
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 2,
+        "previous": 6
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 3,
+        "previous": 6
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 4,
+        "previous": 6
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 5,
+        "previous": 6
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 7,
+        "previous": 6
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 8,
+        "previous": 6
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 0,
+        "previous": 7
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 1,
+        "previous": 7
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 2,
+        "previous": 7
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 3,
+        "previous": 7
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 4,
+        "previous": 7
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 5,
+        "previous": 7
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 6,
+        "previous": 7
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 8,
+        "previous": 7
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 0,
+        "previous": 8
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 1,
+        "previous": 8
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 2,
+        "previous": 8
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 3,
+        "previous": 8
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 4,
+        "previous": 8
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 5,
+        "previous": 8
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 6,
+        "previous": 8
+      },
+      {
+        "ideal_conditional": "1/8",
+        "next": 7,
+        "previous": 8
+      }
+    ],
+    "first_game": 4,
+    "states": 9,
+    "stationary": "1/9 per raw opening; not independent; conditional self-transition zero, others1/8"
+  }
+}

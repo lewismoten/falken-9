@@ -1,0 +1,4982 @@
+[
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          0,
+          0
+        ],
+        "new": 7957,
+        "old": 8921,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          0
+        ],
+        "new": -1355,
+        "old": 1634,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 2
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -1355,
+        "row": 0,
+        "weight_code": 7957
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 5463,
+        "baseline_set": [
+          0,
+          1,
+          3
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          2,
+          1,
+          2,
+          1
+        ],
+        "canonical_id": 38,
+        "changed_score": -1529,
+        "changed_set": [
+          1,
+          3
+        ],
+        "merged_lane0": 17009,
+        "row": 0
+      }
+    ],
+    "id": "original-row0-b0-w0",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 2,
+    "occupied_sign_crossings": 0,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 12
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          0,
+          0
+        ],
+        "new": 9916,
+        "old": 8921,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          0
+        ],
+        "new": -1355,
+        "old": 1634,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 1,
+      "move_changes": 1,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 1
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -1355,
+        "row": 0,
+        "weight_code": 9916
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 2989,
+        "baseline_set": [
+          0
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        "canonical_id": 474,
+        "changed_score": -416,
+        "changed_set": [],
+        "merged_lane0": -1710,
+        "row": 0
+      }
+    ],
+    "id": "original-row0-b0-w1",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 1,
+    "occupied_sign_crossings": 0,
+    "raw": {
+      "empty": 8,
+      "move_changes": 8,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 8
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          0,
+          0
+        ],
+        "new": 7957,
+        "old": 8921,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          0
+        ],
+        "new": 6524,
+        "old": 1634,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 6
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 6524,
+        "row": 0,
+        "weight_code": 7957
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -10131,
+        "baseline_set": [
+          4
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          2,
+          0,
+          2,
+          0,
+          0,
+          1
+        ],
+        "canonical_id": 92,
+        "changed_score": 859,
+        "changed_set": [
+          0,
+          4
+        ],
+        "merged_lane0": -25918,
+        "row": 0
+      }
+    ],
+    "id": "original-row0-b1-w0",
+    "legal_negative_to_nonnegative": 6,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 0,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 40
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          0,
+          0
+        ],
+        "new": 9916,
+        "old": 8921,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          0
+        ],
+        "new": 6524,
+        "old": 1634,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 5
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 6524,
+        "row": 0,
+        "weight_code": 9916
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -7430,
+        "baseline_set": [
+          1
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          1,
+          2,
+          1
+        ],
+        "canonical_id": 23,
+        "changed_score": 3146,
+        "changed_set": [
+          0,
+          1
+        ],
+        "merged_lane0": 23408,
+        "row": 0
+      }
+    ],
+    "id": "original-row0-b1-w1",
+    "legal_negative_to_nonnegative": 5,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 2,
+    "raw": {
+      "empty": 0,
+      "move_changes": 4,
+      "n": 4520,
+      "nonoptimal_nonempty": 4,
+      "optimal_tie_changes": 0,
+      "set_changes": 40
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          1,
+          0
+        ],
+        "new": -2925,
+        "old": -2869,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          1
+        ],
+        "new": 861,
+        "old": 915,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 1,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 1,
+      "set_changes": 1
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 861,
+        "row": 1,
+        "weight_code": -2925
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 54,
+        "baseline_set": [
+          0,
+          1
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          2
+        ],
+        "canonical_id": 112,
+        "changed_score": -54,
+        "changed_set": [
+          0
+        ],
+        "merged_lane0": 3954,
+        "row": 1
+      }
+    ],
+    "id": "original-row1-b0-w0",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 1,
+    "occupied_sign_crossings": 1,
+    "raw": {
+      "empty": 0,
+      "move_changes": 8,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 8,
+      "set_changes": 8
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          1,
+          0
+        ],
+        "new": -1857,
+        "old": -2869,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          1
+        ],
+        "new": 861,
+        "old": 915,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 861,
+        "row": 1,
+        "weight_code": -1857
+      }
+    ],
+    "examples": [],
+    "id": "original-row1-b0-w1",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 4,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          1,
+          0
+        ],
+        "new": -2925,
+        "old": -2869,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          1
+        ],
+        "new": 3023,
+        "old": 915,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 1,
+      "n": 627,
+      "nonoptimal_nonempty": 1,
+      "optimal_tie_changes": 0,
+      "set_changes": 1
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 3023,
+        "row": 1,
+        "weight_code": -2925
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -2109,
+        "baseline_set": [
+          0
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          1,
+          2,
+          2
+        ],
+        "canonical_id": 133,
+        "changed_score": 22,
+        "changed_set": [
+          0,
+          1
+        ],
+        "merged_lane0": -1668,
+        "row": 1
+      }
+    ],
+    "id": "original-row1-b1-w0",
+    "legal_negative_to_nonnegative": 1,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 6,
+    "raw": {
+      "empty": 0,
+      "move_changes": 8,
+      "n": 4520,
+      "nonoptimal_nonempty": 8,
+      "optimal_tie_changes": 0,
+      "set_changes": 8
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          1,
+          0
+        ],
+        "new": -1857,
+        "old": -2869,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          1
+        ],
+        "new": 3023,
+        "old": 915,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 3,
+      "n": 627,
+      "nonoptimal_nonempty": 3,
+      "optimal_tie_changes": 0,
+      "set_changes": 4
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 3023,
+        "row": 1,
+        "weight_code": -1857
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -4182,
+        "baseline_set": [
+          4
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          1,
+          2,
+          1
+        ],
+        "canonical_id": 37,
+        "changed_score": 2106,
+        "changed_set": [
+          1,
+          4
+        ],
+        "merged_lane0": 16919,
+        "row": 1
+      }
+    ],
+    "id": "original-row1-b1-w1",
+    "legal_negative_to_nonnegative": 4,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 9,
+    "raw": {
+      "empty": 0,
+      "move_changes": 20,
+      "n": 4520,
+      "nonoptimal_nonempty": 20,
+      "optimal_tie_changes": 0,
+      "set_changes": 24
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          2,
+          0
+        ],
+        "new": 3754,
+        "old": 5207,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          2
+        ],
+        "new": -6996,
+        "old": -2758,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 1,
+      "move_changes": 2,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 1,
+      "set_changes": 4
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -6996,
+        "row": 2,
+        "weight_code": 3754
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 6584,
+        "baseline_set": [
+          1,
+          2
+        ],
+        "board": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          1,
+          0,
+          2,
+          1
+        ],
+        "canonical_id": 138,
+        "changed_score": -4235,
+        "changed_set": [
+          1
+        ],
+        "merged_lane0": 18550,
+        "row": 2
+      }
+    ],
+    "id": "original-row2-b0-w0",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 4,
+    "occupied_sign_crossings": 13,
+    "raw": {
+      "empty": 8,
+      "move_changes": 9,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 1,
+      "set_changes": 24
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          2,
+          0
+        ],
+        "new": 6306,
+        "old": 5207,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          2
+        ],
+        "new": -6996,
+        "old": -2758,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -6996,
+        "row": 2,
+        "weight_code": 6306
+      }
+    ],
+    "examples": [],
+    "id": "original-row2-b0-w1",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 4,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          2,
+          0
+        ],
+        "new": 3754,
+        "old": 5207,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          2
+        ],
+        "new": 1746,
+        "old": -2758,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 1746,
+        "row": 2,
+        "weight_code": 3754
+      }
+    ],
+    "examples": [],
+    "id": "original-row2-b1-w0",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 7,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          2,
+          0
+        ],
+        "new": 6306,
+        "old": 5207,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          2
+        ],
+        "new": 1746,
+        "old": -2758,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 2,
+      "n": 627,
+      "nonoptimal_nonempty": 2,
+      "optimal_tie_changes": 0,
+      "set_changes": 4
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 1746,
+        "row": 2,
+        "weight_code": 6306
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -7562,
+        "baseline_set": [
+          1
+        ],
+        "board": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          1,
+          2,
+          1
+        ],
+        "canonical_id": 57,
+        "changed_score": 4499,
+        "changed_set": [
+          1,
+          2
+        ],
+        "merged_lane0": 28167,
+        "row": 2
+      }
+    ],
+    "id": "original-row2-b1-w1",
+    "legal_negative_to_nonnegative": 4,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 14,
+    "raw": {
+      "empty": 0,
+      "move_changes": 8,
+      "n": 4520,
+      "nonoptimal_nonempty": 8,
+      "optimal_tie_changes": 0,
+      "set_changes": 28
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          3,
+          0
+        ],
+        "new": -14602,
+        "old": -12665,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          3
+        ],
+        "new": -11490,
+        "old": -6053,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 1,
+      "move_changes": 4,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 3,
+      "set_changes": 9
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -11490,
+        "row": 3,
+        "weight_code": -14602
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 7546,
+        "baseline_set": [
+          3
+        ],
+        "board": [
+          1,
+          0,
+          1,
+          0,
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "canonical_id": 63,
+        "changed_score": -272,
+        "changed_set": [],
+        "merged_lane0": 5036,
+        "row": 3
+      }
+    ],
+    "id": "original-row3-b0-w0",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 9,
+    "occupied_sign_crossings": 21,
+    "raw": {
+      "empty": 8,
+      "move_changes": 22,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 14,
+      "set_changes": 54
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          3,
+          0
+        ],
+        "new": -10991,
+        "old": -12665,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          3
+        ],
+        "new": -11490,
+        "old": -6053,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -11490,
+        "row": 3,
+        "weight_code": -10991
+      }
+    ],
+    "examples": [],
+    "id": "original-row3-b0-w1",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 6,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          3,
+          0
+        ],
+        "new": -14602,
+        "old": -12665,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          3
+        ],
+        "new": -216,
+        "old": -6053,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 1,
+      "n": 627,
+      "nonoptimal_nonempty": 1,
+      "optimal_tie_changes": 0,
+      "set_changes": 2
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -216,
+        "row": 3,
+        "weight_code": -14602
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -5838,
+        "baseline_set": [
+          1
+        ],
+        "board": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          2,
+          2,
+          0,
+          2
+        ],
+        "canonical_id": 213,
+        "changed_score": 843,
+        "changed_set": [
+          1,
+          3
+        ],
+        "merged_lane0": -1786,
+        "row": 3
+      }
+    ],
+    "id": "original-row3-b1-w0",
+    "legal_negative_to_nonnegative": 2,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 8,
+    "raw": {
+      "empty": 0,
+      "move_changes": 8,
+      "n": 4520,
+      "nonoptimal_nonempty": 8,
+      "optimal_tie_changes": 0,
+      "set_changes": 12
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          3,
+          0
+        ],
+        "new": -10991,
+        "old": -12665,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          3
+        ],
+        "new": -216,
+        "old": -6053,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 2,
+      "n": 627,
+      "nonoptimal_nonempty": 2,
+      "optimal_tie_changes": 0,
+      "set_changes": 6
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -216,
+        "row": 3,
+        "weight_code": -10991
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -7328,
+        "baseline_set": [
+          4
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          1,
+          2,
+          1
+        ],
+        "canonical_id": 37,
+        "changed_score": 5424,
+        "changed_set": [
+          3,
+          4
+        ],
+        "merged_lane0": 16919,
+        "row": 3
+      }
+    ],
+    "id": "original-row3-b1-w1",
+    "legal_negative_to_nonnegative": 6,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 17,
+    "raw": {
+      "empty": 0,
+      "move_changes": 23,
+      "n": 4520,
+      "nonoptimal_nonempty": 23,
+      "optimal_tie_changes": 0,
+      "set_changes": 40
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          4,
+          0
+        ],
+        "new": 14919,
+        "old": 17934,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          4
+        ],
+        "new": -3962,
+        "old": -296,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 3,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 3,
+      "set_changes": 3
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -3962,
+        "row": 4,
+        "weight_code": 14919
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 6070,
+        "baseline_set": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "board": [
+          0,
+          1,
+          1,
+          2,
+          0,
+          0,
+          1,
+          0,
+          2
+        ],
+        "canonical_id": 293,
+        "changed_score": -1367,
+        "changed_set": [
+          0,
+          5,
+          7
+        ],
+        "merged_lane0": 5122,
+        "row": 4
+      }
+    ],
+    "id": "original-row4-b0-w0",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 3,
+    "occupied_sign_crossings": 5,
+    "raw": {
+      "empty": 0,
+      "move_changes": 20,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 20,
+      "set_changes": 20
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          4,
+          0
+        ],
+        "new": 21001,
+        "old": 17934,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          4
+        ],
+        "new": -3962,
+        "old": -296,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 2,
+      "move_changes": 5,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 3,
+      "set_changes": 5
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -3962,
+        "row": 4,
+        "weight_code": 21001
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 10521,
+        "baseline_set": [
+          0,
+          1,
+          4
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          2,
+          0,
+          2,
+          2,
+          1,
+          1
+        ],
+        "canonical_id": 73,
+        "changed_score": -2942,
+        "changed_set": [
+          0,
+          1
+        ],
+        "merged_lane0": -13084,
+        "row": 4
+      }
+    ],
+    "id": "original-row4-b0-w1",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 5,
+    "occupied_sign_crossings": 12,
+    "raw": {
+      "empty": 16,
+      "move_changes": 40,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 24,
+      "set_changes": 40
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          4,
+          0
+        ],
+        "new": 14919,
+        "old": 17934,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          4
+        ],
+        "new": 3363,
+        "old": -296,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 5,
+      "n": 627,
+      "nonoptimal_nonempty": 5,
+      "optimal_tie_changes": 0,
+      "set_changes": 5
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 3363,
+        "row": 4,
+        "weight_code": 14919
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -16060,
+        "baseline_set": [
+          3
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          2,
+          1,
+          1
+        ],
+        "canonical_id": 72,
+        "changed_score": 3658,
+        "changed_set": [
+          3,
+          4
+        ],
+        "merged_lane0": -21817,
+        "row": 4
+      }
+    ],
+    "id": "original-row4-b1-w0",
+    "legal_negative_to_nonnegative": 5,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 2,
+    "raw": {
+      "empty": 0,
+      "move_changes": 36,
+      "n": 4520,
+      "nonoptimal_nonempty": 36,
+      "optimal_tie_changes": 0,
+      "set_changes": 36
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          4,
+          0
+        ],
+        "new": 21001,
+        "old": 17934,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          4
+        ],
+        "new": 3363,
+        "old": -296,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 2,
+      "n": 627,
+      "nonoptimal_nonempty": 2,
+      "optimal_tie_changes": 0,
+      "set_changes": 2
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 3363,
+        "row": 4,
+        "weight_code": 21001
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -10790,
+        "baseline_set": [
+          0,
+          6
+        ],
+        "board": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          1
+        ],
+        "canonical_id": 321,
+        "changed_score": 1804,
+        "changed_set": [
+          0,
+          4,
+          6
+        ],
+        "merged_lane0": 11932,
+        "row": 4
+      }
+    ],
+    "id": "original-row4-b1-w1",
+    "legal_negative_to_nonnegative": 2,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 5,
+    "raw": {
+      "empty": 0,
+      "move_changes": 16,
+      "n": 4520,
+      "nonoptimal_nonempty": 16,
+      "optimal_tie_changes": 0,
+      "set_changes": 16
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          5,
+          0
+        ],
+        "new": 24579,
+        "old": 26308,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          5
+        ],
+        "new": -13463,
+        "old": -8029,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 1,
+      "move_changes": 3,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 2,
+      "set_changes": 4
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -13463,
+        "row": 5,
+        "weight_code": 24579
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 5434,
+        "baseline_set": [
+          0,
+          5
+        ],
+        "board": [
+          0,
+          1,
+          2,
+          1,
+          1,
+          0,
+          2,
+          2,
+          1
+        ],
+        "canonical_id": 201,
+        "changed_score": -5434,
+        "changed_set": [
+          0
+        ],
+        "merged_lane0": 25746,
+        "row": 5
+      }
+    ],
+    "id": "original-row5-b0-w0",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 4,
+    "occupied_sign_crossings": 32,
+    "raw": {
+      "empty": 8,
+      "move_changes": 18,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 10,
+      "set_changes": 28
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          5,
+          0
+        ],
+        "new": 28434,
+        "old": 26308,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          5
+        ],
+        "new": -13463,
+        "old": -8029,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -13463,
+        "row": 5,
+        "weight_code": 28434
+      }
+    ],
+    "examples": [],
+    "id": "original-row5-b0-w1",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 23,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          5,
+          0
+        ],
+        "new": 24579,
+        "old": 26308,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          5
+        ],
+        "new": -3363,
+        "old": -8029,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 1
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -3363,
+        "row": 5,
+        "weight_code": 24579
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -4667,
+        "baseline_set": [
+          0,
+          2,
+          3
+        ],
+        "board": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2
+        ],
+        "canonical_id": 340,
+        "changed_score": 229,
+        "changed_set": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "merged_lane0": -1093,
+        "row": 5
+      }
+    ],
+    "id": "original-row5-b1-w0",
+    "legal_negative_to_nonnegative": 1,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 14,
+    "raw": {
+      "empty": 0,
+      "move_changes": 4,
+      "n": 4520,
+      "nonoptimal_nonempty": 4,
+      "optimal_tie_changes": 0,
+      "set_changes": 8
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          5,
+          0
+        ],
+        "new": 28434,
+        "old": 26308,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          5
+        ],
+        "new": -3363,
+        "old": -8029,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 1,
+      "n": 627,
+      "nonoptimal_nonempty": 1,
+      "optimal_tie_changes": 0,
+      "set_changes": 4
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -3363,
+        "row": 5,
+        "weight_code": 28434
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -6365,
+        "baseline_set": [
+          0
+        ],
+        "board": [
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          1,
+          2,
+          1
+        ],
+        "canonical_id": 20,
+        "changed_score": 4649,
+        "changed_set": [
+          0,
+          5
+        ],
+        "merged_lane0": 24458,
+        "row": 5
+      }
+    ],
+    "id": "original-row5-b1-w1",
+    "legal_negative_to_nonnegative": 4,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 18,
+    "raw": {
+      "empty": 0,
+      "move_changes": 16,
+      "n": 4520,
+      "nonoptimal_nonempty": 16,
+      "optimal_tie_changes": 0,
+      "set_changes": 32
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          6,
+          0
+        ],
+        "new": 8654,
+        "old": 9969,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          6
+        ],
+        "new": -13696,
+        "old": -9588,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 1,
+      "move_changes": 1,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 7
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -13696,
+        "row": 6,
+        "weight_code": 8654
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 5018,
+        "baseline_set": [
+          4,
+          6
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          2,
+          0,
+          2,
+          0,
+          1,
+          1
+        ],
+        "canonical_id": 93,
+        "changed_score": -776,
+        "changed_set": [
+          4
+        ],
+        "merged_lane0": 5250,
+        "row": 6
+      }
+    ],
+    "id": "original-row6-b0-w0",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 7,
+    "occupied_sign_crossings": 23,
+    "raw": {
+      "empty": 8,
+      "move_changes": 10,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 2,
+      "set_changes": 56
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          6,
+          0
+        ],
+        "new": 11235,
+        "old": 9969,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          6
+        ],
+        "new": -13696,
+        "old": -9588,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 1,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 1,
+      "set_changes": 1
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -13696,
+        "row": 6,
+        "weight_code": 11235
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 10249,
+        "baseline_set": [
+          0,
+          6
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          0,
+          1,
+          0
+        ],
+        "canonical_id": 284,
+        "changed_score": -992,
+        "changed_set": [
+          0
+        ],
+        "merged_lane0": -23078,
+        "row": 6
+      }
+    ],
+    "id": "original-row6-b0-w1",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 1,
+    "occupied_sign_crossings": 9,
+    "raw": {
+      "empty": 0,
+      "move_changes": 4,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 4,
+      "set_changes": 8
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          6,
+          0
+        ],
+        "new": 8654,
+        "old": 9969,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          6
+        ],
+        "new": -6139,
+        "old": -9588,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 1,
+      "n": 627,
+      "nonoptimal_nonempty": 1,
+      "optimal_tie_changes": 0,
+      "set_changes": 1
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -6139,
+        "row": 6,
+        "weight_code": 8654
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -3450,
+        "baseline_set": [
+          0
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        "canonical_id": 474,
+        "changed_score": 548,
+        "changed_set": [
+          0,
+          6
+        ],
+        "merged_lane0": -1710,
+        "row": 6
+      }
+    ],
+    "id": "original-row6-b1-w0",
+    "legal_negative_to_nonnegative": 1,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 7,
+    "raw": {
+      "empty": 0,
+      "move_changes": 4,
+      "n": 4520,
+      "nonoptimal_nonempty": 4,
+      "optimal_tie_changes": 0,
+      "set_changes": 8
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          6,
+          0
+        ],
+        "new": 11235,
+        "old": 9969,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          6
+        ],
+        "new": -6139,
+        "old": -9588,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 3
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -6139,
+        "row": 6,
+        "weight_code": 11235
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -6716,
+        "baseline_set": [
+          1,
+          2
+        ],
+        "board": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          1,
+          0,
+          2,
+          1
+        ],
+        "canonical_id": 138,
+        "changed_score": 2467,
+        "changed_set": [
+          1,
+          2,
+          6
+        ],
+        "merged_lane0": 18550,
+        "row": 6
+      }
+    ],
+    "id": "original-row6-b1-w1",
+    "legal_negative_to_nonnegative": 3,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 18,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 24
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          7,
+          0
+        ],
+        "new": 11129,
+        "old": 13312,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          7
+        ],
+        "new": -8842,
+        "old": -6604,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 1,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 1,
+      "set_changes": 2
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -8842,
+        "row": 7,
+        "weight_code": 11129
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 2879,
+        "baseline_set": [
+          0,
+          7
+        ],
+        "board": [
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          0,
+          2
+        ],
+        "canonical_id": 351,
+        "changed_score": -146,
+        "changed_set": [
+          0
+        ],
+        "merged_lane0": 1476,
+        "row": 7
+      }
+    ],
+    "id": "original-row7-b0-w0",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 2,
+    "occupied_sign_crossings": 16,
+    "raw": {
+      "empty": 0,
+      "move_changes": 8,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 8,
+      "set_changes": 16
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          7,
+          0
+        ],
+        "new": 16952,
+        "old": 13312,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          7
+        ],
+        "new": -8842,
+        "old": -6604,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 1
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -8842,
+        "row": 7,
+        "weight_code": 16952
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 2238,
+        "baseline_set": [
+          0,
+          1,
+          7
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          1,
+          2,
+          0,
+          2
+        ],
+        "canonical_id": 364,
+        "changed_score": -1998,
+        "changed_set": [
+          0,
+          1
+        ],
+        "merged_lane0": -2249,
+        "row": 7
+      }
+    ],
+    "id": "original-row7-b0-w1",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 1,
+    "occupied_sign_crossings": 7,
+    "raw": {
+      "empty": 0,
+      "move_changes": 4,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 4,
+      "set_changes": 8
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          7,
+          0
+        ],
+        "new": 11129,
+        "old": 13312,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          7
+        ],
+        "new": -4203,
+        "old": -6604,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 2
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -4203,
+        "row": 7,
+        "weight_code": 11129
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -2402,
+        "baseline_set": [
+          1
+        ],
+        "board": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          2,
+          2,
+          0,
+          2
+        ],
+        "canonical_id": 213,
+        "changed_score": 951,
+        "changed_set": [
+          1,
+          7
+        ],
+        "merged_lane0": -1786,
+        "row": 7
+      }
+    ],
+    "id": "original-row7-b1-w0",
+    "legal_negative_to_nonnegative": 2,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 8,
+    "raw": {
+      "empty": 0,
+      "move_changes": 4,
+      "n": 4520,
+      "nonoptimal_nonempty": 4,
+      "optimal_tie_changes": 0,
+      "set_changes": 16
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          7,
+          0
+        ],
+        "new": 16952,
+        "old": 13312,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          7
+        ],
+        "new": -4203,
+        "old": -6604,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 1
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -4203,
+        "row": 7,
+        "weight_code": 16952
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -13339,
+        "baseline_set": [
+          0,
+          5
+        ],
+        "board": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          0,
+          2,
+          0,
+          1
+        ],
+        "canonical_id": 468,
+        "changed_score": 2400,
+        "changed_set": [
+          0,
+          5,
+          7
+        ],
+        "merged_lane0": 15009,
+        "row": 7
+      }
+    ],
+    "id": "original-row7-b1-w1",
+    "legal_negative_to_nonnegative": 1,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 10,
+    "raw": {
+      "empty": 0,
+      "move_changes": 4,
+      "n": 4520,
+      "nonoptimal_nonempty": 4,
+      "optimal_tie_changes": 0,
+      "set_changes": 8
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          8,
+          0
+        ],
+        "new": 14470,
+        "old": 16013,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          8
+        ],
+        "new": 3353,
+        "old": 8191,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 2
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 3353,
+        "row": 8,
+        "weight_code": 14470
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 11632,
+        "baseline_set": [
+          1,
+          8
+        ],
+        "board": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          1,
+          1,
+          2,
+          0
+        ],
+        "canonical_id": 288,
+        "changed_score": -4832,
+        "changed_set": [
+          1
+        ],
+        "merged_lane0": 30860,
+        "row": 8
+      }
+    ],
+    "id": "original-row8-b0-w0",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 2,
+    "occupied_sign_crossings": 21,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 16
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          8,
+          0
+        ],
+        "new": 17039,
+        "old": 16013,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          8
+        ],
+        "new": 3353,
+        "old": 8191,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 1
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 3353,
+        "row": 8,
+        "weight_code": 17039
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": 4838,
+        "baseline_set": [
+          0,
+          5,
+          6,
+          8
+        ],
+        "board": [
+          0,
+          0,
+          2,
+          1,
+          1,
+          0,
+          0,
+          2,
+          0
+        ],
+        "canonical_id": 604,
+        "changed_score": -205,
+        "changed_set": [
+          0,
+          5,
+          6
+        ],
+        "merged_lane0": -818,
+        "row": 8
+      }
+    ],
+    "id": "original-row8-b0-w1",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 1,
+    "occupied_sign_crossings": 12,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 8
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          8,
+          0
+        ],
+        "new": 14470,
+        "old": 16013,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          8
+        ],
+        "new": 12001,
+        "old": 8191,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 1,
+      "n": 627,
+      "nonoptimal_nonempty": 1,
+      "optimal_tie_changes": 0,
+      "set_changes": 1
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 12001,
+        "row": 8,
+        "weight_code": 14470
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -3811,
+        "baseline_set": [
+          0
+        ],
+        "board": [
+          0,
+          0,
+          2,
+          1,
+          1,
+          2,
+          1,
+          2,
+          0
+        ],
+        "canonical_id": 161,
+        "changed_score": 503,
+        "changed_set": [
+          0,
+          8
+        ],
+        "merged_lane0": -1340,
+        "row": 8
+      }
+    ],
+    "id": "original-row8-b1-w0",
+    "legal_negative_to_nonnegative": 1,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 11,
+    "raw": {
+      "empty": 0,
+      "move_changes": 4,
+      "n": 4520,
+      "nonoptimal_nonempty": 4,
+      "optimal_tie_changes": 0,
+      "set_changes": 8
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          8,
+          0
+        ],
+        "new": 17039,
+        "old": 16013,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          8
+        ],
+        "new": 12001,
+        "old": 8191,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 2
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 12001,
+        "row": 8,
+        "weight_code": 17039
+      }
+    ],
+    "examples": [
+      {
+        "baseline_score": -9947,
+        "baseline_set": [
+          1
+        ],
+        "board": [
+          0,
+          0,
+          2,
+          2,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "canonical_id": 575,
+        "changed_score": 1047,
+        "changed_set": [
+          1,
+          8
+        ],
+        "merged_lane0": 28678,
+        "row": 8
+      }
+    ],
+    "id": "original-row8-b1-w1",
+    "legal_negative_to_nonnegative": 2,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 11,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 16
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "original-row-corner",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          0,
+          0
+        ],
+        "new": 9418,
+        "old": 8921,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          0
+        ],
+        "new": 140,
+        "old": 1634,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 140,
+        "row": 0,
+        "weight_code": 9418
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row0-member-min",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 0,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": -1710,
+      "baseline_score": 2989,
+      "bias_endpoint_index": 0,
+      "board": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      "canonical_id": 474,
+      "full_network_score": 1287,
+      "kind": "member-min",
+      "row": 0,
+      "score": 1287,
+      "weight_endpoint_index": 1
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          0,
+          0
+        ],
+        "new": 9418,
+        "old": 8921,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          0
+        ],
+        "new": 4079,
+        "old": 1634,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 4079,
+        "row": 0,
+        "weight_code": 9418
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row0-nonmember-max",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 0,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": 10927,
+      "baseline_score": -4891,
+      "bias_endpoint_index": 1,
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        1,
+        0,
+        1
+      ],
+      "canonical_id": 308,
+      "full_network_score": -1120,
+      "kind": "nonmember-max",
+      "row": 0,
+      "score": -1120,
+      "weight_endpoint_index": 1
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          1,
+          0
+        ],
+        "new": -2897,
+        "old": -2869,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          1
+        ],
+        "new": 888,
+        "old": 915,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 888,
+        "row": 1,
+        "weight_code": -2897
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row1-member-min",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 0,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": 3954,
+      "baseline_score": 54,
+      "bias_endpoint_index": 0,
+      "board": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        2
+      ],
+      "canonical_id": 112,
+      "full_network_score": 0,
+      "kind": "member-min",
+      "row": 1,
+      "score": 0,
+      "weight_endpoint_index": 0
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          1,
+          0
+        ],
+        "new": -2363,
+        "old": -2869,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          1
+        ],
+        "new": 1969,
+        "old": 915,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 1969,
+        "row": 1,
+        "weight_code": -2363
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row1-nonmember-max",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 5,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": 16919,
+      "baseline_score": -4182,
+      "bias_endpoint_index": 1,
+      "board": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        2,
+        1
+      ],
+      "canonical_id": 37,
+      "full_network_score": -1038,
+      "kind": "nonmember-max",
+      "row": 1,
+      "score": -1038,
+      "weight_endpoint_index": 1
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          2,
+          0
+        ],
+        "new": 4481,
+        "old": 5207,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          2
+        ],
+        "new": -4877,
+        "old": -2758,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -4877,
+        "row": 2,
+        "weight_code": 4481
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row2-member-min",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 5,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": 9110,
+      "baseline_score": 4238,
+      "bias_endpoint_index": 0,
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0
+      ],
+      "canonical_id": 614,
+      "full_network_score": 504,
+      "kind": "member-min",
+      "row": 2,
+      "score": 504,
+      "weight_endpoint_index": 0
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          2,
+          0
+        ],
+        "new": 5756,
+        "old": 5207,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          2
+        ],
+        "new": -506,
+        "old": -2758,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -506,
+        "row": 2,
+        "weight_code": 5756
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row2-nonmember-max",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 4,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": 28167,
+      "baseline_score": -7562,
+      "bias_endpoint_index": 1,
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "canonical_id": 57,
+      "full_network_score": -1535,
+      "kind": "nonmember-max",
+      "row": 2,
+      "score": -1535,
+      "weight_endpoint_index": 1
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          3,
+          0
+        ],
+        "new": -13633,
+        "old": -12665,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          3
+        ],
+        "new": -8771,
+        "old": -6053,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -8771,
+        "row": 3,
+        "weight_code": -13633
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row3-member-min",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 7,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": 3719,
+      "baseline_score": 5437,
+      "bias_endpoint_index": 0,
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        2
+      ],
+      "canonical_id": 570,
+      "full_network_score": 1840,
+      "kind": "member-min",
+      "row": 3,
+      "score": 1840,
+      "weight_endpoint_index": 0
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          3,
+          0
+        ],
+        "new": -11828,
+        "old": -12665,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          3
+        ],
+        "new": -3135,
+        "old": -6053,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -3135,
+        "row": 3,
+        "weight_code": -11828
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row3-nonmember-max",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 10,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": 16919,
+      "baseline_score": -7328,
+      "bias_endpoint_index": 1,
+      "board": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        2,
+        1
+      ],
+      "canonical_id": 37,
+      "full_network_score": -952,
+      "kind": "nonmember-max",
+      "row": 3,
+      "score": -952,
+      "weight_endpoint_index": 1
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          4,
+          0
+        ],
+        "new": 19467,
+        "old": 17934,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          4
+        ],
+        "new": -2129,
+        "old": -296,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -2129,
+        "row": 4,
+        "weight_code": 19467
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row4-member-min",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 6,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": -1704,
+      "baseline_score": 3666,
+      "bias_endpoint_index": 0,
+      "board": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "canonical_id": 525,
+      "full_network_score": 1195,
+      "kind": "member-min",
+      "row": 4,
+      "score": 1195,
+      "weight_endpoint_index": 1
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          4,
+          0
+        ],
+        "new": 16427,
+        "old": 17934,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          4
+        ],
+        "new": 1533,
+        "old": -296,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 1533,
+        "row": 4,
+        "weight_code": 16427
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row4-nonmember-max",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 0,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": -1796,
+      "baseline_score": -3660,
+      "bias_endpoint_index": 1,
+      "board": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ],
+      "canonical_id": 472,
+      "full_network_score": -1170,
+      "kind": "nonmember-max",
+      "row": 4,
+      "score": -1170,
+      "weight_endpoint_index": 0
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          5,
+          0
+        ],
+        "new": 25444,
+        "old": 26308,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          5
+        ],
+        "new": -10746,
+        "old": -8029,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -10746,
+        "row": 5,
+        "weight_code": 25444
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row5-member-min",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 18,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": 25746,
+      "baseline_score": 5434,
+      "bias_endpoint_index": 0,
+      "board": [
+        0,
+        1,
+        2,
+        1,
+        1,
+        0,
+        2,
+        2,
+        1
+      ],
+      "canonical_id": 201,
+      "full_network_score": 2,
+      "kind": "member-min",
+      "row": 5,
+      "score": 2,
+      "weight_endpoint_index": 0
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          5,
+          0
+        ],
+        "new": 27371,
+        "old": 26308,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          5
+        ],
+        "new": -5696,
+        "old": -8029,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -5696,
+        "row": 5,
+        "weight_code": 27371
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row5-nonmember-max",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 9,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": 24458,
+      "baseline_score": -6365,
+      "bias_endpoint_index": 1,
+      "board": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        1,
+        2,
+        1
+      ],
+      "canonical_id": 20,
+      "full_network_score": -858,
+      "kind": "nonmember-max",
+      "row": 5,
+      "score": -858,
+      "weight_endpoint_index": 1
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          6,
+          0
+        ],
+        "new": 9312,
+        "old": 9969,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          6
+        ],
+        "new": -11642,
+        "old": -9588,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -11642,
+        "row": 6,
+        "weight_code": 9312
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row6-member-min",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 14,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": 11132,
+      "baseline_score": 5181,
+      "bias_endpoint_index": 0,
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1
+      ],
+      "canonical_id": 481,
+      "full_network_score": 1341,
+      "kind": "member-min",
+      "row": 6,
+      "score": 1341,
+      "weight_endpoint_index": 0
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          6,
+          0
+        ],
+        "new": 10602,
+        "old": 9969,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          6
+        ],
+        "new": -7864,
+        "old": -9588,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -7864,
+        "row": 6,
+        "weight_code": 10602
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row6-nonmember-max",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 11,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": 9986,
+      "baseline_score": -4127,
+      "bias_endpoint_index": 1,
+      "board": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        1,
+        1
+      ],
+      "canonical_id": 487,
+      "full_network_score": -860,
+      "kind": "nonmember-max",
+      "row": 6,
+      "score": -860,
+      "weight_endpoint_index": 1
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          7,
+          0
+        ],
+        "new": 15132,
+        "old": 13312,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          7
+        ],
+        "new": -7723,
+        "old": -6604,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -7723,
+        "row": 7,
+        "weight_code": 15132
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row7-member-min",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 2,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": -2249,
+      "baseline_score": 2238,
+      "bias_endpoint_index": 0,
+      "board": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "canonical_id": 364,
+      "full_network_score": 120,
+      "kind": "member-min",
+      "row": 7,
+      "score": 120,
+      "weight_endpoint_index": 1
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          7,
+          0
+        ],
+        "new": 12221,
+        "old": 13312,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          7
+        ],
+        "new": -5404,
+        "old": -6604,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": -5404,
+        "row": 7,
+        "weight_code": 12221
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row7-nonmember-max",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 6,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": -1786,
+      "baseline_score": -2402,
+      "bias_endpoint_index": 1,
+      "board": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        2,
+        2,
+        0,
+        2
+      ],
+      "canonical_id": 213,
+      "full_network_score": -726,
+      "kind": "nonmember-max",
+      "row": 7,
+      "score": -726,
+      "weight_endpoint_index": 0
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          8,
+          0
+        ],
+        "new": 16526,
+        "old": 16013,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          8
+        ],
+        "new": 5772,
+        "old": 8191,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 5772,
+        "row": 8,
+        "weight_code": 16526
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row8-member-min",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 6,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": -818,
+      "baseline_score": 4838,
+      "bias_endpoint_index": 0,
+      "board": [
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0
+      ],
+      "canonical_id": 604,
+      "full_network_score": 2317,
+      "kind": "member-min",
+      "row": 8,
+      "score": 2317,
+      "weight_endpoint_index": 1
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          8,
+          0
+        ],
+        "new": 15242,
+        "old": 16013,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          8
+        ],
+        "new": 10096,
+        "old": 8191,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 2,
+    "changes": [
+      {
+        "bias_code": 10096,
+        "row": 8,
+        "weight_code": 15242
+      }
+    ],
+    "examples": [],
+    "id": "accepted-row8-nonmember-max",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 6,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-row-extremum",
+    "witness": {
+      "activation": -1340,
+      "baseline_score": -3811,
+      "bias_endpoint_index": 1,
+      "board": [
+        0,
+        0,
+        2,
+        1,
+        1,
+        2,
+        1,
+        2,
+        0
+      ],
+      "canonical_id": 161,
+      "full_network_score": -1654,
+      "kind": "nonmember-max",
+      "row": 8,
+      "score": -1654,
+      "weight_endpoint_index": 0
+    }
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          0,
+          0
+        ],
+        "new": 8439,
+        "old": 8921,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          1,
+          0
+        ],
+        "new": -2897,
+        "old": -2869,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          2,
+          0
+        ],
+        "new": 4481,
+        "old": 5207,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          3,
+          0
+        ],
+        "new": -13633,
+        "old": -12665,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          4,
+          0
+        ],
+        "new": 16427,
+        "old": 17934,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          5,
+          0
+        ],
+        "new": 25444,
+        "old": 26308,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          6,
+          0
+        ],
+        "new": 9312,
+        "old": 9969,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          7,
+          0
+        ],
+        "new": 12221,
+        "old": 13312,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          8,
+          0
+        ],
+        "new": 15242,
+        "old": 16013,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          0
+        ],
+        "new": 140,
+        "old": 1634,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          1
+        ],
+        "new": 888,
+        "old": 915,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          2
+        ],
+        "new": -4877,
+        "old": -2758,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          3
+        ],
+        "new": -8771,
+        "old": -6053,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          4
+        ],
+        "new": -2129,
+        "old": -296,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          5
+        ],
+        "new": -10746,
+        "old": -8029,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          6
+        ],
+        "new": -11642,
+        "old": -9588,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          7
+        ],
+        "new": -7723,
+        "old": -6604,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          8
+        ],
+        "new": 5772,
+        "old": 8191,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 18,
+    "changes": [
+      {
+        "bias_code": 140,
+        "row": 0,
+        "weight_code": 8439
+      },
+      {
+        "bias_code": 888,
+        "row": 1,
+        "weight_code": -2897
+      },
+      {
+        "bias_code": -4877,
+        "row": 2,
+        "weight_code": 4481
+      },
+      {
+        "bias_code": -8771,
+        "row": 3,
+        "weight_code": -13633
+      },
+      {
+        "bias_code": -2129,
+        "row": 4,
+        "weight_code": 16427
+      },
+      {
+        "bias_code": -10746,
+        "row": 5,
+        "weight_code": 25444
+      },
+      {
+        "bias_code": -11642,
+        "row": 6,
+        "weight_code": 9312
+      },
+      {
+        "bias_code": -7723,
+        "row": 7,
+        "weight_code": 12221
+      },
+      {
+        "bias_code": 5772,
+        "row": 8,
+        "weight_code": 15242
+      }
+    ],
+    "examples": [],
+    "id": "accepted-all-b0-w0",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 65,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-whole-box-pattern",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          0,
+          0
+        ],
+        "new": 9418,
+        "old": 8921,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          1,
+          0
+        ],
+        "new": -2363,
+        "old": -2869,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          2,
+          0
+        ],
+        "new": 5756,
+        "old": 5207,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          3,
+          0
+        ],
+        "new": -11828,
+        "old": -12665,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          4,
+          0
+        ],
+        "new": 19467,
+        "old": 17934,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          5,
+          0
+        ],
+        "new": 27371,
+        "old": 26308,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          6,
+          0
+        ],
+        "new": 10602,
+        "old": 9969,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          7,
+          0
+        ],
+        "new": 15132,
+        "old": 13312,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          8,
+          0
+        ],
+        "new": 16526,
+        "old": 16013,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          0
+        ],
+        "new": 140,
+        "old": 1634,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          1
+        ],
+        "new": 888,
+        "old": 915,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          2
+        ],
+        "new": -4877,
+        "old": -2758,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          3
+        ],
+        "new": -8771,
+        "old": -6053,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          4
+        ],
+        "new": -2129,
+        "old": -296,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          5
+        ],
+        "new": -10746,
+        "old": -8029,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          6
+        ],
+        "new": -11642,
+        "old": -9588,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          7
+        ],
+        "new": -7723,
+        "old": -6604,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          8
+        ],
+        "new": 5772,
+        "old": 8191,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 18,
+    "changes": [
+      {
+        "bias_code": 140,
+        "row": 0,
+        "weight_code": 9418
+      },
+      {
+        "bias_code": 888,
+        "row": 1,
+        "weight_code": -2363
+      },
+      {
+        "bias_code": -4877,
+        "row": 2,
+        "weight_code": 5756
+      },
+      {
+        "bias_code": -8771,
+        "row": 3,
+        "weight_code": -11828
+      },
+      {
+        "bias_code": -2129,
+        "row": 4,
+        "weight_code": 19467
+      },
+      {
+        "bias_code": -10746,
+        "row": 5,
+        "weight_code": 27371
+      },
+      {
+        "bias_code": -11642,
+        "row": 6,
+        "weight_code": 10602
+      },
+      {
+        "bias_code": -7723,
+        "row": 7,
+        "weight_code": 15132
+      },
+      {
+        "bias_code": 5772,
+        "row": 8,
+        "weight_code": 16526
+      }
+    ],
+    "examples": [],
+    "id": "accepted-all-b0-w1",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 45,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-whole-box-pattern",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          0,
+          0
+        ],
+        "new": 8439,
+        "old": 8921,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          1,
+          0
+        ],
+        "new": -2897,
+        "old": -2869,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          2,
+          0
+        ],
+        "new": 4481,
+        "old": 5207,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          3,
+          0
+        ],
+        "new": -13633,
+        "old": -12665,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          4,
+          0
+        ],
+        "new": 16427,
+        "old": 17934,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          5,
+          0
+        ],
+        "new": 25444,
+        "old": 26308,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          6,
+          0
+        ],
+        "new": 9312,
+        "old": 9969,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          7,
+          0
+        ],
+        "new": 12221,
+        "old": 13312,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          8,
+          0
+        ],
+        "new": 15242,
+        "old": 16013,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          0
+        ],
+        "new": 4079,
+        "old": 1634,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          1
+        ],
+        "new": 1969,
+        "old": 915,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          2
+        ],
+        "new": -506,
+        "old": -2758,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          3
+        ],
+        "new": -3135,
+        "old": -6053,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          4
+        ],
+        "new": 1533,
+        "old": -296,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          5
+        ],
+        "new": -5696,
+        "old": -8029,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          6
+        ],
+        "new": -7864,
+        "old": -9588,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          7
+        ],
+        "new": -5404,
+        "old": -6604,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          8
+        ],
+        "new": 10096,
+        "old": 8191,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 18,
+    "changes": [
+      {
+        "bias_code": 4079,
+        "row": 0,
+        "weight_code": 8439
+      },
+      {
+        "bias_code": 1969,
+        "row": 1,
+        "weight_code": -2897
+      },
+      {
+        "bias_code": -506,
+        "row": 2,
+        "weight_code": 4481
+      },
+      {
+        "bias_code": -3135,
+        "row": 3,
+        "weight_code": -13633
+      },
+      {
+        "bias_code": 1533,
+        "row": 4,
+        "weight_code": 16427
+      },
+      {
+        "bias_code": -5696,
+        "row": 5,
+        "weight_code": 25444
+      },
+      {
+        "bias_code": -7864,
+        "row": 6,
+        "weight_code": 9312
+      },
+      {
+        "bias_code": -5404,
+        "row": 7,
+        "weight_code": 12221
+      },
+      {
+        "bias_code": 10096,
+        "row": 8,
+        "weight_code": 15242
+      }
+    ],
+    "examples": [],
+    "id": "accepted-all-b1-w0",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 31,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-whole-box-pattern",
+    "witness": null
+  },
+  {
+    "byte_coordinate_changes": [
+      {
+        "coordinate": [
+          0,
+          0
+        ],
+        "new": 9418,
+        "old": 8921,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          1,
+          0
+        ],
+        "new": -2363,
+        "old": -2869,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          2,
+          0
+        ],
+        "new": 5756,
+        "old": 5207,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          3,
+          0
+        ],
+        "new": -11828,
+        "old": -12665,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          4,
+          0
+        ],
+        "new": 19467,
+        "old": 17934,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          5,
+          0
+        ],
+        "new": 27371,
+        "old": 26308,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          6,
+          0
+        ],
+        "new": 10602,
+        "old": 9969,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          7,
+          0
+        ],
+        "new": 15132,
+        "old": 13312,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          8,
+          0
+        ],
+        "new": 16526,
+        "old": 16013,
+        "tensor": "output.weight"
+      },
+      {
+        "coordinate": [
+          0
+        ],
+        "new": 4079,
+        "old": 1634,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          1
+        ],
+        "new": 1969,
+        "old": 915,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          2
+        ],
+        "new": -506,
+        "old": -2758,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          3
+        ],
+        "new": -3135,
+        "old": -6053,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          4
+        ],
+        "new": 1533,
+        "old": -296,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          5
+        ],
+        "new": -5696,
+        "old": -8029,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          6
+        ],
+        "new": -7864,
+        "old": -9588,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          7
+        ],
+        "new": -5404,
+        "old": -6604,
+        "tensor": "output.bias"
+      },
+      {
+        "coordinate": [
+          8
+        ],
+        "new": 10096,
+        "old": 8191,
+        "tensor": "output.bias"
+      }
+    ],
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "changed_scalar_count": 18,
+    "changes": [
+      {
+        "bias_code": 4079,
+        "row": 0,
+        "weight_code": 9418
+      },
+      {
+        "bias_code": 1969,
+        "row": 1,
+        "weight_code": -2363
+      },
+      {
+        "bias_code": -506,
+        "row": 2,
+        "weight_code": 5756
+      },
+      {
+        "bias_code": -3135,
+        "row": 3,
+        "weight_code": -11828
+      },
+      {
+        "bias_code": 1533,
+        "row": 4,
+        "weight_code": 19467
+      },
+      {
+        "bias_code": -5696,
+        "row": 5,
+        "weight_code": 27371
+      },
+      {
+        "bias_code": -7864,
+        "row": 6,
+        "weight_code": 10602
+      },
+      {
+        "bias_code": -5404,
+        "row": 7,
+        "weight_code": 15132
+      },
+      {
+        "bias_code": 10096,
+        "row": 8,
+        "weight_code": 16526
+      }
+    ],
+    "examples": [],
+    "id": "accepted-all-b1-w1",
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 52,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "restored_all_stages_sets_raw_ties": true,
+    "role": "accepted-whole-box-pattern",
+    "witness": null
+  }
+]

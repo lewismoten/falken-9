@@ -1,0 +1,1163 @@
+{
+  "accepted_box_all_integer_combinations_certified": true,
+  "accepted_combinations_decimal": "2522373614800652711731872849572328079552666036240711680000000",
+  "accepted_grid_numerator": 8,
+  "all17_grid_boxes_independently_certified": true,
+  "byte_checks": [
+    {
+      "byte_offset": 2981,
+      "new": 7957,
+      "old": 8921,
+      "validation": "original-row0-b0-w0"
+    },
+    {
+      "byte_offset": 3125,
+      "new": -1355,
+      "old": 1634,
+      "validation": "original-row0-b0-w0"
+    },
+    {
+      "byte_offset": 2981,
+      "new": 9916,
+      "old": 8921,
+      "validation": "original-row0-b0-w1"
+    },
+    {
+      "byte_offset": 3125,
+      "new": -1355,
+      "old": 1634,
+      "validation": "original-row0-b0-w1"
+    },
+    {
+      "byte_offset": 2981,
+      "new": 7957,
+      "old": 8921,
+      "validation": "original-row0-b1-w0"
+    },
+    {
+      "byte_offset": 3125,
+      "new": 6524,
+      "old": 1634,
+      "validation": "original-row0-b1-w0"
+    },
+    {
+      "byte_offset": 2981,
+      "new": 9916,
+      "old": 8921,
+      "validation": "original-row0-b1-w1"
+    },
+    {
+      "byte_offset": 3125,
+      "new": 6524,
+      "old": 1634,
+      "validation": "original-row0-b1-w1"
+    },
+    {
+      "byte_offset": 2997,
+      "new": -2925,
+      "old": -2869,
+      "validation": "original-row1-b0-w0"
+    },
+    {
+      "byte_offset": 3127,
+      "new": 861,
+      "old": 915,
+      "validation": "original-row1-b0-w0"
+    },
+    {
+      "byte_offset": 2997,
+      "new": -1857,
+      "old": -2869,
+      "validation": "original-row1-b0-w1"
+    },
+    {
+      "byte_offset": 3127,
+      "new": 861,
+      "old": 915,
+      "validation": "original-row1-b0-w1"
+    },
+    {
+      "byte_offset": 2997,
+      "new": -2925,
+      "old": -2869,
+      "validation": "original-row1-b1-w0"
+    },
+    {
+      "byte_offset": 3127,
+      "new": 3023,
+      "old": 915,
+      "validation": "original-row1-b1-w0"
+    },
+    {
+      "byte_offset": 2997,
+      "new": -1857,
+      "old": -2869,
+      "validation": "original-row1-b1-w1"
+    },
+    {
+      "byte_offset": 3127,
+      "new": 3023,
+      "old": 915,
+      "validation": "original-row1-b1-w1"
+    },
+    {
+      "byte_offset": 3013,
+      "new": 3754,
+      "old": 5207,
+      "validation": "original-row2-b0-w0"
+    },
+    {
+      "byte_offset": 3129,
+      "new": -6996,
+      "old": -2758,
+      "validation": "original-row2-b0-w0"
+    },
+    {
+      "byte_offset": 3013,
+      "new": 6306,
+      "old": 5207,
+      "validation": "original-row2-b0-w1"
+    },
+    {
+      "byte_offset": 3129,
+      "new": -6996,
+      "old": -2758,
+      "validation": "original-row2-b0-w1"
+    },
+    {
+      "byte_offset": 3013,
+      "new": 3754,
+      "old": 5207,
+      "validation": "original-row2-b1-w0"
+    },
+    {
+      "byte_offset": 3129,
+      "new": 1746,
+      "old": -2758,
+      "validation": "original-row2-b1-w0"
+    },
+    {
+      "byte_offset": 3013,
+      "new": 6306,
+      "old": 5207,
+      "validation": "original-row2-b1-w1"
+    },
+    {
+      "byte_offset": 3129,
+      "new": 1746,
+      "old": -2758,
+      "validation": "original-row2-b1-w1"
+    },
+    {
+      "byte_offset": 3029,
+      "new": -14602,
+      "old": -12665,
+      "validation": "original-row3-b0-w0"
+    },
+    {
+      "byte_offset": 3131,
+      "new": -11490,
+      "old": -6053,
+      "validation": "original-row3-b0-w0"
+    },
+    {
+      "byte_offset": 3029,
+      "new": -10991,
+      "old": -12665,
+      "validation": "original-row3-b0-w1"
+    },
+    {
+      "byte_offset": 3131,
+      "new": -11490,
+      "old": -6053,
+      "validation": "original-row3-b0-w1"
+    },
+    {
+      "byte_offset": 3029,
+      "new": -14602,
+      "old": -12665,
+      "validation": "original-row3-b1-w0"
+    },
+    {
+      "byte_offset": 3131,
+      "new": -216,
+      "old": -6053,
+      "validation": "original-row3-b1-w0"
+    },
+    {
+      "byte_offset": 3029,
+      "new": -10991,
+      "old": -12665,
+      "validation": "original-row3-b1-w1"
+    },
+    {
+      "byte_offset": 3131,
+      "new": -216,
+      "old": -6053,
+      "validation": "original-row3-b1-w1"
+    },
+    {
+      "byte_offset": 3045,
+      "new": 14919,
+      "old": 17934,
+      "validation": "original-row4-b0-w0"
+    },
+    {
+      "byte_offset": 3133,
+      "new": -3962,
+      "old": -296,
+      "validation": "original-row4-b0-w0"
+    },
+    {
+      "byte_offset": 3045,
+      "new": 21001,
+      "old": 17934,
+      "validation": "original-row4-b0-w1"
+    },
+    {
+      "byte_offset": 3133,
+      "new": -3962,
+      "old": -296,
+      "validation": "original-row4-b0-w1"
+    },
+    {
+      "byte_offset": 3045,
+      "new": 14919,
+      "old": 17934,
+      "validation": "original-row4-b1-w0"
+    },
+    {
+      "byte_offset": 3133,
+      "new": 3363,
+      "old": -296,
+      "validation": "original-row4-b1-w0"
+    },
+    {
+      "byte_offset": 3045,
+      "new": 21001,
+      "old": 17934,
+      "validation": "original-row4-b1-w1"
+    },
+    {
+      "byte_offset": 3133,
+      "new": 3363,
+      "old": -296,
+      "validation": "original-row4-b1-w1"
+    },
+    {
+      "byte_offset": 3061,
+      "new": 24579,
+      "old": 26308,
+      "validation": "original-row5-b0-w0"
+    },
+    {
+      "byte_offset": 3135,
+      "new": -13463,
+      "old": -8029,
+      "validation": "original-row5-b0-w0"
+    },
+    {
+      "byte_offset": 3061,
+      "new": 28434,
+      "old": 26308,
+      "validation": "original-row5-b0-w1"
+    },
+    {
+      "byte_offset": 3135,
+      "new": -13463,
+      "old": -8029,
+      "validation": "original-row5-b0-w1"
+    },
+    {
+      "byte_offset": 3061,
+      "new": 24579,
+      "old": 26308,
+      "validation": "original-row5-b1-w0"
+    },
+    {
+      "byte_offset": 3135,
+      "new": -3363,
+      "old": -8029,
+      "validation": "original-row5-b1-w0"
+    },
+    {
+      "byte_offset": 3061,
+      "new": 28434,
+      "old": 26308,
+      "validation": "original-row5-b1-w1"
+    },
+    {
+      "byte_offset": 3135,
+      "new": -3363,
+      "old": -8029,
+      "validation": "original-row5-b1-w1"
+    },
+    {
+      "byte_offset": 3077,
+      "new": 8654,
+      "old": 9969,
+      "validation": "original-row6-b0-w0"
+    },
+    {
+      "byte_offset": 3137,
+      "new": -13696,
+      "old": -9588,
+      "validation": "original-row6-b0-w0"
+    },
+    {
+      "byte_offset": 3077,
+      "new": 11235,
+      "old": 9969,
+      "validation": "original-row6-b0-w1"
+    },
+    {
+      "byte_offset": 3137,
+      "new": -13696,
+      "old": -9588,
+      "validation": "original-row6-b0-w1"
+    },
+    {
+      "byte_offset": 3077,
+      "new": 8654,
+      "old": 9969,
+      "validation": "original-row6-b1-w0"
+    },
+    {
+      "byte_offset": 3137,
+      "new": -6139,
+      "old": -9588,
+      "validation": "original-row6-b1-w0"
+    },
+    {
+      "byte_offset": 3077,
+      "new": 11235,
+      "old": 9969,
+      "validation": "original-row6-b1-w1"
+    },
+    {
+      "byte_offset": 3137,
+      "new": -6139,
+      "old": -9588,
+      "validation": "original-row6-b1-w1"
+    },
+    {
+      "byte_offset": 3093,
+      "new": 11129,
+      "old": 13312,
+      "validation": "original-row7-b0-w0"
+    },
+    {
+      "byte_offset": 3139,
+      "new": -8842,
+      "old": -6604,
+      "validation": "original-row7-b0-w0"
+    },
+    {
+      "byte_offset": 3093,
+      "new": 16952,
+      "old": 13312,
+      "validation": "original-row7-b0-w1"
+    },
+    {
+      "byte_offset": 3139,
+      "new": -8842,
+      "old": -6604,
+      "validation": "original-row7-b0-w1"
+    },
+    {
+      "byte_offset": 3093,
+      "new": 11129,
+      "old": 13312,
+      "validation": "original-row7-b1-w0"
+    },
+    {
+      "byte_offset": 3139,
+      "new": -4203,
+      "old": -6604,
+      "validation": "original-row7-b1-w0"
+    },
+    {
+      "byte_offset": 3093,
+      "new": 16952,
+      "old": 13312,
+      "validation": "original-row7-b1-w1"
+    },
+    {
+      "byte_offset": 3139,
+      "new": -4203,
+      "old": -6604,
+      "validation": "original-row7-b1-w1"
+    },
+    {
+      "byte_offset": 3109,
+      "new": 14470,
+      "old": 16013,
+      "validation": "original-row8-b0-w0"
+    },
+    {
+      "byte_offset": 3141,
+      "new": 3353,
+      "old": 8191,
+      "validation": "original-row8-b0-w0"
+    },
+    {
+      "byte_offset": 3109,
+      "new": 17039,
+      "old": 16013,
+      "validation": "original-row8-b0-w1"
+    },
+    {
+      "byte_offset": 3141,
+      "new": 3353,
+      "old": 8191,
+      "validation": "original-row8-b0-w1"
+    },
+    {
+      "byte_offset": 3109,
+      "new": 14470,
+      "old": 16013,
+      "validation": "original-row8-b1-w0"
+    },
+    {
+      "byte_offset": 3141,
+      "new": 12001,
+      "old": 8191,
+      "validation": "original-row8-b1-w0"
+    },
+    {
+      "byte_offset": 3109,
+      "new": 17039,
+      "old": 16013,
+      "validation": "original-row8-b1-w1"
+    },
+    {
+      "byte_offset": 3141,
+      "new": 12001,
+      "old": 8191,
+      "validation": "original-row8-b1-w1"
+    },
+    {
+      "byte_offset": 2981,
+      "new": 9418,
+      "old": 8921,
+      "validation": "accepted-row0-member-min"
+    },
+    {
+      "byte_offset": 3125,
+      "new": 140,
+      "old": 1634,
+      "validation": "accepted-row0-member-min"
+    },
+    {
+      "byte_offset": 2981,
+      "new": 9418,
+      "old": 8921,
+      "validation": "accepted-row0-nonmember-max"
+    },
+    {
+      "byte_offset": 3125,
+      "new": 4079,
+      "old": 1634,
+      "validation": "accepted-row0-nonmember-max"
+    },
+    {
+      "byte_offset": 2997,
+      "new": -2897,
+      "old": -2869,
+      "validation": "accepted-row1-member-min"
+    },
+    {
+      "byte_offset": 3127,
+      "new": 888,
+      "old": 915,
+      "validation": "accepted-row1-member-min"
+    },
+    {
+      "byte_offset": 2997,
+      "new": -2363,
+      "old": -2869,
+      "validation": "accepted-row1-nonmember-max"
+    },
+    {
+      "byte_offset": 3127,
+      "new": 1969,
+      "old": 915,
+      "validation": "accepted-row1-nonmember-max"
+    },
+    {
+      "byte_offset": 3013,
+      "new": 4481,
+      "old": 5207,
+      "validation": "accepted-row2-member-min"
+    },
+    {
+      "byte_offset": 3129,
+      "new": -4877,
+      "old": -2758,
+      "validation": "accepted-row2-member-min"
+    },
+    {
+      "byte_offset": 3013,
+      "new": 5756,
+      "old": 5207,
+      "validation": "accepted-row2-nonmember-max"
+    },
+    {
+      "byte_offset": 3129,
+      "new": -506,
+      "old": -2758,
+      "validation": "accepted-row2-nonmember-max"
+    },
+    {
+      "byte_offset": 3029,
+      "new": -13633,
+      "old": -12665,
+      "validation": "accepted-row3-member-min"
+    },
+    {
+      "byte_offset": 3131,
+      "new": -8771,
+      "old": -6053,
+      "validation": "accepted-row3-member-min"
+    },
+    {
+      "byte_offset": 3029,
+      "new": -11828,
+      "old": -12665,
+      "validation": "accepted-row3-nonmember-max"
+    },
+    {
+      "byte_offset": 3131,
+      "new": -3135,
+      "old": -6053,
+      "validation": "accepted-row3-nonmember-max"
+    },
+    {
+      "byte_offset": 3045,
+      "new": 19467,
+      "old": 17934,
+      "validation": "accepted-row4-member-min"
+    },
+    {
+      "byte_offset": 3133,
+      "new": -2129,
+      "old": -296,
+      "validation": "accepted-row4-member-min"
+    },
+    {
+      "byte_offset": 3045,
+      "new": 16427,
+      "old": 17934,
+      "validation": "accepted-row4-nonmember-max"
+    },
+    {
+      "byte_offset": 3133,
+      "new": 1533,
+      "old": -296,
+      "validation": "accepted-row4-nonmember-max"
+    },
+    {
+      "byte_offset": 3061,
+      "new": 25444,
+      "old": 26308,
+      "validation": "accepted-row5-member-min"
+    },
+    {
+      "byte_offset": 3135,
+      "new": -10746,
+      "old": -8029,
+      "validation": "accepted-row5-member-min"
+    },
+    {
+      "byte_offset": 3061,
+      "new": 27371,
+      "old": 26308,
+      "validation": "accepted-row5-nonmember-max"
+    },
+    {
+      "byte_offset": 3135,
+      "new": -5696,
+      "old": -8029,
+      "validation": "accepted-row5-nonmember-max"
+    },
+    {
+      "byte_offset": 3077,
+      "new": 9312,
+      "old": 9969,
+      "validation": "accepted-row6-member-min"
+    },
+    {
+      "byte_offset": 3137,
+      "new": -11642,
+      "old": -9588,
+      "validation": "accepted-row6-member-min"
+    },
+    {
+      "byte_offset": 3077,
+      "new": 10602,
+      "old": 9969,
+      "validation": "accepted-row6-nonmember-max"
+    },
+    {
+      "byte_offset": 3137,
+      "new": -7864,
+      "old": -9588,
+      "validation": "accepted-row6-nonmember-max"
+    },
+    {
+      "byte_offset": 3093,
+      "new": 15132,
+      "old": 13312,
+      "validation": "accepted-row7-member-min"
+    },
+    {
+      "byte_offset": 3139,
+      "new": -7723,
+      "old": -6604,
+      "validation": "accepted-row7-member-min"
+    },
+    {
+      "byte_offset": 3093,
+      "new": 12221,
+      "old": 13312,
+      "validation": "accepted-row7-nonmember-max"
+    },
+    {
+      "byte_offset": 3139,
+      "new": -5404,
+      "old": -6604,
+      "validation": "accepted-row7-nonmember-max"
+    },
+    {
+      "byte_offset": 3109,
+      "new": 16526,
+      "old": 16013,
+      "validation": "accepted-row8-member-min"
+    },
+    {
+      "byte_offset": 3141,
+      "new": 5772,
+      "old": 8191,
+      "validation": "accepted-row8-member-min"
+    },
+    {
+      "byte_offset": 3109,
+      "new": 15242,
+      "old": 16013,
+      "validation": "accepted-row8-nonmember-max"
+    },
+    {
+      "byte_offset": 3141,
+      "new": 10096,
+      "old": 8191,
+      "validation": "accepted-row8-nonmember-max"
+    },
+    {
+      "byte_offset": 2981,
+      "new": 8439,
+      "old": 8921,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 2997,
+      "new": -2897,
+      "old": -2869,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3013,
+      "new": 4481,
+      "old": 5207,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3029,
+      "new": -13633,
+      "old": -12665,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3045,
+      "new": 16427,
+      "old": 17934,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3061,
+      "new": 25444,
+      "old": 26308,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3077,
+      "new": 9312,
+      "old": 9969,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3093,
+      "new": 12221,
+      "old": 13312,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3109,
+      "new": 15242,
+      "old": 16013,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3125,
+      "new": 140,
+      "old": 1634,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3127,
+      "new": 888,
+      "old": 915,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3129,
+      "new": -4877,
+      "old": -2758,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3131,
+      "new": -8771,
+      "old": -6053,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3133,
+      "new": -2129,
+      "old": -296,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3135,
+      "new": -10746,
+      "old": -8029,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3137,
+      "new": -11642,
+      "old": -9588,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3139,
+      "new": -7723,
+      "old": -6604,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 3141,
+      "new": 5772,
+      "old": 8191,
+      "validation": "accepted-all-b0-w0"
+    },
+    {
+      "byte_offset": 2981,
+      "new": 9418,
+      "old": 8921,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 2997,
+      "new": -2363,
+      "old": -2869,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3013,
+      "new": 5756,
+      "old": 5207,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3029,
+      "new": -11828,
+      "old": -12665,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3045,
+      "new": 19467,
+      "old": 17934,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3061,
+      "new": 27371,
+      "old": 26308,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3077,
+      "new": 10602,
+      "old": 9969,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3093,
+      "new": 15132,
+      "old": 13312,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3109,
+      "new": 16526,
+      "old": 16013,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3125,
+      "new": 140,
+      "old": 1634,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3127,
+      "new": 888,
+      "old": 915,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3129,
+      "new": -4877,
+      "old": -2758,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3131,
+      "new": -8771,
+      "old": -6053,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3133,
+      "new": -2129,
+      "old": -296,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3135,
+      "new": -10746,
+      "old": -8029,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3137,
+      "new": -11642,
+      "old": -9588,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3139,
+      "new": -7723,
+      "old": -6604,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 3141,
+      "new": 5772,
+      "old": 8191,
+      "validation": "accepted-all-b0-w1"
+    },
+    {
+      "byte_offset": 2981,
+      "new": 8439,
+      "old": 8921,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 2997,
+      "new": -2897,
+      "old": -2869,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3013,
+      "new": 4481,
+      "old": 5207,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3029,
+      "new": -13633,
+      "old": -12665,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3045,
+      "new": 16427,
+      "old": 17934,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3061,
+      "new": 25444,
+      "old": 26308,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3077,
+      "new": 9312,
+      "old": 9969,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3093,
+      "new": 12221,
+      "old": 13312,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3109,
+      "new": 15242,
+      "old": 16013,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3125,
+      "new": 4079,
+      "old": 1634,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3127,
+      "new": 1969,
+      "old": 915,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3129,
+      "new": -506,
+      "old": -2758,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3131,
+      "new": -3135,
+      "old": -6053,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3133,
+      "new": 1533,
+      "old": -296,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3135,
+      "new": -5696,
+      "old": -8029,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3137,
+      "new": -7864,
+      "old": -9588,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3139,
+      "new": -5404,
+      "old": -6604,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 3141,
+      "new": 10096,
+      "old": 8191,
+      "validation": "accepted-all-b1-w0"
+    },
+    {
+      "byte_offset": 2981,
+      "new": 9418,
+      "old": 8921,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 2997,
+      "new": -2363,
+      "old": -2869,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3013,
+      "new": 5756,
+      "old": 5207,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3029,
+      "new": -11828,
+      "old": -12665,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3045,
+      "new": 19467,
+      "old": 17934,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3061,
+      "new": 27371,
+      "old": 26308,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3077,
+      "new": 10602,
+      "old": 9969,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3093,
+      "new": 15132,
+      "old": 13312,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3109,
+      "new": 16526,
+      "old": 16013,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3125,
+      "new": 4079,
+      "old": 1634,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3127,
+      "new": 1969,
+      "old": 915,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3129,
+      "new": -506,
+      "old": -2758,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3131,
+      "new": -3135,
+      "old": -6053,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3133,
+      "new": 1533,
+      "old": -296,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3135,
+      "new": -5696,
+      "old": -8029,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3137,
+      "new": -7864,
+      "old": -9588,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3139,
+      "new": -5404,
+      "old": -6604,
+      "validation": "accepted-all-b1-w1"
+    },
+    {
+      "byte_offset": 3141,
+      "new": 10096,
+      "old": 8191,
+      "validation": "accepted-all-b1-w1"
+    }
+  ],
+  "full_joint_feasible_pairs_product_decimal": "589152237286309009978125318940289175295633407974459344434482398320",
+  "independent_board_weight_sign_evaluations": 148766720,
+  "independent_canonical_boards": 627,
+  "independent_raw_boards": 4520,
+  "independent_scalar_full_head_checks": 332937,
+  "independently_verified_weight_codes": 589824,
+  "no_shared014_core_decoder_or_production_policy_arithmetic": true,
+  "packet_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "pass_all": true,
+  "per_row": [
+    {
+      "all_weight_codes": 65536,
+      "feasible_signed16_bias_weight_pairs_decimal": "12873419",
+      "row": 0,
+      "source_bias_byte_offset": 3125,
+      "source_weight_byte_offset": 2981
+    },
+    {
+      "all_weight_codes": 65536,
+      "feasible_signed16_bias_weight_pairs_decimal": "3985209",
+      "row": 1,
+      "source_bias_byte_offset": 3127,
+      "source_weight_byte_offset": 2997
+    },
+    {
+      "all_weight_codes": 65536,
+      "feasible_signed16_bias_weight_pairs_decimal": "24088167",
+      "row": 2,
+      "source_bias_byte_offset": 3129,
+      "source_weight_byte_offset": 3013
+    },
+    {
+      "all_weight_codes": 65536,
+      "feasible_signed16_bias_weight_pairs_decimal": "38531045",
+      "row": 3,
+      "source_bias_byte_offset": 3131,
+      "source_weight_byte_offset": 3029
+    },
+    {
+      "all_weight_codes": 65536,
+      "feasible_signed16_bias_weight_pairs_decimal": "38134874",
+      "row": 4,
+      "source_bias_byte_offset": 3133,
+      "source_weight_byte_offset": 3045
+    },
+    {
+      "all_weight_codes": 65536,
+      "feasible_signed16_bias_weight_pairs_decimal": "36840972",
+      "row": 5,
+      "source_bias_byte_offset": 3135,
+      "source_weight_byte_offset": 3061
+    },
+    {
+      "all_weight_codes": 65536,
+      "feasible_signed16_bias_weight_pairs_decimal": "17418422",
+      "row": 6,
+      "source_bias_byte_offset": 3137,
+      "source_weight_byte_offset": 3077
+    },
+    {
+      "all_weight_codes": 65536,
+      "feasible_signed16_bias_weight_pairs_decimal": "23785039",
+      "row": 7,
+      "source_bias_byte_offset": 3139,
+      "source_weight_byte_offset": 3093
+    },
+    {
+      "all_weight_codes": 65536,
+      "feasible_signed16_bias_weight_pairs_decimal": "21256997",
+      "row": 8,
+      "source_bias_byte_offset": 3141,
+      "source_weight_byte_offset": 3109
+    }
+  ],
+  "raw_reachability_minimax_D4_masks_ties": true
+}

@@ -1,0 +1,266 @@
+{
+  "canonical_coverage_fraction": "37/627",
+  "complete_games": 9,
+  "d4_groups": {
+    "(0, 4, 1, 2, 6, 3, 5, 7, 8)": [
+      0,
+      2
+    ],
+    "(0, 4, 5, 1, 7, 8, 3, 6, 2)": [
+      6
+    ],
+    "(0, 4, 5, 7, 1, 2, 6, 3, 8)": [
+      8
+    ],
+    "(1, 4, 3, 0, 8, 7, 5, 2, 6)": [
+      5,
+      7
+    ],
+    "(1, 4, 3, 2, 6, 0, 8, 7, 5)": [
+      1
+    ],
+    "(1, 4, 3, 6, 2, 0, 8, 5, 7)": [
+      3
+    ],
+    "(4, 0, 1, 7, 5, 3, 6, 2, 8)": [
+      4
+    ]
+  },
+  "d4_trajectory_classes": 7,
+  "discovery_forward_calls": 1,
+  "domain_canonical": 627,
+  "domain_raw": 4520,
+  "first_game_sequence_one_based": [
+    5,
+    3,
+    2,
+    8,
+    4,
+    6,
+    9,
+    1,
+    7
+  ],
+  "first_opening_one_based": 5,
+  "full_stage_names": [
+    "attended",
+    "attention_probs",
+    "attention_residual",
+    "attention_scores",
+    "board_embedding",
+    "board_key",
+    "board_normalized",
+    "board_query",
+    "board_value",
+    "expert_hidden",
+    "expert_hidden_pre",
+    "expert_outputs",
+    "gates",
+    "logits",
+    "merged",
+    "norm2_output",
+    "projected",
+    "readout_gelu",
+    "readout_pre",
+    "router_scores",
+    "routes"
+  ],
+  "game_forward_calls": 81,
+  "gate_unit": "Q15 denominator32768, not move confidence",
+  "host_only": true,
+  "imports": {
+    "falken9": "/home/ai/falken9-playpath-study-015/falken9/__init__.py",
+    "falken9.canonical_integer": "/home/ai/falken9-playpath-study-015/falken9/canonical_integer.py",
+    "falken9.canonical_integer_export": "/home/ai/falken9-playpath-study-015/falken9/canonical_integer_export.py",
+    "falken9.flexible_integer": "/home/ai/falken9-playpath-study-015/falken9/flexible_integer.py",
+    "falken9.integer_export": "/home/ai/falken9-playpath-study-015/falken9/integer_export.py",
+    "falken9.integer_model": "/home/ai/falken9-playpath-study-015/falken9/integer_model.py",
+    "falken9.policy": "/home/ai/falken9-playpath-study-015/falken9/policy.py",
+    "falken9.strategy_diagnostics": "/home/ai/falken9-playpath-study-015/falken9/strategy_diagnostics.py",
+    "falken9.symmetry": "/home/ai/falken9-playpath-study-015/falken9/symmetry.py"
+  },
+  "lengths": [
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9,
+    9
+  ],
+  "manifest_sha256": "561c1dcea70868e22185096252b00cddc54732893eda739f35e01d1d2e26b0e2",
+  "minimax_wrong_sets": 0,
+  "native_replay": false,
+  "opening_count": 9,
+  "outcomes": {
+    "draw": 9
+  },
+  "packet_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "raw_coverage_fraction": "64/4520",
+  "raw_distinct_sequences": 9,
+  "reference_domain_forward_boards": 627,
+  "route_coverage": [
+    {
+      "domain_boards": 48,
+      "domain_gate_sums": [
+        1468279,
+        104585
+      ],
+      "game_step_visits": 0,
+      "route": [
+        0,
+        1
+      ],
+      "unique_path_canonical_boards": 0
+    },
+    {
+      "domain_boards": 9,
+      "domain_gate_sums": [
+        253994,
+        40918
+      ],
+      "game_step_visits": 0,
+      "route": [
+        0,
+        2
+      ],
+      "unique_path_canonical_boards": 0
+    },
+    {
+      "domain_boards": 77,
+      "domain_gate_sums": [
+        2389005,
+        134131
+      ],
+      "game_step_visits": 6,
+      "route": [
+        0,
+        3
+      ],
+      "unique_path_canonical_boards": 5
+    },
+    {
+      "domain_boards": 58,
+      "domain_gate_sums": [
+        1790318,
+        110226
+      ],
+      "game_step_visits": 21,
+      "route": [
+        1,
+        0
+      ],
+      "unique_path_canonical_boards": 8
+    },
+    {
+      "domain_boards": 12,
+      "domain_gate_sums": [
+        309373,
+        83843
+      ],
+      "game_step_visits": 9,
+      "route": [
+        1,
+        2
+      ],
+      "unique_path_canonical_boards": 1
+    },
+    {
+      "domain_boards": 7,
+      "domain_gate_sums": [
+        173525,
+        55851
+      ],
+      "game_step_visits": 0,
+      "route": [
+        1,
+        3
+      ],
+      "unique_path_canonical_boards": 0
+    },
+    {
+      "domain_boards": 34,
+      "domain_gate_sums": [
+        964460,
+        149652
+      ],
+      "game_step_visits": 0,
+      "route": [
+        2,
+        0
+      ],
+      "unique_path_canonical_boards": 0
+    },
+    {
+      "domain_boards": 126,
+      "domain_gate_sums": [
+        4024000,
+        104768
+      ],
+      "game_step_visits": 8,
+      "route": [
+        2,
+        1
+      ],
+      "unique_path_canonical_boards": 6
+    },
+    {
+      "domain_boards": 49,
+      "domain_gate_sums": [
+        1444046,
+        161586
+      ],
+      "game_step_visits": 4,
+      "route": [
+        2,
+        3
+      ],
+      "unique_path_canonical_boards": 1
+    },
+    {
+      "domain_boards": 75,
+      "domain_gate_sums": [
+        2347742,
+        109858
+      ],
+      "game_step_visits": 15,
+      "route": [
+        3,
+        0
+      ],
+      "unique_path_canonical_boards": 7
+    },
+    {
+      "domain_boards": 7,
+      "domain_gate_sums": [
+        207084,
+        22292
+      ],
+      "game_step_visits": 0,
+      "route": [
+        3,
+        1
+      ],
+      "unique_path_canonical_boards": 0
+    },
+    {
+      "domain_boards": 125,
+      "domain_gate_sums": [
+        3888061,
+        207939
+      ],
+      "game_step_visits": 18,
+      "route": [
+        3,
+        2
+      ],
+      "unique_path_canonical_boards": 9
+    }
+  ],
+  "unique_canonical_nonterminal_boards": 37,
+  "unique_raw_boards_including_terminal": 70,
+  "unique_raw_nonterminal_boards": 64,
+  "unique_raw_terminal_boards": 6
+}

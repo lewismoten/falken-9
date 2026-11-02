@@ -1,0 +1,20 @@
+{
+  "study": "004",
+  "scope": "Finite CPU host-only frozen packet analysis; no target execution, training, game edits or main writes",
+  "primary_questions": [
+    "Which actual routed hidden-unit -> expert-output -> final-head paths support or reject particular EMPTY candidate squares for wins, required blocks, fork creation/prevention and neutral positions?",
+    "Do apparent roles survive fixed matched board-position contrasts rather than global empty-set damage?",
+    "What exact pre-round score support comes from residual readout, each executed gated expert, bias and retained rounding/clamp residuals?"
+  ],
+  "prerequisite": "Verify 69 baseline hashes and 23 study003 hashes; reconstruct all627 saved actual-target stages/routes/logits and4520 host wrapper outcomes before novel evaluation",
+  "descriptive_scope": "All627 canonical boards, every square, every executed expert and hidden-unit/output-lane/head path; no inferential selection from confirmation outcomes",
+  "labels": "Independent row/column/diagonal geometry; candidate occupied-own/opponent or legal empty; immediate win; unique required block only without own win; fork creation absent immediate wins/threats; bounded fork prevention via viable opponent replies; neutral is no target label",
+  "matching": "For each positive empty canonical square, enumerate legal raw-board same-ply single-mark relocations preserving candidate emptiness, side, geometry-count vector, canonical fold, ordered routes and gate max-difference<=4096; require label negative at the identical raw square. Choose smallest changed raw indices then canonical ID; save both raw->canonical permutations. No relaxation if unavailable. This is a different legal input, not psychological causal proof.",
+  "selection": "Rank at most16 expert-hidden components by TRAIN ONLY matched-positive minus negative signed pre-round candidate support after subtracting each board's mean legal-square support. Choose at most2 distinct components across four tasks; append prior E1.h0/E3.h3 and same-expert next-unit controls; deduplicate; max6 components. At most one pair comprising two selected components.",
+  "interventions": "On host copies: selected/control components zero and half (post-GELU); selected pair zero/half; identities. New path-specific intervention for each selected component: remove only its TRAIN-selected largest absolute hidden->expert-output lane weight (zero/half) and control adjacent lane. Max24 path runs. No router changes expected; verify. Generic amplitude control half positive integer logits preserves signs/membership. No donor search or tuning.",
+  "arithmetic": "Independently scalar nearest-away rounding; derive every final logit with decoded exponents and raw integer numerators. Expand expert pre-round unit/bias terms through gate and head; retain shared expert-linear rounding/clamp, gate-mix rounding, merged clamp, head rounding/clamp as named unallocated exact residual terms. Never label lesion deltas additive contributions. Inactive experts null even if a zero gate executes another expert.",
+  "folds": "Existing seed1729 canonical-group train372/validation121/test134; not model-heldout nor OOD",
+  "acceptance": "Independent arithmetic/index/identity/immutability/label tests; saved raw alignment and path packet offsets; square-level examples plus counterexamples and failure classes; deterministic fresh-dir source/results/PNG/SVG byte reproduction; visually inspect; compact source/evidence bundle no ROMs/env/secrets; FINAL-STUDY-004.md/json then stop",
+  "bounds": {"threads":1,"canonical":627,"raw":4520,"candidate_components":16,"confirmed_components_max":6,"selected_components_max":2,"pairs_max":1,"path_runs_max":24,"dose_runs_max":14},
+  "forbidden": ["main checkout writes","emulator use","GPU initialization","training","model byte mutation","publication","combinatorial search"]
+}

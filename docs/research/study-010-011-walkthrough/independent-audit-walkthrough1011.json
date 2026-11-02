@@ -1,0 +1,10 @@
+{
+  "canonical_id": 341,
+  "embedding_scalars": 8,
+  "full_set_and_priority_checked": true,
+  "head_scalars": 9,
+  "merge_scalars": 8,
+  "passed": true,
+  "static_and_dynamic_separated": true,
+  "weighted_value_scalars": 8
+}

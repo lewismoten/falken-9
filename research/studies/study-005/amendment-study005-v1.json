@@ -1,0 +1,19 @@
+{
+  "study": "005",
+  "scope": "Execution-only amendment; core design/19 interventions/selection/probes unchanged; manifest/source frozen before evaluation retained byte-for-byte",
+  "original_manifest_sha256": "c5f0520175d22fe2d55dc658517c109d8202beb3a47ef9725ebb7054b362eb0d",
+  "issues": [
+    "NumPy int64 JSON serialization stopped first run before interventions; scalar-to-native JSON normalization only",
+    "Second run completed all19 interventions but matplotlib unavailable. Installed Pillow/immutable Canvas renderer substituted; no installs."
+  ],
+  "repair_source_sha256": {
+    "study005_execute.py": "a3cc3d0d4383de029ebcdc293cfa6738a31ff54182c58b257d45ae68e86924b8",
+    "study005_render.py": "b450204e02d626a278128d12ce6e67935f18a7f6067ea3b26f2a2008157efe99",
+    "scripts/render_strategy_maps.py": "3cf759428990392032dcb5c7e3c41963f38c94e80020729b16df96c998ca4bdd"
+  },
+  "attempts_preserved": [
+    "artifacts/interpretability/study-005-attempt1-serialization",
+    "artifacts/interpretability/study-005-attempt2-render"
+  ],
+  "interpretation_correction": "Use measured heterogeneous/concentrated entropy wording instead of untested generic broad-attention language; no selection/outcome changes."
+}

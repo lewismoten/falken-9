@@ -1,0 +1,64 @@
+{
+  "accepted_box_all_combinations_certified": true,
+  "accepted_combinations_decimal": "2522373614800652711731872849572328079552666036240711680000000",
+  "accepted_grid_numerator": 8,
+  "accepted_row_extremum_batches": 18,
+  "all_stages_restored": true,
+  "baseline": {
+    "canonical": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    },
+    "legal_negative_to_nonnegative": 0,
+    "legal_nonnegative_to_negative": 0,
+    "occupied_sign_crossings": 0,
+    "raw": {
+      "empty": 0,
+      "move_changes": 0,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 0,
+      "set_changes": 0
+    }
+  },
+  "baseline_batches": 1,
+  "baseline_stage_count": 21,
+  "candidate_batches": 58,
+  "composed_public_wrapper_calls": 528840,
+  "domain": {
+    "canonical": 627,
+    "previously_trained_and_audited": true,
+    "raw": 4520
+  },
+  "extra_whole_box_batches": 4,
+  "full_network_board_executions": 73359,
+  "grid_denominator": 16,
+  "grid_maximal_not_continuous_optimal": true,
+  "imports": {
+    "falken9": "/home/ai/falken9-joint-study-014/falken9/__init__.py",
+    "falken9.canonical_integer": "/home/ai/falken9-joint-study-014/falken9/canonical_integer.py",
+    "falken9.canonical_integer_export": "/home/ai/falken9-joint-study-014/falken9/canonical_integer_export.py",
+    "falken9.flexible_integer": "/home/ai/falken9-joint-study-014/falken9/flexible_integer.py",
+    "falken9.integer_export": "/home/ai/falken9-joint-study-014/falken9/integer_export.py",
+    "falken9.integer_model": "/home/ai/falken9-joint-study-014/falken9/integer_model.py",
+    "falken9.policy": "/home/ai/falken9-joint-study-014/falken9/policy.py",
+    "falken9.strategy_diagnostics": "/home/ai/falken9-joint-study-014/falken9/strategy_diagnostics.py",
+    "falken9.symmetry": "/home/ai/falken9-joint-study-014/falken9/symmetry.py",
+    "study014_core": "/home/ai/falken9-joint-study-014/study014_core.py",
+    "study014_run": "/home/ai/falken9-joint-study-014/study014_run.py"
+  },
+  "manifest_sha256": "2cf56a0b55f45274fb8ae760ac9ef4891e6271652b2f008a2a965428426c3582",
+  "model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "no_further_study": true,
+  "original_box_safe": false,
+  "original_failing_corner_batches": 31,
+  "original_row_corner_batches": 36,
+  "restoration_batches": 58,
+  "scalar_full_head_checks": 332937,
+  "study": "014",
+  "total_full_network_batches": 117
+}

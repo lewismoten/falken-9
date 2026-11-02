@@ -1,0 +1,59 @@
+{
+  "alignment": {
+    "both_square_axes": [
+      "attention_scores",
+      "attention_probs"
+    ],
+    "no_square_axis": [
+      "readout_pre",
+      "readout_gelu",
+      "norm2_output",
+      "router_scores",
+      "routes",
+      "gates",
+      "expert_hidden_pre",
+      "expert_hidden",
+      "expert_outputs",
+      "merged"
+    ],
+    "square_output": [
+      "logits"
+    ],
+    "square_rows": [
+      "board_embedding",
+      "board_normalized",
+      "board_query",
+      "board_key",
+      "board_value",
+      "attended",
+      "projected",
+      "attention_residual"
+    ]
+  },
+  "arithmetic": "Frozen deployed CPU exact integer contract; no parameter changes, training or target execution",
+  "baseline_sha256": "446d0dc45de156dd87a7a11bb177f700d37459e155059cfb6de261ccbc54979f",
+  "controls": [
+    "saved target baseline627/13167/5643 first",
+    "permutation inverse and square axes tests all8",
+    "identity all-stage no-op",
+    "canonicalized wrapper4520 full-set and original-coordinate ties unchanged",
+    "deduplicated direct batch versus per-transform execution"
+  ],
+  "domain": "627 previously trained/audited canonical legal nonterminal boards; 4520 unique raw boards; no new-domain generalization",
+  "examples": "First canonical ID with any nonidentity full-set disagreement, else first ID with nonidentity logit disagreement, else ID0. Show all8 transforms; no expansion.",
+  "limits": "Host CPU only; no main writes, deployment edits, services, installs or publication",
+  "maximum_seconds": 3600,
+  "metrics": [
+    "full legally masked set equality after inverse mapping to original canonical coordinates",
+    "raw-coordinate fixed-priority chosen optimality, empty sets, nonoptimal nonempty choices, full-set changes, optimal tie changes separately",
+    "exact aligned logits; spatial-axis stage equality, attention both query and key axes",
+    "route order/membership and gates; nonspatial latent units have NO invented permutation"
+  ],
+  "offline_labels": "Independent geometry and minimax used only in offline census/audit",
+  "preservation_sha256": "d3d8f3890d386bb0cbcadf5989c3b11e3f1fe69d7c61d195adc940441170657f",
+  "question": "How much D4 full-set symmetry is provided by the network versus the canonicalizing wrapper?",
+  "source_model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "study": "research010, NOT accepted C64 application010",
+  "transforms": "All 8 D4 source-to-destination permutations, each of 627 canonical boards; identity first. Evaluate frozen network directly on 4520 deduplicated occupancy inputs WITHOUT canonicalization, index back to 5016 orbit observations.",
+  "warning": "Noncanonical orientations are OFF-CONTRACT inputs for canonical-trained network. Direct failures are NOT failures of shipping wrapper. Fixed selected-move tie priority is not D4 equivariant. No claim of learned hidden invariance from wrapper outputs."
+}

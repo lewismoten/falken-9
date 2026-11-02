@@ -1,0 +1,20 @@
+{
+  "aligned_stage_counts_checked": 168,
+  "independent_minimax_raw_sets": 4520,
+  "independent_reachable_boards": 4520,
+  "independent_wrapper_reconstructions": 4520,
+  "no_new_target_execution": true,
+  "orbit_observations": 5016,
+  "passed": true,
+  "unique_metrics": {
+    "chosen_changes": 1981,
+    "chosen_errors": 1636,
+    "chosen_optimal": 2884,
+    "empty_sets": 485,
+    "full_set_changes": 3006,
+    "full_set_correct": 1514,
+    "n": 4520,
+    "nonoptimal_nonempty": 1151,
+    "optimal_tie_changes": 345
+  }
+}

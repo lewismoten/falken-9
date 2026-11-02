@@ -1,0 +1,130 @@
+[
+  {
+    "canonical": {
+      "chosen_changes": 240,
+      "chosen_errors": 222,
+      "chosen_optimal": 405,
+      "empty_sets": 42,
+      "full_set_changes": 391,
+      "full_set_correct": 236,
+      "n": 627,
+      "nonoptimal_nonempty": 180,
+      "optimal_tie_changes": 18
+    },
+    "chosen_not_transform_equivariant_observations": 4424,
+    "duplication_identity": true,
+    "false_legal_members": 3172,
+    "full_set_equivariance_failures": 0,
+    "full_set_equivariance_observations": 36160,
+    "missing_optimal_members": 2028,
+    "order_identity": true,
+    "policy": "mean-exact-sign",
+    "raw": {
+      "chosen_changes": 1783,
+      "chosen_errors": 1648,
+      "chosen_optimal": 2872,
+      "empty_sets": 304,
+      "full_set_changes": 2944,
+      "full_set_correct": 1576,
+      "n": 4520,
+      "nonoptimal_nonempty": 1344,
+      "optimal_tie_changes": 135
+    }
+  },
+  {
+    "canonical": {
+      "chosen_changes": 536,
+      "chosen_errors": 512,
+      "chosen_optimal": 115,
+      "empty_sets": 512,
+      "full_set_changes": 571,
+      "full_set_correct": 56,
+      "n": 627,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 24
+    },
+    "chosen_not_transform_equivariant_observations": 206,
+    "duplication_identity": true,
+    "false_legal_members": 0,
+    "full_set_equivariance_failures": 0,
+    "full_set_equivariance_observations": 36160,
+    "missing_optimal_members": 8018,
+    "order_identity": true,
+    "policy": "intersection",
+    "raw": {
+      "chosen_changes": 3980,
+      "chosen_errors": 3804,
+      "chosen_optimal": 716,
+      "empty_sets": 3804,
+      "full_set_changes": 4208,
+      "full_set_correct": 312,
+      "n": 4520,
+      "nonoptimal_nonempty": 0,
+      "optimal_tie_changes": 176
+    }
+  },
+  {
+    "canonical": {
+      "chosen_changes": 237,
+      "chosen_errors": 237,
+      "chosen_optimal": 390,
+      "empty_sets": 0,
+      "full_set_changes": 419,
+      "full_set_correct": 208,
+      "n": 627,
+      "nonoptimal_nonempty": 237,
+      "optimal_tie_changes": 0
+    },
+    "chosen_not_transform_equivariant_observations": 6956,
+    "duplication_identity": true,
+    "false_legal_members": 7036,
+    "full_set_equivariance_failures": 0,
+    "full_set_equivariance_observations": 36160,
+    "missing_optimal_members": 0,
+    "order_identity": true,
+    "policy": "union",
+    "raw": {
+      "chosen_changes": 1763,
+      "chosen_errors": 1763,
+      "chosen_optimal": 2757,
+      "empty_sets": 0,
+      "full_set_changes": 3132,
+      "full_set_correct": 1388,
+      "n": 4520,
+      "nonoptimal_nonempty": 1763,
+      "optimal_tie_changes": 0
+    }
+  },
+  {
+    "canonical": {
+      "chosen_changes": 194,
+      "chosen_errors": 175,
+      "chosen_optimal": 452,
+      "empty_sets": 19,
+      "full_set_changes": 335,
+      "full_set_correct": 292,
+      "n": 627,
+      "nonoptimal_nonempty": 156,
+      "optimal_tie_changes": 19
+    },
+    "chosen_not_transform_equivariant_observations": 4533,
+    "duplication_identity": true,
+    "false_legal_members": 3120,
+    "full_set_equivariance_failures": 0,
+    "full_set_equivariance_observations": 36160,
+    "missing_optimal_members": 1052,
+    "order_identity": true,
+    "policy": "vote-at-least-half",
+    "raw": {
+      "chosen_changes": 1445,
+      "chosen_errors": 1326,
+      "chosen_optimal": 3194,
+      "empty_sets": 144,
+      "full_set_changes": 2544,
+      "full_set_correct": 1976,
+      "n": 4520,
+      "nonoptimal_nonempty": 1182,
+      "optimal_tie_changes": 119
+    }
+  }
+]

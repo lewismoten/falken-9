@@ -1,0 +1,17 @@
+{
+  "all_sets_optimal": true,
+  "domain_full_forward_audits": 627,
+  "fixed_seed_prng_joint_state_records": 249,
+  "game_forward_audits": 81,
+  "game_stage_array_checks": 1701,
+  "game_stage_integer_checks": 68931,
+  "geometry_restore_fresh_raw_ties": true,
+  "independent_arbitrary_int_full_forward": true,
+  "independent_canonical_boards": 627,
+  "independent_packet_decoder": true,
+  "independent_raw_boards": 4520,
+  "native_execution": false,
+  "packet_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "passed": true,
+  "source_flow_bound": true
+}

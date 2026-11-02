@@ -1,0 +1,43 @@
+{
+  "board_transform_set_roundtrips": 36160,
+  "learned_transform_weights": false,
+  "tie_choice_nonequivariant_examples": 3227,
+  "first_tie_counterexample": {
+    "board": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "transformed": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "permutation": [
+      2,
+      5,
+      8,
+      1,
+      4,
+      7,
+      0,
+      3,
+      6
+    ],
+    "move": 2,
+    "mapped_move": 8,
+    "actual_move": 2
+  }
+}

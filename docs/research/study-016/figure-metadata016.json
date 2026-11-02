@@ -1,0 +1,28 @@
+{
+  "annotation_semantics": "exact full-policy continuation, not isolated move causality; membership not confidence",
+  "example_board": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "figures": [
+    "roles-outcomes016",
+    "branching-example016"
+  ],
+  "native_game_screenshots": false,
+  "offline_only": true,
+  "panels": 6,
+  "render_backend": "Pillow plus equivalent explicit SVG; no package installation",
+  "source_files": [
+    "results016.json",
+    "example016.json",
+    "independent-audit016.json"
+  ],
+  "text_bounds_checked": true
+}

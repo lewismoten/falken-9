@@ -1,0 +1,70 @@
+{
+  "schema": "falken9-model-inspection-presentation-v1",
+  "presentation_only": true,
+  "source_model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "source_onnx_sha256": "0e92767ffdae27b9cbd7682583839d4541419fb9bedf47dfaec73a0b00ee5160",
+  "originals": {
+    "workflow_png": {
+      "path": "assets/model-v1.0.0-tensor-workflow.png",
+      "sha256": "81e3af15bc66a9bc87e21e025f99f47109a17d8e1e239f3fe9b8e33bb4a508f7",
+      "copied_as": "tensor-workflow.png"
+    },
+    "workflow_svg": {
+      "path": "assets/model-v1.0.0-tensor-workflow.svg",
+      "sha256": "dacef58524a47696e7cba92f00d1ea2a11f9ed9c96f32f1204efe61a99f49a6a",
+      "copied_as": "tensor-workflow.svg"
+    },
+    "netron_png": {
+      "path": "artifacts/inspection/netron/falken9-model-v1.0.0.png",
+      "sha256": "887396291f33ad313809494ca7a9c4281dd926fe4cb9e0cc80ddd83669639bb2",
+      "copied_as": "netron-original.png"
+    },
+    "netron_svg": {
+      "path": "artifacts/inspection/netron/falken9-model-v1.0.0.svg",
+      "sha256": "07a7bd3b52deb087e962df60eb15fe2d76c304547834cd73c5b94283beff9430",
+      "copied_as": "netron-original.svg"
+    }
+  },
+  "dark_derivative": {
+    "origin": "Original native Netron 9.3.4 SVG export",
+    "method": "Only fill and stroke colors changed, including inherited text fill. No text, geometry, paths, dimensions, topology or weights changed. Not a fresh native Netron export.",
+    "rasterizer": "Chrome/145.0.7632.6 SVG Image.decode and canvas.drawImage, canvas.toDataURL PNG encoder",
+    "png_dimensions": [
+      648,
+      1750
+    ],
+    "png_source": "Separately browser-rendered, SHA-pinned input. This preparer promotes that verified raster; it does not silently substitute another font renderer."
+  },
+  "files": [
+    {
+      "path": "netron-dark.png",
+      "bytes": 168178,
+      "sha256": "33982cf05690532e9745e16e1c9ec3ae073dde1b948b71f41d00d40bf7ae8ff9"
+    },
+    {
+      "path": "netron-dark.svg",
+      "bytes": 38352,
+      "sha256": "e204f79a228af02e60e75c9caf8533c5d992a90a41e774f9be215c1083c30ab6"
+    },
+    {
+      "path": "netron-original.png",
+      "bytes": 102902,
+      "sha256": "887396291f33ad313809494ca7a9c4281dd926fe4cb9e0cc80ddd83669639bb2"
+    },
+    {
+      "path": "netron-original.svg",
+      "bytes": 39237,
+      "sha256": "07a7bd3b52deb087e962df60eb15fe2d76c304547834cd73c5b94283beff9430"
+    },
+    {
+      "path": "tensor-workflow.png",
+      "bytes": 190462,
+      "sha256": "81e3af15bc66a9bc87e21e025f99f47109a17d8e1e239f3fe9b8e33bb4a508f7"
+    },
+    {
+      "path": "tensor-workflow.svg",
+      "bytes": 170091,
+      "sha256": "dacef58524a47696e7cba92f00d1ea2a11f9ed9c96f32f1204efe61a99f49a6a"
+    }
+  ]
+}

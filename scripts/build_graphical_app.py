@@ -11,8 +11,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.build_runtime import ROOT, FOUR_MODEL, build as build_runtime
 from scripts.compile_graphics import compile_assets, C64_PALETTE
 
-APP_STAGE = '007-graphical'
-APP_STEM = 'falken9-'+APP_STAGE
+APP_STAGE = '011-graphical'
+APP_STEM = 'falken-9-'+APP_STAGE
 OUT = ROOT/'build/graphical'
 CODE = {c:i+1 for i,c in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZ')}
 CODE.update({c:i+27 for i,c in enumerate('0123456789')})
@@ -73,7 +73,20 @@ def presentation_forward():
             lines.extend(['    jsr '+m[2], '    jsr progress_event'])
             if m[1]=='jmp':lines.append('    rts')
         else:lines.append(line)
-    return 'EXPERT_COUNT = 4\n'+'\n'.join(lines)+'\n'
+    # All copied orchestration frames are balanced RTS frames (no local pushes).
+    # Check only after existing stage/subroutine boundaries. No core patch, no
+    # IRQ stack manipulation; each canceled frame returns normally with C=1.
+    assert not re.search(r'^\s*(pha|php|pla|plp)\s*$', text, re.M)
+    checked=[];checkpoint=0
+    for line in lines:
+        checked.append(line)
+        m=re.match(r'\s*jsr (\w+)\s*$',line)
+        if m and (m[1].startswith('graph_') or m[1] in {'progress_event','activity_tick'}):
+            checkpoint+=1
+            label=f'quit_continue_{checkpoint}'
+            checked.extend(['    php','    bit quit_pending',f'    bpl {label}',
+                            '    plp','    sec','    rts',label+':','    plp'])
+    return 'EXPERT_COUNT = 4\n'+'\n'.join(checked)+'\n'
 
 
 def build(output=None):
@@ -91,39 +104,45 @@ def build(output=None):
     def overlay(plane, colors, row, col, text, color):
         at=row*40+col;plane[at:at+len(text)] = encode(text);colors[at:at+len(text)] = bytes([color])*len(text)
     title = bytearray(paths['title_screen'].read_bytes());tc=bytearray(paths['title_color'].read_bytes())
-    brand, version, brand_col = 'FALCON-9', '1.0', 30
+    brand, version, brand_col = 'FALKEN-9', '1.0', 30
     overlay(title,tc,22,brand_col,brand,6)
     overlay(title,tc,23,brand_col+len(brand)-len(version),version,6)
     for row,text in [(22,'INFO'),(23,'QUIT')]:
         overlay(title,tc,row,2,text,12);tc[row*40+2]=1
     info=bytearray(paths['info_screen'].read_bytes());ic=bytearray(paths['info_color'].read_bytes())
-    overlay(info,ic,1,6,'FALCON-9 / MODEL INFO'.ljust(28),7)
+    overlay(info,ic,1,6,'FALKEN-9 / MODEL INFO'.ljust(28),7)
     footer='SCROLL: UP/DOWN QUIT: Q'
     overlay(info,ic,23,10,footer,12)
     for col in list(range(18,25))+[32]:ic[23*40+col]=1
     # Same 29x18 viewport and Markdown palette as the original archive viewer.
-    # URLs wrap without clipping. These are requested destinations, not a claim
-    # of publication; model/artifact slugs intentionally retain frozen spelling.
-    sections=[('FALCON-9 1.0',1),('MODEL',7),('5195 BYTES - F9J2 INTEGER',1),
+    # Public destinations retain their intended repository spelling. Release
+    # publication state is tracked privately, not presented as in-game copy.
+    sections=[('FALKEN-9 1.0',1),('MODEL',7),('5195 BYTES - F9J2 INTEGER',1),
         ('4 EXPERTS / 2 ACTIVE',1),('Q11 / W16 / A32',1),('ATTENTION + ROUTED MLP',1),
         ('ALL WEIGHTS STAY IN RAM',1),('',1),('CONTROLS',7),
         ('1-9: SQUARES 123/456/789',1),('R: REPLAY   Q: TITLE',1),('M: MUTE / UNMUTE SID',1),
         ('1 PLAYER: YOU X / MODEL O',1),('2 PLAYERS: ALTERNATE X/O',1),
-        ('0 PLAYERS: CONTINUOUS DEMO',1),('ALL MOVES RUN THE MODEL',1),
+        ('0 PLAYERS: CONTINUOUS DEMO',1),('ALL AI MOVES RUN THE MODEL',1),
         ('FIRST GAME: FIXED OPENING TIE',1),('LATER OPENINGS: RANDOM TIES',1),
         ('ONLY FROM MODEL APPROVED SET',1),('FROZEN MODEL - NOT LEARNING',1),
-        ('2 SECOND RESULT / AUTO REPLAY',1),('Q / R AT SAFE TURN BOUNDARIES',1),('',1),('DISPLAY',7),
+        ('2 SECOND RESULT / AUTO REPLAY',1),('Q: CANCEL AT STAGE BOUNDARY',1),('',1),('DISPLAY',7),
         ('X / O: TURN OR WINNER',1),('D: DRAW   ?: INVALID',1),('!: ERROR - R OR Q',1),
         ('BAR: COMPLETED COMPUTE WORK',1),('RED X / BLUE O',1),
         ('LIGHTS: ACTIVITY NOT PROGRESS',1),('ORIGINAL SID: PATIENT',1),('CALCULATIONS - TWO VOICES',1),
-        ('VOICE 3: QUIET UI / MARK SFX',1),('DECORATIVE - NOT STRATEGY',1),('',1),('REPOSITORIES',7),
-        ('REQUESTED - NOT YET PUBLISHED',1),
-        ('HTTPS://GITHUB.COM/LEWISMOTEN/FALCON-9',1),('',1),
-        ('HTTPS://HUGGINGFACE.CO/LEWISMOTEN/FALCON-9',1),('',1),('RUNTIME BOUNDARY',7),
+        ('VOICE 3: QUIET UI / MARK SFX',1),('DECORATIVE - NOT STRATEGY',1),('',1),('LINEAGE',7),
+        ('PALACE-9: GGUF / LOCAL LLM',1),('CRYSTAL-9: CUSTOM INT4',1),
+        ('CRYSTAL PALACE: C64 PORT',1),('FALKEN-9: NEW C64-FIRST MODEL',1),
+        ('WIDTH 8 / EXPERT WIDTH 4',1),('NOT REPACKED CRYSTAL WEIGHTS',1),('',1),('INSPIRATION',7),
+        ('INSPIRED BY WARGAMES (1983)',1),('NAMED FOR DR. STEPHEN FALKEN',1),
+        ('FICTIONAL RESEARCHER BEHIND',1),('JOSHUA - AI ON THE WOPR',1),
+        ('WAR-SIMULATION COMPUTER',1),('THIS GAME: TIC-TAC-TOE ONLY',1),
+        ('MILITARY SETTING IS FICTION',1),('',1),('MODEL AND SOURCE',7),
+        ('HTTPS://GITHUB.COM/LEWISMOTEN/FALKEN-9',1),('',1),
+        ('HTTPS://HUGGINGFACE.CO/LEWISMOTEN/FALKEN-9',1),('',1),('RUNTIME BOUNDARY',7),
         ('EMULATOR-TESTED ONLY',10),('NO PHYSICAL C64 ACCEPTANCE',1),
         ('NO HOSTED INFERENCE',1),('FIXED BOARD SYMMETRIES',1),
         ('ROTATE / REFLECT / INVERSE',1),('ARE NOT LEARNED WEIGHTS',1),
-        ('FROZEN MODEL: MODEL-V1.0.0',1),('ARTIFACT SLUG: FALKEN9',1)]
+        ('FROZEN MODEL: MODEL-V1.0.0',1),('ARTIFACT SLUG: FALKEN-9',1)]
     info_lines=[];info_colors=[]
     for text,color in sections:
         for line in textwrap.wrap(text,29,break_long_words=True,break_on_hyphens=False) or ['']:
@@ -151,8 +170,9 @@ def build(output=None):
     glyphs=replay+quit_glyphs
     for cell,glyph in zip(footer_cells,glyphs):
         r=regions['board_bitmap'];assert packed[r['offset']+cell*8:r['offset']+cell*8+8]==bytes(8)
-        packed[r['offset']+cell*8:r['offset']+cell*8+8]=glyph
-        for plane,value in [('screen',0x60 if cell<24*40+5 else 0xc0),('color',0)]:
+        # Replay is an end-of-game control, never baked into active/auto art.
+        packed[r['offset']+cell*8:r['offset']+cell*8+8] = glyph if cell >= 24*40+36 else bytes(8)
+        for plane,value in [('screen',0xc0 if cell==24*40+36 else 0x60),('color',0)]:
             packed[regions['board_'+plane]['offset']+cell]=value
     game_footer=dict(cells=footer_cells,glyphs=[g.hex() for g in glyphs],replay_cells=footer_cells[:5],quit_cells=footer_cells[5:])
     def linear(v):return v/12.92 if v<=.04045 else ((v+.055)/1.055)**2.4
@@ -197,11 +217,24 @@ def build(output=None):
                      f'    lda #{(screen[c]&(~mask&255))|(0x90 if mask==0xf0 else 9)}','+',f'    sta ${0x400+c:04x}']
     services += ['    lda #1','    jsr audio_event','    pla','    tay','    pla','    tax','    pla','    plp','    rts','activity_reset:','    lda #0','    sta activity_phase']
     for c in activity_cells:services += [f'    lda #{screen[c]}',f'    sta ${0x400+c:04x}']
-    services += ['    rts','paint_footer:','    lda $7819','    beq footer_subdued','    lda #$10','    sta $07c0','    lda #$c0','    bne footer_body',
-                 'footer_subdued:','    lda #$b0','    sta $07c0','    lda #$60','footer_body:']
+    # Fixed application ABI: mode $7853, terminal $7819. Five contiguous cells.
+    # Clear stale replay pixels on every nonterminal/automatic reset, not just ink.
+    assert footer_cells[:5] == list(range(24*40,24*40+5))
+    replay_bitmap = 0x2000+footer_cells[0]*8
+    services += ['    rts','paint_footer:','    lda $7853','    beq footer_hide_replay',
+                 '    lda $7819','    beq footer_hide_replay','    cmp #4','    bcs footer_hide_replay',
+                 '    ldx #39','footer_show_pixels:','    lda footer_replay_glyphs,x',
+                 f'    sta ${replay_bitmap:04x},x','    dex','    bpl footer_show_pixels',
+                 '    lda #$10','    sta $07c0','    lda #$c0','    bne footer_replay_ink',
+                 'footer_hide_replay:','    ldx #39','    lda #0','footer_hide_pixels:',
+                 f'    sta ${replay_bitmap:04x},x','    dex','    bpl footer_hide_pixels',
+                 '    sta $07c0','footer_replay_ink:']
     services += [f'    sta ${0x400+c:04x}' for c in footer_cells[1:5]]
-    services += ['    lda #$10',f'    sta ${0x400+footer_cells[5]:04x}','    lda #$c0']
-    services += [f'    sta ${0x400+c:04x}' for c in footer_cells[6:]]+['    rts','    .include "sid_audio.asm"','    .include "auto_demo.asm"','services_end:','.cerror * > $6000, "services overlap neural scratch"']
+    services += ['    lda #$c0',f'    sta ${0x400+footer_cells[5]:04x}','    lda #$60']
+    services += [f'    sta ${0x400+c:04x}' for c in footer_cells[6:]]
+    services += ['    rts','footer_replay_glyphs:','    .byte '+','.join(map(str,b''.join(replay))),
+                 '    .include "sid_audio.asm"','    .include "auto_demo.asm"','    .include "quit_capture.asm"',
+                 'services_end:','.cerror * > $6000, "services overlap neural scratch"']
     (out/'services.asm').write_text('\n'.join(services)+'\n')
     notes=[round((440*2**((40+i-69)/12))*2**24/clock) for clock in (985248,1022727) for i in range(32)]
     (out/'notes.inc').write_text('note_lo: .byte '+','.join(str(v&255) for v in notes)+'\nnote_hi: .byte '+','.join(str(v>>8) for v in notes)+'\n')
@@ -317,7 +350,7 @@ def build(output=None):
     path=out/(APP_STEM+'.prg');path.write_bytes(b'\x01\x08'+prg)
     (out/'combined.bin').write_bytes(full)
     info=dict(prg_path=str(path),prg_sha256=sha(path.read_bytes()),path=str(out/'combined.bin'),load=0x800,labels=labels,core=core,image_sha256=sha(full),app_code_start=0x8000,app_code_end=labels['app_end'],graphics_paths={k:str(v) for k,v in paths.items()},graphics=graphics,numeric_labels=numeric_labels,charset_codes=code,statuses=STATUSES,activity_cells=activity_cells,activity_masks=light_masks,game_footer=game_footer,
-              memory_map=core['memory_map']+[dict(name='service_state',start=0x5480,end=0x5500,writable=True),dict(name='sid',start=0xd400,end=0xd419,writable=True),dict(name='irq_vector',start=0x314,end=0x316,writable=True),dict(name='raster',start=0xd011,end=0xd013,writable=True),dict(name='vic_irq',start=0xd019,end=0xd01b,writable=True),dict(name='app_state',start=0x7800,end=0x7900,writable=True),dict(name='bitmap_or_charset',start=0x2000,end=0x4000,writable=True),dict(name='screen',start=0x400,end=0x800,writable=True),dict(name='color',start=0xd800,end=0xdc00,writable=True)])
+              memory_map=core['memory_map']+[dict(name='service_state',start=0x5480,end=0x5500,writable=True),dict(name='sid',start=0xd400,end=0xd419,writable=True),dict(name='irq_vector',start=0x314,end=0x316,writable=True),dict(name='raster',start=0xd011,end=0xd013,writable=True),dict(name='vic_irq',start=0xd019,end=0xd01b,writable=True),dict(name='keyboard_count',start=0xc6,end=0xc7,writable=True),dict(name='keyboard_queue',start=0x277,end=0x281,writable=True),dict(name='app_state',start=0x7800,end=0x7900,writable=True),dict(name='bitmap_or_charset',start=0x2000,end=0x4000,writable=True),dict(name='screen',start=0x400,end=0x800,writable=True),dict(name='color',start=0xd800,end=0xdc00,writable=True)])
     (out/'build.json').write_text(json.dumps(info,indent=2)+'\n')
     return info
 

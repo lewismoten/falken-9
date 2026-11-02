@@ -1,0 +1,1125 @@
+{
+  "callouts": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "canonical_id": 2,
+  "exact_sum_sign": true,
+  "figures": [
+    {
+      "height": 920,
+      "name": "overview012",
+      "text_boxes": [
+        {
+          "bounds": [
+            30,
+            23,
+            1060,
+            54
+          ],
+          "text": "Research012 | Exact symmetry does not guarantee correct moves"
+        },
+        {
+          "bounds": [
+            30,
+            81,
+            1069,
+            103
+          ],
+          "text": "Fixed external D4 aggregation of the frozen network outputs; OFF-CONTRACT offline compute."
+        },
+        {
+          "bounds": [
+            30,
+            149,
+            1132,
+            171
+          ],
+          "text": "A  Every aggregate is perfectly full-set D4 equivariant on 36,160 raw-board/transform observations."
+        },
+        {
+          "bounds": [
+            30,
+            208,
+            625,
+            233
+          ],
+          "text": "B  Complete sets on 4,520 unique raw boards"
+        },
+        {
+          "bounds": [
+            30,
+            275,
+            241,
+            297
+          ],
+          "text": "Exact group mean"
+        },
+        {
+          "bounds": [
+            920,
+            275,
+            1180,
+            293
+          ],
+          "text": "1,576 /4,520 exact sets"
+        },
+        {
+          "bounds": [
+            330,
+            320,
+            999,
+            340
+          ],
+          "text": "empty 304 | nonoptimal nonempty 1344 | optimal tie changes 135"
+        },
+        {
+          "bounds": [
+            30,
+            379,
+            234,
+            400
+          ],
+          "text": "Intersection (all8)"
+        },
+        {
+          "bounds": [
+            920,
+            379,
+            1159,
+            397
+          ],
+          "text": "312 /4,520 exact sets"
+        },
+        {
+          "bounds": [
+            330,
+            424,
+            973,
+            444
+          ],
+          "text": "empty 3804 | nonoptimal nonempty 0 | optimal tie changes 176"
+        },
+        {
+          "bounds": [
+            30,
+            483,
+            179,
+            505
+          ],
+          "text": "Union (any1)"
+        },
+        {
+          "bounds": [
+            920,
+            483,
+            1180,
+            501
+          ],
+          "text": "1,388 /4,520 exact sets"
+        },
+        {
+          "bounds": [
+            330,
+            528,
+            948,
+            548
+          ],
+          "text": "empty 0 | nonoptimal nonempty 1763 | optimal tie changes 0"
+        },
+        {
+          "bounds": [
+            30,
+            587,
+            232,
+            606
+          ],
+          "text": "At least4 /8 votes"
+        },
+        {
+          "bounds": [
+            920,
+            587,
+            1180,
+            605
+          ],
+          "text": "1,976 /4,520 exact sets"
+        },
+        {
+          "bounds": [
+            330,
+            632,
+            999,
+            652
+          ],
+          "text": "empty 144 | nonoptimal nonempty 1182 | optimal tie changes 119"
+        },
+        {
+          "bounds": [
+            30,
+            740,
+            822,
+            760
+          ],
+          "text": "C  Frozen canonicalizing wrapper: 4,520 /4,520 correct complete legal sets."
+        },
+        {
+          "bounds": [
+            30,
+            777,
+            1207,
+            797
+          ],
+          "text": "Intersection cannot add false members; union cannot omit optimal members. Neither control proves exactness."
+        },
+        {
+          "bounds": [
+            30,
+            814,
+            1117,
+            834
+          ],
+          "text": "Mean uses exact sum>=0; no rounding of a small negative mean to zero. Scores are NOT probabilities."
+        },
+        {
+          "bounds": [
+            29,
+            851,
+            1046,
+            871
+          ],
+          "text": "These aggregations are fixed postprocessing, not learned symmetry or a deployed replacement."
+        }
+      ],
+      "width": 1400
+    },
+    {
+      "height": 1060,
+      "name": "case012",
+      "text_boxes": [
+        {
+          "bounds": [
+            30,
+            23,
+            1029,
+            51
+          ],
+          "text": "One actual counterexample | Canonical ID2 | Whole sets, fresh raw ties"
+        },
+        {
+          "bounds": [
+            30,
+            80,
+            975,
+            100
+          ],
+          "text": "Blue fill = correct member; red fill = false member; green border = complete optimal set."
+        },
+        {
+          "bounds": [
+            25,
+            135,
+            236,
+            157
+          ],
+          "text": "Exact group mean"
+        },
+        {
+          "bounds": [
+            65,
+            188,
+            74,
+            196
+          ],
+          "text": "a"
+        },
+        {
+          "bounds": [
+            88.5,
+            226.5,
+            98.5,
+            230.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            140,
+            185,
+            149,
+            196
+          ],
+          "text": "b"
+        },
+        {
+          "bounds": [
+            163.5,
+            226.5,
+            173.5,
+            230.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            215,
+            188,
+            223,
+            196
+          ],
+          "text": "c"
+        },
+        {
+          "bounds": [
+            238.5,
+            226.5,
+            248.5,
+            230.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            65,
+            260,
+            74,
+            271
+          ],
+          "text": "d"
+        },
+        {
+          "bounds": [
+            88.5,
+            301.5,
+            98.5,
+            305.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            140,
+            263,
+            149,
+            271
+          ],
+          "text": "e"
+        },
+        {
+          "bounds": [
+            163.5,
+            301.5,
+            173.5,
+            305.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            215,
+            260,
+            221,
+            271
+          ],
+          "text": "f"
+        },
+        {
+          "bounds": [
+            238.5,
+            301.5,
+            248.5,
+            305.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            65,
+            338,
+            74,
+            349
+          ],
+          "text": "g"
+        },
+        {
+          "bounds": [
+            88.5,
+            376.5,
+            98.5,
+            380.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            140,
+            335,
+            149,
+            346
+          ],
+          "text": "h"
+        },
+        {
+          "bounds": [
+            163.5,
+            358.5,
+            187.5,
+            380.5
+          ],
+          "text": "O"
+        },
+        {
+          "bounds": [
+            215,
+            335,
+            219,
+            346
+          ],
+          "text": "i"
+        },
+        {
+          "bounds": [
+            238.5,
+            358.5,
+            259.5,
+            380.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            25,
+            434,
+            149,
+            453
+          ],
+          "text": "set {acdef}"
+        },
+        {
+          "bounds": [
+            25,
+            468,
+            119,
+            484
+          ],
+          "text": "chosen e"
+        },
+        {
+          "bounds": [
+            25,
+            502,
+            142,
+            521
+          ],
+          "text": "truth {cef}"
+        },
+        {
+          "bounds": [
+            371,
+            135,
+            575,
+            156
+          ],
+          "text": "Intersection (all8)"
+        },
+        {
+          "bounds": [
+            411,
+            188,
+            420,
+            196
+          ],
+          "text": "a"
+        },
+        {
+          "bounds": [
+            434.5,
+            226.5,
+            444.5,
+            230.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            486,
+            185,
+            495,
+            196
+          ],
+          "text": "b"
+        },
+        {
+          "bounds": [
+            509.5,
+            226.5,
+            519.5,
+            230.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            561,
+            188,
+            569,
+            196
+          ],
+          "text": "c"
+        },
+        {
+          "bounds": [
+            584.5,
+            226.5,
+            594.5,
+            230.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            411,
+            260,
+            420,
+            271
+          ],
+          "text": "d"
+        },
+        {
+          "bounds": [
+            434.5,
+            301.5,
+            444.5,
+            305.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            486,
+            263,
+            495,
+            271
+          ],
+          "text": "e"
+        },
+        {
+          "bounds": [
+            509.5,
+            301.5,
+            519.5,
+            305.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            561,
+            260,
+            567,
+            271
+          ],
+          "text": "f"
+        },
+        {
+          "bounds": [
+            584.5,
+            301.5,
+            594.5,
+            305.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            411,
+            338,
+            420,
+            349
+          ],
+          "text": "g"
+        },
+        {
+          "bounds": [
+            434.5,
+            376.5,
+            444.5,
+            380.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            486,
+            335,
+            495,
+            346
+          ],
+          "text": "h"
+        },
+        {
+          "bounds": [
+            509.5,
+            358.5,
+            533.5,
+            380.5
+          ],
+          "text": "O"
+        },
+        {
+          "bounds": [
+            561,
+            335,
+            565,
+            346
+          ],
+          "text": "i"
+        },
+        {
+          "bounds": [
+            584.5,
+            358.5,
+            605.5,
+            380.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            371,
+            434,
+            506,
+            453
+          ],
+          "text": "set {EMPTY}"
+        },
+        {
+          "bounds": [
+            371,
+            468,
+            522,
+            484
+          ],
+          "text": "chosen EMPTY"
+        },
+        {
+          "bounds": [
+            371,
+            502,
+            488,
+            521
+          ],
+          "text": "truth {cef}"
+        },
+        {
+          "bounds": [
+            717,
+            135,
+            866,
+            157
+          ],
+          "text": "Union (any1)"
+        },
+        {
+          "bounds": [
+            757,
+            188,
+            766,
+            196
+          ],
+          "text": "a"
+        },
+        {
+          "bounds": [
+            780.5,
+            226.5,
+            790.5,
+            230.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            832,
+            185,
+            841,
+            196
+          ],
+          "text": "b"
+        },
+        {
+          "bounds": [
+            855.5,
+            226.5,
+            865.5,
+            230.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            907,
+            188,
+            915,
+            196
+          ],
+          "text": "c"
+        },
+        {
+          "bounds": [
+            930.5,
+            226.5,
+            940.5,
+            230.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            757,
+            260,
+            766,
+            271
+          ],
+          "text": "d"
+        },
+        {
+          "bounds": [
+            780.5,
+            301.5,
+            790.5,
+            305.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            832,
+            263,
+            841,
+            271
+          ],
+          "text": "e"
+        },
+        {
+          "bounds": [
+            855.5,
+            301.5,
+            865.5,
+            305.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            907,
+            260,
+            913,
+            271
+          ],
+          "text": "f"
+        },
+        {
+          "bounds": [
+            930.5,
+            301.5,
+            940.5,
+            305.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            757,
+            338,
+            766,
+            349
+          ],
+          "text": "g"
+        },
+        {
+          "bounds": [
+            780.5,
+            376.5,
+            790.5,
+            380.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            832,
+            335,
+            841,
+            346
+          ],
+          "text": "h"
+        },
+        {
+          "bounds": [
+            855.5,
+            358.5,
+            879.5,
+            380.5
+          ],
+          "text": "O"
+        },
+        {
+          "bounds": [
+            907,
+            335,
+            911,
+            346
+          ],
+          "text": "i"
+        },
+        {
+          "bounds": [
+            930.5,
+            358.5,
+            951.5,
+            380.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            717,
+            434,
+            867,
+            454
+          ],
+          "text": "set {abcdefg}"
+        },
+        {
+          "bounds": [
+            717,
+            468,
+            811,
+            484
+          ],
+          "text": "chosen e"
+        },
+        {
+          "bounds": [
+            717,
+            502,
+            834,
+            521
+          ],
+          "text": "truth {cef}"
+        },
+        {
+          "bounds": [
+            1063,
+            135,
+            1265,
+            154
+          ],
+          "text": "At least4 /8 votes"
+        },
+        {
+          "bounds": [
+            1103,
+            188,
+            1112,
+            196
+          ],
+          "text": "a"
+        },
+        {
+          "bounds": [
+            1126.5,
+            226.5,
+            1136.5,
+            230.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            1178,
+            185,
+            1187,
+            196
+          ],
+          "text": "b"
+        },
+        {
+          "bounds": [
+            1201.5,
+            226.5,
+            1211.5,
+            230.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            1253,
+            188,
+            1261,
+            196
+          ],
+          "text": "c"
+        },
+        {
+          "bounds": [
+            1276.5,
+            226.5,
+            1286.5,
+            230.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            1103,
+            260,
+            1112,
+            271
+          ],
+          "text": "d"
+        },
+        {
+          "bounds": [
+            1126.5,
+            301.5,
+            1136.5,
+            305.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            1178,
+            263,
+            1187,
+            271
+          ],
+          "text": "e"
+        },
+        {
+          "bounds": [
+            1201.5,
+            301.5,
+            1211.5,
+            305.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            1253,
+            260,
+            1259,
+            271
+          ],
+          "text": "f"
+        },
+        {
+          "bounds": [
+            1276.5,
+            301.5,
+            1286.5,
+            305.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            1103,
+            338,
+            1112,
+            349
+          ],
+          "text": "g"
+        },
+        {
+          "bounds": [
+            1126.5,
+            376.5,
+            1136.5,
+            380.5
+          ],
+          "text": "."
+        },
+        {
+          "bounds": [
+            1178,
+            335,
+            1187,
+            346
+          ],
+          "text": "h"
+        },
+        {
+          "bounds": [
+            1201.5,
+            358.5,
+            1225.5,
+            380.5
+          ],
+          "text": "O"
+        },
+        {
+          "bounds": [
+            1253,
+            335,
+            1257,
+            346
+          ],
+          "text": "i"
+        },
+        {
+          "bounds": [
+            1276.5,
+            358.5,
+            1297.5,
+            380.5
+          ],
+          "text": "X"
+        },
+        {
+          "bounds": [
+            1063,
+            434,
+            1187,
+            454
+          ],
+          "text": "set {bcefg}"
+        },
+        {
+          "bounds": [
+            1063,
+            468,
+            1157,
+            484
+          ],
+          "text": "chosen e"
+        },
+        {
+          "bounds": [
+            1063,
+            502,
+            1180,
+            521
+          ],
+          "text": "truth {cef}"
+        },
+        {
+          "bounds": [
+            30,
+            581,
+            928,
+            605
+          ],
+          "text": "D  Exact aligned aggregate evidence (mean displayed as numerator /8)"
+        },
+        {
+          "bounds": [
+            30,
+            630,
+            1030,
+            649
+          ],
+          "text": "square       mean numerator      min score      max score      nonnegative votes /8"
+        },
+        {
+          "bounds": [
+            30,
+            674,
+            909,
+            689
+          ],
+          "text": "  a                18653         -144690         267528                 3"
+        },
+        {
+          "bounds": [
+            30,
+            705,
+            909,
+            720
+          ],
+          "text": "  b              -310424         -206150          56167                 4"
+        },
+        {
+          "bounds": [
+            30,
+            736,
+            909,
+            751
+          ],
+          "text": "  c               376702         -239389         606004                 4"
+        },
+        {
+          "bounds": [
+            30,
+            767,
+            909,
+            782
+          ],
+          "text": "  d               490296         -145600         545360                 3"
+        },
+        {
+          "bounds": [
+            30,
+            798,
+            909,
+            813
+          ],
+          "text": "  e               400497          -52390         208622                 6"
+        },
+        {
+          "bounds": [
+            30,
+            829,
+            909,
+            844
+          ],
+          "text": "  f               373255         -292348         522716                 5"
+        },
+        {
+          "bounds": [
+            30,
+            860,
+            909,
+            879
+          ],
+          "text": "  g                 -945         -515533         348174                 4"
+        },
+        {
+          "bounds": [
+            30,
+            891,
+            909,
+            906
+          ],
+          "text": "  h                 8757         -138943         126140                 5"
+        },
+        {
+          "bounds": [
+            30,
+            922,
+            909,
+            937
+          ],
+          "text": "  i               -74513         -419077         175288                 5"
+        },
+        {
+          "bounds": [
+            30,
+            990,
+            1182,
+            1009
+          ],
+          "text": "Source contains all eight branch logits and actual masks. Canonicalization still chooses the verified correct branch."
+        }
+      ],
+      "width": 1400
+    }
+  ],
+  "off_contract": true
+}

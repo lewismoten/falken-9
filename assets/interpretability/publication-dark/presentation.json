@@ -1,0 +1,512 @@
+{
+  "schema": "falken9-dark-report-presentation-v1",
+  "presentation_only": true,
+  "scope": "Study009\u2013016, including the two forward-pass walkthrough figures",
+  "renderer": {
+    "name": "CairoSVG",
+    "version": "2.9.1",
+    "cairo_version": "1.18.4"
+  },
+  "palette": {
+    "canvas": "#11151a",
+    "panel": "#181e26",
+    "ink": "#e7e8e4",
+    "muted": "#a6b0b7",
+    "grid": "#3b4652"
+  },
+  "changes": "All geometry, fonts, numbers and original scientific data are unchanged. Presentation changes: paint, root xml:space=preserve, and the single attention color-scale legend updated to describe dark-to-bright-blue square-root display mapping.",
+  "figures": [
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-009/overview009.svg",
+          "sha256": "2980aa7708e58aa994bbb1ba51aadcd33db65b73b6713cefa7ca484ee49a66fd"
+        },
+        "png": {
+          "path": "docs/research/study-009/overview009.png",
+          "sha256": "d2e3c4f422ca90b7fdef6b8a9f8a8cebb13aa27e641ece74e262b96fd44f9178"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-009/overview009.svg",
+          "sha256": "d5b08aea95cd6e962319513f72cd00e256f91bd350e44430c60e4e4697fc08bf"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-009/overview009.png",
+          "sha256": "e02b5a7bdf023da664915b8b09320181b9e0ed65b5c2734e8d4f639041675a68"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-009/mechanism009.svg",
+          "sha256": "2a18c9ad3d7a3f5275a135c7015ca51e89bc50cedb6ec22486c9283a6182391f"
+        },
+        "png": {
+          "path": "docs/research/study-009/mechanism009.png",
+          "sha256": "8f9c90217ed5160dba1894340af79a4368959a6e7a4627c299716ce3018dadcf"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-009/mechanism009.svg",
+          "sha256": "768af954517a7177c79a49c5bdb237489ea2c953ac44bd0524cbcdd8b27f2ccf"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-009/mechanism009.png",
+          "sha256": "9a7b8bf9a758fcb9ed4c1e6bddb5c7b95e3c6ef9f1389b2251110554004b42f5"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-009/restoration-damage009.svg",
+          "sha256": "b2bc3aafb4139be0c08a3e748b23ea6f051b75a87ca99eaf000244d3ffd0fedc"
+        },
+        "png": {
+          "path": "docs/research/study-009/restoration-damage009.png",
+          "sha256": "e97ca2e015e4e51e28e0931bb49504c46204082c4121cfb0477a2468ff39c2e7"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-009/restoration-damage009.svg",
+          "sha256": "c0a5dd4af7676b615106edffbd4d30393a232b364480212a73cd2e2942b0dffd"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-009/restoration-damage009.png",
+          "sha256": "9dd5768906221068d1fe91976aad24eb5c3a890989d41264400da373933b237e"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-009/raw-alignment009.svg",
+          "sha256": "c7c69be0155803ee56f6944ce5ff66a3188b5159bde412b71372f125f2eaa6e5"
+        },
+        "png": {
+          "path": "docs/research/study-009/raw-alignment009.png",
+          "sha256": "cd19e5d22685965f2b86d0e8ee16b2a030f1c1809173196c13871095372f90d7"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-009/raw-alignment009.svg",
+          "sha256": "a4ec25605342e9cd86ac34ebc36b9adf0f93a64786c4f655129127c47706dfb9"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-009/raw-alignment009.png",
+          "sha256": "704ce94d268b14efcc8ac4cd0fa0bfe4ac1af68a978443f93b9b7c013efdd15b"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-009/robust009.svg",
+          "sha256": "6ecac130392ff05635bc18798165d5e0e2a084e820bc72567b0702958d7d067b"
+        },
+        "png": {
+          "path": "docs/research/study-009/robust009.png",
+          "sha256": "2aea9becd9ad47887e9bdddf332529251d23ec173d1c7c8635c6aaa3d2429329"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-009/robust009.svg",
+          "sha256": "fd9710ce6d9af280b30ca935b321adf182d8d635ef92302d4e11f9cf3a8c2738"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-009/robust009.png",
+          "sha256": "4f299f118f0cf3a3ab5f5ef8780ddb0fff8dc9ad0e61fbe1f8bd256d30e42b7a"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-010-011-walkthrough/forward-attention1011.svg",
+          "sha256": "e16f0eb4fd2cd46bc8ce5f63b9212640c02a76470a3c76d9474f813da46fefde"
+        },
+        "png": {
+          "path": "docs/research/study-010-011-walkthrough/forward-attention1011.png",
+          "sha256": "e4ca77c9ebeba7b2651bb9e02000874192bc97bb35d3e96d2e51f72331830f4f"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-010-011-walkthrough/forward-attention1011.svg",
+          "sha256": "c9061e1ec35aea8fcc2fc9e5835dea2350bef40570cfe7a5455f31e1a9e4a1f2"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-010-011-walkthrough/forward-attention1011.png",
+          "sha256": "f91a908c45247ad17e883bb669dbbc4d638c222305b6042d60968afbeeea00bf"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-010-011-walkthrough/forward-experts1011.svg",
+          "sha256": "62505e40e0c488c422efc369684ac7b092571f7ee1a4fb07d55438a729dffdba"
+        },
+        "png": {
+          "path": "docs/research/study-010-011-walkthrough/forward-experts1011.png",
+          "sha256": "90ce3c5d10f30bf99527bd85c2f3c7133ab1380d2465c8add3446280a0fa409a"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-010-011-walkthrough/forward-experts1011.svg",
+          "sha256": "2aae13ea3b8636a3498e29a0eed2c72274c2ebc28950049b8ea64ac6a558a7aa"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-010-011-walkthrough/forward-experts1011.png",
+          "sha256": "7542d7cde85db1fd25f8dd7a71d8bffe11e070b6505b4647f810e86981019fcc"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-010/overview010.svg",
+          "sha256": "99671f85bf4df70f5c3b4739b7e31bd5c138ca5333cc9a9b981144370c9d8946"
+        },
+        "png": {
+          "path": "docs/research/study-010/overview010.png",
+          "sha256": "c70fd0ad7bedbb05ef8bc01561a5617eb26a2ed6ba32ebdabbc6c2f198b09068"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-010/overview010.svg",
+          "sha256": "068f12be6fe8bd5d48e79193c1ec70db2f062847524e8d43490970ee548cd591"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-010/overview010.png",
+          "sha256": "b11dd2ce1b0bd8df748c72d21d491843b464f1585bd473dc202a07081a5d0ad9"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-010/orbits010.svg",
+          "sha256": "2a8096582f9492a23447346edd8fdf9d11f3735fafc7552cb802557cc9788e65"
+        },
+        "png": {
+          "path": "docs/research/study-010/orbits010.png",
+          "sha256": "664d7862af2e694b9a45f4c5b97e52e4050fd38e79c189a0be923b3802e87b9b"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-010/orbits010.svg",
+          "sha256": "d4efc5934556e40dc607bec2c4859517ae5eb0cac5b915a29281f4cf2932c5b1"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-010/orbits010.png",
+          "sha256": "d336e4182fc0f14cfe953e37b594dce4adfcc5b14a3f0ecadfccd7f6be32a595"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-011/cardinality011.svg",
+          "sha256": "fb84a4caa3e9eea65caa8796b99a8bccea83bdc9af5457da5d453273e302e803"
+        },
+        "png": {
+          "path": "docs/research/study-011/cardinality011.png",
+          "sha256": "99a1e6144a6fd7cf4910d03df1678dcbfd6474bec583dfb740c7841a51d9da13"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-011/cardinality011.svg",
+          "sha256": "4a30e3d35796c87dfb0902e4a95cf49de6850f3c432bb90ea9019e8f6ccc7611"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-011/cardinality011.png",
+          "sha256": "8d921f03b9c6f7852958a1a0867d121a31ab40368b27ff8e1f23f4fb0e37e5f1"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-011/collisions011.svg",
+          "sha256": "9693f21e10d101c5c7c06ff7552acc1c78431ac778cdea3a42145cb18f9a392c"
+        },
+        "png": {
+          "path": "docs/research/study-011/collisions011.png",
+          "sha256": "d03a9c4918987e1f6b067b9ccfc6200abbab23543e75ae32100229ab5c66af8f"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-011/collisions011.svg",
+          "sha256": "9ebdc1ff2d6bf3c2ec7d93f165d7e96c7e08137fd44b48b4d9cc0c25e60ead84"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-011/collisions011.png",
+          "sha256": "e8388da6ecdc8cfcaee371d62aec46b9af023ceb3a251aafe945ba9774b4e865"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-012/overview012.svg",
+          "sha256": "11ab03d0f55157d6f63e6e8a8ceea7487ef0dd0b11d0281c4b3e4432bd6b76fd"
+        },
+        "png": {
+          "path": "docs/research/study-012/overview012.png",
+          "sha256": "c7a5687662cffc6101c9b3a918675ad3a06d084583e95d53e45ff91645936154"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-012/overview012.svg",
+          "sha256": "0f006771bff1bde59fbafdefb30b6eba9520c0bf67d1917bd1421be25bf1d9d6"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-012/overview012.png",
+          "sha256": "c85f2d816e3a32de55467fd0fe391d25e7bb87128b8736ed58aa24fc4222cce3"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-012/case012.svg",
+          "sha256": "9a7d1a9dc7ac76be5652d4b01c1213b63c645012a74e059bd874b149361f6fb5"
+        },
+        "png": {
+          "path": "docs/research/study-012/case012.png",
+          "sha256": "ea639c0e61a5f11c9704603dfa9370ec944b72d02bfccb80d423845668bcb89d"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-012/case012.svg",
+          "sha256": "b1c1d8f5e8de41b0301afa2777a7ece2bea4306d52e3f96695a91bb387fc58d8"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-012/case012.png",
+          "sha256": "2bb258b52e846d181838bd81b1fd8f5da4846fc9cad1d94f1210af0e8f4528c5"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-013/intervals013.svg",
+          "sha256": "3b604874a70e53822e2abf83553dbdc6e08234533b57c2a9976bdcd09db9165b"
+        },
+        "png": {
+          "path": "docs/research/study-013/intervals013.png",
+          "sha256": "4bb2cd5279c8d1b7d6e6553e824b82e65a5ea461634da012dd1763e7eebcca42"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-013/intervals013.svg",
+          "sha256": "857e15c16e8a1ba9bdcf927dae7e3dbef8d52e654abcc55a9affabd87a5d47dd"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-013/intervals013.png",
+          "sha256": "2d6fbac0a5de4526eb9e4d0dd616cf7ae62a59d68b6625c4732d8c087fd0b8c5"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-013/witnesses013.svg",
+          "sha256": "d736e2995160fed0d16a08bb5f665611bd2f157d0a9a9491190b5f5043932302"
+        },
+        "png": {
+          "path": "docs/research/study-013/witnesses013.png",
+          "sha256": "3778daa1ea4a8d067d7cbc1002899f3174978af020b4a42fa2ad5649113c3a7a"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-013/witnesses013.svg",
+          "sha256": "e17ab4b3e06016253b59898d9b4cf99d52d23a6cd64951933680d8e8d0a02f3a"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-013/witnesses013.png",
+          "sha256": "ed431ca46a3c250d052cf5c9f3784ae96bb0829094cc0d8bd0cd310c5713c522"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-014/joint014.svg",
+          "sha256": "8b3120f3599ed8dbe9dc512dd512117e284d7d5f4b3c92281704fe5a5d5087d6"
+        },
+        "png": {
+          "path": "docs/research/study-014/joint014.png",
+          "sha256": "5187a05a6e177a40d0b7c8068be2bd77abcf459d3e58ccedb132b1c56db18346"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-014/joint014.svg",
+          "sha256": "d1d996de177aea25fec0bb289f7eb75ee3c5cca2e75b1c61f11083560eb77cd6"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-014/joint014.png",
+          "sha256": "5d303025a7b13b4015d5e75e711af83ee7d4e1f55a5ab2b37aa1c9f42ee435bb"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-014/witness014.svg",
+          "sha256": "e1f17ecc528a87137d602cc37d3514b3c105d2cf5657985a27f0f8406d8fa994"
+        },
+        "png": {
+          "path": "docs/research/study-014/witness014.png",
+          "sha256": "e56c6555efdbe9415f482146a5010118a56e53800feee9afb059fe2eb7d7789d"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-014/witness014.svg",
+          "sha256": "6cb5a2315738927bb24e95b9e04ebaaa1e9f1c9c0c442f7bac89e32fa6536b8e"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-014/witness014.png",
+          "sha256": "531c2cbb1c50b10c3e6f08641f1472c240d16b16d32b764570e96652fc95ddf0"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-015/paths015.svg",
+          "sha256": "7c73ad0754192aeaa9b2f4d1ef08e491ee753a0785f7204cf682330462d9617c"
+        },
+        "png": {
+          "path": "docs/research/study-015/paths015.png",
+          "sha256": "da5265d5b8a77f6f90cfdb53b3e9c55fdde2d4ba80ac571c879d949c2863a826"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-015/paths015.svg",
+          "sha256": "2531900bbf8cdb0071ec9a83d1512d77442d1c051daf3b31ece8eb739cb134fb"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-015/paths015.png",
+          "sha256": "81aa0c6b8edf9e4742e8a62f53c7c5127749c384faa230175f3d5c281c8eb30a"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-015/routes015.svg",
+          "sha256": "74ac85db5eb1e5e19e218011227bd6b7d3e0908ae6be34593c90e0159ad904d9"
+        },
+        "png": {
+          "path": "docs/research/study-015/routes015.png",
+          "sha256": "a4b69e5acf2afba5e968aa1793afe024e68ebc47b647dc53a5fae104a684af08"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-015/routes015.svg",
+          "sha256": "218e2924668a426848740b6313108f4ef12f472c41b5c3c4976e819774b4ef38"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-015/routes015.png",
+          "sha256": "58e979f708012143c5c00e4cf329458bc58914a131296f43673dabd8f7ae87fa"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-015/sampler015.svg",
+          "sha256": "13c9e2247f2fcf92aa055c75e9a782299250b9072f4c27ff56ab982d905b238a"
+        },
+        "png": {
+          "path": "docs/research/study-015/sampler015.png",
+          "sha256": "f1f8492aa9833e059ac449356f32c338dc7c2e21fb9090a2037d6c5dbc60fa15"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-015/sampler015.svg",
+          "sha256": "ee241da0dfe8a55579b44a400e14892ec0f80965b4e7205cb171bb92065d2e99"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-015/sampler015.png",
+          "sha256": "93217731c28dc813cffb6a75cc8b8791c1b15bddc602520f55ee72b33175f525"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-016/roles-outcomes016.svg",
+          "sha256": "9dbd8143476444de5a8527fa348dca1bf95aa6c26d8057000bc915be9f8a8679"
+        },
+        "png": {
+          "path": "docs/research/study-016/roles-outcomes016.png",
+          "sha256": "f03955ea4fe901b7d3f1a14312a669eee3a1cbcc28b24e54ddf29b7f09daa5ed"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-016/roles-outcomes016.svg",
+          "sha256": "0324d909c686bed4d4b515e1377b16eb3cc51eb8775f35c2a64479b317b5e52c"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-016/roles-outcomes016.png",
+          "sha256": "48e1de2b4d7fa968ae4a0c8d522fb9130fcdf1513d1549a18433e55a581f232d"
+        }
+      }
+    },
+    {
+      "original": {
+        "svg": {
+          "path": "docs/research/study-016/branching-example016.svg",
+          "sha256": "998ad4a1408b9a2b732a2ac3894bcc3e07d2f69a8bb3af30a1902bfe641f3726"
+        },
+        "png": {
+          "path": "docs/research/study-016/branching-example016.png",
+          "sha256": "06b11a374e4f58ab74f72b332888ebab22fa587d0d8d7c1ba375d24ea48e65e7"
+        }
+      },
+      "derived": {
+        "svg": {
+          "path": "assets/interpretability/publication-dark/study-016/branching-example016.svg",
+          "sha256": "e8e1e97c3bab2deec8101022f4ae2d8d9e84076d3336f73368f50942e4e91195"
+        },
+        "png": {
+          "path": "assets/interpretability/publication-dark/study-016/branching-example016.png",
+          "sha256": "24dc27df75b1cb94be47a981cb1654f190d42c184bd301d5708b8efdc7569111"
+        }
+      }
+    }
+  ],
+  "originals": "Original figures and complete transformation ledger retained in the GitHub source repository, not replaced by these derivatives.",
+  "attention_color_scale": {
+    "input": "Original frozen Q15 attention values / 32768",
+    "display": "sqrt(value/32768), dark #182b42 to bright blue #83c9ff",
+    "grid": "#56718d",
+    "legend": "Dark 0 \u2192 bright blue 1 (\u221a scale); rows sum to 32768.",
+    "values_changed": false
+  }
+}

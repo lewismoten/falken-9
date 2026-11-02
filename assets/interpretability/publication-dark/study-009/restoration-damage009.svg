@@ -1,0 +1,145 @@
+<svg xml:space="preserve" xmlns="http://www.w3.org/2000/svg" width="1560" height="1110" viewBox="0 0 1560 1110"><rect width="100%" height="100%" fill="#11151a"/>
+<text x="28" y="46" font-family="DejaVu Sans" font-size="29" fill="#e7e8e4">restoration-introduced-damage | readout.weight | canonical #157 | fold 2</text>
+<text x="28" y="83" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">A  Canonical board: green = legal nonnegative set; outline = fixed-priority move</text>
+<text x="30" y="122" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">Baseline W16</text>
+<rect x="30" y="137" width="63" height="63" fill="#244b3b" stroke="#82d5a1" stroke-width="2"/>
+<text x="38" y="155" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">0</text>
+<text x="53" y="184" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">.</text>
+<rect x="93" y="137" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="101" y="155" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">1</text>
+<text x="116" y="184" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">.</text>
+<rect x="156" y="137" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="164" y="155" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">2</text>
+<text x="179" y="184" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">O</text>
+<rect x="30" y="200" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="38" y="218" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">3</text>
+<text x="53" y="247" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">O</text>
+<rect x="93" y="200" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="101" y="218" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">4</text>
+<text x="116" y="247" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">X</text>
+<rect x="156" y="200" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="164" y="218" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">5</text>
+<text x="179" y="247" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">X</text>
+<rect x="30" y="263" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="38" y="281" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">6</text>
+<text x="53" y="310" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">.</text>
+<rect x="93" y="263" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="101" y="281" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">7</text>
+<text x="116" y="310" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">O</text>
+<rect x="156" y="263" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="164" y="281" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">8</text>
+<text x="179" y="310" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">X</text>
+<text x="30" y="354" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">move=0  optimal</text>
+<text x="280" y="122" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">Coarse signed8</text>
+<rect x="280" y="137" width="63" height="63" fill="#244b3b" stroke="#82d5a1" stroke-width="2"/>
+<text x="288" y="155" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">0</text>
+<text x="303" y="184" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">.</text>
+<rect x="343" y="137" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="351" y="155" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">1</text>
+<text x="366" y="184" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">.</text>
+<rect x="406" y="137" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="414" y="155" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">2</text>
+<text x="429" y="184" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">O</text>
+<rect x="280" y="200" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="288" y="218" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">3</text>
+<text x="303" y="247" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">O</text>
+<rect x="343" y="200" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="351" y="218" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">4</text>
+<text x="366" y="247" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">X</text>
+<rect x="406" y="200" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="414" y="218" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">5</text>
+<text x="429" y="247" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">X</text>
+<rect x="280" y="263" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="288" y="281" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">6</text>
+<text x="303" y="310" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">.</text>
+<rect x="343" y="263" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="351" y="281" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">7</text>
+<text x="366" y="310" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">O</text>
+<rect x="406" y="263" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="414" y="281" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">8</text>
+<text x="429" y="310" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">X</text>
+<text x="280" y="354" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">move=0  optimal</text>
+<text x="530" y="122" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">Restore router</text>
+<rect x="530" y="137" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="538" y="155" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">0</text>
+<text x="553" y="184" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">.</text>
+<rect x="593" y="137" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="601" y="155" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">1</text>
+<text x="616" y="184" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">.</text>
+<rect x="656" y="137" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="664" y="155" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">2</text>
+<text x="679" y="184" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">O</text>
+<rect x="530" y="200" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="538" y="218" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">3</text>
+<text x="553" y="247" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">O</text>
+<rect x="593" y="200" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="601" y="218" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">4</text>
+<text x="616" y="247" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">X</text>
+<rect x="656" y="200" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="664" y="218" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">5</text>
+<text x="679" y="247" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">X</text>
+<rect x="530" y="263" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="538" y="281" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">6</text>
+<text x="553" y="310" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">.</text>
+<rect x="593" y="263" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="601" y="281" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">7</text>
+<text x="616" y="310" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">O</text>
+<rect x="656" y="263" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="664" y="281" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">8</text>
+<text x="679" y="310" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">X</text>
+<text x="530" y="354" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">move=-1  empty</text>
+<text x="780" y="122" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">Restore merged</text>
+<rect x="780" y="137" width="63" height="63" fill="#244b3b" stroke="#82d5a1" stroke-width="2"/>
+<text x="788" y="155" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">0</text>
+<text x="803" y="184" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">.</text>
+<rect x="843" y="137" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="851" y="155" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">1</text>
+<text x="866" y="184" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">.</text>
+<rect x="906" y="137" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="914" y="155" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">2</text>
+<text x="929" y="184" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">O</text>
+<rect x="780" y="200" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="788" y="218" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">3</text>
+<text x="803" y="247" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">O</text>
+<rect x="843" y="200" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="851" y="218" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">4</text>
+<text x="866" y="247" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">X</text>
+<rect x="906" y="200" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="914" y="218" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">5</text>
+<text x="929" y="247" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">X</text>
+<rect x="780" y="263" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="788" y="281" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">6</text>
+<text x="803" y="310" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">.</text>
+<rect x="843" y="263" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="851" y="281" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">7</text>
+<text x="866" y="310" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">O</text>
+<rect x="906" y="263" width="63" height="63" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="914" y="281" font-family="DejaVu Sans" font-size="13" fill="#a6b0b7">8</text>
+<text x="929" y="310" font-family="DejaVu Sans" font-size="27" fill="#e7e8e4">X</text>
+<text x="780" y="354" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">move=0  optimal</text>
+<rect x="1030" y="102" width="497" height="266" fill="#202a36" stroke="#3b4652" stroke-width="2"/>
+<text x="1048" y="140" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">Static decoded parameter example</text>
+<text x="1048" y="178" font-family="DejaVu Sans Mono" font-size="20" fill="#e7e8e4">[6,36]  shift k=8</text>
+<text x="1048" y="214" font-family="DejaVu Sans Mono" font-size="20" fill="#e7e8e4">W16 -6297 x 2^-15</text>
+<text x="1048" y="250" font-family="DejaVu Sans Mono" font-size="20" fill="#e7e8e4">W8  -25 x 2^-7</text>
+<text x="1048" y="286" font-family="DejaVu Sans Mono" font-size="20" fill="#e7e8e4">input scalar: -6577</text>
+<text x="1048" y="322" font-family="DejaVu Sans" font-size="16" fill="#e7e8e4">Whole component changes; not one-cell attribution.</text>
+<rect x="28" y="389" width="1500" height="169" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="45" y="422" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">B  Actual integer stage readout_pre at [6]</text>
+<text x="45" y="457" font-family="DejaVu Sans Mono" font-size="20" fill="#e7e8e4">rounded output 564 -&gt; 644; row dots 16388061 -&gt; 74200</text>
+<text x="45" y="494" font-family="DejaVu Sans Mono" font-size="20" fill="#e7e8e4">baseline routes [0, 3], gates [32531, 237]  -&gt;  coarse routes [0, 3], gates [32136, 632]</text>
+<text x="45" y="531" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">Routes are ordered expert IDs; gates Q15 sum to 32768. Unselected expert outputs are unobserved.</text>
+<rect x="28" y="580" width="1500" height="185" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="45" y="614" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">C  Dynamic activations and signed legal membership (not categorical preference)</text>
+<text x="45" y="652" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">merged W16: [408, -2787, 3518, -3498, 2195, -348, 505, -5966]</text>
+<text x="45" y="689" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">merged W8 : [2290, -1425, 2639, -6497, 2877, 897, 898, -7209]</text>
+<text x="45" y="729" font-family="DejaVu Sans" font-size="19" fill="#e7e8e4">legal sign crossings: []  |  occupied crossings do not enter the legal set</text>
+<rect x="28" y="786" width="1500" height="185" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="45" y="820" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">D  Nine actual final scores: square indices 0..8, accepted iff empty and score &gt;= 0</text>
+<text x="45" y="857" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">W16: [16341, -22836, -27924, -52132, -30571, -29271, -15278, -33478, 6960]</text>
+<text x="45" y="894" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">W8 : [9169, -15892, -31793, -76272, -26603, -33773, -33395, -22220, 22229]</text>
+<text x="45" y="931" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">Rtr: [-1449, -23361, -42701, -81137, -31419, -44054, -42615, -34775, 8023]</text>
+<text x="30" y="1011" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">Self-cutpoint controls reproduce every coarse stage; clean code restoration reproduces every baseline stage.</text>
+<text x="30" y="1046" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">Restoring merged is a downstream sufficiency check with unchanged head, not proof of a unique circuit.</text>
+<text x="30" y="1081" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">Packet-derived host diagnostic only. Stored weights are static; activations/routes depend on the board.</text>
+</svg>

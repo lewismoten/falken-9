@@ -22,7 +22,7 @@ def test_badge_actual_title_planes_and_return_paths(built):
             game.key('2')
             if route=='replay':game.key('5');game.key('R')
             game.key('Q')
-        for row,col,text in ((22,30,'FALCON-9'),(23,35,'1.0')):
+        for row,col,text in ((22,30,'FALKEN-9'),(23,35,'1.0')):
             assert game.text(row)[col:col+len(text)]==text
             assert bytes(game.cpu.memory[0xd800+row*40+col:0xd800+row*40+col+len(text)])==bytes([6])*len(text)
 
@@ -57,9 +57,10 @@ def test_footer_exact_paired_glyphs_and_state_style(built):
         assert game.get('terminal')==terminal
         footer=built['game_footer']
         for cell,hexglyph in zip(footer['cells'],footer['glyphs']):
-            assert bytes(game.cpu.memory[0x2000+8*cell:0x2000+8*cell+8]).hex()==hexglyph
-        assert [game.cpu.memory[0x400+c]>>4 for c in footer['replay_cells']]==([1,12,12,12,12] if terminal else [11,6,6,6,6])
-        assert [game.cpu.memory[0x400+c]>>4 for c in footer['quit_cells']]==[1,12,12,12]
+            expected=hexglyph if terminal or cell in footer['quit_cells'] else bytes(8).hex()
+            assert bytes(game.cpu.memory[0x2000+8*cell:0x2000+8*cell+8]).hex()==expected
+        assert [game.cpu.memory[0x400+c]>>4 for c in footer['replay_cells']]==([1,12,12,12,12] if terminal else [0]*5)
+        assert [game.cpu.memory[0x400+c]>>4 for c in footer['quit_cells']]==[12,6,6,6]
         game.key('R')
 
 def test_graphical_disk_packaging_names_and_exact_prg(built,tmp_path):

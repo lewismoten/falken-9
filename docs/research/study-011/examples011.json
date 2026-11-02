@@ -1,0 +1,4146 @@
+[
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        1,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      0,
+      170
+    ],
+    "gates": [
+      [
+        25507,
+        7261
+      ],
+      [
+        32371,
+        397
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 0,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 0,
+        "ply": 0,
+        "side": 1,
+        "wins": []
+      },
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          3
+        ],
+        "forks": [
+          4
+        ],
+        "has_fork": true,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          3,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 1,
+        "ply": 4,
+        "side": 1,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        561150,
+        447961,
+        281555,
+        94790,
+        275926,
+        34652,
+        189453,
+        501705,
+        175355
+      ],
+      [
+        -502021,
+        -175389,
+        -16057,
+        -360843,
+        33078,
+        -95660,
+        -332803,
+        -16581,
+        -199780
+      ]
+    ],
+    "optimal_sets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        4
+      ]
+    ],
+    "reason": "different-tactic-tuple",
+    "routes": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "stage": "routes",
+    "stage_values": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        1,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      0,
+      170
+    ],
+    "gates": [
+      [
+        25507,
+        7261
+      ],
+      [
+        32371,
+        397
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 0,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 0,
+        "ply": 0,
+        "side": 1,
+        "wins": []
+      },
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          3
+        ],
+        "forks": [
+          4
+        ],
+        "has_fork": true,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          3,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 1,
+        "ply": 4,
+        "side": 1,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        561150,
+        447961,
+        281555,
+        94790,
+        275926,
+        34652,
+        189453,
+        501705,
+        175355
+      ],
+      [
+        -502021,
+        -175389,
+        -16057,
+        -360843,
+        33078,
+        -95660,
+        -332803,
+        -16581,
+        -199780
+      ]
+    ],
+    "optimal_sets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        4
+      ]
+    ],
+    "reason": "different-optimal-set",
+    "routes": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "stage": "routes",
+    "stage_values": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      341,
+      413
+    ],
+    "gates": [
+      [
+        24294,
+        8474
+      ],
+      [
+        32768,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [
+          2
+        ],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": true,
+        "has_win": false,
+        "must_block": true,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          0,
+          3,
+          4
+        ],
+        "opponent_wins": [
+          2
+        ],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        -17582,
+        -77851,
+        10868,
+        -9233,
+        -42051,
+        37958,
+        2725,
+        -71679,
+        41868
+      ],
+      [
+        188074,
+        40722,
+        74990,
+        184408,
+        143837,
+        100760,
+        94176,
+        14886,
+        171997
+      ]
+    ],
+    "optimal_sets": [
+      [
+        2,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    ],
+    "reason": "controlled-different-tactic",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "routes",
+    "stage_values": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    ],
+    "canonical_ids": [
+      341,
+      452
+    ],
+    "gates": [
+      [
+        24294,
+        8474
+      ],
+      [
+        32768,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          3,
+          4
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          3,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        -17582,
+        -77851,
+        10868,
+        -9233,
+        -42051,
+        37958,
+        2725,
+        -71679,
+        41868
+      ],
+      [
+        -82018,
+        -36801,
+        -50015,
+        36900,
+        180895,
+        -30150,
+        -45144,
+        -28480,
+        -55692
+      ]
+    ],
+    "optimal_sets": [
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "reason": "controlled-different-optimal-set",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "routes",
+    "stage_values": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        1,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      0,
+      170
+    ],
+    "gates": [
+      [
+        25507,
+        7261
+      ],
+      [
+        32371,
+        397
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 0,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 0,
+        "ply": 0,
+        "side": 1,
+        "wins": []
+      },
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          3
+        ],
+        "forks": [
+          4
+        ],
+        "has_fork": true,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          3,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 1,
+        "ply": 4,
+        "side": 1,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        561150,
+        447961,
+        281555,
+        94790,
+        275926,
+        34652,
+        189453,
+        501705,
+        175355
+      ],
+      [
+        -502021,
+        -175389,
+        -16057,
+        -360843,
+        33078,
+        -95660,
+        -332803,
+        -16581,
+        -199780
+      ]
+    ],
+    "optimal_sets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        4
+      ]
+    ],
+    "reason": "different-tactic-tuple",
+    "routes": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "stage": "unordered_routes",
+    "stage_values": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        1,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      0,
+      170
+    ],
+    "gates": [
+      [
+        25507,
+        7261
+      ],
+      [
+        32371,
+        397
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 0,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 0,
+        "ply": 0,
+        "side": 1,
+        "wins": []
+      },
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          3
+        ],
+        "forks": [
+          4
+        ],
+        "has_fork": true,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          3,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 1,
+        "ply": 4,
+        "side": 1,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        561150,
+        447961,
+        281555,
+        94790,
+        275926,
+        34652,
+        189453,
+        501705,
+        175355
+      ],
+      [
+        -502021,
+        -175389,
+        -16057,
+        -360843,
+        33078,
+        -95660,
+        -332803,
+        -16581,
+        -199780
+      ]
+    ],
+    "optimal_sets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        4
+      ]
+    ],
+    "reason": "different-optimal-set",
+    "routes": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "stage": "unordered_routes",
+    "stage_values": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      341,
+      413
+    ],
+    "gates": [
+      [
+        24294,
+        8474
+      ],
+      [
+        32768,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [
+          2
+        ],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": true,
+        "has_win": false,
+        "must_block": true,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          0,
+          3,
+          4
+        ],
+        "opponent_wins": [
+          2
+        ],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        -17582,
+        -77851,
+        10868,
+        -9233,
+        -42051,
+        37958,
+        2725,
+        -71679,
+        41868
+      ],
+      [
+        188074,
+        40722,
+        74990,
+        184408,
+        143837,
+        100760,
+        94176,
+        14886,
+        171997
+      ]
+    ],
+    "optimal_sets": [
+      [
+        2,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    ],
+    "reason": "controlled-different-tactic",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "unordered_routes",
+    "stage_values": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    ],
+    "canonical_ids": [
+      341,
+      452
+    ],
+    "gates": [
+      [
+        24294,
+        8474
+      ],
+      [
+        32768,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          3,
+          4
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          3,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        -17582,
+        -77851,
+        10868,
+        -9233,
+        -42051,
+        37958,
+        2725,
+        -71679,
+        41868
+      ],
+      [
+        -82018,
+        -36801,
+        -50015,
+        36900,
+        180895,
+        -30150,
+        -45144,
+        -28480,
+        -55692
+      ]
+    ],
+    "optimal_sets": [
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "reason": "controlled-different-optimal-set",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "unordered_routes",
+    "stage_values": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2
+      ]
+    ],
+    "canonical_ids": [
+      1,
+      533
+    ],
+    "gates": [
+      [
+        32768,
+        0
+      ],
+      [
+        32768,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 0,
+        "ply": 1,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          1,
+          3,
+          4
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 0,
+        "opponent_double_threat": false,
+        "opponent_edges": 2,
+        "opponent_forks": [
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        -711482,
+        -155613,
+        -300450,
+        -56831,
+        507726,
+        -375864,
+        -204878,
+        -32571,
+        -348977
+      ],
+      [
+        -52697,
+        4605,
+        -5438,
+        8292,
+        208158,
+        7306,
+        -13514,
+        59234,
+        1024
+      ]
+    ],
+    "optimal_sets": [
+      [
+        4
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "reason": "different-tactic-tuple",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "gates",
+    "stage_values": [
+      [
+        32768,
+        0
+      ],
+      [
+        32768,
+        0
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "canonical_ids": [
+      1,
+      531
+    ],
+    "gates": [
+      [
+        32768,
+        0
+      ],
+      [
+        32768,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 0,
+        "ply": 1,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 0,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 0,
+        "ply": 1,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    ],
+    "logits": [
+      [
+        -711482,
+        -155613,
+        -300450,
+        -56831,
+        507726,
+        -375864,
+        -204878,
+        -32571,
+        -348977
+      ],
+      [
+        -6766,
+        1322,
+        -24438,
+        -24823,
+        4262,
+        -35720,
+        9176,
+        5007,
+        54749
+      ]
+    ],
+    "optimal_sets": [
+      [
+        4
+      ],
+      [
+        1,
+        4,
+        6,
+        8
+      ]
+    ],
+    "reason": "different-optimal-set",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "stage": "gates",
+    "stage_values": [
+      [
+        32768,
+        0
+      ],
+      [
+        32768,
+        0
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      452,
+      413
+    ],
+    "gates": [
+      [
+        32768,
+        0
+      ],
+      [
+        32768,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          3,
+          4
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          3,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [
+          2
+        ],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": true,
+        "has_win": false,
+        "must_block": true,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          0,
+          3,
+          4
+        ],
+        "opponent_wins": [
+          2
+        ],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        -82018,
+        -36801,
+        -50015,
+        36900,
+        180895,
+        -30150,
+        -45144,
+        -28480,
+        -55692
+      ],
+      [
+        188074,
+        40722,
+        74990,
+        184408,
+        143837,
+        100760,
+        94176,
+        14886,
+        171997
+      ]
+    ],
+    "optimal_sets": [
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    ],
+    "reason": "controlled-different-tactic",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "gates",
+    "stage_values": [
+      [
+        32768,
+        0
+      ],
+      [
+        32768,
+        0
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      452,
+      413
+    ],
+    "gates": [
+      [
+        32768,
+        0
+      ],
+      [
+        32768,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          3,
+          4
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          3,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [
+          2
+        ],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": true,
+        "has_win": false,
+        "must_block": true,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          0,
+          3,
+          4
+        ],
+        "opponent_wins": [
+          2
+        ],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        -82018,
+        -36801,
+        -50015,
+        36900,
+        180895,
+        -30150,
+        -45144,
+        -28480,
+        -55692
+      ],
+      [
+        188074,
+        40722,
+        74990,
+        184408,
+        143837,
+        100760,
+        94176,
+        14886,
+        171997
+      ]
+    ],
+    "optimal_sets": [
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    ],
+    "reason": "controlled-different-optimal-set",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "gates",
+    "stage_values": [
+      [
+        32768,
+        0
+      ],
+      [
+        32768,
+        0
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2
+      ]
+    ],
+    "canonical_ids": [
+      1,
+      533
+    ],
+    "gates": [
+      [
+        32768,
+        0
+      ],
+      [
+        32768,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 0,
+        "ply": 1,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          1,
+          3,
+          4
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 0,
+        "opponent_double_threat": false,
+        "opponent_edges": 2,
+        "opponent_forks": [
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        -711482,
+        -155613,
+        -300450,
+        -56831,
+        507726,
+        -375864,
+        -204878,
+        -32571,
+        -348977
+      ],
+      [
+        -52697,
+        4605,
+        -5438,
+        8292,
+        208158,
+        7306,
+        -13514,
+        59234,
+        1024
+      ]
+    ],
+    "optimal_sets": [
+      [
+        4
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "reason": "different-tactic-tuple",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "pair_and_gates",
+    "stage_values": [
+      [
+        3,
+        0,
+        32768,
+        0
+      ],
+      [
+        3,
+        0,
+        32768,
+        0
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2
+      ]
+    ],
+    "canonical_ids": [
+      1,
+      533
+    ],
+    "gates": [
+      [
+        32768,
+        0
+      ],
+      [
+        32768,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 0,
+        "ply": 1,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          1,
+          3,
+          4
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 0,
+        "opponent_double_threat": false,
+        "opponent_edges": 2,
+        "opponent_forks": [
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        -711482,
+        -155613,
+        -300450,
+        -56831,
+        507726,
+        -375864,
+        -204878,
+        -32571,
+        -348977
+      ],
+      [
+        -52697,
+        4605,
+        -5438,
+        8292,
+        208158,
+        7306,
+        -13514,
+        59234,
+        1024
+      ]
+    ],
+    "optimal_sets": [
+      [
+        4
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "reason": "different-optimal-set",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "pair_and_gates",
+    "stage_values": [
+      [
+        3,
+        0,
+        32768,
+        0
+      ],
+      [
+        3,
+        0,
+        32768,
+        0
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      452,
+      413
+    ],
+    "gates": [
+      [
+        32768,
+        0
+      ],
+      [
+        32768,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          3,
+          4
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          3,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [
+          2
+        ],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": true,
+        "has_win": false,
+        "must_block": true,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          0,
+          3,
+          4
+        ],
+        "opponent_wins": [
+          2
+        ],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        -82018,
+        -36801,
+        -50015,
+        36900,
+        180895,
+        -30150,
+        -45144,
+        -28480,
+        -55692
+      ],
+      [
+        188074,
+        40722,
+        74990,
+        184408,
+        143837,
+        100760,
+        94176,
+        14886,
+        171997
+      ]
+    ],
+    "optimal_sets": [
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    ],
+    "reason": "controlled-different-tactic",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "pair_and_gates",
+    "stage_values": [
+      [
+        3,
+        0,
+        32768,
+        0
+      ],
+      [
+        3,
+        0,
+        32768,
+        0
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      452,
+      413
+    ],
+    "gates": [
+      [
+        32768,
+        0
+      ],
+      [
+        32768,
+        0
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          3,
+          4
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          3,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [
+          2
+        ],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": true,
+        "has_win": false,
+        "must_block": true,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          0,
+          3,
+          4
+        ],
+        "opponent_wins": [
+          2
+        ],
+        "own_corners": 1,
+        "own_edges": 0,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        -82018,
+        -36801,
+        -50015,
+        36900,
+        180895,
+        -30150,
+        -45144,
+        -28480,
+        -55692
+      ],
+      [
+        188074,
+        40722,
+        74990,
+        184408,
+        143837,
+        100760,
+        94176,
+        14886,
+        171997
+      ]
+    ],
+    "optimal_sets": [
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    ],
+    "reason": "controlled-different-optimal-set",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "pair_and_gates",
+    "stage_values": [
+      [
+        3,
+        0,
+        32768,
+        0
+      ],
+      [
+        3,
+        0,
+        32768,
+        0
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      0,
+      96
+    ],
+    "gates": [
+      [
+        25507,
+        7261
+      ],
+      [
+        32703,
+        65
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 0,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 0,
+        "ply": 0,
+        "side": 1,
+        "wins": []
+      },
+      {
+        "block_squares": [
+          2
+        ],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": true,
+        "has_win": false,
+        "must_block": true,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          0,
+          3,
+          4
+        ],
+        "opponent_wins": [
+          2
+        ],
+        "own_corners": 0,
+        "own_edges": 1,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        561150,
+        447961,
+        281555,
+        94790,
+        275926,
+        34652,
+        189453,
+        501705,
+        175355
+      ],
+      [
+        362321,
+        172408,
+        256046,
+        226630,
+        130681,
+        264923,
+        245700,
+        223462,
+        415310
+      ]
+    ],
+    "optimal_sets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    ],
+    "reason": "different-tactic-tuple",
+    "routes": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "unmasked_signs",
+    "stage_values": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      0,
+      96
+    ],
+    "gates": [
+      [
+        25507,
+        7261
+      ],
+      [
+        32703,
+        65
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 0,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 0,
+        "ply": 0,
+        "side": 1,
+        "wins": []
+      },
+      {
+        "block_squares": [
+          2
+        ],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": true,
+        "has_win": false,
+        "must_block": true,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 1,
+        "opponent_forks": [
+          0,
+          3,
+          4
+        ],
+        "opponent_wins": [
+          2
+        ],
+        "own_corners": 0,
+        "own_edges": 1,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        561150,
+        447961,
+        281555,
+        94790,
+        275926,
+        34652,
+        189453,
+        501705,
+        175355
+      ],
+      [
+        362321,
+        172408,
+        256046,
+        226630,
+        130681,
+        264923,
+        245700,
+        223462,
+        415310
+      ]
+    ],
+    "optimal_sets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    ],
+    "reason": "different-optimal-set",
+    "routes": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "unmasked_signs",
+    "stage_values": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    ],
+    "canonical_ids": [
+      3,
+      333
+    ],
+    "gates": [
+      [
+        19808,
+        12960
+      ],
+      [
+        25965,
+        6803
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          4
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 2,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [
+          0,
+          2,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 1,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [
+          4
+        ],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": true,
+        "has_win": false,
+        "must_block": true,
+        "opponent_corners": 2,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [
+          0,
+          1,
+          3,
+          5,
+          8
+        ],
+        "opponent_wins": [
+          4
+        ],
+        "own_corners": 0,
+        "own_edges": 1,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    ],
+    "logits": [
+      [
+        -38684,
+        -28845,
+        -58725,
+        -40588,
+        161145,
+        -48198,
+        -2076,
+        14394,
+        -13221
+      ],
+      [
+        -451007,
+        -33877,
+        -138046,
+        -199806,
+        300176,
+        -195622,
+        -37617,
+        179433,
+        -77175
+      ]
+    ],
+    "optimal_sets": [
+      [
+        4
+      ],
+      [
+        4
+      ]
+    ],
+    "reason": "controlled-different-tactic",
+    "routes": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "stage": "unmasked_signs",
+    "stage_values": [
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      299,
+      524
+    ],
+    "gates": [
+      [
+        31969,
+        799
+      ],
+      [
+        32762,
+        6
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [
+          7
+        ],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": true,
+        "has_win": false,
+        "must_block": true,
+        "opponent_corners": 2,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "opponent_wins": [
+          7
+        ],
+        "own_corners": 0,
+        "own_edges": 1,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [
+          5
+        ],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": true,
+        "has_win": false,
+        "must_block": true,
+        "opponent_corners": 2,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [
+          0,
+          1,
+          4,
+          6,
+          7
+        ],
+        "opponent_wins": [
+          5
+        ],
+        "own_corners": 0,
+        "own_edges": 1,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        70529,
+        20578,
+        46919,
+        10298,
+        10862,
+        80969,
+        57924,
+        45902,
+        139831
+      ],
+      [
+        358688,
+        159149,
+        246710,
+        232490,
+        132296,
+        252341,
+        243771,
+        204090,
+        412893
+      ]
+    ],
+    "optimal_sets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "reason": "controlled-different-optimal-set",
+    "routes": [
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "stage": "unmasked_signs",
+    "stage_values": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "canonical_ids": [
+      1,
+      3
+    ],
+    "gates": [
+      [
+        32768,
+        0
+      ],
+      [
+        19808,
+        12960
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 1,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 0,
+        "ply": 1,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          4
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 2,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [
+          0,
+          2,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 1,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    ],
+    "logits": [
+      [
+        -711482,
+        -155613,
+        -300450,
+        -56831,
+        507726,
+        -375864,
+        -204878,
+        -32571,
+        -348977
+      ],
+      [
+        -38684,
+        -28845,
+        -58725,
+        -40588,
+        161145,
+        -48198,
+        -2076,
+        14394,
+        -13221
+      ]
+    ],
+    "optimal_sets": [
+      [
+        4
+      ],
+      [
+        4
+      ]
+    ],
+    "reason": "different-tactic-tuple",
+    "routes": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "stage": "legal_sign_set",
+    "stage_values": [
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  {
+    "boards": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    ],
+    "canonical_ids": [
+      3,
+      333
+    ],
+    "gates": [
+      [
+        19808,
+        12960
+      ],
+      [
+        25965,
+        6803
+      ]
+    ],
+    "labels": [
+      {
+        "block_squares": [],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [
+          4
+        ],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": true,
+        "has_opponent_fork": true,
+        "has_opponent_win": false,
+        "has_win": false,
+        "must_block": false,
+        "opponent_corners": 2,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [
+          0,
+          2,
+          4
+        ],
+        "opponent_wins": [],
+        "own_corners": 0,
+        "own_edges": 1,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      },
+      {
+        "block_squares": [
+          4
+        ],
+        "center_empty": true,
+        "center_opponent": false,
+        "center_own": false,
+        "fork_prevention_squares": [],
+        "forks": [],
+        "has_fork": false,
+        "has_fork_prevention": false,
+        "has_opponent_fork": false,
+        "has_opponent_win": true,
+        "has_win": false,
+        "must_block": true,
+        "opponent_corners": 2,
+        "opponent_double_threat": false,
+        "opponent_edges": 0,
+        "opponent_forks": [
+          0,
+          1,
+          3,
+          5,
+          8
+        ],
+        "opponent_wins": [
+          4
+        ],
+        "own_corners": 0,
+        "own_edges": 1,
+        "ply": 3,
+        "side": 2,
+        "wins": []
+      }
+    ],
+    "legal_masks": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    ],
+    "logits": [
+      [
+        -38684,
+        -28845,
+        -58725,
+        -40588,
+        161145,
+        -48198,
+        -2076,
+        14394,
+        -13221
+      ],
+      [
+        -451007,
+        -33877,
+        -138046,
+        -199806,
+        300176,
+        -195622,
+        -37617,
+        179433,
+        -77175
+      ]
+    ],
+    "optimal_sets": [
+      [
+        4
+      ],
+      [
+        4
+      ]
+    ],
+    "reason": "controlled-different-tactic",
+    "routes": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "stage": "legal_sign_set",
+    "stage_values": [
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  }
+]

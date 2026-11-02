@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="980" viewBox="0 0 1560 980"><rect width="100%" height="100%" fill="#f5f7fb"/>
+<text x="30" y="49" font-family="DejaVu Sans" font-size="29" fill="#17283f">Study009: componentwise coarser precision is not isolated one-code noise</text>
+<text x="30" y="92" font-family="DejaVu Sans" font-size="22" fill="#17283f">Frozen deployed packet -&gt; row-scaled signed8 approximation -&gt; unchanged integer neural forward</text>
+<text x="30" y="131" font-family="DejaVu Sans" font-size="21" fill="#17283f">Four single-component scopes, six variants each: 24 fixed specifications. No escalation, training or deployment.</text>
+<rect x="28" y="165" width="1502" height="307" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="45" y="206" font-family="DejaVu Sans" font-size="24" fill="#17283f">A  Full legal-set changes and actual raw-wrapper outcomes</text>
+<text x="45" y="250" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">Scope       set /627   bad move /627   raw set /4520   raw bad /4520   raw empty / nonoptimal</text>
+<text x="45" y="299" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">query          1           0             8              0              0 /   0</text>
+<text x="45" y="341" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">value          3           1            20             11              8 /   3</text>
+<text x="45" y="383" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">router         1           0             8              4              0 /   4</text>
+<text x="45" y="425" font-family="DejaVu Sans Mono" font-size="20" fill="#17283f">readout       24          12           180             91             32 /  59</text>
+<rect x="28" y="492" width="730" height="248" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="45" y="530" font-family="DejaVu Sans" font-size="23" fill="#17283f">B  Whole-row representation change</text>
+<text x="45" y="572" font-family="DejaVu Sans" font-size="20" fill="#17283f">Codes -127..127; -128 unused. Round half away.</text>
+<text x="45" y="609" font-family="DejaVu Sans" font-size="20" fill="#17283f">Smallest k fits row; exponent becomes e+k.</text>
+<text x="45" y="646" font-family="DejaVu Sans" font-size="20" fill="#17283f">All biases unchanged. Clipping = 0 in every scope.</text>
+<text x="45" y="683" font-family="DejaVu Sans" font-size="20" fill="#17283f">64 / 64 / 31 / 575 effective scalars changed.</text>
+<text x="45" y="719" font-family="DejaVu Sans" font-size="19" fill="#17283f">Prior008: 76 isolated +/-1 probes; 0 legal-set changes.</text>
+<rect x="782" y="492" width="748" height="248" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="800" y="530" font-family="DejaVu Sans" font-size="23" fill="#17283f">C  Restore baseline routes AND gates</text>
+<text x="800" y="573" font-family="DejaVu Sans" font-size="21" fill="#17283f">Readout: 12 -&gt; 8 canonical move failures.</text>
+<text x="800" y="609" font-family="DejaVu Sans" font-size="20" fill="#17283f">5 rescued, 1 newly damaged; not a universal rescue.</text>
+<text x="800" y="646" font-family="DejaVu Sans" font-size="20" fill="#17283f">Raw: 91 -&gt; 65 failures; canonical counts are not x8.</text>
+<text x="800" y="683" font-family="DejaVu Sans" font-size="20" fill="#17283f">Merged restoration: all final vectors exact.</text>
+<text x="800" y="720" font-family="DejaVu Sans" font-size="20" fill="#17283f">Matched self controls: all-stage identity, 8/8.</text>
+<text x="30" y="800" font-family="DejaVu Sans" font-size="23" fill="#17283f">Static parameter conversion and dynamic integer responses are different evidence surfaces.</text>
+<text x="30" y="840" font-family="DejaVu Sans" font-size="21" fill="#17283f">&gt;=0 is membership, not confidence; wrong full sets can hide behind correct canonical chosen moves.</text>
+<text x="30" y="879" font-family="DejaVu Sans" font-size="20" fill="#17283f">Host-only replay of original-target fixtures. All boards previously trained/audited; folds are probe confirmation.</text>
+<text x="30" y="920" font-family="DejaVu Sans" font-size="21" fill="#17283f">NOT a verified reproduction of historical float-master INT8 exports. No C64 timing or deployment claim.</text>
+</svg>

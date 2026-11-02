@@ -1,0 +1,36 @@
+{
+  "schema": "falken9-git-release-v1",
+  "release_id": "falken-9-model-v1.0.0-app011",
+  "game_title": "Crystal Palace 9",
+  "application_descriptor": {
+    "path": "publication/application-release.json",
+    "bytes": 4249,
+    "sha256": "3ddcaa72f8115604c98c89517d37267bfd3ef8ff90379d7c6a5fe7a2fb2ee692"
+  },
+  "artifacts": {
+    "model": {
+      "path": "model.f9j",
+      "bytes": 5195,
+      "sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+      "source_path": "artifacts/flexible-integer/q11-w16-a32-early-interp/model.f9j"
+    },
+    "prg": {
+      "path": "falken-9-c64.prg",
+      "bytes": 50507,
+      "sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "source_path": "artifacts/app/011-graphical-final/falken-9-011-graphical.prg"
+    },
+    "d64": {
+      "path": "falken-9-c64.d64",
+      "bytes": 174848,
+      "sha256": "101ddad7de1055a238550bdf189e3ad26300484aae45c4ebda481ef5fe4168ec",
+      "source_path": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64"
+    },
+    "validation": {
+      "path": "application-validation.json",
+      "bytes": 28008,
+      "sha256": "58c30cd03981915e66ce682df00c5ec00432f13dcd4ae36ec1a65de9b3ad576d",
+      "source_path": "artifacts/operations/deployment/011/publication-final/summary.json"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "canonical_board_observations": 627,
+  "executed_expert_observations": 1254,
+  "imports": {
+    "falken9": "/home/ai/falken9-strategy-study-003/falken9/__init__.py",
+    "falken9.canonical_integer": "/home/ai/falken9-strategy-study-003/falken9/canonical_integer.py",
+    "falken9.canonical_integer_export": "/home/ai/falken9-strategy-study-003/falken9/canonical_integer_export.py",
+    "falken9.flexible_integer": "/home/ai/falken9-strategy-study-003/falken9/flexible_integer.py",
+    "falken9.flexible_integer_export": "/home/ai/falken9-strategy-study-003/falken9/flexible_integer_export.py",
+    "falken9.integer_export": "/home/ai/falken9-strategy-study-003/falken9/integer_export.py",
+    "falken9.integer_model": "/home/ai/falken9-strategy-study-003/falken9/integer_model.py",
+    "falken9.policy": "/home/ai/falken9-strategy-study-003/falken9/policy.py",
+    "falken9.strategy_diagnostics": "/home/ai/falken9-strategy-study-003/falken9/strategy_diagnostics.py",
+    "falken9.symmetry": "/home/ai/falken9-strategy-study-003/falken9/symmetry.py",
+    "scripts.build_app": "/home/ai/falken9-strategy-study-003/scripts/build_app.py",
+    "scripts.build_runtime": "/home/ai/falken9-strategy-study-003/scripts/build_runtime.py",
+    "scripts.model_strategy_study": "/home/ai/falken9-strategy-study-003/scripts/model_strategy_study.py",
+    "scripts.verify_app": "/home/ai/falken9-strategy-study-003/scripts/verify_app.py",
+    "scripts.verify_runtime": "/home/ai/falken9-strategy-study-003/scripts/verify_runtime.py",
+    "study005_core": "/home/ai/falken9-strategy-study-003/study005_core.py"
+  },
+  "manifest_sha256": "66a35399ef529e8d5bb23b6660c1d165fc946adb8499c09e9be2495717913e85",
+  "per_expert_scopes": 12,
+  "prior_files_unchanged": 1258,
+  "source_model_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "stage_scopes": 25,
+  "warning": "Cardinality/injectivity is not semantic decoding, causal use, or proof of strategic specialization. Small router cardinality is architectural and not proof of ignorance. Legal sets can differ for identical raw logits through external legal masks. Reused boards/canonical orientations are not independent observations."
+}

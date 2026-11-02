@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="960" viewBox="0 0 1580 960">
+<rect width="100%" height="100%" fill="#101720"/>
+<text x="28" y="22" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="27" fill="#edf2f6">Study007 supplement / unfavorable exact common-support controls</text>
+<text x="28" y="65" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Post-hoc audit of saved outcomes only. No additional circuit search, interventions, matching relaxation or parameter changes.</text>
+<rect x="25" y="105" width="1530" height="205" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="45" y="123" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#eda85f">A / candidate expert3 does not dominate on identical directed pairs</text>
+<text x="45" y="169" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#edf2f6">route-fixed: 30 common records; natural rescues expert3 / expert0 = 0 / 5</text>
+<text x="45" y="200" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#edf2f6">Other expert zeroed, actual candidate preserved: wrong/empty expert3 / expert0 = 5 / 0</text>
+<text x="45" y="236" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#edf2f6">route-changing: 6 common records; natural rescues expert3 / expert0 = 1 / 0</text>
+<text x="45" y="267" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#edf2f6">Other expert zeroed, actual candidate preserved: wrong/empty expert3 / expert0 = 2 / 1</text>
+<rect x="25" y="334" width="1530" height="380" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="45" y="352" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">B / same raw frame: one legal mark relocation, one exact receiver experiment</text>
+<text x="48" y="397" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">Raw receiver ID79</text>
+<text x="267" y="397" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">Raw donor ID80</text>
+<rect x="48" y="435" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="443" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="96" y="435" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="443" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="144" y="435" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="443" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="48" y="483" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="491" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="96" y="483" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="111" y="491" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="144" y="483" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="491" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="48" y="531" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="63" y="539" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="96" y="531" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="111" y="539" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="144" y="531" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="159" y="539" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<text x="48" y="588" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<rect x="270" y="435" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="285" y="443" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="318" y="435" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="333" y="443" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="366" y="435" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="381" y="443" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="270" y="483" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="285" y="491" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<rect x="318" y="483" width="48" height="48" fill="#101720" stroke="#82d5a1" stroke-width="3"/>
+<text x="333" y="491" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">.</text>
+<rect x="366" y="483" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="381" y="491" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="270" y="531" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="285" y="539" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="318" y="531" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="333" y="539" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">X</text>
+<rect x="366" y="531" width="48" height="48" fill="#101720" stroke="#405368" stroke-width="1"/>
+<text x="381" y="539" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#edf2f6">O</text>
+<text x="270" y="588" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#aab9c6">0..8 row-major; X=1 O=2</text>
+<text x="48" y="615" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#edf2f6">Move mark1: raw1 -&gt;5</text>
+<text x="48" y="646" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#aab9c6">Green = fixed raw candidate4, NOT output preference</text>
+<text x="500" y="398" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">threat fold0; raw candidate4 -&gt; donor canonical4</text>
+<text x="500" y="434" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">Donor raw-&gt;canonical: [0, 1, 2, 3, 4, 5, 6, 7, 8]</text>
+<text x="500" y="470" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">Receiver actual route[0, 3]; Q15 gates[30453, 2315]</text>
+<text x="500" y="506" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">Keep expert3; zero expert0: legal set[4, 5]; correct=False</text>
+<text x="500" y="542" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">Keep expert0; zero expert3: legal set[5]; correct=True</text>
+<text x="500" y="578" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">Gates are not equalized: expert3 has small recipient gate here. This is not a matched-capacity strategy</text>
+<text x="500" y="602" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">detector comparison.</text>
+<rect x="25" y="738" width="1530" height="175" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="45" y="755" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">C / denominator and claim boundary</text>
+<text x="45" y="797" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">354 directed task/role records cover188 unique directed board pairs and158 receiver boards. Reuse and overlap prevent independent-sample significance</text>
+<text x="45" y="821" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">claims.</text>
+<text x="45" y="857" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">Training necessity ranking uses all active neutral training boards, not exact geometry-matched neutral ranking controls. Natural donor matching is geometric.</text>
+<text x="45" y="881" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">Local restoration/preservation does not establish full-circuit sufficiency or natural mediation.</text>
+</svg>

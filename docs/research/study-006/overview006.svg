@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1000" viewBox="0 0 1580 1000">
+<rect width="100%" height="100%" fill="#101720"/>
+<text x="28" y="22" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="28" fill="#edf2f6">Study006 / frozen-model measured evidence</text>
+<text x="28" y="65" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">627 canonical /4520 raw boards; host integer counterfactuals, not new target benchmarks or model-heldout tests.</text>
+<text x="30" y="113" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">A / same-board pair membership and gating</text>
+<text x="30" y="151" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Bars = canonical wrong or empty chosen moves /627. Complete sets counted separately in JSON/report.</text>
+<text x="30" y="202" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">pair-01-renormalized</text>
+<rect x="370" y="202" width="291.46730462519935" height="23" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="681.4673046251994" y="202" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">215</text>
+<text x="30" y="257" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">pair-02-renormalized</text>
+<rect x="370" y="257" width="168.10207336523126" height="23" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="558.1020733652313" y="257" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">124</text>
+<text x="30" y="312" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">pair-03-renormalized</text>
+<rect x="370" y="312" width="187.08133971291866" height="23" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="577.0813397129186" y="312" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">138</text>
+<text x="30" y="367" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">pair-12-renormalized</text>
+<rect x="370" y="367" width="235.88516746411483" height="23" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="625.8851674641148" y="367" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">174</text>
+<text x="30" y="422" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">pair-13-renormalized</text>
+<rect x="370" y="422" width="298.2456140350877" height="23" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="688.2456140350878" y="422" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">220</text>
+<text x="30" y="477" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">pair-23-renormalized</text>
+<rect x="370" y="477" width="145.05582137161085" height="23" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="535.0558213716108" y="477" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">107</text>
+<text x="30" y="532" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">actual</text>
+<rect x="370" y="532" width="0.0" height="23" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="390.0" y="532" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">0</text>
+<text x="30" y="587" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">reverse-pair-only</text>
+<rect x="370" y="587" width="394.4976076555024" height="23" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="784.4976076555024" y="587" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">291</text>
+<text x="30" y="642" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">actual-uniform</text>
+<rect x="370" y="642" width="262.9984051036683" height="23" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="652.9984051036683" y="642" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#edf2f6">194</text>
+<text x="30" y="735" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">B / All six renormalized pairs preserve full sets on 19/627 boards; at least one pair does so on 627/627.</text>
+<text x="30" y="771" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">Training-only fixed pair: [2, 3]. Offline all-expert evaluation:2508 outputs vs1254 normally executed; additional1254 are not deployed compute.</text>
+<text x="30" y="807" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#aab9c6">Pair+gate reversal is exact; reversing only the pair changes expert-to-gate assignment. Alternative pairs are not proposed trained policies.</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="990" viewBox="0 0 1600 990"><rect width="100%" height="100%" fill="white"/>
+<text x="35" y="56" font-family="DejaVu Sans" font-size="34" fill="#203443">016 | Safe against every reply, different against random replies</text>
+<text x="35" y="103" font-family="DejaVu Sans" font-size="23" fill="#203443">Exact offline game-DAG enumeration. Human: uniform among all legal squares on every turn.</text>
+<text x="35" y="137" font-family="DejaVu Sans" font-size="20" fill="#53616c">Three frozen policies, two player roles, no opening sampler. Green / blue / amber = wins; grey = draws.</text>
+<text x="40" y="213" font-family="DejaVu Sans" font-size="28" fill="#203443">Model X (first)</text>
+<text x="40" y="267" font-family="DejaVu Sans" font-size="22" fill="#126b56">Accepted raw priority</text>
+<rect x="40" y="285" width="715" height="32" fill="#dbe1e6" stroke="none"/>
+<rect x="40" y="285" width="707.5520833333334" height="32" fill="#126b56" stroke="none"/>
+<text x="40" y="351" font-family="DejaVu Sans" font-size="20" fill="#203443">Win 95/96 | Draw 1/96 | Loss 0</text>
+<text x="40" y="379" font-family="DejaVu Sans" font-size="18" fill="#53616c">E[marks] 93/16 | 108 supported histories</text>
+<text x="40" y="427" font-family="DejaVu Sans" font-size="22" fill="#3267a8">Reversed priority</text>
+<rect x="40" y="445" width="715" height="32" fill="#dbe1e6" stroke="none"/>
+<rect x="40" y="445" width="707.5520833333334" height="32" fill="#3267a8" stroke="none"/>
+<text x="40" y="511" font-family="DejaVu Sans" font-size="20" fill="#203443">Win 95/96 | Draw 1/96 | Loss 0</text>
+<text x="40" y="539" font-family="DejaVu Sans" font-size="18" fill="#53616c">E[marks] 659/96 | 187 supported histories</text>
+<text x="40" y="587" font-family="DejaVu Sans" font-size="22" fill="#9a6021">Largest score (offline)</text>
+<rect x="40" y="605" width="715" height="32" fill="#dbe1e6" stroke="none"/>
+<rect x="40" y="605" width="707.5520833333334" height="32" fill="#9a6021" stroke="none"/>
+<text x="40" y="671" font-family="DejaVu Sans" font-size="20" fill="#203443">Win 95/96 | Draw 1/96 | Loss 0</text>
+<text x="40" y="699" font-family="DejaVu Sans" font-size="18" fill="#53616c">E[marks] 211/32 | 167 supported histories</text>
+<text x="830" y="213" font-family="DejaVu Sans" font-size="28" fill="#203443">Model O (second)</text>
+<text x="830" y="267" font-family="DejaVu Sans" font-size="22" fill="#126b56">Accepted raw priority</text>
+<rect x="830" y="285" width="715" height="32" fill="#dbe1e6" stroke="none"/>
+<rect x="830" y="285" width="641.6084656084656" height="32" fill="#126b56" stroke="none"/>
+<text x="830" y="351" font-family="DejaVu Sans" font-size="20" fill="#203443">Win 848/945 | Draw 97/945 | Loss 0</text>
+<text x="830" y="379" font-family="DejaVu Sans" font-size="18" fill="#53616c">E[marks] 1301/189 | 561 supported histories</text>
+<text x="830" y="427" font-family="DejaVu Sans" font-size="22" fill="#3267a8">Reversed priority</text>
+<rect x="830" y="445" width="715" height="32" fill="#dbe1e6" stroke="none"/>
+<rect x="830" y="445" width="532.6560846560847" height="32" fill="#3267a8" stroke="none"/>
+<text x="830" y="511" font-family="DejaVu Sans" font-size="20" fill="#203443">Win 704/945 | Draw 241/945 | Loss 0</text>
+<text x="830" y="539" font-family="DejaVu Sans" font-size="18" fill="#53616c">E[marks] 6991/945 | 675 supported histories</text>
+<text x="830" y="587" font-family="DejaVu Sans" font-size="22" fill="#9a6021">Largest score (offline)</text>
+<rect x="830" y="605" width="715" height="32" fill="#dbe1e6" stroke="none"/>
+<rect x="830" y="605" width="615.8835978835979" height="32" fill="#9a6021" stroke="none"/>
+<text x="830" y="671" font-family="DejaVu Sans" font-size="20" fill="#203443">Win 814/945 | Draw 131/945 | Loss 0</text>
+<text x="830" y="699" font-family="DejaVu Sans" font-size="18" fill="#53616c">E[marks] 6623/945 | 589 supported histories</text>
+<text x="35" y="780" font-family="DejaVu Sans" font-size="25" fill="#126b56">A  All six: no losing history, even when every legal human reply is treated adversarially.</text>
+<text x="35" y="832" font-family="DejaVu Sans" font-size="22" fill="#203443">B  As X: equal win probability, different lengths and histories. As O: accepted wins most of these three.</text>
+<text x="35" y="880" font-family="DejaVu Sans" font-size="20" fill="#53616c">Largest-score is an offline counterfactual, not confidence, deployed behavior, or an optimized best response.</text>
+<text x="35" y="920" font-family="DejaVu Sans" font-size="20" fill="#53616c">Supported histories are not equiprobable; legal-choice denominators change along a game.</text>
+<text x="35" y="960" font-family="DejaVu Sans" font-size="20" fill="#53616c">These exact probabilities apply only to the declared uniformly random legal opponent.</text>
+</svg>

@@ -1,0 +1,1093 @@
+[
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "board_embedding"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "board_normalized"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "board_query"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "board_key"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "board_value"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "attention_scores"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "attention_probs"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "attended"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "projected"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "attention_residual"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "readout_pre"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "readout_gelu"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "norm2_output"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "router_scores"
+  },
+  {
+    "colliding_pairs": 25988,
+    "conditioned": {
+      "colliding_pairs": 480,
+      "distinct_classes": 367,
+      "duplicate_boards": 401,
+      "duplicate_classes": 141,
+      "first_optimal_pair": [
+        341,
+        452
+      ],
+      "first_tactic_pair": [
+        341,
+        413
+      ],
+      "max_class_size": 8,
+      "mixed_classes_per_tactic": {
+        "has_fork": 14,
+        "has_fork_prevention": 25,
+        "has_opponent_fork": 25,
+        "has_win": 73,
+        "must_block": 63
+      },
+      "mixed_optimal_classes": 119,
+      "mixed_tactic_classes": 95,
+      "population": 627,
+      "redundant_boards": 260
+    },
+    "distinct_classes": 12,
+    "duplicate_boards": 627,
+    "duplicate_classes": 12,
+    "first_optimal_pair": [
+      0,
+      170
+    ],
+    "first_tactic_pair": [
+      0,
+      170
+    ],
+    "max_class_size": 126,
+    "mixed_classes_per_tactic": {
+      "has_fork": 9,
+      "has_fork_prevention": 11,
+      "has_opponent_fork": 11,
+      "has_win": 12,
+      "must_block": 11
+    },
+    "mixed_optimal_classes": 12,
+    "mixed_tactic_classes": 12,
+    "population": 627,
+    "redundant_boards": 615,
+    "stage": "routes"
+  },
+  {
+    "colliding_pairs": 42539,
+    "conditioned": {
+      "colliding_pairs": 688,
+      "distinct_classes": 313,
+      "duplicate_boards": 461,
+      "duplicate_classes": 147,
+      "first_optimal_pair": [
+        341,
+        452
+      ],
+      "first_tactic_pair": [
+        341,
+        413
+      ],
+      "max_class_size": 10,
+      "mixed_classes_per_tactic": {
+        "has_fork": 17,
+        "has_fork_prevention": 28,
+        "has_opponent_fork": 28,
+        "has_win": 81,
+        "must_block": 71
+      },
+      "mixed_optimal_classes": 123,
+      "mixed_tactic_classes": 103,
+      "population": 627,
+      "redundant_boards": 314
+    },
+    "distinct_classes": 6,
+    "duplicate_boards": 627,
+    "duplicate_classes": 6,
+    "first_optimal_pair": [
+      0,
+      170
+    ],
+    "first_tactic_pair": [
+      0,
+      170
+    ],
+    "max_class_size": 174,
+    "mixed_classes_per_tactic": {
+      "has_fork": 5,
+      "has_fork_prevention": 6,
+      "has_opponent_fork": 6,
+      "has_win": 6,
+      "must_block": 6
+    },
+    "mixed_optimal_classes": 6,
+    "mixed_tactic_classes": 6,
+    "population": 627,
+    "redundant_boards": 621,
+    "stage": "unordered_routes"
+  },
+  {
+    "colliding_pairs": 6104,
+    "conditioned": {
+      "colliding_pairs": 157,
+      "distinct_classes": 567,
+      "duplicate_boards": 85,
+      "duplicate_classes": 25,
+      "first_optimal_pair": [
+        452,
+        413
+      ],
+      "first_tactic_pair": [
+        452,
+        413
+      ],
+      "max_class_size": 11,
+      "mixed_classes_per_tactic": {
+        "has_fork": 1,
+        "has_fork_prevention": 9,
+        "has_opponent_fork": 9,
+        "has_win": 16,
+        "must_block": 18
+      },
+      "mixed_optimal_classes": 18,
+      "mixed_tactic_classes": 24,
+      "population": 627,
+      "redundant_boards": 60
+    },
+    "distinct_classes": 403,
+    "duplicate_boards": 281,
+    "duplicate_classes": 57,
+    "first_optimal_pair": [
+      1,
+      531
+    ],
+    "first_tactic_pair": [
+      1,
+      533
+    ],
+    "max_class_size": 108,
+    "mixed_classes_per_tactic": {
+      "has_fork": 6,
+      "has_fork_prevention": 10,
+      "has_opponent_fork": 10,
+      "has_win": 39,
+      "must_block": 26
+    },
+    "mixed_optimal_classes": 52,
+    "mixed_tactic_classes": 43,
+    "population": 627,
+    "redundant_boards": 224,
+    "stage": "gates"
+  },
+  {
+    "colliding_pairs": 1617,
+    "conditioned": {
+      "colliding_pairs": 36,
+      "distinct_classes": 599,
+      "duplicate_boards": 49,
+      "duplicate_classes": 21,
+      "first_optimal_pair": [
+        452,
+        413
+      ],
+      "first_tactic_pair": [
+        452,
+        413
+      ],
+      "max_class_size": 4,
+      "mixed_classes_per_tactic": {
+        "has_fork": 1,
+        "has_fork_prevention": 7,
+        "has_opponent_fork": 6,
+        "has_win": 7,
+        "must_block": 11
+      },
+      "mixed_optimal_classes": 17,
+      "mixed_tactic_classes": 16,
+      "population": 627,
+      "redundant_boards": 28
+    },
+    "distinct_classes": 480,
+    "duplicate_boards": 189,
+    "duplicate_classes": 42,
+    "first_optimal_pair": [
+      1,
+      533
+    ],
+    "first_tactic_pair": [
+      1,
+      533
+    ],
+    "max_class_size": 38,
+    "mixed_classes_per_tactic": {
+      "has_fork": 4,
+      "has_fork_prevention": 10,
+      "has_opponent_fork": 10,
+      "has_win": 24,
+      "must_block": 17
+    },
+    "mixed_optimal_classes": 38,
+    "mixed_tactic_classes": 31,
+    "population": 627,
+    "redundant_boards": 147,
+    "stage": "pair_and_gates"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "executed_expert_hidden_pre"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "executed_expert_hidden"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "executed_expert_outputs"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "merged"
+  },
+  {
+    "colliding_pairs": 0,
+    "conditioned": {
+      "colliding_pairs": 0,
+      "distinct_classes": 627,
+      "duplicate_boards": 0,
+      "duplicate_classes": 0,
+      "first_optimal_pair": null,
+      "first_tactic_pair": null,
+      "max_class_size": 1,
+      "mixed_classes_per_tactic": {
+        "has_fork": 0,
+        "has_fork_prevention": 0,
+        "has_opponent_fork": 0,
+        "has_win": 0,
+        "must_block": 0
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 0,
+      "population": 627,
+      "redundant_boards": 0
+    },
+    "distinct_classes": 627,
+    "duplicate_boards": 0,
+    "duplicate_classes": 0,
+    "first_optimal_pair": null,
+    "first_tactic_pair": null,
+    "max_class_size": 1,
+    "mixed_classes_per_tactic": {
+      "has_fork": 0,
+      "has_fork_prevention": 0,
+      "has_opponent_fork": 0,
+      "has_win": 0,
+      "must_block": 0
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 0,
+    "population": 627,
+    "redundant_boards": 0,
+    "stage": "logits"
+  },
+  {
+    "colliding_pairs": 5976,
+    "conditioned": {
+      "colliding_pairs": 73,
+      "distinct_classes": 563,
+      "duplicate_boards": 119,
+      "duplicate_classes": 55,
+      "first_optimal_pair": [
+        299,
+        524
+      ],
+      "first_tactic_pair": [
+        3,
+        333
+      ],
+      "max_class_size": 3,
+      "mixed_classes_per_tactic": {
+        "has_fork": 1,
+        "has_fork_prevention": 4,
+        "has_opponent_fork": 4,
+        "has_win": 15,
+        "must_block": 10
+      },
+      "mixed_optimal_classes": 37,
+      "mixed_tactic_classes": 21,
+      "population": 627,
+      "redundant_boards": 64
+    },
+    "distinct_classes": 168,
+    "duplicate_boards": 559,
+    "duplicate_classes": 100,
+    "first_optimal_pair": [
+      0,
+      96
+    ],
+    "first_tactic_pair": [
+      0,
+      96
+    ],
+    "max_class_size": 96,
+    "mixed_classes_per_tactic": {
+      "has_fork": 15,
+      "has_fork_prevention": 35,
+      "has_opponent_fork": 35,
+      "has_win": 69,
+      "must_block": 48
+    },
+    "mixed_optimal_classes": 90,
+    "mixed_tactic_classes": 75,
+    "population": 627,
+    "redundant_boards": 459,
+    "stage": "unmasked_signs"
+  },
+  {
+    "colliding_pairs": 11215,
+    "conditioned": {
+      "colliding_pairs": 285,
+      "distinct_classes": 456,
+      "duplicate_boards": 280,
+      "duplicate_classes": 109,
+      "first_optimal_pair": null,
+      "first_tactic_pair": [
+        3,
+        333
+      ],
+      "max_class_size": 8,
+      "mixed_classes_per_tactic": {
+        "has_fork": 5,
+        "has_fork_prevention": 6,
+        "has_opponent_fork": 7,
+        "has_win": 47,
+        "must_block": 34
+      },
+      "mixed_optimal_classes": 0,
+      "mixed_tactic_classes": 51,
+      "population": 627,
+      "redundant_boards": 171
+    },
+    "distinct_classes": 118,
+    "duplicate_boards": 578,
+    "duplicate_classes": 69,
+    "first_optimal_pair": null,
+    "first_tactic_pair": [
+      1,
+      3
+    ],
+    "max_class_size": 108,
+    "mixed_classes_per_tactic": {
+      "has_fork": 12,
+      "has_fork_prevention": 19,
+      "has_opponent_fork": 19,
+      "has_win": 40,
+      "must_block": 15
+    },
+    "mixed_optimal_classes": 0,
+    "mixed_tactic_classes": 43,
+    "population": 627,
+    "redundant_boards": 509,
+    "stage": "legal_sign_set"
+  }
+]

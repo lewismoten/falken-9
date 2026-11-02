@@ -1,0 +1,12 @@
+{
+  "exact_classes_checked": 13100,
+  "examples_checked": 22,
+  "executed_expert_observations": 1254,
+  "hash_alone_never_establishes_equality": true,
+  "inactive_values_null": true,
+  "independent_board_labels": 627,
+  "independent_minimax_sets": 627,
+  "passed": true,
+  "per_expert_scopes": 12,
+  "tuple_stage_scopes": 25
+}

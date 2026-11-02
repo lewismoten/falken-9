@@ -8,6 +8,60 @@ from scripts.verify_graphical_stock_rom import DEFAULT_VICE_ROOT
 @pytest.fixture(scope='module')
 def built(tmp_path_factory):return build(tmp_path_factory.mktemp('sid007'))
 
+@pytest.mark.parametrize('event,min_frames,min_sustain',[(3,6,8),(4,10,10),(5,12,10)])
+def test_foreground_cues_hold_nonzero_envelope_then_release(built,event,min_frames,min_sustain):
+    """Electrical support for audibility, not a substitute for PCM/listening."""
+    m=AppMachine(built,audit=True);m.call('audio_init')
+    m.cpu.a=event;m.call('audio_event');m.call('audio_tick')
+    assert m.cpu.memory[0xd412]&1==0,'must retain deferred gate-on'
+    assert m.cpu.memory[0xd414]>>4>=min_sustain,'foreground sustain must not decay to zero'
+    m.call('audio_tick');assert m.cpu.memory[0xd412]&1
+    active=1
+    while active<128:
+        m.call('audio_tick')
+        if not m.cpu.memory[0xd412]&1:break
+        active+=1
+    assert min_frames<=active<=24,'finite useful gate duration'
+    assert m.get('audio_sfx_priority',1,False)==0
+    assert m.get('audio_sfx_left',1,False)==0
+
+
+def test_reserved_voice_priority_retrigger_and_quiet_event_contract(built):
+    m=AppMachine(built,audit=True);m.call('audio_init')
+    def event(n):m.cpu.a=n;m.call('audio_event')
+    def tick():m.call('audio_tick')
+    event(5);tick();tick()
+    assert m.cpu.memory[0xd412]&1
+    pitch=bytes(m.cpu.memory[0xd40e:0xd410])
+    for lower in (1,2,3,4):
+        event(lower);tick()
+        assert m.get('audio_sfx_priority',1,False)==5
+        assert bytes(m.cpu.memory[0xd40e:0xd410])==pitch
+    event(5);tick();assert m.cpu.memory[0xd412]==0
+    tick();assert m.cpu.memory[0xd412]&1
+    for _ in range(30):tick()
+    for lower in (1,2):
+        event(lower);tick()
+        assert m.cpu.memory[0xd414]>>4==0,'thinking/scroll remain restrained'
+        for _ in range(35):tick()
+    assert m.cpu.memory[0xd412]==0
+    assert m.cpu.memory[0xd418]==5,'balance is not a global volume boost'
+    assert m.cpu.memory[0xd406]==0x48 and m.cpu.memory[0xd40d]==0x58
+
+
+def test_accepted_navigation_but_boundary_and_invalid_marks_are_silent(built):
+    g=GraphicalMachine(built);g.until_input()
+    def clear():
+        g.cpu.memory.active=False;g.cpu.memory[g.labels['audio_pending']]=0;g.cpu.memory.active=True
+    clear();g.key(0x91);assert g.get('audio_pending')==3
+    clear();g.key(0x91);assert g.get('audio_pending')==3
+    g.key('I');clear();g.key(0x91);assert g.get('audio_pending')==0
+    g.key(0x11);assert g.get('audio_pending')==2
+    g.key('Q');g.key('2');g.key('1');assert g.get('audio_pending')==4
+    clear();g.key('1');assert g.get('audio_pending')==0
+    g.key('4');assert g.get('audio_pending')==5
+
+
 def test_original_score_advances_actual_sid_and_releases_sfx(built):
     assert 'audio_tick' in built['labels'],'missing continuous SID driver'
     m=AppMachine(built,audit=True)

@@ -1,0 +1,3313 @@
+{
+  "accepted_combinations_decimal": "2522373614800652711731872849572328079552666036240711680000000",
+  "accepted_numerator": 8,
+  "grid": [
+    {
+      "denominator": 16,
+      "numerator": 0,
+      "rows": [
+        {
+          "bias_interval": [
+            1634,
+            1634
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2989,
+          "member_minimum_id": 474,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -4891,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": true,
+          "weight_interval": [
+            8921,
+            8921
+          ]
+        },
+        {
+          "bias_interval": [
+            915,
+            915
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 54,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2109,
+          "nonmember_maximum_id": 133,
+          "row": 1,
+          "safe": true,
+          "weight_interval": [
+            -2869,
+            -2869
+          ]
+        },
+        {
+          "bias_interval": [
+            -2758,
+            -2758
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 4238,
+          "member_minimum_id": 614,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -4505,
+          "nonmember_maximum_id": 110,
+          "row": 2,
+          "safe": true,
+          "weight_interval": [
+            5207,
+            5207
+          ]
+        },
+        {
+          "bias_interval": [
+            -6053,
+            -6053
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 5437,
+          "member_minimum_id": 570,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -5838,
+          "nonmember_maximum_id": 213,
+          "row": 3,
+          "safe": true,
+          "weight_interval": [
+            -12665,
+            -12665
+          ]
+        },
+        {
+          "bias_interval": [
+            -296,
+            -296
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3666,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3660,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": true,
+          "weight_interval": [
+            17934,
+            17934
+          ]
+        },
+        {
+          "bias_interval": [
+            -8029,
+            -8029
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 5434,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -4667,
+          "nonmember_maximum_id": 340,
+          "row": 5,
+          "safe": true,
+          "weight_interval": [
+            26308,
+            26308
+          ]
+        },
+        {
+          "bias_interval": [
+            -9588,
+            -9588
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 4108,
+          "member_minimum_id": 378,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3450,
+          "nonmember_maximum_id": 474,
+          "row": 6,
+          "safe": true,
+          "weight_interval": [
+            9969,
+            9969
+          ]
+        },
+        {
+          "bias_interval": [
+            -6604,
+            -6604
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2238,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2402,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": true,
+          "weight_interval": [
+            13312,
+            13312
+          ]
+        },
+        {
+          "bias_interval": [
+            8191,
+            8191
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 4838,
+          "member_minimum_id": 604,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3811,
+          "nonmember_maximum_id": 161,
+          "row": 8,
+          "safe": true,
+          "weight_interval": [
+            16013,
+            16013
+          ]
+        }
+      ],
+      "safe": true
+    },
+    {
+      "denominator": 16,
+      "numerator": 1,
+      "rows": [
+        {
+          "bias_interval": [
+            1448,
+            1939
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2777,
+          "member_minimum_id": 474,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -4420,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": true,
+          "weight_interval": [
+            8861,
+            8983
+          ]
+        },
+        {
+          "bias_interval": [
+            912,
+            1046
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 48,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1977,
+          "nonmember_maximum_id": 133,
+          "row": 1,
+          "safe": true,
+          "weight_interval": [
+            -2872,
+            -2806
+          ]
+        },
+        {
+          "bias_interval": [
+            -3022,
+            -2477
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3774,
+          "member_minimum_id": 614,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -4152,
+          "nonmember_maximum_id": 110,
+          "row": 2,
+          "safe": true,
+          "weight_interval": [
+            5117,
+            5275
+          ]
+        },
+        {
+          "bias_interval": [
+            -6392,
+            -5689
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 4988,
+          "member_minimum_id": 570,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -5422,
+          "nonmember_maximum_id": 213,
+          "row": 3,
+          "safe": true,
+          "weight_interval": [
+            -12786,
+            -12561
+          ]
+        },
+        {
+          "bias_interval": [
+            -525,
+            -68
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3358,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3349,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": true,
+          "weight_interval": [
+            17746,
+            18125
+          ]
+        },
+        {
+          "bias_interval": [
+            -8368,
+            -7738
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 4756,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -4362,
+          "nonmember_maximum_id": 340,
+          "row": 5,
+          "safe": true,
+          "weight_interval": [
+            26200,
+            26440
+          ]
+        },
+        {
+          "bias_interval": [
+            -9844,
+            -9373
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3826,
+          "member_minimum_id": 378,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3201,
+          "nonmember_maximum_id": 474,
+          "row": 6,
+          "safe": true,
+          "weight_interval": [
+            9887,
+            10048
+          ]
+        },
+        {
+          "bias_interval": [
+            -6743,
+            -6454
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1975,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2192,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": true,
+          "weight_interval": [
+            13176,
+            13539
+          ]
+        },
+        {
+          "bias_interval": [
+            7889,
+            8429
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 4524,
+          "member_minimum_id": 604,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3542,
+          "nonmember_maximum_id": 161,
+          "row": 8,
+          "safe": true,
+          "weight_interval": [
+            15917,
+            16077
+          ]
+        }
+      ],
+      "safe": true
+    },
+    {
+      "denominator": 16,
+      "numerator": 2,
+      "rows": [
+        {
+          "bias_interval": [
+            1261,
+            2245
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2564,
+          "member_minimum_id": 474,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3949,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": true,
+          "weight_interval": [
+            8801,
+            9045
+          ]
+        },
+        {
+          "bias_interval": [
+            909,
+            1178
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 41,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1843,
+          "nonmember_maximum_id": 133,
+          "row": 1,
+          "safe": true,
+          "weight_interval": [
+            -2876,
+            -2743
+          ]
+        },
+        {
+          "bias_interval": [
+            -3287,
+            -2195
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3307,
+          "member_minimum_id": 614,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3796,
+          "nonmember_maximum_id": 110,
+          "row": 2,
+          "safe": true,
+          "weight_interval": [
+            5026,
+            5344
+          ]
+        },
+        {
+          "bias_interval": [
+            -6732,
+            -5324
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 4538,
+          "member_minimum_id": 570,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -5004,
+          "nonmember_maximum_id": 213,
+          "row": 3,
+          "safe": true,
+          "weight_interval": [
+            -12907,
+            -12456
+          ]
+        },
+        {
+          "bias_interval": [
+            -754,
+            161
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3049,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3038,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": true,
+          "weight_interval": [
+            17558,
+            18317
+          ]
+        },
+        {
+          "bias_interval": [
+            -8708,
+            -7446
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 4076,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3888,
+          "nonmember_maximum_id": 173,
+          "row": 5,
+          "safe": true,
+          "weight_interval": [
+            26092,
+            26573
+          ]
+        },
+        {
+          "bias_interval": [
+            -10101,
+            -9157
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3543,
+          "member_minimum_id": 378,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2951,
+          "nonmember_maximum_id": 474,
+          "row": 6,
+          "safe": true,
+          "weight_interval": [
+            9805,
+            10127
+          ]
+        },
+        {
+          "bias_interval": [
+            -6883,
+            -6304
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1709,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1983,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": true,
+          "weight_interval": [
+            13040,
+            13767
+          ]
+        },
+        {
+          "bias_interval": [
+            7587,
+            8667
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 4209,
+          "member_minimum_id": 604,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3273,
+          "nonmember_maximum_id": 161,
+          "row": 8,
+          "safe": true,
+          "weight_interval": [
+            15821,
+            16141
+          ]
+        }
+      ],
+      "safe": true
+    },
+    {
+      "denominator": 16,
+      "numerator": 3,
+      "rows": [
+        {
+          "bias_interval": [
+            1074,
+            2550
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2351,
+          "member_minimum_id": 474,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3479,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": true,
+          "weight_interval": [
+            8741,
+            9107
+          ]
+        },
+        {
+          "bias_interval": [
+            905,
+            1310
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 34,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1710,
+          "nonmember_maximum_id": 133,
+          "row": 1,
+          "safe": true,
+          "weight_interval": [
+            -2879,
+            -2680
+          ]
+        },
+        {
+          "bias_interval": [
+            -3552,
+            -1914
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2839,
+          "member_minimum_id": 614,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3442,
+          "nonmember_maximum_id": 110,
+          "row": 2,
+          "safe": true,
+          "weight_interval": [
+            4935,
+            5413
+          ]
+        },
+        {
+          "bias_interval": [
+            -7072,
+            -4959
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 4088,
+          "member_minimum_id": 570,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -4586,
+          "nonmember_maximum_id": 213,
+          "row": 3,
+          "safe": true,
+          "weight_interval": [
+            -13028,
+            -12352
+          ]
+        },
+        {
+          "bias_interval": [
+            -983,
+            390
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2740,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2726,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": true,
+          "weight_interval": [
+            17369,
+            18509
+          ]
+        },
+        {
+          "bias_interval": [
+            -9047,
+            -7155
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3398,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3413,
+          "nonmember_maximum_id": 173,
+          "row": 5,
+          "safe": true,
+          "weight_interval": [
+            25984,
+            26706
+          ]
+        },
+        {
+          "bias_interval": [
+            -10358,
+            -8942
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3260,
+          "member_minimum_id": 378,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2702,
+          "nonmember_maximum_id": 474,
+          "row": 6,
+          "safe": true,
+          "weight_interval": [
+            9723,
+            10206
+          ]
+        },
+        {
+          "bias_interval": [
+            -7023,
+            -6154
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1445,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1773,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": true,
+          "weight_interval": [
+            12903,
+            13994
+          ]
+        },
+        {
+          "bias_interval": [
+            7284,
+            8905
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3893,
+          "member_minimum_id": 604,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3003,
+          "nonmember_maximum_id": 161,
+          "row": 8,
+          "safe": true,
+          "weight_interval": [
+            15724,
+            16205
+          ]
+        }
+      ],
+      "safe": true
+    },
+    {
+      "denominator": 16,
+      "numerator": 4,
+      "rows": [
+        {
+          "bias_interval": [
+            887,
+            2856
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2138,
+          "member_minimum_id": 474,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3007,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": true,
+          "weight_interval": [
+            8680,
+            9169
+          ]
+        },
+        {
+          "bias_interval": [
+            902,
+            1442
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 27,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1576,
+          "nonmember_maximum_id": 133,
+          "row": 1,
+          "safe": true,
+          "weight_interval": [
+            -2883,
+            -2616
+          ]
+        },
+        {
+          "bias_interval": [
+            -3817,
+            -1632
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2372,
+          "member_minimum_id": 614,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3087,
+          "nonmember_maximum_id": 110,
+          "row": 2,
+          "safe": true,
+          "weight_interval": [
+            4844,
+            5481
+          ]
+        },
+        {
+          "bias_interval": [
+            -7412,
+            -4594
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3639,
+          "member_minimum_id": 570,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -4142,
+          "nonmember_maximum_id": 37,
+          "row": 3,
+          "safe": true,
+          "weight_interval": [
+            -13149,
+            -12247
+          ]
+        },
+        {
+          "bias_interval": [
+            -1212,
+            618
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2431,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2415,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": true,
+          "weight_interval": [
+            17181,
+            18700
+          ]
+        },
+        {
+          "bias_interval": [
+            -9387,
+            -6863
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2718,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2937,
+          "nonmember_maximum_id": 173,
+          "row": 5,
+          "safe": true,
+          "weight_interval": [
+            25876,
+            26839
+          ]
+        },
+        {
+          "bias_interval": [
+            -10615,
+            -8726
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2978,
+          "member_minimum_id": 378,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2451,
+          "nonmember_maximum_id": 474,
+          "row": 6,
+          "safe": true,
+          "weight_interval": [
+            9641,
+            10285
+          ]
+        },
+        {
+          "bias_interval": [
+            -7163,
+            -6004
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1180,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1564,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": true,
+          "weight_interval": [
+            12767,
+            14222
+          ]
+        },
+        {
+          "bias_interval": [
+            6982,
+            9143
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3578,
+          "member_minimum_id": 604,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2733,
+          "nonmember_maximum_id": 161,
+          "row": 8,
+          "safe": true,
+          "weight_interval": [
+            15628,
+            16269
+          ]
+        }
+      ],
+      "safe": true
+    },
+    {
+      "denominator": 16,
+      "numerator": 5,
+      "rows": [
+        {
+          "bias_interval": [
+            700,
+            3162
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1925,
+          "member_minimum_id": 474,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2536,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": true,
+          "weight_interval": [
+            8620,
+            9231
+          ]
+        },
+        {
+          "bias_interval": [
+            899,
+            1573
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 21,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1444,
+          "nonmember_maximum_id": 133,
+          "row": 1,
+          "safe": true,
+          "weight_interval": [
+            -2886,
+            -2553
+          ]
+        },
+        {
+          "bias_interval": [
+            -4082,
+            -1351
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1904,
+          "member_minimum_id": 614,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2733,
+          "nonmember_maximum_id": 110,
+          "row": 2,
+          "safe": true,
+          "weight_interval": [
+            4753,
+            5550
+          ]
+        },
+        {
+          "bias_interval": [
+            -7752,
+            -4229
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3189,
+          "member_minimum_id": 570,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -3343,
+          "nonmember_maximum_id": 37,
+          "row": 3,
+          "safe": true,
+          "weight_interval": [
+            -13270,
+            -12142
+          ]
+        },
+        {
+          "bias_interval": [
+            -1441,
+            847
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2122,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2103,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": true,
+          "weight_interval": [
+            16992,
+            18892
+          ]
+        },
+        {
+          "bias_interval": [
+            -9727,
+            -6571
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2039,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2461,
+          "nonmember_maximum_id": 173,
+          "row": 5,
+          "safe": true,
+          "weight_interval": [
+            25768,
+            26972
+          ]
+        },
+        {
+          "bias_interval": [
+            -10871,
+            -8511
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2696,
+          "member_minimum_id": 378,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2087,
+          "nonmember_maximum_id": 487,
+          "row": 6,
+          "safe": true,
+          "weight_interval": [
+            9559,
+            10364
+          ]
+        },
+        {
+          "bias_interval": [
+            -7303,
+            -5854
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 915,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1354,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": true,
+          "weight_interval": [
+            12630,
+            14449
+          ]
+        },
+        {
+          "bias_interval": [
+            6680,
+            9381
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 3263,
+          "member_minimum_id": 604,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2464,
+          "nonmember_maximum_id": 161,
+          "row": 8,
+          "safe": true,
+          "weight_interval": [
+            15531,
+            16333
+          ]
+        }
+      ],
+      "safe": true
+    },
+    {
+      "denominator": 16,
+      "numerator": 6,
+      "rows": [
+        {
+          "bias_interval": [
+            514,
+            3467
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1713,
+          "member_minimum_id": 474,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2063,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": true,
+          "weight_interval": [
+            8560,
+            9294
+          ]
+        },
+        {
+          "bias_interval": [
+            895,
+            1705
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 14,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1310,
+          "nonmember_maximum_id": 133,
+          "row": 1,
+          "safe": true,
+          "weight_interval": [
+            -2890,
+            -2490
+          ]
+        },
+        {
+          "bias_interval": [
+            -4347,
+            -1069
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1439,
+          "member_minimum_id": 614,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2378,
+          "nonmember_maximum_id": 110,
+          "row": 2,
+          "safe": true,
+          "weight_interval": [
+            4663,
+            5619
+          ]
+        },
+        {
+          "bias_interval": [
+            -8091,
+            -3865
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2740,
+          "member_minimum_id": 570,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2550,
+          "nonmember_maximum_id": 37,
+          "row": 3,
+          "safe": true,
+          "weight_interval": [
+            -13391,
+            -12038
+          ]
+        },
+        {
+          "bias_interval": [
+            -1670,
+            1076
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1814,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1792,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": true,
+          "weight_interval": [
+            16804,
+            19084
+          ]
+        },
+        {
+          "bias_interval": [
+            -10066,
+            -6280
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1360,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1985,
+          "nonmember_maximum_id": 173,
+          "row": 5,
+          "safe": true,
+          "weight_interval": [
+            25660,
+            27105
+          ]
+        },
+        {
+          "bias_interval": [
+            -11128,
+            -8295
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2301,
+          "member_minimum_id": 481,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1678,
+          "nonmember_maximum_id": 487,
+          "row": 6,
+          "safe": true,
+          "weight_interval": [
+            9476,
+            10443
+          ]
+        },
+        {
+          "bias_interval": [
+            -7443,
+            -5704
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 650,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1145,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": true,
+          "weight_interval": [
+            12494,
+            14677
+          ]
+        },
+        {
+          "bias_interval": [
+            6377,
+            9619
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2948,
+          "member_minimum_id": 604,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2194,
+          "nonmember_maximum_id": 161,
+          "row": 8,
+          "safe": true,
+          "weight_interval": [
+            15435,
+            16397
+          ]
+        }
+      ],
+      "safe": true
+    },
+    {
+      "denominator": 16,
+      "numerator": 7,
+      "rows": [
+        {
+          "bias_interval": [
+            327,
+            3773
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1500,
+          "member_minimum_id": 474,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1591,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": true,
+          "weight_interval": [
+            8500,
+            9356
+          ]
+        },
+        {
+          "bias_interval": [
+            892,
+            1837
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 8,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1177,
+          "nonmember_maximum_id": 133,
+          "row": 1,
+          "safe": true,
+          "weight_interval": [
+            -2893,
+            -2427
+          ]
+        },
+        {
+          "bias_interval": [
+            -4612,
+            -788
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 972,
+          "member_minimum_id": 614,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -2024,
+          "nonmember_maximum_id": 110,
+          "row": 2,
+          "safe": true,
+          "weight_interval": [
+            4572,
+            5687
+          ]
+        },
+        {
+          "bias_interval": [
+            -8431,
+            -3500
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2290,
+          "member_minimum_id": 570,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1751,
+          "nonmember_maximum_id": 37,
+          "row": 3,
+          "safe": true,
+          "weight_interval": [
+            -13512,
+            -11933
+          ]
+        },
+        {
+          "bias_interval": [
+            -1899,
+            1304
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1505,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1481,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": true,
+          "weight_interval": [
+            16615,
+            19275
+          ]
+        },
+        {
+          "bias_interval": [
+            -10406,
+            -5988
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 681,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1509,
+          "nonmember_maximum_id": 173,
+          "row": 5,
+          "safe": true,
+          "weight_interval": [
+            25552,
+            27238
+          ]
+        },
+        {
+          "bias_interval": [
+            -11385,
+            -8080
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1821,
+          "member_minimum_id": 481,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1271,
+          "nonmember_maximum_id": 487,
+          "row": 6,
+          "safe": true,
+          "weight_interval": [
+            9394,
+            10522
+          ]
+        },
+        {
+          "bias_interval": [
+            -7583,
+            -5554
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 385,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -935,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": true,
+          "weight_interval": [
+            12357,
+            14904
+          ]
+        },
+        {
+          "bias_interval": [
+            6075,
+            9857
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2633,
+          "member_minimum_id": 604,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1925,
+          "nonmember_maximum_id": 161,
+          "row": 8,
+          "safe": true,
+          "weight_interval": [
+            15338,
+            16461
+          ]
+        }
+      ],
+      "safe": true
+    },
+    {
+      "denominator": 16,
+      "numerator": 8,
+      "rows": [
+        {
+          "bias_interval": [
+            140,
+            4079
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1287,
+          "member_minimum_id": 474,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1120,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": true,
+          "weight_interval": [
+            8439,
+            9418
+          ]
+        },
+        {
+          "bias_interval": [
+            888,
+            1969
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 0,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1038,
+          "nonmember_maximum_id": 37,
+          "row": 1,
+          "safe": true,
+          "weight_interval": [
+            -2897,
+            -2363
+          ]
+        },
+        {
+          "bias_interval": [
+            -4877,
+            -506
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 504,
+          "member_minimum_id": 614,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1535,
+          "nonmember_maximum_id": 57,
+          "row": 2,
+          "safe": true,
+          "weight_interval": [
+            4481,
+            5756
+          ]
+        },
+        {
+          "bias_interval": [
+            -8771,
+            -3135
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1840,
+          "member_minimum_id": 570,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -952,
+          "nonmember_maximum_id": 37,
+          "row": 3,
+          "safe": true,
+          "weight_interval": [
+            -13633,
+            -11828
+          ]
+        },
+        {
+          "bias_interval": [
+            -2129,
+            1533
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1195,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1170,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": true,
+          "weight_interval": [
+            16427,
+            19467
+          ]
+        },
+        {
+          "bias_interval": [
+            -10746,
+            -5696
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -858,
+          "nonmember_maximum_id": 20,
+          "row": 5,
+          "safe": true,
+          "weight_interval": [
+            25444,
+            27371
+          ]
+        },
+        {
+          "bias_interval": [
+            -11642,
+            -7864
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1341,
+          "member_minimum_id": 481,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -860,
+          "nonmember_maximum_id": 487,
+          "row": 6,
+          "safe": true,
+          "weight_interval": [
+            9312,
+            10602
+          ]
+        },
+        {
+          "bias_interval": [
+            -7723,
+            -5404
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 120,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -726,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": true,
+          "weight_interval": [
+            12221,
+            15132
+          ]
+        },
+        {
+          "bias_interval": [
+            5772,
+            10096
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 2317,
+          "member_minimum_id": 604,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1654,
+          "nonmember_maximum_id": 161,
+          "row": 8,
+          "safe": true,
+          "weight_interval": [
+            15242,
+            16526
+          ]
+        }
+      ],
+      "safe": true
+    },
+    {
+      "denominator": 16,
+      "numerator": 9,
+      "rows": [
+        {
+          "bias_interval": [
+            -47,
+            4384
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1074,
+          "member_minimum_id": 474,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -649,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": true,
+          "weight_interval": [
+            8379,
+            9480
+          ]
+        },
+        {
+          "bias_interval": [
+            885,
+            2100
+          ],
+          "member_failure_ids": [
+            112
+          ],
+          "member_minimum": -6,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -646,
+          "nonmember_maximum_id": 37,
+          "row": 1,
+          "safe": false,
+          "weight_interval": [
+            -2900,
+            -2300
+          ]
+        },
+        {
+          "bias_interval": [
+            -5141,
+            -225
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 38,
+          "member_minimum_id": 614,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -780,
+          "nonmember_maximum_id": 57,
+          "row": 2,
+          "safe": true,
+          "weight_interval": [
+            4390,
+            5825
+          ]
+        },
+        {
+          "bias_interval": [
+            -9111,
+            -2770
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 975,
+          "member_minimum_id": 469,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -158,
+          "nonmember_maximum_id": 37,
+          "row": 3,
+          "safe": true,
+          "weight_interval": [
+            -13754,
+            -11724
+          ]
+        },
+        {
+          "bias_interval": [
+            -2358,
+            1762
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 886,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -858,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": true,
+          "weight_interval": [
+            16239,
+            19659
+          ]
+        },
+        {
+          "bias_interval": [
+            -11085,
+            -5405
+          ],
+          "member_failure_ids": [
+            201
+          ],
+          "member_minimum": -677,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -173,
+          "nonmember_maximum_id": 20,
+          "row": 5,
+          "safe": false,
+          "weight_interval": [
+            25336,
+            27503
+          ]
+        },
+        {
+          "bias_interval": [
+            -11898,
+            -7648
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 862,
+          "member_minimum_id": 481,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -451,
+          "nonmember_maximum_id": 487,
+          "row": 6,
+          "safe": true,
+          "weight_interval": [
+            9230,
+            10681
+          ]
+        },
+        {
+          "bias_interval": [
+            -7862,
+            -5254
+          ],
+          "member_failure_ids": [
+            364
+          ],
+          "member_minimum": -144,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -517,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": false,
+          "weight_interval": [
+            12085,
+            15359
+          ]
+        },
+        {
+          "bias_interval": [
+            5470,
+            10334
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1925,
+          "member_minimum_id": 482,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1385,
+          "nonmember_maximum_id": 161,
+          "row": 8,
+          "safe": true,
+          "weight_interval": [
+            15146,
+            16590
+          ]
+        }
+      ],
+      "safe": false
+    },
+    {
+      "denominator": 16,
+      "numerator": 10,
+      "rows": [
+        {
+          "bias_interval": [
+            -234,
+            4690
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 861,
+          "member_minimum_id": 474,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -178,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": true,
+          "weight_interval": [
+            8319,
+            9542
+          ]
+        },
+        {
+          "bias_interval": [
+            882,
+            2232
+          ],
+          "member_failure_ids": [
+            112
+          ],
+          "member_minimum": -13,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -254,
+          "nonmember_maximum_id": 37,
+          "row": 1,
+          "safe": false,
+          "weight_interval": [
+            -2904,
+            -2237
+          ]
+        },
+        {
+          "bias_interval": [
+            -5406,
+            57
+          ],
+          "member_failure_ids": [
+            138,
+            343,
+            614
+          ],
+          "member_minimum": -429,
+          "member_minimum_id": 614,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -30,
+          "nonmember_maximum_id": 57,
+          "row": 2,
+          "safe": false,
+          "weight_interval": [
+            4299,
+            5893
+          ]
+        },
+        {
+          "bias_interval": [
+            -9451,
+            -2405
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 59,
+          "member_minimum_id": 469,
+          "nonmember_failure_ids": [
+            37,
+            66
+          ],
+          "nonmember_maximum": 641,
+          "nonmember_maximum_id": 37,
+          "row": 3,
+          "safe": false,
+          "weight_interval": [
+            -13875,
+            -11619
+          ]
+        },
+        {
+          "bias_interval": [
+            -2587,
+            1990
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 578,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -547,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": true,
+          "weight_interval": [
+            16050,
+            19850
+          ]
+        },
+        {
+          "bias_interval": [
+            -11425,
+            -5113
+          ],
+          "member_failure_ids": [
+            201
+          ],
+          "member_minimum": -1356,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [
+            20
+          ],
+          "nonmember_maximum": 516,
+          "nonmember_maximum_id": 20,
+          "row": 5,
+          "safe": false,
+          "weight_interval": [
+            25228,
+            27636
+          ]
+        },
+        {
+          "bias_interval": [
+            -12155,
+            -7433
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 382,
+          "member_minimum_id": 481,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -44,
+          "nonmember_maximum_id": 487,
+          "row": 6,
+          "safe": true,
+          "weight_interval": [
+            9148,
+            10760
+          ]
+        },
+        {
+          "bias_interval": [
+            -8002,
+            -5104
+          ],
+          "member_failure_ids": [
+            364
+          ],
+          "member_minimum": -409,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -307,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": false,
+          "weight_interval": [
+            11948,
+            15587
+          ]
+        },
+        {
+          "bias_interval": [
+            5168,
+            10572
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 1346,
+          "member_minimum_id": 288,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -1115,
+          "nonmember_maximum_id": 161,
+          "row": 8,
+          "safe": true,
+          "weight_interval": [
+            15049,
+            16654
+          ]
+        }
+      ],
+      "safe": false
+    },
+    {
+      "denominator": 16,
+      "numerator": 11,
+      "rows": [
+        {
+          "bias_interval": [
+            -420,
+            4995
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 649,
+          "member_minimum_id": 474,
+          "nonmember_failure_ids": [
+            308
+          ],
+          "nonmember_maximum": 295,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": false,
+          "weight_interval": [
+            8259,
+            9605
+          ]
+        },
+        {
+          "bias_interval": [
+            878,
+            2364
+          ],
+          "member_failure_ids": [
+            112
+          ],
+          "member_minimum": -20,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [
+            37
+          ],
+          "nonmember_maximum": 138,
+          "nonmember_maximum_id": 37,
+          "row": 1,
+          "safe": false,
+          "weight_interval": [
+            -2907,
+            -2174
+          ]
+        },
+        {
+          "bias_interval": [
+            -5671,
+            338
+          ],
+          "member_failure_ids": [
+            138,
+            343,
+            614
+          ],
+          "member_minimum": -894,
+          "member_minimum_id": 614,
+          "nonmember_failure_ids": [
+            57
+          ],
+          "nonmember_maximum": 726,
+          "nonmember_maximum_id": 57,
+          "row": 2,
+          "safe": false,
+          "weight_interval": [
+            4209,
+            5962
+          ]
+        },
+        {
+          "bias_interval": [
+            -9790,
+            -2041
+          ],
+          "member_failure_ids": [
+            469
+          ],
+          "member_minimum": -855,
+          "member_minimum_id": 469,
+          "nonmember_failure_ids": [
+            37,
+            66
+          ],
+          "nonmember_maximum": 1435,
+          "nonmember_maximum_id": 37,
+          "row": 3,
+          "safe": false,
+          "weight_interval": [
+            -13996,
+            -11515
+          ]
+        },
+        {
+          "bias_interval": [
+            -2816,
+            2219
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 269,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -236,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": true,
+          "weight_interval": [
+            15862,
+            20042
+          ]
+        },
+        {
+          "bias_interval": [
+            -11764,
+            -4822
+          ],
+          "member_failure_ids": [
+            201
+          ],
+          "member_minimum": -2035,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [
+            20,
+            173
+          ],
+          "nonmember_maximum": 1204,
+          "nonmember_maximum_id": 20,
+          "row": 5,
+          "safe": false,
+          "weight_interval": [
+            25120,
+            27769
+          ]
+        },
+        {
+          "bias_interval": [
+            -12412,
+            -7217
+          ],
+          "member_failure_ids": [
+            428,
+            481
+          ],
+          "member_minimum": -100,
+          "member_minimum_id": 481,
+          "nonmember_failure_ids": [
+            487
+          ],
+          "nonmember_maximum": 365,
+          "nonmember_maximum_id": 487,
+          "row": 6,
+          "safe": false,
+          "weight_interval": [
+            9065,
+            10839
+          ]
+        },
+        {
+          "bias_interval": [
+            -8142,
+            -4954
+          ],
+          "member_failure_ids": [
+            364
+          ],
+          "member_minimum": -673,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -98,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": false,
+          "weight_interval": [
+            11812,
+            15814
+          ]
+        },
+        {
+          "bias_interval": [
+            4865,
+            10810
+          ],
+          "member_failure_ids": [],
+          "member_minimum": 319,
+          "member_minimum_id": 288,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -846,
+          "nonmember_maximum_id": 161,
+          "row": 8,
+          "safe": true,
+          "weight_interval": [
+            14953,
+            16718
+          ]
+        }
+      ],
+      "safe": false
+    },
+    {
+      "denominator": 16,
+      "numerator": 12,
+      "rows": [
+        {
+          "bias_interval": [
+            -607,
+            5301
+          ],
+          "member_failure_ids": [
+            535
+          ],
+          "member_minimum": -44,
+          "member_minimum_id": 535,
+          "nonmember_failure_ids": [
+            23,
+            308,
+            558,
+            599
+          ],
+          "nonmember_maximum": 766,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": false,
+          "weight_interval": [
+            8198,
+            9667
+          ]
+        },
+        {
+          "bias_interval": [
+            875,
+            2496
+          ],
+          "member_failure_ids": [
+            112
+          ],
+          "member_minimum": -27,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [
+            37
+          ],
+          "nonmember_maximum": 534,
+          "nonmember_maximum_id": 37,
+          "row": 1,
+          "safe": false,
+          "weight_interval": [
+            -2911,
+            -2110
+          ]
+        },
+        {
+          "bias_interval": [
+            -5936,
+            620
+          ],
+          "member_failure_ids": [
+            138,
+            343,
+            614
+          ],
+          "member_minimum": -1526,
+          "member_minimum_id": 138,
+          "nonmember_failure_ids": [
+            57
+          ],
+          "nonmember_maximum": 1482,
+          "nonmember_maximum_id": 57,
+          "row": 2,
+          "safe": false,
+          "weight_interval": [
+            4118,
+            6031
+          ]
+        },
+        {
+          "bias_interval": [
+            -10130,
+            -1676
+          ],
+          "member_failure_ids": [
+            469
+          ],
+          "member_minimum": -1771,
+          "member_minimum_id": 469,
+          "nonmember_failure_ids": [
+            37,
+            66
+          ],
+          "nonmember_maximum": 2233,
+          "nonmember_maximum_id": 37,
+          "row": 3,
+          "safe": false,
+          "weight_interval": [
+            -14117,
+            -11410
+          ]
+        },
+        {
+          "bias_interval": [
+            -3045,
+            2448
+          ],
+          "member_failure_ids": [
+            525
+          ],
+          "member_minimum": -40,
+          "member_minimum_id": 525,
+          "nonmember_failure_ids": [
+            472
+          ],
+          "nonmember_maximum": 76,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": false,
+          "weight_interval": [
+            15673,
+            20234
+          ]
+        },
+        {
+          "bias_interval": [
+            -12104,
+            -4530
+          ],
+          "member_failure_ids": [
+            201
+          ],
+          "member_minimum": -2714,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [
+            20,
+            173
+          ],
+          "nonmember_maximum": 1893,
+          "nonmember_maximum_id": 20,
+          "row": 5,
+          "safe": false,
+          "weight_interval": [
+            25012,
+            27902
+          ]
+        },
+        {
+          "bias_interval": [
+            -12669,
+            -7002
+          ],
+          "member_failure_ids": [
+            428,
+            481
+          ],
+          "member_minimum": -898,
+          "member_minimum_id": 428,
+          "nonmember_failure_ids": [
+            138,
+            487,
+            575
+          ],
+          "nonmember_maximum": 773,
+          "nonmember_maximum_id": 487,
+          "row": 6,
+          "safe": false,
+          "weight_interval": [
+            8983,
+            10918
+          ]
+        },
+        {
+          "bias_interval": [
+            -8282,
+            -4804
+          ],
+          "member_failure_ids": [
+            364
+          ],
+          "member_minimum": -939,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [
+            213
+          ],
+          "nonmember_maximum": 112,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": false,
+          "weight_interval": [
+            11675,
+            16042
+          ]
+        },
+        {
+          "bias_interval": [
+            4563,
+            11048
+          ],
+          "member_failure_ids": [
+            288
+          ],
+          "member_minimum": -713,
+          "member_minimum_id": 288,
+          "nonmember_failure_ids": [],
+          "nonmember_maximum": -453,
+          "nonmember_maximum_id": 587,
+          "row": 8,
+          "safe": false,
+          "weight_interval": [
+            14856,
+            16782
+          ]
+        }
+      ],
+      "safe": false
+    },
+    {
+      "denominator": 16,
+      "numerator": 13,
+      "rows": [
+        {
+          "bias_interval": [
+            -794,
+            5607
+          ],
+          "member_failure_ids": [
+            38,
+            535
+          ],
+          "member_minimum": -776,
+          "member_minimum_id": 535,
+          "nonmember_failure_ids": [
+            23,
+            308,
+            379,
+            447,
+            558,
+            599
+          ],
+          "nonmember_maximum": 1238,
+          "nonmember_maximum_id": 308,
+          "row": 0,
+          "safe": false,
+          "weight_interval": [
+            8138,
+            9729
+          ]
+        },
+        {
+          "bias_interval": [
+            872,
+            2627
+          ],
+          "member_failure_ids": [
+            112
+          ],
+          "member_minimum": -33,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [
+            37
+          ],
+          "nonmember_maximum": 926,
+          "nonmember_maximum_id": 37,
+          "row": 1,
+          "safe": false,
+          "weight_interval": [
+            -2914,
+            -2047
+          ]
+        },
+        {
+          "bias_interval": [
+            -6201,
+            901
+          ],
+          "member_failure_ids": [
+            138,
+            343,
+            541,
+            614
+          ],
+          "member_minimum": -2203,
+          "member_minimum_id": 138,
+          "nonmember_failure_ids": [
+            57,
+            110,
+            533
+          ],
+          "nonmember_maximum": 2231,
+          "nonmember_maximum_id": 57,
+          "row": 2,
+          "safe": false,
+          "weight_interval": [
+            4027,
+            6099
+          ]
+        },
+        {
+          "bias_interval": [
+            -10470,
+            -1311
+          ],
+          "member_failure_ids": [
+            469,
+            503,
+            570
+          ],
+          "member_minimum": -2686,
+          "member_minimum_id": 469,
+          "nonmember_failure_ids": [
+            37,
+            66
+          ],
+          "nonmember_maximum": 3046,
+          "nonmember_maximum_id": 66,
+          "row": 3,
+          "safe": false,
+          "weight_interval": [
+            -14238,
+            -11305
+          ]
+        },
+        {
+          "bias_interval": [
+            -3274,
+            2676
+          ],
+          "member_failure_ids": [
+            73,
+            299,
+            332,
+            394,
+            525,
+            530
+          ],
+          "member_minimum": -723,
+          "member_minimum_id": 299,
+          "nonmember_failure_ids": [
+            472
+          ],
+          "nonmember_maximum": 386,
+          "nonmember_maximum_id": 472,
+          "row": 4,
+          "safe": false,
+          "weight_interval": [
+            15485,
+            20425
+          ]
+        },
+        {
+          "bias_interval": [
+            -12444,
+            -4238
+          ],
+          "member_failure_ids": [
+            201
+          ],
+          "member_minimum": -3394,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [
+            20,
+            173,
+            379
+          ],
+          "nonmember_maximum": 2583,
+          "nonmember_maximum_id": 20,
+          "row": 5,
+          "safe": false,
+          "weight_interval": [
+            24904,
+            28035
+          ]
+        },
+        {
+          "bias_interval": [
+            -12925,
+            -6786
+          ],
+          "member_failure_ids": [
+            428,
+            481
+          ],
+          "member_minimum": -1697,
+          "member_minimum_id": 428,
+          "nonmember_failure_ids": [
+            138,
+            487,
+            575
+          ],
+          "nonmember_maximum": 1181,
+          "nonmember_maximum_id": 487,
+          "row": 6,
+          "safe": false,
+          "weight_interval": [
+            8901,
+            10997
+          ]
+        },
+        {
+          "bias_interval": [
+            -8422,
+            -4654
+          ],
+          "member_failure_ids": [
+            364
+          ],
+          "member_minimum": -1203,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [
+            213
+          ],
+          "nonmember_maximum": 321,
+          "nonmember_maximum_id": 213,
+          "row": 7,
+          "safe": false,
+          "weight_interval": [
+            11539,
+            16269
+          ]
+        },
+        {
+          "bias_interval": [
+            4261,
+            11286
+          ],
+          "member_failure_ids": [
+            288,
+            482
+          ],
+          "member_minimum": -1739,
+          "member_minimum_id": 288,
+          "nonmember_failure_ids": [
+            587
+          ],
+          "nonmember_maximum": 608,
+          "nonmember_maximum_id": 587,
+          "row": 8,
+          "safe": false,
+          "weight_interval": [
+            14760,
+            16846
+          ]
+        }
+      ],
+      "safe": false
+    },
+    {
+      "denominator": 16,
+      "numerator": 14,
+      "rows": [
+        {
+          "bias_interval": [
+            -981,
+            5912
+          ],
+          "member_failure_ids": [
+            38,
+            535
+          ],
+          "member_minimum": -1508,
+          "member_minimum_id": 535,
+          "nonmember_failure_ids": [
+            23,
+            308,
+            379,
+            447,
+            511,
+            558,
+            559,
+            599
+          ],
+          "nonmember_maximum": 2298,
+          "nonmember_maximum_id": 379,
+          "row": 0,
+          "safe": false,
+          "weight_interval": [
+            8078,
+            9791
+          ]
+        },
+        {
+          "bias_interval": [
+            868,
+            2759
+          ],
+          "member_failure_ids": [
+            112
+          ],
+          "member_minimum": -40,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [
+            37
+          ],
+          "nonmember_maximum": 1318,
+          "nonmember_maximum_id": 37,
+          "row": 1,
+          "safe": false,
+          "weight_interval": [
+            -2918,
+            -1984
+          ]
+        },
+        {
+          "bias_interval": [
+            -6466,
+            1183
+          ],
+          "member_failure_ids": [
+            138,
+            343,
+            541,
+            614
+          ],
+          "member_minimum": -2880,
+          "member_minimum_id": 138,
+          "nonmember_failure_ids": [
+            57,
+            110,
+            533
+          ],
+          "nonmember_maximum": 2987,
+          "nonmember_maximum_id": 57,
+          "row": 2,
+          "safe": false,
+          "weight_interval": [
+            3936,
+            6168
+          ]
+        },
+        {
+          "bias_interval": [
+            -10810,
+            -946
+          ],
+          "member_failure_ids": [
+            299,
+            469,
+            503,
+            533,
+            570
+          ],
+          "member_minimum": -3602,
+          "member_minimum_id": 469,
+          "nonmember_failure_ids": [
+            37,
+            66,
+            213,
+            449
+          ],
+          "nonmember_maximum": 3972,
+          "nonmember_maximum_id": 66,
+          "row": 3,
+          "safe": false,
+          "weight_interval": [
+            -14359,
+            -11201
+          ]
+        },
+        {
+          "bias_interval": [
+            -3503,
+            2905
+          ],
+          "member_failure_ids": [
+            73,
+            293,
+            299,
+            332,
+            394,
+            525,
+            530,
+            531
+          ],
+          "member_minimum": -1616,
+          "member_minimum_id": 299,
+          "nonmember_failure_ids": [
+            72,
+            259,
+            321,
+            408,
+            472
+          ],
+          "nonmember_maximum": 1192,
+          "nonmember_maximum_id": 72,
+          "row": 4,
+          "safe": false,
+          "weight_interval": [
+            15296,
+            20617
+          ]
+        },
+        {
+          "bias_interval": [
+            -12783,
+            -3947
+          ],
+          "member_failure_ids": [
+            201
+          ],
+          "member_minimum": -4072,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [
+            20,
+            173,
+            379
+          ],
+          "nonmember_maximum": 3271,
+          "nonmember_maximum_id": 20,
+          "row": 5,
+          "safe": false,
+          "weight_interval": [
+            24796,
+            28168
+          ]
+        },
+        {
+          "bias_interval": [
+            -13182,
+            -6571
+          ],
+          "member_failure_ids": [
+            93,
+            428,
+            481
+          ],
+          "member_minimum": -2497,
+          "member_minimum_id": 428,
+          "nonmember_failure_ids": [
+            138,
+            474,
+            487,
+            575
+          ],
+          "nonmember_maximum": 1900,
+          "nonmember_maximum_id": 575,
+          "row": 6,
+          "safe": false,
+          "weight_interval": [
+            8819,
+            11076
+          ]
+        },
+        {
+          "bias_interval": [
+            -8562,
+            -4504
+          ],
+          "member_failure_ids": [
+            364
+          ],
+          "member_minimum": -1469,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [
+            213,
+            291,
+            468
+          ],
+          "nonmember_maximum": 652,
+          "nonmember_maximum_id": 291,
+          "row": 7,
+          "safe": false,
+          "weight_interval": [
+            11402,
+            16497
+          ]
+        },
+        {
+          "bias_interval": [
+            3958,
+            11524
+          ],
+          "member_failure_ids": [
+            288,
+            482
+          ],
+          "member_minimum": -2773,
+          "member_minimum_id": 288,
+          "nonmember_failure_ids": [
+            587
+          ],
+          "nonmember_maximum": 1669,
+          "nonmember_maximum_id": 587,
+          "row": 8,
+          "safe": false,
+          "weight_interval": [
+            14663,
+            16910
+          ]
+        }
+      ],
+      "safe": false
+    },
+    {
+      "denominator": 16,
+      "numerator": 15,
+      "rows": [
+        {
+          "bias_interval": [
+            -1168,
+            6218
+          ],
+          "member_failure_ids": [
+            38,
+            474,
+            535
+          ],
+          "member_minimum": -2241,
+          "member_minimum_id": 535,
+          "nonmember_failure_ids": [
+            23,
+            92,
+            308,
+            379,
+            447,
+            511,
+            558,
+            559,
+            599
+          ],
+          "nonmember_maximum": 3578,
+          "nonmember_maximum_id": 379,
+          "row": 0,
+          "safe": false,
+          "weight_interval": [
+            8018,
+            9853
+          ]
+        },
+        {
+          "bias_interval": [
+            865,
+            2891
+          ],
+          "member_failure_ids": [
+            112
+          ],
+          "member_minimum": -46,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [
+            37
+          ],
+          "nonmember_maximum": 1710,
+          "nonmember_maximum_id": 37,
+          "row": 1,
+          "safe": false,
+          "weight_interval": [
+            -2921,
+            -1921
+          ]
+        },
+        {
+          "bias_interval": [
+            -6731,
+            1464
+          ],
+          "member_failure_ids": [
+            138,
+            343,
+            541,
+            614
+          ],
+          "member_minimum": -3558,
+          "member_minimum_id": 138,
+          "nonmember_failure_ids": [
+            57,
+            110,
+            533
+          ],
+          "nonmember_maximum": 3743,
+          "nonmember_maximum_id": 57,
+          "row": 2,
+          "safe": false,
+          "weight_interval": [
+            3845,
+            6237
+          ]
+        },
+        {
+          "bias_interval": [
+            -11150,
+            -581
+          ],
+          "member_failure_ids": [
+            299,
+            308,
+            469,
+            501,
+            503,
+            533,
+            570
+          ],
+          "member_minimum": -4517,
+          "member_minimum_id": 469,
+          "nonmember_failure_ids": [
+            37,
+            66,
+            213,
+            343,
+            449,
+            588
+          ],
+          "nonmember_maximum": 4902,
+          "nonmember_maximum_id": 66,
+          "row": 3,
+          "safe": false,
+          "weight_interval": [
+            -14480,
+            -11096
+          ]
+        },
+        {
+          "bias_interval": [
+            -3732,
+            3134
+          ],
+          "member_failure_ids": [
+            73,
+            293,
+            299,
+            332,
+            394,
+            525,
+            530,
+            531
+          ],
+          "member_minimum": -2590,
+          "member_minimum_id": 530,
+          "nonmember_failure_ids": [
+            72,
+            259,
+            321,
+            329,
+            408,
+            472
+          ],
+          "nonmember_maximum": 2422,
+          "nonmember_maximum_id": 72,
+          "row": 4,
+          "safe": false,
+          "weight_interval": [
+            15108,
+            20809
+          ]
+        },
+        {
+          "bias_interval": [
+            -13123,
+            -3655
+          ],
+          "member_failure_ids": [
+            201
+          ],
+          "member_minimum": -4751,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [
+            20,
+            173,
+            379
+          ],
+          "nonmember_maximum": 3960,
+          "nonmember_maximum_id": 20,
+          "row": 5,
+          "safe": false,
+          "weight_interval": [
+            24688,
+            28301
+          ]
+        },
+        {
+          "bias_interval": [
+            -13439,
+            -6355
+          ],
+          "member_failure_ids": [
+            93,
+            284,
+            378,
+            428,
+            481,
+            581
+          ],
+          "member_minimum": -3297,
+          "member_minimum_id": 428,
+          "nonmember_failure_ids": [
+            138,
+            474,
+            487,
+            575
+          ],
+          "nonmember_maximum": 2669,
+          "nonmember_maximum_id": 575,
+          "row": 6,
+          "safe": false,
+          "weight_interval": [
+            8737,
+            11155
+          ]
+        },
+        {
+          "bias_interval": [
+            -8702,
+            -4354
+          ],
+          "member_failure_ids": [
+            364
+          ],
+          "member_minimum": -1733,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [
+            213,
+            291,
+            468
+          ],
+          "nonmember_maximum": 1521,
+          "nonmember_maximum_id": 291,
+          "row": 7,
+          "safe": false,
+          "weight_interval": [
+            11266,
+            16724
+          ]
+        },
+        {
+          "bias_interval": [
+            3656,
+            11762
+          ],
+          "member_failure_ids": [
+            288,
+            482
+          ],
+          "member_minimum": -3798,
+          "member_minimum_id": 288,
+          "nonmember_failure_ids": [
+            161,
+            575,
+            587
+          ],
+          "nonmember_maximum": 2729,
+          "nonmember_maximum_id": 587,
+          "row": 8,
+          "safe": false,
+          "weight_interval": [
+            14567,
+            16974
+          ]
+        }
+      ],
+      "safe": false
+    },
+    {
+      "denominator": 16,
+      "numerator": 16,
+      "rows": [
+        {
+          "bias_interval": [
+            -1355,
+            6524
+          ],
+          "member_failure_ids": [
+            38,
+            474,
+            535
+          ],
+          "member_minimum": -2982,
+          "member_minimum_id": 535,
+          "nonmember_failure_ids": [
+            23,
+            92,
+            308,
+            379,
+            447,
+            459,
+            511,
+            558,
+            559,
+            599,
+            618
+          ],
+          "nonmember_maximum": 4874,
+          "nonmember_maximum_id": 379,
+          "row": 0,
+          "safe": false,
+          "weight_interval": [
+            7957,
+            9916
+          ]
+        },
+        {
+          "bias_interval": [
+            861,
+            3023
+          ],
+          "member_failure_ids": [
+            112
+          ],
+          "member_minimum": -54,
+          "member_minimum_id": 112,
+          "nonmember_failure_ids": [
+            37,
+            133,
+            343,
+            410,
+            614
+          ],
+          "nonmember_maximum": 2106,
+          "nonmember_maximum_id": 37,
+          "row": 1,
+          "safe": false,
+          "weight_interval": [
+            -2925,
+            -1857
+          ]
+        },
+        {
+          "bias_interval": [
+            -6996,
+            1746
+          ],
+          "member_failure_ids": [
+            138,
+            343,
+            541,
+            614
+          ],
+          "member_minimum": -4235,
+          "member_minimum_id": 138,
+          "nonmember_failure_ids": [
+            57,
+            110,
+            481,
+            533
+          ],
+          "nonmember_maximum": 4499,
+          "nonmember_maximum_id": 57,
+          "row": 2,
+          "safe": false,
+          "weight_interval": [
+            3754,
+            6306
+          ]
+        },
+        {
+          "bias_interval": [
+            -11490,
+            -216
+          ],
+          "member_failure_ids": [
+            63,
+            299,
+            308,
+            469,
+            501,
+            503,
+            533,
+            564,
+            570
+          ],
+          "member_minimum": -5437,
+          "member_minimum_id": 469,
+          "nonmember_failure_ids": [
+            37,
+            66,
+            213,
+            220,
+            343,
+            352,
+            449,
+            588
+          ],
+          "nonmember_maximum": 5833,
+          "nonmember_maximum_id": 66,
+          "row": 3,
+          "safe": false,
+          "weight_interval": [
+            -14602,
+            -10991
+          ]
+        },
+        {
+          "bias_interval": [
+            -3962,
+            3363
+          ],
+          "member_failure_ids": [
+            73,
+            293,
+            299,
+            332,
+            394,
+            525,
+            530,
+            531
+          ],
+          "member_minimum": -3664,
+          "member_minimum_id": 530,
+          "nonmember_failure_ids": [
+            72,
+            131,
+            259,
+            321,
+            329,
+            408,
+            472
+          ],
+          "nonmember_maximum": 3658,
+          "nonmember_maximum_id": 72,
+          "row": 4,
+          "safe": false,
+          "weight_interval": [
+            14919,
+            21001
+          ]
+        },
+        {
+          "bias_interval": [
+            -13463,
+            -3363
+          ],
+          "member_failure_ids": [
+            201,
+            293,
+            454,
+            573
+          ],
+          "member_minimum": -5434,
+          "member_minimum_id": 201,
+          "nonmember_failure_ids": [
+            20,
+            173,
+            340,
+            379,
+            449
+          ],
+          "nonmember_maximum": 4660,
+          "nonmember_maximum_id": 379,
+          "row": 5,
+          "safe": false,
+          "weight_interval": [
+            24579,
+            28434
+          ]
+        },
+        {
+          "bias_interval": [
+            -13696,
+            -6139
+          ],
+          "member_failure_ids": [
+            93,
+            164,
+            184,
+            284,
+            378,
+            428,
+            481,
+            581
+          ],
+          "member_minimum": -4104,
+          "member_minimum_id": 428,
+          "nonmember_failure_ids": [
+            138,
+            474,
+            487,
+            575
+          ],
+          "nonmember_maximum": 3445,
+          "nonmember_maximum_id": 575,
+          "row": 6,
+          "safe": false,
+          "weight_interval": [
+            8654,
+            11235
+          ]
+        },
+        {
+          "bias_interval": [
+            -8842,
+            -4203
+          ],
+          "member_failure_ids": [
+            351,
+            364,
+            412
+          ],
+          "member_minimum": -1998,
+          "member_minimum_id": 364,
+          "nonmember_failure_ids": [
+            213,
+            291,
+            468
+          ],
+          "nonmember_maximum": 2400,
+          "nonmember_maximum_id": 468,
+          "row": 7,
+          "safe": false,
+          "weight_interval": [
+            11129,
+            16952
+          ]
+        },
+        {
+          "bias_interval": [
+            3353,
+            12001
+          ],
+          "member_failure_ids": [
+            288,
+            482,
+            604
+          ],
+          "member_minimum": -4832,
+          "member_minimum_id": 288,
+          "nonmember_failure_ids": [
+            161,
+            575,
+            587
+          ],
+          "nonmember_maximum": 3804,
+          "nonmember_maximum_id": 587,
+          "row": 8,
+          "safe": false,
+          "weight_interval": [
+            14470,
+            17039
+          ]
+        }
+      ],
+      "safe": false
+    }
+  ],
+  "grid_maximal_not_continuous_optimal": true,
+  "original_box_safe": false
+}

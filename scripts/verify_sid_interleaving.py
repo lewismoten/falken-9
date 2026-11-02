@@ -27,6 +27,10 @@ def verify(built, output, limit=24):
         mem[0xe000:0x10000]=rom;mem[0x314:0x316]=labels['audio_irq'].to_bytes(2,'little')
         for name,value in [('audio_enabled',1),('audio_protected',1),('audio_period',30 if n%2==0 else 36),('audio_frames',1),('audio_step',31),('audio_pending',0),('audio_sfx_left',0),('audio_cooldown',0),('audio_ntsc',n%2),('progress_active',0)]:m.put(name,value,1)
         mem[1]=0x36 if n%2 else 0x37
+        # Exercise the real read-only sampler on a released stock matrix, not
+        # only its unsupported-DDR early exit. Device state remains injected.
+        mem[0xdc00:0xdc04]=[0x7f,0xff,0xff,0]
+        m.put('quit_active',1,1);m.put('quit_pending',0,1);m.put('quit_down',0,1)
         for i,v in enumerate(row['board']):m.put(labels['board']+i,v,1)
         image_regions=[(a,bytes(mem[a:b])) for a,b in [(0x800,labels['code_end']),(0x4000,0x544b),(0x5500,labels['services_end']),(0x7900,0x8000),(0x8000,labels['app_end']),(0xa000,0xa000+Path(built['path']).parent.joinpath('runtime-graphics.bin').stat().st_size)]]
         real_step=cpu.step;next_irq=cpu.processorCycles+37+n*103;first=True;count=0;max_cycles=0

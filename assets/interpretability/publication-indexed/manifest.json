@@ -1,0 +1,3154 @@
+{
+  "complete": true,
+  "deferred_sources": [],
+  "encoder": {
+    "compress_level": 9,
+    "cropping": false,
+    "dither": "NONE",
+    "numpy": "2.4.6",
+    "optimize": false,
+    "pillow": "13.0.0",
+    "python": "3.11.16",
+    "quantizer": "Pillow MEDIANCUT for continuous heatmaps/visual weights, MAXCOVERAGE for categorical/table figures; pin seven most frequent source colors, then fixed-palette mapping",
+    "resampling": false,
+    "zlib": "1.3.2"
+  },
+  "figures": [
+    {
+      "dimensions": [
+        1740,
+        1300
+      ],
+      "indexed": {
+        "bit_depth": 8,
+        "bytes": 51665,
+        "colors": 32,
+        "path": "assets/interpretability/publication-indexed/model-inspection/tensor-workflow.png",
+        "sha256": "db65fbe2020337234aceaf7d6119cd0588273fd5d6f47e110212f83eb270f7cf"
+      },
+      "original": {
+        "bytes": 190462,
+        "path": "assets/interpretability/model-inspection/tensor-workflow.png",
+        "sha256": "81e3af15bc66a9bc87e21e025f99f47109a17d8e1e239f3fe9b8e33bb4a508f7"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 53297,
+            "canvas_rgb": [
+              11,
+              16,
+              24
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 180406,
+            "edge_rgb_mae": 6.791831,
+            "foreground_p95_channel_error": 59.0,
+            "foreground_pixels": 237204,
+            "foreground_rgb_mae": 15.498284,
+            "foreground_rgb_rmse": 25.580778,
+            "path": "assets/interpretability/publication-indexed/candidates/16/model-inspection/tensor-workflow.png",
+            "quantizer": "MEDIANCUT",
+            "rgb_mae": 1.771471,
+            "rgb_max_channel_error": 109,
+            "rgb_p95_channel_error": 11.0,
+            "rgb_rmse": 8.371742,
+            "salient_chromatic_max_nearest_rgb_distance": 98.969696,
+            "salient_chromatic_palette_indices": 7,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "c45fa6ffaebb34054ecbd3841bc53be2502378084bf880d3139530e8921a8a76",
+            "text_pixels": 29332,
+            "text_rgb_mae": 7.271978,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 51665,
+            "canvas_rgb": [
+              11,
+              16,
+              24
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 180406,
+            "edge_rgb_mae": 4.411649,
+            "foreground_p95_channel_error": 32.0,
+            "foreground_pixels": 237204,
+            "foreground_rgb_mae": 8.977668,
+            "foreground_rgb_rmse": 14.746031,
+            "path": "assets/interpretability/publication-indexed/candidates/32/model-inspection/tensor-workflow.png",
+            "quantizer": "MEDIANCUT",
+            "rgb_mae": 1.048252,
+            "rgb_max_channel_error": 75,
+            "rgb_p95_channel_error": 6.0,
+            "rgb_rmse": 4.850949,
+            "salient_chromatic_max_nearest_rgb_distance": 90.824005,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "db65fbe2020337234aceaf7d6119cd0588273fd5d6f47e110212f83eb270f7cf",
+            "text_pixels": 29332,
+            "text_rgb_mae": 7.348425,
+            "used_palette_entries": 29
+          }
+        },
+        "selected_colors": 32
+      },
+      "reason": "Decoded visual weight-map gradients and multiple tensor-category colors; this inspector is not reconstructable model data. 16 colors discard useful intermediate shades; select 32. Measured foreground MAE: 16=15.498, 32=8.978; neutral-text MAE: 16=7.272, 32=7.348 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        648,
+        1750
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 32716,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/model-inspection/netron-dark.png",
+        "sha256": "a4c5bc9e9f7b6fd4121a36bb95879443a787a6df5c9598c74f2209f375d964d7"
+      },
+      "original": {
+        "bytes": 168178,
+        "path": "assets/interpretability/model-inspection/netron-dark.png",
+        "sha256": "33982cf05690532e9745e16e1c9ec3ae073dde1b948b71f41d00d40bf7ae8ff9"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 32716,
+            "canvas_rgb": [
+              16,
+              24,
+              32
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 62280,
+            "edge_rgb_mae": 2.651033,
+            "foreground_p95_channel_error": 10.0,
+            "foreground_pixels": 158473,
+            "foreground_rgb_mae": 1.55714,
+            "foreground_rgb_rmse": 3.770389,
+            "path": "assets/interpretability/publication-indexed/candidates/16/model-inspection/netron-dark.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.228134,
+            "rgb_max_channel_error": 22,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 1.435337,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 0,
+            "salient_chromatic_source_colors": 0,
+            "sha256": "a4c5bc9e9f7b6fd4121a36bb95879443a787a6df5c9598c74f2209f375d964d7",
+            "text_pixels": 21532,
+            "text_rgb_mae": 3.706623,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 35188,
+            "canvas_rgb": [
+              16,
+              24,
+              32
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 62280,
+            "edge_rgb_mae": 1.921371,
+            "foreground_p95_channel_error": 6.0,
+            "foreground_pixels": 158473,
+            "foreground_rgb_mae": 1.006781,
+            "foreground_rgb_rmse": 2.354325,
+            "path": "assets/interpretability/publication-indexed/candidates/32/model-inspection/netron-dark.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.151223,
+            "rgb_max_channel_error": 16,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 0.92096,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 0,
+            "salient_chromatic_source_colors": 0,
+            "sha256": "909c34d6bdc6f1db390418f12d42091eb23d040a634f869498ad04a32e36117d",
+            "text_pixels": 21532,
+            "text_rgb_mae": 2.84078,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=1.557, 32=1.007; neutral-text MAE: 16=3.707, 32=2.841 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1480,
+        1110
+      ],
+      "indexed": {
+        "bit_depth": 8,
+        "bytes": 45583,
+        "colors": 32,
+        "path": "assets/interpretability/publication-indexed/interpretability/strategy-circuit-map.png",
+        "sha256": "7b00badb7832e0a49f8302b163b192cf5c48f6ba13186a6614812298520db451"
+      },
+      "original": {
+        "bytes": 138156,
+        "path": "assets/interpretability/strategy-circuit-map.png",
+        "sha256": "c649f7175cdc5a31f47b4d98cb1d5f31dc850664920b598d136816a4acc0b6d3"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 46561,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 158638,
+            "edge_rgb_mae": 9.072732,
+            "foreground_p95_channel_error": 48.0,
+            "foreground_pixels": 175870,
+            "foreground_rgb_mae": 14.885446,
+            "foreground_rgb_rmse": 22.928087,
+            "path": "assets/interpretability/publication-indexed/candidates/16/interpretability/strategy-circuit-map.png",
+            "quantizer": "MEDIANCUT",
+            "rgb_mae": 1.656176,
+            "rgb_max_channel_error": 91,
+            "rgb_p95_channel_error": 9.0,
+            "rgb_rmse": 7.525156,
+            "salient_chromatic_max_nearest_rgb_distance": 106.611443,
+            "salient_chromatic_palette_indices": 6,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "40e934afbdb5f230db7779faeab239c2bd6eee2c6a8822d68bf45c9bb5760cad",
+            "text_pixels": 38565,
+            "text_rgb_mae": 9.021574,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 45583,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 158638,
+            "edge_rgb_mae": 4.038083,
+            "foreground_p95_channel_error": 23.0,
+            "foreground_pixels": 175870,
+            "foreground_rgb_mae": 6.710174,
+            "foreground_rgb_rmse": 10.910056,
+            "path": "assets/interpretability/publication-indexed/candidates/32/interpretability/strategy-circuit-map.png",
+            "quantizer": "MEDIANCUT",
+            "rgb_mae": 0.774654,
+            "rgb_max_channel_error": 60,
+            "rgb_p95_channel_error": 5.0,
+            "rgb_rmse": 3.605777,
+            "salient_chromatic_max_nearest_rgb_distance": 72.006943,
+            "salient_chromatic_palette_indices": 10,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "7b00badb7832e0a49f8302b163b192cf5c48f6ba13186a6614812298520db451",
+            "text_pixels": 38565,
+            "text_rgb_mae": 6.375072,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 32
+      },
+      "reason": "Continuous-valued heatmap cells alongside circuit-category colors. 16 colors discard useful intermediate shades; select 32. Measured foreground MAE: 16=14.885, 32=6.710; neutral-text MAE: 16=9.022, 32=6.375 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1480,
+        1130
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 49581,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/interpretability/strategy-board-comparisons.png",
+        "sha256": "cb0ad1efc9a8fd06f96a0f3bfb326590c2508b995e4a3215dd845d4766a77780"
+      },
+      "original": {
+        "bytes": 132675,
+        "path": "assets/interpretability/strategy-board-comparisons.png",
+        "sha256": "c6a59698b5fb1a45e60e5852b2c4b7c5bae9f75fbb022e7cec521a617f23e446"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 49581,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 140800,
+            "edge_rgb_mae": 5.698376,
+            "foreground_p95_channel_error": 28.0,
+            "foreground_pixels": 92777,
+            "foreground_rgb_mae": 8.511811,
+            "foreground_rgb_rmse": 13.014499,
+            "path": "assets/interpretability/publication-indexed/candidates/16/interpretability/strategy-board-comparisons.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.554995,
+            "rgb_max_channel_error": 54,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 3.250485,
+            "salient_chromatic_max_nearest_rgb_distance": 42.73172,
+            "salient_chromatic_palette_indices": 7,
+            "salient_chromatic_source_colors": 13,
+            "sha256": "cb0ad1efc9a8fd06f96a0f3bfb326590c2508b995e4a3215dd845d4766a77780",
+            "text_pixels": 34855,
+            "text_rgb_mae": 6.392062,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 39431,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 140800,
+            "edge_rgb_mae": 3.680116,
+            "foreground_p95_channel_error": 18.0,
+            "foreground_pixels": 92777,
+            "foreground_rgb_mae": 5.010333,
+            "foreground_rgb_rmse": 7.807401,
+            "path": "assets/interpretability/publication-indexed/candidates/32/interpretability/strategy-board-comparisons.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.357837,
+            "rgb_max_channel_error": 32,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 2.116881,
+            "salient_chromatic_max_nearest_rgb_distance": 22.22611,
+            "salient_chromatic_palette_indices": 7,
+            "salient_chromatic_source_colors": 13,
+            "sha256": "b0741d625f76d67a41b97be27a4df63577595b651fc6b460a6d6c83e54456d8a",
+            "text_pixels": 34855,
+            "text_rgb_mae": 4.031177,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=8.512, 32=5.010; neutral-text MAE: 16=6.392, 32=4.031 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1480,
+        1050
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 41281,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-003/necessity-context.png",
+        "sha256": "c1013389e1cd00c9cd1a9e2ff5cbcdb060270beb21d38e819aff7a82202c8d53"
+      },
+      "original": {
+        "bytes": 140736,
+        "path": "assets/interpretability/study-003/necessity-context.png",
+        "sha256": "dfa9168f228df87a55c6c8063eea6370bb09f0f68e568fe6ef2029146c078be3"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 41281,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 148342,
+            "edge_rgb_mae": 5.091676,
+            "foreground_p95_channel_error": 25.0,
+            "foreground_pixels": 98308,
+            "foreground_rgb_mae": 7.280289,
+            "foreground_rgb_rmse": 11.062214,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-003/necessity-context.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.564311,
+            "rgb_max_channel_error": 49,
+            "rgb_p95_channel_error": 1.0,
+            "rgb_rmse": 3.04526,
+            "salient_chromatic_max_nearest_rgb_distance": 45.88028,
+            "salient_chromatic_palette_indices": 5,
+            "salient_chromatic_source_colors": 8,
+            "sha256": "c1013389e1cd00c9cd1a9e2ff5cbcdb060270beb21d38e819aff7a82202c8d53",
+            "text_pixels": 39411,
+            "text_rgb_mae": 5.578527,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 43460,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 148342,
+            "edge_rgb_mae": 3.002575,
+            "foreground_p95_channel_error": 13.0,
+            "foreground_pixels": 98308,
+            "foreground_rgb_mae": 4.01775,
+            "foreground_rgb_rmse": 6.067234,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-003/necessity-context.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.327344,
+            "rgb_max_channel_error": 31,
+            "rgb_p95_channel_error": 1.0,
+            "rgb_rmse": 1.769381,
+            "salient_chromatic_max_nearest_rgb_distance": 15.556349,
+            "salient_chromatic_palette_indices": 7,
+            "salient_chromatic_source_colors": 8,
+            "sha256": "cb0be11be6353a4fc72510cc2347b7ce1ace10f007ae7c61f9c2e1106f088e11",
+            "text_pixels": 39411,
+            "text_rgb_mae": 4.030998,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=7.280, 32=4.018; neutral-text MAE: 16=5.579, 32=4.031 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1480,
+        1100
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 41626,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-003/patch-and-restoration.png",
+        "sha256": "ecb4b461b3e91824085f18b164b599fe6cdbed399907588b7e6dbb24f90fba01"
+      },
+      "original": {
+        "bytes": 125960,
+        "path": "assets/interpretability/study-003/patch-and-restoration.png",
+        "sha256": "108087da790f5607ead8fd11675d2a763e9c4973285ed7f523094734cc1e3e16"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 41626,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 132028,
+            "edge_rgb_mae": 5.106051,
+            "foreground_p95_channel_error": 24.0,
+            "foreground_pixels": 88547,
+            "foreground_rgb_mae": 6.938319,
+            "foreground_rgb_rmse": 10.803121,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-003/patch-and-restoration.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.474442,
+            "rgb_max_channel_error": 50,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 2.785659,
+            "salient_chromatic_max_nearest_rgb_distance": 48.30114,
+            "salient_chromatic_palette_indices": 4,
+            "salient_chromatic_source_colors": 4,
+            "sha256": "ecb4b461b3e91824085f18b164b599fe6cdbed399907588b7e6dbb24f90fba01",
+            "text_pixels": 34319,
+            "text_rgb_mae": 4.52114,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 40445,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 132028,
+            "edge_rgb_mae": 3.033526,
+            "foreground_p95_channel_error": 13.0,
+            "foreground_pixels": 88547,
+            "foreground_rgb_mae": 3.899018,
+            "foreground_rgb_rmse": 6.073076,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-003/patch-and-restoration.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.281104,
+            "rgb_max_channel_error": 32,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 1.658561,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 4,
+            "salient_chromatic_source_colors": 4,
+            "sha256": "218a61c393534834eba82bb4e715adea773633c61c2eda88516b1c0c0b7cb85e",
+            "text_pixels": 34319,
+            "text_rgb_mae": 3.623231,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=6.938, 32=3.899; neutral-text MAE: 16=4.521, 32=3.623 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1640,
+        1110
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 53587,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-004/square-paths.png",
+        "sha256": "634cfa37a6f15fb897452220b21c375aeebaf280615fdc27b49c0a5dbc169fc6"
+      },
+      "original": {
+        "bytes": 189547,
+        "path": "assets/interpretability/study-004/square-paths.png",
+        "sha256": "205e87f2889710520fc6f2d86b7845d10b8312808c03fafd08705b979ba2af82"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 53587,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 148883,
+            "edge_rgb_mae": 5.473401,
+            "foreground_p95_channel_error": 26.0,
+            "foreground_pixels": 109652,
+            "foreground_rgb_mae": 8.208286,
+            "foreground_rgb_rmse": 12.383029,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-004/square-paths.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.623291,
+            "rgb_max_channel_error": 50,
+            "rgb_p95_channel_error": 1.0,
+            "rgb_rmse": 3.330579,
+            "salient_chromatic_max_nearest_rgb_distance": 35.958309,
+            "salient_chromatic_palette_indices": 8,
+            "salient_chromatic_source_colors": 11,
+            "sha256": "634cfa37a6f15fb897452220b21c375aeebaf280615fdc27b49c0a5dbc169fc6",
+            "text_pixels": 37833,
+            "text_rgb_mae": 6.522683,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 52734,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 148883,
+            "edge_rgb_mae": 3.790222,
+            "foreground_p95_channel_error": 18.0,
+            "foreground_pixels": 109652,
+            "foreground_rgb_mae": 5.30816,
+            "foreground_rgb_rmse": 8.117161,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-004/square-paths.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.422565,
+            "rgb_max_channel_error": 30,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 2.27768,
+            "salient_chromatic_max_nearest_rgb_distance": 20.832666,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 11,
+            "sha256": "031a63bcd17b8c5412bc8e21e7a82ca0c55b4f524634bd995210c6c2fbba6de7",
+            "text_pixels": 37833,
+            "text_rgb_mae": 3.848184,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=8.208, 32=5.308; neutral-text MAE: 16=6.523, 32=3.848 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1640,
+        1210
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 50989,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-004/position-contrasts.png",
+        "sha256": "6d09eb20a5a76cbb864e5f8e011f81e739d139bba43d4e34dcc5ac4ffc338716"
+      },
+      "original": {
+        "bytes": 163763,
+        "path": "assets/interpretability/study-004/position-contrasts.png",
+        "sha256": "5fbee8051a1dfe21d1db9de3f45154ef31183215c33171fc8ee8d028ab55b84c"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 50989,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 153467,
+            "edge_rgb_mae": 5.09518,
+            "foreground_p95_channel_error": 23.0,
+            "foreground_pixels": 105949,
+            "foreground_rgb_mae": 6.837916,
+            "foreground_rgb_rmse": 10.617232,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-004/position-contrasts.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.450421,
+            "rgb_max_channel_error": 50,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 2.695047,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 4,
+            "salient_chromatic_source_colors": 4,
+            "sha256": "6d09eb20a5a76cbb864e5f8e011f81e739d139bba43d4e34dcc5ac4ffc338716",
+            "text_pixels": 43126,
+            "text_rgb_mae": 4.518975,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 52083,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 153467,
+            "edge_rgb_mae": 3.229645,
+            "foreground_p95_channel_error": 13.0,
+            "foreground_pixels": 105949,
+            "foreground_rgb_mae": 4.16254,
+            "foreground_rgb_rmse": 6.330655,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-004/position-contrasts.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.284946,
+            "rgb_max_channel_error": 27,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 1.702271,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 4,
+            "salient_chromatic_source_colors": 4,
+            "sha256": "eed0824b3d91220fc376ecbfc2511c5075e2c690d8ee6f3751118dbc65f9b9f7",
+            "text_pixels": 43126,
+            "text_rgb_mae": 3.531273,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=6.838, 32=4.163; neutral-text MAE: 16=4.519, 32=3.531 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1720,
+        1080
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 49199,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-005/attention-overview005.png",
+        "sha256": "9e07ece58d6abd957208aab2368d14581e93f5e82ce8d7ea3a74fa9b472792b0"
+      },
+      "original": {
+        "bytes": 162343,
+        "path": "assets/interpretability/study-005/attention-overview005.png",
+        "sha256": "79c4161fa0f6b27ede1bd7949a1788ccd2734d75b2a4e714b1b39e17df02cfd1"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 49199,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 136378,
+            "edge_rgb_mae": 3.641557,
+            "foreground_p95_channel_error": 14.0,
+            "foreground_pixels": 154766,
+            "foreground_rgb_mae": 2.991663,
+            "foreground_rgb_rmse": 6.058961,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-005/attention-overview005.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.307584,
+            "rgb_max_channel_error": 30,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 1.921548,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 3,
+            "salient_chromatic_source_colors": 3,
+            "sha256": "9e07ece58d6abd957208aab2368d14581e93f5e82ce8d7ea3a74fa9b472792b0",
+            "text_pixels": 43332,
+            "text_rgb_mae": 3.41332,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 53095,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 136378,
+            "edge_rgb_mae": 1.968954,
+            "foreground_p95_channel_error": 8.0,
+            "foreground_pixels": 154766,
+            "foreground_rgb_mae": 1.719165,
+            "foreground_rgb_rmse": 3.436372,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-005/attention-overview005.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.164733,
+            "rgb_max_channel_error": 19,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 1.036661,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 3,
+            "salient_chromatic_source_colors": 3,
+            "sha256": "042a899e4feef2e2dc2b049de6f04af21c7fa339711097415681015c4f240c4d",
+            "text_pixels": 43332,
+            "text_rgb_mae": 2.131673,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=2.992, 32=1.719; neutral-text MAE: 16=3.413, 32=2.132 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1720,
+        1190
+      ],
+      "indexed": {
+        "bit_depth": 8,
+        "bytes": 54945,
+        "colors": 32,
+        "path": "assets/interpretability/publication-indexed/study-005/attention-contrasts005.png",
+        "sha256": "95d6fc6b340387af63c81d311b3f369dacdb210094f7c7fea38fe9a7e1d4c5a0"
+      },
+      "original": {
+        "bytes": 173315,
+        "path": "assets/interpretability/study-005/attention-contrasts005.png",
+        "sha256": "0414add900f60567b74589c667f22e1767883dde51d895a2acbb38881016de1b"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 56852,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 182188,
+            "edge_rgb_mae": 8.951934,
+            "foreground_p95_channel_error": 51.0,
+            "foreground_pixels": 153435,
+            "foreground_rgb_mae": 16.29244,
+            "foreground_rgb_rmse": 24.339891,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-005/attention-contrasts005.png",
+            "quantizer": "MEDIANCUT",
+            "rgb_mae": 1.288808,
+            "rgb_max_channel_error": 75,
+            "rgb_p95_channel_error": 5.0,
+            "rgb_rmse": 6.686098,
+            "salient_chromatic_max_nearest_rgb_distance": 84.693565,
+            "salient_chromatic_palette_indices": 2,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "37916dc8d1b66230094bef18216ae0e9da42676681de8389bee17fa024ac1e78",
+            "text_pixels": 37109,
+            "text_rgb_mae": 21.30184,
+            "used_palette_entries": 15
+          },
+          "32": {
+            "bytes": 54945,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 182188,
+            "edge_rgb_mae": 3.847268,
+            "foreground_p95_channel_error": 20.0,
+            "foreground_pixels": 153435,
+            "foreground_rgb_mae": 6.461385,
+            "foreground_rgb_rmse": 9.794452,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-005/attention-contrasts005.png",
+            "quantizer": "MEDIANCUT",
+            "rgb_mae": 0.602147,
+            "rgb_max_channel_error": 54,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 2.735832,
+            "salient_chromatic_max_nearest_rgb_distance": 54.083271,
+            "salient_chromatic_palette_indices": 4,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "95d6fc6b340387af63c81d311b3f369dacdb210094f7c7fea38fe9a7e1d4c5a0",
+            "text_pixels": 37109,
+            "text_rgb_mae": 8.246912,
+            "used_palette_entries": 29
+          }
+        },
+        "selected_colors": 32
+      },
+      "reason": "Attention-value contrasts need additional distinguishable intensity levels. 16 colors discard useful intermediate shades; select 32. Measured foreground MAE: 16=16.292, 32=6.461; neutral-text MAE: 16=21.302, 32=8.247 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1580,
+        1000
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 24763,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-006/overview006.png",
+        "sha256": "ba148bd94babaca4564fde3eb180c66c79332a2429592a6debbe9446442917cb"
+      },
+      "original": {
+        "bytes": 76105,
+        "path": "docs/research/study-006/overview006.png",
+        "sha256": "e5bce3f24a01f2c6241a040c82733c7b6849561f6553c5a27fa602aae798e5b7"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 24763,
+            "canvas_rgb": [
+              16,
+              23,
+              32
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 58654,
+            "edge_rgb_mae": 3.413135,
+            "foreground_p95_channel_error": 12.0,
+            "foreground_pixels": 89042,
+            "foreground_rgb_mae": 2.178193,
+            "foreground_rgb_rmse": 4.770166,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-006/overview006.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.143709,
+            "rgb_max_channel_error": 27,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 1.197294,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 2,
+            "salient_chromatic_source_colors": 2,
+            "sha256": "ba148bd94babaca4564fde3eb180c66c79332a2429592a6debbe9446442917cb",
+            "text_pixels": 21432,
+            "text_rgb_mae": 3.411845,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 25866,
+            "canvas_rgb": [
+              16,
+              23,
+              32
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 58654,
+            "edge_rgb_mae": 2.048346,
+            "foreground_p95_channel_error": 7.0,
+            "foreground_pixels": 89042,
+            "foreground_rgb_mae": 1.285161,
+            "foreground_rgb_rmse": 2.816619,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-006/overview006.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.087542,
+            "rgb_max_channel_error": 16,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 0.727243,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 2,
+            "salient_chromatic_source_colors": 2,
+            "sha256": "3c6cfc08ed887ea5c1f2f5fadc03c310b34c46901a0d314ed88274f0ea595dbb",
+            "text_pixels": 21432,
+            "text_rgb_mae": 2.148329,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=2.178, 32=1.285; neutral-text MAE: 16=3.412, 32=2.148 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1580,
+        1130
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 28280,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-006/cases006.png",
+        "sha256": "32e5ee4dda94ab33861386c1cd4b7f8dd6af9ade65a774c9abbb98bfb693eaa4"
+      },
+      "original": {
+        "bytes": 115847,
+        "path": "docs/research/study-006/cases006.png",
+        "sha256": "f6c65f7c6dda6bb23f7abc9050e6ae369a8a305a0cf01724549ba488abfdc839"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 28280,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 94743,
+            "edge_rgb_mae": 3.737342,
+            "foreground_p95_channel_error": 19.0,
+            "foreground_pixels": 65426,
+            "foreground_rgb_mae": 4.567965,
+            "foreground_rgb_rmse": 7.658061,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-006/cases006.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.222886,
+            "rgb_max_channel_error": 29,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 1.672269,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 2,
+            "salient_chromatic_source_colors": 2,
+            "sha256": "32e5ee4dda94ab33861386c1cd4b7f8dd6af9ade65a774c9abbb98bfb693eaa4",
+            "text_pixels": 30330,
+            "text_rgb_mae": 2.283834,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 37227,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 94743,
+            "edge_rgb_mae": 1.805213,
+            "foreground_p95_channel_error": 8.0,
+            "foreground_pixels": 65426,
+            "foreground_rgb_mae": 2.36272,
+            "foreground_rgb_rmse": 3.75169,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-006/cases006.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.107224,
+            "rgb_max_channel_error": 17,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 0.781287,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 2,
+            "salient_chromatic_source_colors": 2,
+            "sha256": "9b6247eec6197e7a3d63ef0bd7152074f4e89d273931ea08c35cd9313d9eeff5",
+            "text_pixels": 30330,
+            "text_rgb_mae": 1.699835,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=4.568, 32=2.363; neutral-text MAE: 16=2.284, 32=1.700 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1580,
+        1000
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 43131,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-007/overview007.png",
+        "sha256": "e20ffe9c66fee514be9cc1183e44cce1c83d53bd92e2373f69c1a75874251f14"
+      },
+      "original": {
+        "bytes": 121665,
+        "path": "docs/research/study-007/overview007.png",
+        "sha256": "e973db71f6d3531ba157f290746a06ef00900666ca878c253958bdebc3d3a5f0"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 43131,
+            "canvas_rgb": [
+              16,
+              23,
+              32
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 133726,
+            "edge_rgb_mae": 3.216041,
+            "foreground_p95_channel_error": 16.0,
+            "foreground_pixels": 97945,
+            "foreground_rgb_mae": 4.53916,
+            "foreground_rgb_rmse": 7.137522,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-007/overview007.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.308997,
+            "rgb_max_channel_error": 28,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 1.830035,
+            "salient_chromatic_max_nearest_rgb_distance": 19.026299,
+            "salient_chromatic_palette_indices": 4,
+            "salient_chromatic_source_colors": 7,
+            "sha256": "e20ffe9c66fee514be9cc1183e44cce1c83d53bd92e2373f69c1a75874251f14",
+            "text_pixels": 39014,
+            "text_rgb_mae": 3.676868,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 42599,
+            "canvas_rgb": [
+              16,
+              23,
+              32
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 133726,
+            "edge_rgb_mae": 1.69003,
+            "foreground_p95_channel_error": 8.0,
+            "foreground_pixels": 97945,
+            "foreground_rgb_mae": 2.30138,
+            "foreground_rgb_rmse": 3.747698,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-007/overview007.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.164278,
+            "rgb_max_channel_error": 21,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 0.994098,
+            "salient_chromatic_max_nearest_rgb_distance": 14.866069,
+            "salient_chromatic_palette_indices": 5,
+            "salient_chromatic_source_colors": 7,
+            "sha256": "fa6a5a9bb3546275643864e1030bef35a87dd24bef62af68aaf4df9dd65444d1",
+            "text_pixels": 39014,
+            "text_rgb_mae": 2.299286,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=4.539, 32=2.301; neutral-text MAE: 16=3.677, 32=2.299 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1580,
+        1130
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 39534,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-007/cases007.png",
+        "sha256": "3ff94b50a3e53cde9cfaa65eac0cbecb092f625336e5ab01aaedf8c88f77394c"
+      },
+      "original": {
+        "bytes": 129306,
+        "path": "docs/research/study-007/cases007.png",
+        "sha256": "25a8523484b0bfe5b288529ab116476d5af1798012984113de401ea29ded8843"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 39534,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 117876,
+            "edge_rgb_mae": 3.107565,
+            "foreground_p95_channel_error": 18.0,
+            "foreground_pixels": 75264,
+            "foreground_rgb_mae": 4.589746,
+            "foreground_rgb_rmse": 7.679535,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-007/cases007.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.24379,
+            "rgb_max_channel_error": 31,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 1.744951,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 1,
+            "salient_chromatic_source_colors": 1,
+            "sha256": "3ff94b50a3e53cde9cfaa65eac0cbecb092f625336e5ab01aaedf8c88f77394c",
+            "text_pixels": 28452,
+            "text_rgb_mae": 5.289517,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 42183,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 117876,
+            "edge_rgb_mae": 1.656566,
+            "foreground_p95_channel_error": 9.0,
+            "foreground_pixels": 75264,
+            "foreground_rgb_mae": 2.458333,
+            "foreground_rgb_rmse": 3.966096,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-007/cases007.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.123443,
+            "rgb_max_channel_error": 16,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 0.867071,
+            "salient_chromatic_max_nearest_rgb_distance": 0.0,
+            "salient_chromatic_palette_indices": 1,
+            "salient_chromatic_source_colors": 1,
+            "sha256": "7fb181394454cfb4d21271aa16e0e3b46bde14fd6eb0859b7b03d9727285c645",
+            "text_pixels": 28452,
+            "text_rgb_mae": 2.394606,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=4.590, 32=2.458; neutral-text MAE: 16=5.290, 32=2.395 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1580,
+        960
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 41638,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-007/matched-controls007.png",
+        "sha256": "e2a0a4464b7ead37f84457a9158738a8acb17c8e554a885400a9072cb9d99fe9"
+      },
+      "original": {
+        "bytes": 125357,
+        "path": "docs/research/study-007/matched-controls007.png",
+        "sha256": "93c5ff94f932a55069be6fb26933dc6f3d3567eed3c8c221dd72a59d59253915"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 41638,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 130247,
+            "edge_rgb_mae": 3.393232,
+            "foreground_p95_channel_error": 17.0,
+            "foreground_pixels": 96045,
+            "foreground_rgb_mae": 4.355097,
+            "foreground_rgb_rmse": 7.400365,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-007/matched-controls007.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.334124,
+            "rgb_max_channel_error": 30,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 2.019786,
+            "salient_chromatic_max_nearest_rgb_distance": 14.035668,
+            "salient_chromatic_palette_indices": 4,
+            "salient_chromatic_source_colors": 6,
+            "sha256": "e2a0a4464b7ead37f84457a9158738a8acb17c8e554a885400a9072cb9d99fe9",
+            "text_pixels": 44008,
+            "text_rgb_mae": 3.006166,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 42476,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 130247,
+            "edge_rgb_mae": 1.692536,
+            "foreground_p95_channel_error": 8.0,
+            "foreground_pixels": 96045,
+            "foreground_rgb_mae": 2.274864,
+            "foreground_rgb_rmse": 3.731309,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-007/matched-controls007.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.16936,
+            "rgb_max_channel_error": 16,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 1.000937,
+            "salient_chromatic_max_nearest_rgb_distance": 14.035668,
+            "salient_chromatic_palette_indices": 4,
+            "salient_chromatic_source_colors": 6,
+            "sha256": "308d8304de9661cb0563d4e5d8359874bcc4425b4725349caa336210b38e0715",
+            "text_pixels": 44008,
+            "text_rgb_mae": 1.883574,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=4.355, 32=2.275; neutral-text MAE: 16=3.006, 32=1.884 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1580,
+        900
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 32309,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-008/overview008.png",
+        "sha256": "f6844fbe07bece35d56f09c203af5bccc3363f0d0b1307ea0d4e129c477776f4"
+      },
+      "original": {
+        "bytes": 89820,
+        "path": "docs/research/study-008/overview008.png",
+        "sha256": "40d88d6bfe181082bd61bc867bbc39f8bf6e98e29272bda392a59074af60bb83"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 32309,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 109052,
+            "edge_rgb_mae": 3.212978,
+            "foreground_p95_channel_error": 14.0,
+            "foreground_pixels": 109609,
+            "foreground_rgb_mae": 3.044987,
+            "foreground_rgb_rmse": 5.941058,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-008/overview008.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.286376,
+            "rgb_max_channel_error": 27,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 1.805719,
+            "salient_chromatic_max_nearest_rgb_distance": 10.488089,
+            "salient_chromatic_palette_indices": 3,
+            "salient_chromatic_source_colors": 4,
+            "sha256": "f6844fbe07bece35d56f09c203af5bccc3363f0d0b1307ea0d4e129c477776f4",
+            "text_pixels": 65048,
+            "text_rgb_mae": 1.505334,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 33095,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 109052,
+            "edge_rgb_mae": 1.800468,
+            "foreground_p95_channel_error": 8.0,
+            "foreground_pixels": 109609,
+            "foreground_rgb_mae": 1.809009,
+            "foreground_rgb_rmse": 3.418825,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-008/overview008.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.160966,
+            "rgb_max_channel_error": 16,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 0.999642,
+            "salient_chromatic_max_nearest_rgb_distance": 10.488089,
+            "salient_chromatic_palette_indices": 4,
+            "salient_chromatic_source_colors": 4,
+            "sha256": "43406621f24aafd9d773f16fb89be4ab6ddbaf398791a38edd5bd565ef3565ad",
+            "text_pixels": 65048,
+            "text_rgb_mae": 1.02905,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=3.045, 32=1.809; neutral-text MAE: 16=1.505, 32=1.029 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1580,
+        1100
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 49057,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-008/cases008.png",
+        "sha256": "5c3470418558e28fef59b72c6628f7322fb36766d74480358f5cde1657e6cf7e"
+      },
+      "original": {
+        "bytes": 152504,
+        "path": "docs/research/study-008/cases008.png",
+        "sha256": "78dbcb343239d6307dfbb7901123025cb3da84b3c56af18dd2282b052e5afc14"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 49057,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 136552,
+            "edge_rgb_mae": 3.599239,
+            "foreground_p95_channel_error": 18.0,
+            "foreground_pixels": 90446,
+            "foreground_rgb_mae": 4.946403,
+            "foreground_rgb_rmse": 7.880041,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-008/cases008.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.325907,
+            "rgb_max_channel_error": 28,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 1.999124,
+            "salient_chromatic_max_nearest_rgb_distance": 14.035668,
+            "salient_chromatic_palette_indices": 3,
+            "salient_chromatic_source_colors": 4,
+            "sha256": "5c3470418558e28fef59b72c6628f7322fb36766d74480358f5cde1657e6cf7e",
+            "text_pixels": 36498,
+            "text_rgb_mae": 4.547263,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 50718,
+            "canvas_rgb": [
+              24,
+              35,
+              48
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 136552,
+            "edge_rgb_mae": 1.765935,
+            "foreground_p95_channel_error": 8.0,
+            "foreground_pixels": 90446,
+            "foreground_rgb_mae": 2.520296,
+            "foreground_rgb_rmse": 3.915237,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-008/cases008.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.157683,
+            "rgb_max_channel_error": 16,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 0.959178,
+            "salient_chromatic_max_nearest_rgb_distance": 14.035668,
+            "salient_chromatic_palette_indices": 3,
+            "salient_chromatic_source_colors": 4,
+            "sha256": "b54e24d53957e74aa6c860822158bc781e562f4c497817576f29e10e2a685932",
+            "text_pixels": 36498,
+            "text_rgb_mae": 1.964601,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=4.946, 32=2.520; neutral-text MAE: 16=4.547, 32=1.965 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1560,
+        980
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 46915,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-009/overview009.png",
+        "sha256": "2901fe45fc8ba52b1689a6897d7beafe17c8a00f8a406acbc60a06da09e84384"
+      },
+      "original": {
+        "bytes": 151091,
+        "path": "assets/interpretability/publication-dark/study-009/overview009.png",
+        "sha256": "e02b5a7bdf023da664915b8b09320181b9e0ed65b5c2734e8d4f639041675a68"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 46915,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 151246,
+            "edge_rgb_mae": 7.767703,
+            "foreground_p95_channel_error": 32.0,
+            "foreground_pixels": 116954,
+            "foreground_rgb_mae": 9.745367,
+            "foreground_rgb_rmse": 14.866985,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-009/overview009.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.793502,
+            "rgb_max_channel_error": 69,
+            "rgb_p95_channel_error": 3.0,
+            "rgb_rmse": 4.183351,
+            "salient_chromatic_max_nearest_rgb_distance": 63.725975,
+            "salient_chromatic_palette_indices": 8,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "2901fe45fc8ba52b1689a6897d7beafe17c8a00f8a406acbc60a06da09e84384",
+            "text_pixels": 48637,
+            "text_rgb_mae": 8.132183,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 44971,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 151246,
+            "edge_rgb_mae": 5.877099,
+            "foreground_p95_channel_error": 24.0,
+            "foreground_pixels": 116954,
+            "foreground_rgb_mae": 7.27858,
+            "foreground_rgb_rmse": 10.903759,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-009/overview009.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.604792,
+            "rgb_max_channel_error": 38,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 3.112398,
+            "salient_chromatic_max_nearest_rgb_distance": 35.679127,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "9cc027149b80947b78a3fe61543668c2f4d814440608ba3ce60dd164de674251",
+            "text_pixels": 48637,
+            "text_rgb_mae": 7.012124,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=9.745, 32=7.279; neutral-text MAE: 16=8.132, 32=7.012 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1560,
+        1110
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 49302,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-009/mechanism009.png",
+        "sha256": "f498d58414c0d800ec538bcd30f3d43eaf553c2811f03f40422db19ecbd5a60f"
+      },
+      "original": {
+        "bytes": 162551,
+        "path": "assets/interpretability/publication-dark/study-009/mechanism009.png",
+        "sha256": "9a7b8bf9a758fcb9ed4c1e6bddb5c7b95e3c6ef9f1389b2251110554004b42f5"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 49302,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 179120,
+            "edge_rgb_mae": 9.183482,
+            "foreground_p95_channel_error": 39.0,
+            "foreground_pixels": 154881,
+            "foreground_rgb_mae": 10.412643,
+            "foreground_rgb_rmse": 16.913391,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-009/mechanism009.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.969085,
+            "rgb_max_channel_error": 69,
+            "rgb_p95_channel_error": 4.0,
+            "rgb_rmse": 5.097162,
+            "salient_chromatic_max_nearest_rgb_distance": 63.134777,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "f498d58414c0d800ec538bcd30f3d43eaf553c2811f03f40422db19ecbd5a60f",
+            "text_pixels": 51206,
+            "text_rgb_mae": 11.56899,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 48141,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 179120,
+            "edge_rgb_mae": 5.837331,
+            "foreground_p95_channel_error": 24.0,
+            "foreground_pixels": 154881,
+            "foreground_rgb_mae": 6.533771,
+            "foreground_rgb_rmse": 10.569164,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-009/mechanism009.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.622144,
+            "rgb_max_channel_error": 51,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 3.222736,
+            "salient_chromatic_max_nearest_rgb_distance": 48.052055,
+            "salient_chromatic_palette_indices": 13,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "98b32dc5376e28b87765fd0006ce6d3fae6de3f0dae324587f587562525eb0eb",
+            "text_pixels": 51206,
+            "text_rgb_mae": 7.372385,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=10.413, 32=6.534; neutral-text MAE: 16=11.569, 32=7.372 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1560,
+        1110
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 50026,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-009/restoration-damage009.png",
+        "sha256": "1359324523c9c181e435a88ab752b189810217329242af59fb2bb14c81976802"
+      },
+      "original": {
+        "bytes": 160610,
+        "path": "assets/interpretability/publication-dark/study-009/restoration-damage009.png",
+        "sha256": "9dd5768906221068d1fe91976aad24eb5c3a890989d41264400da373933b237e"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 50026,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 179710,
+            "edge_rgb_mae": 9.156625,
+            "foreground_p95_channel_error": 39.0,
+            "foreground_pixels": 155511,
+            "foreground_rgb_mae": 10.370649,
+            "foreground_rgb_rmse": 16.872284,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-009/restoration-damage009.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.969904,
+            "rgb_max_channel_error": 69,
+            "rgb_p95_channel_error": 4.0,
+            "rgb_rmse": 5.096717,
+            "salient_chromatic_max_nearest_rgb_distance": 63.134777,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "1359324523c9c181e435a88ab752b189810217329242af59fb2bb14c81976802",
+            "text_pixels": 51792,
+            "text_rgb_mae": 11.447681,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 48002,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 179710,
+            "edge_rgb_mae": 5.820917,
+            "foreground_p95_channel_error": 24.0,
+            "foreground_pixels": 155511,
+            "foreground_rgb_mae": 6.507034,
+            "foreground_rgb_rmse": 10.549539,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-009/restoration-damage009.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.622921,
+            "rgb_max_channel_error": 51,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 3.225765,
+            "salient_chromatic_max_nearest_rgb_distance": 48.052055,
+            "salient_chromatic_palette_indices": 13,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "d1c815afcb86470a9a48414c61016548a094b4f3206384bf854df92ecf2fa251",
+            "text_pixels": 51792,
+            "text_rgb_mae": 7.282238,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=10.371, 32=6.507; neutral-text MAE: 16=11.448, 32=7.282 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1560,
+        1030
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 42969,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-009/raw-alignment009.png",
+        "sha256": "c73440b94cbde361faa82e3dcb7d6ec8a8c681194d4db5d26a8b50d18be53364"
+      },
+      "original": {
+        "bytes": 132879,
+        "path": "assets/interpretability/publication-dark/study-009/raw-alignment009.png",
+        "sha256": "704ce94d268b14efcc8ac4cd0fa0bfe4ac1af68a978443f93b9b7c013efdd15b"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 42969,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 140814,
+            "edge_rgb_mae": 9.211059,
+            "foreground_p95_channel_error": 38.0,
+            "foreground_pixels": 137523,
+            "foreground_rgb_mae": 9.444333,
+            "foreground_rgb_rmse": 16.202932,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-009/raw-alignment009.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.826119,
+            "rgb_max_channel_error": 71,
+            "rgb_p95_channel_error": 1.0,
+            "rgb_rmse": 4.756007,
+            "salient_chromatic_max_nearest_rgb_distance": 62.401924,
+            "salient_chromatic_palette_indices": 12,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "c73440b94cbde361faa82e3dcb7d6ec8a8c681194d4db5d26a8b50d18be53364",
+            "text_pixels": 43638,
+            "text_rgb_mae": 11.196816,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 40292,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 140814,
+            "edge_rgb_mae": 5.5389,
+            "foreground_p95_channel_error": 22.0,
+            "foreground_pixels": 137523,
+            "foreground_rgb_mae": 5.665188,
+            "foreground_rgb_rmse": 9.57202,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-009/raw-alignment009.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.502669,
+            "rgb_max_channel_error": 46,
+            "rgb_p95_channel_error": 1.0,
+            "rgb_rmse": 2.826944,
+            "salient_chromatic_max_nearest_rgb_distance": 35.524639,
+            "salient_chromatic_palette_indices": 12,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "c6b44eab507a18673a9baabcb4b402adbec3cbdfa9f9c2413c04b3143912a5eb",
+            "text_pixels": 43638,
+            "text_rgb_mae": 6.941939,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=9.444, 32=5.665; neutral-text MAE: 16=11.197, 32=6.942 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1560,
+        1110
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 48261,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-009/robust009.png",
+        "sha256": "eb39765fcc5fdc2247de05146b910927eec5eb9c0c9224804ca31fd6716f5966"
+      },
+      "original": {
+        "bytes": 157939,
+        "path": "assets/interpretability/publication-dark/study-009/robust009.png",
+        "sha256": "4f299f118f0cf3a3ab5f5ef8780ddb0fff8dc9ad0e61fbe1f8bd256d30e42b7a"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 48261,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 170317,
+            "edge_rgb_mae": 10.268036,
+            "foreground_p95_channel_error": 35.0,
+            "foreground_pixels": 274255,
+            "foreground_rgb_mae": 6.267463,
+            "foreground_rgb_rmse": 13.600514,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-009/robust009.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 1.028614,
+            "rgb_max_channel_error": 70,
+            "rgb_p95_channel_error": 4.0,
+            "rgb_rmse": 5.447443,
+            "salient_chromatic_max_nearest_rgb_distance": 66.407829,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "eb39765fcc5fdc2247de05146b910927eec5eb9c0c9224804ca31fd6716f5966",
+            "text_pixels": 50587,
+            "text_rgb_mae": 11.349082,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 47738,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 170317,
+            "edge_rgb_mae": 6.881212,
+            "foreground_p95_channel_error": 22.0,
+            "foreground_pixels": 274255,
+            "foreground_rgb_mae": 4.158998,
+            "foreground_rgb_rmse": 9.304301,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-009/robust009.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.69467,
+            "rgb_max_channel_error": 64,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 3.753554,
+            "salient_chromatic_max_nearest_rgb_distance": 59.615433,
+            "salient_chromatic_palette_indices": 13,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "fa974be18b38719485596a79c85d64c9dafd4a0a49bf064b2a964f01ae419e86",
+            "text_pixels": 50587,
+            "text_rgb_mae": 7.19878,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=6.267, 32=4.159; neutral-text MAE: 16=11.349, 32=7.199 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1400,
+        1110
+      ],
+      "indexed": {
+        "bit_depth": 8,
+        "bytes": 46184,
+        "colors": 32,
+        "path": "assets/interpretability/publication-indexed/study-010-011-walkthrough/forward-attention1011.png",
+        "sha256": "68490e82da3e89ada85677f5f283c6fd17244be1ecbaf6632f67d72c7c52cd4d"
+      },
+      "original": {
+        "bytes": 165803,
+        "path": "assets/interpretability/publication-dark/study-010-011-walkthrough/forward-attention1011.png",
+        "sha256": "f91a908c45247ad17e883bb669dbbc4d638c222305b6042d60968afbeeea00bf"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "attention_grid_distinct_center_colors": 6,
+            "attention_grid_source_distinct_center_colors": 73,
+            "bytes": 44420,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 130597,
+            "edge_rgb_mae": 14.811905,
+            "foreground_p95_channel_error": 50.0,
+            "foreground_pixels": 227302,
+            "foreground_rgb_mae": 12.135941,
+            "foreground_rgb_rmse": 21.746258,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-010-011-walkthrough/forward-attention1011.png",
+            "quantizer": "MEDIANCUT",
+            "rgb_mae": 1.793671,
+            "rgb_max_channel_error": 115,
+            "rgb_p95_channel_error": 10.0,
+            "rgb_rmse": 8.325159,
+            "salient_chromatic_max_nearest_rgb_distance": 53.563046,
+            "salient_chromatic_palette_indices": 5,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "3ef6d523f103297fdfc12b8b64b6bfe94c67a53559179e020367fc9d1dfac82d",
+            "text_pixels": 43349,
+            "text_rgb_mae": 14.966066,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "attention_grid_distinct_center_colors": 12,
+            "attention_grid_source_distinct_center_colors": 73,
+            "bytes": 46184,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 130597,
+            "edge_rgb_mae": 7.495851,
+            "foreground_p95_channel_error": 25.0,
+            "foreground_pixels": 227302,
+            "foreground_rgb_mae": 5.694262,
+            "foreground_rgb_rmse": 10.094748,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-010-011-walkthrough/forward-attention1011.png",
+            "quantizer": "MEDIANCUT",
+            "rgb_mae": 0.851453,
+            "rgb_max_channel_error": 57,
+            "rgb_p95_channel_error": 5.0,
+            "rgb_rmse": 3.878541,
+            "salient_chromatic_max_nearest_rgb_distance": 19.131126,
+            "salient_chromatic_palette_indices": 10,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "68490e82da3e89ada85677f5f283c6fd17244be1ecbaf6632f67d72c7c52cd4d",
+            "text_pixels": 43349,
+            "text_rgb_mae": 7.917214,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 32
+      },
+      "reason": "Corrected panel-C Q15 grid uses dark-to-bright blue attention values; 32 entries preserve additional distinguishable grid levels. 16 colors discard useful intermediate shades; select 32. Measured foreground MAE: 16=12.136, 32=5.694; neutral-text MAE: 16=14.966, 32=7.917 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1400,
+        1190
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 54722,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-010-011-walkthrough/forward-experts1011.png",
+        "sha256": "a122fadea30656b2880b6b39b40dbcb72fad94b0fc2a4836deea1e815aa39c22"
+      },
+      "original": {
+        "bytes": 208540,
+        "path": "assets/interpretability/publication-dark/study-010-011-walkthrough/forward-experts1011.png",
+        "sha256": "7542d7cde85db1fd25f8dd7a71d8bffe11e070b6505b4647f810e86981019fcc"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 54722,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 156024,
+            "edge_rgb_mae": 9.354997,
+            "foreground_p95_channel_error": 40.0,
+            "foreground_pixels": 122316,
+            "foreground_rgb_mae": 11.787842,
+            "foreground_rgb_rmse": 18.010216,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-010-011-walkthrough/forward-experts1011.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.899751,
+            "rgb_max_channel_error": 76,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 4.918767,
+            "salient_chromatic_max_nearest_rgb_distance": 63.134777,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "a122fadea30656b2880b6b39b40dbcb72fad94b0fc2a4836deea1e815aa39c22",
+            "text_pixels": 50080,
+            "text_rgb_mae": 8.630931,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 54003,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 156024,
+            "edge_rgb_mae": 6.428911,
+            "foreground_p95_channel_error": 28.0,
+            "foreground_pixels": 122316,
+            "foreground_rgb_mae": 8.039161,
+            "foreground_rgb_rmse": 12.381529,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-010-011-walkthrough/forward-experts1011.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.624527,
+            "rgb_max_channel_error": 57,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 3.410984,
+            "salient_chromatic_max_nearest_rgb_distance": 56.435802,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "d7d6fc73bc862ba794ac803ff648368ef67dc90a8cca1b5a242cf8328475f0e0",
+            "text_pixels": 50080,
+            "text_rgb_mae": 6.592452,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=11.788, 32=8.039; neutral-text MAE: 16=8.631, 32=6.592 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1400,
+        920
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 32618,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-010/overview010.png",
+        "sha256": "a2a434ee759a053ad667f3b91b8747c233ddfc026a7dc060c02272620cf38779"
+      },
+      "original": {
+        "bytes": 121544,
+        "path": "assets/interpretability/publication-dark/study-010/overview010.png",
+        "sha256": "b11dd2ce1b0bd8df748c72d21d491843b464f1585bd473dc202a07081a5d0ad9"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 32618,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 112827,
+            "edge_rgb_mae": 8.657295,
+            "foreground_p95_channel_error": 34.0,
+            "foreground_pixels": 129009,
+            "foreground_rgb_mae": 7.587822,
+            "foreground_rgb_rmse": 13.843289,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-010/overview010.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.786485,
+            "rgb_max_channel_error": 73,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 4.407469,
+            "salient_chromatic_max_nearest_rgb_distance": 62.401924,
+            "salient_chromatic_palette_indices": 11,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "a2a434ee759a053ad667f3b91b8747c233ddfc026a7dc060c02272620cf38779",
+            "text_pixels": 66876,
+            "text_rgb_mae": 5.684909,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 34213,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 112827,
+            "edge_rgb_mae": 6.141506,
+            "foreground_p95_channel_error": 23.0,
+            "foreground_pixels": 129009,
+            "foreground_rgb_mae": 5.385004,
+            "foreground_rgb_rmse": 9.65036,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-010/overview010.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.565846,
+            "rgb_max_channel_error": 45,
+            "rgb_p95_channel_error": 1.0,
+            "rgb_rmse": 3.091776,
+            "salient_chromatic_max_nearest_rgb_distance": 41.773197,
+            "salient_chromatic_palette_indices": 12,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "cce7ae12fcf8a0cde67bdd71cde2915dbf123df790e9545245621d189898183c",
+            "text_pixels": 66876,
+            "text_rgb_mae": 3.589952,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=7.588, 32=5.385; neutral-text MAE: 16=5.685, 32=3.590 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1400,
+        1140
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 27133,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-010/orbits010.png",
+        "sha256": "320b2a4cde0be94dfade023e1df81752a17230a7c44abd942a2f8d5dc528c10c"
+      },
+      "original": {
+        "bytes": 97112,
+        "path": "assets/interpretability/publication-dark/study-010/orbits010.png",
+        "sha256": "d336e4182fc0f14cfe953e37b594dce4adfcc5b14a3f0ecadfccd7f6be32a595"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 27133,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 136346,
+            "edge_rgb_mae": 6.14095,
+            "foreground_p95_channel_error": 25.0,
+            "foreground_pixels": 209212,
+            "foreground_rgb_mae": 3.90353,
+            "foreground_rgb_rmse": 9.467847,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-010/orbits010.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.543378,
+            "rgb_max_channel_error": 63,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 3.488365,
+            "salient_chromatic_max_nearest_rgb_distance": 59.008472,
+            "salient_chromatic_palette_indices": 8,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "320b2a4cde0be94dfade023e1df81752a17230a7c44abd942a2f8d5dc528c10c",
+            "text_pixels": 32844,
+            "text_rgb_mae": 8.962703,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 30436,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 136346,
+            "edge_rgb_mae": 4.394958,
+            "foreground_p95_channel_error": 17.0,
+            "foreground_pixels": 209212,
+            "foreground_rgb_mae": 2.759663,
+            "foreground_rgb_rmse": 6.565054,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-010/orbits010.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.393434,
+            "rgb_max_channel_error": 44,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 2.463323,
+            "salient_chromatic_max_nearest_rgb_distance": 41.231056,
+            "salient_chromatic_palette_indices": 11,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "4de2e3bb33ffe3b472cd287f89cfebc3e4709e141add7f49c62d09d0a70e3a65",
+            "text_pixels": 32844,
+            "text_rgb_mae": 7.0504,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=3.904, 32=2.760; neutral-text MAE: 16=8.963, 32=7.050 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1400,
+        1370
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 31530,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-011/cardinality011.png",
+        "sha256": "0e7a379ad11bb8fb6122408cf457d1d2db252c0057ea4a530b27cb357de10b49"
+      },
+      "original": {
+        "bytes": 143940,
+        "path": "assets/interpretability/publication-dark/study-011/cardinality011.png",
+        "sha256": "8d921f03b9c6f7852958a1a0867d121a31ab40368b27ff8e1f23f4fb0e37e5f1"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 31530,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 125511,
+            "edge_rgb_mae": 7.437837,
+            "foreground_p95_channel_error": 16.0,
+            "foreground_pixels": 497931,
+            "foreground_rgb_mae": 1.867445,
+            "foreground_rgb_rmse": 7.166664,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-011/cardinality011.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.500467,
+            "rgb_max_channel_error": 62,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 3.679868,
+            "salient_chromatic_max_nearest_rgb_distance": 56.364883,
+            "salient_chromatic_palette_indices": 8,
+            "salient_chromatic_source_colors": 23,
+            "sha256": "0e7a379ad11bb8fb6122408cf457d1d2db252c0057ea4a530b27cb357de10b49",
+            "text_pixels": 422099,
+            "text_rgb_mae": 0.940277,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 38215,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 125511,
+            "edge_rgb_mae": 4.454959,
+            "foreground_p95_channel_error": 9.0,
+            "foreground_pixels": 497931,
+            "foreground_rgb_mae": 1.1075,
+            "foreground_rgb_rmse": 4.337078,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-011/cardinality011.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.303164,
+            "rgb_max_channel_error": 43,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 2.256217,
+            "salient_chromatic_max_nearest_rgb_distance": 36.193924,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 23,
+            "sha256": "bdd7294e36401ac643e5a599a2f03329e78d87720252cea50b78a724012d4bf4",
+            "text_pixels": 422099,
+            "text_rgb_mae": 0.528518,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=1.867, 32=1.107; neutral-text MAE: 16=0.940, 32=0.529 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1400,
+        1090
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 46211,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-011/collisions011.png",
+        "sha256": "b674d7dcadc4aeba102a2dafda48f71e82518c94c99aee5ee8919f2b33659927"
+      },
+      "original": {
+        "bytes": 151350,
+        "path": "assets/interpretability/publication-dark/study-011/collisions011.png",
+        "sha256": "e8388da6ecdc8cfcaee371d62aec46b9af023ceb3a251aafe945ba9774b4e865"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 46211,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 132834,
+            "edge_rgb_mae": 9.785283,
+            "foreground_p95_channel_error": 33.0,
+            "foreground_pixels": 211126,
+            "foreground_rgb_mae": 6.10897,
+            "foreground_rgb_rmse": 12.855283,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-011/collisions011.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.869687,
+            "rgb_max_channel_error": 68,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 4.803644,
+            "salient_chromatic_max_nearest_rgb_distance": 65.261017,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "b674d7dcadc4aeba102a2dafda48f71e82518c94c99aee5ee8919f2b33659927",
+            "text_pixels": 50501,
+            "text_rgb_mae": 10.072204,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 42176,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 132834,
+            "edge_rgb_mae": 6.774182,
+            "foreground_p95_channel_error": 20.0,
+            "foreground_pixels": 211126,
+            "foreground_rgb_mae": 4.212486,
+            "foreground_rgb_rmse": 8.713223,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-011/collisions011.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.607303,
+            "rgb_max_channel_error": 51,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 3.273355,
+            "salient_chromatic_max_nearest_rgb_distance": 47.434166,
+            "salient_chromatic_palette_indices": 10,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "579db6298f7da5e44ea9cf598428d6acae54f0db671cff3f3d056e67fa72114b",
+            "text_pixels": 50501,
+            "text_rgb_mae": 6.507574,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=6.109, 32=4.212; neutral-text MAE: 16=10.072, 32=6.508 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1400,
+        920
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 38601,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-012/overview012.png",
+        "sha256": "2a09ac503559534951e81db70a5bc73913b50068ae7544b2f548e9103193796f"
+      },
+      "original": {
+        "bytes": 132865,
+        "path": "assets/interpretability/publication-dark/study-012/overview012.png",
+        "sha256": "c85f2d816e3a32de55467fd0fe391d25e7bb87128b8736ed58aa24fc4222cce3"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 38601,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 110805,
+            "edge_rgb_mae": 10.347634,
+            "foreground_p95_channel_error": 42.0,
+            "foreground_pixels": 106966,
+            "foreground_rgb_mae": 10.67777,
+            "foreground_rgb_rmse": 18.732553,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-012/overview012.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.909116,
+            "rgb_max_channel_error": 94,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 5.419567,
+            "salient_chromatic_max_nearest_rgb_distance": 90.160965,
+            "salient_chromatic_palette_indices": 8,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "2a09ac503559534951e81db70a5bc73913b50068ae7544b2f548e9103193796f",
+            "text_pixels": 39807,
+            "text_rgb_mae": 8.020247,
+            "used_palette_entries": 15
+          },
+          "32": {
+            "bytes": 36479,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 110805,
+            "edge_rgb_mae": 6.873417,
+            "foreground_p95_channel_error": 27.0,
+            "foreground_pixels": 106966,
+            "foreground_rgb_mae": 7.057725,
+            "foreground_rgb_rmse": 11.861986,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-012/overview012.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.608478,
+            "rgb_max_channel_error": 56,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 3.451788,
+            "salient_chromatic_max_nearest_rgb_distance": 52.172791,
+            "salient_chromatic_palette_indices": 8,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "349f7c5444d201fe49b27037295adfa0db2ee774d2137482342d6aba5e1d4ddf",
+            "text_pixels": 39807,
+            "text_rgb_mae": 6.886837,
+            "used_palette_entries": 31
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=10.678, 32=7.058; neutral-text MAE: 16=8.020, 32=6.887 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1400,
+        1060
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 30192,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-012/case012.png",
+        "sha256": "ef9e44d6afe9772e0e2ec0ebbe82068b412b71015ed536942383eb9570f8cedc"
+      },
+      "original": {
+        "bytes": 105094,
+        "path": "assets/interpretability/publication-dark/study-012/case012.png",
+        "sha256": "2bb258b52e846d181838bd81b1fd8f5da4846fc9cad1d94f1210af0e8f4528c5"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 30192,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 99932,
+            "edge_rgb_mae": 8.645052,
+            "foreground_p95_channel_error": 28.0,
+            "foreground_pixels": 169618,
+            "foreground_rgb_mae": 5.026316,
+            "foreground_rgb_rmse": 11.077716,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-012/case012.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.598325,
+            "rgb_max_channel_error": 63,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 3.774558,
+            "salient_chromatic_max_nearest_rgb_distance": 53.235325,
+            "salient_chromatic_palette_indices": 11,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "ef9e44d6afe9772e0e2ec0ebbe82068b412b71015ed536942383eb9570f8cedc",
+            "text_pixels": 35457,
+            "text_rgb_mae": 9.444379,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 31816,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 99932,
+            "edge_rgb_mae": 5.315708,
+            "foreground_p95_channel_error": 18.0,
+            "foreground_pixels": 169618,
+            "foreground_rgb_mae": 3.06187,
+            "foreground_rgb_rmse": 7.027082,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-012/case012.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.373793,
+            "rgb_max_channel_error": 45,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 2.421807,
+            "salient_chromatic_max_nearest_rgb_distance": 41.231056,
+            "salient_chromatic_palette_indices": 13,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "10b2ce069ecaef8e225b6b395cc41a17b010d299eb77a5b6a1de0eb9c7e79355",
+            "text_pixels": 35457,
+            "text_rgb_mae": 5.366472,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=5.026, 32=3.062; neutral-text MAE: 16=9.444, 32=5.366 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1660,
+        1140
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 51705,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-013/intervals013.png",
+        "sha256": "a9d67057beb7a84327a64e68f3ed891f5f738b04951e16af8bd7a30e11748968"
+      },
+      "original": {
+        "bytes": 156123,
+        "path": "assets/interpretability/publication-dark/study-013/intervals013.png",
+        "sha256": "2d6fbac0a5de4526eb9e4d0dd616cf7ae62a59d68b6625c4732d8c087fd0b8c5"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 51705,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 138929,
+            "edge_rgb_mae": 8.270575,
+            "foreground_p95_channel_error": 36.0,
+            "foreground_pixels": 128847,
+            "foreground_rgb_mae": 8.870655,
+            "foreground_rgb_rmse": 15.417006,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-013/intervals013.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.621868,
+            "rgb_max_channel_error": 72,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 4.047935,
+            "salient_chromatic_max_nearest_rgb_distance": 64.567795,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "a9d67057beb7a84327a64e68f3ed891f5f738b04951e16af8bd7a30e11748968",
+            "text_pixels": 43808,
+            "text_rgb_mae": 7.647895,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 47594,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 138929,
+            "edge_rgb_mae": 5.557525,
+            "foreground_p95_channel_error": 23.0,
+            "foreground_pixels": 128847,
+            "foreground_rgb_mae": 5.942754,
+            "foreground_rgb_rmse": 9.966328,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-013/intervals013.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.422517,
+            "rgb_max_channel_error": 42,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 2.639237,
+            "salient_chromatic_max_nearest_rgb_distance": 30.88689,
+            "salient_chromatic_palette_indices": 11,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "cec95138c5c4630ea5dc80fd518a2ca5e0109666d6c76383e671a92f53ca5e73",
+            "text_pixels": 43808,
+            "text_rgb_mae": 6.680249,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=8.871, 32=5.943; neutral-text MAE: 16=7.648, 32=6.680 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1660,
+        1110
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 46171,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-013/witnesses013.png",
+        "sha256": "931f4047302ef2a9e064e60b9561dd2e145c5ca12f074016bf7d657784f2ff43"
+      },
+      "original": {
+        "bytes": 172052,
+        "path": "assets/interpretability/publication-dark/study-013/witnesses013.png",
+        "sha256": "ed431ca46a3c250d052cf5c9f3784ae96bb0829094cc0d8bd0cd310c5713c522"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 46171,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 146289,
+            "edge_rgb_mae": 9.177521,
+            "foreground_p95_channel_error": 34.0,
+            "foreground_pixels": 135862,
+            "foreground_rgb_mae": 9.746264,
+            "foreground_rgb_rmse": 15.67493,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-013/witnesses013.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.753249,
+            "rgb_max_channel_error": 59,
+            "rgb_p95_channel_error": 1.0,
+            "rgb_rmse": 4.303549,
+            "salient_chromatic_max_nearest_rgb_distance": 66.603302,
+            "salient_chromatic_palette_indices": 10,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "931f4047302ef2a9e064e60b9561dd2e145c5ca12f074016bf7d657784f2ff43",
+            "text_pixels": 46631,
+            "text_rgb_mae": 11.020795,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 46419,
+            "canvas_rgb": [
+              24,
+              30,
+              38
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 146289,
+            "edge_rgb_mae": 6.14099,
+            "foreground_p95_channel_error": 24.0,
+            "foreground_pixels": 135862,
+            "foreground_rgb_mae": 6.473957,
+            "foreground_rgb_rmse": 10.464146,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-013/witnesses013.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.511969,
+            "rgb_max_channel_error": 43,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 2.911634,
+            "salient_chromatic_max_nearest_rgb_distance": 48.92852,
+            "salient_chromatic_palette_indices": 10,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "3872d8ff0d3bdc6e64348d9c75629ab3c8103b2ef3c95871a60f509a8fc0cec3",
+            "text_pixels": 46631,
+            "text_rgb_mae": 6.605327,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=9.746, 32=6.474; neutral-text MAE: 16=11.021, 32=6.605 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1380,
+        1120
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 34683,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-014/joint014.png",
+        "sha256": "5cbcc9aec153595d6deb2ba13b5226d82d72e4e68d188e3e45fa5353ff9365c4"
+      },
+      "original": {
+        "bytes": 113110,
+        "path": "assets/interpretability/publication-dark/study-014/joint014.png",
+        "sha256": "5d303025a7b13b4015d5e75e711af83ee7d4e1f55a5ab2b37aa1c9f42ee435bb"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 34683,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 111880,
+            "edge_rgb_mae": 11.190675,
+            "foreground_p95_channel_error": 26.0,
+            "foreground_pixels": 391634,
+            "foreground_rgb_mae": 3.267107,
+            "foreground_rgb_rmse": 9.860622,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-014/joint014.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.861833,
+            "rgb_max_channel_error": 87,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 4.989528,
+            "salient_chromatic_max_nearest_rgb_distance": 83.102348,
+            "salient_chromatic_palette_indices": 10,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "5cbcc9aec153595d6deb2ba13b5226d82d72e4e68d188e3e45fa5353ff9365c4",
+            "text_pixels": 32980,
+            "text_rgb_mae": 9.744259,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 34553,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 111880,
+            "edge_rgb_mae": 7.165058,
+            "foreground_p95_channel_error": 17.0,
+            "foreground_pixels": 391634,
+            "foreground_rgb_mae": 2.110156,
+            "foreground_rgb_rmse": 6.265663,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-014/joint014.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.568678,
+            "rgb_max_channel_error": 48,
+            "rgb_p95_channel_error": 1.0,
+            "rgb_rmse": 3.194642,
+            "salient_chromatic_max_nearest_rgb_distance": 41.243183,
+            "salient_chromatic_palette_indices": 13,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "0b3039a44bf129098d34acd25ab76af311413a6cfe33b9477b8faaafc626c8e5",
+            "text_pixels": 32980,
+            "text_rgb_mae": 5.77551,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=3.267, 32=2.110; neutral-text MAE: 16=9.744, 32=5.776 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1380,
+        930
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 40873,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-014/witness014.png",
+        "sha256": "4cd71b1a0ed0156244a0d34c015645f248f23ac84048190eaacc684aecbe6e27"
+      },
+      "original": {
+        "bytes": 154879,
+        "path": "assets/interpretability/publication-dark/study-014/witness014.png",
+        "sha256": "531c2cbb1c50b10c3e6f08641f1472c240d16b16d32b764570e96652fc95ddf0"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 40873,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 109545,
+            "edge_rgb_mae": 11.529935,
+            "foreground_p95_channel_error": 37.0,
+            "foreground_pixels": 96507,
+            "foreground_rgb_mae": 12.966908,
+            "foreground_rgb_rmse": 18.480726,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-014/witness014.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 1.009933,
+            "rgb_max_channel_error": 83,
+            "rgb_p95_channel_error": 5.0,
+            "rgb_rmse": 5.099776,
+            "salient_chromatic_max_nearest_rgb_distance": 82.734512,
+            "salient_chromatic_palette_indices": 8,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "4cd71b1a0ed0156244a0d34c015645f248f23ac84048190eaacc684aecbe6e27",
+            "text_pixels": 30165,
+            "text_rgb_mae": 11.307575,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 44845,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 109545,
+            "edge_rgb_mae": 8.28954,
+            "foreground_p95_channel_error": 27.0,
+            "foreground_pixels": 96507,
+            "foreground_rgb_mae": 9.271486,
+            "foreground_rgb_rmse": 13.266129,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-014/witness014.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.732051,
+            "rgb_max_channel_error": 59,
+            "rgb_p95_channel_error": 4.0,
+            "rgb_rmse": 3.682279,
+            "salient_chromatic_max_nearest_rgb_distance": 57.078892,
+            "salient_chromatic_palette_indices": 13,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "550ddcd135c6a398a5984d06e3c51c2f292f49b0defd249e008536e7890eb604",
+            "text_pixels": 30165,
+            "text_rgb_mae": 8.025725,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=12.967, 32=9.271; neutral-text MAE: 16=11.308, 32=8.026 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1740,
+        1600
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 73876,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-015/paths015.png",
+        "sha256": "b0f221cd3d0ac886170c403133c02239fc3fe872640b760b525f7ad1cc041dfd"
+      },
+      "original": {
+        "bytes": 249493,
+        "path": "assets/interpretability/publication-dark/study-015/paths015.png",
+        "sha256": "81aa0c6b8edf9e4742e8a62f53c7c5127749c384faa230175f3d5c281c8eb30a"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 73876,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 216953,
+            "edge_rgb_mae": 9.958026,
+            "foreground_p95_channel_error": 32.0,
+            "foreground_pixels": 325474,
+            "foreground_rgb_mae": 7.126239,
+            "foreground_rgb_rmse": 13.613372,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-015/paths015.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.856607,
+            "rgb_max_channel_error": 76,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 4.672838,
+            "salient_chromatic_max_nearest_rgb_distance": 55.308228,
+            "salient_chromatic_palette_indices": 8,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "b0f221cd3d0ac886170c403133c02239fc3fe872640b760b525f7ad1cc041dfd",
+            "text_pixels": 57443,
+            "text_rgb_mae": 8.704437,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 68304,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 216953,
+            "edge_rgb_mae": 6.573292,
+            "foreground_p95_channel_error": 21.0,
+            "foreground_pixels": 325474,
+            "foreground_rgb_mae": 4.841678,
+            "foreground_rgb_rmse": 9.10975,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-015/paths015.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.589521,
+            "rgb_max_channel_error": 45,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 3.141878,
+            "salient_chromatic_max_nearest_rgb_distance": 45.453274,
+            "salient_chromatic_palette_indices": 15,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "096ae4eb72fdae7e64762cac41ce5250c30ea24df6fb0beed543fa7b206e64a4",
+            "text_pixels": 57443,
+            "text_rgb_mae": 5.517754,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=7.126, 32=4.842; neutral-text MAE: 16=8.704, 32=5.518 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1880,
+        1510
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 69357,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-015/routes015.png",
+        "sha256": "2536f07b10fdc46e492482662c9652536c06e10dc5c520c88c009a53e286f8a4"
+      },
+      "original": {
+        "bytes": 248516,
+        "path": "assets/interpretability/publication-dark/study-015/routes015.png",
+        "sha256": "58e979f708012143c5c00e4cf329458bc58914a131296f43673dabd8f7ae87fa"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 69357,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 209534,
+            "edge_rgb_mae": 9.715237,
+            "foreground_p95_channel_error": 23.0,
+            "foreground_pixels": 719061,
+            "foreground_rgb_mae": 2.835546,
+            "foreground_rgb_rmse": 8.61355,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-015/routes015.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.735165,
+            "rgb_max_channel_error": 66,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 4.359397,
+            "salient_chromatic_max_nearest_rgb_distance": 67.78643,
+            "salient_chromatic_palette_indices": 8,
+            "salient_chromatic_source_colors": 12,
+            "sha256": "2536f07b10fdc46e492482662c9652536c06e10dc5c520c88c009a53e286f8a4",
+            "text_pixels": 59630,
+            "text_rgb_mae": 12.113187,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 69417,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 209534,
+            "edge_rgb_mae": 7.039365,
+            "foreground_p95_channel_error": 16.0,
+            "foreground_pixels": 719061,
+            "foreground_rgb_mae": 2.052982,
+            "foreground_rgb_rmse": 6.306191,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-015/routes015.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.536944,
+            "rgb_max_channel_error": 54,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 3.206949,
+            "salient_chromatic_max_nearest_rgb_distance": 48.76474,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 12,
+            "sha256": "a336dc26c170ad4a0d576f13ad1df16d3e988c5e3e417b3aff851917b2a4d1e6",
+            "text_pixels": 59630,
+            "text_rgb_mae": 8.522153,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=2.836, 32=2.053; neutral-text MAE: 16=12.113, 32=8.522 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1580,
+        1110
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 45617,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-015/sampler015.png",
+        "sha256": "5fccb8f2bd63606d6ebe744f4f917617693af5f7575b1cb07ec2188ffae0d2d6"
+      },
+      "original": {
+        "bytes": 148377,
+        "path": "assets/interpretability/publication-dark/study-015/sampler015.png",
+        "sha256": "93217731c28dc813cffb6a75cc8b8791c1b15bddc602520f55ee72b33175f525"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 45617,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 128803,
+            "edge_rgb_mae": 8.799839,
+            "foreground_p95_channel_error": 23.0,
+            "foreground_pixels": 327427,
+            "foreground_rgb_mae": 3.439665,
+            "foreground_rgb_rmse": 8.865746,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-015/sampler015.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.663428,
+            "rgb_max_channel_error": 62,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 3.861851,
+            "salient_chromatic_max_nearest_rgb_distance": 57.879185,
+            "salient_chromatic_palette_indices": 7,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "5fccb8f2bd63606d6ebe744f4f917617693af5f7575b1cb07ec2188ffae0d2d6",
+            "text_pixels": 37741,
+            "text_rgb_mae": 9.410482,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 43957,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 128803,
+            "edge_rgb_mae": 6.389618,
+            "foreground_p95_channel_error": 17.0,
+            "foreground_pixels": 327427,
+            "foreground_rgb_mae": 2.481637,
+            "foreground_rgb_rmse": 6.395398,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-015/sampler015.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.484569,
+            "rgb_max_channel_error": 38,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 2.806314,
+            "salient_chromatic_max_nearest_rgb_distance": 35.355339,
+            "salient_chromatic_palette_indices": 10,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "70a79302bb4090e5b37affbf6c48493ec0bf2f514ddb83bc033244dbd3c9896f",
+            "text_pixels": 37741,
+            "text_rgb_mae": 7.672037,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=3.440, 32=2.482; neutral-text MAE: 16=9.410, 32=7.672 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1600,
+        990
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 39509,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-016/roles-outcomes016.png",
+        "sha256": "9f6d891e67a03083d1a35f1736258467ae3997cd9d2336e44b9c3c108caadd77"
+      },
+      "original": {
+        "bytes": 127102,
+        "path": "assets/interpretability/publication-dark/study-016/roles-outcomes016.png",
+        "sha256": "48e1de2b4d7fa968ae4a0c8d522fb9130fcdf1513d1549a18433e55a581f232d"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 39509,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 133684,
+            "edge_rgb_mae": 11.775398,
+            "foreground_p95_channel_error": 37.0,
+            "foreground_pixels": 233749,
+            "foreground_rgb_mae": 6.733456,
+            "foreground_rgb_rmse": 14.211889,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-016/roles-outcomes016.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 1.030756,
+            "rgb_max_channel_error": 73,
+            "rgb_p95_channel_error": 3.0,
+            "rgb_rmse": 5.501508,
+            "salient_chromatic_max_nearest_rgb_distance": 60.547501,
+            "salient_chromatic_palette_indices": 10,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "9f6d891e67a03083d1a35f1736258467ae3997cd9d2336e44b9c3c108caadd77",
+            "text_pixels": 80723,
+            "text_rgb_mae": 6.664474,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 36930,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 133684,
+            "edge_rgb_mae": 7.757737,
+            "foreground_p95_channel_error": 24.0,
+            "foreground_pixels": 233749,
+            "foreground_rgb_mae": 4.411741,
+            "foreground_rgb_rmse": 9.663499,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-016/roles-outcomes016.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.688143,
+            "rgb_max_channel_error": 49,
+            "rgb_p95_channel_error": 2.0,
+            "rgb_rmse": 3.773779,
+            "salient_chromatic_max_nearest_rgb_distance": 44.698994,
+            "salient_chromatic_palette_indices": 13,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "6b9fd2482d1b74469f3dd325ee262129a53704faed2574fe90694e88108ea770",
+            "text_pixels": 80723,
+            "text_rgb_mae": 3.617891,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=6.733, 32=4.412; neutral-text MAE: 16=6.664, 32=3.618 (0\u2013255 RGB units)."
+    },
+    {
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "indexed": {
+        "bit_depth": 4,
+        "bytes": 47531,
+        "colors": 16,
+        "path": "assets/interpretability/publication-indexed/study-016/branching-example016.png",
+        "sha256": "f38c21650bb920319a64cddd697aebd3890894fd12e3f5bd8ae18f711025b568"
+      },
+      "original": {
+        "bytes": 154975,
+        "path": "assets/interpretability/publication-dark/study-016/branching-example016.png",
+        "sha256": "24dc27df75b1cb94be47a981cb1654f190d42c184bd301d5708b8efdc7569111"
+      },
+      "quality_metrics": {
+        "candidates": {
+          "16": {
+            "bytes": 47531,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 128374,
+            "edge_rgb_mae": 13.098782,
+            "foreground_p95_channel_error": 48.0,
+            "foreground_pixels": 128279,
+            "foreground_rgb_mae": 13.234866,
+            "foreground_rgb_rmse": 21.016888,
+            "path": "assets/interpretability/publication-indexed/candidates/16/study-016/branching-example016.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.909214,
+            "rgb_max_channel_error": 95,
+            "rgb_p95_channel_error": 1.0,
+            "rgb_rmse": 5.454446,
+            "salient_chromatic_max_nearest_rgb_distance": 92.309265,
+            "salient_chromatic_palette_indices": 9,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "f38c21650bb920319a64cddd697aebd3890894fd12e3f5bd8ae18f711025b568",
+            "text_pixels": 39111,
+            "text_rgb_mae": 11.719039,
+            "used_palette_entries": 16
+          },
+          "32": {
+            "bytes": 45158,
+            "canvas_rgb": [
+              17,
+              21,
+              26
+            ],
+            "canvas_rgb_error": 0,
+            "edge_pixels": 128374,
+            "edge_rgb_mae": 8.673833,
+            "foreground_p95_channel_error": 29.0,
+            "foreground_pixels": 128279,
+            "foreground_rgb_mae": 8.715485,
+            "foreground_rgb_rmse": 13.361655,
+            "path": "assets/interpretability/publication-indexed/candidates/32/study-016/branching-example016.png",
+            "quantizer": "MAXCOVERAGE",
+            "rgb_mae": 0.607265,
+            "rgb_max_channel_error": 49,
+            "rgb_p95_channel_error": 0.0,
+            "rgb_rmse": 3.488222,
+            "salient_chromatic_max_nearest_rgb_distance": 43.611923,
+            "salient_chromatic_palette_indices": 11,
+            "salient_chromatic_source_colors": 24,
+            "sha256": "337691a04d2aedbc82f2c808e330b1e7e0dfb9cc8ce76f0ce3ec4b4b22ca291a",
+            "text_pixels": 39111,
+            "text_rgb_mae": 9.073159,
+            "used_palette_entries": 32
+          }
+        },
+        "selected_colors": 16
+      },
+      "reason": "16-color default: readable neutral text, dark canvas and category colors retained; additional 32-color shades are not necessary for this categorical/table diagram. Measured foreground MAE: 16=13.235, 32=8.715; neutral-text MAE: 16=11.719, 32=9.073 (0\u2013255 RGB units)."
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Lossy display-only report PNG previews, not scientific evidence or model/game transport.",
+  "source_report": "report.md",
+  "totals": {
+    "colors_16": 35,
+    "colors_32": 4,
+    "figures": 39,
+    "indexed_bytes": 1723870,
+    "original_bytes": 5811684,
+    "saved_bytes": 4087814,
+    "saved_percent": 70.337857
+  }
+}

@@ -1,0 +1,157 @@
+<svg xml:space="preserve" xmlns="http://www.w3.org/2000/svg" width="1400" height="1110" viewBox="0 0 1400 1110"><rect width="100%" height="100%" fill="#11151a"/>
+<text x="30" y="49" font-family="DejaVu Sans" font-size="31" fill="#e7e8e4">One actual frozen forward | 1 / 2 | Input → attention → readout</text>
+<text x="30" y="99" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">Stored parameter codes are STATIC. All measured activations on this board are DYNAMIC.</text>
+<text x="30" y="157" font-family="DejaVu Sans" font-size="24" fill="#e7e8e4">A  Canonical board 341</text>
+<rect x="30" y="181" width="75" height="75" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="35" y="198" font-family="DejaVu Sans" font-size="14" fill="#a6b0b7">a</text>
+<text x="58.5" y="233.5" font-family="DejaVu Sans" font-size="30" fill="#e7e8e4">.</text>
+<rect x="105" y="181" width="75" height="75" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="110" y="198" font-family="DejaVu Sans" font-size="14" fill="#a6b0b7">b</text>
+<text x="133.5" y="233.5" font-family="DejaVu Sans" font-size="30" fill="#e7e8e4">.</text>
+<rect x="180" y="181" width="75" height="75" fill="#253e54" stroke="#82d5a1" stroke-width="2"/>
+<text x="185" y="198" font-family="DejaVu Sans" font-size="14" fill="#a6b0b7">c</text>
+<text x="208.5" y="233.5" font-family="DejaVu Sans" font-size="30" fill="#e7e8e4">.</text>
+<rect x="30" y="256" width="75" height="75" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="35" y="273" font-family="DejaVu Sans" font-size="14" fill="#a6b0b7">d</text>
+<text x="58.5" y="308.5" font-family="DejaVu Sans" font-size="30" fill="#e7e8e4">.</text>
+<rect x="105" y="256" width="75" height="75" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="110" y="273" font-family="DejaVu Sans" font-size="14" fill="#a6b0b7">e</text>
+<text x="133.5" y="308.5" font-family="DejaVu Sans" font-size="30" fill="#e7e8e4">.</text>
+<rect x="180" y="256" width="75" height="75" fill="#253e54" stroke="#82d5a1" stroke-width="2"/>
+<text x="185" y="273" font-family="DejaVu Sans" font-size="14" fill="#a6b0b7">f</text>
+<text x="208.5" y="308.5" font-family="DejaVu Sans" font-size="30" fill="#e7e8e4">.</text>
+<rect x="30" y="331" width="75" height="75" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="35" y="348" font-family="DejaVu Sans" font-size="14" fill="#a6b0b7">g</text>
+<text x="58.5" y="383.5" font-family="DejaVu Sans" font-size="30" fill="#e7e8e4">X</text>
+<rect x="105" y="331" width="75" height="75" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="110" y="348" font-family="DejaVu Sans" font-size="14" fill="#a6b0b7">h</text>
+<text x="133.5" y="383.5" font-family="DejaVu Sans" font-size="30" fill="#e7e8e4">X</text>
+<rect x="180" y="331" width="75" height="75" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="185" y="348" font-family="DejaVu Sans" font-size="14" fill="#a6b0b7">i</text>
+<text x="208.5" y="383.5" font-family="DejaVu Sans" font-size="30" fill="#e7e8e4">O</text>
+<text x="30" y="447" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">side index 1</text>
+<text x="30" y="478" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">complete set {cf}</text>
+<text x="370" y="158" font-family="DejaVu Sans" font-size="25" fill="#e7e8e4">B  One exact embedding sum, query square e</text>
+<text x="370" y="207" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">occupancy code: [-1959, 1256, -1023, 1829, 1212, -1184, -1452, -29]</text>
+<text x="370" y="242" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">position code:  [1008, 176, 268, -1509, 376, 581, 939, -554]</text>
+<text x="370" y="277" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">side code:      [-818, -2371, 2413, -3368, -1134, 1353, 1499, 5066]</text>
+<text x="370" y="312" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4"></text>
+<text x="370" y="347" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">dynamic sum:   [-1769, -939, 1658, -3048, 454, 750, 986, 4483]</text>
+<text x="370" y="382" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4"></text>
+<text x="370" y="417" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">Integer norm1 → learned Q / K / V on all nine tokens.</text>
+<text x="370" y="452" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">Eight lanes are latent dimensions, not eight other squares.</text>
+<text x="30" y="566" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">C  Q15 attention (query rows / key cols)</text>
+<text x="82" y="596" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">a</text>
+<text x="121" y="596" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">b</text>
+<text x="160" y="596" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">c</text>
+<text x="199" y="596" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">d</text>
+<text x="238" y="596" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">e</text>
+<text x="277" y="596" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">f</text>
+<text x="316" y="596" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">g</text>
+<text x="355" y="596" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">h</text>
+<text x="394" y="596" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">i</text>
+<text x="32" y="634" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">a</text>
+<rect x="70" y="608" width="39" height="39" fill="#294561" stroke="#56718d" stroke-width="2"/>
+<rect x="109" y="608" width="39" height="39" fill="#2b4763" stroke="#56718d" stroke-width="2"/>
+<rect x="148" y="608" width="39" height="39" fill="#1c3149" stroke="#56718d" stroke-width="2"/>
+<rect x="187" y="608" width="39" height="39" fill="#32516f" stroke="#56718d" stroke-width="2"/>
+<rect x="226" y="608" width="39" height="39" fill="#31506e" stroke="#56718d" stroke-width="2"/>
+<rect x="265" y="608" width="39" height="39" fill="#213851" stroke="#56718d" stroke-width="2"/>
+<rect x="304" y="608" width="39" height="39" fill="#659dca" stroke="#56718d" stroke-width="2"/>
+<rect x="343" y="608" width="39" height="39" fill="#507da4" stroke="#56718d" stroke-width="2"/>
+<rect x="382" y="608" width="39" height="39" fill="#2c4966" stroke="#56718d" stroke-width="2"/>
+<text x="32" y="673" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">b</text>
+<rect x="70" y="647" width="39" height="39" fill="#2a4662" stroke="#56718d" stroke-width="2"/>
+<rect x="109" y="647" width="39" height="39" fill="#2b4663" stroke="#56718d" stroke-width="2"/>
+<rect x="148" y="647" width="39" height="39" fill="#1d324b" stroke="#56718d" stroke-width="2"/>
+<rect x="187" y="647" width="39" height="39" fill="#335473" stroke="#56718d" stroke-width="2"/>
+<rect x="226" y="647" width="39" height="39" fill="#304e6c" stroke="#56718d" stroke-width="2"/>
+<rect x="265" y="647" width="39" height="39" fill="#213953" stroke="#56718d" stroke-width="2"/>
+<rect x="304" y="647" width="39" height="39" fill="#6198c4" stroke="#56718d" stroke-width="2"/>
+<rect x="343" y="647" width="39" height="39" fill="#4f7da4" stroke="#56718d" stroke-width="2"/>
+<rect x="382" y="647" width="39" height="39" fill="#355676" stroke="#56718d" stroke-width="2"/>
+<text x="32" y="712" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">c</text>
+<rect x="70" y="686" width="39" height="39" fill="#2e4b69" stroke="#56718d" stroke-width="2"/>
+<rect x="109" y="686" width="39" height="39" fill="#335372" stroke="#56718d" stroke-width="2"/>
+<rect x="148" y="686" width="39" height="39" fill="#1e344c" stroke="#56718d" stroke-width="2"/>
+<rect x="187" y="686" width="39" height="39" fill="#365877" stroke="#56718d" stroke-width="2"/>
+<rect x="226" y="686" width="39" height="39" fill="#365878" stroke="#56718d" stroke-width="2"/>
+<rect x="265" y="686" width="39" height="39" fill="#253f5a" stroke="#56718d" stroke-width="2"/>
+<rect x="304" y="686" width="39" height="39" fill="#5e92bd" stroke="#56718d" stroke-width="2"/>
+<rect x="343" y="686" width="39" height="39" fill="#5180a7" stroke="#56718d" stroke-width="2"/>
+<rect x="382" y="686" width="39" height="39" fill="#213852" stroke="#56718d" stroke-width="2"/>
+<text x="32" y="751" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">d</text>
+<rect x="70" y="725" width="39" height="39" fill="#28425e" stroke="#56718d" stroke-width="2"/>
+<rect x="109" y="725" width="39" height="39" fill="#26405b" stroke="#56718d" stroke-width="2"/>
+<rect x="148" y="725" width="39" height="39" fill="#1b2f47" stroke="#56718d" stroke-width="2"/>
+<rect x="187" y="725" width="39" height="39" fill="#335371" stroke="#56718d" stroke-width="2"/>
+<rect x="226" y="725" width="39" height="39" fill="#31506f" stroke="#56718d" stroke-width="2"/>
+<rect x="265" y="725" width="39" height="39" fill="#1f354e" stroke="#56718d" stroke-width="2"/>
+<rect x="304" y="725" width="39" height="39" fill="#679fcd" stroke="#56718d" stroke-width="2"/>
+<rect x="343" y="725" width="39" height="39" fill="#4c779d" stroke="#56718d" stroke-width="2"/>
+<rect x="382" y="725" width="39" height="39" fill="#335271" stroke="#56718d" stroke-width="2"/>
+<text x="32" y="790" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">e</text>
+<rect x="70" y="764" width="39" height="39" fill="#28435f" stroke="#56718d" stroke-width="2"/>
+<rect x="109" y="764" width="39" height="39" fill="#304f6d" stroke="#56718d" stroke-width="2"/>
+<rect x="148" y="764" width="39" height="39" fill="#1c3049" stroke="#56718d" stroke-width="2"/>
+<rect x="187" y="764" width="39" height="39" fill="#2a4561" stroke="#56718d" stroke-width="2"/>
+<rect x="226" y="764" width="39" height="39" fill="#294561" stroke="#56718d" stroke-width="2"/>
+<rect x="265" y="764" width="39" height="39" fill="#213851" stroke="#56718d" stroke-width="2"/>
+<rect x="304" y="764" width="39" height="39" fill="#649bc8" stroke="#56718d" stroke-width="2"/>
+<rect x="343" y="764" width="39" height="39" fill="#5585ae" stroke="#56718d" stroke-width="2"/>
+<rect x="382" y="764" width="39" height="39" fill="#2d4a67" stroke="#56718d" stroke-width="2"/>
+<text x="32" y="829" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">f</text>
+<rect x="70" y="803" width="39" height="39" fill="#2c4966" stroke="#56718d" stroke-width="2"/>
+<rect x="109" y="803" width="39" height="39" fill="#2b4764" stroke="#56718d" stroke-width="2"/>
+<rect x="148" y="803" width="39" height="39" fill="#1c314a" stroke="#56718d" stroke-width="2"/>
+<rect x="187" y="803" width="39" height="39" fill="#3a5e7f" stroke="#56718d" stroke-width="2"/>
+<rect x="226" y="803" width="39" height="39" fill="#3b5f80" stroke="#56718d" stroke-width="2"/>
+<rect x="265" y="803" width="39" height="39" fill="#233b55" stroke="#56718d" stroke-width="2"/>
+<rect x="304" y="803" width="39" height="39" fill="#6197c3" stroke="#56718d" stroke-width="2"/>
+<rect x="343" y="803" width="39" height="39" fill="#4b779d" stroke="#56718d" stroke-width="2"/>
+<rect x="382" y="803" width="39" height="39" fill="#253e58" stroke="#56718d" stroke-width="2"/>
+<text x="32" y="868" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">g</text>
+<rect x="70" y="842" width="39" height="39" fill="#27415d" stroke="#56718d" stroke-width="2"/>
+<rect x="109" y="842" width="39" height="39" fill="#3c6082" stroke="#56718d" stroke-width="2"/>
+<rect x="148" y="842" width="39" height="39" fill="#243c57" stroke="#56718d" stroke-width="2"/>
+<rect x="187" y="842" width="39" height="39" fill="#213851" stroke="#56718d" stroke-width="2"/>
+<rect x="226" y="842" width="39" height="39" fill="#1e354d" stroke="#56718d" stroke-width="2"/>
+<rect x="265" y="842" width="39" height="39" fill="#243d57" stroke="#56718d" stroke-width="2"/>
+<rect x="304" y="842" width="39" height="39" fill="#446d91" stroke="#56718d" stroke-width="2"/>
+<rect x="343" y="842" width="39" height="39" fill="#4e7ba1" stroke="#56718d" stroke-width="2"/>
+<rect x="382" y="842" width="39" height="39" fill="#5c8fba" stroke="#56718d" stroke-width="2"/>
+<text x="32" y="907" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">h</text>
+<rect x="70" y="881" width="39" height="39" fill="#294460" stroke="#56718d" stroke-width="2"/>
+<rect x="109" y="881" width="39" height="39" fill="#406689" stroke="#56718d" stroke-width="2"/>
+<rect x="148" y="881" width="39" height="39" fill="#28425e" stroke="#56718d" stroke-width="2"/>
+<rect x="187" y="881" width="39" height="39" fill="#223953" stroke="#56718d" stroke-width="2"/>
+<rect x="226" y="881" width="39" height="39" fill="#1f364f" stroke="#56718d" stroke-width="2"/>
+<rect x="265" y="881" width="39" height="39" fill="#27415c" stroke="#56718d" stroke-width="2"/>
+<rect x="304" y="881" width="39" height="39" fill="#426a8d" stroke="#56718d" stroke-width="2"/>
+<rect x="343" y="881" width="39" height="39" fill="#4e7aa1" stroke="#56718d" stroke-width="2"/>
+<rect x="382" y="881" width="39" height="39" fill="#598cb6" stroke="#56718d" stroke-width="2"/>
+<text x="32" y="946" font-family="DejaVu Sans" font-size="18" fill="#e7e8e4">i</text>
+<rect x="70" y="920" width="39" height="39" fill="#345473" stroke="#56718d" stroke-width="2"/>
+<rect x="109" y="920" width="39" height="39" fill="#41678a" stroke="#56718d" stroke-width="2"/>
+<rect x="148" y="920" width="39" height="39" fill="#6096c2" stroke="#56718d" stroke-width="2"/>
+<rect x="187" y="920" width="39" height="39" fill="#294460" stroke="#56718d" stroke-width="2"/>
+<rect x="226" y="920" width="39" height="39" fill="#2c4865" stroke="#56718d" stroke-width="2"/>
+<rect x="265" y="920" width="39" height="39" fill="#497499" stroke="#56718d" stroke-width="2"/>
+<rect x="304" y="920" width="39" height="39" fill="#253f59" stroke="#56718d" stroke-width="2"/>
+<rect x="343" y="920" width="39" height="39" fill="#2b4764" stroke="#56718d" stroke-width="2"/>
+<rect x="382" y="920" width="39" height="39" fill="#233b55" stroke="#56718d" stroke-width="2"/>
+<text x="30" y="1012" font-family="DejaVu Sans" font-size="19" fill="#e7e8e4">Dark 0 → bright blue 1 (√ scale); rows sum to 32768.</text>
+<text x="530" y="569" font-family="DejaVu Sans" font-size="25" fill="#e7e8e4">D  Exact query e audit and global readout</text>
+<text x="530" y="622" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">Q[e] · K[a] = -18660448</text>
+<text x="530" y="658" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">Q15 row sum = 32768</text>
+<text x="530" y="694" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">P[e] × V numerator, lane0 = -54675153</text>
+<text x="530" y="730" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">round(numerator / 32768) = -1669</text>
+<text x="530" y="766" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4"></text>
+<text x="530" y="802" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">Then learned projection + residual → global 72→8 readout.</text>
+<text x="530" y="838" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">Query e is NOT the output square e.</text>
+<text x="530" y="874" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">Attention mass is NOT move confidence.</text>
+<text x="530" y="910" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4"></text>
+<text x="530" y="946" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">All 21 stages retained in baseline011.npz.</text>
+<text x="530" y="982" font-family="DejaVu Sans" font-size="22" fill="#e7e8e4">Exact sample vectors/parameter snippets: walkthrough1011.json.</text>
+<text x="30" y="1076" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">A→B→C→D labels follow actual computation. No tactic label or minimax output enters inference.</text>
+</svg>

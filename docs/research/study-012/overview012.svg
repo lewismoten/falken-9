@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="920" viewBox="0 0 1400 920"><rect width="100%" height="100%" fill="#f5f7fb"/>
+<text x="30" y="49" font-family="DejaVu Sans" font-size="31" fill="#17283f">Research012 | Exact symmetry does not guarantee correct moves</text>
+<text x="30" y="99" font-family="DejaVu Sans" font-size="22" fill="#17283f">Fixed external D4 aggregation of the frozen network outputs; OFF-CONTRACT offline compute.</text>
+<text x="30" y="167" font-family="DejaVu Sans" font-size="22" fill="#17283f">A  Every aggregate is perfectly full-set D4 equivariant on 36,160 raw-board/transform observations.</text>
+<text x="30" y="229" font-family="DejaVu Sans" font-size="26" fill="#17283f">B  Complete sets on 4,520 unique raw boards</text>
+<text x="30" y="293" font-family="DejaVu Sans" font-size="23" fill="#17283f">Exact group mean</text>
+<rect x="330" y="270" width="195.2566371681416" height="33" fill="#2061a6" stroke="#2061a6" stroke-width="2"/>
+<text x="920" y="292" font-family="DejaVu Sans" font-size="22" fill="#17283f">1,576 /4,520 exact sets</text>
+<text x="330" y="336" font-family="DejaVu Sans" font-size="20" fill="#17283f">empty 304 | nonoptimal nonempty 1344 | optimal tie changes 135</text>
+<text x="30" y="397" font-family="DejaVu Sans" font-size="23" fill="#17283f">Intersection (all8)</text>
+<rect x="330" y="374" width="38.65486725663717" height="33" fill="#2061a6" stroke="#2061a6" stroke-width="2"/>
+<text x="920" y="396" font-family="DejaVu Sans" font-size="22" fill="#17283f">312 /4,520 exact sets</text>
+<text x="330" y="440" font-family="DejaVu Sans" font-size="20" fill="#17283f">empty 3804 | nonoptimal nonempty 0 | optimal tie changes 176</text>
+<text x="30" y="501" font-family="DejaVu Sans" font-size="23" fill="#17283f">Union (any1)</text>
+<rect x="330" y="478" width="171.9646017699115" height="33" fill="#2061a6" stroke="#2061a6" stroke-width="2"/>
+<text x="920" y="500" font-family="DejaVu Sans" font-size="22" fill="#17283f">1,388 /4,520 exact sets</text>
+<text x="330" y="544" font-family="DejaVu Sans" font-size="20" fill="#17283f">empty 0 | nonoptimal nonempty 1763 | optimal tie changes 0</text>
+<text x="30" y="605" font-family="DejaVu Sans" font-size="23" fill="#17283f">At least4 /8 votes</text>
+<rect x="330" y="582" width="244.81415929203538" height="33" fill="#2061a6" stroke="#2061a6" stroke-width="2"/>
+<text x="920" y="604" font-family="DejaVu Sans" font-size="22" fill="#17283f">1,976 /4,520 exact sets</text>
+<text x="330" y="648" font-family="DejaVu Sans" font-size="20" fill="#17283f">empty 144 | nonoptimal nonempty 1182 | optimal tie changes 119</text>
+<text x="30" y="757" font-family="DejaVu Sans" font-size="21" fill="#17283f">C  Frozen canonicalizing wrapper: 4,520 /4,520 correct complete legal sets.</text>
+<text x="30" y="794" font-family="DejaVu Sans" font-size="21" fill="#17283f">Intersection cannot add false members; union cannot omit optimal members. Neither control proves exactness.</text>
+<text x="30" y="831" font-family="DejaVu Sans" font-size="21" fill="#17283f">Mean uses exact sum&gt;=0; no rounding of a small negative mean to zero. Scores are NOT probabilities.</text>
+<text x="30" y="868" font-family="DejaVu Sans" font-size="21" fill="#17283f">These aggregations are fixed postprocessing, not learned symmetry or a deployed replacement.</text>
+</svg>

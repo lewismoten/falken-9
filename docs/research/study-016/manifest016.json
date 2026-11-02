@@ -1,0 +1,88 @@
+{
+  "bound_sha256": {
+    "falken9/__init__.py": "fe6ebfcc80d5500f5490fd5e33074567864fbb1e5e533bdac65c6f663f1f763e",
+    "falken9/arithmetic.py": "3c301f1fb8534e31a5a46b39daef8cf8b23afcf9c1fbc0f1626a0581d534d225",
+    "falken9/canonical_integer.py": "a40f5dd5d9863155fb2857a11c233fe1c011cfdfa667b893fe0c37c6a4c2aba4",
+    "falken9/canonical_integer_export.py": "1eed279fedb1084c7c68145c499fba1041ae520297f1839d4adb67ae63d6778f",
+    "falken9/canonical_model.py": "4a6520d31c2da31341ccb529ff43a900b6923528005ba681dda83aaa63fd5b04",
+    "falken9/canonical_training.py": "9b817a63a67d7d7b0da82f9871b7bc9f60d512b826534dc7f464fff93fa0ce99",
+    "falken9/dataset.py": "718516a132f67a35d31b22c4594b6e09aac2e53f424bc662f51f8b9c19c39edd",
+    "falken9/export.py": "1d3bfbb468d55d04aeac44ae6814547dd13b38ebebfdc2952efdb276273556d5",
+    "falken9/flexible_export.py": "fe71bb5c1eef34d742f69a1d2822be35c17ff0d3023d67016bc57e8fd7a8411c",
+    "falken9/flexible_integer.py": "fe221af88b88a99016afc1afbcb4ca492bcfc367e66390182f6c71d6cc326aec",
+    "falken9/flexible_integer_export.py": "d6537d730e56ca44860a9fd6bfb6b94946d6ecb8f31f29d6fc971ce4886e6d10",
+    "falken9/flexible_model.py": "63b48574e7cea161a8b202793712f6a39fd7c595fc15f6c7cbbd18b1062ad804",
+    "falken9/flexible_training.py": "624990235d6b0fb9e3082adb1f8492b60ef5a892e8f02551f8fd9824cceebcd8",
+    "falken9/integer_export.py": "b9b04d5c4d16622619df82dc4dedf307b933d0ba5786f9f9b70358201dfc4618",
+    "falken9/integer_model.py": "f6aff54d55ea0665f8969c7737cf26c17787d09019000d4a363a87c67aa01cd2",
+    "falken9/local_fusion.py": "b51f64386f62067e4c9df783c062ae484d898cc927c9e4f7036bd1f8817f8cca",
+    "falken9/model.py": "8a69ca9d8464add34cbe326ad3c193e7ef637853de9a9c46a823430597b21684",
+    "falken9/packing.py": "26c0702278fcff9bcd3267774f186d9cb128b3c31da01f2fc9f819e82596e0ee",
+    "falken9/policy.py": "ee9792dc56f72323f9e161d1dfac62c2b4a11aeac82bb22f94033e39d1d69df7",
+    "falken9/range_integer_model.py": "95356c6cdf5744ac22e8068390454169d94fd37da4029e101d8c9803ac58a738",
+    "falken9/strategy_diagnostics.py": "8c0f2ffda2ef73c6a65409a9774fd67b14239221ea8ed85a26499c87974d9e16",
+    "falken9/strategy_patching.py": "6856b52cc9ef7ddc593b076b6422a73bde3a5f9f1dbf24e35ee38768c19e2558",
+    "falken9/strategy_square004.py": "214987ef805717e79e42749aa4857a9061c4e505de8fe23c10674b9ce317a24d",
+    "falken9/symmetry.py": "64cf0b88bc0d7f1fa07b6f9fe6d2a9ab0f1761a4eb356449a1eb75a100f4b8db",
+    "falken9/training.py": "f4b7c8fa4628d2a58d6ab85f5b8776392f27c11a14f3558f65b864585bdd89cf",
+    "source010/artifacts/app/010-graphical/app.lst": "95c629c67898eabee12ca5d0ea4ed75cdea02d7df60d6e553d4b97d423c9da5d",
+    "source010/artifacts/app/010-graphical/build.json": "0543a7ff451e2b16c9aea4f40083f51e9eea202144b6b253faf7e62b7c507380",
+    "source010/artifacts/app/010-graphical/graphical-wrapper.inc": "c5f25aa702ae323b48cfea5000010183e9d1e57fd83c52bddb6931f703663413",
+    "source010/artifacts/app/010-graphical/services.asm": "3e11de7efcbe3054d8cd4d3388fdf5456a1329d3f391a26642321858dd4200a4",
+    "source010/docs/C64_GAME.md": "b553fe9baa6f5854957751911f5b935af186c63af7ca9173abc0f32f565b1cf7",
+    "source010/src/app/app.asm": "a17d5eafac936d594e129fa748b747ee056d0cacab9adef1d0ab10de66998d88",
+    "source010/src/app/auto_demo.asm": "e3d5ea39f8ac9a45d2450ec0598eb23a47beb96900759e5b237c064d29c188b7",
+    "source010/src/app/graphical_game.asm": "dccf6b90214188673816cf881ff5fdc0fe80e29a669112913feda6f8656f6162",
+    "source010/src/app/wrapper.asm": "1bda409041da1136604decf0dae9f785d970f80784f25aed17c5ffc0da6abb49"
+  },
+  "bounds": {
+    "minutes": 45,
+    "plies": 9,
+    "policies": 3,
+    "roles": 2
+  },
+  "domain": {
+    "canonical_nonterminal": 627,
+    "raw_nonterminal": 4520
+  },
+  "example_selection": "First by (ply,raw board tuple) in union of policy-reachable MODEL decision boards with differing predeclared choices and differing exact conditional win probabilities; otherwise first differing board. Evaluate only the three predeclared continuations.",
+  "forwards": "One full production neural binding per canonical board (627 boards), cache only for offline branching; independent scalar 627 forwards verify every stage.",
+  "frozen_utc": "2026-11-01T17:35:12.563983+00:00",
+  "initial_board": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "largest_score": "Maximum raw-restored integer score among LEGAL nonnegative approved set; accepted raw priority resolves exact ties. OFFLINE COUNTERFACTUAL, not confidence or deployment.",
+  "limitations": "Already trained/audited exhaustive domain; no model-heldout, native-speed or general opponent-strength claim.",
+  "measures": [
+    "exact win/draw/loss Fractions",
+    "expected total terminal marks and additional marks",
+    "supported ordered complete move sequences",
+    "reachable raw/canonical all decision boards and model decision boards",
+    "ordered expert route counts"
+  ],
+  "opening": "No opening sampler: deterministic policy even on empty board.",
+  "opponent": "At every human turn independently uniform among all currently legal empty squares; terminate immediately at first win/full board.",
+  "oracle": "Offline audit only, never consulted to select a policy move.",
+  "packet_bytes": 5195,
+  "packet_sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1",
+  "policies": [
+    "accepted",
+    "reversed",
+    "largest_score"
+  ],
+  "priority": "ebdfhcgia",
+  "reversed_priority": "aigchfdbe",
+  "roles": [
+    "X",
+    "O"
+  ],
+  "study": "016"
+}

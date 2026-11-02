@@ -1,0 +1,11 @@
+{
+  "excluded_parent_owned_mutable_documents": {
+    "/home/ai/falken-9": [
+      "artifacts/operations/research/parent-study015-verification.json"
+    ]
+  },
+  "reason": "Initial conservative inventory captured this parent-owned research verification document inside artifacts. Parent concurrently updated study015 documentation verification. It is a mutable report, not runtime/model/source or a prior isolated study. Preserve the original before inventory unchanged and disclose the exact excluded path, rather than silently replacing its baseline. No study016 tool wrote this main-repository file.",
+  "observed_before_sha256": "e29d5fffd7dadd7dca265112c74d7dcc49c4c7ae48c3c125f18afe0440f4a876",
+  "observed_after_sha256": "4beb303e4a1669f1c8efa78cc3c29ff3326eb3c315a91b7d0fa880747a26f5a7",
+  "outcome_panels_changed": false
+}

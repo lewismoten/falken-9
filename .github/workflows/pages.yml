@@ -1,0 +1,72 @@
+name: Publish verified consumer site
+
+# Deploy the accepted, digest-verified release committed in this Git checkout.
+on:
+  workflow_dispatch: {}
+
+permissions: {}
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - name: Checkout source and committed audio
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-pages.txt
+      - name: Set up Node for launcher regression tests
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install renderer
+        run: python -m pip install --disable-pip-version-check -r requirements-pages.txt
+      - name: Stage and verify the release from committed Git inputs
+        run: >-
+          python scripts/prepare_publication.py
+          --output build/git-public-package
+      - name: Test publication builder and legacy safe transports
+        env:
+          PUBLIC_PAGES_PACKAGE: build/git-public-package
+        run: |
+          python -m unittest discover -s tests -p test_public_pages.py -v
+          node --test tests/pages-launcher.test.mjs
+      - name: Build curated site from Git release and committed audio
+        run: >-
+          python scripts/build_public_pages.py
+          --package build/git-public-package
+          --output build/pages-publication
+          --music assets/audio/patient-calculations.ogg
+          --music-provenance assets/audio/provenance.json
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload only the curated static site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: build/pages-publication
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy verified artifact
+        id: deployment
+        uses: actions/deploy-pages@v4

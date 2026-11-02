@@ -1,0 +1,56 @@
+<svg xml:space="preserve" xmlns="http://www.w3.org/2000/svg" width="1400" height="1190" viewBox="0 0 1400 1190"><rect width="100%" height="100%" fill="#11151a"/>
+<text x="30" y="47" font-family="DejaVu Sans" font-size="29" fill="#e7e8e4">One actual frozen forward | 2 / 2 | Routed experts → head → wrapper</text>
+<text x="30" y="97" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">E/F/G: learned integer computation. H: fixed masking, inverse coordinates and raw-board tie priority.</text>
+<rect x="25" y="127" width="660" height="467" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<rect x="710" y="127" width="660" height="467" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<rect x="25" y="620" width="660" height="467" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<rect x="710" y="620" width="660" height="467" fill="#181e26" stroke="#3b4652" stroke-width="2"/>
+<text x="42" y="169" font-family="DejaVu Sans" font-size="25" fill="#e7e8e4">E  Actual dynamic routing and execution</text>
+<text x="42" y="215" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">scores [12921, -16367, -4062, 15078]</text>
+<text x="42" y="250" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">ordered expert IDs [3, 0]</text>
+<text x="42" y="285" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">matching Q15 gates [24294, 8474]</text>
+<text x="42" y="320" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4"></text>
+<text x="42" y="355" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">E3 hidden [494, 1099, 1282, 795]</text>
+<text x="42" y="390" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">E0 hidden [0, 8232, 0, -1]</text>
+<text x="42" y="425" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4"></text>
+<text x="42" y="460" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">Other expert activations: null / unobserved.</text>
+<text x="42" y="495" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">A selected zero-gate expert still executes.</text>
+<text x="42" y="530" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">These expert IDs do not uniquely name a tactic.</text>
+<text x="727" y="169" font-family="DejaVu Sans" font-size="25" fill="#e7e8e4">F  Exact merge, lane0 (all lanes retained)</text>
+<text x="727" y="216" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">E3 520 × gate 24294</text>
+<text x="727" y="251" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">+ E0 4252 × gate 8474</text>
+<text x="727" y="286" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">= weighted numerator 48664328</text>
+<text x="727" y="321" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4"></text>
+<text x="727" y="356" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">readout lane0 3820</text>
+<text x="727" y="391" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">+ round(48664328 / 32768)</text>
+<text x="727" y="426" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">= merged lane0 5305</text>
+<text x="727" y="461" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4"></text>
+<text x="727" y="496" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">Both expert outputs feed the merge, then the head.</text>
+<text x="727" y="531" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">Exact rounding/clamps belong to the contract.</text>
+<text x="42" y="662" font-family="DejaVu Sans" font-size="25" fill="#e7e8e4">G  Output row f: static × dynamic</text>
+<text x="42" y="709" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">stored row codes [26308, 7055, -25023, 30728,</text>
+<text x="42" y="743" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">-10972, -16030, -29877, -10732]</text>
+<text x="42" y="777" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">row exponent -13; native bias -8029</text>
+<text x="42" y="811" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4"></text>
+<text x="42" y="845" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">Σ stored code × merged = 376722251</text>
+<text x="42" y="879" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">scaled/rounded dot = 45987</text>
+<text x="42" y="913" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">+ bias = logit 37958</text>
+<text x="42" y="947" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4"></text>
+<text x="42" y="981" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">One signed membership score, NOT probability.</text>
+<text x="42" y="1015" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">All eight lanes contribute; all nine rows checked.</text>
+<text x="727" y="662" font-family="DejaVu Sans" font-size="25" fill="#e7e8e4">H  Integer logits → legal set → fixed tie</text>
+<text x="727" y="703" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">sq    score       empty?   member</text>
+<text x="727" y="738" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">a     -17582      yes      out</text>
+<text x="727" y="765" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">b     -77851      yes      out</text>
+<text x="727" y="792" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">c      10868      yes      IN</text>
+<text x="727" y="819" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">d      -9233      yes      out</text>
+<text x="727" y="846" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">e     -42051      yes      out</text>
+<text x="727" y="873" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">f      37958      yes      IN</text>
+<text x="727" y="900" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">g       2725      no       out</text>
+<text x="727" y="927" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">h     -71679      no       out</text>
+<text x="727" y="954" font-family="DejaVu Sans Mono" font-size="19" fill="#e7e8e4">i      41868      no       out</text>
+<text x="727" y="1003" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">Set {cf}; ebdfhcgia → f</text>
+<text x="727" y="1031" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">Inverse-map WHOLE set before raw ties,</text>
+<text x="727" y="1059" font-family="DejaVu Sans" font-size="20" fill="#e7e8e4">never rotate one already chosen move.</text>
+<text x="30" y="1141" font-family="DejaVu Sans" font-size="21" fill="#e7e8e4">Numerical execution is not semantic attribution. No “block/fork expert” claim without selective evidence.</text>
+</svg>

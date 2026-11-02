@@ -20,7 +20,7 @@ class GraphicalMachine:
         raw=Path(built['prg_path']).read_bytes() if prg is None else prg
         start=int.from_bytes(raw[:2],'little');assert start==0x801
         mem[start:start+len(raw)-2]=raw[2:]
-        mem[1]=0x37;self.cpu.sp=255;self.cpu.pc=0x8000
+        mem[1]=0x37;mem[0xc6]=0;self.cpu.sp=255;self.cpu.pc=0x8000
         self.cpu.p=self.cpu.UNUSED|self.cpu.INTERRUPT|self.cpu.DECIMAL
         self.original_core=(Path(built['path']).parent/'core/runtime.bin').read_bytes()[:self.labels['code_end']-0x800]
         self.original_model=bytes(mem[0x4000:0x4000+5195])

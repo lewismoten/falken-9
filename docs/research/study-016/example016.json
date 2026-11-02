@@ -1,0 +1,114 @@
+{
+  "approved": [
+    1,
+    4,
+    6,
+    8
+  ],
+  "board": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "canonical": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "canonical_index": 2,
+  "choices": {
+    "accepted": 4,
+    "largest_score": 8,
+    "reversed": 8
+  },
+  "conditional": [
+    {
+      "draw": "8/105",
+      "expected_additional_marks": "121/21",
+      "loss": "0",
+      "move": 4,
+      "policy": "accepted",
+      "supported_by_outcome": [
+        51,
+        8,
+        0
+      ],
+      "win": "97/105"
+    },
+    {
+      "draw": "12/35",
+      "expected_additional_marks": "233/35",
+      "loss": "0",
+      "move": 8,
+      "policy": "reversed",
+      "supported_by_outcome": [
+        45,
+        36,
+        0
+      ],
+      "win": "23/35"
+    },
+    {
+      "draw": "1/7",
+      "expected_additional_marks": "214/35",
+      "loss": "0",
+      "move": 8,
+      "policy": "largest_score",
+      "supported_by_outcome": [
+        54,
+        15,
+        0
+      ],
+      "win": "6/7"
+    }
+  ],
+  "gates": [
+    32768,
+    0
+  ],
+  "optimal_audit": [
+    1,
+    4,
+    6,
+    8
+  ],
+  "permutation": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "raw_logits": [
+    -6766,
+    1322,
+    -24438,
+    -24823,
+    4262,
+    -35720,
+    9176,
+    5007,
+    54749
+  ],
+  "role": "O",
+  "routes": [
+    2,
+    3
+  ]
+}

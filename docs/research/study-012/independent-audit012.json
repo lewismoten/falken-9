@@ -1,0 +1,15 @@
+{
+  "exact_unrounded_mean_sign": true,
+  "full_set_equivariance_board_transform_checks": 144640,
+  "independent_membership_scalars": 162720,
+  "independent_raw_boards": 4520,
+  "new_neural_calls": 0,
+  "passed": true,
+  "policies": 4,
+  "predeclared_examples": [
+    2,
+    9
+  ],
+  "raw_branch_observations": 36160,
+  "source_logits_sha256": "7d0e07c6e406925530a6b3feb1bf9422c536a9c168786c9bb5eaafef7679aad5"
+}

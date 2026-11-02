@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "game_title": "Crystal Palace 9",
+  "model_identity": "Falken-9",
+  "visible_model_badge": "FALCON-9 / 1.0 (unaltered accepted application spelling)",
+  "source": {
+    "path": "artifacts/app/010-graphical/falken9-010-graphical.prg",
+    "sha256_before": "c571353a61c8a663050c33809b6ca880d29aebc969c545a717da2644eed3143a",
+    "sha256_after": "c571353a61c8a663050c33809b6ca880d29aebc969c545a717da2644eed3143a",
+    "build_map_path": "artifacts/app/010-graphical/build.json",
+    "build_map_sha256": "0543a7ff451e2b16c9aea4f40083f51e9eea202144b6b253faf7e62b7c507380"
+  },
+  "method": "Untouched native VICE monitor PNG output; byte-copy only; no crop, redraw, scaling, compilation or screen-RAM strings",
+  "emulator": {
+    "program": "VICE x64",
+    "executable_sha256": "4da4aa26f02419bd6fd51d3c88bc8535671ffb7a64930e646f0af83e24e5b931",
+    "timing": "PAL",
+    "mode": "stock C64 ROM, PRG autostart; sound enabled, dummy audio sink, warp",
+    "roms": {
+      "kernal-901227-03.bin": "83c60d47047d7beab8e5b7bf6f67f80daa088b7a6a27de0d7e016f6484042721",
+      "basic-901226-01.bin": "89878cea0a268734696de11c4bae593eaaa506465d2029d619c0e0cbccdfa62d",
+      "chargen-901225-01.bin": "fd0d53b8480e86163ac98998976c72cc58d5dd8eb824ed7b829774e74213b420"
+    }
+  },
+  "boundary": "Native isolated Xvfb/XTest key-down/up; real KERNAL scanner/application dispatch. Not browser, physical C64 or D64 launch acceptance. Title view 0 -> fresh title Q -> session-quit view 3; never a game-menu return.",
+  "settling": "100000 executed instructions before title capture; two identical PNGs 100000 instructions apart for each view, exceeding one 19656-cycle PAL VIC frame",
+  "checks": {
+    "executable_hash_before_after_equal": true,
+    "protected_files_before_after_equal": true,
+    "live_model_bytes_equal_PRG": true,
+    "live_core_bytes_equal_frozen_runtime": true,
+    "live_app_bytes_equal_frozen_app": true,
+    "session_quit_view": 3,
+    "audio_disabled": true,
+    "stock_irq_restored": true,
+    "sid_gates_volume_zero": true
+  },
+  "protected_snapshot": "build/publication-screens-010/native/protected-before.json",
+  "screenshots": [
+    {
+      "path": "assets/screenshots/falken9-010-title.png",
+      "sha256": "ad9b52282a7f614f024e4a0c5c2d3492ce6a90bc6470a4ec4e8b8c1d1fa1bb85",
+      "dimensions": [
+        384,
+        272
+      ],
+      "view": 0,
+      "stable_repeat_equal": true,
+      "settled_cycles": 358742,
+      "capture_clock": 128683107,
+      "input_sequence": [],
+      "native_evidence": "build/publication-screens-010/native/title-settled.png"
+    },
+    {
+      "path": "assets/screenshots/falken9-010-quit-session.png",
+      "sha256": "093b6acced727e3121c8c962e910561ffa0922dd8f2073cfa4ca3f8555dc4060",
+      "dimensions": [
+        384,
+        272
+      ],
+      "view": 3,
+      "stable_repeat_equal": true,
+      "settled_cycles": 358566,
+      "capture_clock": 129775368,
+      "input_sequence": [
+        "native XTest q key-down",
+        "100000 executed instructions",
+        "native XTest q key-up",
+        "100000 executed instructions"
+      ],
+      "native_evidence": "build/publication-screens-010/native/quit-session-settled.png"
+    }
+  ]
+}

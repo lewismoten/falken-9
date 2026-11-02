@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1720" height="1080" viewBox="0 0 1720 1080">
+<rect width="100%" height="100%" fill="#101720"/>
+<text x="28" y="20" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="26" fill="#edf2f6">Study005 / input-sensitive attention, not an established strategy detector</text>
+<text x="28" y="61" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Measured actual model on627 canonical boards; perturbations are isolated upstream OOD overrides, never deployed behavior.</text>
+<rect x="24" y="102" width="760" height="430" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="42" y="120" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">A / actual attention distribution</text>
+<text x="42" y="162" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#edf2f6">Row entropy mean 1.5554 / 3.1699 bits</text>
+<text x="42" y="194" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#edf2f6">Range 0.0234 to 3.0476; effective keys mean 3.423</text>
+<text x="42" y="225" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#edf2f6">Zero edges 9.41%; mean row maximum P 0.5996</text>
+<rect x="52" y="363" width="60" height="75" fill="#eda85f" stroke="#405368" stroke-width="1"/>
+<text x="52" y="448" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#aab9c6">0.0</text>
+<text x="52" y="342" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">720</text>
+<rect x="136" y="380" width="60" height="58" fill="#eda85f" stroke="#405368" stroke-width="1"/>
+<text x="136" y="448" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#aab9c6">0.4</text>
+<text x="136" y="359" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">552</text>
+<rect x="220" y="358" width="60" height="80" fill="#eda85f" stroke="#405368" stroke-width="1"/>
+<text x="220" y="448" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#aab9c6">0.8</text>
+<text x="220" y="337" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">763</text>
+<rect x="304" y="368" width="60" height="70" fill="#eda85f" stroke="#405368" stroke-width="1"/>
+<text x="304" y="448" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#aab9c6">1.2</text>
+<text x="304" y="347" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">674</text>
+<rect x="388" y="375" width="60" height="63" fill="#eda85f" stroke="#405368" stroke-width="1"/>
+<text x="388" y="448" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#aab9c6">1.6</text>
+<text x="388" y="354" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">605</text>
+<rect x="472" y="303" width="60" height="135" fill="#eda85f" stroke="#405368" stroke-width="1"/>
+<text x="472" y="448" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#aab9c6">2.0</text>
+<text x="472" y="282" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">1283</text>
+<rect x="556" y="343" width="60" height="95" fill="#eda85f" stroke="#405368" stroke-width="1"/>
+<text x="556" y="448" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#aab9c6">2.4</text>
+<text x="556" y="322" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">904</text>
+<rect x="640" y="424" width="60" height="14" fill="#eda85f" stroke="#405368" stroke-width="1"/>
+<text x="640" y="448" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#aab9c6">2.8</text>
+<text x="640" y="403" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">142</text>
+<text x="42" y="485" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#aab9c6">Actual row entropy (bits); counts across5643 query rows</text>
+<rect x="24" y="550" width="760" height="475" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="42" y="568" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#eda85f">B / position and occupancy controls</text>
+<text x="42" y="612" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">Local Q/K/V are exactly determined by square, local occupancy and side:</text>
+<text x="42" y="637" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">within-ply/square/own-opponent occupancy MSE =0. This is architectural</text>
+<text x="42" y="662" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">locality, NOT a whole-board tactical detector.</text>
+<text x="42" y="731" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">Actual P still varies across boards in fixed ply/query/key/own-opponent</text>
+<text x="42" y="756" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">occupancy strata: within-MSE 5,203,803.6 (Q15 squared). Normalization</text>
+<text x="42" y="781" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">depends on all keys; actual P times V and projection also depend on</text>
+<text x="42" y="806" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">input.</text>
+<text x="42" y="881" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">All query rows feed a flattened global readout plus residual. Query q is</text>
+<text x="42" y="906" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">NOT output square q. Legal occupied masking and final full-set</text>
+<text x="42" y="931" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="19" fill="#aab9c6">inverse/tie rules are external and not learned.</text>
+<rect x="808" y="102" width="888" height="923" fill="#182330" stroke="#405368" stroke-width="1"/>
+<text x="829" y="120" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#eda85f">C / all19 fixed interventions, including unfavorable controls</text>
+<text x="829" y="158" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#aab9c6">Bars: canonical wrong/empty move /627. Blue dots: changed route order.</text>
+<text x="828" y="202" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">noop</text>
+<rect x="1190" y="202" width="0.0" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1195.0" y="202" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">0</text>
+<rect x="1188.0" y="225" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="237" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">uniform</text>
+<rect x="1190" y="237" width="170.94098883572568" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1365.9409888357256" y="237" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">233</text>
+<rect x="1432.3062200956938" y="260" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="272" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">identity-attention</text>
+<rect x="1190" y="272" width="187.08133971291866" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1382.0813397129186" y="272" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">255</text>
+<rect x="1502.0031897926635" y="295" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="307" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">position-mean</text>
+<rect x="1190" y="307" width="174.60925039872407" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1369.609250398724" y="307" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">238</text>
+<rect x="1433.0398724082934" y="330" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="342" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">half-position-mean</text>
+<rect x="1190" y="342" width="132.05741626794259" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1327.0574162679427" y="342" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">180</text>
+<rect x="1346.468899521531" y="365" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="377" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">horizontal-target-1of2</text>
+<rect x="1190" y="377" width="29.34609250398724" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1224.3460925039872" y="377" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">40</text>
+<rect x="1209.2759170653908" y="400" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="412" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">horizontal-target-2of2</text>
+<rect x="1190" y="412" width="49.888357256778306" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1244.8883572567784" y="412" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">68</text>
+<rect x="1234.22009569378" y="435" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="447" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">horizontal-control-1of2</text>
+<rect x="1190" y="447" width="19.074960127591705" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1214.0749601275918" y="447" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">26</text>
+<rect x="1211.4768740031898" y="470" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="482" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">horizontal-control-2of2</text>
+<rect x="1190" y="482" width="43.28548644338118" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1238.2854864433812" y="482" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">59</text>
+<rect x="1234.22009569378" y="505" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="517" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">diagonals-target-1of2</text>
+<rect x="1190" y="517" width="38.88357256778309" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1233.8835725677832" y="517" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">53</text>
+<rect x="1215.1451355661882" y="540" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="552" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">diagonals-target-2of2</text>
+<rect x="1190" y="552" width="62.36044657097288" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1257.360446570973" y="552" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">85</text>
+<rect x="1243.0239234449762" y="575" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="587" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">diagonals-control-1of2</text>
+<rect x="1190" y="587" width="37.41626794258373" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1232.4162679425838" y="587" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">51</text>
+<rect x="1216.6124401913876" y="610" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="622" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">diagonals-control-2of2</text>
+<rect x="1190" y="622" width="49.888357256778306" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1244.8883572567784" y="622" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">68</text>
+<rect x="1243.0239234449762" y="645" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="657" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">training-line-target-1of2</text>
+<rect x="1190" y="657" width="6.602870813397129" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1201.6028708133972" y="657" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">9</text>
+<rect x="1193.8692185007974" y="680" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="692" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">training-line-target-2of2</text>
+<rect x="1190" y="692" width="11.004784688995215" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1206.0047846889952" y="692" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">15</text>
+<rect x="1199.738437001595" y="715" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="727" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">training-line-control-1of2</text>
+<rect x="1190" y="727" width="2.934609250398724" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1197.9346092503988" y="727" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">4</text>
+<rect x="1193.1355661881978" y="750" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="762" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">training-line-control-2of2</text>
+<rect x="1190" y="762" width="8.803827751196172" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1203.8038277511962" y="762" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">12</text>
+<rect x="1196.8038277511962" y="785" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="797" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">value-position-mean</text>
+<rect x="1190" y="797" width="168.74003189792663" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1363.7400318979267" y="797" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">230</text>
+<rect x="1408.0956937799042" y="820" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="828" y="832" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#edf2f6">projection-position-mean</text>
+<rect x="1190" y="832" width="178.2775119617225" height="18" fill="#ee8e90" stroke="#ee8e90" stroke-width="1"/>
+<text x="1373.2775119617224" y="832" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#edf2f6">243</text>
+<rect x="1422.768740031898" y="855" width="5" height="5" fill="#68b8ec" stroke="#68b8ec" stroke-width="1"/>
+<text x="829" y="898" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Identity/no-op has exact all-stage parity. Group controls move equal per-row mass over equally</text>
+<text x="829" y="921" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">many disjoint edges, but may affect other lines. Substantial control damage prevents a dedicated</text>
+<text x="829" y="944" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">line-circuit conclusion.</text>
+<text x="28" y="1043" dominant-baseline="hanging" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#aab9c6">Selection folds372/121/134 are NOT model-heldout. Full-set logits are candidate membership scores, not probabilities.</text>
+</svg>

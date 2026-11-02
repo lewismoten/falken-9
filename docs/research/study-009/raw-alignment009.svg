@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1030" viewBox="0 0 1560 1030"><rect width="100%" height="100%" fill="#f5f7fb"/>
+<text x="30" y="48" font-family="DejaVu Sans" font-size="28" fill="#17283f">Raw-coordinate tie counterexample: a correct canonical move is not a correct full set</text>
+<text x="30" y="90" font-family="DejaVu Sans" font-size="22" fill="#17283f">router.weight approximation | canonical #528 | raw #565 | fold 2</text>
+<text x="30" y="135" font-family="DejaVu Sans" font-size="22" fill="#17283f">A  Canonical W16</text>
+<rect x="30" y="158" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="38" y="176" font-family="DejaVu Sans" font-size="13" fill="#66778a">0</text>
+<text x="53" y="205" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="93" y="158" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="101" y="176" font-family="DejaVu Sans" font-size="13" fill="#66778a">1</text>
+<text x="116" y="205" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="156" y="158" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="164" y="176" font-family="DejaVu Sans" font-size="13" fill="#66778a">2</text>
+<text x="179" y="205" font-family="DejaVu Sans" font-size="27" fill="#17283f">X</text>
+<rect x="30" y="221" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="38" y="239" font-family="DejaVu Sans" font-size="13" fill="#66778a">3</text>
+<text x="53" y="268" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="93" y="221" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="101" y="239" font-family="DejaVu Sans" font-size="13" fill="#66778a">4</text>
+<text x="116" y="268" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="156" y="221" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="164" y="239" font-family="DejaVu Sans" font-size="13" fill="#66778a">5</text>
+<text x="179" y="268" font-family="DejaVu Sans" font-size="27" fill="#17283f">X</text>
+<rect x="30" y="284" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="38" y="302" font-family="DejaVu Sans" font-size="13" fill="#66778a">6</text>
+<text x="53" y="331" font-family="DejaVu Sans" font-size="27" fill="#17283f">O</text>
+<rect x="93" y="284" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="101" y="302" font-family="DejaVu Sans" font-size="13" fill="#66778a">7</text>
+<text x="116" y="331" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="156" y="284" width="63" height="63" fill="#d6f0df" stroke="#467965" stroke-width="2"/>
+<text x="164" y="302" font-family="DejaVu Sans" font-size="13" fill="#66778a">8</text>
+<text x="179" y="331" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<text x="315" y="135" font-family="DejaVu Sans" font-size="22" fill="#17283f">B  Canonical W8</text>
+<rect x="315" y="158" width="63" height="63" fill="#d6f0df" stroke="#bcc9d8" stroke-width="2"/>
+<text x="323" y="176" font-family="DejaVu Sans" font-size="13" fill="#66778a">0</text>
+<text x="338" y="205" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="378" y="158" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="386" y="176" font-family="DejaVu Sans" font-size="13" fill="#66778a">1</text>
+<text x="401" y="205" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="441" y="158" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="449" y="176" font-family="DejaVu Sans" font-size="13" fill="#66778a">2</text>
+<text x="464" y="205" font-family="DejaVu Sans" font-size="27" fill="#17283f">X</text>
+<rect x="315" y="221" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="323" y="239" font-family="DejaVu Sans" font-size="13" fill="#66778a">3</text>
+<text x="338" y="268" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="378" y="221" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="386" y="239" font-family="DejaVu Sans" font-size="13" fill="#66778a">4</text>
+<text x="401" y="268" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="441" y="221" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="449" y="239" font-family="DejaVu Sans" font-size="13" fill="#66778a">5</text>
+<text x="464" y="268" font-family="DejaVu Sans" font-size="27" fill="#17283f">X</text>
+<rect x="315" y="284" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="323" y="302" font-family="DejaVu Sans" font-size="13" fill="#66778a">6</text>
+<text x="338" y="331" font-family="DejaVu Sans" font-size="27" fill="#17283f">O</text>
+<rect x="378" y="284" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="386" y="302" font-family="DejaVu Sans" font-size="13" fill="#66778a">7</text>
+<text x="401" y="331" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="441" y="284" width="63" height="63" fill="#d6f0df" stroke="#467965" stroke-width="2"/>
+<text x="449" y="302" font-family="DejaVu Sans" font-size="13" fill="#66778a">8</text>
+<text x="464" y="331" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<text x="655" y="135" font-family="DejaVu Sans" font-size="22" fill="#17283f">C  Raw W16</text>
+<rect x="655" y="158" width="63" height="63" fill="#d6f0df" stroke="#467965" stroke-width="2"/>
+<text x="663" y="176" font-family="DejaVu Sans" font-size="13" fill="#66778a">0</text>
+<text x="678" y="205" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="718" y="158" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="726" y="176" font-family="DejaVu Sans" font-size="13" fill="#66778a">1</text>
+<text x="741" y="205" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="781" y="158" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="789" y="176" font-family="DejaVu Sans" font-size="13" fill="#66778a">2</text>
+<text x="804" y="205" font-family="DejaVu Sans" font-size="27" fill="#17283f">O</text>
+<rect x="655" y="221" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="663" y="239" font-family="DejaVu Sans" font-size="13" fill="#66778a">3</text>
+<text x="678" y="268" font-family="DejaVu Sans" font-size="27" fill="#17283f">X</text>
+<rect x="718" y="221" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="726" y="239" font-family="DejaVu Sans" font-size="13" fill="#66778a">4</text>
+<text x="741" y="268" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="781" y="221" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="789" y="239" font-family="DejaVu Sans" font-size="13" fill="#66778a">5</text>
+<text x="804" y="268" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="655" y="284" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="663" y="302" font-family="DejaVu Sans" font-size="13" fill="#66778a">6</text>
+<text x="678" y="331" font-family="DejaVu Sans" font-size="27" fill="#17283f">X</text>
+<rect x="718" y="284" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="726" y="302" font-family="DejaVu Sans" font-size="13" fill="#66778a">7</text>
+<text x="741" y="331" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="781" y="284" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="789" y="302" font-family="DejaVu Sans" font-size="13" fill="#66778a">8</text>
+<text x="804" y="331" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<text x="950" y="135" font-family="DejaVu Sans" font-size="22" fill="#17283f">D  Raw W8</text>
+<rect x="950" y="158" width="63" height="63" fill="#d6f0df" stroke="#bcc9d8" stroke-width="2"/>
+<text x="958" y="176" font-family="DejaVu Sans" font-size="13" fill="#66778a">0</text>
+<text x="973" y="205" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="1013" y="158" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="1021" y="176" font-family="DejaVu Sans" font-size="13" fill="#66778a">1</text>
+<text x="1036" y="205" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="1076" y="158" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="1084" y="176" font-family="DejaVu Sans" font-size="13" fill="#66778a">2</text>
+<text x="1099" y="205" font-family="DejaVu Sans" font-size="27" fill="#17283f">O</text>
+<rect x="950" y="221" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="958" y="239" font-family="DejaVu Sans" font-size="13" fill="#66778a">3</text>
+<text x="973" y="268" font-family="DejaVu Sans" font-size="27" fill="#17283f">X</text>
+<rect x="1013" y="221" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="1021" y="239" font-family="DejaVu Sans" font-size="13" fill="#66778a">4</text>
+<text x="1036" y="268" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="1076" y="221" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="1084" y="239" font-family="DejaVu Sans" font-size="13" fill="#66778a">5</text>
+<text x="1099" y="268" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="950" y="284" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="958" y="302" font-family="DejaVu Sans" font-size="13" fill="#66778a">6</text>
+<text x="973" y="331" font-family="DejaVu Sans" font-size="27" fill="#17283f">X</text>
+<rect x="1013" y="284" width="63" height="63" fill="#ffffff" stroke="#bcc9d8" stroke-width="2"/>
+<text x="1021" y="302" font-family="DejaVu Sans" font-size="13" fill="#66778a">7</text>
+<text x="1036" y="331" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<rect x="1076" y="284" width="63" height="63" fill="#d6f0df" stroke="#467965" stroke-width="2"/>
+<text x="1084" y="302" font-family="DejaVu Sans" font-size="13" fill="#66778a">8</text>
+<text x="1099" y="331" font-family="DejaVu Sans" font-size="27" fill="#17283f">.</text>
+<path d="M240,249 L300,249" stroke="#567998" stroke-width="3"/><path d="M300,249 l-10,-5 l0,10 Z" fill="#567998"/>
+<path d="M860,249 L930,249" stroke="#567998" stroke-width="3"/><path d="M930,249 l-10,-5 l0,10 Z" fill="#567998"/>
+<text x="30" y="391" font-family="DejaVu Sans" font-size="21" fill="#17283f">Canonical chosen move 8 -&gt; 8 stays optimal; set [8] -&gt; [0, 8]</text>
+<text x="30" y="435" font-family="DejaVu Sans" font-size="22" fill="#17283f">Raw chosen move 0 -&gt; 8; coarse raw move is NONOPTIMAL</text>
+<rect x="28" y="467" width="1500" height="246" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="45" y="507" font-family="DejaVu Sans" font-size="23" fill="#17283f">E  Exact alignment and wrapper, not a learned strategy layer</text>
+<text x="45" y="552" font-family="DejaVu Sans Mono" font-size="22" fill="#17283f">raw -&gt; canonical square mapping: [8, 7, 6, 5, 4, 3, 2, 1, 0]</text>
+<text x="45" y="595" font-family="DejaVu Sans" font-size="21" fill="#17283f">Raw priority: [4,1,3,5,7,2,6,8,0]. Inverse-transform the COMPLETE set, then apply priority.</text>
+<text x="45" y="640" font-family="DejaVu Sans" font-size="22" fill="#17283f">Raw orbit: 4 wrong moves / 8 boards; do not multiply canonical errors by eight.</text>
+<text x="45" y="683" font-family="DejaVu Sans Mono" font-size="21" fill="#17283f">routes [2, 0] -&gt; [2, 3]; gates [30397, 2371] -&gt; [30411, 2357]</text>
+<rect x="28" y="736" width="1500" height="166" fill="#ffffff" stroke="#c8d1df" stroke-width="2"/>
+<text x="45" y="773" font-family="DejaVu Sans" font-size="23" fill="#17283f">F  Actual output scores in canonical square order 0..8</text>
+<text x="45" y="813" font-family="DejaVu Sans Mono" font-size="19" fill="#17283f">W16: [-10940, -196652, -259027, -13251, -107216, 11743, 394376, -134235, 159388]</text>
+<text x="45" y="853" font-family="DejaVu Sans Mono" font-size="19" fill="#17283f">W8 : [14944, -196092, -230653, -7577, -107259, 41138, 420049, -118292, 184306]</text>
+<text x="45" y="891" font-family="DejaVu Sans" font-size="19" fill="#17283f">Legal sign crossings: [0] (green denotes set membership, not a preference ranking).</text>
+<text x="30" y="955" font-family="DejaVu Sans" font-size="20" fill="#17283f">Actual public predict_history wrapper executed on all 4520 raw boards with test-only canonical logits.</text>
+<text x="30" y="991" font-family="DejaVu Sans" font-size="20" fill="#17283f">627 canonical neural forwards per variant were recomputed in full. This is a composed host proof, not target speed.</text>
+</svg>

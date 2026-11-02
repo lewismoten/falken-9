@@ -1,0 +1,72 @@
+{
+  "schema": "falken9-publication-application-v1",
+  "revision": "011",
+  "release_id": "falken-9-model-v1.0.0-app011",
+  "model": {
+    "path": "artifacts/flexible-integer/q11-w16-a32-early-interp/model.f9j",
+    "bytes": 5195,
+    "sha256": "fe180f8a931f9d92d8aa39da337bc819d0dbe4e6d971edcba00324fbc18a91c1"
+  },
+  "prg": {
+    "path": "artifacts/app/011-graphical-final/falken-9-011-graphical.prg",
+    "bytes": 50507,
+    "sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f"
+  },
+  "d64": {
+    "path": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+    "bytes": 174848,
+    "sha256": "101ddad7de1055a238550bdf189e3ad26300484aae45c4ebda481ef5fe4168ec"
+  },
+  "screenshots": [
+    {
+      "path": "assets/screenshots/falken-9-011-title.png",
+      "sha256": "591e324ed463c12c60538754d90ba303ff027fb438992dc0a8bc9eeefaa96c58",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. monitor KERNAL queue navigation; title at genuine D64 autostart",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-presentation/title.png"
+    },
+    {
+      "path": "assets/screenshots/falken-9-011-gameplay.png",
+      "sha256": "f94bee272f2ab46817bee910bdd3fa0e30a6e5c7fe2b2aa7a13b959063bf506e",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. monitor KERNAL queue human move plus complete native neural response; settled native VICE PNG",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-d64/gameplay.png"
+    },
+    {
+      "path": "assets/screenshots/falken-9-011-info-inspiration.png",
+      "sha256": "83e1328de4bee208ad27ace83362b2ec742770dfc2a57427caa9d5e36fb9412e",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. monitor KERNAL queue I and cursor-down scrolling",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-presentation/info-inspiration.png"
+    },
+    {
+      "path": "assets/screenshots/falken-9-011-info-bottom.png",
+      "sha256": "644f48490ce9ba470979412c8ecb6f1b579997fd40ff3440721f5b4ec45df58a",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. monitor KERNAL queue cursor-down to actual bottom clamp",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-presentation/info-bottom.png"
+    },
+    {
+      "path": "assets/screenshots/falken-9-011-quit-session.png",
+      "sha256": "a2182d17aaefdcc3718e80950bc8b94fd6eb9c07a996e605b8b516df25e11944",
+      "prg_sha256": "adcee244a861ee18686f19d272785d05feb8dc60584bd6c9bbad4a77ac1fbf9f",
+      "method": "Untouched native VICE monitor PNG; no crop, scaling, repaint or pixel editing. XTest native-window q key-down/up through stock-ROM scanner; view 3, audio off, stock IRQ restored",
+      "source_artifact": "artifacts/app/011-graphical-final/falken-9-011-graphical.d64",
+      "native_evidence": "artifacts/operations/deployment/011/publication-final/native-presentation/quit-session.png"
+    }
+  ],
+  "screenshot_provenance": {
+    "path": "assets/screenshots/application011-provenance.json",
+    "bytes": 4494,
+    "sha256": "c4b230b64cdeebda8adba53f36b8de6959a525b6bb97795b27981589133ba118"
+  },
+  "validation": {
+    "path": "artifacts/operations/deployment/011/publication-final/summary.json",
+    "bytes": 28008,
+    "sha256": "58c30cd03981915e66ce682df00c5ec00432f13dcd4ae36ec1a65de9b3ad576d"
+  }
+}
