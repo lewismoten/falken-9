@@ -1,3 +1,5 @@
+![falken-9: Tiny AI for the Commodore 64 playing tic-tac-toe](docs/images/social-preview.png)
+
 # Falken-9
 
 **A neural tic-tac-toe model designed for the Commodore 64—not merely ported to it.**
